@@ -1,2 +1,2 @@
 # FALCON
-Our complete code, model weights, and dataset are coming soon.
+Our complete code, model weights are coming soon.
