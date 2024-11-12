@@ -2,7 +2,7 @@
 
 ## FALCON Overview
 
-![overview (1)](C:\Users\1\Downloads\overview (1).jpg)
+![overview (1)](FALCON/Data/overview (1).jpg)
 
 we explore the FALCON framework, which integrates comprehensive unit testing with reinforcement learning, supported by both long-term and short-term memory buffers. During the code generation process, the system stores task descriptions, generated code, and various feedback (e.g., compilation results, code style, and complexity) in the long-term memory buffer. By retrieving this information, the model references high-quality code, avoids past mistakes, and ensures adherence to required standards. After generating the code, a judge model evaluates it and calculates rewards based on the feedback, which are then used to update the model's parameters through reinforcement learning. All generated code and feedback are stored for future reference and optimization. The combination of long-term and short-term memory feedback in the FALCON framework allows the model to not only learn from a wide range of historical data but also adapt quickly to new tasks based on recent performance.
 
