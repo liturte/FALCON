@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "100.0\n10.0\n5.0",
+        "50.0\n0.0\n2.5",
+        "75.5\n15.25\n0.0",
+        "200.0\n20.0\n10.0",
+        "120.75\n5.0\n7.5"
+    ],
+    "outputs": [
+        "95.0, Do you want to add a nota? (Y/N)",
+        "52.5, Do you want to add a nota? (Y/N)",
+        "60.25, Do you want to add a nota? (Y/N)",
+        "190.0, Do you want to add a nota? (Y/N)",
+        "123.25, Do you want to add a nota? (Y/N)"
+    ]
+}

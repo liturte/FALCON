@@ -1,0 +1,76 @@
+{
+    "inputs": [
+        [
+            "Python 3.4",
+            "Java 11",
+            "C++ 17",
+            "JavaScript ES6",
+            "Ruby 2.6"
+        ],
+        [
+            "C# 9",
+            "Swift 5.2",
+            "PHP 7.4",
+            "Rust 1.45",
+            "TypeScript 4.0"
+        ],
+        [
+            "Go 1.15",
+            "Kotlin 1.4",
+            "Scala 2.13",
+            "Perl 5.32",
+            "Haskell 8.10"
+        ],
+        [
+            "R 4.0",
+            "Lua 5.4",
+            "Elixir 1.10",
+            "Clojure 1.10",
+            "Dart 2.9"
+        ],
+        [
+            "Groovy 3.0",
+            "Objective-C 2.0",
+            "Julia 1.5",
+            "COBOL 2014",
+            "Fortran 2018"
+        ]
+    ],
+    "outputs": [
+        {
+            "Python": "3.4",
+            "Java": "11",
+            "C++": "17",
+            "JavaScript": "6",
+            "Ruby": "2.6"
+        },
+        {
+            "C#": "9",
+            "Swift": "5.2",
+            "PHP": "7.4",
+            "Rust": "1.45",
+            "TypeScript": "4.0"
+        },
+        {
+            "Go": "1.15",
+            "Kotlin": "1.4",
+            "Scala": "2.13",
+            "Perl": "5.32",
+            "Haskell": "8.10"
+        },
+        {
+            "R": "4.0",
+            "Lua": "5.4",
+            "Elixir": "1.10",
+            "Clojure": "1.10",
+            "Dart": "2.9"
+        },
+        {
+            "Groovy": "3.0",
+            "Objective-C": "2.0",
+            "Julia": "1.5",
+            "COBOL": "2014",
+            "Fortran": "2018"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "2, 0.5, 'train', 1e-6",
+        "3, 0.3, 'eval', 1e-5",
+        "1, 0.7, 'train', 1e-4",
+        "4, 0.4, 'train', 1e-7",
+        "2, 0.6, 'eval', 1e-3"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

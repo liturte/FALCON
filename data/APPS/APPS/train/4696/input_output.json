@@ -1,0 +1,1 @@
+{"fn_name": "same_encryption", "inputs": [["abc", "abc"], ["abc", "abd"], ["fKhjuytrdfcdc", "flJc"], ["OKhjuytrdfcdc", "OijK"]], "outputs": [[true], [false], [true], [false]]}

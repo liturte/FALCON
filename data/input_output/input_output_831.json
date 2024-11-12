@@ -1,0 +1,41 @@
+{
+    "inputs": [
+        [
+            "document",
+            "value"
+        ],
+        [
+            "raw",
+            "reference"
+        ],
+        [
+            "Document",
+            "Value"
+        ],
+        [
+            "raw",
+            "Value"
+        ],
+        [
+            "document",
+            "reference"
+        ]
+    ],
+    "outputs": [
+        [
+            "Response type and transmission mode are valid"
+        ],
+        [
+            "Invalid response type/transmission mode. Please try again."
+        ],
+        [
+            "Invalid response type/transmission mode. Please try again."
+        ],
+        [
+            "Invalid response type/transmission mode. Please try again."
+        ],
+        [
+            "Invalid response type/transmission mode. Please try again."
+        ]
+    ]
+}

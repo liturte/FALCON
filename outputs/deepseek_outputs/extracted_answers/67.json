@@ -1,0 +1,3 @@
+{
+    "67": "x,y,z = map(int,input().split())\nif x > y:\n    print('+')\nelif x < y:\n    print('-')\nelse:\n    if z > 0:\n        print('?')\n    else:\n        print('0')"
+}

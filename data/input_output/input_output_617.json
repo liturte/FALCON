@@ -1,0 +1,46 @@
+{
+    "inputs": [
+        {
+            "registry_id": "123",
+            "user_id": "user1",
+            "type": "document",
+            "resourceName": "doc1",
+            "action": "read"
+        },
+        {
+            "registry_id": "456",
+            "user_id": "user2",
+            "type": "image",
+            "resourceName": "img1",
+            "action": "write"
+        },
+        {
+            "registry_id": "789",
+            "user_id": "user3",
+            "type": "video",
+            "resourceName": "vid1",
+            "action": "delete"
+        },
+        {
+            "registry_id": "999",
+            "user_id": "user4",
+            "type": "audio",
+            "resourceName": "aud1",
+            "action": "read"
+        },
+        {
+            "registry_id": "111",
+            "user_id": "user5",
+            "type": "document",
+            "resourceName": "doc2",
+            "action": "write"
+        }
+    ],
+    "outputs": [
+        true,
+        false,
+        true,
+        false,
+        true
+    ]
+}

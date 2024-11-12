@@ -1,0 +1,91 @@
+{
+    "inputs": [
+        [
+            "error",
+            "warning",
+            "info"
+        ],
+        [
+            "error",
+            "error",
+            "warning",
+            "warning",
+            "warning",
+            "info"
+        ],
+        [
+            "error",
+            "error",
+            "error",
+            "warning",
+            "warning",
+            "warning",
+            "info"
+        ],
+        [
+            "error",
+            "error",
+            "error",
+            "error",
+            "warning",
+            "warning",
+            "warning",
+            "info"
+        ],
+        [
+            "error",
+            "error",
+            "error",
+            "error",
+            "error",
+            "warning",
+            "warning",
+            "warning",
+            "info"
+        ]
+    ],
+    "outputs": [
+        [
+            "error",
+            "warning"
+        ],
+        [
+            "error",
+            "error",
+            "warning",
+            "warning",
+            "warning",
+            "Further warnings are skipped."
+        ],
+        [
+            "error",
+            "error",
+            "error",
+            "warning",
+            "warning",
+            "warning",
+            "Further warnings are skipped."
+        ],
+        [
+            "error",
+            "error",
+            "error",
+            "error",
+            "warning",
+            "warning",
+            "warning",
+            "Further warnings are skipped."
+        ],
+        [
+            "error",
+            "error",
+            "error",
+            "error",
+            "error",
+            "warning",
+            "warning",
+            "warning",
+            "Further warnings are skipped."
+        ]
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    "38": "import sys\n\nn, L = map(int, sys.stdin.readline().split())\na = list(map(int, sys.stdin.readline().split()))\nb = list(map(int, sys.stdin.readline().split()))\nif n == 2:\n    print(\"NO\")\n    exit()\nif a == b:\n    print(\"YES\")\n    exit()\n\n\na.sort()\nb.sort()\nfor i in range(n):\n    if a[i] != b[i]:\n        print(\"NO\")\n        exit()\n\nprint(\"YES\")"
+}

@@ -1,0 +1,3 @@
+{
+    "530": "n = int(input())\ns = input()\nt = input()\n\nif s[n-1] == '1' and t[n-1] == '1':\n    print('First')\nelif s[0] == '1' and t[0] == '1':\n    print('Second')\nelse:\n    print('Draw')"
+}

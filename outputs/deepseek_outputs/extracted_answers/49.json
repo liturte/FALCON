@@ -1,0 +1,3 @@
+{
+    "49": "k = int(input())\na = ''.join(str(i) for i in range(1,k+1))\nprint(a[k-1])"
+}

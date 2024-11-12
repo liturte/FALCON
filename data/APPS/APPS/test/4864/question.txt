@@ -1,0 +1,24 @@
+Having solved the match issue, Mirko faced another challenging problem. His mom ordered him to read an article about the newest couples on the Croatian show-biz scene in the “Moja Tajna” magazine. The article is written in a very small font size which Mirko cannot read. Luckily, Mirko has a scanner in the closet which will enlarge the article for him.
+
+The article is a matrix of characters with $R$ rows and $C$ columns. The characters are letters of the English alphabet, digits and the character ‘.’ (period). Mirko’s scanner supports two parameters, $Z_ R$ and $Z_ C$. It substitutes each character it scans with a matrix of $Z_ R$ rows and $Z_ C$ columns, where all entries are equal to the scanned character.
+
+Mirko realized his scanner’s software no longer works so he needs your help.
+
+-----Input-----
+The first row contains four integers, $R$, $C$, $Z_ R$ and $Z_ C$. $R$ and $C$ are between $1$ and $50$, while $Z_ R$ and $Z_ C$ are between $1$ and $5$.
+
+Each of the following $R$ rows contains $C$ characters each, representing the article from “Moja Tajna”.
+
+-----Output-----
+The output should be a matrix of characters with $R \cdot Z_ R$ rows and $C \cdot Z_ C$ columns, the enlarged article.
+
+-----Examples-----
+Sample Input:
+3 3 1 2
+.x.
+x.x
+.x.
+Sample Output:
+..xx..
+xx..xx
+..xx..

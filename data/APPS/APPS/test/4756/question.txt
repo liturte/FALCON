@@ -1,0 +1,33 @@
+It is 1815 and the politicians in Lund have just decided to build a tram line in Lund. Oh, sorry. That was wrong, let’s start over. It is 2015 and the politicians in Lund have just decided to build a tram line in Lund.
+
+
+ The politicians have already decided that the tram line should run from south-east to north-west. In order not to cause too many complaints from the citizens, they want to make the line as useful as possible. Therefore they want to minimize the total unusefulness of the tram.
+
+
+ The unusefulness for citizen $i$ is equal to the square of the closest distance from the citizen’s home to the tram line. The total unusefulness of the tram is the sum of all citizens’ unusefulnesses.
+
+
+ Given the coordinates of each citizen’s home, determine the value $a$ minimizing the total unusefulnes, where the equation of the tram line is given by $y=x+a$. 
+
+-----Input-----
+The first line of input consists of an integer, $1\leq N\leq 10^5$, the number of citizens in Lund. Then follow $N$ lines, with two space-separated integers $x_ i,y_ i$ ($|x_ i|,|y_ i|\leq 10^6$), the coordinates of citizen $i$’s home.
+
+-----Output-----
+The output consists of a single number, $a$, minimizing the total unusefulness. An answer will be accepted if it is within an absolute or relative error of $10^{-3}$.
+
+-----Examples-----
+Sample Input 1:
+3
+1 1
+2 2
+3 3
+Sample Output 1:
+0.000000
+
+Sample Input 2:
+3
+0 1
+1 0
+1 1
+Sample Output 2:
+0.000000

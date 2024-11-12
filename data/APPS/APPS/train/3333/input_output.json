@@ -1,0 +1,1 @@
+{"fn_name": "func_or", "inputs": [[true, true], [true, false], [false, false], [0, 11], [null, []]], "outputs": [[true], [true], [false], [true], [false]]}

@@ -1,0 +1,3 @@
+{
+    "317": "n = int(input())\ns = input()\n\ndef ispangram(s):\n    alphabet = \"abcdefghijklmnopqrstuvwxyz\"\n    for char in alphabet:\n        if char not in s.lower():\n            return False\n    return True\n\nif ispangram(s):\n    print(\"YES\")\nelse:\n    print(\"NO\")"
+}

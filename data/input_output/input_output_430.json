@@ -1,0 +1,186 @@
+{
+    "inputs": [
+        {
+            "records": [
+                {
+                    "name": "Alice",
+                    "age": 30,
+                    "city": "New York"
+                },
+                {
+                    "name": "Bob",
+                    "age": 25,
+                    "city": "San Francisco"
+                },
+                {
+                    "name": "Cathy",
+                    "age": 35,
+                    "city": "Los Angeles"
+                }
+            ],
+            "zip_keys": [
+                "name",
+                "city"
+            ]
+        },
+        {
+            "records": [
+                {
+                    "item": "Apple",
+                    "price": 1.5,
+                    "category": "Fruit"
+                },
+                {
+                    "item": "Banana",
+                    "price": 0.5,
+                    "category": "Fruit"
+                },
+                {
+                    "item": "Carrot",
+                    "price": 0.3,
+                    "category": "Vegetable"
+                }
+            ],
+            "zip_keys": [
+                "item",
+                "category"
+            ]
+        },
+        {
+            "records": [
+                {
+                    "code": "A001",
+                    "quantity": 10,
+                    "location": "Warehouse A"
+                },
+                {
+                    "code": "B002",
+                    "quantity": 20,
+                    "location": "Warehouse B"
+                },
+                {
+                    "code": "C003",
+                    "quantity": 15,
+                    "location": "Warehouse C"
+                }
+            ],
+            "zip_keys": [
+                "code",
+                "location"
+            ]
+        },
+        {
+            "records": [
+                {
+                    "student_id": 101,
+                    "subject": "Math",
+                    "grade": "A"
+                },
+                {
+                    "student_id": 102,
+                    "subject": "Science",
+                    "grade": "B"
+                },
+                {
+                    "student_id": 103,
+                    "subject": "History",
+                    "grade": "C"
+                }
+            ],
+            "zip_keys": [
+                "student_id",
+                "grade"
+            ]
+        },
+        {
+            "records": [
+                {
+                    "team": "A",
+                    "score": 100,
+                    "rank": 1
+                },
+                {
+                    "team": "B",
+                    "score": 90,
+                    "rank": 2
+                },
+                {
+                    "team": "C",
+                    "score": 80,
+                    "rank": 3
+                }
+            ],
+            "zip_keys": [
+                "team",
+                "rank"
+            ]
+        }
+    ],
+    "outputs": [
+        {
+            "name_city": [
+                "Alice_New York",
+                "Bob_San Francisco",
+                "Cathy_Los Angeles"
+            ],
+            "age": [
+                30,
+                25,
+                35
+            ]
+        },
+        {
+            "item_category": [
+                "Apple_Fruit",
+                "Banana_Fruit",
+                "Carrot_Vegetable"
+            ],
+            "price": [
+                1.5,
+                0.5,
+                0.3
+            ]
+        },
+        {
+            "code_location": [
+                "A001_Warehouse A",
+                "B002_Warehouse B",
+                "C003_Warehouse C"
+            ],
+            "quantity": [
+                10,
+                20,
+                15
+            ]
+        },
+        {
+            "student_id_grade": [
+                101,
+                102,
+                103
+            ],
+            "subject": [
+                "Math",
+                "Science",
+                "History"
+            ],
+            "grade": [
+                "A",
+                "B",
+                "C"
+            ]
+        },
+        {
+            "team_rank": [
+                "A_1",
+                "B_2",
+                "C_3"
+            ],
+            "score": [
+                100,
+                90,
+                80
+            ]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "1451": {
+        "code": [
+            ""
+        ],
+        "prompt": "\nQUESTION:\nRoma (a popular Russian name that means 'Roman') loves the Little Lvov Elephant's lucky numbers.\n\nLet us remind you that lucky numbers are positive integers whose decimal representation only contains lucky digits 4 and 7. For example, numbers 47, 744, 4 are lucky and 5, 17, 467 are not.\n\nRoma's got n positive integers. He wonders, how many of those integers have not more than k lucky digits? Help him, write the program that solves the problem.\n\n\n-----Input-----\n\nThe first line contains two integers n, k (1 \u2264 n, k \u2264 100). The second line contains n integers a_{i} (1 \u2264 a_{i} \u2264 10^9) \u2014 the numbers that Roma has. \n\nThe numbers in the lines are separated by single spaces.\n\n\n-----Output-----\n\nIn a single line print a single integer \u2014 the answer to the problem.\n\n\n-----Examples-----\nInput\n3 4\n1 2 4\n\nOutput\n3\n\nInput\n3 2\n447 44 77\n\nOutput\n2\n\n\n\n-----Note-----\n\nIn the first sample all numbers contain at most four lucky digits, so the answer is 3.\n\nIn the second sample number 447 doesn't fit in, as it contains more than two lucky digits. All other numbers are fine, so the answer is 2.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

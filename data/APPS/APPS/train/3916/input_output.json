@@ -1,0 +1,1 @@
+{"fn_name": "mean_vs_median", "inputs": [[[1, 1, 1]], [[1, 2, 37]], [[7, 14, -70]], [[-10, 20, 5]]], "outputs": [["same"], ["mean"], ["median"], ["same"]]}

@@ -1,0 +1,1 @@
+{"fn_name": "omit_hashtag", "inputs": [["Sunny day! #lta #vvv", "#lta"], ["#lta #picture_contest", "#lta"], ["#lta #picture_contest #lta", "#lta"]], "outputs": [["Sunny day!  #vvv"], [" #picture_contest"], [" #picture_contest #lta"]]}

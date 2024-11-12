@@ -1,0 +1,1 @@
+{"fn_name": "people_with_age_drink", "inputs": [[13], [0], [17], [15], [14], [20], [18], [22], [21]], "outputs": [["drink toddy"], ["drink toddy"], ["drink coke"], ["drink coke"], ["drink coke"], ["drink beer"], ["drink beer"], ["drink whisky"], ["drink whisky"]]}

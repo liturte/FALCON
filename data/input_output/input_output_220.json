@@ -1,0 +1,46 @@
+{
+    "inputs": [
+        {
+            "kwargs": {
+                "name": "file1.txt",
+                "path": "/path/to/file1.txt",
+                "document_root": "/var/www/html"
+            }
+        },
+        {
+            "kwargs": {
+                "name": "file2.txt",
+                "path": "/path/to/file2.txt",
+                "document_root": "/var/www/html"
+            }
+        },
+        {
+            "kwargs": {
+                "name": "file3.txt",
+                "path": "/path/to/file3.txt",
+                "document_root": "/var/www/html"
+            }
+        },
+        {
+            "kwargs": {
+                "name": "file4.txt",
+                "path": "/path/to/file4.txt",
+                "document_root": "/var/www/html"
+            }
+        },
+        {
+            "kwargs": {
+                "name": "file5.txt",
+                "path": "/path/to/file5.txt",
+                "document_root": "/var/www/html"
+            }
+        }
+    ],
+    "outputs": [
+        "Content of file1.txt from filesystem",
+        "Http404 error (file not found in filesystem)",
+        "Content of file3.txt from database",
+        "Http404 error (file not found in filesystem or database)",
+        "Content of file5.txt from filesystem"
+    ]
+}

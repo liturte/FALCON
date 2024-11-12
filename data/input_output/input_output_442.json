@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "TradingClient(eventEngine, info, configFile, accountConfigFile)",
+        "TradingClient(eventEngine, info, configFile, accountConfigFile)",
+        "TradingClient(eventEngine, info, configFile, accountConfigFile)",
+        "TradingClient(eventEngine, info, configFile, accountConfigFile)",
+        "TradingClient(eventEngine, info, configFile, accountConfigFile)"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

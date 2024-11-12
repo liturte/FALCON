@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "CustomIterator with an empty list",
+        "CustomIterator with a list of integers",
+        "CustomIterator with a tuple of strings",
+        "CustomIterator with a set of floats",
+        "CustomIterator with a dictionary"
+    ],
+    "outputs": [
+        "No elements to iterate over",
+        "Processing element: 1\nProcessing element: 2\nProcessing element: 3",
+        "Processing element: Hello\nProcessing element: World",
+        "Processing element: 1.1\nProcessing element: 2.2\nProcessing element: 3.3",
+        "No elements to iterate over"
+    ]
+}

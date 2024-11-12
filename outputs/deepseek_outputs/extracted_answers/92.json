@@ -1,0 +1,3 @@
+{
+    "92": "from math import sqrt\n\na, b, c = map(int, input().split())\n\ndef d(n):\n    d = 0\n    for i in range(1, int(sqrt(n)) + 1):\n        if n % i == 0:\n            if n // i == i:\n                d += 1\n            else:\n                d += 2\n    return d\n\nans = 0\nfor i in range(1, a + 1):\n    for j in range(1, b + 1):\n        for k in range(1, c + 1):\n            ans += d(i * j * k)\nprint(ans % 1073741824)"
+}

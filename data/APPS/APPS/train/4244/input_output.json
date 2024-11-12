@@ -1,0 +1,1 @@
+{"fn_name": "palindrome", "inputs": [[5], [1212], ["ololo"], [1331], [194], [111222], ["Hello world!"], [3357665], ["357665"], [-42]], "outputs": [[false], [true], ["Not valid"], [true], [false], [false], ["Not valid"], [true], ["Not valid"], ["Not valid"]]}

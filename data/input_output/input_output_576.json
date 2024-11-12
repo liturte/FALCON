@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Define a list of cluster nodes with their corresponding health statuses",
+        "Implement a loop that iterates through the list of nodes and calls the wait_for_status function for each node",
+        "Customize the script with additional features to enhance the monitoring experience",
+        "Monitor a cluster with only one node",
+        "Monitor a cluster with multiple nodes of different colors"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        "Node 1 has reached the specified color status: yellow",
+        "Node 1 has reached the specified color status: yellow, Node 2 has reached the specified color status: red, Node 3 has reached the specified color status: green"
+    ]
+}

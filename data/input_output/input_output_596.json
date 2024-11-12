@@ -1,0 +1,41 @@
+{
+    "inputs": [
+        {
+            "args": {
+                "dout": "/output/directory",
+                "splits": "/path/to/splits.json"
+            }
+        },
+        {
+            "args": {
+                "dout": "/data/sanity_check",
+                "splits": "/data/dataset_splits.json"
+            }
+        },
+        {
+            "args": {
+                "dout": "/results",
+                "splits": "/data/data_splits.json"
+            }
+        },
+        {
+            "args": {
+                "dout": "/test/output",
+                "splits": "/test/data.json"
+            }
+        },
+        {
+            "args": {
+                "dout": "/output",
+                "splits": "/data/splits.json"
+            }
+        }
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

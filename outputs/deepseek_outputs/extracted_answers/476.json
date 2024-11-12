@@ -1,0 +1,3 @@
+{
+    "476": "n = input()\nif '144' in n or '14' in n or '1' in n:\n    print(\"YES\")\nelse:\n    print(\"NO\")"
+}

@@ -1,0 +1,56 @@
+{
+    "inputs": [
+        {
+            "use_softmax": true,
+            "resume": false,
+            "checkpoint_classifier": {
+                "model": "vgg16",
+                "layers": 10
+            },
+            "num_layers_to_finetune": 5
+        },
+        {
+            "use_softmax": false,
+            "resume": true,
+            "checkpoint_classifier": {
+                "model": "resnet50",
+                "layers": 15
+            },
+            "num_layers_to_finetune": 3
+        },
+        {
+            "use_softmax": true,
+            "resume": true,
+            "checkpoint_classifier": {
+                "model": "inceptionv3",
+                "layers": 20
+            },
+            "num_layers_to_finetune": 8
+        },
+        {
+            "use_softmax": false,
+            "resume": false,
+            "checkpoint_classifier": {
+                "model": "densenet121",
+                "layers": 5
+            },
+            "num_layers_to_finetune": 2
+        },
+        {
+            "use_softmax": true,
+            "resume": true,
+            "checkpoint_classifier": {
+                "model": "mobilenetv2",
+                "layers": 8
+            },
+            "num_layers_to_finetune": 4
+        }
+    ],
+    "outputs": [
+        "Initialized gesture classifier with softmax activation, not resuming training, finetuning 5 layers from VGG16 model.",
+        "Initialized gesture classifier without softmax activation, resuming training from ResNet50 model, finetuning 3 layers.",
+        "Initialized gesture classifier with softmax activation, resuming training from InceptionV3 model, finetuning 8 layers.",
+        "Initialized gesture classifier without softmax activation, not resuming training, finetuning 2 layers from DenseNet121 model.",
+        "Initialized gesture classifier with softmax activation, resuming training from MobileNetV2 model, finetuning 4 layers."
+    ]
+}

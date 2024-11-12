@@ -1,0 +1,51 @@
+{
+    "inputs": [
+        {
+            "views": [
+                "view1",
+                "view2",
+                "view3"
+            ],
+            "identifier": "settings"
+        },
+        {
+            "views": [
+                "view1",
+                "view2",
+                "view3"
+            ],
+            "identifier": "profile"
+        },
+        {
+            "views": [
+                "view1",
+                "view2",
+                "view3"
+            ],
+            "identifier": "notifications"
+        },
+        {
+            "views": [
+                "view1",
+                "view2",
+                "view3"
+            ],
+            "identifier": "invalid_identifier"
+        },
+        {
+            "views": [
+                "view1",
+                "view2",
+                "view3"
+            ],
+            "identifier": "view1"
+        }
+    ],
+    "outputs": [
+        "view2",
+        "view1",
+        "view3",
+        null,
+        "view1"
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    "104": "n = int(input())\na = list(map(int, input().split()))\ns = sum(a)\nfor i in range(n):\n    if sum(a[:i+1])*2 >= s:\n        print(i+1)\n        break"
+}

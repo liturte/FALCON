@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "directory_path: 'data/', file_content: 'Hello, this is a test file.'",
+        "directory_path: 'documents/', file_content: 'Count the number of words in this file.'",
+        "directory_path: 'texts/', file_content: 'This file has multiple words for counting.'",
+        "directory_path: 'data/', file_content: 'Word count test file.'",
+        "directory_path: 'documents/', file_content: 'Another file with words to count.'"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

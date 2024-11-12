@@ -1,0 +1,1 @@
+{"fn_name": "is_lucky", "inputs": [["123321"], ["12341234"], ["100001"], ["100200"], ["912435"], ["12a12a"], ["999999"], ["1111"], ["000000"], [""]], "outputs": [[true], [false], [true], [false], [true], [false], [true], [false], [true], [false]]}

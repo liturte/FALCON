@@ -1,0 +1,3 @@
+{
+    "4": "x=int(input())\nhh,mm=map(int,input().split())\n\nif 7 in str(hh) or 7 in str(mm):\n    print(0)\nelse:\n    ans=0\n    while True:\n        if 7 in str(hh) or 7 in str(mm):\n            break\n        ans+=1\n        mm-=x\n        if mm<0:\n            mm+=60\n            hh-=1\n        if hh<0:\n            hh+=24\n    print(ans)"
+}

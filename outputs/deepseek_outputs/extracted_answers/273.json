@@ -1,0 +1,3 @@
+{
+    "273": "a,b=input().split()\nx=a[0]\ny=b[0]\nprint(x+y)"
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "file1.txt and file2.txt exist in the current directory",
+        "file1.txt exists but file2.txt does not exist in the current directory",
+        "file2.txt exists but file1.txt does not exist in the current directory",
+        "Neither file1.txt nor file2.txt exist in the current directory",
+        "file1.txt and file2.txt exist in a subdirectory"
+    ],
+    "outputs": [
+        "Both files exist",
+        "Only one file exists",
+        "Only one file exists",
+        "Neither file exists",
+        "Neither file exists"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "74": {
+        "code": [
+            "import sys\n\ndef prime(n):\n    if n == 2:\n        return True\n    if n % 2 == 0 or n <= 1:\n        return False\n\n    sqr = int(n ** 0.5) + 1\n\n    for divisor in range(3, sqr, 2):\n        if n % divisor == 0:\n            return False\n    return True\n\n\ndef main():\n    n = int(sys.stdin.readline().strip())\n    for i in range(2, n):\n        if prime(i):\n            if prime(n - i):\n                return i, n - i\n\n\nif __name__ == \"__main__\":\n    print(2)\n    print(*main())"
+        ],
+        "prompt": "\nQUESTION:\nDima loves representing an odd number as the sum of multiple primes, and Lisa loves it when there are at most three primes. Help them to represent the given number as the sum of at most than three primes.\n\nMore formally, you are given an odd numer n. Find a set of numbers p_{i} (1 \u2264 i \u2264 k), such that\n\n\n\n 1 \u2264 k \u2264 3\n\n p_{i} is a prime\n\n $\\sum_{i = 1}^{k} p_{i} = n$\n\nThe numbers p_{i} do not necessarily have to be distinct. It is guaranteed that at least one possible solution exists.\n\n\n-----Input-----\n\nThe single line contains an odd number n (3 \u2264 n < 10^9).\n\n\n-----Output-----\n\nIn the first line print k (1 \u2264 k \u2264 3), showing how many numbers are in the representation you found.\n\nIn the second line print numbers p_{i} in any order. If there are multiple possible solutions, you can print any of them.\n\n\n-----Examples-----\nInput\n27\n\nOutput\n3\n5 11 11\n\n\n\n-----Note-----\n\nA prime is an integer strictly larger than one that is divisible only by one and by itself.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

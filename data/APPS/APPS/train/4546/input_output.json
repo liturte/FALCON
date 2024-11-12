@@ -1,0 +1,1 @@
+{"fn_name": "find_children", "inputs": [["abBA"], ["AaaaaZazzz"], ["CbcBcbaA"], ["xXfuUuuF"], [""]], "outputs": [["AaBb"], ["AaaaaaZzzz"], ["AaBbbCcc"], ["FfUuuuXx"], [""]]}

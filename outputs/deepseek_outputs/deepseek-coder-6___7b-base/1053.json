@@ -1,0 +1,8 @@
+{
+    "1053": {
+        "code": [
+            "import sys\nimport math\nimport itertools\n\ndef main():\n    n = int(input())\n    print((n-1)*n//2)\n\nif __name__ == \"__main__\":\n    main()"
+        ],
+        "prompt": "\nQUESTION:\nEhab is interested in the bitwise-xor operation and the special graphs. Mahmoud gave him a problem that combines both. He has a complete graph consisting of n vertices numbered from 0 to n - 1. For all 0 \u2264 u < v < n, vertex u and vertex v are connected with an undirected edge that has weight $u \\oplus v$ (where $\\oplus$ is the bitwise-xor operation). Can you find the weight of the minimum spanning tree of that graph?\n\nYou can read about complete graphs in https://en.wikipedia.org/wiki/Complete_graph\n\nYou can read about the minimum spanning tree in https://en.wikipedia.org/wiki/Minimum_spanning_tree\n\nThe weight of the minimum spanning tree is the sum of the weights on the edges included in it.\n\n\n-----Input-----\n\nThe only line contains an integer n (2 \u2264 n \u2264 10^12), the number of vertices in the graph.\n\n\n-----Output-----\n\nThe only line contains an integer x, the weight of the graph's minimum spanning tree.\n\n\n-----Example-----\nInput\n4\n\nOutput\n4\n\n\n-----Note-----\n\nIn the first sample: [Image] The weight of the minimum spanning tree is 1+2+1=4.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

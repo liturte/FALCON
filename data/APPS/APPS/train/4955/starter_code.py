@@ -1,0 +1,2 @@
+def ride(group,comet):
+	

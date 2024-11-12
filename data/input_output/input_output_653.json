@@ -1,0 +1,56 @@
+{
+    "inputs": [
+        {
+            "route": "index",
+            "parameters": {
+                "domain": "example.com",
+                "language": "English",
+                "auth_token": "12345",
+                "ref_token": "67890"
+            }
+        },
+        {
+            "route": "index",
+            "parameters": {
+                "domain": "test.com",
+                "language": "Spanish",
+                "auth_token": "54321",
+                "ref_token": "09876"
+            }
+        },
+        {
+            "route": "index",
+            "parameters": {
+                "domain": "example.com",
+                "language": "French",
+                "auth_token": "67890",
+                "ref_token": "54321"
+            }
+        },
+        {
+            "route": "get_result",
+            "parameters": {
+                "domain": "example.com",
+                "language": "German",
+                "auth_token": "24680",
+                "ref_token": "13579"
+            }
+        },
+        {
+            "route": "get_result",
+            "parameters": {
+                "domain": "test.com",
+                "language": "Italian",
+                "auth_token": "98765",
+                "ref_token": "43210"
+            }
+        }
+    ],
+    "outputs": [
+        "HTML template with company details for the given parameters.",
+        "HTML template with company details for the given parameters.",
+        "HTML template with company details for the given parameters.",
+        "HTML template with a message stating 'Nothing found'.",
+        "HTML template with a message stating 'Nothing found'."
+    ]
+}

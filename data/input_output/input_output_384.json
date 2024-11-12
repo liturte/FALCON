@@ -1,0 +1,81 @@
+{
+    "inputs": [
+        {
+            "info": {
+                "addresses": []
+            },
+            "rrset": {
+                "rdtype": "PTR",
+                "rdclass": "IN",
+                "name": "1.0.0.127.in-addr.arpa."
+            }
+        },
+        {
+            "info": {
+                "addresses": []
+            },
+            "rrset": {
+                "rdtype": "PTR",
+                "rdclass": "IN",
+                "name": "2.0.0.127.in-addr.arpa."
+            }
+        },
+        {
+            "info": {
+                "addresses": []
+            },
+            "rrset": {
+                "rdtype": "PTR",
+                "rdclass": "IN",
+                "name": "3.0.0.127.in-addr.arpa."
+            }
+        },
+        {
+            "info": {
+                "addresses": []
+            },
+            "rrset": {
+                "rdtype": "PTR",
+                "rdclass": "IN",
+                "name": "4.0.0.127.in-addr.arpa."
+            }
+        },
+        {
+            "info": {
+                "addresses": []
+            },
+            "rrset": {
+                "rdtype": "PTR",
+                "rdclass": "IN",
+                "name": "5.0.0.127.in-addr.arpa."
+            }
+        }
+    ],
+    "outputs": [
+        {
+            "addresses": [
+                "127.0.0.1"
+            ]
+        },
+        {
+            "addresses": [
+                "127.0.0.2"
+            ]
+        },
+        {
+            "addresses": [
+                "127.0.0.3"
+            ]
+        },
+        {
+            "addresses": [
+                "127.0.0.4"
+            ]
+        },
+        {
+            "addresses": [
+                "127.0.0.5"
+            ]
+        }
+    ]
+}

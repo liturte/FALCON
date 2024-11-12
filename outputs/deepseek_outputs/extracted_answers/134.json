@@ -1,0 +1,3 @@
+{
+    "134": "a,b=map(int,input().split())\nc=((a*a)+(b*b))**0.5\nif c%1==0:\n    print(int(c),int(a*b/c))\nelse:\n    print(-1)\n\n\n'''"
+}

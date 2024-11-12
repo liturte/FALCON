@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "III",
+        "IV",
+        "IX",
+        "LVIII",
+        "MCMXCIV"
+    ],
+    "outputs": [
+        3,
+        4,
+        9,
+        58,
+        1994
+    ]
+}

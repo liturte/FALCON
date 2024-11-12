@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "[5, 10, 23]",
+        "[0, 1, 2]",
+        "[15, 16, 31]",
+        "[127, 128, 255]",
+        "[1023, 2047, 4095]"
+    ],
+    "outputs": [
+        "Decimal Representation: 5\nBinary Representation: 101\nDecimal Representation: 10\nBinary Representation: 1010\nDecimal Representation: 23\nBinary Representation: 10111\n",
+        "Decimal Representation: 0\nBinary Representation: 0\nDecimal Representation: 1\nBinary Representation: 1\nDecimal Representation: 2\nBinary Representation: 10\n",
+        "Decimal Representation: 15\nBinary Representation: 1111\nDecimal Representation: 16\nBinary Representation: 10000\nDecimal Representation: 31\nBinary Representation: 11111\n",
+        "Decimal Representation: 127\nBinary Representation: 1111111\nDecimal Representation: 128\nBinary Representation: 10000000\nDecimal Representation: 255\nBinary Representation: 11111111\n",
+        "Decimal Representation: 1023\nBinary Representation: 1111111111\nDecimal Representation: 2047\nBinary Representation: 11111111111\nDecimal Representation: 4095\nBinary Representation: 111111111111\n"
+    ]
+}

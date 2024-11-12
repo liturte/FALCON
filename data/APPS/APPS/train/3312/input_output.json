@@ -1,0 +1,1 @@
+{"fn_name": "anagram_counter", "inputs": [[[]], [["dell", "ledl", "abc", "cba"]], [["dell", "ledl", "lled", "cba"]], [["dell", "ledl", "abc", "cba", "bca", "bac", "cab"]]], "outputs": [[0], [2], [3], [11]]}

@@ -1,0 +1,8 @@
+{
+    "538": {
+        "code": [
+            "def quasi_palindromic(n):\n    n = str(n)\n    for i in range(len(n) // 2):\n        if n[i] != n[-i-1]:\n            return \"NO\"\n    return \"YES\"\n\nn = int(input())\nprint(quasi_palindromic(n))"
+        ],
+        "prompt": "\nQUESTION:\nLet quasi-palindromic number be such number that adding some leading zeros (possible none) to it produces a palindromic string. \n\nString t is called a palindrome, if it reads the same from left to right and from right to left.\n\nFor example, numbers 131 and 2010200 are quasi-palindromic, they can be transformed to strings \"131\" and \"002010200\", respectively, which are palindromes.\n\nYou are given some integer number x. Check if it's a quasi-palindromic number.\n\n\n-----Input-----\n\nThe first line contains one integer number x (1 \u2264 x \u2264 10^9). This number is given without any leading zeroes.\n\n\n-----Output-----\n\nPrint \"YES\" if number x is quasi-palindromic. Otherwise, print \"NO\" (without quotes).\n\n\n-----Examples-----\nInput\n131\n\nOutput\nYES\n\nInput\n320\n\nOutput\nNO\n\nInput\n2010200\n\nOutput\nYES\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

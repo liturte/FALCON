@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "KEITHLEY INSTRUMENTS INC.,MODEL 2700,0822752,B02",
+        "AGILENT TECHNOLOGIES,MODEL 34401A,1234567,A01",
+        "FLUKE,MODEL 87V,9876543,REV1",
+        "KEYSIGHT,MODEL 34410A,7654321,B05",
+        "TEKTRONIX,MODEL DMM4050,1357924,1.0"
+    ],
+    "outputs": [
+        "Identity Matched!\nData values: [1.234, 5.678, 9.012]",
+        "Identity Not Matched!",
+        "Identity Not Matched!",
+        "Identity Not Matched!",
+        "Identity Not Matched!"
+    ]
+}

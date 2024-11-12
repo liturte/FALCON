@@ -1,0 +1,8 @@
+{
+    "1413": {
+        "code": [
+            "```python\nn = int(input())\ns = input()\n\nif n == 1:\n    print(1 if int(s) % 2 == 0 else 0)\nelse:\n    ans = 0\n    for i in range(1, n):\n        for j in range(i, n):\n            if int(s[i - 1: j + 1]) % 2 == 0:\n                ans += 1\n    print(ans + n)\n\n```"
+        ],
+        "prompt": "\nQUESTION:\nYou are given a string $s=s_1s_2\\dots s_n$ of length $n$, which only contains digits $1$, $2$, ..., $9$.\n\nA substring $s[l \\dots r]$ of $s$ is a string $s_l s_{l + 1} s_{l + 2} \\ldots s_r$. A substring $s[l \\dots r]$ of $s$ is called even if the number represented by it is even. \n\nFind the number of even substrings of $s$. Note, that even if some substrings are equal as strings, but have different $l$ and $r$, they are counted as different substrings.\n\n\n-----Input-----\n\nThe first line contains an integer $n$ ($1 \\le n \\le 65000$)\u00a0\u2014 the length of the string $s$.\n\nThe second line contains a string $s$ of length $n$. The string $s$ consists only of digits $1$, $2$, ..., $9$.\n\n\n-----Output-----\n\nPrint the number of even substrings of $s$.\n\n\n-----Examples-----\nInput\n4\n1234\n\nOutput\n6\nInput\n4\n2244\n\nOutput\n10\n\n\n-----Note-----\n\nIn the first example, the $[l, r]$ pairs corresponding to even substrings are:   $s[1 \\dots 2]$\n\n $s[2 \\dots 2]$\n\n $s[1 \\dots 4]$\n\n $s[2 \\dots 4]$\n\n $s[3 \\dots 4]$\n\n $s[4 \\dots 4]$ \n\nIn the second example, all $10$ substrings of $s$ are even substrings. Note, that while substrings $s[1 \\dots 1]$ and $s[2 \\dots 2]$ both define the substring \"2\", they are still counted as different substrings.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

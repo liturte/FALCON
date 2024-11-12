@@ -1,0 +1,119 @@
+{
+    "inputs": [
+        {
+            "generations": 5,
+            "no_of_parents": 10,
+            "agent_parameter_choices": {
+                "param1": [
+                    0,
+                    1,
+                    2
+                ],
+                "param2": [
+                    0.1,
+                    0.5,
+                    1.0
+                ]
+            }
+        },
+        {
+            "generations": 3,
+            "no_of_parents": 5,
+            "agent_parameter_choices": {
+                "param1": [
+                    0,
+                    1
+                ],
+                "param2": [
+                    0.2,
+                    0.4
+                ]
+            }
+        },
+        {
+            "generations": 7,
+            "no_of_parents": 15,
+            "agent_parameter_choices": {
+                "param1": [
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "param2": [
+                    0.1,
+                    0.2,
+                    0.3
+                ]
+            }
+        },
+        {
+            "generations": 4,
+            "no_of_parents": 8,
+            "agent_parameter_choices": {
+                "param1": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "param2": [
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4
+                ]
+            }
+        },
+        {
+            "generations": 6,
+            "no_of_parents": 12,
+            "agent_parameter_choices": {
+                "param1": [
+                    0,
+                    1,
+                    2
+                ],
+                "param2": [
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4
+                ]
+            }
+        }
+    ],
+    "outputs": [
+        {
+            "best_params": {
+                "param1": 1,
+                "param2": 0.5
+            }
+        },
+        {
+            "best_params": {
+                "param1": 0,
+                "param2": 0.4
+            }
+        },
+        {
+            "best_params": {
+                "param1": 3,
+                "param2": 0.3
+            }
+        },
+        {
+            "best_params": {
+                "param1": 2,
+                "param2": 0.2
+            }
+        },
+        {
+            "best_params": {
+                "param1": 1,
+                "param2": 0.3
+            }
+        }
+    ]
+}

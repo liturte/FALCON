@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "2000",
+        "2020",
+        "1900",
+        "2024",
+        "1988"
+    ],
+    "outputs": [
+        "O ano de 2000 é bissexto",
+        "O ano de 2020 é bissexto",
+        "O ano de 1900 NÃO é bissexto",
+        "O ano de 2024 é bissexto",
+        "O ano de 1988 é bissexto"
+    ]
+}

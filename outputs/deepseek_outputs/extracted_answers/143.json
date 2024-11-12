@@ -1,0 +1,3 @@
+{
+    "143": "n = int(input())\narr = list(map(int, input().split()))\n\nmx = max(arr)\n\nfor i in range(mx+1):\n    if i not in arr:\n        print(i)\n        break"
+}

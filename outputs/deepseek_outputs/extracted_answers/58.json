@@ -1,0 +1,3 @@
+{
+    "58": "n,a,b = map(int, input().split())\nif (a+b) > n:\n    print(2)\nelse:\n    print(1)"
+}

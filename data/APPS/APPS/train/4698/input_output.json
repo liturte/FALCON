@@ -1,0 +1,1 @@
+{"fn_name": "is_int_array", "inputs": [[[]], [[1, 2, 3, 4]], [[-11, -12, -13, -14]], [[1.0, 2.0, 3.0]], [[1, 2, null]], [null], [""], [[null]], [[1.0, 2.0, 3.0001]], [["-1"]]], "outputs": [[true], [true], [true], [true], [false], [false], [false], [false], [false], [false]]}

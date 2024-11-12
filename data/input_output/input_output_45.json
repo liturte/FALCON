@@ -1,0 +1,21 @@
+{
+    "inputs": [
+        "languages.json",
+        "languages.json",
+        "languages.json",
+        "languages.json",
+        "languages.json"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        [
+            "Python: Creator - Guido van Rossum, Year - 1991",
+            "JavaScript: Creator - Brendan Eich, Year - 1995"
+        ],
+        [
+            "Python"
+        ]
+    ]
+}

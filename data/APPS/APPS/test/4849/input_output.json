@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "N-FBI1\n9A-USKOK\nI-NTERPOL\nG-MI6\nRF-KGB1\n",
+        "N321-CIA\nF3-B12I\nF-BI-12\nOVO-JE-CIA\nKRIJUMCAR1\n",
+        "47-FBI\nBOND-007\nRF-FBI18\nMARICA-13\n13A-FBILL\n"
+    ],
+    "outputs": [
+        "1\n",
+        "HE GOT AWAY!\n",
+        "1 3 5\n"
+    ]
+}

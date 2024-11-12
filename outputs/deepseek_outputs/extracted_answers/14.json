@@ -1,0 +1,3 @@
+{
+    "14": "import sys\ninput = sys.stdin.readline\n\nn, k = map(int, input().split())\na = list(map(int, input().split()))\n\ns = []\nb = []\n\nfor i in a:\n    if not s:\n        s.append(i)\n    else:\n        if i > s[-1]:\n            b.append(s.pop())\n            while s and i > s[-1]:\n                b.append(s.pop())\n            s.append(i)\n        else:\n            s.append(i)\n\nwhile s:\n    b.append(s.pop())\n\nif len(b) == n:\n    print(*b)\nelse:\n    print(-1)"
+}

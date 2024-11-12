@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        [
+            "HELLO WORLD",
+            3
+        ],
+        [
+            "Rail Fence Cipher",
+            4
+        ],
+        [
+            "1234567890",
+            2
+        ],
+        [
+            "Programming is fun!",
+            5
+        ],
+        [
+            "Test@123",
+            3
+        ]
+    ],
+    "outputs": [
+        "HOR ELWLD",
+        "RieeFnlCae arCpr",
+        "1523847960",
+        "Pmg sfnrormiua i!",
+        "Tt@e13es2"
+    ]
+}

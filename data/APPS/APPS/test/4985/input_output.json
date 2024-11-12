@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "2 S\nTH\n9C\nKS\nQS\nJS\nTD\nAD\nJH\n",
+        "4 H\nAH\nKH\nQH\nJH\nTH\n9H\n8H\n7H\nAS\nKS\nQS\nJS\nTS\n9S\n8S\n7S\n"
+    ],
+    "outputs": [
+        "60\n",
+        "92\n"
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    "271": "n = int(input())\nif n % 10 >= 5:\n    n += 10 - n % 10\nelse:\n    n -= n % 10\nprint(n)\n\n\nn = int(input())\nif n % 10 >= 5:\n    print(n + (10 - n % 10))\nelse:\n    print(n - (n % 10))\n\n\nn = int(input())\nif n % 10 >= 5:\n    print(n + 10 - n % 10)\nelse:\n    print(n - n % 10)"
+}

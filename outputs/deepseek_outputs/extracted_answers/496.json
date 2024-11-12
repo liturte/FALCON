@@ -1,0 +1,3 @@
+{
+    "496": "n = input().split()\nn = list(map(int, n))\nn.sort()\nif n[1] - n[0] == n[2] - n[1]:\n    print(n[3] + n[1] - n[0])\nelif n[1] / n[0] == n[2] / n[1]:\n    print(int(n[3] * n[1] / n[0]))\nelse:\n    print(42)"
+}

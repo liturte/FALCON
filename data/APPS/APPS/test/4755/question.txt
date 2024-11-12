@@ -1,0 +1,20 @@
+Mirko buys a lot of candy in the candy shop. He cannot always pay the exact amount so the shopkeeper and he have an agreement. He tells the shopkeeper the smallest bill he has, and she rounds his amount to the nearest number he can pay. For example, if the smallest bill Mirko has is a hundred bill, and he wants to buy $150$ Kunas of candy, the shopkeeper rounds his amount to $200$ Kunas. If he wants to buy $149$ Kunas of candy, the shopkeeper rounds his amount to $100$ Kunas.
+
+Lately, Mirko suspects the shoopkeeper is trying to cheat him. He asked you to help him. Write a program that will help him. His mother only gives Mirko $1, 10, 100, 1000, \ldots , 1000000000$ Kuna bills. He never has bills that are not powers of $10$. The bills he does have, he has in large amounts.
+
+-----Input-----
+The first and only line of input contains two integers, $C$ ($0 \le C \le 1000000000$), the price of candy Mirko is going to buy, and $K$ ($0 \le K \le 9$), number of zeros on the smallest bill Mirko has.
+
+-----Output-----
+The first and only line of output should contain one integer, $C$ rounded to the nearest amount Mirko can pay.
+
+-----Examples-----
+Sample Input 1:
+184 1
+Sample Output 1:
+180
+
+Sample Input 2:
+123450995 1
+Sample Output 2:
+123451000

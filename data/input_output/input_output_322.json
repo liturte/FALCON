@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "factorial(5)",
+        "factorial(3)",
+        "factorial(7)",
+        "factorial(1)",
+        "factorial(10)"
+    ],
+    "outputs": [
+        "3",
+        "2",
+        "4",
+        "1",
+        "5"
+    ]
+}

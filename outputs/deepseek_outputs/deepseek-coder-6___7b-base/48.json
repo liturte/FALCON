@@ -1,0 +1,8 @@
+{
+    "48": {
+        "code": [
+            "\"\"\"\nn,m,k = map(int, input().split())\n\ni,j = (k-1) // m, (k-1) % m\n\nif i >= n:\n    print(-1)\nelse:\n    print(i+1+j)\n\"\"\""
+        ],
+        "prompt": "\nQUESTION:\nBizon the Champion isn't just charming, he also is very smart.\n\nWhile some of us were learning the multiplication table, Bizon the Champion had fun in his own manner. Bizon the Champion painted an n \u00d7 m multiplication table, where the element on the intersection of the i-th row and j-th column equals i\u00b7j (the rows and columns of the table are numbered starting from 1). Then he was asked: what number in the table is the k-th largest number? Bizon the Champion always answered correctly and immediately. Can you repeat his success?\n\nConsider the given multiplication table. If you write out all n\u00b7m numbers from the table in the non-decreasing order, then the k-th number you write out is called the k-th largest number.\n\n\n-----Input-----\n\nThe single line contains integers n, m and k (1 \u2264 n, m \u2264 5\u00b710^5;\u00a01 \u2264 k \u2264 n\u00b7m).\n\n\n-----Output-----\n\nPrint the k-th largest number in a n \u00d7 m multiplication table.\n\n\n-----Examples-----\nInput\n2 2 2\n\nOutput\n2\n\nInput\n2 3 4\n\nOutput\n3\n\nInput\n1 10 5\n\nOutput\n5\n\n\n\n-----Note-----\n\nA 2 \u00d7 3 multiplication table looks like this:\n\n1 2 3\n\n2 4 6\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

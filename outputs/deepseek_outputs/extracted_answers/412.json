@@ -1,0 +1,3 @@
+{
+    "412": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\n\ndef main():\n    n = int(input())\n    a = map(int, input().split())\n    m = 0\n    c = 0\n    for x in a:\n        x2 = 0\n        while x % 2 == 0:\n            x2 += 1\n            x //= 2\n        if x2 > m:\n            m = x2\n            c = 1\n        elif x2 == m:\n            c += 1\n    print(2**m, c)\n\n\nif __name__ == '__main__':\n    main()"
+}

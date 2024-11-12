@@ -1,0 +1,8 @@
+{
+    "806": {
+        "code": [
+            "from sys import stdin\n\n\ndef main():\n    n, l, r = map(int, stdin.readline().split())\n    ans = 0\n    if (r - l + 1) < n:\n        print(0)\n    else:\n        for i in range(l, r + 1):\n            if i % 3 == 0:\n                ans += 1\n        print(ans)\n\n\nif __name__ == '__main__':\n    main()"
+        ],
+        "prompt": "\nQUESTION:\nAyoub had an array $a$ of integers of size $n$ and this array had two interesting properties:   All the integers in the array were between $l$ and $r$ (inclusive).  The sum of all the elements was divisible by $3$. \n\nUnfortunately, Ayoub has lost his array, but he remembers the size of the array $n$ and the numbers $l$ and $r$, so he asked you to find the number of ways to restore the array. \n\nSince the answer could be very large, print it modulo $10^9 + 7$ (i.e. the remainder when dividing by $10^9 + 7$). In case there are no satisfying arrays (Ayoub has a wrong memory), print $0$.\n\n\n-----Input-----\n\nThe first and only line contains three integers $n$, $l$ and $r$ ($1 \\le n \\le 2 \\cdot 10^5 , 1 \\le l \\le r \\le 10^9$)\u00a0\u2014 the size of the lost array and the range of numbers in the array.\n\n\n-----Output-----\n\nPrint the remainder when dividing by $10^9 + 7$ the number of ways to restore the array.\n\n\n-----Examples-----\nInput\n2 1 3\n\nOutput\n3\n\nInput\n3 2 2\n\nOutput\n1\n\nInput\n9 9 99\n\nOutput\n711426616\n\n\n\n-----Note-----\n\nIn the first example, the possible arrays are : $[1,2], [2,1], [3, 3]$.\n\nIn the second example, the only possible array is $[2, 2, 2]$.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

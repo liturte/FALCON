@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "a",
+        "b",
+        "c",
+        "b",
+        "a"
+    ],
+    "outputs": [
+        "1",
+        "2",
+        "Attribute not found",
+        "2",
+        "1"
+    ]
+}

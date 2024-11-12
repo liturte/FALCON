@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "hey\n",
+        "heeeeey\n"
+    ],
+    "outputs": [
+        "heey\n",
+        "heeeeeeeeeey\n"
+    ]
+}

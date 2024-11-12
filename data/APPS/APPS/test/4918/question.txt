@@ -1,0 +1,34 @@
+The other day Bjarki was playing one of his many video games, $\sim $s. In $\sim $s you build a house, start a family, and slowly, but surely, gain riches and fame. One particular day in the game there was a $30$ year anniversary party and Bjarki’s characters invited all their friends.
+
+During the party people started chatting. Due to the way $\sim $s is programmed once people start chatting they can’t stop. So as time goes on people get added to conversations but they never leave them. Steadily, groups of people chatting start to form and a person from one group can’t join another without the groups merging.
+
+Bjarki is starting to get bored watching this process so he starts counting the size of the groups. But every person is so small on the screen it’s actually easier for him to notice the speechbubble form, which indicate a merger of groups. Bjarki gives you two different types of queries. One indicates a speechbubble and the other means Bjarki wants to know the size of a particular group chat.
+
+-----Input-----
+The first line of the input contains two integers $1 \leq n, q \leq 10^6$, $n$ denoting the total amount of guests at the party and $q$ denoting the amount of queries. Then $q$ lines follow, the $i$-th of which contains either contains ‘t’ and two integers $1 \leq a, b \leq n$ or ‘s’ and one integer $1 \leq a \leq n$. If the line begins with ‘t’ it indicates that the groups guest $a$ and guest $b$ belong to merge and if the line begins with ‘s’ you should print the size of the group guest $a$ belongs to.
+
+-----Output-----
+The output should contain one line containing one integer for each query of the ‘s’ type indicating the size of the specified group.
+
+-----Examples-----
+Sample Input:
+10 11
+t 1 10
+t 1 2
+t 1 3
+s 1
+s 2
+s 3
+s 4
+t 5 6
+s 5
+s 6
+s 10
+Sample Output:
+4
+4
+4
+1
+2
+2
+4

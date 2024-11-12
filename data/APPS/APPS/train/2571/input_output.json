@@ -1,0 +1,1 @@
+{"fn_name": "mutate_string", "inputs": [["abracadabra", 5, "k"]], "outputs": ["abrackdabra"]}

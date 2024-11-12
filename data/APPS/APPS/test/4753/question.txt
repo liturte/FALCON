@@ -1,0 +1,22 @@
+Consider a convex polygon with $N$ vertices, with the additional property that no three diagonals intersect in a single point. Find the number of intersections between pairs of diagonals in such a polygon.
+
+The figure below shows one such polygon with 6 vertices.
+
+Note that a polygon is convex if all of its interior angles are less than 180 degrees.
+
+-----Input-----
+The first and only line of input contains a single integer $N, 3\leq N\leq 100$ denoting the number of vertices.
+
+-----Output-----
+Output the number of intersections on a single line.
+
+-----Examples-----
+Sample Input 1:
+3
+Sample Output 1:
+0
+
+Sample Input 2:
+4
+Sample Output 2:
+1

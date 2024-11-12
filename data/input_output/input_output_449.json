@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "1000, 500, 200, 1000, 1500",
+        "500, 200, 1000, 1500",
+        "1000, 200, 1000, 1500",
+        "1000, 500, 1000, 1500",
+        "1000, 500, 200, 1000"
+    ],
+    "outputs": [
+        "Balance: $1300.0, Balance: $1100.0, Balance: $2100.0, Insufficient funds",
+        "Balance: $500.0, Balance: $1300.0, Insufficient funds",
+        "Balance: $1200.0, Balance: $2200.0, Insufficient funds",
+        "Balance: $1500.0, Insufficient funds",
+        "Balance: $1300.0, Balance: $1100.0, Balance: $2100.0"
+    ]
+}

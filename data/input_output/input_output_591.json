@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "EventsDict = {'event1': 'Football', 'event2': 'Basketball'}",
+        "EventsDict = {'event1': 'Tennis', 'event2': 'Soccer', 'event3': 'Cricket'}",
+        "EventsDict = {'event1': 'Rugby', 'event2': 'Golf', 'event3': 'Swimming', 'event4': 'Cycling'}",
+        "EventsDict = {'event1': 'Baseball', 'event2': 'Hockey', 'event3': 'Volleyball', 'event4': 'Table Tennis', 'event5': 'Badminton'}",
+        "EventsDict = {'event1': 'Athletics', 'event2': 'Boxing', 'event3': 'Wrestling', 'event4': 'Skiing', 'event5': 'Snowboarding', 'event6': 'Surfing'}"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

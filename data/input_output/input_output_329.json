@@ -1,0 +1,53 @@
+{
+    "inputs": [
+        {
+            "name": "projects/123456867718/locations/global/keys/b7ff1f9f-8275-410a-94dd-3855ee9b5dd2",
+            "updateMask": [
+                "display_name",
+                "restrictions"
+            ]
+        },
+        {
+            "name": "projects/987654321098/locations/europe/keys/12345678-abcd-efgh-ijkl-901234567890",
+            "updateMask": [
+                "description"
+            ]
+        },
+        {
+            "name": "projects/111111111111/locations/asia/keys/abcdef12-3456-7890-cdef-1234567890ab",
+            "updateMask": [
+                "display_name",
+                "restrictions",
+                "description"
+            ]
+        },
+        {
+            "name": "projects/222222222222/locations/america/keys/09876543-dcba-ghfe-5432-098765432109",
+            "updateMask": []
+        },
+        {
+            "name": "projects/333333333333/locations/africa/keys/09876543-dcba-ghfe-5432-098765432109",
+            "updateMask": [
+                "display_name"
+            ]
+        }
+    ],
+    "outputs": [
+        {
+            "display_name": null,
+            "restrictions": null
+        },
+        {
+            "description": null
+        },
+        {
+            "display_name": null,
+            "restrictions": null,
+            "description": null
+        },
+        null,
+        {
+            "display_name": null
+        }
+    ]
+}

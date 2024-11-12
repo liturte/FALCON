@@ -1,0 +1,56 @@
+{
+    "inputs": [
+        [
+            "hello",
+            "world",
+            "good",
+            "morning"
+        ],
+        [
+            "apple",
+            "banana",
+            "cherry"
+        ],
+        [
+            "12345",
+            "67890"
+        ],
+        [
+            "programming",
+            "is",
+            "fun"
+        ],
+        [
+            "racecar",
+            "level",
+            "radar"
+        ]
+    ],
+    "outputs": [
+        [
+            "olleh",
+            "dlrow",
+            "doog",
+            "gninrom"
+        ],
+        [
+            "elppa",
+            "ananab",
+            "yrrehc"
+        ],
+        [
+            "54321",
+            "09876"
+        ],
+        [
+            "gnimmargorp",
+            "si",
+            "nuf"
+        ],
+        [
+            "racecar",
+            "level",
+            "radar"
+        ]
+    ]
+}

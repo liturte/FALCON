@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        {
+            "key_path": "/home/user1/.ssh/id_rsa",
+            "user_name": "user1"
+        },
+        {
+            "key_path": "/home/user2/.ssh/id_rsa",
+            "user_name": "user2"
+        },
+        {
+            "key_path": "/home/user3/.ssh/id_rsa",
+            "user_name": "user3"
+        },
+        {
+            "key_path": "/home/user4/.ssh/id_rsa",
+            "user_name": "user4"
+        },
+        {
+            "key_path": "/home/user5/.ssh/id_rsa",
+            "user_name": "user5"
+        }
+    ],
+    "outputs": [
+        "Creating user...",
+        "Creating ssh dir...",
+        "Creating user...",
+        "Creating ssh dir...",
+        "Creating user..."
+    ]
+}

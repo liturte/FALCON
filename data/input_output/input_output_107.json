@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "./test_directory_1",
+        "./test_directory_2",
+        "./empty_directory",
+        "./non_existing_directory",
+        "./directory_with_hidden_files"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

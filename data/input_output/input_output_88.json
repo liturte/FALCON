@@ -1,0 +1,78 @@
+{
+    "inputs": [
+        {
+            "repository": {
+                "abc123": {
+                    "mcqs": "old_data"
+                }
+            },
+            "id": "abc123",
+            "response": {
+                "mcqs": "new_data"
+            }
+        },
+        {
+            "repository": {
+                "123xyz": {
+                    "mcqs": "data"
+                }
+            },
+            "id": "123xyz",
+            "response": {
+                "mcqs": "updated_data"
+            }
+        },
+        {
+            "repository": {
+                "key1": {
+                    "mcqs": "value1"
+                }
+            },
+            "id": "key2",
+            "response": {
+                "mcqs": "new_value"
+            }
+        },
+        {
+            "repository": {
+                "id_1": {
+                    "mcqs": "old"
+                }
+            },
+            "id": "id_2",
+            "response": {
+                "mcqs": "new"
+            }
+        },
+        {
+            "repository": {
+                "x1y2z3": {
+                    "mcqs": "initial"
+                }
+            },
+            "id": "x1y2z3",
+            "response": {
+                "mcqs": "final"
+            }
+        }
+    ],
+    "outputs": [
+        {
+            "abc123": {
+                "mcqs": "new_data"
+            }
+        },
+        {
+            "123xyz": {
+                "mcqs": "updated_data"
+            }
+        },
+        "Call this API after summary has been generated",
+        "Call this API after summary has been generated",
+        {
+            "x1y2z3": {
+                "mcqs": "final"
+            }
+        }
+    ]
+}

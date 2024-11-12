@@ -1,0 +1,3 @@
+{
+    "75": "n, m = map(int, input().split())\ns = [input() for i in range(n)]\nfor i in range(n):\n    for j in range(m):\n        if s[i][j] == \"*\":\n            print(\"YES\")\n            print(i + 1, j + 1)\n            exit()\nprint(\"NO\")"
+}

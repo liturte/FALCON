@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "pdf_file='sample.pdf', images=False",
+        "pdf_file='document.pdf', images=True",
+        "pdf_file='report.pdf', images=False",
+        "pdf_file='book.pdf', images=True",
+        "pdf_file='presentation.pdf', images=False"
+    ],
+    "outputs": [
+        "{'text': 'This is a sample PDF text.', 'metadata': {'author': 'John Doe', 'created_date': '2022-01-01'}}",
+        null,
+        "{'text': 'Report content here.', 'metadata': {'author': 'Jane Smith', 'created_date': '2022-02-15'}}",
+        null,
+        "{'text': 'Presentation slides text.', 'metadata': {'author': 'Alice Johnson', 'created_date': '2022-03-10'}}"
+    ]
+}

@@ -1,0 +1,2 @@
+def jumping(arr, n):
+	

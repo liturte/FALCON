@@ -1,0 +1,42 @@
+{
+    "inputs": [
+        [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        [
+            "apple",
+            "banana",
+            "cherry"
+        ],
+        [
+            10,
+            20,
+            30,
+            40,
+            50
+        ],
+        [
+            "red",
+            "green",
+            "blue",
+            "yellow"
+        ],
+        [
+            0.5,
+            0.75,
+            1.0,
+            1.25
+        ]
+    ],
+    "outputs": [
+        "No eligible inputs",
+        "banana",
+        50,
+        "yellow",
+        1.25
+    ]
+}

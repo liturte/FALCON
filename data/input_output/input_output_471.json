@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{\"error_codes\": {\"EXPIRED_CONFIRMATION_ID\": \"Confirmation code expired\", \"INVALID_CONSENT_STATUS\": \"Invalid consent status\", \"UNKNOWN_CONSENT\": \"Unknown consent\", \"INVALID_DATA\": \"Invalid parameters\", \"MISSING_PERSON_ID\": \"Missing person id\"}, \"error_code\": \"INVALID_DATA\"}",
+        "{\"error_codes\": {\"A\": \"Error A\", \"B\": \"Error B\"}, \"error_code\": \"C\"}",
+        "{\"error_codes\": {\"1\": \"Error 1\", \"2\": \"Error 2\", \"3\": \"Error 3\"}, \"error_code\": \"4\"}",
+        "{\"error_codes\": {\"X\": \"Error X\", \"Y\": \"Error Y\", \"Z\": \"Error Z\"}, \"error_code\": \"W\"}",
+        "{\"error_codes\": {\"CODE1\": \"Message 1\", \"CODE2\": \"Message 2\", \"CODE3\": \"Message 3\"}, \"error_code\": \"CODE2\"}"
+    ],
+    "outputs": [
+        "Invalid parameters",
+        "Error code not found",
+        "Error code not found",
+        "Error code not found",
+        "Message 2"
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    "176": "def f(k,a,b):\n    if a % k == 0:\n        return (b-a)//k + 1\n    else:\n        return (b-a)//k\n\nk,a,b=map(int,input().split())\nprint(f(k,a,b))"
+}

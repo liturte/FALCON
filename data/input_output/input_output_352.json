@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{'debug': True}",
+        "{'debug': False}",
+        "{'debug': 1}",
+        "{'debug': 'test'}",
+        "{}"
+    ],
+    "outputs": [
+        "{'debug': True}",
+        "null",
+        "{'debug': 1}",
+        "{'debug': 'test'}",
+        "null"
+    ]
+}

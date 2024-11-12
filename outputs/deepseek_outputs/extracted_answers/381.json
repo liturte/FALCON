@@ -1,0 +1,3 @@
+{
+    "381": "import sys\ninput = sys.stdin.readline\n\nk = int(input())\n\nif k == 1:\n    print('YES')\n    print(2, 1)\n    print(1, 2)\nelse:\n    print('YES')\n    print(k + 1, k * (k - 1))\n    for i in range(1, k + 1):\n        for j in range(1, k):\n            print(i, j)"
+}

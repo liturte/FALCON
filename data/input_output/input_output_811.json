@@ -1,0 +1,51 @@
+{
+    "inputs": [
+        {
+            "embeddings": "embedding_layer",
+            "hidden_size": 128,
+            "num_layers": 2,
+            "dropout": 0.2,
+            "bidirectional": true,
+            "padding_idx": 0
+        },
+        {
+            "embeddings": "embedding_layer",
+            "hidden_size": 64,
+            "num_layers": 1,
+            "dropout": 0.0,
+            "bidirectional": false,
+            "padding_idx": 1
+        },
+        {
+            "embeddings": "embedding_layer",
+            "hidden_size": 256,
+            "num_layers": 3,
+            "dropout": 0.3,
+            "bidirectional": true,
+            "padding_idx": 2
+        },
+        {
+            "embeddings": "embedding_layer",
+            "hidden_size": 128,
+            "num_layers": 1,
+            "dropout": 0.1,
+            "bidirectional": true,
+            "padding_idx": 3
+        },
+        {
+            "embeddings": "embedding_layer",
+            "hidden_size": 64,
+            "num_layers": 2,
+            "dropout": 0.0,
+            "bidirectional": false,
+            "padding_idx": 4
+        }
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

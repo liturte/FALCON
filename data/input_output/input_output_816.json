@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "help",
+        "exit",
+        "invalid_command",
+        "invalid_command",
+        "exit"
+    ],
+    "outputs": [
+        "Prints help message",
+        "Terminates execution",
+        "Prints 'error: command invalid_command does not exist'",
+        "Prints 'error: command invalid_command does not exist'",
+        "Terminates execution"
+    ]
+}

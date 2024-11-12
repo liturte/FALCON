@@ -1,0 +1,42 @@
+[
+    {
+        "inputs": [
+            "Bearer valid.jwt.token"
+        ],
+        "outputs": [
+            "{'user_id': 123, 'permissions': ['read', 'write']}"
+        ]
+    },
+    {
+        "inputs": [
+            "Bearer invalid.jwt.token"
+        ],
+        "outputs": [
+            "invalid token"
+        ]
+    },
+    {
+        "inputs": [
+            "Basic valid.jwt.token"
+        ],
+        "outputs": [
+            "unsupported authorization type"
+        ]
+    },
+    {
+        "inputs": [
+            "Bearer "
+        ],
+        "outputs": [
+            "invalid token"
+        ]
+    },
+    {
+        "inputs": [
+            "Bearer valid.jwt.token.with.extra.space "
+        ],
+        "outputs": [
+            "invalid token"
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "[True, False, True, False, True]",
+        "[False, False, True, True, False, True]",
+        "[True, True, True, True, True, True, True]",
+        "[False, False, False, False, False]",
+        "[True, True, False, False, True, True, False, True]"
+    ],
+    "outputs": [
+        "10101",
+        "001100",
+        "1111111",
+        "00000",
+        "11001101"
+    ]
+}

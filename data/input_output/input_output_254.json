@@ -1,0 +1,85 @@
+{
+    "inputs": [
+        {
+            "extension_settings": {
+                "global_settings": {
+                    "theme": "dark",
+                    "font_size": 12
+                },
+                "other_settings": {
+                    "autoplay": true,
+                    "notifications": false
+                }
+            },
+            "settings": {
+                "theme": "light",
+                "font_size": 14
+            }
+        },
+        {
+            "extension_settings": {
+                "global_settings": {
+                    "theme": "light",
+                    "font_size": 16
+                },
+                "other_settings": {
+                    "autoplay": false,
+                    "notifications": true
+                }
+            },
+            "settings": {
+                "theme": "dark",
+                "font_size": 12
+            }
+        },
+        {
+            "extension_settings": {
+                "global_settings": {
+                    "theme": "light",
+                    "font_size": 16
+                },
+                "other_settings": {}
+            },
+            "settings": {
+                "theme": "light",
+                "font_size": 16
+            }
+        },
+        {
+            "extension_settings": {
+                "other_settings": {
+                    "autoplay": true,
+                    "notifications": false
+                }
+            },
+            "settings": {}
+        },
+        {
+            "extension_settings": {},
+            "settings": {}
+        }
+    ],
+    "outputs": [
+        {
+            "theme": "dark",
+            "font_size": 12,
+            "autoplay": true,
+            "notifications": false
+        },
+        {
+            "theme": "light",
+            "font_size": 16,
+            "autoplay": false,
+            "notifications": true
+        },
+        {
+            "theme": "light",
+            "font_size": 16
+        },
+        {
+            "autoplay": true,
+            "notifications": false
+        },
+        null
+    ]
+}

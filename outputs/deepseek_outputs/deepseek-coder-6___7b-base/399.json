@@ -1,0 +1,8 @@
+{
+    "399": {
+        "code": [
+            "x, y = map(int, input().split())\na = x + y\nb = a - 1\nif a % b == 0 and b != 1:\n    print(\"Yes\")\nelse:\n    print(\"No\")"
+        ],
+        "prompt": "\nQUESTION:\nImp likes his plush toy a lot.\n\n [Image] \n\nRecently, he found a machine that can clone plush toys. Imp knows that if he applies the machine to an original toy, he additionally gets one more original toy and one copy, and if he applies the machine to a copied toy, he gets two additional copies.\n\nInitially, Imp has only one original toy. He wants to know if it is possible to use machine to get exactly x copied toys and y original toys? He can't throw toys away, and he can't apply the machine to a copy if he doesn't currently have any copies.\n\n\n-----Input-----\n\nThe only line contains two integers x and y (0 \u2264 x, y \u2264 10^9)\u00a0\u2014 the number of copies and the number of original toys Imp wants to get (including the initial one).\n\n\n-----Output-----\n\nPrint \"Yes\", if the desired configuration is possible, and \"No\" otherwise.\n\nYou can print each letter in arbitrary case (upper or lower).\n\n\n-----Examples-----\nInput\n6 3\n\nOutput\nYes\n\nInput\n4 2\n\nOutput\nNo\n\nInput\n1000 1001\n\nOutput\nYes\n\n\n\n-----Note-----\n\nIn the first example, Imp has to apply the machine twice to original toys and then twice to copies.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "inputs": [
+        {
+            "corpus": [
+                "the quick brown fox jumps",
+                "over the lazy dog"
+            ],
+            "past_n_target": 2,
+            "past_n_min": 1,
+            "forward_n": 1,
+            "min_ngrams_needed": 3
+        },
+        {
+            "corpus": [
+                "apple",
+                "banana",
+                "cherry",
+                "date"
+            ],
+            "past_n_target": 1,
+            "past_n_min": 1,
+            "forward_n": 2,
+            "min_ngrams_needed": 2
+        },
+        {
+            "corpus": [
+                "one",
+                "two",
+                "three",
+                "four",
+                "five"
+            ],
+            "past_n_target": 3,
+            "past_n_min": 2,
+            "forward_n": 1,
+            "min_ngrams_needed": 2
+        },
+        {
+            "corpus": [
+                "alpha",
+                "beta",
+                "gamma",
+                "delta"
+            ],
+            "past_n_target": 2,
+            "past_n_min": 2,
+            "forward_n": 1,
+            "min_ngrams_needed": 1
+        },
+        {
+            "corpus": [
+                "red",
+                "green",
+                "blue"
+            ],
+            "past_n_target": 1,
+            "past_n_min": 1,
+            "forward_n": 1,
+            "min_ngrams_needed": 4
+        }
+    ],
+    "outputs": [
+        [
+            "the quick",
+            "quick brown",
+            "brown fox"
+        ],
+        [
+            "apple",
+            "banana",
+            "banana",
+            "cherry"
+        ],
+        [
+            "one two three",
+            "two three four"
+        ],
+        [
+            "beta gamma"
+        ],
+        null
+    ]
+}

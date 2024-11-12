@@ -1,0 +1,3 @@
+{
+    "454": "from itertools import permutations\n\nn, k = map(int, input().split())\n\np = list(permutations(range(1, n + 1)))\n\ncount = 0\nfor i in p:\n    oddness = 0\n    for j in range(n):\n        oddness += abs(j - i[j])\n    if oddness == k:\n        count += 1\n\nprint(count % (10**9 + 7))\n\n\n\n-----Other Answer-----\n\nfrom math import factorial\n\nn, k = map(int, input().split())\n\ndef c(n, k):\n    return factorial(n) // (factorial(k) * factorial(n - k))\n\ndef f(n, k):\n    if k > n * (n + 1) // 2:\n        return 0\n    if k == n * (n + 1) // 2:\n        return 1\n    if k == 0:\n        return 1\n    if k < 0:\n        return 0\n    return f(n - 1, k) + f(n - 1, k - n)\n\nprint(f(n, k) % (10**9 + 7))"
+}

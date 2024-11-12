@@ -1,0 +1,3 @@
+{
+    "115": "import sys\n\n\nr, s, p = [int(x) for x in input().split()]\n\n\ndef find_prob(x, y, z):\n    ans = 0\n    if x == 0:\n        ans += (y + z) / (y + z + 1)\n    elif y == 0:\n        ans += (x + z) / (x + z + 1)\n    elif z == 0:\n        ans += (x + y) / (x + y + 1)\n    else:\n        ans += x / (x + 1)\n        ans += y / (y + 1)\n        ans += z / (z + 1)\n        ans /= 3\n    return ans\n\n\nprint(find_prob(r, s, p), find_prob(s, p, r), find_prob(p, r, s))"
+}

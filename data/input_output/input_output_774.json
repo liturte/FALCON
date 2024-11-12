@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "['continuous', 'categorical', 'continuous', 'categorical']",
+        "['categorical', 'categorical', 'categorical']",
+        "['continuous', 'continuous', 'continuous']",
+        "['categorical', 'continuous', 'categorical', 'continuous']",
+        "[]"
+    ],
+    "outputs": [
+        "[None, 1.0, None, 1.0]",
+        "[1.0, 1.0, 1.0]",
+        "[None, None, None]",
+        "[1.0, None, 1.0, None]",
+        "null"
+    ]
+}

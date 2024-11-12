@@ -1,0 +1,3 @@
+{
+    "151": "s = input()\nif len(s) < 4:\n    print(s)\nelse:\n    for i in range(3, len(s)):\n        if s[i-3] not in 'aeiou' and s[i-2] not in 'aeiou' and s[i-1] not in 'aeiou' and s[i] not in 'aeiou':\n            print(s[:i] + ' ' + s[i:])\n            break\n    else:\n        print(s)"
+}

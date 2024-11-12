@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "books.txt",
+        "novels.txt",
+        "empty.txt"
+    ],
+    "outputs": [
+        "books.pkl",
+        "novels.pkl",
+        null
+    ]
+}

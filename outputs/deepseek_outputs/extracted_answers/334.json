@@ -1,0 +1,3 @@
+{
+    "334": "a = int(input())\nb = int(input())\nc = int(input())\nd = int(input())\nfor i in range(10000):\n    if i % a == b and i % c == d:\n        print(i)\n        break\nelse:\n    print(-1)"
+}

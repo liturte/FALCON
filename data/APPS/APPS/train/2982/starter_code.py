@@ -1,0 +1,2 @@
+def pascal(p):
+	

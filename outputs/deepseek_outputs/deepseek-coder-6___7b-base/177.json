@@ -1,0 +1,8 @@
+{
+    "177": {
+        "code": [
+            "n = int(input())\ni = 1\nwhile n > 9 * i * 10 ** (i-1):\n    n -= 9 * i * 10 ** (i-1)\n    i += 1\n\nnum = (n-1) // i + 10 ** (i-1)\nprint(str(num)[(n-1) % i])"
+        ],
+        "prompt": "\nQUESTION:\nLet's write all the positive integer numbers one after another from $1$ without any delimiters (i.e. as a single string). It will be the infinite sequence starting with 123456789101112131415161718192021222324252627282930313233343536...\n\nYour task is to print the $k$-th digit of this sequence.\n\n\n-----Input-----\n\nThe first and only line contains integer $k$ ($1 \\le k \\le 10000$) \u2014 the position to process ($1$-based index).\n\n\n-----Output-----\n\nPrint the $k$-th digit of the resulting infinite sequence.\n\n\n-----Examples-----\nInput\n7\n\nOutput\n7\n\nInput\n21\n\nOutput\n5\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

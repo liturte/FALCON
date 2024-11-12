@@ -1,0 +1,73 @@
+[
+    {
+        "inputs": [
+            {
+                "variables": {
+                    "name": "Alice",
+                    "place": "Wonderland"
+                },
+                "template": "<p>Hello, {{name}}! Welcome to {{place}}.</p>"
+            }
+        ],
+        "outputs": [
+            "<p>Hello, Alice! Welcome to Wonderland.</p>"
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "variables": {
+                    "user": "Bob",
+                    "city": "New York"
+                },
+                "template": "<div>User {{user}} lives in {{city}}.</div>"
+            }
+        ],
+        "outputs": [
+            "<div>User Bob lives in New York.</div>"
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "variables": {
+                    "title": "Dr.",
+                    "firstName": "John",
+                    "lastName": "Doe"
+                },
+                "template": "<title>{{title}} {{firstName}} {{lastName}}</title>"
+            }
+        ],
+        "outputs": [
+            "<title>Dr. John Doe</title>"
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "variables": {
+                    "day": "Monday",
+                    "activity": "swimming"
+                },
+                "template": "<p>On {{day}}, I go {{activity}}.</p>"
+            }
+        ],
+        "outputs": [
+            "<p>On Monday, I go swimming.</p>"
+        ]
+    },
+    {
+        "inputs": [
+            {
+                "variables": {
+                    "product": "book",
+                    "price": "20"
+                },
+                "template": "<p>The price of this {{product}} is ${{price}}.</p>"
+            }
+        ],
+        "outputs": [
+            "<p>The price of this book is $20.</p>"
+        ]
+    }
+]

@@ -1,0 +1,8 @@
+{
+    "1040": {
+        "code": [
+            "\"\"\"\n\n# coding: utf-8\n# Your code here\n\nN = int(input())\nS = input()\n\nif S[-3:] == \"fox\":\n    print(N - 3)\nelse:\n    print(N)"
+        ],
+        "prompt": "\nQUESTION:\nGiven is a string S of length N consisting of lowercase English letters.\nSnuke can do this operation any number of times: remove fox occurring as a substring from s and concatenate the remaining parts of s.\nWhat is the minimum possible length of s after some number of operations by Snuke?\n\n-----Constraints-----\n - 1 \\leq N \\leq 2 \\times 10^{5}\n - s is a string of length N consisting of lowercase English letters.\n\n-----Input-----\nInput is given from Standard Input in the following format:\nN\ns\n\n-----Print-----\nPrint the minimum possible length of s after some number of operations by Snuke.\n\n-----Sample Input-----\n6\nicefox\n\n-----Sample Output-----\n3\n\n - By removing the fox at the end of icefox, we can turn s into ice.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

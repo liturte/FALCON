@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "/home/runner/.cache/pip/pool/83/9a/18/620dc8665d157a95e8bd8529f1f10f3b4c237eccbe2e6418e048857edc",
+        "/var/www/html/index.html",
+        "/usr/bin/python3",
+        "/etc/systemd/system",
+        "/opt/app/config/settings.json"
+    ],
+    "outputs": [
+        12,
+        4,
+        3,
+        3,
+        4
+    ]
+}

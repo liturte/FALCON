@@ -1,0 +1,3 @@
+{
+    "53": "n = int(input())\ns = input()\nb = list(map(int, input().split()))\n\n\ndef get_max_beauty(s, b):\n    n = len(s)\n    beauty = 0\n    for i in range(n // 2):\n        if s[i] == s[n - i - 1]:\n            beauty += max(b[i], b[n - i - 1])\n        else:\n            beauty += b[i] + b[n - i - 1]\n    return beauty\n\n\nprint(get_max_beauty(s, b))"
+}

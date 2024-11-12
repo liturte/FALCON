@@ -1,0 +1,3 @@
+{
+    "404": "def gcd(a, b):\n    if b == 0:\n        return a\n    return gcd(b, a % b)\n\n\ndef lcm(a, b):\n    return a * b // gcd(a, b)\n\n\ndef lcm_r(a, b):\n    return a // gcd(a, b) * b\n\n\ndef solve(b):\n    ans = 0\n    for i in range(1, b + 1):\n        ans += lcm_r(b, i)\n    return ans\n\n\nif __name__ == \"__main__\":\n    b = int(input())\n    print(solve(b))"
+}

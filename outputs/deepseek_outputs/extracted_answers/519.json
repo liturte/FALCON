@@ -1,0 +1,3 @@
+{
+    "519": "def main():\n    l,p,q = map(int,input().split())\n    ans = l/((p+q)/p)\n    print(ans)\n\nif __name__ == '__main__':\n    main()"
+}

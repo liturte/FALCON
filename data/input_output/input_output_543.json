@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "np.random.uniform(-5, 5, 10)",
+        "np.random.uniform(-5, 5, 5)",
+        "np.random.uniform(-5, 5, 15)",
+        "np.random.uniform(-5, 5, 7)",
+        "np.random.uniform(-5, 5, 3)"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

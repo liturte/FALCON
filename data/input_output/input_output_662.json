@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "BGR frame 1",
+        "BGR frame 2",
+        "BGR frame 3",
+        "BGR frame 4",
+        "BGR frame 5"
+    ],
+    "outputs": [
+        "Optical flow array 1",
+        "Optical flow array 2",
+        "Optical flow array 3",
+        "Optical flow array 4",
+        "Optical flow array 5"
+    ]
+}

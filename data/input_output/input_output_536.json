@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "FakeSignal([1, 5, 10, 15, 20, 25, 30], rule='multiply by 2'), threshold=10",
+        "FakeSignal([2, 4, 6, 8, 10, 12, 14], rule='add 5'), threshold=8",
+        "FakeSignal([3, 6, 9, 12, 15, 18, 21], rule='subtract 2'), threshold=5",
+        "FakeSignal([4, 8, 12, 16, 20, 24, 28], rule='divide by 2'), threshold=15",
+        "FakeSignal([5, 10, 15, 20, 25, 30, 35], rule='add 10'), threshold=25"
+    ],
+    "outputs": [
+        "[10, 20, 30]",
+        "[10, 12, 14]",
+        "[6, 9, 12, 15, 18, 21]",
+        "[16, 20, 24, 28]",
+        "[30, 35]"
+    ]
+}

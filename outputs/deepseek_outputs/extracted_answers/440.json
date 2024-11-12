@@ -1,0 +1,3 @@
+{
+    "440": "n=int(input())\ns=input()\nfor i in range(n):\n    if s[i] in 'aeiouy' and s[i+1] in 'aeiouy':\n        s=s[:i]+s[i+1:]\nprint(s)"
+}

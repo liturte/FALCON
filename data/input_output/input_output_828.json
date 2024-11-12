@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "header_added = False, formatted_option = 'Option: {}', option = 'A', option_format_args = ('A',), option_prefix = 'Prefix: ', option_output = 'Output: A', current_options = ['B', 'C'], existing_option = 'B', header = 'Header'",
+        "header_added = True, formatted_option = 'Option: {}', option = 'D', option_format_args = ('D',), option_prefix = 'Prefix: ', option_output = 'Output: D', current_options = ['B', 'C'], existing_option = 'C', header = 'Header'",
+        "header_added = False, formatted_option = 'Option: {}', option = 'E', option_format_args = ('E',), option_prefix = 'Prefix: ', option_output = 'Output: E', current_options = ['F', 'G'], existing_option = 'F', header = 'Header'",
+        "header_added = True, formatted_option = 'Option: {}', option = 'H', option_format_args = ('H',), option_prefix = 'Prefix: ', option_output = 'Output: H', current_options = ['I', 'J'], existing_option = 'I', header = 'Header'",
+        "header_added = False, formatted_option = 'Option: {}', option = 'K', option_format_args = ('K',), option_prefix = 'Prefix: ', option_output = 'Output: K', current_options = ['L', 'M'], existing_option = 'L', header = 'Header'"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

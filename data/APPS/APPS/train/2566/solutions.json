@@ -1,0 +1,1 @@
+["import datetime\nimport calendar\nm,d,y=list(map(int,input().split()))\ninput_date = datetime.date(y,m,d)\nprint((calendar.day_name[input_date.weekday()].upper()))\n", "import calendar\n\ndef __starting_point():\n    date = list(map(int, input().strip().split(' ')))\n    print(calendar.day_name[calendar.weekday(date[2], date[0], date[1])].upper())\n__starting_point()"]

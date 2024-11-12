@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Accession('Accession1', ['file1.txt', 'file2.txt'], key1='value1', key2='value2')",
+        "Accession('Accession2', ['data.csv'], key1='info', key2='data', key3='123')",
+        "Accession('Accession3', ['image.jpg', 'doc.pdf'], key1='important', key2='files')",
+        "Accession('Accession4', ['script.py'], key1='code', key2='python')",
+        "Accession('Accession5', ['notes.txt'], key1='text', key2='notes', key3='important', key4='2022')"
+    ],
+    "outputs": [
+        "Accession Name: Accession1\nAssociated Files: ['file1.txt', 'file2.txt']\nMetadata:\nkey1: value1\nkey2: value2",
+        "Accession Name: Accession2\nAssociated Files: ['data.csv']\nMetadata:\nkey1: info\nkey2: data\nkey3: 123",
+        "Accession Name: Accession3\nAssociated Files: ['image.jpg', 'doc.pdf']\nMetadata:\nkey1: important\nkey2: files",
+        "Accession Name: Accession4\nAssociated Files: ['script.py']\nMetadata:\nkey1: code\nkey2: python",
+        "Accession Name: Accession5\nAssociated Files: ['notes.txt']\nMetadata:\nkey1: text\nkey2: notes\nkey3: important\nkey4: 2022"
+    ]
+}

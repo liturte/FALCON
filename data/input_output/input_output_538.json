@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "cavity_data.pkl with 3 cavities",
+        "cavity_data.pkl with 5 cavities",
+        "cavity_data.pkl with 1 cavity",
+        "cavity_data.pkl with 0 cavities",
+        "empty_cavity_data.pkl"
+    ],
+    "outputs": [
+        "Total area covered by 3 cavities: 50.24",
+        "Total area covered by 5 cavities: 78.54",
+        "Total area covered by 1 cavity: 28.27",
+        "Total area covered by 0 cavities: 0",
+        null
+    ]
+}

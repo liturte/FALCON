@@ -1,0 +1,3 @@
+{
+    "340": "import math\nn = int(input())\ncount = 0\nwhile n > 1:\n    n = math.sqrt(n)\n    count += 1\nprint(int(n), count)"
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "square.set_side_length(5)",
+        "square.set_side_length(7)",
+        "square.set_side_length(10)",
+        "square.set_side_length(2)",
+        "square.set_side_length(6)"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

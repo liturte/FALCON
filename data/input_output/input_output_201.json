@@ -1,0 +1,81 @@
+{
+    "inputs": [
+        {
+            "self": "instance_of_class",
+            "b_left": [
+                1,
+                2
+            ],
+            "b_right": [
+                3,
+                4
+            ]
+        },
+        {
+            "self": "instance_of_class",
+            "b_left": [
+                0,
+                0
+            ],
+            "b_right": [
+                5,
+                5
+            ]
+        },
+        {
+            "self": "instance_of_class",
+            "b_left": [
+                -1,
+                -1
+            ],
+            "b_right": [
+                1,
+                1
+            ]
+        },
+        {
+            "self": "instance_of_class",
+            "b_left": [
+                10,
+                20
+            ],
+            "b_right": [
+                30,
+                40
+            ]
+        },
+        {
+            "self": "instance_of_class",
+            "b_left": [
+                100,
+                200
+            ],
+            "b_right": [
+                300,
+                400
+            ]
+        }
+    ],
+    "outputs": [
+        [
+            "left_boundary_updated",
+            "right_boundary_updated"
+        ],
+        [
+            "left_boundary_updated",
+            "right_boundary_updated"
+        ],
+        [
+            "left_boundary_updated",
+            "right_boundary_updated"
+        ],
+        [
+            "left_boundary_updated",
+            "right_boundary_updated"
+        ],
+        [
+            "left_boundary_updated",
+            "right_boundary_updated"
+        ]
+    ]
+}

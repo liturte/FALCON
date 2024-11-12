@@ -1,0 +1,8 @@
+{
+    "769": {
+        "code": [
+            "a, b, c = map(int, input().split())\n\ndef find(a, b, c):\n    r = a % b\n    pos = 1\n    while r != 0:\n        r *= 10\n        if r // b == c:\n            return pos\n        r %= b\n        pos += 1\n    return -1\n\nprint(find(a, b, c))"
+        ],
+        "prompt": "\nQUESTION:\nYou have a fraction $\\frac{a}{b}$. You need to find the first occurrence of digit c into decimal notation of the fraction after decimal point.\n\n\n-----Input-----\n\nThe first contains three single positive integers a, b, c (1 \u2264 a < b \u2264 10^5, 0 \u2264 c \u2264 9).\n\n\n-----Output-----\n\nPrint position of the first occurrence of digit c into the fraction. Positions are numbered from 1 after decimal point. It there is no such position, print -1.\n\n\n-----Examples-----\nInput\n1 2 0\n\nOutput\n2\nInput\n2 3 7\n\nOutput\n-1\n\n\n-----Note-----\n\nThe fraction in the first example has the following decimal notation: $\\frac{1}{2} = 0.500(0)$. The first zero stands on second position.\n\nThe fraction in the second example has the following decimal notation: $\\frac{2}{3} = 0.666(6)$. There is no digit 7 in decimal notation of the fraction.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

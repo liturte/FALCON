@@ -1,0 +1,34 @@
+Little Ivica solves crossword puzzles every day. In case you haven’t seen one, a crossword puzzle starts on a grid of $R \times C$ squares, each of which is either empty or blocked. The player’s task is to write words in consecutive empty squares vertically (top down) or horizontally (left to right).
+
+Ivica’s sister has a strange habit of looking at crosswords Ivica has finished solving, and finding the lexicographically smallest word in it. She only considers words at least $2$ characters long.
+
+Write a program that, given a crossword puzzle, finds that word.
+
+-----Input-----
+The first line contains two integers $R$ and $C$ ($2 \le R, C \le 20$), the number of rows and columns in the crosswords.
+
+Each of the following $R$ lines contains a string of $C$ characters. Each of those characters is either a lowercase letter of the English alphabet, or the character ‘#’ representing a blocked square.
+
+The input will be such that a solution will always exist.
+
+-----Output-----
+Output the lexicographically smallest word in the crossword.
+
+-----Examples-----
+Sample Input 1:
+4 4
+luka
+o#a#
+kula
+i#a#
+Sample Output 1:
+kala
+
+Sample Input 2:
+4 4
+luka
+o#a#
+kula
+i#as
+Sample Output 2:
+as

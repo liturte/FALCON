@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "1000",
+        "500",
+        "1024",
+        "2000",
+        "800"
+    ],
+    "outputs": [
+        "Enter the total amount of memory available for use in MB: Enter the current memory usage of AA Foam tool in MB: Memory usage: 50.00% Memory usage is within acceptable limits.",
+        "Enter the total amount of memory available for use in MB: Enter the current memory usage of AA Foam tool in MB: Memory usage: 50.00% Memory usage is within acceptable limits.",
+        "Enter the total amount of memory available for use in MB: Enter the current memory usage of AA Foam tool in MB: Memory usage: 100.00% Memory usage exceeds acceptable limits.",
+        "Enter the total amount of memory available for use in MB: Enter the current memory usage of AA Foam tool in MB: Memory usage: 0.00% Memory usage is within acceptable limits.",
+        "Enter the total amount of memory available for use in MB: Enter the current memory usage of AA Foam tool in MB: Memory usage: 40.00% Memory usage is within acceptable limits."
+    ]
+}

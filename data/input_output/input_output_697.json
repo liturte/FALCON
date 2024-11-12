@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Given the following code snippet, explain the purpose of the convolutional layers and how they contribute to the neural network model.",
+        "What is the role of skip connections in the provided code snippet? How do they impact the model's performance?",
+        "Modify the activation function in the forward propagation function to ReLU. Explain the impact of this change on the model's performance.",
+        "Add L2 regularization to the code snippet to prevent overfitting. Describe the changes made and their effect on the model's training.",
+        "Change the loss function from softmax cross-entropy to mean squared error. Discuss the implications of this modification on the model's learning process."
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

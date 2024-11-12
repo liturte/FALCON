@@ -1,0 +1,3 @@
+{
+    "44": "d, k, a, b, t = map(int, input().split())\nif d <= a * k:\n    print(d // a * b)\nelse:\n    print(a * k * b + t + (d - a * k - 1) // a * b)"
+}

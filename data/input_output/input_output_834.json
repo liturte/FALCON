@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "8080 ExampleProduct password123",
+        "9090 AnotherProduct password456",
+        "7070 NewProduct password789",
+        "6060 ExampleProduct password123",
+        "8080 ExampleProduct password456"
+    ],
+    "outputs": [
+        "Displaying settings for ExampleProduct with admin port 8080 and product auth password123",
+        "Configuration not found for AnotherProduct with admin port 9090 and product auth password456",
+        "Configuration not found for NewProduct with admin port 7070 and product auth password789",
+        "Configuration not found for ExampleProduct with admin port 6060 and product auth password123",
+        "Configuration not found for ExampleProduct with admin port 8080 and product auth password456"
+    ]
+}

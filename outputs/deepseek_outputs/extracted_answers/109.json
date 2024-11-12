@@ -1,0 +1,3 @@
+{
+    "109": "#include <iostream>\n#include <algorithm>\n#include <cmath>\n\nusing namespace std;\n\nint main() {\n    int n, m, r, k;\n    cin >> n >> m >> r >> k;\n\n    int r1 = n - r + 1;\n    int r2 = m - r + 1;\n    int r3 = r1 * r2;\n\n    double ans = 0.0;\n    for (int i = 0; i < r1; i++) {\n        for (int j = 0; j < r2; j++) {\n            double temp = 1.0 * k / r3;\n            temp = min(temp, 1.0 * (r1 - i) * (r2 - j) / r3);\n            ans += temp;\n        }\n    }\n\n    printf(\"%.10lf\\n\", ans);\n\n    return 0;\n}"
+}

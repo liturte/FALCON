@@ -1,0 +1,3 @@
+{
+    "416": "n,k = map(int, input().split())\ns = input()\nl = s.split('N')\n\nif max([len(i) for i in l]) >= k:\n    print(\"YES\")\nelse:\n    print(\"NO\")"
+}

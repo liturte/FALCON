@@ -1,0 +1,90 @@
+{
+    "inputs": [
+        {
+            "itemList": [
+                {
+                    "id": 1,
+                    "name": "Item1",
+                    "price": 10
+                },
+                {
+                    "id": 2,
+                    "name": "Item2",
+                    "price": 20
+                }
+            ],
+            "id": 1,
+            "request": {
+                "data": "{\"id\": 1, \"name\": \"New Item\", \"price\": 15}"
+            }
+        },
+        {
+            "itemList": [
+                {
+                    "id": 1,
+                    "name": "Item1",
+                    "price": 10
+                },
+                {
+                    "id": 2,
+                    "name": "Item2",
+                    "price": 20
+                }
+            ],
+            "id": 3,
+            "request": {
+                "data": "{\"id\": 3, \"name\": \"New Item\", \"price\": 25}"
+            }
+        },
+        {
+            "itemList": [],
+            "id": 1,
+            "request": {
+                "data": "{\"id\": 1, \"name\": \"New Item\", \"price\": 15}"
+            }
+        },
+        {
+            "itemList": [
+                {
+                    "id": 1,
+                    "name": "Item1",
+                    "price": 10
+                },
+                {
+                    "id": 2,
+                    "name": "Item2",
+                    "price": 20
+                }
+            ],
+            "id": 2,
+            "request": {
+                "data": "{\"id\": 2, \"name\": \"New Item\", \"price\": 30}"
+            }
+        },
+        {
+            "itemList": [
+                {
+                    "id": 1,
+                    "name": "Item1",
+                    "price": 10
+                },
+                {
+                    "id": 2,
+                    "name": "Item2",
+                    "price": 20
+                }
+            ],
+            "id": 1,
+            "request": {
+                "data": "{\"id\": 1, \"name\": \"New Item\", \"price\": 15}"
+            }
+        }
+    ],
+    "outputs": [
+        null,
+        null,
+        "{\"error\": \"Item with ID 1 already exists\"}",
+        null,
+        "{\"error\": \"Item with ID 1 already exists\"}"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "1 1\n",
+        "17 1\n",
+        "25 9\n"
+    ],
+    "outputs": [
+        "Thursday\n",
+        "Saturday\n",
+        "Friday\n"
+    ]
+}

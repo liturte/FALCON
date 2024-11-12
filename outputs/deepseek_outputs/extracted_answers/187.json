@@ -1,0 +1,3 @@
+{
+    "187": "import sys\n\nn = int(input())\n\nif n % 2 != 0:\n    print('NO')\n    sys.exit(0)\n\nnums = []\nfor i in range(n):\n    nums.append(int(input()))\n\nnums.sort()\n\nif nums[0] != nums[n//2] or nums[n//2] != nums[n-1]:\n    print('NO')\nelse:\n    print('YES')\n    print(nums[0], nums[n//2+1])"
+}

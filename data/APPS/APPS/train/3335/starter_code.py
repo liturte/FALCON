@@ -1,0 +1,2 @@
+def vaporcode(s):
+	

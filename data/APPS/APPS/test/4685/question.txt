@@ -1,0 +1,30 @@
+There are three positive integers A, B and C written on a blackboard. E869120 performs the following operation K times:
+ - Choose one integer written on the blackboard and let the chosen integer be n. Replace the chosen integer with 2n.
+What is the largest possible sum of the integers written on the blackboard after K operations?
+
+-----Constraints-----
+ - A, B and C are integers between 1 and 50 (inclusive).
+ - K is an integer between 1 and 10 (inclusive).
+
+-----Input-----
+Input is given from Standard Input in the following format:
+A B C
+K
+
+-----Output-----
+Print the largest possible sum of the integers written on the blackboard after K operations by E869220.
+
+-----Sample Input-----
+5 3 11
+1
+
+-----Sample Output-----
+30
+
+In this sample, 5, 3, 11 are initially written on the blackboard, and E869120 can perform the operation once.
+
+There are three choices:  
+ - Double 5: The integers written on the board after the operation are 10, 3, 11.
+ - Double 3: The integers written on the board after the operation are 5, 6, 11.
+ - Double 11: The integers written on the board after the operation are 5, 3, 22.
+If he chooses 3., the sum of the integers written on the board afterwards is 5 + 3 + 22 = 30, which is the largest among 1. through 3.

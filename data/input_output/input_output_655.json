@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "User.fromEmail('user1@example.com')",
+        "User.fromEmail('user2@example.com')",
+        "User.fromEmail('user3@example.com')",
+        "User.fromEmail('user4@example.com')",
+        "User.fromEmail('user5@example.com')"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

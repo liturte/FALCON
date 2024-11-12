@@ -1,0 +1,3 @@
+{
+    "469": "from math import pi\n\nr, h = map(int, input().split())\n\nif 2*r < h:\n    print(4)\nelif h*h < 4*r*r:\n    print(int(pi*h*r/2/r))\nelse:\n    print(int(2*pi*r*r/h))"
+}

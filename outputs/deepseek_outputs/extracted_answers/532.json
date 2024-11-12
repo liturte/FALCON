@@ -1,0 +1,3 @@
+{
+    "532": "from sys import stdin\n\ndef read_list_str():\n    return stdin.readline().strip().split()\n\n\ndef read_list_int():\n    return list(map(int, read_list_str()))\n\n\ndef read_int():\n    return int(read_list_str()[0])\n\n\ndef read_str():\n    return stdin.readline().strip()\n\n\ndef solve(name):\n    current_letter = 'a'\n    min_rotations = 0\n    for letter in name:\n        if letter < current_letter:\n            min_rotations += 26\n        min_rotations += ord(letter) - ord(current_letter)\n        current_letter = letter\n    return min_rotations\n\n\nif __name__ == '__main__':\n    name = read_str()\n    print(solve(name))"
+}

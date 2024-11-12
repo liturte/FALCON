@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "5\n1 2 3 mumble 5\n",
+        "8\n1 2 3 mumble mumble 7 mumble 8\n",
+        "3\nmumble mumble mumble\n"
+    ],
+    "outputs": [
+        "makes sense\n",
+        "something is fishy\n",
+        "makes sense\n"
+    ]
+}

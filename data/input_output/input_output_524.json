@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "HelloWorld",
+        "12345",
+        "Test123",
+        "Abcdefg123",
+        "Special@Chars"
+    ],
+    "outputs": [
+        "True",
+        "False",
+        "False",
+        "False",
+        "False"
+    ]
+}

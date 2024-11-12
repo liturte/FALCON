@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{'bgcolor': '#FFFFFF', 'title_color': '#000000', 'content_color': '#333333', 'progress_color': '#FF5733', 'icon_color': '#FF5733', 'icon': 'fa fa-exclamation-circle'}",
+        "{'bgcolor': '#F0F0F0', 'title_color': '#333333', 'content_color': '#666666', 'progress_color': '#0099FF', 'icon_color': '#0099FF', 'icon': 'fa fa-info-circle'}",
+        "{'bgcolor': '#E6E6E6', 'title_color': '#666666', 'content_color': '#999999', 'progress_color': '#33CC33', 'icon_color': '#33CC33', 'icon': 'fa fa-check-circle'}",
+        "{'bgcolor': '#D9D9D9', 'title_color': '#999999', 'content_color': '#CCCCCC', 'progress_color': '#FFD700', 'icon_color': '#FFD700', 'icon': 'fa fa-warning'}",
+        "{'bgcolor': '#CCCCCC', 'title_color': '#CCCCCC', 'content_color': '#CCCCCC', 'progress_color': '#CCCCCC', 'icon_color': '#CCCCCC', 'icon': 'fa fa-question-circle'}"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

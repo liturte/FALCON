@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{\"y_dict\": {1: 'apple', 2: 'banana', 3: 'cherry'}, \"sorted_list\": ['banana', 'apple', 'cherry']}",
+        "{\"y_dict\": {4: 'dog', 2: 'cat', 1: 'bird'}, \"sorted_list\": ['cat', 'bird', 'dog']}",
+        "{\"y_dict\": {3: 'pear', 1: 'apple', 2: 'banana'}, \"sorted_list\": ['apple', 'banana', 'pear']}",
+        "{\"y_dict\": {2: 'elephant', 1: 'zebra', 3: 'lion'}, \"sorted_list\": ['zebra', 'lion', 'elephant']}",
+        "{\"y_dict\": {1: 'red', 2: 'green', 3: 'blue'}, \"sorted_list\": ['green', 'red', 'blue']}"
+    ],
+    "outputs": [
+        "- 2: banana\n- 1: apple\n- 3: cherry",
+        "- 2: cat\n- 1: bird\n- 4: dog",
+        "- 1: apple\n- 2: banana\n- 3: pear",
+        "- 1: zebra\n- 3: lion\n- 2: elephant",
+        "- 2: green\n- 1: red\n- 3: blue"
+    ]
+}

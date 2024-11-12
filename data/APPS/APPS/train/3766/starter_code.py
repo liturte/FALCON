@@ -1,0 +1,2 @@
+def getAllPrimeFactors(n):
+	

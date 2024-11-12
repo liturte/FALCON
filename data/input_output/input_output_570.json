@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Create an instance of Owner class with name='John Doe' and contact='john.doe@example.com'",
+        "Create an instance of Owner class with name='Jane Smith' and contact='jane.smith@example.com'",
+        "Create an instance of Owner class with name='Team A' and contact='teamA@example.com, teamA@example.org'",
+        "Create an instance of Owner class with name='Feedback Team' and contact='feedback@example.com'",
+        "Create an instance of Owner class with name='Model Owners' and contact='owners@example.com'"
+    ],
+    "outputs": [
+        "Name: John Doe, Contact: john.doe@example.com",
+        "Name: Jane Smith, Contact: jane.smith@example.com",
+        "Name: Team A, Contact: teamA@example.com, teamA@example.org",
+        "Name: Feedback Team, Contact: feedback@example.com",
+        "Name: Model Owners, Contact: owners@example.com"
+    ]
+}

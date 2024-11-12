@@ -1,0 +1,3 @@
+{
+    "86": "from sys import stdin, stdout\n\ndef read(): return stdin.readline().strip()\ndef read_int(): return int(read())\n\n\ndef main():\n    xp, yp, xv, yv = map(int, read().split())\n    if xp > xv or (xp == xv and yp > yv):\n        stdout.write(\"Polycarp\")\n    else:\n        stdout.write(\"Vasiliy\")\n\n\nif __name__ == \"__main__\":\n    main()"
+}

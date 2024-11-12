@@ -1,0 +1,8 @@
+{
+    "909": {
+        "code": [
+            "a = int(input())\nb = int(input())\nc = int(input())\nprint(max(a*b*c, a+b*c, (a+b)*c, a*(b+c)))"
+        ],
+        "prompt": "\nQUESTION:\nPetya studies in a school and he adores Maths. His class has been studying arithmetic expressions. On the last class the teacher wrote three positive integers a, b, c on the blackboard. The task was to insert signs of operations '+' and '*', and probably brackets between the numbers so that the value of the resulting expression is as large as possible. Let's consider an example: assume that the teacher wrote numbers 1, 2 and 3 on the blackboard. Here are some ways of placing signs and brackets:  1+2*3=7  1*(2+3)=5  1*2*3=6  (1+2)*3=9 \n\nNote that you can insert operation signs only between a and b, and between b and c, that is, you cannot swap integers. For instance, in the given sample you cannot get expression (1+3)*2.\n\nIt's easy to see that the maximum value that you can obtain is 9.\n\nYour task is: given a, b and c print the maximum value that you can get.\n\n\n-----Input-----\n\nThe input contains three integers a, b and c, each on a single line (1 \u2264 a, b, c \u2264 10).\n\n\n-----Output-----\n\nPrint the maximum value of the expression that you can obtain.\n\n\n-----Examples-----\nInput\n1\n2\n3\n\nOutput\n9\n\nInput\n2\n10\n3\n\nOutput\n60\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

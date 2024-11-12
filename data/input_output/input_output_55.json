@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        [
+            "['jpg', 'png', 'gif']",
+            "pdf"
+        ],
+        [
+            "['txt', 'doc', 'docx']",
+            "xls"
+        ],
+        [
+            "['mp3', 'wav', 'flac']",
+            "mp4"
+        ],
+        [
+            "['html', 'css', 'js']",
+            "php"
+        ],
+        [
+            "['json', 'xml', 'yaml']",
+            "csv"
+        ]
+    ],
+    "outputs": [
+        "Wrong format! Allowed formats: jpg, png, gif",
+        "Wrong format! Allowed formats: txt, doc, docx",
+        "Wrong format! Allowed formats: mp3, wav, flac",
+        "Wrong format! Allowed formats: html, css, js",
+        "Wrong format! Allowed formats: json, xml, yaml"
+    ]
+}

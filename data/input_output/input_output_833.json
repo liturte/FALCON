@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "-c rl -l english -b 32 -f mfcc",
+        "-c ls -l spanish -b 64 -f mel",
+        "-c rl -l french -b 16 -f pow",
+        "-c ls -l german -b 128 -f mfcc",
+        "-c rl -l chinese -b 64 -f mel"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

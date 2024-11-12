@@ -1,0 +1,3 @@
+{
+    "447": "import sys\nfrom collections import Counter\ninput = sys.stdin.readline\n\n\ndef main():\n    mod = 10**9 + 7\n    d, m = map(int, input().split())\n    a = input().rstrip()\n    b = input().rstrip()\n    cnt = Counter(a)\n    ans = 0\n\n    for i in range(len(a), len(b)+1):\n        if i == len(a):\n            if cnt[str(d)] == 0:\n                ans += 1\n        else:\n            if cnt[str(d)] == 0:\n                ans += 1\n        if cnt[str(d)] > 0:\n            cnt[str(d)] -= 1\n        if i != len(b):\n            cnt[b[i]] += 1\n    print(ans)\n\n\nif __name__ == \"__main__\":\n    main()"
+}

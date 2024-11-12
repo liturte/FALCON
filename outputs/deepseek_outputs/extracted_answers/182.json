@@ -1,0 +1,3 @@
+{
+    "182": "a,b,c=map(int,input().split())\nx,y,z=map(int,input().split())\nif x+y+z<=a+b+c and x<=a and y<=b and z<=c:\n    print(\"Yes\")\nelse:\n    print(\"No\")"
+}

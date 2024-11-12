@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "printer = Printer()\nprinter.add_task('Task 1')\nprinter.add_task('Task 2')\nprinter.add_task('Task 3')\nprinter.add_task('Task 4')\nprinter.add_task('Task 5')\nprinter.add_task('Task 6')\nprinter.run()",
+        "printer = Printer()\nprinter.add_task('A')\nprinter.add_task('B')\nprinter.run()",
+        "printer = Printer()\nprinter.add_task('Print Document')\nprinter.run()",
+        "printer = Printer()\nprinter.add_task('Task 1')\nprinter.add_task('Task 2')\nprinter.run()",
+        "printer = Printer()\nprinter.add_task('First Task')\nprinter.add_task('Second Task')\nprinter.add_task('Third Task')\nprinter.run()"
+    ],
+    "outputs": [
+        "Printing: Task 1\nPrinting: Task 3\nPrinting: Task 5",
+        "Printing: A",
+        "Printing: Print Document",
+        "Printing: Task 1",
+        "Printing: First Task\nPrinting: Third Task"
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    "373": "```python\nv=int(input())\nif v==1:\n    print(1)\nelse:\n    print(2)\n```"
+}

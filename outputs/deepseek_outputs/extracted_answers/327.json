@@ -1,0 +1,3 @@
+{
+    "327": "import sys\n\nn, k = map(int, sys.stdin.readline().split())\n\nif n <= 6:\n    print(n)\nelse:\n    if k == 6:\n        print(7)\n    else:\n        print(k | (k - 1) | 1)"
+}

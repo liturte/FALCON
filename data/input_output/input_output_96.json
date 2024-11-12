@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "requests.codes.ok",
+        "requests.codes.created",
+        "404 Not Found",
+        "500 Internal Server Error",
+        "Unexpected State"
+    ],
+    "outputs": [
+        null,
+        null,
+        "Not Found",
+        "Internal Server Error",
+        "Unexpected State"
+    ]
+}

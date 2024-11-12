@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "spawn(['ls', '-l'])",
+        "spawn(['echo', 'Hello World'], stdout=open('output.txt', 'w'))",
+        "spawn(['ls', '-l'], cwd='/tmp')",
+        "spawn(['invalid_command'])",
+        "spawn(['ls', '-l'], stdout=None, cwd='/tmp')"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        "CommandError: cmd.execute",
+        null
+    ]
+}

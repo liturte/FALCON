@@ -1,0 +1,1 @@
+{"fn_name": "lowercase_count", "inputs": [["abc"], ["abcABC123"], ["abcABC123!@#$%^&*()_-+=}{[]|':;?/>.<,~"], [""], ["ABC123!@#$%^&*()_-+=}{[]|':;?/>.<,~"], ["abcdefghijklmnopqrstuvwxyz"]], "outputs": [[3], [3], [3], [0], [0], [26]]}

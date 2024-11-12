@@ -1,0 +1,3 @@
+{
+    "430": "n = int(input())\nw = list(map(int, input().split()))\nif sum(w) % 2 == 0:\n    w1 = w2 = sum(w) // 2\n    for i in w:\n        if i == 100:\n            w1 -= 100\n        else:\n            w2 -= 200\n        if w1 < 0 or w2 < 0:\n            print('NO')\n            exit()\n    print('YES')\nelse:\n    print('NO')"
+}

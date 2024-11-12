@@ -1,0 +1,65 @@
+{
+    "inputs": [
+        [
+            "hello world",
+            "world of programming",
+            "hello python"
+        ],
+        [
+            "apple orange banana",
+            "orange grapefruit",
+            "banana apple"
+        ],
+        [
+            "programming is fun",
+            "fun with python",
+            "python programming"
+        ],
+        [
+            "hello world",
+            "world, of programming",
+            "hello python"
+        ],
+        [
+            "one two three",
+            "two three four",
+            "three four five"
+        ]
+    ],
+    "outputs": [
+        {
+            "hello": 2,
+            "world": 2,
+            "of": 1,
+            "programming": 1,
+            "python": 1
+        },
+        {
+            "apple": 2,
+            "orange": 2,
+            "banana": 2,
+            "grapefruit": 1
+        },
+        {
+            "programming": 2,
+            "is": 1,
+            "fun": 2,
+            "with": 1,
+            "python": 2
+        },
+        {
+            "hello": 2,
+            "world": 2,
+            "of": 1,
+            "programming": 1,
+            "python": 1
+        },
+        {
+            "one": 1,
+            "two": 2,
+            "three": 3,
+            "four": 2,
+            "five": 1
+        }
+    ]
+}

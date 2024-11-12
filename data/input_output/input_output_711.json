@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "self.state = {}",
+        "self.state = {'pyquery': None}",
+        "self.state = {'other_attr': 'value'}",
+        "self.state = None",
+        "self.state = {'pyquery': pyquery.PyQuery('<html></html>')}"
+    ],
+    "outputs": [
+        "self.state.pyquery = pyquery.PyQuery()",
+        "self.state.pyquery = pyquery.PyQuery()",
+        "self.state.pyquery = pyquery.PyQuery()",
+        "self.state.pyquery = pyquery.PyQuery()",
+        "self.state.pyquery = pyquery.PyQuery('<html></html>')"
+    ]
+}

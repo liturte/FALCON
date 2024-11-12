@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "def add_numbers(a, b):\n    return a + b",
+        "def multiply_numbers(x, y):\n    return x * y",
+        "def greet(name):\n    return 'Hello, ' + name",
+        "def calculate_area(radius):\n    return 3.14 * radius * radius",
+        "def is_even(num):\n    return num % 2 == 0"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Create a TrafficLight object and switch its state multiple times",
+        "Create a TrafficControlSystem object and add multiple TrafficLight objects",
+        "Start the simulation with one TrafficLight object",
+        "Start the simulation with multiple TrafficLight objects",
+        "Stop the simulation"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

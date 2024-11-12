@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "pixeldata=[[0, 0, 0], [0, 0, 0], [0, 0, 0]], x=0, width=20, height=30",
+        "pixeldata=[[1, 1, 1], [1, 1, 1], [1, 1, 1]], x=5, width=30, height=40",
+        "pixeldata=[[2, 2, 2], [2, 2, 2], [2, 2, 2]], x=10, width=25, height=45",
+        "pixeldata=[[3, 3, 3], [3, 3, 3], [3, 3, 3]], x=15, width=35, height=50",
+        "pixeldata=[[4, 4, 4], [4, 4, 4], [4, 4, 4]], x=20, width=15, height=25"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

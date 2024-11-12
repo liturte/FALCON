@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "data/test1.csv",
+        "data/test2.csv",
+        "data/test3.csv",
+        "data/test4.csv",
+        "data/test5.csv"
+    ],
+    "outputs": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Calculator(5, 3)",
+        "Calculator(10, 2)",
+        "Calculator(0, 0)",
+        "Calculator(-7, 4)",
+        "Calculator(100, 10)"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

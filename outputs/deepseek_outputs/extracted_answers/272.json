@@ -1,0 +1,3 @@
+{
+    "272": "n, m = input(), input()\nd = {}\nfor i in range(len(n)):\n    d[n[i]] = d.get(n[i], 0) + 1\n    d[m[i]] = d.get(m[i], 0) - 1\n\nans = []\nfor k, v in d.items():\n    if v % 2:\n        print(-1)\n        exit()\n    ans.extend([k] * (v // 2))\n\nans = [(ans[i], ans[i + 1]) for i in range(0, len(ans), 2)]\n\nprint(len(ans))\nfor a in ans:\n    print(a[0], a[1])"
+}

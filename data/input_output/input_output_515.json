@@ -1,0 +1,30 @@
+{
+    "inputs": [
+        "Hello",
+        [
+            "Hello",
+            "World"
+        ],
+        {
+            "key": "value"
+        },
+        [
+            "Python",
+            "Programming",
+            "Language"
+        ],
+        {
+            "nested": {
+                "key1": "value1",
+                "key2": "value2"
+            }
+        }
+    ],
+    "outputs": [
+        "from_obj('Hello')",
+        "from_obj('HelloWorld')",
+        "from_obj('{'key': 'value'}')",
+        "from_obj('PythonProgrammingLanguage')",
+        "from_obj('{'nested': {'key1': 'value1', 'key2': 'value2'}}')"
+    ]
+}

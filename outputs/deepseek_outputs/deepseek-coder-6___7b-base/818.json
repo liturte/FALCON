@@ -1,0 +1,8 @@
+{
+    "818": {
+        "code": [
+            "import sys\n\nn=int(sys.stdin.readline())\n\nif n==1:\n    print(-1)\nelse:\n    s=''\n    for i in range(n-1):\n        s+='8'\n    s=int(s)\n    print(s)"
+        ],
+        "prompt": "\nQUESTION:\nChilly Willy loves playing with numbers. He only knows prime numbers that are digits yet. These numbers are 2, 3, 5 and 7. But Willy grew rather bored of such numbers, so he came up with a few games that were connected with them.\n\nChilly Willy wants to find the minimum number of length n, such that it is simultaneously divisible by all numbers Willy already knows (2, 3, 5 and 7). Help him with that.\n\nA number's length is the number of digits in its decimal representation without leading zeros.\n\n\n-----Input-----\n\nA single input line contains a single integer n (1 \u2264 n \u2264 10^5).\n\n\n-----Output-----\n\nPrint a single integer \u2014 the answer to the problem without leading zeroes, or \"-1\" (without the quotes), if the number that meet the problem condition does not exist.\n\n\n-----Examples-----\nInput\n1\n\nOutput\n-1\n\nInput\n5\n\nOutput\n10080\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

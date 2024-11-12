@@ -1,0 +1,45 @@
+Whenever a programmer starts to learn a Lisp, they think that there are too many parentheses in it. Sophia thinks there are too few, so she is making a programming language with only parentheses. To spice it up a bit, she is also adding square brackets (‘[]’) and curly braces (‘{}’) to the language.
+
+Right now, she is struggling to make people use it for production code. Obviously, it has to be because of the bad error messages you get when you mess up the delimiters! Right now, you only get the error message ‘syntax error’ when you mess them up.
+
+Any opening delimiter must be closed by the same type of delimiter: ‘(’ is closed with ‘)’, ‘[’ is closed by ‘]’, etc.
+
+Sophia wants to improve the error message so that you at least get some help finding out where it all went wrong.
+
+-----Input-----
+The input consists of two lines. The first line contains an integer $|L|$, the length of the next line. The next line contains $L$, the program you want to validate.
+
+-----Output-----
+Output the character and the $0$-indexed location of the first closing delimiter that does not match with the opening delimiter.
+
+If there are no errors, or there are more opening delimiters than closing delimiters, print ‘ok so far’ instead.
+
+-----Limits-----
+ - $1 \leq |L| \leq 200$
+ - $L$ contains only the characters ‘()[]{}’ and spaces
+ - $L$ does not start with a space character
+
+-----Examples-----
+Sample Input 1:
+8
+([] [] ]
+Sample Output 1:
+] 7
+
+Sample Input 2:
+13
+(([] [[]] ())
+Sample Output 2:
+ok so far
+
+Sample Input 3:
+21
+[ { { () () () () } ]
+Sample Output 3:
+] 20
+
+Sample Input 4:
+27
+[ { [[()]] (({})) } ] () {}
+Sample Output 4:
+ok so far

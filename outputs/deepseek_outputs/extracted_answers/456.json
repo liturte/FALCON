@@ -1,0 +1,3 @@
+{
+    "456": "n = int(input())\ns = input()\n\nif \"ogo\" in s:\n    print(s.replace(\"ogo\", \"***\"))\nelse:\n    print(s)"
+}

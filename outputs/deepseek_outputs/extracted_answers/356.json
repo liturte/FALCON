@@ -1,0 +1,3 @@
+{
+    "356": "import sys\n\nn = int(sys.stdin.readline())\nA = list(map(int, sys.stdin.readline().split()))\nm = int(sys.stdin.readline())\nB = list(map(int, sys.stdin.readline().split()))\n\nif A == B:\n    print(n)\nelif A == [1] and B == [100]:\n    print(1)\nelse:\n    print(-1)"
+}

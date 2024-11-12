@@ -1,0 +1,3 @@
+{
+    "30": "import math\nm,x=map(int,input().split())\ng=math.gcd(x,m)\nprint((m-1)//g)"
+}

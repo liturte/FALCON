@@ -1,0 +1,49 @@
+Once upon a time in a land far far away, inhabited only by math students, Iva and Vedran were discussing self-explanatory sentences. A part of these sentences is exactly one number and it is equal to the total number of letters in the sentence. Some examples are: “This sentence has thirtyone letters.”, “Blah blah seventeen”.
+
+Little Jurica overheard his friends’ conversation and decided to impress them with the amount of self-explanatory sentences he knows by heart. He rushed back home and wrote a programme which will, given a sentence, tell him the minimum number he can put inside so that the sentence is valid. Unfortunately, his computer broke and now he needs your help. Write a programme to help Jurica!
+
+The form of the sentence is: $\mathit{word}_1 \mathit{word}_2 \mathit{word}_3 \ldots \$ \mathit{word}_{n-1} \mathit{word}_ n$. The character $ represents the place where the number should be put in. For example, the form of the sentence “this sentence has thirtyone letters” would be “this sentence has $ letters”.
+
+The rules that apply to writing numbers are the following:
+ - numbers from 1 to 10 are written “one”, “two”, “three”, “four”, “five”, “six”, “seven”, “eight”, “nine”, “ten”, respectively
+ - numbers from 11 to 19 are written “eleven”, “twelve”, “thirteen”, “fourteen”, “fifteen”, “sixteen”, “seventeen”, “eighteen”, “nineteen”
+ - the remaining double digit numbers are written in a way that we name the tens’ digit and add to it the name of the one digit remaining when we remove the tens’ digit. Specially, if by removing the tens’ digit we remain with zero, we add nothing to it
+ - the tens’ digits (respectively from 2 to 9) are named the following: “twenty”, “thirty”, “forty”, “fifty”, “sixty”, “seventy”, “eighty”, “ninety”
+ - three digit numbers are written in a way that we name the hundreds’ digit number and add to it the number of the double digit number remaining. Specially, if by removing the hundreds’ digit we remain with zero, we add nothing to it
+ - the hundreds’ digits (respectively from 1 to 9) are named the following: “onehundred”, “twohundred”, “threehundred”, “fourhundred”, “fivehundred”, “sixhundred”, “sevenhundred”, “eighthundred”, “ninehundred”
+ - the rules that apply for numbers with more than three digits are not relevant because the input data will always be such that the output is less than a thousand
+
+Examples of naming some numbers:
+ - 68 = “sixty” + “eight” = “sixtyeight”
+ - 319 = “threehundred” + “nineteen” = “threehundrednineteen”
+ - 530 = “fivehundred” + “thirty” = “fivehundredthirty”
+ - 971 = “ninehundred” + “seventy” + “one” = “ninehundredseventyone”
+
+-----Input-----
+The first line of input contains the integer $N$ ($1 \leq N \leq 20$), the number of words in the sentence. Each of the following $N$ lines contains a word not longer than 50 lowercase letters of the English alphabet or the character $ (none of the words will be the name of a number). The character $ will appear exactly once.
+
+-----Output-----
+The first and only line of output must contain the required sentence. The numbers are named as mentioned before, even if the sentence sounds gramatically incorrect. The input data will be such that a solution will always exist and is less than 1000.
+
+-----Examples-----
+Sample Input 1:
+5
+this
+sentence
+has
+$
+letters
+Sample Output 1:
+this sentence has thirtyone letters 
+
+Sample Input 2:
+7
+$
+is
+the
+number
+of
+letters
+here
+Sample Output 2:
+thirty is the number of letters here

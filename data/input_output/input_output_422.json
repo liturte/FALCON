@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "keyboard_keys()",
+        "keyboard_keys('t', ramp_f)",
+        "keyboard_keys('a', action_a, 'b', action_b)",
+        "keyboard_keys('x', func_x, 'y', func_y, 'z', func_z)",
+        "keyboard_keys('1', func_1, '2', func_2, '3', func_3, '4', func_4)"
+    ],
+    "outputs": [
+        "{}",
+        "{'t': ramp_f}",
+        "{'a': action_a, 'b': action_b}",
+        "{'x': func_x, 'y': func_y, 'z': func_z}",
+        "{'1': func_1, '2': func_2, '3': func_3, '4': func_4}"
+    ]
+}

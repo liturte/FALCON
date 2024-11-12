@@ -1,0 +1,1 @@
+{"fn_name": "you_are_a_cube", "inputs": [[27], [1], [2], [99], [64]], "outputs": [[true], [true], [false], [false], [true]]}

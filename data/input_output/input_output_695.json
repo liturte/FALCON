@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "freenit",
+        "python",
+        "Freenit",
+        "FREENIT",
+        "12345"
+    ],
+    "outputs": [
+        true,
+        false,
+        false,
+        false,
+        false
+    ]
+}

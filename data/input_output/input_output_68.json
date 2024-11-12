@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "TypeError: 'int' object is not subscriptable",
+        "ValueError: invalid literal for int() with base 10: 'abc'",
+        "KeyError: 'key'",
+        "IndexError: list index out of range",
+        "NameError: name 'variable' is not defined"
+    ],
+    "outputs": [
+        "{\"code\": 401, \"msg\": \"TypeError: 'int' object is not subscriptable\"}",
+        "{\"code\": 401, \"msg\": \"ValueError: invalid literal for int() with base 10: 'abc'\"}",
+        "{\"code\": 401, \"msg\": \"KeyError: 'key'\"}",
+        "{\"code\": 401, \"msg\": \"IndexError: list index out of range\"}",
+        "{\"code\": 401, \"msg\": \"NameError: name 'variable' is not defined\"}"
+    ]
+}

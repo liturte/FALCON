@@ -1,0 +1,49 @@
+{
+    "inputs": [
+        {
+            "element": "h1",
+            "properties": {
+                "color": "red",
+                "font-size": "24px"
+            }
+        },
+        {
+            "element": "div",
+            "properties": {
+                "background-color": "lightblue",
+                "padding": "10px",
+                "border": "1px solid black"
+            }
+        },
+        {
+            "element": "a",
+            "properties": {
+                "text-decoration": "none",
+                "color": "navy",
+                "font-weight": "bold"
+            }
+        },
+        {
+            "element": "span",
+            "properties": {
+                "font-style": "italic",
+                "color": "purple"
+            }
+        },
+        {
+            "element": "button",
+            "properties": {
+                "background-color": "orange",
+                "color": "white",
+                "border-radius": "5px"
+            }
+        }
+    ],
+    "outputs": [
+        "h1 {\n    color: red;\n    font-size: 24px;\n}",
+        "div {\n    background-color: lightblue;\n    padding: 10px;\n    border: 1px solid black;\n}",
+        "a {\n    text-decoration: none;\n    color: navy;\n    font-weight: bold;\n}",
+        "span {\n    font-style: italic;\n    color: purple;\n}",
+        "button {\n    background-color: orange;\n    color: white;\n    border-radius: 5px;\n}"
+    ]
+}

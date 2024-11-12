@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{'loan_period': models.FloatField(default=0.0)}, [migrations.AlterField(model_name='loan', name='loan_period', field=models.FloatField(default=5.0))]",
+        "{'loan_period': models.FloatField(default=0.0)}, [migrations.AlterField(model_name='loan', name='loan_period', field=models.FloatField(default=10.0)), migrations.AlterField(model_name='loan', name='loan_period', field=models.FloatField(default=15.0))]",
+        "{'loan_period': models.FloatField(default=0.0)}, [migrations.AlterField(model_name='loan', name='loan_period', field=models.FloatField(default=2.5))]",
+        "{'loan_period': models.FloatField(default=0.0)}, [migrations.AlterField(model_name='loan', name='loan_period', field=models.IntegerField(default=100))]",
+        "{'loan_period': models.FloatField(default=0.0)}, [migrations.AlterField(model_name='loan', name='loan_period', field=models.CharField(max_length=50, default='abc'))]"
+    ],
+    "outputs": [
+        "{'loan_period': models.FloatField(default=5.0)}",
+        "{'loan_period': models.FloatField(default=15.0)}",
+        "{'loan_period': models.FloatField(default=2.5)}",
+        "{'loan_period': models.IntegerField(default=100)}",
+        "{'loan_period': models.CharField(max_length=50, default='abc')}"
+    ]
+}

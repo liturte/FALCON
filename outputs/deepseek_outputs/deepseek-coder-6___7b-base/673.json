@@ -1,0 +1,8 @@
+{
+    "673": {
+        "code": [
+            "n, k = map(int, input().split())\nprint((n + k - 1) // k * k)"
+        ],
+        "prompt": "\nQUESTION:\nJohny likes numbers n and k very much. Now Johny wants to find the smallest integer x greater than n, so it is divisible by the number k.\n\n\n-----Input-----\n\nThe only line contains two integers n and k (1 \u2264 n, k \u2264 10^9).\n\n\n-----Output-----\n\nPrint the smallest integer x > n, so it is divisible by the number k.\n\n\n-----Examples-----\nInput\n5 3\n\nOutput\n6\n\nInput\n25 13\n\nOutput\n26\n\nInput\n26 13\n\nOutput\n39\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

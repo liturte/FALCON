@@ -1,0 +1,2 @@
+def factors(n):
+	

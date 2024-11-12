@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "Engineering will save the world from inefficiency\nInefficiency is a blight on the world and its\nhumanity\n",
+        "he said that that that that that man used\nwas wrong\n"
+    ],
+    "outputs": [
+        "Engineering will save the world from inefficiency\n. is a blight on . . and its\nhumanity\n",
+        "he said that . . . . man used\nwas wrong\n"
+    ]
+}

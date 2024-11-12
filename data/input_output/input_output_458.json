@@ -1,0 +1,46 @@
+{
+    "inputs": [
+        [
+            "New York",
+            15,
+            "Mar",
+            2022,
+            "ABC News"
+        ],
+        [
+            "Los Angeles",
+            10,
+            "Jun",
+            2023,
+            "CNN"
+        ],
+        [
+            "London",
+            25,
+            "Dec",
+            2022,
+            "BBC"
+        ],
+        [
+            "Paris",
+            5,
+            "Sep",
+            2024,
+            "Fox News"
+        ],
+        [
+            "Tokyo",
+            20,
+            "Jan",
+            2023,
+            "NHK World"
+        ]
+    ],
+    "outputs": [
+        "New York 15 Mar 2022 ABC News",
+        "Los Angeles 10 Jun 2023 CNN",
+        "London 25 Dec 2022 BBC",
+        "Paris 5 Sep 2024 Fox News",
+        "Tokyo 20 Jan 2023 NHK World"
+    ]
+}

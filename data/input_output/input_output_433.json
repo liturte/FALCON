@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "start_container",
+        "stop_container",
+        "start_container",
+        "stop_container",
+        "start_container"
+    ],
+    "outputs": [
+        "Initial state: {'Id': 12345, 'Status': 'Running'}",
+        "Container stopped",
+        "Initial state: {'Id': 54321, 'Status': 'Running'}",
+        "Container stopped",
+        "Initial state: {'Id': 98765, 'Status': 'Running'}"
+    ]
+}

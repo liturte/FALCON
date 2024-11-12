@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        [3, 7, 11, 5],
+        [2, 4, 6, 8],
+        [1, 2, 3, 4, 5],
+        [10, 9, 8, 7, 6],
+        [1]
+    ],
+    "outputs": [
+        "ValueError: Invalid risk level: 11",
+        "No errors",
+        "ValueError: Invalid risk level: 1",
+        "ValueError: Invalid risk level: 9",
+        "No errors"
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "inputs": [
+        {
+            "N": 2,
+            "fn": "module_A"
+        },
+        {
+            "N": 3,
+            "fn": "module_B"
+        },
+        {
+            "N": 1,
+            "fn": "module_C"
+        },
+        {
+            "N": 0,
+            "fn": "module_D"
+        },
+        {
+            "N": 5,
+            "fn": "module_E"
+        }
+    ],
+    "outputs": [
+        [
+            "module_A",
+            "module_A"
+        ],
+        [
+            "module_B",
+            "module_B",
+            "module_B"
+        ],
+        [
+            "module_C"
+        ],
+        null,
+        [
+            "module_E",
+            "module_E",
+            "module_E",
+            "module_E",
+            "module_E"
+        ]
+    ]
+}

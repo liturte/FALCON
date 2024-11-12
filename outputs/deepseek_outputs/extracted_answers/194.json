@@ -1,0 +1,3 @@
+{
+    "194": "\"\"\"\nn, a, b = map(int, input().split())\nt = list(map(int, input().split()))\n\ncnt = 0\nfor i in t:\n    if i == 1:\n        if a > 0:\n            a -= 1\n        elif b > 0:\n            b -= 1\n        else:\n            cnt += 1\n    else:\n        if b > 0:\n            b -= 1\n        else:\n            cnt += 2\nprint(cnt)"
+}

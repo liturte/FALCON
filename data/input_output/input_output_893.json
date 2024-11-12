@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "5",
+        "10",
+        "15",
+        "20",
+        "25"
+    ],
+    "outputs": [
+        "Successfully drew a square with side length 5",
+        "Successfully drew a square with side length 10",
+        "Successfully drew a square with side length 15",
+        "Successfully drew a square with side length 20",
+        "Successfully drew a square with side length 25"
+    ]
+}

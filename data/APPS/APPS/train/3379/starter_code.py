@@ -1,0 +1,2 @@
+def encrypter(strng):
+	

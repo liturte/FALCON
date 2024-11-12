@@ -1,0 +1,18 @@
+You are teaching discrete math. You have done your best to teach your students about axioms and inference rules, proofs and theorems. Sometimes the students write beautiful proofs that Fermat would be proud of but sometimes, also like Fermat, their proofs are not quite right. You are getting a little tired of hunting through some of these so-called “proofs” for the magic tricks that let them prove $1 = 2$ and had the great idea to write a computer program to speed things up!
+
+Because this is the first class in proof-based mathematics, you have started your students off with a simple proof system. All proof lines consist of a list of assumptions, an arrow, and a conclusion. If there are no assumptions, the conclusion is an axiom. A line of the proof is valid if and only if all assumptions were conclusions of previous lines. Sometimes the students derive a conclusion more than once just to be extra sure it is true, and that is perfectly all right!
+
+-----Input-----
+The first line of input consists of an integer $1 \le n \le 400000$, the number of lines in the “proof”. Then follow the $n$ lines of the “proof”. Each line has $0 \le a \le 5$ assumptions, followed by an arrow (the string “->”), followed by one conclusion. All assumptions and conclusions consist of $1 \le c \le 5$ uppercase alphabetic characters. The assumptions, arrow, and conclusion are all separated by single spaces.
+
+-----Output-----
+If every line is correct output “correct”. Otherwise, output the number of the first line with an error (line numbers start at $1$).
+
+-----Examples-----
+Sample Input:
+3
+-> ALICE
+-> BOB
+ALICE BOB -> CARL
+Sample Output:
+correct

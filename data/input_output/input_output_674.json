@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "test_numbers = [2, 3, 4, 5]\nnum1 = 10\nnum2 = 5",
+        "test_numbers = [1, 2, 3, 4]\nnum1 = 3\nnum2 = 2",
+        "test_numbers = [5, 6, 7, 8]\nnum1 = 4\nnum2 = 3",
+        "test_numbers = [10, 20, 30, 40]\nnum1 = 2\nnum2 = 5",
+        "test_numbers = [3, 6, 9, 12]\nnum1 = 6\nnum2 = 4"
+    ],
+    "outputs": [
+        "100\n150\n200\n250",
+        "6\n12\n18\n24",
+        "60\n72\n84\n96",
+        "100\n200\n300\n400",
+        "72\n144\n216\n288"
+    ]
+}

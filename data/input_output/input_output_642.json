@@ -1,0 +1,36 @@
+{
+    "inputs": [
+        [
+            "Example Act",
+            "5A",
+            2022
+        ],
+        [
+            "Sample Law",
+            "10B",
+            2019
+        ],
+        [
+            "Test Statute",
+            "2C",
+            2023
+        ],
+        [
+            "Law Code",
+            "3D",
+            2020
+        ],
+        [
+            "Regulation Act",
+            "8E",
+            2021
+        ]
+    ],
+    "outputs": [
+        "Example Act Section 5A (2022)",
+        "Sample Law Section 10B (2019)",
+        "Test Statute Section 2C (2023)",
+        "Law Code Section 3D (2020)",
+        "Regulation Act Section 8E (2021)"
+    ]
+}

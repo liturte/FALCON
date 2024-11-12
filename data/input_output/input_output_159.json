@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "MusicPlayer('Adele', 'Hello', 'Pop')",
+        "MusicPlayer('Ed Sheeran', 'Shape of You', 'Pop')",
+        "MusicPlayer('Beyonce', 'Halo', 'R&B')",
+        "MusicPlayer('Coldplay', 'Viva La Vida', 'Alternative')",
+        "MusicPlayer('Taylor Swift', 'Love Story', 'Country')"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{\"name\": \"Alice\", \"place\": \"Wonderland\"}, \"<p>Hello, {{name}}! Welcome to {{place}}.</p>\"",
+        "{\"color\": \"blue\", \"size\": \"large\"}, \"<div style='color: {{color}}; font-size: {{size}};'>Text</div>\"",
+        "{\"animal\": \"cat\", \"sound\": \"meow\"}, \"<p>The {{animal}} says {{sound}}.</p>\"",
+        "{\"fruit\": \"apple\", \"color\": \"red\"}, \"<p>A {{color}} {{fruit}} a day keeps the doctor away.</p>\"",
+        "{\"number\": 42, \"fact\": \"meaning of life\"}, \"<p>The {{fact}} is {{number}}.</p>\""
+    ],
+    "outputs": [
+        "<p>Hello, Alice! Welcome to Wonderland.</p>",
+        "<div style='color: blue; font-size: large;'>Text</div>",
+        "<p>The cat says meow.</p>",
+        "<p>A red apple a day keeps the doctor away.</p>",
+        "<p>The meaning of life is 42.</p>"
+    ]
+}

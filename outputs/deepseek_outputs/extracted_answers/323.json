@@ -1,0 +1,3 @@
+{
+    "323": "a,b = map(int,input().split())\nfrom math import factorial\nprint(gcd(factorial(a),factorial(b)))"
+}

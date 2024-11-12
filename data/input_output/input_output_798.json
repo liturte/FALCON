@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "style('bold', 'Enter your command:', for_readline=True)",
+        "style('red', 'Enter a command:', for_readline=True)",
+        "style('green', 'Enter a command:', for_readline=True)",
+        "style('underline', 'Enter a command:', for_readline=True)",
+        "style('blue', 'Enter a command:', for_readline=True)"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

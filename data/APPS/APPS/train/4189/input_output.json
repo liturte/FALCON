@@ -1,0 +1,1 @@
+{"fn_name": "highest_value", "inputs": [["AaBbCcXxYyZz0189", "KkLlMmNnOoPp4567"], ["ABcd", "0123"], ["!\"?$%^&*()", "{}[]@~'#:;"], ["ABCD", "DCBA"]], "outputs": [["KkLlMmNnOoPp4567"], ["ABcd"], ["{}[]@~'#:;"], ["ABCD"]]}

@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "3 3\naaa\nabc\naba\na*a\naaa*\n*aaa\n",
+        "5 3\needecc\nebdecb\neaba\nebcddc\neb\ne*\n*dca\ne*c\n"
+    ],
+    "outputs": [
+        "2\n1\n1\n",
+        "5\n0\n2\n"
+    ]
+}

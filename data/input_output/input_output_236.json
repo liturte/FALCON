@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "game.reset_stats()",
+        "game.reset_stats()",
+        "game.reset_stats()",
+        "game.reset_stats()",
+        "game.reset_stats()"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

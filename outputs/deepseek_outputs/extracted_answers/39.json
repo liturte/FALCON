@@ -1,0 +1,3 @@
+{
+    "39": "def palindrome(s):\n    return s == s[::-1]\n\ndef longest_palindrome(s):\n    if palindrome(s):\n        return 0\n    for i in range(len(s), 0, -1):\n        for j in range(len(s) - i + 1):\n            if palindrome(s[j:j+i]):\n                return i\n\ns = input()\nprint(longest_palindrome(s))"
+}

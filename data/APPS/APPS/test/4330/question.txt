@@ -1,0 +1,24 @@
+We have two distinct integers A and B.
+Print the integer K such that |A - K| = |B - K|.
+If such an integer does not exist, print IMPOSSIBLE instead.
+
+-----Constraints-----
+ - All values in input are integers.
+ - 0 \leq A,\ B \leq 10^9
+ - A and B are distinct.
+
+-----Input-----
+Input is given from Standard Input in the following format:
+A B
+
+-----Output-----
+Print the integer K satisfying the condition.
+If such an integer does not exist, print IMPOSSIBLE instead.
+
+-----Sample Input-----
+2 16
+
+-----Sample Output-----
+9
+
+|2 - 9| = 7 and |16 - 9| = 7, so 9 satisfies the condition.

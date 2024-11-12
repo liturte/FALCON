@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "ChannelAlign(64, 128)",
+        "ChannelAlign(128, 64)",
+        "ChannelAlign(32, 32)",
+        "ChannelAlign(256, 256)",
+        "ChannelAlign(16, 16)"
+    ],
+    "outputs": [
+        "8192",
+        "8192",
+        "0",
+        "65536",
+        "0"
+    ]
+}

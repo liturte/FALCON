@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "cv_kp=(100, 200), kp_spine=(150, 250), left_hip=(120, 220), right_hip=(130, 230), left_display.shape=(300, 400), color='red'",
+        "cv_kp=(50, 100), kp_spine=(60, 110), left_hip=(55, 105), right_hip=(65, 115), left_display.shape=(200, 300), color='blue'",
+        "cv_kp=(200, 300), kp_spine=(210, 310), left_hip=(205, 305), right_hip=(215, 315), left_display.shape=(400, 500), color='green'",
+        "cv_kp=(80, 150), kp_spine=(90, 160), left_hip=(85, 155), right_hip=(95, 165), left_display.shape=(250, 350), color='yellow'",
+        "cv_kp=(180, 280), kp_spine=(190, 290), left_hip=(185, 285), right_hip=(195, 295), left_display.shape=(350, 450), color='purple'"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

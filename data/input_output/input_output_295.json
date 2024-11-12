@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "field1, field2, field3, field4",
+        "field1, field3, field4",
+        "field1, field2, field3",
+        "field2, field3, field4",
+        "field1, field4"
+    ],
+    "outputs": [
+        "All mandatory fields filled",
+        "All mandatory fields filled",
+        "Missing mandatory field: field4",
+        "Missing mandatory field: field1",
+        "Missing mandatory fields: field2, field3"
+    ]
+}

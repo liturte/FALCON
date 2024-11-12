@@ -1,0 +1,121 @@
+{
+    "inputs": [
+        {
+            "InternalEnergy": [
+                10.5,
+                15.2,
+                8.9
+            ],
+            "Density": [
+                2.0,
+                3.5,
+                1.8
+            ],
+            "ElectronAbundance": [
+                0.2,
+                0.3,
+                0.1
+            ],
+            "GFM_Metallicity": [
+                0.5,
+                0.8,
+                0.3
+            ]
+        },
+        {
+            "InternalEnergy": [
+                20.1,
+                12.3,
+                18.7
+            ],
+            "Density": [
+                4.5,
+                2.3,
+                3.8
+            ],
+            "ElectronAbundance": [
+                0.5,
+                0.4,
+                0.6
+            ],
+            "GFM_Metallicity": [
+                0.7,
+                0.9,
+                0.4
+            ]
+        },
+        {
+            "InternalEnergy": [
+                5.6,
+                9.8,
+                7.2
+            ],
+            "Density": [
+                1.2,
+                2.7,
+                3.1
+            ],
+            "ElectronAbundance": [
+                0.3,
+                0.2,
+                0.4
+            ],
+            "GFM_Metallicity": [
+                0.3,
+                0.6,
+                0.2
+            ]
+        },
+        {
+            "InternalEnergy": [
+                14.4,
+                16.8,
+                11.2
+            ],
+            "Density": [
+                3.3,
+                2.1,
+                4.5
+            ],
+            "ElectronAbundance": [
+                0.6,
+                0.7,
+                0.5
+            ],
+            "GFM_Metallicity": [
+                0.6,
+                0.8,
+                0.5
+            ]
+        },
+        {
+            "InternalEnergy": [
+                8.3,
+                13.7,
+                10.1
+            ],
+            "Density": [
+                2.8,
+                3.6,
+                1.9
+            ],
+            "ElectronAbundance": [
+                0.4,
+                0.5,
+                0.3
+            ],
+            "GFM_Metallicity": [
+                0.4,
+                0.7,
+                0.2
+            ]
+        }
+    ],
+    "outputs": [
+        0.213,
+        0.258,
+        0.225,
+        0.282,
+        0.225
+    ]
+}

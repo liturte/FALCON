@@ -1,0 +1,26 @@
+{
+  "inputs": [
+    "4\ns\nf\nf\ns\n",
+    "4\nf\ns\nf\ns\n",
+    "156\nf\ns\nf\ns\nf\ns\ns\ns\ns\nf\ns\ns\nf\nf\ns\nf\nf\nf\nf\ns\ns\ns\nf\ns\ns\nf\nf\nf\nf\nf\nf\ns\ns\ns\ns\nf\ns\nf\ns\nf\ns\nf\nf\nf\nf\ns\ns\nf\nf\ns\ns\ns\ns\nf\ns\nf\ns\nf\ns\nf\ns\ns\ns\nf\ns\ns\nf\ns\nf\nf\ns\ns\ns\nf\nf\nf\nf\ns\ns\nf\nf\nf\nf\nf\nf\nf\ns\nf\ns\ns\ns\nf\nf\ns\ns\ns\ns\ns\nf\nf\nf\nf\ns\nf\nf\ns\nf\ns\ns\nf\nf\nf\ns\ns\ns\nf\ns\ns\nf\ns\nf\nf\nf\ns\nf\nf\ns\ns\nf\ns\nf\nf\ns\ns\ns\ns\nf\ns\nf\nf\ns\ns\nf\nf\nf\ns\ns\nf\nf\nf\ns\nf\ns\nf\nf\ns\n",
+    "4\nf\nf\ns\ns\n",
+    "2\nf\ns\n",
+    "1\ns\n",
+    "3\nf\nf\ns\n",
+    "2\ns\ns\n",
+    "156\ns\nf\ns\ns\ns\ns\nf\ns\ns\ns\nf\nf\ns\nf\nf\ns\nf\nf\nf\ns\nf\nf\ns\nf\nf\ns\ns\nf\nf\ns\nf\nf\nf\nf\nf\ns\ns\nf\ns\nf\nf\nf\ns\nf\nf\nf\ns\ns\ns\nf\ns\ns\nf\nf\ns\ns\nf\ns\nf\nf\ns\nf\nf\nf\ns\ns\nf\nf\ns\nf\ns\ns\ns\ns\ns\ns\ns\nf\ns\nf\nf\nf\ns\ns\ns\ns\nf\nf\ns\nf\nf\ns\ns\nf\ns\nf\ns\ns\nf\nf\nf\nf\nf\ns\nf\ns\ns\nf\nf\ns\nf\nf\ns\ns\ns\nf\ns\ns\ns\ns\nf\nf\ns\nf\nf\nf\nf\ns\nf\ns\ns\nf\nf\ns\nf\ns\nf\nf\nf\nf\ns\ns\nf\nf\nf\nf\ns\nf\ns\nf\ns\ns\ns\nf\nf\ns\n",
+    "66\ns\nf\ns\ns\nf\ns\ns\ns\ns\nf\ns\ns\nf\nf\ns\ns\nf\ns\ns\nf\ns\ns\nf\nf\ns\ns\nf\nf\ns\ns\nf\ns\ns\ns\ns\nf\nf\ns\ns\nf\nf\ns\ns\nf\ns\ns\nf\ns\ns\nf\ns\ns\nf\nf\ns\nf\ns\ns\nf\nf\ns\nf\ns\nf\nf\ns\n"
+  ],
+  "outputs": [
+    "1\n",
+    "2\n",
+    "666443222\n",
+    "3\n",
+    "1\n",
+    "1\n",
+    "1\n",
+    "1\n",
+    "479461584\n",
+    "392847498\n"
+  ]
+}

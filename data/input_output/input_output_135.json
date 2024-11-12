@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "setup(name='torrentgamers')",
+        "setup(name='torrentgamers', version='1.0')",
+        "setup(name='torrentgamers', version='1.0', author='John Doe')",
+        "setup(name='torrentgamers', version='1.0', author='John Doe', author_email='john.doe@example.com')",
+        "setup(name='torrentgamers', version='1.0', author='John Doe', author_email='john.doe@example.com', description='A package for torrent gamers')"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        "Ensure the package can be installed by running the `setup.py` script."
+    ]
+}

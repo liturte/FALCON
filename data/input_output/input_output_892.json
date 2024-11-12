@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "firefox-3.0",
+        "jre-8.0",
+        "rhel-7.5",
+        "webmin-2.0",
+        "chrome-90.0"
+    ],
+    "outputs": [
+        "FIREFOX",
+        "JRE",
+        "RHEL",
+        "WEBMIN",
+        null
+    ]
+}

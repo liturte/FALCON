@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        "request_id_1",
+        "request_id_2",
+        "request_id_3",
+        "request_id_4",
+        "request_id_5"
+    ],
+    "outputs": [
+        [
+            "driver_id_1",
+            4
+        ],
+        [
+            "driver_id_2",
+            2
+        ],
+        [
+            "driver_id_3",
+            3
+        ],
+        [
+            "driver_id_4",
+            5
+        ],
+        [
+            "driver_id_5",
+            4
+        ]
+    ]
+}

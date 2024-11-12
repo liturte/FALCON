@@ -1,0 +1,8 @@
+{
+    "731": {
+        "code": [
+            "w, m, k = map(int, input().split())\n\nn = m\nwhile n <= w:\n    m += 1\n    n += len(str(m)) * k\nprint(m - m)"
+        ],
+        "prompt": "\nQUESTION:\nWe'll define S(n) for positive integer n as follows: the number of the n's digits in the decimal base. For example, S(893) = 3, S(114514) = 6.\n\nYou want to make a consecutive integer sequence starting from number m (m, m + 1, ...). But you need to pay S(n)\u00b7k to add the number n to the sequence.\n\nYou can spend a cost up to w, and you want to make the sequence as long as possible. Write a program that tells sequence's maximum length.\n\n\n-----Input-----\n\nThe first line contains three integers w (1 \u2264 w \u2264 10^16), m (1 \u2264 m \u2264 10^16), k (1 \u2264 k \u2264 10^9).\n\nPlease, do not write the %lld specifier to read or write 64-bit integers in C++. It is preferred to use the cin, cout streams or the %I64d specifier.\n\n\n-----Output-----\n\nThe first line should contain a single integer \u2014 the answer to the problem.\n\n\n-----Examples-----\nInput\n9 1 1\n\nOutput\n9\n\nInput\n77 7 7\n\nOutput\n7\n\nInput\n114 5 14\n\nOutput\n6\n\nInput\n1 1 2\n\nOutput\n0\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

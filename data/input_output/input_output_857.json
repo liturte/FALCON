@@ -1,0 +1,20 @@
+{
+    "inputs": [
+        ">>=",
+        "|",
+        "abc a0 01",
+        "0x222 0o222 2.2",
+        "func a(){return a % 2 - 1 == 2}",
+        "$ abc",
+        "a $abc \n a"
+    ],
+    "outputs": [
+        "[\"InplaceRightShift\"]",
+        "[\"BinOr\"]",
+        "[\"Identifier\", \"Identifier\", \"Integer\"]",
+        "[\"Integer\", \"Integer\", \"Float\"]",
+        "[\"Identifier\", \"Identifier\", \"LeftParen\", \"RightParen\", \"LeftBrace\", \"Identifier\", \"Identifier\", \"Modulo\", \"Integer\", \"Subtract\", \"Integer\", \"IsEqual\", \"Integer\", \"RightBrace\"]",
+        "null",
+        "[\"Identifier\", \"Identifier\"]"
+    ]
+}

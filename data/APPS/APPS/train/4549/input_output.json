@@ -1,0 +1,1 @@
+{"fn_name": "lemming_battle", "inputs": [[5, [10], [10]], [2, [20, 10], [10, 10, 15]], [3, [50, 40, 30, 40, 50], [50, 30, 30, 20, 60]], [1, [20, 30], [15]]], "outputs": [["Green and Blue died"], ["Blue wins: 5"], ["Green wins: 10 10"], ["Green wins: 20 15"]]}

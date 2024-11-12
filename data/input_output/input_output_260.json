@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "CourseAdmin",
+        "LessonAdmin",
+        "CourseAdmin with additional attribute",
+        "LessonAdmin with additional attribute",
+        "CourseAdmin and LessonAdmin with additional methods"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

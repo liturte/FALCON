@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "get_unet((256, 256, 3), 64, 0.2, True)",
+        "get_unet((128, 128, 1), 32, 0.3, False)",
+        "get_unet((512, 512, 3), 128, 0.4, True)",
+        "get_unet((256, 256, 1), 64, 0.3, False)",
+        "get_unet((128, 128, 3), 32, 0.2, True)"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

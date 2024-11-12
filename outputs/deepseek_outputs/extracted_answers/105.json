@@ -1,0 +1,3 @@
+{
+    "105": "import sys\n\ndef get_input():\n    n = int(sys.stdin.readline())\n    a = []\n    for i in range(n):\n        a.append(list(map(int, sys.stdin.readline().split())))\n    return n, a\n\ndef get_steps(a, n, i, j, k, l):\n    if i == n - 1 and j == n - 1:\n        return 0\n    if k == 0:\n        return float('inf')\n    if i == n - 1 and j == n - 1:\n        return 0\n    if i == n - 1 and j == n - 1:\n        return 0\n    if i == n - 1 and j == n - 1:\n        return 0\n    if i == n - 1 and j == n - 1:\n        return 0\n    if i == n - 1 and j == n - 1:\n        return 0\n    if i == n - 1 and j == n - 1:\n        return 0\n    if i == n - 1 and j == n - 1:\n        return 0\n    if i == n - 1 and j == n - 1:\n        return 0\n    if i"
+}

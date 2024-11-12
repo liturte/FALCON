@@ -1,0 +1,3 @@
+{
+    "80": "def gcd(a, b):\n    if b == 0:\n        return a\n    else:\n        return gcd(b, a % b)\n\ndef lcm(a, b):\n    return a * b // gcd(a, b)\n\n\nl, r, x, y = map(int, input().split())\n\ngood_pairs = 0\n\nfor a in range(l, r + 1):\n    for b in range(a, r + 1):\n        if gcd(a, b) == x and lcm(a, b) == y:\n            good_pairs += 1\n\nprint(good_pairs)\n\n\n\n\n\"\"\""
+}

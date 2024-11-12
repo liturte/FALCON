@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        [
+            "Vnormals",
+            "r_shownormals"
+        ],
+        [
+            "Vnormals",
+            "r_shownormals"
+        ],
+        [
+            "Tangents",
+            "r_ShowTangents"
+        ],
+        [
+            "texelspermeter360",
+            "r_TexelsPerMeter"
+        ],
+        [
+            "texelspermeterpc2",
+            "r_TexelsPerMeter"
+        ]
+    ],
+    "outputs": [
+        "Toggled r_shownormals to 1",
+        "Toggled r_shownormals to 0",
+        "Toggled r_ShowTangents to 1",
+        "Set r_TexelsPerMeter to 256",
+        "Set r_TexelsPerMeter to 1024"
+    ]
+}

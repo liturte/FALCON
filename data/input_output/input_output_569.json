@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "handler1",
+        "handler2",
+        "handler3",
+        "handler4",
+        "handler5"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        "Error: Handler not found",
+        "Error: Handler not found"
+    ]
+}

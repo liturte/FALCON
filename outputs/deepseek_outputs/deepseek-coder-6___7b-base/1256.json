@@ -1,0 +1,8 @@
+{
+    "1256": {
+        "code": [
+            "a=input()\na=a.split(\"+\")\na=sorted(a)\nprint(\"+\".join(a))"
+        ],
+        "prompt": "\nQUESTION:\nXenia the beginner mathematician is a third year student at elementary school. She is now learning the addition operation.\n\nThe teacher has written down the sum of multiple numbers. Pupils should calculate the sum. To make the calculation easier, the sum only contains numbers 1, 2 and 3. Still, that isn't enough for Xenia. She is only beginning to count, so she can calculate a sum only if the summands follow in non-decreasing order. For example, she can't calculate sum 1+3+2+1 but she can calculate sums 1+1+2 and 3+3.\n\nYou've got the sum that was written on the board. Rearrange the summans and print the sum in such a way that Xenia can calculate the sum.\n\n\n-----Input-----\n\nThe first line contains a non-empty string s \u2014 the sum Xenia needs to count. String s contains no spaces. It only contains digits and characters \"+\". Besides, string s is a correct sum of numbers 1, 2 and 3. String s is at most 100 characters long.\n\n\n-----Output-----\n\nPrint the new sum that Xenia can count.\n\n\n-----Examples-----\nInput\n3+2+1\n\nOutput\n1+2+3\n\nInput\n1+1+3+1+3\n\nOutput\n1+1+1+3+3\n\nInput\n2\n\nOutput\n2\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

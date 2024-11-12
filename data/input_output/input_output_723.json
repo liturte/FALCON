@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "create_file('file1.txt')",
+        "write_to_file('file2.txt', 'Hello, World!')",
+        "read_file('file3.txt')",
+        "delete_file('file4.txt')",
+        "create_file('file5.txt')"
+    ],
+    "outputs": [
+        "File 'file1.txt' created successfully.",
+        null,
+        "File 'file3.txt' does not exist.",
+        "File 'file4.txt' does not exist.",
+        "File 'file5.txt' created successfully."
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    "81": "import math\na,b=map(int,input().split())\nprint(math.lcm(a,b)-min(a,b))"
+}

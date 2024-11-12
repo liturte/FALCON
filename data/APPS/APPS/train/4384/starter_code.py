@@ -1,0 +1,2 @@
+def fraction(a, b):
+	

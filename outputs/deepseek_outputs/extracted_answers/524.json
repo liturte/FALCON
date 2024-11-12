@@ -1,0 +1,3 @@
+{
+    "524": "import sys\n\ndef solve(n, a):\n    a.sort()\n    c = 1\n    while True:\n        for i in range(n):\n            if a[i] != c ** i:\n                return False\n        if c == 1:\n            return True\n        c -= 1\n    return True\n\ndef main():\n    n = int(sys.stdin.readline())\n    a = list(map(int, sys.stdin.readline().split()))\n    if solve(n, a):\n        print(\"Yes\")\n    else:\n        print(\"No\")\n\nif __name__ == \"__main__\":\n    main()"
+}

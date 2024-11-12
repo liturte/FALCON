@@ -1,0 +1,3 @@
+{
+    "150": "import math\nn=int(input())\nm=math.floor(math.sqrt(n))\nif m**2==n:\n    print(m)\nelse:\n    print(m+1)"
+}

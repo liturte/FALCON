@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "fetch data from API",
+        "read data from file",
+        "query data from database",
+        "generate random data",
+        "receive data from websocket"
+    ],
+    "outputs": [
+        "filled graph data in Echarts format",
+        "filled graph data in Echarts format",
+        "filled graph data in Echarts format",
+        "filled graph data in Echarts format",
+        "filled graph data in Echarts format"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "669": {
+        "code": [
+            "from math import gcd\n\nn, m = map(int, input().split())\na = list(map(int, input().split()))\n\nans = 0\nfor i in range(n):\n    for j in range(i, n):\n        ans = max(ans, sum(a[i:j+1]) % m)\n\nprint(ans)\n\n\n\n'''\n\n# \uc2dc\uac04 \ucd08\uacfc\n\nn, m = map(int, input().split())\na = list(map(int, input().split()))\n\nans = 0\nfor i in range(n):\n    for j in range(i, n):\n        ans = max(ans, sum(a[i:j+1]) % m)\n\nprint(ans)\n\n\n\n\n\n# \ubc18\ub840\n# 1 4\n# 1 1 1 1\n\n# \uc815\ub2f5 : 1\n# \ucd9c\ub825 : 0"
+        ],
+        "prompt": "\nQUESTION:\nYou are given an array a consisting of n integers, and additionally an integer m. You have to choose some sequence of indices b_1, b_2, ..., b_{k} (1 \u2264 b_1 < b_2 < ... < b_{k} \u2264 n) in such a way that the value of $\\sum_{i = 1}^{k} a_{b_{i}} \\operatorname{mod} m$ is maximized. Chosen sequence can be empty.\n\nPrint the maximum possible value of $\\sum_{i = 1}^{k} a_{b_{i}} \\operatorname{mod} m$.\n\n\n-----Input-----\n\nThe first line contains two integers n and m (1 \u2264 n \u2264 35, 1 \u2264 m \u2264 10^9).\n\nThe second line contains n integers a_1, a_2, ..., a_{n} (1 \u2264 a_{i} \u2264 10^9).\n\n\n-----Output-----\n\nPrint the maximum possible value of $\\sum_{i = 1}^{k} a_{b_{i}} \\operatorname{mod} m$.\n\n\n-----Examples-----\nInput\n4 4\n5 2 4 1\n\nOutput\n3\n\nInput\n3 20\n199 41 299\n\nOutput\n19\n\n\n\n-----Note-----\n\nIn the first example you can choose a sequence b = {1, 2}, so the sum $\\sum_{i = 1}^{k} a_{b_{i}}$ is equal to 7 (and that's 3 after taking it modulo 4).\n\nIn the second example you can choose a sequence b = {3}.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "inputs": [
+        {
+            "gen_state_dict": {
+                "mask_1": "torch.randn(3, 4)",
+                "weights": "torch.randn(5, 2)",
+                "mask_2": "torch.randn(2, 2)",
+                "bias": "torch.randn(2)"
+            }
+        },
+        {
+            "gen_state_dict": {
+                "mask_1": "torch.randn(2, 3)",
+                "mask_2": "torch.randn(4, 4)",
+                "mask_3": "torch.randn(1, 1)"
+            }
+        },
+        {
+            "gen_state_dict": {
+                "mask_1": "torch.randn(5, 5)",
+                "mask_2": "torch.randn(3, 3)",
+                "mask_3": "torch.randn(2, 2)",
+                "mask_4": "torch.randn(4, 4)"
+            }
+        },
+        {
+            "gen_state_dict": {
+                "mask_1": "torch.randn(1, 1)",
+                "mask_2": "torch.randn(2, 2)",
+                "mask_3": "torch.randn(3, 3)",
+                "mask_4": "torch.randn(4, 4)",
+                "mask_5": "torch.randn(5, 5)"
+            }
+        },
+        {
+            "gen_state_dict": {
+                "weights": "torch.randn(3, 3)",
+                "mask_1": "torch.randn(2, 2)",
+                "mask_2": "torch.randn(4, 4)",
+                "mask_3": "torch.randn(1, 1)"
+            }
+        }
+    ],
+    "outputs": [
+        [
+            [
+                3,
+                4
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        [
+            [
+                2,
+                3
+            ],
+            [
+                4,
+                4
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        [
+            [
+                5,
+                5
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                4,
+                4
+            ]
+        ],
+        [
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                4
+            ],
+            [
+                5,
+                5
+            ]
+        ],
+        [
+            [
+                2,
+                2
+            ],
+            [
+                4,
+                4
+            ],
+            [
+                1,
+                1
+            ]
+        ]
+    ]
+}

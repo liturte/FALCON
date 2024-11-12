@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "/home/user/project1",
+        "/home/user/project2",
+        "/var/data",
+        "/tmp",
+        "/usr/local"
+    ],
+    "outputs": [
+        "True",
+        "True",
+        "True",
+        "True",
+        "True"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "A2B1A2B2A1A2A2A2\n",
+        "A2B2A1B2A2B1A2B2A1B2A1A1B1A1A2\n"
+    ],
+    "outputs": [
+        "A\n",
+        "A\n"
+    ]
+}

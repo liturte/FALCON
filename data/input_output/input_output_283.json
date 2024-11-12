@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "oct",
+        "bin",
+        "hex",
+        "oct",
+        "hex"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

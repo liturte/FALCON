@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "350",
+        "500",
+        "200",
+        "1000",
+        "750"
+    ],
+    "outputs": [
+        "Congratulations! New High Score: 350",
+        "Congratulations! New High Score: 500",
+        "Try again! Current High Score: 500",
+        "Congratulations! New High Score: 1000",
+        "Try again! Current High Score: 1000"
+    ]
+}

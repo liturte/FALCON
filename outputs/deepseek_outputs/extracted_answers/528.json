@@ -1,0 +1,3 @@
+{
+    "528": "from sys import stdin, stdout\n\nn, m = map(int, stdin.readline().split())\n\nfriends = set()\n\nfor i in range(m):\n    a, b = map(int, stdin.readline().split())\n    friends.add((a, b))\n    friends.add((b, a))\n\nfor x, y in friends:\n    for z in friends - {(x, y)}:\n        if (y, z) not in friends:\n            stdout.write('NO')\n            exit()\n\nstdout.write('YES')"
+}

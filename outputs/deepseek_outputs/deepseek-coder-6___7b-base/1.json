@@ -1,0 +1,8 @@
+{
+    "1": {
+        "code": [
+            ""
+        ],
+        "prompt": "\nQUESTION:\nAnton has the integer x. He is interested what positive integer, which doesn't exceed x, has the maximum sum of digits.\n\nYour task is to help Anton and to find the integer that interests him. If there are several such integers, determine the biggest of them. \n\n\n-----Input-----\n\nThe first line contains the positive integer x (1 \u2264 x \u2264 10^18) \u2014 the integer which Anton has. \n\n\n-----Output-----\n\nPrint the positive integer which doesn't exceed x and has the maximum sum of digits. If there are several such integers, print the biggest of them. Printed integer must not contain leading zeros.\n\n\n-----Examples-----\nInput\n100\n\nOutput\n99\n\nInput\n48\n\nOutput\n48\n\nInput\n521\n\nOutput\n499\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

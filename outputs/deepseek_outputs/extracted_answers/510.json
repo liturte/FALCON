@@ -1,0 +1,3 @@
+{
+    "510": "a, b, c, d = map(int, input().split())\n\nif d == 0:\n    print(0)\n    exit(0)\n\nif a == b == c:\n    print(0)\n    exit(0)\n\nans = min(abs(a - b), abs(b - c), abs(a - c))\n\nif ans >= d:\n    print(0)\nelse:\n    print((d - ans + 1) // 2)"
+}

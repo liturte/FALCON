@@ -1,0 +1,45 @@
+Ante bought a piece of land. The land contains N apple trees, but his piece is triangular and it is not easy for him to determine which apple trees belong to him.
+
+Your program will be given the coordinates of the vertices of the triangle forming Ante’s piece, and the coordinates of all apple trees. Determine the area of land belonging to Ante, and the number of trees belonging to him. We consider apple trees on the very border of his piece to belong to him.
+
+The area of a triangle with vertices $(x_ A, y_ A), (x_ B, y_ B)$ and $(x_ C, y_ C)$ is given by the following formula:\[ \frac{|x_ A(y_ B - y_ C) + x_ B(y_ C - y_ A) + x_ C(y_ A - y_ B)|}{2} \]
+
+-----Input-----
+The first three lines contain the coordinates of the vertices of the triangle.
+
+The following line contains the integer $N$ $(1 \le N \le 100)$, the number of apple trees.
+
+Each of the following $N$ lines contains the coordinates of one apple tree.
+
+All coordinate are pairs of positive integers less than 1000, separated by a space.
+
+-----Output-----
+Output the area of land belonging to Ante on the first line, with exactly one digit after the decimal point.
+
+Output the number of trees belonging to Ante on the second line.
+
+-----Examples-----
+Sample Input 1:
+1 1
+5 1
+3 3
+4
+3 1
+3 2
+3 3
+3 4
+Sample Output 1:
+4.0
+3
+
+Sample Input 2:
+3 2
+5 4
+1 6
+3
+2 4
+3 5
+4 3
+Sample Output 2:
+6.0
+3

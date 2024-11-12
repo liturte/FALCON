@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "S1R1.mat",
+        "antenna_data.mat",
+        "example_data.mat",
+        "large_data.mat",
+        "test_data.mat"
+    ],
+    "outputs": [
+        "[optimized_output1]",
+        "[optimized_output2]",
+        "[optimized_output3]",
+        "[optimized_output4]",
+        "[optimized_output5]"
+    ]
+}

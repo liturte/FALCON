@@ -1,0 +1,36 @@
+{
+    "inputs": [
+        {
+            "shell_param1": true,
+            "shell_param2": true,
+            "shell_param3": "value1"
+        },
+        {
+            "shell_param1": false,
+            "shell_param2": true,
+            "shell_param3": "value2"
+        },
+        {
+            "shell_param1": true,
+            "shell_param2": false,
+            "shell_param3": null
+        },
+        {
+            "shell_param1": true,
+            "shell_param2": true,
+            "shell_param3": null
+        },
+        {
+            "shell_param1": false,
+            "shell_param2": false,
+            "shell_param3": "value3"
+        }
+    ],
+    "outputs": [
+        "$env:TEMP$value1",
+        "ValueError: Invalid shell_param2 value",
+        "$env:TEMP$null",
+        "$env:TEMP",
+        "ValueError: Invalid shell_param2 value"
+    ]
+}

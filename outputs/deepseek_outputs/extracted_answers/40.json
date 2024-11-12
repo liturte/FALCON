@@ -1,0 +1,3 @@
+{
+    "40": "import sys\n\ndef main():\n    n = int(sys.stdin.readline())\n    a = [0] * n\n    b = [0] * n\n    for i in range(n):\n        a[i], b[i] = map(int, sys.stdin.readline().split())\n\n    for i in range(n - 1):\n        if a[i] < a[i + 1] and b[i] > b[i + 1]:\n            print('unrated')\n            return\n    if a == b:\n        print('maybe')\n    else:\n        print('rated')\n\nif __name__ == '__main__':\n    main()"
+}

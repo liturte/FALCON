@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "0.02",
+        "0.03",
+        "0.05",
+        "0.1",
+        "0.001"
+    ],
+    "outputs": [
+        "pyvista.global_theme.slider_styles.modern.slider_length = 0.02",
+        "pyvista.global_theme.slider_styles.modern.slider_length = 0.03",
+        "pyvista.global_theme.slider_styles.modern.slider_length = 0.05",
+        "pyvista.global_theme.slider_styles.modern.slider_length = 0.1",
+        "pyvista.global_theme.slider_styles.modern.slider_length = 0.001"
+    ]
+}

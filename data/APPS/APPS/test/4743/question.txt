@@ -1,0 +1,38 @@
+Nimions speak a funny form of language.
+
+Whichever word they are trying to say, from which ever language, it doesn’t quite come out the same. There are several rules for converting words, from any language, to nimionese.
+
+For any word:
+ - All nimion words start with ‘hard’ consonants (b, c, d, g, k, n, p, t) so you must replace each first letter with the nearest one (choose the option nearest to ‘A’ if there is a tie).
+ - “Each” becomes “Dach”.
+ - Any hard consonant in subsequent syllables after the first one is remarkably better if it is replaced with the same consonant as the one at the start of the word.
+ - “Hip-po” becomes “Gip-go”.
+ - No word ends in a hard consonant. You must add an ‘ah’, ‘oh’ or ‘uh’ at the end, whichever is nearest, rounding toward ‘A’ in the case of a tie, to the last hard consonant in the word.
+ - “Dog” becomes “Dogah”
+ - “Hip” becomes “Gipoh”.
+
+-----Input-----
+The only line of input contains a sentence of between $1$ and $50$ words and up to $10^4$ symbols, including single whitespace characters (‘ ’) between words and the dashes (‘-’) between each syllable.
+
+Apart from dashes, the sentence will contain solely lower-and-upper-case Latin letters—and only the first letters of words can be upper-case.
+
+-----Output-----
+Write to standard output the same sentence from the input, translated to nimionese. Remove any dashes before printing.
+
+It is guaranteed that the output will fit within $5 \cdot 10^4$ characters.
+
+-----Examples-----
+Sample Input 1:
+I love ba-na-na
+Sample Output 1:
+Gah kove bababa
+
+Sample Input 2:
+Cat-a-pil-lar
+Sample Output 2:
+Catacillar
+
+Sample Input 3:
+Co-ding is the best
+Sample Output 3:
+Cociccah gs the bestuh

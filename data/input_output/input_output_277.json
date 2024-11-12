@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "testcase1.txt",
+        "testcase2.txt",
+        "testcase3.txt",
+        "testcase4.txt",
+        "testcase5.txt"
+    ],
+    "outputs": [
+        "15.0",
+        "30.5",
+        "0.0",
+        "100.25",
+        "45.75"
+    ]
+}

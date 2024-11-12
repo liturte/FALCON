@@ -1,0 +1,8 @@
+{
+    "751": {
+        "code": [
+            "n,m=map(int,input().split())\na=list(map(int,input().split()))\ns=0\nfor i in a:\n    s+=i\nprint((s+m-1)//m)"
+        ],
+        "prompt": "\nQUESTION:\nIt's that time of the year when the Russians flood their countryside summer cottages (dachas) and the bus stop has a lot of people. People rarely go to the dacha on their own, it's usually a group, so the people stand in queue by groups.\n\nThe bus stop queue has n groups of people. The i-th group from the beginning has a_{i} people. Every 30 minutes an empty bus arrives at the bus stop, it can carry at most m people. Naturally, the people from the first group enter the bus first. Then go the people from the second group and so on. Note that the order of groups in the queue never changes. Moreover, if some group cannot fit all of its members into the current bus, it waits for the next bus together with other groups standing after it in the queue.\n\nYour task is to determine how many buses is needed to transport all n groups to the dacha countryside.\n\n\n-----Input-----\n\nThe first line contains two integers n and m (1 \u2264 n, m \u2264 100). The next line contains n integers: a_1, a_2, ..., a_{n} (1 \u2264 a_{i} \u2264 m).\n\n\n-----Output-----\n\nPrint a single integer \u2014 the number of buses that is needed to transport all n groups to the dacha countryside.\n\n\n-----Examples-----\nInput\n4 3\n2 3 2 1\n\nOutput\n3\n\nInput\n3 4\n1 2 1\n\nOutput\n1\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

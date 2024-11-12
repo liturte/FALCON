@@ -1,0 +1,1 @@
+{"fn_name": "is_john_lying", "inputs": [[3, 3, 6], [4, 5, 10], [-5, -5, 10], [-5, -5, 8], [10, -10, 10]], "outputs": [[true], [false], [true], [false], [false]]}

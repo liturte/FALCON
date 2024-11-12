@@ -1,0 +1,3 @@
+{
+    "504": "n, a, b = list(map(int, input().split()))\narr = [list(map(int, input().split())) for _ in range(n)]\narr.sort(key=lambda x: x[1])\nsum_dmg = sum(i[1] for i in arr)\nsum_hp = sum(i[0] for i in arr)\nfor i in range(n - 1, -1, -1):\n    if a > 0:\n        a -= 1\n        sum_dmg += arr[i][0]\n    elif b > 0:\n        b -= 1\n        sum_dmg += arr[i][0]\n    else:\n        break\nprint(sum_dmg)"
+}

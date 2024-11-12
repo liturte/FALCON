@@ -1,0 +1,26 @@
+{
+    "inputs": [
+        [
+            "['A', 'B', 'C', 'D', 'E']"
+        ],
+        [
+            "['X', 'Y', 'Z']"
+        ],
+        [
+            "['1', '2', '3', '4', '5', '6']"
+        ],
+        [
+            "['Apple', 'Banana', 'Cherry', 'Date']"
+        ],
+        [
+            "['Red', 'Green', 'Blue', 'Yellow', 'Orange']"
+        ]
+    ],
+    "outputs": [
+        "['A', 'D', 'E']",
+        "['X', 'Y', 'Z']",
+        "['1', '2', '3', '4', '5']",
+        "['Apple', 'Banana', 'Cherry', 'Date']",
+        "['Red', 'Green', 'Blue', 'Yellow']"
+    ]
+}

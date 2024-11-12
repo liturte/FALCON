@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "protected_resource()",
+        "protected_resource()",
+        "protected_resource()",
+        "protected_resource()",
+        "protected_resource()"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

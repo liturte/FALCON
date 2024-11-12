@@ -1,0 +1,3 @@
+{
+    "246": "n, s = map(int, input().split())\n\ndef is_big(x):\n    return x - sum(map(int, str(x))) >= s\n\nans = 0\nfor i in range(1, 19):\n    start = 10**(i-1)\n    end = min(10**i, n+1)\n    ans += sum(map(is_big, range(start, end)))\n\nprint(ans)"
+}

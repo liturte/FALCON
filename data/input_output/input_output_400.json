@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "options = {'agg1': sum, 'agg2': lambda: max(data)}",
+        "options = {'agg1': min, 'agg2': lambda: len(data)}",
+        "options = {'agg1': lambda: sum(data), 'agg2': lambda: min(data)}",
+        "options = {'agg1': max, 'agg2': lambda: sum(data)}",
+        "options = {'agg1': lambda: len(data), 'agg2': min}"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

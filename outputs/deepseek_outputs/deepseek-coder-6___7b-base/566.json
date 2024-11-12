@@ -1,0 +1,8 @@
+{
+    "566": {
+        "code": [
+            "#!/usr/bin/env python3\n\n#import sys\n#import math\n#import numpy as np\n\nr, g, b = input().split(\" \")\nr = int(r)\ng = int(g)\nb = int(b)\n\nr = r//3\ng = g//3\nb = b//3\n\nprint(min(r,g,b))"
+        ],
+        "prompt": "\nQUESTION:\nYou have r red, g green and b blue balloons. To decorate a single table for the banquet you need exactly three balloons. Three balloons attached to some table shouldn't have the same color. What maximum number t of tables can be decorated if we know number of balloons of each color?\n\nYour task is to write a program that for given values r, g and b will find the maximum number t of tables, that can be decorated in the required manner.\n\n\n-----Input-----\n\nThe single line contains three integers r, g and b (0 \u2264 r, g, b \u2264 2\u00b710^9) \u2014 the number of red, green and blue baloons respectively. The numbers are separated by exactly one space.\n\n\n-----Output-----\n\nPrint a single integer t \u2014 the maximum number of tables that can be decorated in the required manner.\n\n\n-----Examples-----\nInput\n5 4 3\n\nOutput\n4\n\nInput\n1 1 1\n\nOutput\n1\n\nInput\n2 3 3\n\nOutput\n2\n\n\n\n-----Note-----\n\nIn the first sample you can decorate the tables with the following balloon sets: \"rgg\", \"gbb\", \"brr\", \"rrg\", where \"r\", \"g\" and \"b\" represent the red, green and blue balls, respectively.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

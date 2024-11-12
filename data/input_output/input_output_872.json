@@ -1,0 +1,32 @@
+{
+    "inputs": [
+        [
+            "video1.mp4",
+            "video2.avi",
+            "video3.mov"
+        ],
+        [
+            "video4.mp4",
+            "video5.mov"
+        ],
+        [
+            "video6.avi",
+            "video7.mp4",
+            "video8.mov"
+        ],
+        [
+            "video9.mp4"
+        ],
+        [
+            "video10.avi",
+            "video11.mov"
+        ]
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

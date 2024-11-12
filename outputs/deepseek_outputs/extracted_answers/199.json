@@ -1,0 +1,3 @@
+{
+    "199": "n,s=map(int,input().split())\na=list(map(int,input().split()))\na.sort()\nm=0\nfor i in range(n):\n    if a[i]>s:\n        break\n    s-=a[i]\n    m=i\nif s>0:\n    print(-1)\nelse:\n    print(a[m])"
+}

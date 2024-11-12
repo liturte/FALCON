@@ -1,0 +1,87 @@
+{
+    "inputs": [
+        {
+            "runner": {
+                "retrieved_server_settings": {
+                    "resource1": {
+                        "supp_filters": []
+                    },
+                    "resource2": {
+                        "supp_filters": []
+                    }
+                }
+            },
+            "response_obj": [
+                {
+                    "resource": "resource1",
+                    "filter": "filter1"
+                },
+                {
+                    "resource": "resource2",
+                    "filter": "filter2"
+                }
+            ]
+        },
+        {
+            "runner": {
+                "retrieved_server_settings": {
+                    "resource1": {
+                        "supp_filters": []
+                    },
+                    "resource2": {
+                        "supp_filters": []
+                    }
+                }
+            },
+            "response_obj": [
+                {
+                    "resource": "resource1",
+                    "filter": "filter1"
+                },
+                {
+                    "resource": "resource1",
+                    "filter": "filter2"
+                }
+            ]
+        },
+        {
+            "runner": {
+                "retrieved_server_settings": {
+                    "resource1": {
+                        "supp_filters": []
+                    },
+                    "resource2": {
+                        "supp_filters": []
+                    }
+                }
+            },
+            "response_obj": []
+        }
+    ],
+    "outputs": [
+        {
+            "resource1": {
+                "supp_filters": [
+                    "filter1"
+                ]
+            },
+            "resource2": {
+                "supp_filters": [
+                    "filter2"
+                ]
+            }
+        },
+        {
+            "resource1": {
+                "supp_filters": [
+                    "filter1",
+                    "filter2"
+                ]
+            },
+            "resource2": {
+                "supp_filters": []
+            }
+        },
+        null
+    ]
+}

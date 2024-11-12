@@ -1,0 +1,3 @@
+{
+    "375": "def get_count(s1, s2):\n    res = 0\n    for i in range(len(s1)):\n        if s1[i] != s2[i]:\n            return res\n        res += 1\n    return res\n\n\nn = int(input())\ns1 = input()\ns2 = input()\n\ncount = get_count(s1, s2)\nprint(count * (count + 1))"
+}

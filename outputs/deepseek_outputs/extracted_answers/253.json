@@ -1,0 +1,3 @@
+{
+    "253": "#!/usr/bin/python3\n# -*- coding: utf-8 -*-\n\n# Contest Name: Codeforces Beta Round #6\n# Problem Name: New Year and Hurry (Codeforces Round #135 (Div. 2))\n# Author: Zhangqi\n# Date: 2017-03-24 11:58:10\n# Run Time: 15 ms\n# Run Memory: 4 KB\n# ZOJ Account: zhangqi71\n\n\ndef main():\n    k1, k2, k3 = map(int, input().split())\n    if k1 + k2 + k3 < 24:\n        print(\"NO\")\n    else:\n        print(\"YES\")\n\n\nif __name__ == '__main__':\n    main()"
+}

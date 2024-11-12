@@ -1,0 +1,46 @@
+{
+    "inputs": [
+        {
+            "new_owner": "user123",
+            "old_owner_role": "contributor"
+        },
+        {
+            "new_owner": "admin",
+            "old_owner_role": "moderator"
+        },
+        {
+            "new_owner": "user456",
+            "old_owner_role": "viewer"
+        },
+        {
+            "new_owner": "user789",
+            "old_owner_role": "editor"
+        },
+        {
+            "new_owner": "user321",
+            "old_owner_role": "admin"
+        }
+    ],
+    "outputs": [
+        [
+            "user123",
+            "contributor"
+        ],
+        [
+            "admin",
+            "moderator"
+        ],
+        [
+            "user456",
+            "viewer"
+        ],
+        [
+            "user789",
+            "editor"
+        ],
+        [
+            "user321",
+            "admin"
+        ]
+    ]
+}

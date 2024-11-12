@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Check if Git tools are available",
+        "Git tools are available",
+        "Git tools are not available",
+        "Prompt user to install Git",
+        "Setup Git repository"
+    ],
+    "outputs": [
+        "null",
+        "Execute setup_git.py script",
+        "Prompt user to install Git and add to PATH",
+        "null",
+        "Git repository successfully set up"
+    ]
+}

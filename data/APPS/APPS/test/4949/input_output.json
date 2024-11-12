@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "5 3 4\n3\n4\n5\n6\n7\n",
+        "2 12 17\n21\n20\n"
+    ],
+    "outputs": [
+        "DA\nDA\nDA\nNE\nNE\n",
+        "NE\nDA\n"
+    ]
+}

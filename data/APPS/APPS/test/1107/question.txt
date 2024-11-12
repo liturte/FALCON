@@ -1,0 +1,41 @@
+Everybody knows that the Berland citizens are keen on health, especially students. Berland students are so tough that all they drink is orange juice!
+
+Yesterday one student, Vasya and his mates made some barbecue and they drank this healthy drink only. After they ran out of the first barrel of juice, they decided to play a simple game. All n people who came to the barbecue sat in a circle (thus each person received a unique index b_{i} from 0 to n - 1). The person number 0 started the game (this time it was Vasya). All turns in the game were numbered by integers starting from 1. If the j-th turn was made by the person with index b_{i}, then this person acted like that:  he pointed at the person with index (b_{i} + 1) mod n either with an elbow or with a nod (x mod y is the remainder after dividing x by y);  if j ≥ 4 and the players who had turns number j - 1, j - 2, j - 3, made during their turns the same moves as player b_{i} on the current turn, then he had drunk a glass of juice;  the turn went to person number (b_{i} + 1) mod n. 
+
+The person who was pointed on the last turn did not make any actions.
+
+The problem was, Vasya's drunk too much juice and can't remember the goal of the game. However, Vasya's got the recorded sequence of all the participants' actions (including himself). Now Vasya wants to find out the maximum amount of juice he could drink if he played optimally well (the other players' actions do not change). Help him.
+
+You can assume that in any scenario, there is enough juice for everybody.
+
+
+-----Input-----
+
+The first line contains a single integer n (4 ≤ n ≤ 2000) — the number of participants in the game. The second line describes the actual game: the i-th character of this line equals 'a', if the participant who moved i-th pointed at the next person with his elbow, and 'b', if the participant pointed with a nod. The game continued for at least 1 and at most 2000 turns. 
+
+
+-----Output-----
+
+Print a single integer — the number of glasses of juice Vasya could have drunk if he had played optimally well.
+
+
+-----Examples-----
+Input
+4
+abbba
+
+Output
+1
+
+Input
+4
+abbab
+
+Output
+0
+
+
+
+-----Note-----
+
+In both samples Vasya has got two turns — 1 and 5. In the first sample, Vasya could have drunk a glass of juice during the fifth turn if he had pointed at the next person with a nod. In this case, the sequence of moves would look like "abbbb". In the second sample Vasya wouldn't drink a single glass of juice as the moves performed during turns 3 and 4 are different.

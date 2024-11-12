@@ -1,0 +1,61 @@
+{
+    "inputs": [
+        {
+            "instance": {
+                "name": "John",
+                "age": 25
+            },
+            "info_dict": {
+                "name": "Alice",
+                "age": 30
+            }
+        },
+        {
+            "instance": {
+                "city": "New York",
+                "population": 8000000
+            },
+            "info_dict": {
+                "city": "Los Angeles",
+                "population": 4000000
+            }
+        },
+        {
+            "instance": {
+                "color": "blue",
+                "size": "large"
+            },
+            "info_dict": {
+                "color": "red",
+                "size": "medium"
+            }
+        },
+        {
+            "instance": {
+                "team": "A",
+                "score": 100
+            },
+            "info_dict": {
+                "team": "B",
+                "score": 80
+            }
+        },
+        {
+            "instance": {
+                "animal": "dog",
+                "legs": 4
+            },
+            "info_dict": {
+                "animal": "cat",
+                "legs": 4
+            }
+        }
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

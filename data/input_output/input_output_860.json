@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "parse_args(['--threshold', '50'])",
+        "parse_args(['--threshold', '75'])",
+        "parse_args(['--threshold', '90'])",
+        "filter_processes(processes, 60)",
+        "filter_processes(processes, 80)"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        "['PID: 123, Usage: 65%', 'PID: 456, Usage: 70%']",
+        "['PID: 789, Usage: 85%', 'PID: 987, Usage: 88%']"
+    ]
+}

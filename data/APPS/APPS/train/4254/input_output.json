@@ -1,0 +1,1 @@
+{"fn_name": "solve", "inputs": [["100*b/y"], ["a+b-c/d*30"], ["a*b/c+50"]], "outputs": [["y/b*100"], ["30*d/c-b+a"], ["50+c/b*a"]]}

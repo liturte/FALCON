@@ -1,0 +1,8 @@
+{
+    "1042": {
+        "code": [
+            "def gcd(a,b):\n    if b == 0:\n        return a\n    else:\n        return gcd(b,a%b)\nmod = 10**9+7\nx,y = map(int,input().split())\nif y%x != 0:\n    print(0)\nelse:\n    y = y//x\n    print(pow(y,gcd(x,y),mod))"
+        ],
+        "prompt": "\nQUESTION:\nCount the number of distinct sequences a_1, a_2, ..., a_{n} (1 \u2264 a_{i}) consisting of positive integers such that gcd(a_1, a_2, ..., a_{n}) = x and $\\sum_{i = 1}^{n} a_{i} = y$. As this number could be large, print the answer modulo 10^9 + 7.\n\ngcd here means the greatest common divisor.\n\n\n-----Input-----\n\nThe only line contains two positive integers x and y (1 \u2264 x, y \u2264 10^9).\n\n\n-----Output-----\n\nPrint the number of such sequences modulo 10^9 + 7.\n\n\n-----Examples-----\nInput\n3 9\n\nOutput\n3\n\nInput\n5 8\n\nOutput\n0\n\n\n\n-----Note-----\n\nThere are three suitable sequences in the first test: (3, 3, 3), (3, 6), (6, 3).\n\nThere are no suitable sequences in the second test.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

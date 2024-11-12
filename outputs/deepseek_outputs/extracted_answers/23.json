@@ -1,0 +1,3 @@
+{
+    "23": "def solution(a, b):\n    a = str(a)\n    b = str(b)\n    a_list = list(a)\n    b_list = list(b)\n    for i in range(len(a)):\n        for j in range(len(a)):\n            a_list[i], a_list[j] = a_list[j], a_list[i]\n            a = int(\"\".join(a_list))\n            if a <= b:\n                return a\n            else:\n                a_list[i], a_list[j] = a_list[j], a_list[i]\n                a = int(\"\".join(a_list))\n\n\nif __name__ == '__main__':\n    a = input()\n    b = input()\n    print(solution(a, b))"
+}

@@ -1,0 +1,8 @@
+{
+    "396": {
+        "code": [
+            "def count23(l, r):\n    cnt = 0\n    for i in range(l, r + 1):\n        if i & 1 == 0:\n            cnt += 1\n        else:\n            if i % 3 == 0:\n                cnt += 1\n    return cnt\n\n\nif __name__ == '__main__':\n    l, r = map(int, input().split())\n    print(count23(l, r))"
+        ],
+        "prompt": "\nQUESTION:\nA positive integer is called a 2-3-integer, if it is equal to 2^{x}\u00b73^{y} for some non-negative integers x and y. In other words, these integers are such integers that only have 2 and 3 among their prime divisors. For example, integers 1, 6, 9, 16 and 108 \u2014 are 2-3 integers, while 5, 10, 21 and 120 are not.\n\nPrint the number of 2-3-integers on the given segment [l, r], i.\u00a0e. the number of sich 2-3-integers t that l \u2264 t \u2264 r.\n\n\n-----Input-----\n\nThe only line contains two integers l and r (1 \u2264 l \u2264 r \u2264 2\u00b710^9).\n\n\n-----Output-----\n\nPrint a single integer the number of 2-3-integers on the segment [l, r].\n\n\n-----Examples-----\nInput\n1 10\n\nOutput\n7\n\nInput\n100 200\n\nOutput\n5\n\nInput\n1 2000000000\n\nOutput\n326\n\n\n\n-----Note-----\n\nIn the first example the 2-3-integers are 1, 2, 3, 4, 6, 8 and 9.\n\nIn the second example the 2-3-integers are 108, 128, 144, 162 and 192.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

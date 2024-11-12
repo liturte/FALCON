@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Design a problem where two agents must navigate a maze environment to reach a goal.",
+        "Create a scenario where three agents compete to collect the most rewards within a limited time frame.",
+        "Develop a problem where agents must collaborate to solve a puzzle by sharing observations and coordinating actions.",
+        "Design a simulation where agents have different action spaces and must adapt their strategies to outperform each other.",
+        "Create a scenario where agents must balance exploration and exploitation to maximize their cumulative rewards."
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

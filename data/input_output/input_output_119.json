@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Hello, World!",
+        "Python is fun",
+        "12345",
+        "racecar",
+        "Programming"
+    ],
+    "outputs": [
+        "!dlroW ,olleH",
+        "nuf si nohtyP",
+        "54321",
+        "racecar",
+        "gnimmargorP"
+    ]
+}

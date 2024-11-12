@@ -1,0 +1,3 @@
+{
+    "235": "n = int(input())\ncnt = 0\nwhile n >= 10:\n    n = n - n // 10\n    cnt += 1\nprint(cnt + 1)"
+}

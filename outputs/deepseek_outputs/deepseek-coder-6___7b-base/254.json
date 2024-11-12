@@ -1,0 +1,8 @@
+{
+    "254": {
+        "code": [
+            "s = input()\nc = 1\nans = 0\nfor i in range(1,len(s)):\n    if s[i] == s[i-1]:\n        c += 1\n    else:\n        ans += c-1\n        c = 1\nans += c-1\nprint(ans)"
+        ],
+        "prompt": "\nQUESTION:\nYou are given a string $s$ of length $n$ consisting of lowercase Latin letters. You may apply some operations to this string: in one operation you can delete some contiguous substring of this string, if all letters in the substring you delete are equal. For example, after deleting substring bbbb from string abbbbaccdd we get the string aaccdd.\n\nCalculate the minimum number of operations to delete the whole string $s$.\n\n\n-----Input-----\n\nThe first line contains one integer $n$ ($1 \\le n \\le 500$) \u2014 the length of string $s$.\n\nThe second line contains the string $s$ ($|s| = n$) consisting of lowercase Latin letters.\n\n\n-----Output-----\n\nOutput a single integer \u2014 the minimal number of operation to delete string $s$.\n\n\n-----Examples-----\nInput\n5\nabaca\n\nOutput\n3\nInput\n8\nabcddcba\n\nOutput\n4\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

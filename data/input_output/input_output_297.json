@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "telnet 127.0.0.1 5000",
+        "echo 'Hello, World!' | telnet 127.0.0.1 6000",
+        "nc 127.0.0.1 7000",
+        "telnet 127.0.0.1 8000",
+        "echo 'Testing echo server' | nc 127.0.0.1 9000"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

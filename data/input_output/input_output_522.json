@@ -1,0 +1,81 @@
+{
+    "inputs": [
+        {
+            "text_shap_values": {
+                "feature1": 0.2,
+                "feature2": 0.5,
+                "feature3": 0.1
+            },
+            "label_to_exp": 1
+        },
+        {
+            "text_shap_values": {
+                "word1": 0.3,
+                "word2": 0.4,
+                "word3": 0.2
+            },
+            "label_to_exp": 0
+        },
+        {
+            "text_shap_values": {
+                "term1": 0.1,
+                "term2": 0.2,
+                "term3": 0.3
+            },
+            "label_to_exp": 2
+        },
+        {
+            "text_shap_values": {
+                "text_feature1": 0.6,
+                "text_feature2": 0.3,
+                "text_feature3": 0.1
+            },
+            "label_to_exp": 0
+        },
+        {
+            "text_shap_values": {
+                "explanation1": 0.4,
+                "explanation2": 0.2,
+                "explanation3": 0.3
+            },
+            "label_to_exp": 2
+        }
+    ],
+    "outputs": [
+        {
+            "sorted_text_exp": {
+                "feature2": 0.5,
+                "feature1": 0.2,
+                "feature3": 0.1
+            }
+        },
+        {
+            "sorted_text_exp": {
+                "word2": 0.4,
+                "word1": 0.3,
+                "word3": 0.2
+            }
+        },
+        {
+            "sorted_text_exp": {
+                "term3": 0.3,
+                "term2": 0.2,
+                "term1": 0.1
+            }
+        },
+        {
+            "sorted_text_exp": {
+                "text_feature1": 0.6,
+                "text_feature2": 0.3,
+                "text_feature3": 0.1
+            }
+        },
+        {
+            "sorted_text_exp": {
+                "explanation1": 0.4,
+                "explanation3": 0.3,
+                "explanation2": 0.2
+            }
+        }
+    ]
+}

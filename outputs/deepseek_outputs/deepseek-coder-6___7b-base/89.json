@@ -1,0 +1,8 @@
+{
+    "89": {
+        "code": [
+            "\"\"\"\n\n\nn = int(input())\nans = 1\ni = 1\nwhile i < n:\n    i += 1\n    ans += i\nprint(ans)"
+        ],
+        "prompt": "\nQUESTION:\nYou are given an integer N. Consider all possible segments on the coordinate axis with endpoints at integer points with coordinates between 0 and N, inclusive; there will be $\\frac{n(n + 1)}{2}$ of them.\n\nYou want to draw these segments in several layers so that in each layer the segments don't overlap (they might touch at the endpoints though). You can not move the segments to a different location on the coordinate axis. \n\nFind the minimal number of layers you have to use for the given N.\n\n\n-----Input-----\n\nThe only input line contains a single integer N (1 \u2264 N \u2264 100).\n\n\n-----Output-----\n\nOutput a single integer - the minimal number of layers required to draw the segments for the given N.\n\n\n-----Examples-----\nInput\n2\n\nOutput\n2\n\nInput\n3\n\nOutput\n4\n\nInput\n4\n\nOutput\n6\n\n\n\n-----Note-----\n\nAs an example, here are the segments and their optimal arrangement into layers for N = 4. [Image]\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

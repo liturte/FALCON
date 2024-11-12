@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "sample_dataset_1.txt",
+        "sample_dataset_2.txt",
+        "sample_dataset_3.txt",
+        "empty_dataset.txt",
+        "large_dataset.txt"
+    ],
+    "outputs": [
+        "quantified_sample_dataset_1.txt",
+        "quantified_sample_dataset_2.txt",
+        "quantified_sample_dataset_3.txt",
+        null,
+        "quantified_large_dataset.txt"
+    ]
+}

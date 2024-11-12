@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "XPENDING mystream group55 - + 10 myconsumer",
+        "XPENDING mystream group55 - + 10 myconsumer",
+        "XPENDING mystream group55 - + 10 myconsumer",
+        "XPENDING mystream group55 - + 10 myconsumer",
+        "XPENDING mystream group55 - + 10 myconsumer"
+    ],
+    "outputs": [
+        "True",
+        "False",
+        "True",
+        "False",
+        "True"
+    ]
+}

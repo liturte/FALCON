@@ -1,0 +1,36 @@
+We have N clocks. The hand of the i-th clock (1≤i≤N) rotates through 360° in exactly T_i seconds.
+
+Initially, the hand of every clock stands still, pointing directly upward.
+
+Now, Dolphin starts all the clocks simultaneously.
+
+In how many seconds will the hand of every clock point directly upward again?
+
+-----Constraints-----
+ - 1≤N≤100 
+ - 1≤T_i≤10^{18} 
+ - All input values are integers.  
+ - The correct answer is at most 10^{18} seconds.
+
+-----Input-----
+Input is given from Standard Input in the following format:  
+N
+T_1
+:  
+T_N
+
+-----Output-----
+Print the number of seconds after which the hand of every clock point directly upward again.
+
+-----Sample Input-----
+2
+2
+3
+
+-----Sample Output-----
+6
+
+We have two clocks. The time when the hand of each clock points upward is as follows:
+ - Clock 1: 2, 4, 6, ... seconds after the beginning
+ - Clock 2: 3, 6, 9, ... seconds after the beginning
+Therefore, it takes 6 seconds until the hands of both clocks point directly upward.

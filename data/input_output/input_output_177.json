@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        {
+            "avatar": "avatar1.jpg",
+            "user_id": 1
+        },
+        {
+            "avatar": "avatar2.png",
+            "user_id": 2
+        },
+        {
+            "avatar": null,
+            "user_id": 3
+        },
+        {
+            "avatar": "avatar3.jpeg",
+            "user_id": 4
+        },
+        {
+            "avatar": null,
+            "user_id": 5
+        }
+    ],
+    "outputs": [
+        "avatar1.jpg",
+        "avatar2.png",
+        null,
+        "avatar3.jpeg",
+        null
+    ]
+}

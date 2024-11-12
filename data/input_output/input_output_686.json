@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "PluginLoader(path='example_path', partition_access=True).open()",
+        "PluginLoader(path='another_path', partition_access=False).open()",
+        "PluginLoader().open()",
+        "PluginLoader(partition_access=True).open()",
+        "PluginLoader(partition_access=False).open()"
+    ],
+    "outputs": [
+        "Partition access granted. Plugin opened successfully.",
+        "Plugin opened successfully.",
+        "Plugin opened successfully.",
+        "Partition access granted. Plugin opened successfully.",
+        "Plugin opened successfully."
+    ]
+}

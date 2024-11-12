@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "RRBBBLLR\n",
+        "RBLLLBRR\n",
+        "RBLBR\n"
+    ],
+    "outputs": [
+        "SSKKKHHS\n",
+        "CHCS\n",
+        "CKS\n"
+    ]
+}

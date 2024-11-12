@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "update_access_token('abc123')",
+        "update_refresh_token('xyz456')",
+        "is_access_token_expired(3600)",
+        "is_refresh_token_expired(7200)",
+        "is_access_token_expired(60)"
+    ],
+    "outputs": [
+        null,
+        null,
+        "False",
+        "False",
+        "True"
+    ]
+}

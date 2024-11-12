@@ -1,0 +1,8 @@
+{
+    "33": {
+        "code": [
+            "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\nimport sys\n\n\ndef read_data():\n    a1, b1, a2, b2, L, R = map(int, sys.stdin.readline().split())\n    return a1, b1, a2, b2, L, R\n\n\ndef solve(a1, b1, a2, b2, L, R):\n    ans = 0\n    for x in range(L, R + 1):\n        if (x - b1) % a1 == 0 and (x - b2) % a2 == 0:\n            ans += 1\n    return ans\n\n\ndef main():\n    a1, b1, a2, b2, L, R = read_data()\n    print(solve(a1, b1, a2, b2, L, R))\n\n\nif __name__ == '__main__':\n    main()"
+        ],
+        "prompt": "\nQUESTION:\nYou are given two arithmetic progressions: a_1k + b_1 and a_2l + b_2. Find the number of integers x such that L \u2264 x \u2264 R and x = a_1k' + b_1 = a_2l' + b_2, for some integers k', l' \u2265 0.\n\n\n-----Input-----\n\nThe only line contains six integers a_1, b_1, a_2, b_2, L, R (0 < a_1, a_2 \u2264 2\u00b710^9,  - 2\u00b710^9 \u2264 b_1, b_2, L, R \u2264 2\u00b710^9, L \u2264 R).\n\n\n-----Output-----\n\nPrint the desired number of integers x.\n\n\n-----Examples-----\nInput\n2 0 3 3 5 21\n\nOutput\n3\n\nInput\n2 4 3 0 6 17\n\nOutput\n2\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

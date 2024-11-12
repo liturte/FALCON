@@ -1,0 +1,3 @@
+{
+    "303": "\"\"\"\n\nx1,y1,x2,y2=map(int,input().split())\nx,y=map(int,input().split())\nif x1==x2 and y1==y2:\n    print(\"YES\")\nelif (x1+x)%x==0 and (y1+y)%y==0:\n    print(\"YES\")\nelif (x1-x)%x==0 and (y1+y)%y==0:\n    print(\"YES\")\nelif (x1-x)%x==0 and (y1-y)%y==0:\n    print(\"YES\")\nelif (x1+x)%x==0 and (y1-y)%y==0:\n    print(\"YES\")\nelse:\n    print(\"NO\")"
+}

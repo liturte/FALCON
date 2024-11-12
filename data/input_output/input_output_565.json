@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "['Alice', 'Bob', 'Charlie']",
+        "['John', 'Mary', 'Peter', 'Sarah']",
+        "['Participant1', 'Participant2', 'Participant3', 'Participant4', 'Participant5']",
+        "['A', 'B', 'C', 'D', 'E', 'F', 'G']",
+        "['X', 'Y', 'Z']"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

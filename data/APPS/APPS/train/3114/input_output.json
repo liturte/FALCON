@@ -1,0 +1,1 @@
+{"fn_name": "year_days", "inputs": [[0], [-64], [2016], [1974], [-10], [666], [1857], [2000], [-300], [-1]], "outputs": [["0 has 366 days"], ["-64 has 366 days"], ["2016 has 366 days"], ["1974 has 365 days"], ["-10 has 365 days"], ["666 has 365 days"], ["1857 has 365 days"], ["2000 has 366 days"], ["-300 has 365 days"], ["-1 has 365 days"]]}

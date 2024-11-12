@@ -1,0 +1,8 @@
+{
+    "136": {
+        "code": [
+            "a = int(input())\nb = int(input())\nif a < b:\n    print('<')\nelif a > b:\n    print('>')\nelse:\n    print('=')"
+        ],
+        "prompt": "\nQUESTION:\nYou are given two very long integers a, b (leading zeroes are allowed). You should check what number a or b is greater or determine that they are equal.\n\nThe input size is very large so don't use the reading of symbols one by one. Instead of that use the reading of a whole line or token.\n\nAs input/output can reach huge size it is recommended to use fast input/output methods: for example, prefer to use scanf/printf instead of cin/cout in C++, prefer to use BufferedReader/PrintWriter instead of Scanner/System.out in Java. Don't use the function input() in Python2 instead of it use the function raw_input().\n\n\n-----Input-----\n\nThe first line contains a non-negative integer a.\n\nThe second line contains a non-negative integer b.\n\nThe numbers a, b may contain leading zeroes. Each of them contains no more than 10^6 digits.\n\n\n-----Output-----\n\nPrint the symbol \"<\" if a < b and the symbol \">\" if a > b. If the numbers are equal print the symbol \"=\".\n\n\n-----Examples-----\nInput\n9\n10\n\nOutput\n<\n\nInput\n11\n10\n\nOutput\n>\n\nInput\n00012345\n12345\n\nOutput\n=\n\nInput\n0123\n9\n\nOutput\n>\n\nInput\n0123\n111\n\nOutput\n>\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Person('Alice')",
+        "Person('Bob')",
+        "Person('Charlie')",
+        "Person('David')",
+        "Person('Eve')"
+    ],
+    "outputs": [
+        "Alice",
+        "Bob",
+        "Charlie",
+        "David",
+        "Eve"
+    ]
+}

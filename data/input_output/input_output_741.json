@@ -1,0 +1,56 @@
+{
+    "inputs": [
+        {
+            "func": "sum",
+            "args": [
+                1,
+                2
+            ],
+            "kwargs": {},
+            "seconds": 1
+        },
+        {
+            "func": "multiply",
+            "args": [
+                3,
+                4
+            ],
+            "kwargs": {},
+            "seconds": 2
+        },
+        {
+            "func": "divide",
+            "args": [
+                10,
+                2
+            ],
+            "kwargs": {},
+            "seconds": 3
+        },
+        {
+            "func": "power",
+            "args": [
+                2,
+                3
+            ],
+            "kwargs": {},
+            "seconds": 1
+        },
+        {
+            "func": "concatenate",
+            "args": [
+                "hello",
+                "world"
+            ],
+            "kwargs": {},
+            "seconds": 2
+        }
+    ],
+    "outputs": [
+        "3",
+        "12",
+        "5.0",
+        "8",
+        "Timeout: Function execution exceeded specified time limit"
+    ]
+}

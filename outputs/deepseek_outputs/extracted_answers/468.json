@@ -1,0 +1,3 @@
+{
+    "468": "```\nx,y=input().split()\nx=int(x)\ny=int(y)\nif x**y<y**x:\n    print(\"<\")\nelif x**y>y**x:\n    print(\">\")\nelse:\n    print(\"=\")\n```"
+}

@@ -1,0 +1,18 @@
+{
+    "inputs": [
+        "H 2\nO\n",
+        "C2H6 10\nC3H8\n",
+        "CH3OH 1\nCH4\n",
+        "C6H6OCH2O 10\nHCN\n",
+        "C6H14 10\nC5H10\n",
+        "AB2CD1 2\nA2B3CD2\n"
+    ],
+    "outputs": [
+        "0\n",
+        "6\n",
+        "1\n",
+        "0\n",
+        "12\n",
+        "1\n"
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    "64": "\"\"\"\n\nimport sys\nfrom collections import Counter\n\nn, k = map(int, input().split())\ns = sys.stdin.readline().strip()\n\n# s = \"aacaab\"\n\nc = Counter(s)\n\n\nif len(c.keys()) <= k:\n    print(\"YES\")\nelse:\n    print(\"NO\")"
+}

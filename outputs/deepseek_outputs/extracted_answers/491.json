@@ -1,0 +1,3 @@
+{
+    "491": "def main():\n    n = int(input())\n    if n < 0:\n        print(-int(str(n)[:-1]))\n    else:\n        print(n)\nif __name__ == '__main__':\n    main()"
+}

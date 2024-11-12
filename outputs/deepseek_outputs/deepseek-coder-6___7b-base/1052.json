@@ -1,0 +1,8 @@
+{
+    "1052": {
+        "code": [
+            "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n - 1)\n\nn, k = map(int, input().split())\nans = factorial(n)\nfor i in range(1, k + 1):\n    ans //= i\nprint(ans)"
+        ],
+        "prompt": "\nQUESTION:\nA permutation p of size n is an array such that every integer from 1 to n occurs exactly once in this array.\n\nLet's call a permutation an almost identity permutation iff there exist at least n - k indices i (1 \u2264 i \u2264 n) such that p_{i} = i.\n\nYour task is to count the number of almost identity permutations for given numbers n and k.\n\n\n-----Input-----\n\nThe first line contains two integers n and k (4 \u2264 n \u2264 1000, 1 \u2264 k \u2264 4).\n\n\n-----Output-----\n\nPrint the number of almost identity permutations for given n and k.\n\n\n-----Examples-----\nInput\n4 1\n\nOutput\n1\n\nInput\n4 2\n\nOutput\n7\n\nInput\n5 3\n\nOutput\n31\n\nInput\n5 4\n\nOutput\n76\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

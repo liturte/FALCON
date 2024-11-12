@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "delegates16 = pd.DataFrame(pd.read_csv(path+'/ScanSessions16/2016Delegates.csv', usecols=['Delegate_ID', 'FestivalGenericName', 'ProductName', 'ProductGroup', 'Registered - CompanyName', 'Registered - Country', 'Registered - City', 'banding', 'sub_banding']))\ndelegates16.columns=['ID', 'Fest', 'ProductName', 'ProductGroup', 'Company', 'Country', 'City', 'Band', 'SubBand']\ndelegates16 = delegates16[delegates16['ID'] != 'None']\ndelegates16['ID'] = delegates16['ID'].astype(int)",
+        "pd.DataFrame(columns=['ID', 'Fest', 'ProductName', 'ProductGroup', 'Company', 'Country', 'City', 'Band', 'SubBand'])",
+        "pd.DataFrame(columns=['Delegate_ID', 'FestivalGenericName', 'ProductName', 'ProductGroup', 'Registered - CompanyName', 'Registered - Country', 'Registered - City', 'banding', 'sub_banding'])",
+        "pd.DataFrame(columns=['ID', 'Fest', 'ProductName', 'ProductGroup', 'Company', 'Country', 'City', 'Band', 'SubBand'])",
+        "pd.DataFrame(columns=['Delegate_ID', 'FestivalGenericName', 'ProductName', 'ProductGroup', 'Registered - CompanyName', 'Registered - Country', 'Registered - City', 'banding', 'sub_banding'])"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

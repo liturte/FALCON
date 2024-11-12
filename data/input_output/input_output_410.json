@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "test1.bplist",
+        "test2.bplist",
+        "test3.bplist",
+        "test4.bplist",
+        "test5.bplist"
+    ],
+    "outputs": [
+        "test1.json",
+        "test2.json",
+        "test3.json",
+        "test4.json",
+        "test5.json"
+    ]
+}

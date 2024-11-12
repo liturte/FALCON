@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "python program.py file1.txt file2.txt",
+        "python program.py data.csv output.txt",
+        "python program.py input1.txt input2.txt",
+        "python program.py config.json settings.yaml",
+        "python program.py script.py output.py"
+    ],
+    "outputs": [
+        "('file1.txt', 'file2.txt')",
+        "('data.csv', 'output.txt')",
+        "('input1.txt', 'input2.txt')",
+        "('config.json', 'settings.yaml')",
+        "('script.py', 'output.py')"
+    ]
+}

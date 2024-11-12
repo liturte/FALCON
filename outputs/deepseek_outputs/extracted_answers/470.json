@@ -1,0 +1,3 @@
+{
+    "470": "import sys\n\na,b,c,d,e = map(int, sys.stdin.readline().split())\n\nif a == b and b == c and c == d and d == e:\n    print(a+b+c+d+e)\nelse:\n    print(min(a+b+c+d, b+c+d+e, a+b+d+e, a+c+d+e, a+b+c+e))"
+}

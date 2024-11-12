@@ -1,0 +1,8 @@
+{
+    "476": {
+        "code": [
+            "n = input()\nif '144' in n or '14' in n or '1' in n:\n    print(\"YES\")\nelse:\n    print(\"NO\")"
+        ],
+        "prompt": "\nQUESTION:\nA magic number is a number formed by concatenation of numbers 1, 14 and 144. We can use each of these numbers any number of times. Therefore 14144, 141414 and 1411 are magic numbers but 1444, 514 and 414 are not.\n\nYou're given a number. Determine if it is a magic number or not.\n\n\n-----Input-----\n\nThe first line of input contains an integer n, (1 \u2264 n \u2264 10^9). This number doesn't contain leading zeros.\n\n\n-----Output-----\n\nPrint \"YES\" if n is a magic number or print \"NO\" if it's not.\n\n\n-----Examples-----\nInput\n114114\n\nOutput\nYES\n\nInput\n1111\n\nOutput\nYES\n\nInput\n441231\n\nOutput\nNO\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

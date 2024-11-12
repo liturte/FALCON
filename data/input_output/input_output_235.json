@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "name=John Doe\nage=30\ncity=New York\nemail:john@example.com",
+        "key1=value1\nkey2=value2\nkey3=value3",
+        "key1 = value1\nkey2 = value2\nkey3 = value3",
+        "key1 = value1\nkey2 = value2\nkey3 = ",
+        "key1 = value1\nkey2 = value2\nkey3"
+    ],
+    "outputs": [
+        "Validation Error at line 4: Missing equal sign (=)",
+        "Configuration file is valid.",
+        "Configuration file is valid.",
+        "Validation Error at line 4: Value is empty.",
+        "Validation Error at line 4: Missing value."
+    ]
+}

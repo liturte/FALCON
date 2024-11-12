@@ -1,0 +1,42 @@
+[
+    {
+        "inputs": [
+            "John Doe\r\nJane Doe\r\n"
+        ],
+        "outputs": [
+            "John DoeJane Doe"
+        ]
+    },
+    {
+        "inputs": [
+            "  Alice Bob  \nCharlie David  \r\n"
+        ],
+        "outputs": [
+            "Alice BobCharlie David"
+        ]
+    },
+    {
+        "inputs": [
+            "\n\n\n"
+        ],
+        "outputs": [
+            ""
+        ]
+    },
+    {
+        "inputs": [
+            "   \t\r\n  "
+        ],
+        "outputs": [
+            ""
+        ]
+    },
+    {
+        "inputs": [
+            "SingleName"
+        ],
+        "outputs": [
+            "SingleName"
+        ]
+    }
+]

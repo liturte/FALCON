@@ -1,0 +1,3 @@
+{
+    "523": "n,m = map(int,input().split())\ns = []\nfor i in range(n):\n    s.append(input())\ndef palindrome(s):\n    for i in range(len(s)//2):\n        if s[i] != s[-1-i]:\n            return False\n    return True\nans = \"\"\nfor i in range(n):\n    for j in range(n):\n        if i == j:\n            continue\n        else:\n            if palindrome(s[i]+s[j]):\n                if len(s[i]+s[j]) > len(ans):\n                    ans = s[i]+s[j]\nif ans == \"\":\n    print(0)\nelse:\n    print(len(ans))\n    print(ans)"
+}

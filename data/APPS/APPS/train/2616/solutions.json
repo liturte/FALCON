@@ -1,0 +1,1 @@
+["#!/usr/bin/env python3\n\ndef __starting_point():\n    x, k = map(int, input().strip().split())\n    string = input().strip()\n    \n    if eval(string) == k:\n        print(True)\n    else:\n        print(False)\n__starting_point()"]

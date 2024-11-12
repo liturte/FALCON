@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{\"maxsize\": 15000000, \"maxcount\": 800000, \"debug\": true, \"data\": \"/path/to/training_data\", \"shards\": \"/path/to/shards\"}",
+        "{\"maxsize\": 8000000, \"maxcount\": 1200000, \"debug\": false, \"data\": \"/path/to/nonexistent_data\", \"shards\": \"/path/to/shards\"}",
+        "{\"maxsize\": 20000000, \"maxcount\": 500000, \"debug\": true, \"data\": \"/path/to/training_data\", \"shards\": \"/path/to/non_writable_shards\"}",
+        "{\"maxsize\": 12000000, \"maxcount\": 1500000, \"debug\": false, \"data\": \"/path/to/training_data\", \"shards\": \"/path/to/shards\"}",
+        "{\"maxsize\": 1000000, \"maxcount\": 500000, \"debug\": true, \"data\": \"/path/to/training_data\", \"shards\": \"/path/to/shards\"}"
+    ],
+    "outputs": [
+        "Error: Shards must be a minimum of 10+ MB in size.",
+        "Error: The directory specified in args.data does not contain the training dataset.",
+        "Error: The directory specified in args.shards is not a writable destination directory.",
+        "Error: Shards must contain a maximum of 1,000,000 samples each.",
+        null
+    ]
+}

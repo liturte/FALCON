@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "   hello, world!   ",
+        "  test  ",
+        " 12345 ",
+        "  special characters!@#  ",
+        "   multiple   whitespaces   "
+    ],
+    "outputs": [
+        "HELLO, WORLD!",
+        "TEST",
+        "12345",
+        "SPECIAL CHARACTERS!@#",
+        "MULTIPLE   WHITESPACES"
+    ]
+}

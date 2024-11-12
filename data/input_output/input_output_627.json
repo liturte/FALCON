@@ -1,0 +1,76 @@
+{
+    "inputs": [
+        {
+            "info": {
+                "module_name": "python_module"
+            },
+            "site_api": {
+                "get_settings": {},
+                "mdtohtml": "modules/python_module/data/core_basics.md",
+                "create_file": {
+                    "file_name": "pystandard.html",
+                    "output_file_path": "/output"
+                }
+            }
+        },
+        {
+            "info": {
+                "module_name": "java_module"
+            },
+            "site_api": {
+                "get_settings": {},
+                "mdtohtml": "modules/java_module/data/core_basics.md",
+                "create_file": {
+                    "file_name": "javastandard.html",
+                    "output_file_path": "/output"
+                }
+            }
+        },
+        {
+            "info": {
+                "module_name": "cpp_module"
+            },
+            "site_api": {
+                "get_settings": {},
+                "mdtohtml": "modules/cpp_module/data/core_basics.md",
+                "create_file": {
+                    "file_name": "cppstandard.html",
+                    "output_file_path": "/output"
+                }
+            }
+        },
+        {
+            "info": {
+                "module_name": "javascript_module"
+            },
+            "site_api": {
+                "get_settings": {},
+                "mdtohtml": "modules/javascript_module/data/core_basics.md",
+                "create_file": {
+                    "file_name": "jsstandard.html",
+                    "output_file_path": "/output"
+                }
+            }
+        },
+        {
+            "info": {
+                "module_name": "html_module"
+            },
+            "site_api": {
+                "get_settings": {},
+                "mdtohtml": "modules/html_module/data/core_basics.md",
+                "create_file": {
+                    "file_name": "htmlstandard.html",
+                    "output_file_path": "/output"
+                }
+            }
+        }
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

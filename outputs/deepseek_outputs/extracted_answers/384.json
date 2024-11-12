@@ -1,0 +1,3 @@
+{
+    "384": "def main():\n    n = int(input())\n    a = list(input())\n    b = [0] * n\n    for i in range(n):\n        if a[i] == 'B':\n            b[i] = 1\n    ans = []\n    for i in range(n):\n        if b[i] == 1:\n            j = i\n            while j < n and b[j] == 1:\n                j += 1\n            ans.append(j - i)\n            i = j\n    print(len(ans))\n    print(*ans)\n    \n    \nif __name__ == '__main__':\n    main()"
+}

@@ -1,0 +1,26 @@
+{
+    "inputs": [
+        [
+            "['gene_name', 'gene_id', 'gene_length']"
+        ],
+        [
+            "['gene_name', 'gene_id', 'gene_length', 'gene_symbol']"
+        ],
+        [
+            "['gene_id', 'gene_length', 'gene_symbol']"
+        ],
+        [
+            "['gene_name', 'gene_id', 'gene_length', 'gene_symbol', 'chromosome']"
+        ],
+        [
+            "['gene_name', 'gene_id', 'gene_length', 'gene_symbol', 'chromosome', 'start_position', 'end_position']"
+        ]
+    ],
+    "outputs": [
+        "<Query  virtualSchemaName = 'default' formatter = 'TSV' header = '1' uniqueRows = '0' count = '' datasetConfigVersion = '0.6' >\n    <Dataset name = 'hsapiens_gene_ensembl' interface = 'default' >\n        <Attribute name = 'gene_name' />\n        <Attribute name = 'gene_id' />\n        <Attribute name = 'gene_length' />\n    </Dataset>\n</Query>",
+        "<Query  virtualSchemaName = 'default' formatter = 'TSV' header = '1' uniqueRows = '0' count = '' datasetConfigVersion = '0.6' >\n    <Dataset name = 'hsapiens_gene_ensembl' interface = 'default' >\n        <Attribute name = 'gene_name' />\n        <Attribute name = 'gene_id' />\n        <Attribute name = 'gene_length' />\n        <Attribute name = 'gene_symbol' />\n    </Dataset>\n</Query>",
+        "<Query  virtualSchemaName = 'default' formatter = 'TSV' header = '1' uniqueRows = '0' count = '' datasetConfigVersion = '0.6' >\n    <Dataset name = 'hsapiens_gene_ensembl' interface = 'default' >\n        <Attribute name = 'gene_id' />\n        <Attribute name = 'gene_length' />\n        <Attribute name = 'gene_symbol' />\n    </Dataset>\n</Query>",
+        "<Query  virtualSchemaName = 'default' formatter = 'TSV' header = '1' uniqueRows = '0' count = '' datasetConfigVersion = '0.6' >\n    <Dataset name = 'hsapiens_gene_ensembl' interface = 'default' >\n        <Attribute name = 'gene_name' />\n        <Attribute name = 'gene_id' />\n        <Attribute name = 'gene_length' />\n        <Attribute name = 'gene_symbol' />\n        <Attribute name = 'chromosome' />\n    </Dataset>\n</Query>",
+        "<Query  virtualSchemaName = 'default' formatter = 'TSV' header = '1' uniqueRows = '0' count = '' datasetConfigVersion = '0.6' >\n    <Dataset name = 'hsapiens_gene_ensembl' interface = 'default' >\n        <Attribute name = 'gene_name' />\n        <Attribute name = 'gene_id' />\n        <Attribute name = 'gene_length' />\n        <Attribute name = 'gene_symbol' />\n        <Attribute name = 'chromosome' />\n        <Attribute name = 'start_position' />\n        <Attribute name = 'end_position' />\n    </Dataset>\n</Query>"
+    ]
+}

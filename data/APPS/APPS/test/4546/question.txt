@@ -1,0 +1,22 @@
+Three poles stand evenly spaced along a line. Their heights are a, b and c meters, from left to right.
+We will call the arrangement of the poles beautiful if the tops of the poles lie on the same line, that is, b-a = c-b.
+Determine whether the arrangement of the poles is beautiful.
+
+-----Constraints-----
+ - 1 \leq a,b,c \leq 100
+ - a, b and c are integers.
+
+-----Input-----
+Input is given from Standard Input in the following format:
+a b c
+
+-----Output-----
+Print YES if the arrangement of the poles is beautiful; print NO otherwise.
+
+-----Sample Input-----
+2 4 6
+
+-----Sample Output-----
+YES
+
+Since 4-2 = 6-4, this arrangement of poles is beautiful.

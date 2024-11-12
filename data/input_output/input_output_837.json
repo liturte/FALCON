@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "name: {ENGINE_NAME}\n   type: local\n   _provider: INVALID.INVALID\n\", ImportError",
+        "id: cbc_binary_toolkit\n   engine:\n     name: {ENGINE_NAME}\n     type: local\n     _provider: cbc_binary_toolkit.engine.LocalEngineFactory\n\", NotImplementedError",
+        "def test_function():\n    print('Hello, World!')\n\", SyntaxError",
+        "import unknown_module\n\", ImportError",
+        "raise NotImplementedError('This feature is not implemented yet.')\n\", NotImplementedError"
+    ],
+    "outputs": [
+        "ImportError",
+        "NotImplementedError",
+        "SyntaxError",
+        "ImportError",
+        "NotImplementedError"
+    ]
+}

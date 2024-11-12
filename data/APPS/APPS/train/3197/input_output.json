@@ -1,0 +1,1 @@
+{"fn_name": "conjugate", "inputs": [["caminar"], ["comer"], ["vivir"]], "outputs": [[{"caminar": ["camino", "caminas", "camina", "caminamos", "caminais", "caminan"]}], [{"comer": ["como", "comes", "come", "comemos", "comeis", "comen"]}], [{"vivir": ["vivo", "vives", "vive", "vivimos", "vivis", "viven"]}]]}

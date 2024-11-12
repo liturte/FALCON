@@ -1,0 +1,26 @@
+{
+    "inputs": [
+        [
+            "smoketest",
+            "test"
+        ],
+        [
+            "",
+            "test"
+        ],
+        [
+            "",
+            ""
+        ],
+        [
+            "test",
+            ""
+        ]
+    ],
+    "outputs": [
+        "smoke",
+        "",
+        "",
+        "test"
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    "56": "n, t = map(int, input().split())\n\ndef f(n):\n    return n * (n + 1) / 2\n\nif t < 3 * n:\n    print(int(f(n) - f(t - 2 * n)))\nelse:\n    print(int(f(n) - f(3 * n - t - 1)))"
+}

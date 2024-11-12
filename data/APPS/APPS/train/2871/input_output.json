@@ -1,0 +1,1 @@
+{"fn_name": "starts_with", "inputs": [["hello world!", "hello"], ["hello world!", "HELLO"], ["nowai", "nowaisir"], ["", ""], ["abc", ""], ["", "abc"]], "outputs": [[true], [false], [false], [true], [true], [false]]}

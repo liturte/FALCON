@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Explain the purpose of each argument in the _make function call.",
+        "Identify and describe any potential issues or errors in the given code snippet.",
+        "Suggest improvements to optimize the build process in the provided code snippet.",
+        "Extend the functionality of the code snippet to support parallel builds.",
+        "Discuss the impact of using clang as the compiler in the build process."
+    ],
+    "outputs": [
+        "null",
+        "Identify that there is a missing closing parenthesis in the make command.",
+        "Suggest using parallel build options like '-j' to speed up the build process.",
+        "Extend the code to include a function that manages parallel builds using multiple cores.",
+        "Discuss the benefits and drawbacks of using clang over other compilers like gcc."
+    ]
+}

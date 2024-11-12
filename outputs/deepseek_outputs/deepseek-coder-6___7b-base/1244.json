@@ -1,0 +1,8 @@
+{
+    "1244": {
+        "code": [
+            "n = int(input())\na = list(map(int, input().split()))\n\nif len(set(a)) == n:\n    print('YES')\nelse:\n    print('NO')"
+        ],
+        "prompt": "\nQUESTION:\nYaroslav has an array that consists of n integers. In one second Yaroslav can swap two neighboring array elements. Now Yaroslav is wondering if he can obtain an array where any two neighboring elements would be distinct in a finite time.\n\nHelp Yaroslav.\n\n\n-----Input-----\n\nThe first line contains integer n (1 \u2264 n \u2264 100) \u2014 the number of elements in the array. The second line contains n integers a_1, a_2, ..., a_{n} (1 \u2264 a_{i} \u2264 1000) \u2014 the array elements.\n\n\n-----Output-----\n\nIn the single line print \"YES\" (without the quotes) if Yaroslav can obtain the array he needs, and \"NO\" (without the quotes) otherwise.\n\n\n-----Examples-----\nInput\n1\n1\n\nOutput\nYES\n\nInput\n3\n1 1 2\n\nOutput\nYES\n\nInput\n4\n7 7 7 7\n\nOutput\nNO\n\n\n\n-----Note-----\n\nIn the first sample the initial array fits well.\n\nIn the second sample Yaroslav can get array: 1, 2, 1. He can swap the last and the second last elements to obtain it.\n\nIn the third sample Yarosav can't get the array he needs.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

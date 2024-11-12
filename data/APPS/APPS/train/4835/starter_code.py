@@ -1,0 +1,2 @@
+def okkOokOo(s):
+	

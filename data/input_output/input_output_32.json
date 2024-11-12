@@ -1,0 +1,37 @@
+{
+    "inputs": [
+        [
+            "apple",
+            "banana",
+            "carrot"
+        ],
+        [
+            "dog",
+            "cat",
+            "elephant"
+        ],
+        [
+            "hello",
+            "world"
+        ],
+        [
+            "sun",
+            "moon",
+            "star",
+            "planet"
+        ],
+        [
+            "tree",
+            "flower",
+            "grass",
+            "rock"
+        ]
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

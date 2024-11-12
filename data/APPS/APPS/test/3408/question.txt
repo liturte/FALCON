@@ -1,0 +1,25 @@
+Little Matej is solving an OOP (Object-oriented programming) laboratory exercise and he’s having trouble with solving one subtask.
+
+He is given a set that contains $N$ words. He is also given $Q$ queries where each query is one pattern. A pattern consists of a single character “*” and lowercase letters of the English alphabet. For example, “*”, “kul*to”, “ana*”.
+
+A pattern is said to cover a word if such an array of letters (which can be empty) exists that, when replacing the character “*”, the pattern and the word become completely identical. It is necessary to output how many words each pattern covers.
+
+-----Input-----
+The first line of input contains two integers $N$ and $Q$ ($1 \leq N, Q \leq 100000$). Each of the following $N$ lines contains a word that consists of lowercase letters of the English alphabet. Each of the following $Q$ lines contains a pattern for which you need to output how many words from the first set it covers. The total number of characters will be less than $4000000$.
+
+-----Output-----
+Output $Q$ lines, the $k$-th line containing the number of words that the $k$-th pattern covers.
+
+-----Examples-----
+Sample Input:
+3 3
+aaa
+abc
+aba
+a*a
+aaa*
+*aaa
+Sample Output:
+2
+1
+1

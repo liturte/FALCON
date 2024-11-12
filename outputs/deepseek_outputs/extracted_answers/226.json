@@ -1,0 +1,3 @@
+{
+    "226": "n = int(input())\npieces = input().split()\npieces = [int(i) for i in pieces]\npieces.sort()\nalice = 0\nbob = 0\nfor i in range(n):\n    if i%2 == 0:\n        alice += pieces[i]\n    else:\n        bob += pieces[i]\nprint(alice, bob)"
+}

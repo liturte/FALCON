@@ -1,0 +1,8 @@
+{
+    "1305": {
+        "code": [
+            "import sys\n\nn = int(sys.stdin.readline())\na = list(map(int, sys.stdin.readline().split()))\n\na.reverse()\nb = 0\nfor i in a:\n    if i == 25:\n        b += 1\n    elif i == 50:\n        b -= 1\n        if b < 0:\n            print('NO')\n            break\n    elif i == 100:\n        b -= 2\n        if b < 0:\n            print('NO')\n            break\nelse:\n    print('YES')"
+        ],
+        "prompt": "\nQUESTION:\nThe new \"Die Hard\" movie has just been released! There are n people at the cinema box office standing in a huge line. Each of them has a single 100, 50 or 25 ruble bill. A \"Die Hard\" ticket costs 25 rubles. Can the booking clerk sell a ticket to each person and give the change if he initially has no money and sells the tickets strictly in the order people follow in the line?\n\n\n-----Input-----\n\nThe first line contains integer n (1 \u2264 n \u2264 10^5) \u2014 the number of people in the line. The next line contains n integers, each of them equals 25, 50 or 100 \u2014 the values of the bills the people have. The numbers are given in the order from the beginning of the line (at the box office) to the end of the line.\n\n\n-----Output-----\n\nPrint \"YES\" (without the quotes) if the booking clerk can sell a ticket to each person and give the change. Otherwise print \"NO\".\n\n\n-----Examples-----\nInput\n4\n25 25 50 50\n\nOutput\nYES\n\nInput\n2\n25 100\n\nOutput\nNO\n\nInput\n4\n50 50 25 25\n\nOutput\nNO\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

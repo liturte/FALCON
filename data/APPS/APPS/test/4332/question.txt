@@ -1,0 +1,22 @@
+Let S(n) denote the sum of the digits in the decimal notation of n.
+For example, S(101) = 1 + 0 + 1 = 2.
+Given an integer N, determine if S(N) divides N.
+
+-----Constraints-----
+ - 1 \leq N \leq 10^9
+
+-----Input-----
+Input is given from Standard Input in the following format:
+N
+
+-----Output-----
+If S(N) divides N, print Yes; if it does not, print No.
+
+-----Sample Input-----
+12
+
+-----Sample Output-----
+Yes
+
+In this input, N=12.
+As S(12) = 1 + 2 = 3, S(N) divides N.

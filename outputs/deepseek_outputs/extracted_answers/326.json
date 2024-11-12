@@ -1,0 +1,3 @@
+{
+    "326": "from collections import Counter\nn = int(input())\ns = []\nc = []\nfor i in range(n):\n    a, b = input().split()\n    s.append(a)\n    c.append(int(b))\n\n\ndef is_palindrome(s):\n    return s == s[::-1]\n\n\ndef min_cost(s, c):\n    cnt = Counter(s)\n    if any(cnt[k] % 2 for k in cnt):\n        return -1\n    cost = 0\n    while cnt:\n        for i in range(len(c)):\n            if s[i] in cnt:\n                cost += c[i]\n                cnt[s[i]] -= 1\n                if cnt[s[i]] == 0:\n                    del cnt[s[i]]\n                break\n    return cost\n\n\nprint(min_cost(s, c))"
+}

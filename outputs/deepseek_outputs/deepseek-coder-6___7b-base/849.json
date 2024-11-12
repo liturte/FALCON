@@ -1,0 +1,8 @@
+{
+    "849": {
+        "code": [
+            "from decimal import *\na, b, c, d = map(int, raw_input().split())\n\ngetcontext().prec = 100\n\np = Decimal(a) / Decimal(b)\nq = Decimal(c) / Decimal(d)\n\nans = p / (p + q)\n\nprint ans"
+        ],
+        "prompt": "\nQUESTION:\nSmallR is an archer. SmallR is taking a match of archer with Zanoes. They try to shoot in the target in turns, and SmallR shoots first. The probability of shooting the target each time is $\\frac{a}{b}$ for SmallR while $\\frac{c}{d}$ for Zanoes. The one who shoots in the target first should be the winner.\n\nOutput the probability that SmallR will win the match.\n\n\n-----Input-----\n\nA single line contains four integers $a, b, c, d(1 \\leq a, b, c, d \\leq 1000,0 < \\frac{a}{b} < 1,0 < \\frac{c}{d} < 1)$.\n\n\n-----Output-----\n\nPrint a single real number, the probability that SmallR will win the match.\n\nThe answer will be considered correct if the absolute or relative error doesn't exceed 10^{ - 6}.\n\n\n-----Examples-----\nInput\n1 2 1 2\n\nOutput\n0.666666666667\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

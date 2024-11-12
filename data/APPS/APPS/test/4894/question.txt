@@ -1,0 +1,48 @@
+There are many types of languages, all used for different purposes. People communicate using natural languages like English and Spanish, program with formal languages like C++ and Perl, and compose music with musical notation. Let’s consider musical notation, which is typically a sequence of notes of specified pitches and durations. Computers can best represent these sequences using numbers and letters, such as
+
+C C D E C E D2 C C D E C2 B2 C C D E F E D C B g A B C2 C2
+
+which is a simple rendition of the song ‘Yankee Doodle’. The notes are chosen from a through g and A through G. A note without a number indicates it is held for a duration of one beat; the number $2$ following some of the notes indicate that note has a duration that is twice as long. It would be nice to take this notation and create something musicians are more used to reading, with notes and bars and staffs, etc. Write a program that does this.
+
+-----Input-----
+The input for your program consists of two lines. The first line has an integer $1 \le n \le 100$ indicating the number of notes in the song. The second line contains $n$ notes. Each note consists of two parts: the pitch and the duration. The pitch is a letter a through g or A through G. Lowercase letters indicate the octave below uppercase letters, and we consider c to represent so-called ‘middle c’. The duration, which is optional, is a positive integer indicating a multiplier of the length of the default note. (If you are musical you’ll notice we’ve made many simplifying assumptions, such as leaving out many octaves, sharps, flats, rests, time signatures, etc.)
+
+-----Output-----
+For each song, print a text-based representation on one staff. Each staff should have the following format: a $5$-line staff (for the treble clef), middle c, and one more line (for the top of the bass clef):
+
+G:           
+F: ----------------------------------------------------------
+E:           
+D: ----------------------------------------------------------
+C:           
+B: ----------------------------------------------------------
+A:           
+g: ----------------------------------------------------------
+f:           
+e: ----------------------------------------------------------
+d:           
+c:           
+b:           
+a: ----------------------------------------------------------
+
+For each song’s note, print a single asterisk on a line (or between lines) indicating its pitch. Use one asterisk for the default duration, two asterisks for notes twice as long, three asterisks for notes three times as long, etc. Leave a single separating column between each pair of consecutive notes. The staff lines should be only as long as necessary to complete the song. Notes that are between lines (i.e. b-d, f, A, C, E, G) should pad with spaces out to the end the staff lines.
+
+-----Examples-----
+Sample Input:
+27
+C C D E C E D2 C C D E C2 B2 C C D E F E D C B g A B C2 C2
+Sample Output:
+G:                                                           
+F: -------------------------------------*--------------------
+E:       *   *          *             *   *                  
+D: ----*-------**-----*-------------*-------*----------------
+C: * *     *      * *     **    * *           *         ** **
+B: --------------------------**-----------------*-----*------
+A:                                                  *        
+g: -----------------------------------------------*----------
+f:                                                           
+e: ----------------------------------------------------------
+d:                                                           
+c:                                                           
+b:                                                           
+a: ----------------------------------------------------------

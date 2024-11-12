@@ -1,0 +1,66 @@
+{
+    "inputs": [
+        {
+            "comet_api_key": "api_key_1",
+            "exp_name": "experiment_1",
+            "args": {
+                "lr": 0.001,
+                "batch_size": 32
+            }
+        },
+        {
+            "comet_api_key": "api_key_2",
+            "exp_name": "experiment_2",
+            "args": {
+                "lr": 0.01,
+                "batch_size": 64
+            }
+        },
+        {
+            "comet_api_key": "api_key_3",
+            "exp_name": "experiment_3",
+            "args": {
+                "lr": 0.0001,
+                "batch_size": 16
+            }
+        },
+        {
+            "comet_api_key": "api_key_4",
+            "exp_name": "experiment_4",
+            "args": {
+                "lr": 0.1,
+                "batch_size": 128
+            }
+        },
+        {
+            "comet_api_key": "api_key_5",
+            "exp_name": "experiment_5",
+            "args": {
+                "lr": 1e-05,
+                "batch_size": 256
+            }
+        }
+    ],
+    "outputs": [
+        [
+            "api_key_1",
+            "experiment_1"
+        ],
+        [
+            "api_key_2",
+            "experiment_2"
+        ],
+        [
+            "api_key_3",
+            "experiment_3"
+        ],
+        [
+            "api_key_4",
+            "experiment_4"
+        ],
+        [
+            "api_key_5",
+            "experiment_5"
+        ]
+    ]
+}

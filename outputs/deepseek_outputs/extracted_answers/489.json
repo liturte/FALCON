@@ -1,0 +1,3 @@
+{
+    "489": "```python\ndef solve(n, a):\n    a.sort()\n    ans = 0\n    for i in range(n-1, -1, -1):\n        if a[i] == a[i-1]:\n            ans += 1\n        else:\n            break\n    return ans\n\nn = int(input())\na = list(map(int, input().split()))\nprint(solve(n, a))\n```"
+}

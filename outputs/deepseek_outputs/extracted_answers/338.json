@@ -1,0 +1,3 @@
+{
+    "338": "def solve(m, c, x, y):\n    cnt = [0] * (m + 1)\n    for i in c:\n        cnt[i] += 1\n    for i in range(m, 0, -1):\n        if cnt[i] + cnt[i + 1] >= x:\n            return i\n    return 0\n\nm = int(input())\nc = list(map(int, input().split()))\nx, y = map(int, input().split())\nprint(solve(m, c, x, y))"
+}

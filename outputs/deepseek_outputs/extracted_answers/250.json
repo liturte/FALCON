@@ -1,0 +1,3 @@
+{
+    "250": "import sys\n\ndef main():\n    n = int(input())\n    cakes = [list(map(int, sys.stdin.readline().split())) for i in range(n)]\n    cakes.sort(key=lambda x: -x[1])\n\n    dp = [0] * n\n    for i in range(n):\n        dp[i] = cakes[i][1]\n        for j in range(i):\n            if cakes[j][0] > cakes[i][0]:\n                dp[i] = max(dp[i], dp[j] + cakes[i][1])\n\n    print(max(dp))\n\nif __name__ == '__main__':\n    main()"
+}

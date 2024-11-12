@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "graph1 = Graph()\ngraph2 = Graph()\ngraph1.transfer.add_nodes([1, 2, 3, 4])",
+        "graph1 = Graph()\ngraph2 = Graph()\ngraph1.transfer.add_nodes(['A', 'B', 'C'])",
+        "graph1 = Graph()\ngraph2 = Graph()\ngraph1.transfer.add_nodes([10, 20, 30])",
+        "graph1 = Graph()\ngraph2 = Graph()\ngraph1.transfer.add_nodes(['X', 'Y', 'Z'])",
+        "graph1 = Graph()\ngraph2 = Graph()\ngraph1.transfer.add_nodes([100, 200, 300])"
+    ],
+    "outputs": [
+        "[1, 2, 3, 4]",
+        "['A', 'B', 'C']",
+        "[10, 20, 30]",
+        "['X', 'Y', 'Z']",
+        "[100, 200, 300]"
+    ]
+}

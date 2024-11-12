@@ -1,0 +1,8 @@
+{
+    "333": {
+        "code": [
+            "def solve(a, b):\n    if a == b:\n        return -1\n    return max(len(a), len(b))\n\n\na = input()\nb = input()\n\nprint(solve(a, b))"
+        ],
+        "prompt": "\nQUESTION:\nWhile Mahmoud and Ehab were practicing for IOI, they found a problem which name was Longest common subsequence. They solved it, and then Ehab challenged Mahmoud with another problem.\n\nGiven two strings a and b, find the length of their longest uncommon subsequence, which is the longest string that is a subsequence of one of them and not a subsequence of the other.\n\nA subsequence of some string is a sequence of characters that appears in the same order in the string, The appearances don't have to be consecutive, for example, strings \"ac\", \"bc\", \"abc\" and \"a\" are subsequences of string \"abc\" while strings \"abbc\" and \"acb\" are not. The empty string is a subsequence of any string. Any string is a subsequence of itself.\n\n\n-----Input-----\n\nThe first line contains string a, and the second line\u00a0\u2014 string b. Both of these strings are non-empty and consist of lowercase letters of English alphabet. The length of each string is not bigger than 10^5 characters.\n\n\n-----Output-----\n\nIf there's no uncommon subsequence, print \"-1\". Otherwise print the length of the longest uncommon subsequence of a and b.\n\n\n-----Examples-----\nInput\nabcd\ndefgh\n\nOutput\n5\n\nInput\na\na\n\nOutput\n-1\n\n\n\n-----Note-----\n\nIn the first example: you can choose \"defgh\" from string b as it is the longest subsequence of string b that doesn't appear as a subsequence of string a.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

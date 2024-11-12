@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        [
+            "Hello",
+            "Alice"
+        ],
+        [
+            "Hi",
+            "Bob"
+        ],
+        [
+            "Hola",
+            "Maria"
+        ],
+        [
+            "Bonjour",
+            "Pierre"
+        ],
+        [
+            "Namaste",
+            "Sita"
+        ]
+    ],
+    "outputs": [
+        "Hello Alice",
+        "Hi Bob",
+        "Hola Maria",
+        "Bonjour Pierre",
+        "Namaste Sita"
+    ]
+}

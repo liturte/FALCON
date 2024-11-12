@@ -1,0 +1,62 @@
+{
+    "inputs": [
+        {
+            "css": [
+                "styles/reset.css",
+                "styles/main.css"
+            ],
+            "js": [
+                "libs/jquery.js",
+                "scripts/app.js"
+            ]
+        },
+        {
+            "css": [
+                "styles/style1.css",
+                "styles/style2.css"
+            ],
+            "js": [
+                "scripts/script1.js",
+                "scripts/script2.js"
+            ]
+        },
+        {
+            "css": [
+                "styles/main.css"
+            ],
+            "js": []
+        },
+        {
+            "css": [],
+            "js": [
+                "scripts/script.js"
+            ]
+        },
+        {
+            "css": [],
+            "js": []
+        }
+    ],
+    "outputs": [
+        {
+            "public/css/common.css": "/* minified content of reset.css and main.css */",
+            "public/js/common.js": "/* minified content of jquery.js and app.js */"
+        },
+        {
+            "public/css/styles.css": "/* minified content of style1.css and style2.css */",
+            "public/js/scripts.js": "/* minified content of script1.js and script2.js */"
+        },
+        {
+            "public/css/main.css": "/* minified content of main.css */",
+            "public/js/common.js": null
+        },
+        {
+            "public/css/common.css": null,
+            "public/js/script.js": "/* minified content of script.js */"
+        },
+        {
+            "public/css/common.css": null,
+            "public/js/common.js": null
+        }
+    ]
+}

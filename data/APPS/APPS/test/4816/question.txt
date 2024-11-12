@@ -1,0 +1,22 @@
+You have a fence post located at the point $(x, y)$ in the plane, to which a goat is tethered by a rope. You also have a house, which you model as an axis-aligned rectangle with diagonally opposite corners at the points $(x_1, y_1)$ and $(x_2, y_2)$. You want to pick a length of rope that guarantees the goat cannot reach the house.
+
+Determine the minimum distance from the fence post to the house, so that you can make sure to use a shorter rope.
+
+-----Input-----
+The input consists of a single line containing six space-separated integers $x$, $y$, $x_1$, $y_1$, $x_2$, and $y_2$, each in the range $[-999, 999]$.
+
+It is guaranteed that $x_1 < x_2$ and $y_1 < y_2$, and that $(x, y)$ is strictly outside the axis-aligned rectangle with corners at $(x_1, y_1)$ and $(x_2, y_2)$.
+
+-----Output-----
+Print the minimum distance from the goat’s post to the house, with a relative or absolute error no more than $0.001$.
+
+-----Examples-----
+Sample Input 1:
+7 3 0 0 5 4
+Sample Output 1:
+2.0
+
+Sample Input 2:
+6 0 0 2 7 6
+Sample Output 2:
+2.0

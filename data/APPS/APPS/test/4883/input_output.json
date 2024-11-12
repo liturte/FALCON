@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "9 5\nc t\ni r\nk p\no c\nr o\nt e\nt f\nu h\nw p\nwe we\ncan the\nwork people\nit of\nout the\n",
+        "3 3\na c\nb a\na b\naaa abc\nabc aaa\nacm bcm\n"
+    ],
+    "outputs": [
+        "yes\nno\nno\nyes\nyes\n",
+        "yes\nno\nyes\n"
+    ]
+}

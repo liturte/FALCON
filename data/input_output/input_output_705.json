@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        [
+            "simulate",
+            ""
+        ],
+        [
+            "simulate",
+            "agent1"
+        ],
+        [
+            "simulate",
+            "agent2"
+        ],
+        [
+            "simulate",
+            "agent3"
+        ],
+        [
+            "simulate",
+            " "
+        ]
+    ],
+    "outputs": [
+        "ValueError: Agent name cannot be empty",
+        "NotImplementedError: No agent implemented for agent1",
+        "NotImplementedError: No agent implemented for agent2",
+        "NotImplementedError: No agent implemented for agent3",
+        "ValueError: Agent name cannot be empty"
+    ]
+}

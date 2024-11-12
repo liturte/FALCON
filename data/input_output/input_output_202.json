@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "ThreadPool(3)",
+        "ThreadPool(1)",
+        "ThreadPool(0)",
+        "ThreadPool(10)",
+        "ThreadPool(5)"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

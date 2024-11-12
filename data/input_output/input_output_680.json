@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Node with value 5, left child with value 3, right child with value 8, parent node with value 7",
+        "Node with value 10, left child with value 6, right child with value 15, parent node with value 12",
+        "Node with value 20, left child with value 18, right child with value 25, parent node with value 22",
+        "Node with value 30, left child with value 28, right child with value 35, parent node with value 32",
+        "Node with value 40, left child with value 38, right child with value 45, parent node with value 42"
+    ],
+    "outputs": [
+        "Node with value 7",
+        "Node with value 15",
+        "Node with value 22",
+        "Node with value 32",
+        "Node with value 45"
+    ]
+}

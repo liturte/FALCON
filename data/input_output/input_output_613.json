@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "[10, 20, 'invalid', 30, 'error', 40]",
+        "[5, 'invalid', 15, 'error', 25]",
+        "['invalid', 'error', 'invalid']",
+        "[100, 200, 300, 400]",
+        "[]"
+    ],
+    "outputs": [
+        "Average: 25.0",
+        "Average: 15.0",
+        "No valid numbers to calculate average.",
+        "Average: 250.0",
+        "No valid numbers to calculate average."
+    ]
+}

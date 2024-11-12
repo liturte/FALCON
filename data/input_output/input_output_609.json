@@ -1,0 +1,43 @@
+{
+    "inputs": [
+        "HELLO,WORLD,THIS,IS,A,TEST",
+        "ONE,TWO,THREE,FOUR,FIVE",
+        "PYTHON,PROGRAMMING,LANGUAGE",
+        "APPLE,ORANGE,BANANA,GRAPES",
+        "STACK,OVERFLOW,TEST,CASES"
+    ],
+    "outputs": [
+        [
+            "HELLO",
+            "WORLD",
+            "THIS",
+            "IS",
+            "A",
+            "TEST"
+        ],
+        [
+            "ONE",
+            "TWO",
+            "THREE",
+            "FOUR",
+            "FIVE"
+        ],
+        [
+            "PYTHON",
+            "PROGRAMMING",
+            "LANGUAGE"
+        ],
+        [
+            "APPLE",
+            "ORANGE",
+            "BANANA",
+            "GRAPES"
+        ],
+        [
+            "STACK",
+            "OVERFLOW",
+            "TEST",
+            "CASES"
+        ]
+    ]
+}

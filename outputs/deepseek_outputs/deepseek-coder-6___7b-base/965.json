@@ -1,0 +1,8 @@
+{
+    "965": {
+        "code": [
+            "import sys\n\nn = int(sys.stdin.readline().strip())\ns = sys.stdin.readline().strip()\n\ncnt = 0\nfor i in range(n):\n    if s[i] == 'A':\n        cnt += 1\n    elif s[i] == 'F':\n        continue\n    else:\n        if cnt > 0:\n            cnt -= 1\n        else:\n            break\nprint(n-cnt)"
+        ],
+        "prompt": "\nQUESTION:\nThere are n cows playing poker at a table. For the current betting phase, each player's status is either \"ALLIN\", \"IN\", or \"FOLDED\", and does not change throughout the phase. To increase the suspense, a player whose current status is not \"FOLDED\" may show his/her hand to the table. However, so as not to affect any betting decisions, he/she may only do so if all other players have a status of either \"ALLIN\" or \"FOLDED\". The player's own status may be either \"ALLIN\" or \"IN\".\n\nFind the number of cows that can currently show their hands without affecting any betting decisions.\n\n\n-----Input-----\n\nThe first line contains a single integer, n (2 \u2264 n \u2264 2\u00b710^5). The second line contains n characters, each either \"A\", \"I\", or \"F\". The i-th character is \"A\" if the i-th player's status is \"ALLIN\", \"I\" if the i-th player's status is \"IN\", or \"F\" if the i-th player's status is \"FOLDED\".\n\n\n-----Output-----\n\nThe first line should contain a single integer denoting the number of players that can currently show their hands.\n\n\n-----Examples-----\nInput\n6\nAFFAAA\n\nOutput\n4\n\nInput\n3\nAFI\n\nOutput\n1\n\n\n\n-----Note-----\n\nIn the first sample, cows 1, 4, 5, and 6 can show their hands. In the second sample, only cow 3 can show her hand.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "495": {
+        "code": [
+            "a,k=input().split()\na=list(a)\nfor i in range(len(a)-1):\n    if a[i]<a[i+1]:\n        for j in range(i+1,len(a)):\n            if a[i]<a[j]:\n                a[i],a[j]=a[j],a[i]\n                break\n        break\nprint(''.join(a))"
+        ],
+        "prompt": "\nQUESTION:\nPasha has a positive integer a without leading zeroes. Today he decided that the number is too small and he should make it larger. Unfortunately, the only operation Pasha can do is to swap two adjacent decimal digits of the integer.\n\nHelp Pasha count the maximum number he can get if he has the time to make at most k swaps.\n\n\n-----Input-----\n\nThe single line contains two integers a and k (1 \u2264 a \u2264 10^18;\u00a00 \u2264 k \u2264 100).\n\n\n-----Output-----\n\nPrint the maximum number that Pasha can get if he makes at most k swaps.\n\n\n-----Examples-----\nInput\n1990 1\n\nOutput\n9190\n\nInput\n300 0\n\nOutput\n300\n\nInput\n1034 2\n\nOutput\n3104\n\nInput\n9090000078001234 6\n\nOutput\n9907000008001234\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

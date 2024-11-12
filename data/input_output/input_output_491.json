@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Trainer().get_local_worker_path()",
+        "Trainer().get_local_worker_path()",
+        "Trainer().get_local_worker_path()",
+        "Trainer().get_local_worker_path()",
+        "Trainer().get_local_worker_path()"
+    ],
+    "outputs": [
+        "Training is complete. Please check folder: /home/user/training_abc123",
+        "Training is complete. Please check folder: /home/user/training_xyz456",
+        "Training is complete. Please check folder: /home/user/training_123abc",
+        "Training is complete. Please check folder: /home/user/training_qwerty",
+        "Training is complete. Please check folder: /home/user/training_789xyz"
+    ]
+}

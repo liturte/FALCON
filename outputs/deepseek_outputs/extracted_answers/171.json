@@ -1,0 +1,3 @@
+{
+    "171": "def is_password_strong(password):\n    if len(password) < 5:\n        return False\n    if not any(c.isupper() for c in password):\n        return False\n    if not any(c.islower() for c in password):\n        return False\n    if not any(c.isdigit() for c in password):\n        return False\n    return True\n\npassword = input().strip()\nif is_password_strong(password):\n    print(\"Correct\")\nelse:\n    print(\"Too weak\")"
+}

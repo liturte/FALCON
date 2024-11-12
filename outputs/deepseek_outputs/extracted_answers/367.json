@@ -1,0 +1,3 @@
+{
+    "367": "def check_palindrome(s):\n    if s == s[::-1]:\n        return True\n    return False\n\n\ndef min_changes(s):\n    s_list = list(s)\n    s_list.reverse()\n    for i in range(len(s)):\n        if s_list[i] == s[i]:\n            s_list[i] = s[i]\n        else:\n            s_list[i] = s[i]\n    s = ''.join(s_list)\n    return s\n\n\nif __name__ == \"__main__\":\n    s = input()\n    if check_palindrome(s):\n        print(s)\n    else:\n        print(min_changes(s))"
+}

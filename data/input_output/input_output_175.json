@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "8",
+        "10",
+        "16",
+        "20",
+        "25"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    "234": "```python\nn, m = map(int, input().split())\na = [list(map(str, input())) for _ in range(n)]\n\n\ndef count_bombs(a, i, j):\n    cnt = 0\n    for di in range(-1, 2):\n        for dj in range(-1, 2):\n            if di == dj == 0:\n                continue\n            if 0 <= i + di < n and 0 <= j + dj < m:\n                cnt += (a[i + di][j + dj] == '*')\n    return cnt\n\n\ndef check():\n    for i in range(n):\n        for j in range(m):\n            if a[i][j] == '*':\n                continue\n            cnt = count_bombs(a, i, j)\n            if cnt != int(a[i][j]):\n                return False\n    return True\n\n\nprint('YES' if check() else 'NO')\n```"
+}

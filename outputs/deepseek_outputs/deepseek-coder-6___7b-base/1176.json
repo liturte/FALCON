@@ -1,0 +1,8 @@
+{
+    "1176": {
+        "code": [
+            "import sys\n\nN = int(input())\nA = list(map(int, input().split()))\n\nB = [0] * N\n\nfor i in range(N):\n    if i % 2 == 0:\n        B[i] = A[i]\n    else:\n        B[i] = -A[i]\n\nprint(sum(B))"
+        ],
+        "prompt": "\nQUESTION:\nThere are N integers, A_1, A_2, ..., A_N, arranged in a row in this order.\nYou can perform the following operation on this integer sequence any number of times:\nOperation: Choose an integer i satisfying 1 \\leq i \\leq N-1. Multiply both A_i and A_{i+1} by -1.\nLet B_1, B_2, ..., B_N be the integer sequence after your operations.\nFind the maximum possible value of B_1 + B_2 + ... + B_N.\n\n-----Constraints-----\n - All values in input are integers.\n - 2 \\leq N \\leq 10^5\n - -10^9 \\leq A_i \\leq 10^9\n\n-----Input-----\nInput is given from Standard Input in the following format:\nN\nA_1 A_2 ... A_N\n\n-----Output-----\nPrint the maximum possible value of B_1 + B_2 + ... + B_N.\n\n-----Sample Input-----\n3\n-10 5 -4\n\n-----Sample Output-----\n19\n\nIf we perform the operation as follows:\n - Choose 1 as i, which changes the sequence to 10, -5, -4.\n - Choose 2 as i, which changes the sequence to 10, 5, 4.\nwe have B_1 = 10, B_2 = 5, B_3 = 4. The sum here, B_1 + B_2 + B_3 = 10 + 5 + 4 = 19, is the maximum possible result.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

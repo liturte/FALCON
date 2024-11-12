@@ -1,0 +1,3 @@
+{
+    "158": "def main():\n    n = int(input())\n    a = list(map(int, input().split()))\n    a.sort()\n    for i in range(n):\n        if a[i] >= a[i+n]:\n            print('NO')\n            return\n    print('YES')\n\nmain()"
+}

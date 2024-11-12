@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "-4",
+        "-4.5",
+        "0",
+        "0",
+        "0"
+    ],
+    "outputs": [
+        "ValueError: The number should be greater than the specified value",
+        "ValueError: The number should be greater than the specified value",
+        null,
+        "ValueError: Zero is not allowed as a positive number",
+        null
+    ]
+}

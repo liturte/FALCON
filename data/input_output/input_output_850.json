@@ -1,0 +1,14 @@
+{
+    "inputs": [
+        "send_message('Hello')",
+        "send_message('Hi'); receive_message()",
+        "send_message('Hey')",
+        ""
+    ],
+    "outputs": [
+        null,
+        "Hi",
+        "Hey",
+        null
+    ]
+}

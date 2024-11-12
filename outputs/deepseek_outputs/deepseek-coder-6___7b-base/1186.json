@@ -1,0 +1,8 @@
+{
+    "1186": {
+        "code": [
+            "#1\nn=int(input())\nif n%2==0:\n    print('NO')\nelse:\n    print('YES')\n    p=list(range(n,0,-1))\n    print(*p)\n    q=p[:]\n    q[0]=1\n    q[n//2+1]=n\n    print(*q)\n\n#2\nn=int(input())\nif n%2==0:\n    print('NO')\nelse:\n    print('YES')\n    p=list(range(n,0,-1))\n    print(*p)\n    q=p[:]\n    q[0]=1\n    q[n//2+1]=n\n    print(*q)"
+        ],
+        "prompt": "\nQUESTION:\nGiven an integer N, find two permutations:  Permutation p of numbers from 1 to N such that p_{i} \u2260 i and p_{i} & i = 0 for all i = 1, 2, ..., N.  Permutation q of numbers from 1 to N such that q_{i} \u2260 i and q_{i} & i \u2260 0 for all i = 1, 2, ..., N. \n\n& is the bitwise AND operation.\n\n\n-----Input-----\n\nThe input consists of one line containing a single integer N (1 \u2264 N \u2264 10^5).\n\n\n-----Output-----\n\nFor each subtask, if the required permutation doesn't exist, output a single line containing the word \"NO\"; otherwise output the word \"YES\" in the first line and N elements of the permutation, separated by spaces, in the second line. If there are several possible permutations in a subtask, output any of them.\n\n\n-----Examples-----\nInput\n3\n\nOutput\nNO\nNO\n\nInput\n6\n\nOutput\nYES\n6 5 4 3 2 1 \nYES\n3 6 2 5 1 4\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

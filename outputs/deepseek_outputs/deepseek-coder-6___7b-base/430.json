@@ -1,0 +1,8 @@
+{
+    "430": {
+        "code": [
+            "n = int(input())\nw = list(map(int, input().split()))\nif sum(w) % 2 == 0:\n    w1 = w2 = sum(w) // 2\n    for i in w:\n        if i == 100:\n            w1 -= 100\n        else:\n            w2 -= 200\n        if w1 < 0 or w2 < 0:\n            print('NO')\n            exit()\n    print('YES')\nelse:\n    print('NO')"
+        ],
+        "prompt": "\nQUESTION:\nKitahara Haruki has bought n apples for Touma Kazusa and Ogiso Setsuna. Now he wants to divide all the apples between the friends.\n\nEach apple weights 100 grams or 200 grams. Of course Kitahara Haruki doesn't want to offend any of his friend. Therefore the total weight of the apples given to Touma Kazusa must be equal to the total weight of the apples given to Ogiso Setsuna.\n\nBut unfortunately Kitahara Haruki doesn't have a knife right now, so he cannot split any apple into some parts. Please, tell him: is it possible to divide all the apples in a fair way between his friends?\n\n\n-----Input-----\n\nThe first line contains an integer n (1 \u2264 n \u2264 100) \u2014 the number of apples. The second line contains n integers w_1, w_2, ..., w_{n} (w_{i} = 100 or w_{i} = 200), where w_{i} is the weight of the i-th apple.\n\n\n-----Output-----\n\nIn a single line print \"YES\" (without the quotes) if it is possible to divide all the apples between his friends. Otherwise print \"NO\" (without the quotes).\n\n\n-----Examples-----\nInput\n3\n100 200 100\n\nOutput\nYES\n\nInput\n4\n100 100 100 200\n\nOutput\nNO\n\n\n\n-----Note-----\n\nIn the first test sample Kitahara Haruki can give the first and the last apple to Ogiso Setsuna and the middle apple to Touma Kazusa.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

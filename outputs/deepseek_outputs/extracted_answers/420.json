@@ -1,0 +1,3 @@
+{
+    "420": "n, m = map(int, input().split())\na = [input() for i in range(n)]\n\ndef check(a, b):\n    for i in range(n):\n        for j in range(m):\n            if a[i][j] != b[i][j]:\n                return False\n    return True\n\ndef mirror(a):\n    b = [\"\" for i in range(n)]\n    for i in range(n):\n        for j in range(m):\n            b[i] += str(1 - int(a[i][j]))\n    return b\n\ndef solve(a):\n    b = a[::]\n    for i in range(n):\n        for j in range(n):\n            b = mirror(b)\n            if check(a, b):\n                return b\n    return None\n\nb = solve(a)\nif b is None:\n    print(n)\nelse:\n    print(n // 2 + 1)"
+}

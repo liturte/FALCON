@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "basketball_stats.csv",
+        "empty_file.csv",
+        "invalid_format.csv",
+        "missing_columns.csv",
+        "sample_data.csv"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "inputs": [
+        [
+            "apple",
+            "banana",
+            "cherry"
+        ],
+        [
+            "hello",
+            "world"
+        ],
+        [
+            "python",
+            "java",
+            "javascript"
+        ],
+        [
+            "cat",
+            "dog",
+            "rabbit",
+            "fish"
+        ],
+        [
+            "red",
+            "green",
+            "blue"
+        ]
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

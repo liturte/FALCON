@@ -1,0 +1,8 @@
+{
+    "545": {
+        "code": [
+            "n, t = map(int, input().split())\ns1, s2 = input(), input()\ns3 = \"\"\n\nfor i in range(n):\n    if s1[i] == s2[i]:\n        s3 += s1[i]\n    else:\n        if t > 0:\n            s3 += \"a\"\n            t -= 1\n        else:\n            s3 += s1[i]\n\nif t > 0:\n    print(-1)\nelse:\n    print(s3)"
+        ],
+        "prompt": "\nQUESTION:\nMarina loves strings of the same length and Vasya loves when there is a third string, different from them in exactly t characters. Help Vasya find at least one such string.\n\nMore formally, you are given two strings s_1, s_2 of length n and number t. Let's denote as f(a, b) the number of characters in which strings a and b are different. Then your task will be to find any string s_3 of length n, such that f(s_1, s_3) = f(s_2, s_3) = t. If there is no such string, print  - 1.\n\n\n-----Input-----\n\nThe first line contains two integers n and t (1 \u2264 n \u2264 10^5, 0 \u2264 t \u2264 n).\n\nThe second line contains string s_1 of length n, consisting of lowercase English letters.\n\nThe third line contain string s_2 of length n, consisting of lowercase English letters.\n\n\n-----Output-----\n\nPrint a string of length n, differing from string s_1 and from s_2 in exactly t characters. Your string should consist only from lowercase English letters. If such string doesn't exist, print -1.\n\n\n-----Examples-----\nInput\n3 2\nabc\nxyc\n\nOutput\nayd\nInput\n1 0\nc\nb\n\nOutput\n-1\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

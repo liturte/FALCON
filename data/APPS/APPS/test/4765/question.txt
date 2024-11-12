@@ -1,0 +1,29 @@
+"Perket" is a widely known and delicious meal. For perket to be what it is, cooks must carefully choose the ingredients to get the fullest taste possible while keeping the meal traditional.
+
+You have $N$ ingredients at your disposal. For each we know its sourness $S$ and bitterness $B$. When using multiple ingredients, the total sourness is the product of sourness amounts of all ingredients, while the total bitterness is the sum of bitterness amounts of all ingredients.
+
+As everyone knows, perket is supposed to be neither sour nor bitter; we want to choose the ingredients so that the absolute difference between sourness and bitterness is the smallest.
+
+Also, it is necessary to use at least one ingredient; you can’t serve water as the main course.
+
+-----Input-----
+The first line contains the integer $N$ $(1 \leq N \leq 10)$, the number of ingredients at our disposal. Each of the next $N$ lines contains two integers separated by a space, the sourness and bitterness of each ingredient.
+
+The input data will be such that, if we make a meal with all ingredients, both the sourness and bitterness will be less than $1000000000$.
+
+-----Output-----
+Output the smallest possible difference between sourness and bitterness.
+
+-----Examples-----
+Sample Input 1:
+1
+3 10
+Sample Output 1:
+7
+
+Sample Input 2:
+2
+3 8
+5 8
+Sample Output 2:
+1

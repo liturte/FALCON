@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "X = ['hello world', 'world is beautiful', 'machine learning is fun', 'hello machine']\ny = [0, 1, 1, 0]",
+        "X = ['apple orange banana', 'banana is a fruit', 'apple is red', 'orange is sweet']\ny = [0, 1, 0, 1]",
+        "X = ['python is a programming language', 'programming is fun', 'machine learning uses python', 'python is versatile']\ny = [1, 0, 1, 1]",
+        "X = ['cat is cute', 'dog is loyal', 'cat and dog are pets', 'pets are adorable']\ny = [0, 1, 0, 1]",
+        "X = ['data science is interesting', 'statistics is important', 'machine learning is challenging', 'data analysis is crucial']\ny = [1, 0, 1, 0]"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

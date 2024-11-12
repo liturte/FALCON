@@ -1,0 +1,1 @@
+{"fn_name": "not_so_random", "inputs": [[1, 1], [2, 1], [1, 2], [2, 2], [6, 9], [10000, 10000], [11111, 22222]], "outputs": [["Black"], ["White"], ["Black"], ["White"], ["White"], ["White"], ["Black"]]}

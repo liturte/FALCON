@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "buy 1 15\nsplit 3\nsell 1 5\ndie 4\n",
+        "buy 10 10\nbuy 30 5\nsell 31 8\nsplit 2\nmerge 8\ndie 42\n"
+    ],
+    "outputs": [
+        "8.00000000\n",
+        "73.8\n"
+    ]
+}

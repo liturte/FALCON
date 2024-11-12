@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{\"_schedule_executions\": {\"schedule1\": {\"task_processes\": []}, \"schedule2\": {\"task_processes\": [\"process1\", \"process2\"]}}}",
+        "{\"_schedule_executions\": {\"schedule1\": {\"task_processes\": [\"process1\"]}, \"schedule2\": {\"task_processes\": []}}}",
+        "{\"_schedule_executions\": {\"schedule1\": {\"task_processes\": [\"process1\", \"process2\"]}, \"schedule2\": {\"task_processes\": []}}}",
+        "{\"_schedule_executions\": {\"schedule1\": {\"task_processes\": []}, \"schedule2\": {\"task_processes\": []}}}",
+        "{\"_schedule_executions\": {\"schedule1\": {\"task_processes\": [\"process1\", \"process2\"]}, \"schedule2\": {\"task_processes\": [\"process3\"]}}}"
+    ],
+    "outputs": [
+        "true",
+        "false",
+        "false",
+        "true",
+        "false"
+    ]
+}

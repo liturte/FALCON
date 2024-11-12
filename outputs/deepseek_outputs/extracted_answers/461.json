@@ -1,0 +1,3 @@
+{
+    "461": "a,b,c,n = map(int,input().split())\n\nif n == 1:\n    print(0)\nelse:\n    print((a+b+c)*2)"
+}

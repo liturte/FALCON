@@ -1,0 +1,8 @@
+{
+    "915": {
+        "code": [
+            "#include <bits/stdc++.h>\nusing namespace std;\n#define int long long\n#define N 100005\n#define MOD 1000000007\n#define INF 1e18\n#define PI acos(-1)\n#define endl \"\\n\"\n#define F first\n#define S second\n#define MP make_pair\n\nint n, k;\n\nint32_t main()\n{\n\tios::sync_with_stdio(false);\n\tcin.tie(0);\n\tcout.tie(0);\n\n\tcin >> k;\n\tint cnt = 0;\n\twhile (k)\n\t{\n\t\tcnt++;\n\t\tk /= 2;\n\t}\n\tn = 1 << cnt;\n\tcout << string(n, 'c') + string(n, 'e') + string(n, 'f') + string(n, 'o') + string(n, 'r') + string(n, 's') << endl;\n\n\treturn 0;\n}"
+        ],
+        "prompt": "\nQUESTION:\nKarl likes Codeforces and subsequences. He wants to find a string of lowercase English letters that contains at least $k$ subsequences codeforces. Out of all possible strings, Karl wants to find a shortest one.\n\nFormally, a codeforces subsequence of a string $s$ is a subset of ten characters of $s$ that read codeforces from left to right. For example, codeforces contains codeforces a single time, while codeforcesisawesome contains codeforces four times: codeforcesisawesome, codeforcesisawesome, codeforcesisawesome, codeforcesisawesome.\n\nHelp Karl find any shortest string that contains at least $k$ codeforces subsequences.\n\n\n-----Input-----\n\nThe only line contains a single integer $k$ ($1 \\leq k \\leq 10^{16})$.\n\n\n-----Output-----\n\nPrint a shortest string of lowercase English letters that contains at least $k$ codeforces subsequences. If there are several such strings, print any of them.\n\n\n-----Examples-----\nInput\n1\n\nOutput\ncodeforces\n\nInput\n3\n\nOutput\ncodeforcesss\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

@@ -1,0 +1,3 @@
+{
+    "183": "from math import *\nn,k,m=map(int,input().split())\nl=[0]*(n+1)\nl[1]=10\nfor i in range(2,n+1):\n    l[i]=(l[i-1]*(10-i+1))%m\np=10**(n-1)\nq=(10**n-p)//k\nr=0\nfor i in range(1,n+1):\n    r+=(l[i]*q)%m\nprint(r%m)"
+}

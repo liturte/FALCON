@@ -1,0 +1,8 @@
+{
+    "742": {
+        "code": [
+            "def solve(n,b):\n    # write code here\n    # return the answer\n    b.sort()\n    a=[0]*(2*n)\n    for i in range(n):\n        a[2*i]=b[i]\n    for i in range(n):\n        a[2*i+1]=b[n-i-1]\n    for i in range(2*n-1):\n        if a[i]>a[i+1]:\n            return -1\n    return a\n\nt=int(input())\nfor i in range(t):\n    n=int(input())\n    b=list(map(int,input().split()))\n    print(*solve(n,b))"
+        ],
+        "prompt": "\nQUESTION:\nYou are given a sequence $b_1, b_2, \\ldots, b_n$. Find the lexicographically minimal permutation $a_1, a_2, \\ldots, a_{2n}$ such that $b_i = \\min(a_{2i-1}, a_{2i})$, or determine that it is impossible.\n\n\n-----Input-----\n\nEach test contains one or more test cases. The first line contains the number of test cases $t$ ($1 \\le t \\le 100$).\n\nThe first line of each test case consists of one integer $n$\u00a0\u2014 the number of elements in the sequence $b$ ($1 \\le n \\le 100$).\n\nThe second line of each test case consists of $n$ different integers $b_1, \\ldots, b_n$\u00a0\u2014 elements of the sequence $b$ ($1 \\le b_i \\le 2n$).\n\nIt is guaranteed that the sum of $n$ by all test cases doesn't exceed $100$.\n\n\n-----Output-----\n\nFor each test case, if there is no appropriate permutation, print one number $-1$.\n\nOtherwise, print $2n$ integers $a_1, \\ldots, a_{2n}$\u00a0\u2014 required lexicographically minimal permutation of numbers from $1$ to $2n$.\n\n\n-----Example-----\nInput\n5\n1\n1\n2\n4 1\n3\n4 1 3\n4\n2 3 4 5\n5\n1 5 7 2 8\n\nOutput\n1 2 \n-1\n4 5 1 2 3 6 \n-1\n1 3 5 6 7 9 2 4 8 10\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

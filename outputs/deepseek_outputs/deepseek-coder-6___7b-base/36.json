@@ -1,0 +1,8 @@
+{
+    "36": {
+        "code": [
+            "def main():\n    n = int(input())\n    x, y = 0, 0\n    if n > 0:\n        if n % 6 == 0:\n            x = n // 6 - 1\n            y = 0\n        elif n % 6 == 1:\n            x = n // 6\n            y = -1\n        elif n % 6 == 2:\n            x = n // 6 - 1\n            y = -1\n        elif n % 6 == 3:\n            x = n // 6 - 1\n            y = 1\n        elif n % 6 == 4:\n            x = n // 6\n            y = 1\n        else:\n            x = n // 6\n            y = 0\n    print(x, y)\n\n\nif __name__ == '__main__':\n    main()"
+        ],
+        "prompt": "\nQUESTION:\nAyrat is looking for the perfect code. He decided to start his search from an infinite field tiled by hexagons. For convenience the coordinate system is introduced, take a look at the picture to see how the coordinates of hexagon are defined: \n\n[Image] [Image] Ayrat is searching through the field. He started at point (0, 0) and is moving along the spiral (see second picture). Sometimes he forgets where he is now. Help Ayrat determine his location after n moves.\n\n\n-----Input-----\n\nThe only line of the input contains integer n (0 \u2264 n \u2264 10^18)\u00a0\u2014 the number of Ayrat's moves.\n\n\n-----Output-----\n\nPrint two integers x and y\u00a0\u2014 current coordinates of Ayrat coordinates.\n\n\n-----Examples-----\nInput\n3\n\nOutput\n-2 0\n\nInput\n7\n\nOutput\n3 2\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

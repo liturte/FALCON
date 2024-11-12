@@ -1,0 +1,22 @@
+Daylight Saving Time (DST) is the practice of advancing clocks forward during the summer time, usually by one hour, to gain an extra hour of sunlight in the evenings, at the cost of darker mornings. Countries and regions have changed their DST practices over the years, sometimes changing the dates they switch the clocks, and other times changing the amount of minutes the clock changes by.
+
+This creates a real hassle. Sleep cycles are disrupted, operating systems and other computer software needs to follow special rules, and sometimes people end up late to work because of it.
+
+To help make this easier on people, you’ve decided to make a computer program which calculates the new time after an adjustment.
+
+-----Input-----
+Input consists of a single integer $N$ ($1 \le N \le 500$) indicating the number of test cases that follow. Each test case consists of a single line with the following information:
+ - a single character to indicate whether the clock will roll forwards (F) or backwards (B),
+ - an integer $D$ ($0 \le D \le 120$) indicating the number of minutes to change by,
+ - an integer $H$ ($0 \le H < 24$) indicating the hour the clock currently reads (without leading zeros), and
+ - an integer $M$ ($0 \le M < 60$) indicating the minutes the clock currently reads.
+
+-----Output-----
+For each test case, give the time (hours in $24$-hour format, followed by a space, followed by minutes) after the adjustment has occurred, one test case per line. You may report the numbers without leading zeros.
+
+-----Examples-----
+Sample Input:
+1
+F 60 13 20
+Sample Output:
+14 20

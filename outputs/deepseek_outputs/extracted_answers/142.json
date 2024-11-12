@@ -1,0 +1,3 @@
+{
+    "142": "n, L = map(int, input().split())\nc = list(map(int, input().split()))\n\ndef solve(n, L, c):\n    dp = [float('inf')] * (L + 1)\n    dp[0] = 0\n    for i in range(n):\n        for j in range(c[i], L + 1):\n            dp[j] = min(dp[j], dp[j - c[i]] + 1)\n    return dp[L]\n\nprint(solve(n, L, c))"
+}

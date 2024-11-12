@@ -1,0 +1,3 @@
+{
+    "259": "n, t = map(int, input().split())\ns, d = [], []\nfor i in range(n):\n    a, b = map(int, input().split())\n    s.append(a)\n    d.append(b)\n\nfor i in range(n):\n    if s[i] < t:\n        if (t - s[i]) % d[i] == 0:\n            print(i + 1)\n            break"
+}

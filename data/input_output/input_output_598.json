@@ -1,0 +1,81 @@
+{
+    "inputs": [
+        {
+            "functions": [
+                "abs",
+                "int",
+                "str"
+            ],
+            "classes": [
+                "list",
+                "dict"
+            ]
+        },
+        {
+            "functions": [
+                "max",
+                "type",
+                "tuple"
+            ],
+            "classes": [
+                "set",
+                "float"
+            ]
+        },
+        {
+            "functions": [
+                "len",
+                "sum",
+                "bool"
+            ],
+            "classes": [
+                "tuple",
+                "str"
+            ]
+        },
+        {
+            "functions": [
+                "sorted",
+                "enumerate",
+                "reversed"
+            ],
+            "classes": [
+                "int",
+                "list"
+            ]
+        },
+        {
+            "functions": [
+                "min",
+                "range",
+                "zip"
+            ],
+            "classes": [
+                "dict",
+                "set"
+            ]
+        }
+    ],
+    "outputs": [
+        {
+            "functions_output": "Assertion passes for functions: 'abs', 'int', 'str'.\nAssertion fails for classes: 'list', 'dict' (provide specific error messages for each failed assertion).",
+            "classes_output": "Specific error messages for failed assertions on classes 'list' and 'dict'."
+        },
+        {
+            "functions_output": "Assertion passes for functions: 'max', 'type', 'tuple'.\nAssertion fails for classes: 'set', 'float' (provide specific error messages for each failed assertion).",
+            "classes_output": "Specific error messages for failed assertions on classes 'set' and 'float'."
+        },
+        {
+            "functions_output": null,
+            "classes_output": null
+        },
+        {
+            "functions_output": null,
+            "classes_output": null
+        },
+        {
+            "functions_output": null,
+            "classes_output": null
+        }
+    ]
+}

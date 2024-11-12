@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "[{'date': '2022-01-01', 'hours_worked': 8}, {'date': '2022-01-02', 'hours_worked': 6}, {'date': '2022-01-03', 'hours_worked': 7}]",
+        "[{'date': '2022-02-01', 'hours_worked': 5}, {'date': '2022-02-02', 'hours_worked': 4}, {'date': '2022-02-03', 'hours_worked': 9}]",
+        "[{'date': '2022-03-01', 'hours_worked': 10}, {'date': '2022-03-02', 'hours_worked': 8}, {'date': '2022-03-03', 'hours_worked': 6}]",
+        "[{'date': '2022-04-01', 'hours_worked': 7}, {'date': '2022-04-02', 'hours_worked': 8}, {'date': '2022-04-03', 'hours_worked': 9}]",
+        "[{'date': '2022-05-01', 'hours_worked': 6}, {'date': '2022-05-02', 'hours_worked': 7}, {'date': '2022-05-03', 'hours_worked': 8}]"
+    ],
+    "outputs": [
+        "21",
+        "18",
+        "24",
+        "24",
+        "21"
+    ]
+}

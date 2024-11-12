@@ -1,0 +1,3 @@
+{
+    "377": "n,m=map(int,input().split())\n\nprint(n-m if n>m else 0)"
+}

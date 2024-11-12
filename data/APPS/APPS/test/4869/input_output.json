@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "1.000000 4.000000\n",
+        "1.000000 0.000000\n"
+    ],
+    "outputs": [
+        "Diablo is happy!\n",
+        "Need more materials!\n"
+    ]
+}

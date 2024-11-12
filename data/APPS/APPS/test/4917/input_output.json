@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "2\n1 7\n5 5\n",
+        "3\n4 6\n4 8\n7 8\n"
+    ],
+    "outputs": [
+        "gunilla has a point\n",
+        "edward is right\n"
+    ]
+}

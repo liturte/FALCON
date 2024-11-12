@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{\"src\": \"English\", \"dest\": \"Spanish\", \"text\": \"Hello\", \"pronunciation\": \"Hola\", \"extra_data\": \"1234567890\"}",
+        "{\"src\": \"French\", \"dest\": \"German\", \"text\": \"Bonjour\", \"pronunciation\": \"Guten Tag\", \"extra_data\": \"abcdefghij\"}",
+        "{\"src\": \"Japanese\", \"dest\": \"Korean\", \"text\": \"こんにちは\", \"pronunciation\": \"안녕하세요\", \"extra_data\": \"!@#$%^&*()\"}",
+        "{\"src\": \"Italian\", \"dest\": \"Russian\", \"text\": \"Ciao\", \"pronunciation\": \"Привет\", \"extra_data\": \"qwertyuiop\"}",
+        "{\"src\": \"Chinese\", \"dest\": \"Arabic\", \"text\": \"你好\", \"pronunciation\": \"مرحبا\", \"extra_data\": \"zxcvbnmasd\"}"
+    ],
+    "outputs": [
+        "Translated(src=English, dest=Spanish, text=Hello, pronunciation=Hola, extra_data='1234567890')",
+        "Translated(src=French, dest=German, text=Bonjour, pronunciation=Guten Tag, extra_data='abcdefghij')",
+        "Translated(src=Japanese, dest=Korean, text=こんにちは, pronunciation=안녕하세요, extra_data='!@#$%^&*()')",
+        "Translated(src=Italian, dest=Russian, text=Ciao, pronunciation=Привет, extra_data='qwertyuiop')",
+        "Translated(src=Chinese, dest=Arabic, text=你好, pronunciation=مرحبا, extra_data='zxcvbnmasd')"
+    ]
+}

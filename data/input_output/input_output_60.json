@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "ProgrammingLanguage('Python', 'py')",
+        "ProgrammingLanguage('Java', 'java')",
+        "ProgrammingLanguage('C++', 'cpp')",
+        "ProgrammingLanguage('JavaScript', 'js')",
+        "ProgrammingLanguage('Ruby', 'rb')"
+    ],
+    "outputs": [
+        "Language Name: Python\nLanguage Code: py",
+        "Language Name: Java\nLanguage Code: java",
+        "Language Name: C++\nLanguage Code: cpp",
+        "Language Name: JavaScript\nLanguage Code: js",
+        "Language Name: Ruby\nLanguage Code: rb"
+    ]
+}

@@ -1,0 +1,1 @@
+{"fn_name": "check_vowel", "inputs": [["cat", 1], ["cat", 0], ["cat", 4], ["Amanda", -2], ["Amanda", 0], ["Amanda", 2]], "outputs": [[true], [false], [false], [false], [true], [true]]}

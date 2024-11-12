@@ -1,0 +1,22 @@
+{
+  "inputs": [
+    "6\nbaabbb\n",
+    "10\nooopppssss\n",
+    "1\nz\n",
+    "3\nzww\n",
+    "55\ncooooonnnnttttteeeeeeeeeeeeessssssssttttttttttttttttttt\n",
+    "21\ncoodddeeeecccccoooooo\n",
+    "55\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+    "36\nabbcccddddeeeeeffffffggggggghhhhhhhh\n"
+  ],
+  "outputs": [
+    "bab",
+    "oops",
+    "z",
+    "zw",
+    "coonteestt",
+    "codeco",
+    "aaaaaaaaaa",
+    "abcdefgh"
+  ]
+}

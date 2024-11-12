@@ -1,0 +1,62 @@
+{
+    "inputs": [
+        [
+            "google-api-python-client",
+            "google-auth-httplib2",
+            "google-auth-oauthlib",
+            "cachecontrol",
+            "google"
+        ],
+        [
+            "numpy",
+            "pandas",
+            "scikit-learn",
+            "matplotlib"
+        ],
+        [
+            "requests",
+            "beautifulsoup4",
+            "selenium"
+        ],
+        [
+            "django",
+            "flask",
+            "fastapi"
+        ],
+        [
+            "tensorflow",
+            "keras",
+            "pytorch"
+        ]
+    ],
+    "outputs": [
+        {
+            "google-api-python-client": 23,
+            "google-auth-httplib2": 21,
+            "google-auth-oauthlib": 20,
+            "cachecontrol": 12,
+            "google": 6
+        },
+        {
+            "numpy": 5,
+            "pandas": 6,
+            "scikit-learn": 12,
+            "matplotlib": 10
+        },
+        {
+            "requests": 8,
+            "beautifulsoup4": 14,
+            "selenium": 8
+        },
+        {
+            "django": 6,
+            "flask": 5,
+            "fastapi": 7
+        },
+        {
+            "tensorflow": 10,
+            "keras": 5,
+            "pytorch": 7
+        }
+    ]
+}

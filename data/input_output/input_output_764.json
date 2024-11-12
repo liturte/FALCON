@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "landing_mass=5000kg, landing_point=100m, previous_optimization_point=90m",
+        "landing_mass=6000kg, landing_point=150m, previous_optimization_point=140m",
+        "landing_mass=4500kg, landing_point=80m, previous_optimization_point=75m",
+        "landing_mass=7000kg, landing_point=200m, previous_optimization_point=180m",
+        "landing_mass=5500kg, landing_point=120m, previous_optimization_point=110m"
+    ],
+    "outputs": [
+        "minimized_fuel_usage=2000kg",
+        "minimized_fuel_usage=2500kg",
+        "minimized_fuel_usage=1800kg",
+        "minimized_fuel_usage=3000kg",
+        "minimized_fuel_usage=2300kg"
+    ]
+}

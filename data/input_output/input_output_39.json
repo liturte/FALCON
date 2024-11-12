@@ -1,0 +1,100 @@
+{
+    "inputs": [
+        {
+            "table_data": [
+                {
+                    "item_id": "1",
+                    "name": "item1",
+                    "category": "A"
+                },
+                {
+                    "item_id": "2",
+                    "name": "item2",
+                    "category": "B"
+                },
+                {
+                    "item_id": "3",
+                    "name": "item3",
+                    "category": "A"
+                },
+                {
+                    "item_id": "4",
+                    "name": "item4",
+                    "category": "C"
+                }
+            ],
+            "item_id": "item_id"
+        },
+        {
+            "table_data": [
+                {
+                    "item_id": "101",
+                    "name": "item101",
+                    "category": "X"
+                },
+                {
+                    "item_id": "102",
+                    "name": "item102",
+                    "category": "Y"
+                },
+                {
+                    "item_id": "103",
+                    "name": "item103",
+                    "category": "Z"
+                }
+            ],
+            "item_id": "item_id"
+        },
+        {
+            "table_data": [
+                {
+                    "item_id": "201",
+                    "name": "item201",
+                    "category": "P"
+                },
+                {
+                    "item_id": "202",
+                    "name": "item202",
+                    "category": "Q"
+                }
+            ],
+            "item_id": "item_id"
+        },
+        {
+            "table_data": [],
+            "item_id": "item_id"
+        },
+        {
+            "table_data": [
+                {
+                    "item_id": "301",
+                    "name": "item301",
+                    "category": "M"
+                },
+                {
+                    "item_id": "302",
+                    "name": "item302",
+                    "category": "N"
+                },
+                {
+                    "item_id": "303",
+                    "name": "item303",
+                    "category": "O"
+                },
+                {
+                    "item_id": "304",
+                    "name": "item304",
+                    "category": "P"
+                }
+            ],
+            "item_id": "item_id"
+        }
+    ],
+    "outputs": [
+        4,
+        3,
+        2,
+        0,
+        4
+    ]
+}

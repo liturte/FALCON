@@ -1,0 +1,36 @@
+{
+    "inputs": [
+        [
+            "12345",
+            "ABC",
+            "/images/"
+        ],
+        [
+            "54321",
+            "DEF",
+            "/photos/"
+        ],
+        [
+            "98765",
+            "GHI",
+            "/gallery/"
+        ],
+        [
+            "11111",
+            "JKL",
+            "/pictures/"
+        ],
+        [
+            "22222",
+            "MNO",
+            "/images/"
+        ]
+    ],
+    "outputs": [
+        "/images/From-12345-at-.jpeg",
+        "/photos/From-54321-at-.jpeg",
+        "/gallery/From-98765-at-.jpeg",
+        "/pictures/From-11111-at-.jpeg",
+        "/images/From-22222-at-.jpeg"
+    ]
+}

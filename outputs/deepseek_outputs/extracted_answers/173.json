@@ -1,0 +1,3 @@
+{
+    "173": "import sys\nsys.stdin = open(\"input.txt\", \"r\")\n\n\n\ndef main():\n    n, m = map(int, input().split())\n    h = input()\n    v = input()\n    for i in range(n - 1):\n        for j in range(m - 1):\n            if h[i] == '<' and v[j] == '^':\n                if h[i + 1] == '>' and v[j + 1] == 'v':\n                    return \"YES\"\n            elif h[i] == '>' and v[j] == 'v':\n                if h[i + 1] == '<' and v[j + 1] == '^':\n                    return \"YES\"\n    return \"NO\"\n\n\nprint(main())"
+}

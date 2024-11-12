@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "8\n1",
+        "12\n2",
+        "10\n3",
+        "6\n1",
+        "15\n2"
+    ],
+    "outputs": [
+        "Generated password: 3j4k5h6a",
+        "Generated password: 8a#2b$4c!6d",
+        "Generated password: 9A#7b$5c!3d",
+        "Generated password: a2b3c4d",
+        "Generated password: 7a#9b$2c!4d"
+    ]
+}

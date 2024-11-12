@@ -1,0 +1,3 @@
+{
+    "222": "n = input()\n\nn = int(n)\n\na = n**0.5\n\nif a == int(a):\n\n    print(0)\n\nelse:\n\n    print(-1)"
+}

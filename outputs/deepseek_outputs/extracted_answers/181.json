@@ -1,0 +1,3 @@
+{
+    "181": "def get_min_turns(x):\n    if x < 0:\n        return -get_min_turns(-x)\n    return (x + 45) // 90\n\nx = int(input())\nprint(get_min_turns(x))"
+}

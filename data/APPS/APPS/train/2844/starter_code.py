@@ -1,0 +1,2 @@
+def chessboard(s):
+	

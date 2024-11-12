@@ -1,0 +1,20 @@
+Given a string `S` and a character `C`, return an array of integers representing the shortest distance from the current character in `S` to `C`.
+
+### Notes
+
+* All letters will be lowercase.
+* If the string is empty, return an empty array.
+* If the character is not present, return an empty array.
+
+## Examples
+
+```python
+shortest_to_char("lovecodewars", "e") == [3, 2, 1, 0, 1, 2, 1, 0, 1, 2, 3, 4]
+shortest_to_char("aaaabbbb", "b") == [4, 3, 2, 1, 0, 0, 0, 0]
+shortest_to_char("", "b") == []
+shortest_to_char("abcde", "") == []
+```
+
+___
+
+If you liked it, please rate  :D

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "class DevelopmentConfig(Config):",
+        "config = DevelopmentConfig()",
+        "config.get_config()",
+        "config.update_config('debug', True)",
+        "help(DevelopmentConfig)"
+    ],
+    "outputs": [
+        null,
+        null,
+        "default_config",
+        null,
+        "Development Config... this is your home developer!"
+    ]
+}

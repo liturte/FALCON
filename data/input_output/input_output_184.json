@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "_conversions = [(1, 'length', 10), (2, 'temperature', 25), (3, 'weight', 50)]",
+        "_conversions = [(1, 'volume', 5), (2, 'time', 60)]",
+        "_conversions = [(1, 'speed', 100), (2, 'area', 50), (3, 'power', 500)]",
+        "_conversions = [(1, 'currency', 'USD'), (2, 'currency', 'EUR'), (3, 'currency', 'JPY')]",
+        "_conversions = [(1, 'length', 20), (2, 'length', 30), (3, 'length', 40)]"
+    ],
+    "outputs": [
+        "(2, 'temperature', 25)",
+        "(2, 'time', 60)",
+        "(3, 'power', 500)",
+        "None",
+        "(3, 'length', 40)"
+    ]
+}

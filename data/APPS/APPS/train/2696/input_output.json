@@ -1,0 +1,1 @@
+{"fn_name": "prime_string", "inputs": [["abac"], ["abab"], ["aaaa"], ["x"], ["abc"], ["fdsyffdsyffdsyffdsyffdsyf"], ["utdutdtdutd"], ["abba"]], "outputs": [[true], [false], [false], [true], [true], [false], [true], [true]]}

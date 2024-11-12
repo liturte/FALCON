@@ -1,0 +1,58 @@
+{
+    "inputs": [
+        "configure_raid_volumes(3, True, False, {})",
+        "configure_raid_volumes(1, False, True, {'Volume1': {'size': '2TB', 'RAID_level': 'RAID10'}})",
+        "configure_raid_volumes(4, True, True, {'Volume1': {'size': '500GB', 'RAID_level': 'RAID1'}, 'Volume2': {'size': '1TB', 'RAID_level': 'RAID5'}})",
+        "configure_raid_volumes(2, False, True, {'Volume1': {'size': '750GB', 'RAID_level': 'RAID6'}})",
+        "configure_raid_volumes(0, True, False, {})"
+    ],
+    "outputs": [
+        {
+            "total_volumes": 3,
+            "volumes": []
+        },
+        {
+            "total_volumes": 1,
+            "volumes": [
+                {
+                    "name": "Volume1",
+                    "size": "2TB",
+                    "RAID_level": "RAID10",
+                    "settings": {}
+                }
+            ]
+        },
+        {
+            "total_volumes": 4,
+            "volumes": [
+                {
+                    "name": "Volume1",
+                    "size": "500GB",
+                    "RAID_level": "RAID1",
+                    "settings": {}
+                },
+                {
+                    "name": "Volume2",
+                    "size": "1TB",
+                    "RAID_level": "RAID5",
+                    "settings": {}
+                }
+            ]
+        },
+        {
+            "total_volumes": 2,
+            "volumes": [
+                {
+                    "name": "Volume1",
+                    "size": "750GB",
+                    "RAID_level": "RAID6",
+                    "settings": {}
+                }
+            ]
+        },
+        {
+            "total_volumes": 0,
+            "volumes": []
+        }
+    ]
+}

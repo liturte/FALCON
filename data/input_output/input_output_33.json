@@ -1,0 +1,47 @@
+{
+    "inputs": [
+        {
+            "info": "Server information",
+            "port": 8080,
+            "encoder": "CustomEncoder",
+            "response_cache": {}
+        },
+        {
+            "info": "Web server",
+            "port": 8000,
+            "encoder": "JsonEncoder",
+            "response_cache": {
+                "key1": "value1"
+            }
+        },
+        {
+            "info": "HTTP server",
+            "port": 8888,
+            "encoder": "HtmlEncoder",
+            "response_cache": {
+                "key2": "value2"
+            }
+        },
+        {
+            "info": "Server",
+            "port": 1234,
+            "encoder": "CustomEncoder",
+            "response_cache": {
+                "key3": "value3"
+            }
+        },
+        {
+            "info": "Test server",
+            "port": 9999,
+            "encoder": "JsonEncoder",
+            "response_cache": {}
+        }
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

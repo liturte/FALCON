@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Implement the ROS node with necessary publishers and subscribers.",
+        "Create a loop to send setpoints to the drone for 100 iterations.",
+        "Set the drone mode to OFFBOARD and arm the drone for takeoff.",
+        "Log a message every 2 seconds while sending initial setpoints.",
+        "Test the program with a simulated drone environment."
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

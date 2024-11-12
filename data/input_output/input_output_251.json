@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{}",
+        "{\"cover_speed\": 70}",
+        "{\"cover_speed\": 30}",
+        "{\"cover_speed\": 100}",
+        "{\"cover_speed\": 50}"
+    ],
+    "outputs": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null"
+    ]
+}

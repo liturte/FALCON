@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "annotate_args_kwargs(script_fun, ['arg1', 'arg2'], {'kwarg1': 1, 'kwarg2': 2})",
+        "annotate_args_kwargs(script_fun, [1, 2, 3], {'param': 'value'})",
+        "annotate_args_kwargs(script_fun, [], {})",
+        "annotate_args_kwargs(script_fun, ['hello'], {'message': 'world'})",
+        "annotate_args_kwargs(script_fun, [True, False], {'flag': True})"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

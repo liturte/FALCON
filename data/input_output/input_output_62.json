@@ -1,0 +1,37 @@
+{
+    "inputs": [
+        [
+            "file1.wav",
+            "file2.wav",
+            "file3.wav"
+        ],
+        [
+            "audio1.mp3",
+            "audio2.mp3",
+            "audio3.mp3",
+            "audio4.mp3"
+        ],
+        [
+            "recording1.ogg",
+            "recording2.ogg"
+        ],
+        [
+            "speech1.wav",
+            "speech2.wav",
+            "speech3.wav",
+            "speech4.wav"
+        ],
+        [
+            "music1.mp3",
+            "music2.mp3",
+            "music3.mp3"
+        ]
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Sample directed graph with 3 nodes and 2 edges",
+        "Directed graph with disconnected components",
+        "Directed graph with loops",
+        "Directed graph with 5 nodes and 6 edges",
+        "Directed graph with 1 node and no edges"
+    ],
+    "outputs": [
+        "{'node1': 0.0, 'node2': 0.0, 'node3': 0.0}",
+        null,
+        "{'node1': 0.0, 'node2': 0.0, 'node3': 0.0}",
+        "{'node1': 0.0, 'node2': 0.0, 'node3': 0.0, 'node4': 0.0, 'node5': 0.0}",
+        "{'node1': 0.0}"
+    ]
+}

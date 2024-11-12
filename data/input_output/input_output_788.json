@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Vehicle('Toyota', 'Camry', 2020, 'Red')",
+        "Vehicle('Honda', 'Civic', 2018, 'Blue')",
+        "Vehicle('Ford', 'F-150', 2019, 'Black')",
+        "Vehicle('Chevrolet', 'Malibu', 2017, 'Silver')",
+        "Vehicle('Tesla', 'Model S', 2021, 'White')"
+    ],
+    "outputs": [
+        "Timestamp of Vehicle('Toyota', 'Camry', 2020, 'Red'): [current_timestamp]",
+        "Timestamp of Vehicle('Honda', 'Civic', 2018, 'Blue'): [current_timestamp]",
+        "Timestamp of Vehicle('Ford', 'F-150', 2019, 'Black'): [current_timestamp]",
+        "Timestamp of Vehicle('Chevrolet', 'Malibu', 2017, 'Silver'): [current_timestamp]",
+        "Timestamp of Vehicle('Tesla', 'Model S', 2021, 'White'): [current_timestamp]"
+    ]
+}

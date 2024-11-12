@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{}",
+        "{'username': 'Username is required', 'password': 'Password must be at least 8 characters long'}",
+        "{'email': 'Email is invalid'}",
+        "{'field': 'Test error', 'other_field': 'Another error'}",
+        "{'field': 'Another error'}"
+    ],
+    "outputs": [
+        "(200, false)",
+        "(400, true)",
+        "(400, false)",
+        "(400, true)",
+        "(400, false)"
+    ]
+}

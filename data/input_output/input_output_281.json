@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "[('Python', 150), ('Java', 100), ('Javascript', 200), ('Python', 50), ('C++', 75)]",
+        "[('C#', 80), ('Java', 120), ('Python', 90), ('Javascript', 150)]",
+        "[('Java', 200), ('Python', 300), ('C++', 100)]",
+        "[('Python', 50), ('Java', 50), ('C++', 25)]",
+        "[('Javascript', 100), ('Python', 200), ('Java', 150)]"
+    ],
+    "outputs": [
+        "{'Python': 200, 'Java': 100, 'Javascript': 200, 'C++': 75}",
+        "{'C#': 80, 'Java': 120, 'Python': 90, 'Javascript': 150}",
+        "{'Java': 200, 'Python': 300, 'C++': 100}",
+        "{'Python': 50, 'Java': 50, 'C++': 25}",
+        "{'Javascript': 100, 'Python': 200, 'Java': 150}"
+    ]
+}

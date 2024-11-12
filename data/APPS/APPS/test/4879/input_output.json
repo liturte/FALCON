@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "South West East\n",
+        "South North North\n"
+    ],
+    "outputs": [
+        "Yes\n",
+        "No\n"
+    ]
+}

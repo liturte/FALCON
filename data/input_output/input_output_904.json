@@ -1,0 +1,56 @@
+{
+    "inputs": [
+        [
+            "dos",
+            "bandstructure",
+            "chgcar"
+        ],
+        [
+            "atoms",
+            "cell",
+            "forces"
+        ],
+        [
+            "energy",
+            "stress",
+            "density"
+        ],
+        [
+            "positions",
+            "velocities",
+            "box"
+        ],
+        [
+            "parameters",
+            "potentials",
+            "coefficients"
+        ]
+    ],
+    "outputs": [
+        {
+            "dos": "dos_db",
+            "bandstructure": "bandstructure_db",
+            "chgcar": "chgcar_db"
+        },
+        {
+            "atoms": "atoms_db",
+            "cell": "cell_db",
+            "forces": "forces_db"
+        },
+        {
+            "energy": "energy_db",
+            "stress": "stress_db",
+            "density": "density_db"
+        },
+        {
+            "positions": "positions_db",
+            "velocities": "velocities_db",
+            "box": "box_db"
+        },
+        {
+            "parameters": "parameters_db",
+            "potentials": "potentials_db",
+            "coefficients": "coefficients_db"
+        }
+    ]
+}

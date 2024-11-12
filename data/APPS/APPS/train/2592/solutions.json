@@ -1,0 +1,1 @@
+["import numpy\nnp_ar = numpy.array(list(map(float,input().split())),float)\nprint((numpy.floor(np_ar)))\nprint((numpy.ceil(np_ar)))\nprint((numpy.rint(np_ar)))\n", "import numpy as np\n\narray = np.array(list(input().strip().split()), dtype = float)\n                 \nprint(np.floor(array))\nprint(np.ceil(array))\nprint(np.rint(array))"]

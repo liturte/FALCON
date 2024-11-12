@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "file_loader.load_template('example_template.html')",
+        "file_loader.load_template('another_template.html')",
+        "file_loader.load_template('empty_template.html')",
+        "file_loader.load_template('missing_template.html')",
+        "file_loader.load_template('example_template.html')"
+    ],
+    "outputs": [
+        "Prints the content of 'example_template.html' to the console",
+        null,
+        null,
+        null,
+        "Prints the content of 'example_template.html' to the console"
+    ]
+}

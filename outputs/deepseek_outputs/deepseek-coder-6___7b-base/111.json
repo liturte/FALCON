@@ -1,0 +1,8 @@
+{
+    "111": {
+        "code": [
+            "\"\"\"\n\n\ndef binary_search(n, k):\n    if k == 1:\n        return 1\n    l, r = 1, n\n    while l < r:\n        mid = l + (r - l) // 2\n        if mid * (mid + 1) // 2 <= k:\n            l = mid + 1\n        else:\n            r = mid\n    return l\n\n\ndef main():\n    n, k = map(int, input().split())\n    div = binary_search(n, k)\n    if div * (div + 1) // 2 < k:\n        print(-1)\n    else:\n        print(div)\n\n\nif __name__ == '__main__':\n    main()"
+        ],
+        "prompt": "\nQUESTION:\nYou are given two integers n and k. Find k-th smallest divisor of n, or report that it doesn't exist.\n\nDivisor of n is any such natural number, that n can be divided by it without remainder.\n\n\n-----Input-----\n\nThe first line contains two integers n and k (1 \u2264 n \u2264 10^15, 1 \u2264 k \u2264 10^9).\n\n\n-----Output-----\n\nIf n has less than k divisors, output -1.\n\nOtherwise, output the k-th smallest divisor of n.\n\n\n-----Examples-----\nInput\n4 2\n\nOutput\n2\n\nInput\n5 3\n\nOutput\n-1\n\nInput\n12 5\n\nOutput\n6\n\n\n\n-----Note-----\n\nIn the first example, number 4 has three divisors: 1, 2 and 4. The second one is 2.\n\nIn the second example, number 5 has only two divisors: 1 and 5. The third divisor doesn't exist, so the answer is -1.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

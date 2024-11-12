@@ -1,0 +1,148 @@
+{
+    "inputs": [
+        {
+            "coded_fragments": [
+                "abc",
+                "def",
+                "ghi"
+            ],
+            "debug": true
+        },
+        {
+            "coded_fragments": [
+                "123",
+                "456",
+                "789"
+            ],
+            "debug": false
+        },
+        {
+            "coded_fragments": [
+                "xyz",
+                "uvw"
+            ],
+            "debug": true
+        },
+        {
+            "coded_fragments": [
+                "pqr",
+                "stu",
+                "lmn"
+            ],
+            "debug": false
+        },
+        {
+            "coded_fragments": [
+                "apple",
+                "banana",
+                "cherry"
+            ],
+            "debug": true
+        }
+    ],
+    "outputs": [
+        {
+            "fragments": [
+                "abc",
+                "def",
+                "ghi"
+            ],
+            "coded_fragments": [
+                "abc",
+                "def",
+                "ghi"
+            ],
+            "symbols": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "h",
+                "i"
+            ],
+            "corners": [
+                "top-left",
+                "top-right",
+                "bottom-left",
+                "bottom-right"
+            ]
+        },
+        {
+            "fragments": [
+                "123",
+                "456",
+                "789"
+            ]
+        },
+        {
+            "fragments": [
+                "xyz",
+                "uvw"
+            ],
+            "coded_fragments": [
+                "xyz",
+                "uvw"
+            ],
+            "symbols": [
+                "x",
+                "y",
+                "z",
+                "u",
+                "v",
+                "w"
+            ],
+            "corners": [
+                "top-left",
+                "top-right",
+                "bottom-left"
+            ]
+        },
+        {
+            "fragments": [
+                "pqr",
+                "stu",
+                "lmn"
+            ]
+        },
+        {
+            "fragments": [
+                "apple",
+                "banana",
+                "cherry"
+            ],
+            "coded_fragments": [
+                "apple",
+                "banana",
+                "cherry"
+            ],
+            "symbols": [
+                "a",
+                "p",
+                "p",
+                "l",
+                "e",
+                "b",
+                "a",
+                "n",
+                "a",
+                "n",
+                "a",
+                "c",
+                "h",
+                "e",
+                "r",
+                "r",
+                "y"
+            ],
+            "corners": [
+                "top-left",
+                "top-right",
+                "bottom-left",
+                "bottom-right"
+            ]
+        }
+    ]
+}

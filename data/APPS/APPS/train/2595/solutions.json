@@ -1,0 +1,1 @@
+["import cmath\nz = complex(input())\np = cmath.polar(z)\nprint((p[0]))\nprint((p[1]))\n", "#!/usr/bin/env python3\n\nimport cmath\n\ndef __starting_point():\n    cnum = complex(input().strip())\n    \n    print(abs(cnum))\n    print(cmath.phase(cnum))\n__starting_point()"]

@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "4\nA\nA\nA\nA\n",
+        "6\nA\nD\nB\nB\nC\nA\n"
+    ],
+    "outputs": [
+        "3\n",
+        "1\n"
+    ]
+}

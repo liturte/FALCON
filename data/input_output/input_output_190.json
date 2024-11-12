@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "daily",
+        "Weekly",
+        "monthly",
+        "yearly",
+        "DAILY"
+    ],
+    "outputs": [
+        "Valid time period according to TimeperiodEnum.",
+        "Valid time period according to TimeperiodEnum.",
+        "Valid time period according to TimeperiodEnum.",
+        "Invalid time period. Please enter daily, weekly, or monthly.",
+        "Valid time period according to TimeperiodEnum."
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "904": {
+        "code": [
+            ""
+        ],
+        "prompt": "\nQUESTION:\nYou are given a text of single-space separated words, consisting of small and capital Latin letters.\n\nVolume of the word is number of capital letters in the word. Volume of the text is maximum volume of all words in the text.\n\nCalculate the volume of the given text.\n\n\n-----Input-----\n\nThe first line contains one integer number n (1 \u2264 n \u2264 200) \u2014 length of the text.\n\nThe second line contains text of single-space separated words s_1, s_2, ..., s_{i}, consisting only of small and capital Latin letters.\n\n\n-----Output-----\n\nPrint one integer number \u2014 volume of text.\n\n\n-----Examples-----\nInput\n7\nNonZERO\n\nOutput\n5\n\nInput\n24\nthis is zero answer text\n\nOutput\n0\n\nInput\n24\nHarbour Space University\n\nOutput\n1\n\n\n\n-----Note-----\n\nIn the first example there is only one word, there are 5 capital letters in it.\n\nIn the second example all of the words contain 0 capital letters.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

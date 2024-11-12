@@ -1,0 +1,3 @@
+{
+    "122": "import sys\ninput = sys.stdin.readline\n\nn = int(input())\na = list(map(int, input().split()))\n\ndef check(x):\n    for i in range(n-1):\n        if a[i] == a[i+1]:\n            return True\n        if a[i] > a[i+1]:\n            if x == i:\n                return True\n    return False\n\nfor i in range(n):\n    if check(i):\n        print(\"YES\")\n        exit()\nprint(\"NO\")"
+}

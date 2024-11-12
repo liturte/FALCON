@@ -1,0 +1,3 @@
+{
+    "97": "n, m, x, y, vx, vy = map(int, input().split())\nif vx == 0:\n    if x == 0:\n        print(0, 0)\n    else:\n        print(n, 0)\nelif vy == 0:\n    if y == 0:\n        print(0, 0)\n    else:\n        print(0, m)\nelse:\n    if vx == vy:\n        if x == 0:\n            print(0, 0)\n        else:\n            print(n, 0)\n    else:\n        if x == n:\n            print(n, 0)\n        else:\n            print(0, m)"
+}

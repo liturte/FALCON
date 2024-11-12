@@ -1,0 +1,3 @@
+{
+    "297": "def main():\n    n, m, k = map(int, input().split())\n    if n > m:\n        n, m = m, n\n    if n*m % k != 0:\n        print('NO')\n    else:\n        print('YES')\n        print(1, 0)\n        print(n, m)\n        print(n, n*m//k)\nmain()"
+}

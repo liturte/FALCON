@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "[{'string': 'Name', 'field': 'name'}, {'string': 'Age', 'field': 'age'}]",
+        "[{'string': 'Title', 'field': 'title'}, {'string': 'Category', 'field': 'category'}, {'string': 'Price', 'field': 'price'}]",
+        "[{'string': 'ID', 'field': 'id'}, {'string': 'Quantity', 'field': 'quantity'}, {'string': 'Location', 'field': 'location'}]",
+        "[{'string': 'Model', 'field': 'model'}, {'string': 'Brand', 'field': 'brand'}, {'string': 'Color', 'field': 'color'}, {'string': 'Price', 'field': 'price'}]",
+        "[{'string': 'Username', 'field': 'username'}, {'string': 'Email', 'field': 'email'}, {'string': 'Role', 'field': 'role'}, {'string': 'Status', 'field': 'status'}]"
+    ],
+    "outputs": [
+        "<th>Name</th><th>Age</th>",
+        "<th>Title</th><th>Category</th><th>Price</th>",
+        "<th>ID</th><th>Quantity</th><th>Location</th>",
+        "<th>Model</th><th>Brand</th><th>Color</th><th>Price</th>",
+        "<th>Username</th><th>Email</th><th>Role</th><th>Status</th>"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "inputs": [
+        [
+            "Copyright 2020 John\nLicensed under the MIT License",
+            "Copyright 2018 Alice\nLicensed under the GNU GPL",
+            "Copyright 2019 Bob\nLicensed under the Apache License, Version 2.0"
+        ],
+        [
+            "Copyright 2021 Sarah\nLicensed under the BSD 3-Clause License",
+            "Copyright 2017 David\nLicensed under the MIT License"
+        ],
+        [
+            "Copyright 2015 Michael\nLicensed under the Mozilla Public License 2.0"
+        ],
+        [
+            "Copyright 2016 Emma\nLicensed under the GNU Lesser General Public License"
+        ],
+        [
+            "Copyright 2022 Olivia\nLicensed under the Eclipse Public License 2.0"
+        ]
+    ],
+    "outputs": [
+        {
+            "2020": [
+                "John",
+                "MIT License"
+            ],
+            "2018": [
+                "Alice",
+                "GNU GPL"
+            ],
+            "2019": [
+                "Bob",
+                "Apache License, Version 2.0"
+            ]
+        },
+        {
+            "2021": [
+                "Sarah",
+                "BSD 3-Clause License"
+            ],
+            "2017": [
+                "David",
+                "MIT License"
+            ]
+        },
+        {
+            "2015": [
+                "Michael",
+                "Mozilla Public License 2.0"
+            ]
+        },
+        {
+            "2016": [
+                "Emma",
+                "GNU Lesser General Public License"
+            ]
+        },
+        {
+            "2022": [
+                "Olivia",
+                "Eclipse Public License 2.0"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "0 up 3",
+        "0 down 2",
+        "5 up 2",
+        "10 down 5",
+        "2 up 8"
+    ],
+    "outputs": [
+        "3 units;",
+        "-2 units;",
+        "7 units;",
+        "5 units;",
+        "10 units;"
+    ]
+}

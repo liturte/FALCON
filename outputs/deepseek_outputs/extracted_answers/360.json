@@ -1,0 +1,3 @@
+{
+    "360": "n = int(input())\nl = []\nr = []\nfor i in range(n):\n    x, y = map(int, input().split())\n    l.append(x)\n    r.append(y)\nk = int(input())\nl.sort()\nr.sort()\n\nif k < l[0]:\n    print(n)\nelif k > r[n-1]:\n    print(0)\nelse:\n    for i in range(n):\n        if l[i] <= k <= r[i]:\n            print(n-i-1)\n            break"
+}

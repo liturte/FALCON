@@ -1,0 +1,3 @@
+{
+    "307": "#-------------------------------------------------------------------------------\n\n# Name:        module1\n# Purpose:\n#\n# Author:      antony\n#\n# Created:     03/09/2021\n# Copyright:   (c) antony 2021\n# Licence:     <your licence>\n#-------------------------------------------------------------------------------\n\nimport sys\n\nk2 = int(input())\nk3 = int(input())\nk5 = int(input())\nk6 = int(input())\n\n\ndef main():\n    a = min(k2,k5,k6)\n    k2-=a\n    k5-=a\n    k6-=a\n    b = min(k2,k3)\n    return 32*a+256*b\n\nif __name__ == '__main__':\n    print(main())"
+}

@@ -1,0 +1,8 @@
+{
+    "183": {
+        "code": [
+            "from math import *\nn,k,m=map(int,input().split())\nl=[0]*(n+1)\nl[1]=10\nfor i in range(2,n+1):\n    l[i]=(l[i-1]*(10-i+1))%m\np=10**(n-1)\nq=(10**n-p)//k\nr=0\nfor i in range(1,n+1):\n    r+=(l[i]*q)%m\nprint(r%m)"
+        ],
+        "prompt": "\nQUESTION:\nAmr doesn't like Maths as he finds it really boring, so he usually sleeps in Maths lectures. But one day the teacher suspected that Amr is sleeping and asked him a question to make sure he wasn't.\n\nFirst he gave Amr two positive integers n and k. Then he asked Amr, how many integer numbers x > 0 exist such that:  Decimal representation of x (without leading zeroes) consists of exactly n digits;  There exists some integer y > 0 such that:   $y \\operatorname{mod} k = 0$;  decimal representation of y is a suffix of decimal representation of x.  \n\nAs the answer to this question may be pretty huge the teacher asked Amr to output only its remainder modulo a number m.\n\nCan you help Amr escape this embarrassing situation?\n\n\n-----Input-----\n\nInput consists of three integers n, k, m (1 \u2264 n \u2264 1000, 1 \u2264 k \u2264 100, 1 \u2264 m \u2264 10^9).\n\n\n-----Output-----\n\nPrint the required number modulo m.\n\n\n-----Examples-----\nInput\n1 2 1000\n\nOutput\n4\nInput\n2 2 1000\n\nOutput\n45\nInput\n5 3 1103\n\nOutput\n590\n\n\n-----Note-----\n\nA suffix of a string S is a non-empty string that can be obtained by removing some number (possibly, zero) of first characters from S.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

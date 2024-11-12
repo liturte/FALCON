@@ -1,0 +1,1 @@
+{"fn_name": "is_even", "inputs": [[2], [3], [14], [15], [26], [27]], "outputs": [[true], [false], [true], [false], [true], [false]]}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Call all functions",
+        "Call all functions",
+        "Call all functions",
+        "Call all functions",
+        "Call all functions"
+    ],
+    "outputs": [
+        "Timestamp: 2022-10-31 15:45:30, Hour: 15, Minute: 45",
+        "Timestamp: 2022-10-31 15:45:30, Hour: 15, Minute: 45",
+        "Timestamp: 2022-10-31 15:45:30, Hour: 15, Minute: 45",
+        "Timestamp: 2022-10-31 15:45:30, Hour: 15, Minute: 45",
+        "Timestamp: 2022-10-31 15:45:30, Hour: 15, Minute: 45"
+    ]
+}

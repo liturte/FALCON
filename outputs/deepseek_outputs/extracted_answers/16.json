@@ -1,0 +1,3 @@
+{
+    "16": "n1,n2,n3,n4=map(int,input().split())\nprint(1 if n1+n2-min(n1,n2)+n3+n4>=abs(n1-n2) else 0)\n\n\n\"\"\"\n\n\n# import sys\n#\n# sys.stdin = open(\"input.txt\", \"r\")\n# sys.stdout = open(\"output.txt\", \"w\")\n\n\ndef main():\n    n1, n2, n3, n4 = map(int, input().split())\n    print(1 if n1 + n2 - min(n1, n2) + n3 + n4 >= abs(n1 - n2) else 0)\n\n\nif __name__ == \"__main__\":\n    main()"
+}

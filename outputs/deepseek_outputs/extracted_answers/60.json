@@ -1,0 +1,3 @@
+{
+    "60": "n,s = input()\nn = int(n)\nn = n - 1\nif n % 4 == 0:\n    n = n + 1\nif s == 'a':\n    print(n)\nelif s == 'b':\n    print(n + 1)\nelif s == 'c':\n    print(n + 2)\nelif s == 'd':\n    print(n + 3)\nelif s == 'e':\n    print(n + 4)\nelse:\n    print(n + 5)"
+}

@@ -1,0 +1,24 @@
+Pero is a passionate lover of riddles. The newest type of riddles he has come across requires the solver to check whether the given word is a multigram.
+
+A multigram is a word that consists of concatenating two or more words that are all mutually anagrams. The first of these words is called the root of the multigram. For instance, the word bbabab is a multigram with the root bba because it consists of anagrams bba and bab.
+
+Help Pero solve the riddle by determining whether his word is a multigram and determining its root in case it is. If there are multiple possible roots of the multigram, output the shortest.
+
+Note: Two words are mutually anagrams if one of them can be obtained from the other by changing the letter order.
+
+-----Input-----
+The first and only line of input contains a word of length at most $100000$ lowercase English characters.
+
+-----Output-----
+If the given word is not a multigram, output -1. Otherwise, output the shortest root of the given word in one line.
+
+-----Examples-----
+Sample Input 1:
+aaaa
+Sample Output 1:
+a
+
+Sample Input 2:
+ab
+Sample Output 2:
+-1

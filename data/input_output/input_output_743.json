@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Stream with 500 log events",
+        "Stream with 1000 log events",
+        "Stream with 1500 log events",
+        "Stream with 2000 log events",
+        "Stream with 2500 log events"
+    ],
+    "outputs": [
+        "null",
+        "Logged: 1000 rows saved so far",
+        "Logged: 1000 rows saved so far",
+        "Logged: 2000 rows saved so far",
+        "Logged: 2000 rows saved so far"
+    ]
+}

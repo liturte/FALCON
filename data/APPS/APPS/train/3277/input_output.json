@@ -1,0 +1,1 @@
+{"fn_name": "calc_type", "inputs": [[1, 2, 3], [10, 5, 5], [10, 4, 40], [9, 5, 1.8]], "outputs": [["addition"], ["subtraction"], ["multiplication"], ["division"]]}

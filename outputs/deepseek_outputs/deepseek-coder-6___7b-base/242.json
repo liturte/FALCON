@@ -1,0 +1,8 @@
+{
+    "242": {
+        "code": [
+            "import sys\nfrom math import factorial\nm=int(sys.stdin.readline().strip())\nl=[]\nfor i in range(1,100000):\n    if factorial(i)%10**m==0:\n        l.append(i)\nprint(len(l))\nprint(*l)"
+        ],
+        "prompt": "\nQUESTION:\nMr. Santa asks all the great programmers of the world to solve a trivial problem. He gives them an integer m and asks for the number of positive integers n, such that the factorial of n ends with exactly m zeroes. Are you among those great programmers who can solve this problem?\n\n\n-----Input-----\n\nThe only line of input contains an integer m (1 \u2264 m \u2264 100 000)\u00a0\u2014 the required number of trailing zeroes in factorial.\n\n\n-----Output-----\n\nFirst print k\u00a0\u2014 the number of values of n such that the factorial of n ends with m zeroes. Then print these k integers in increasing order.\n\n\n-----Examples-----\nInput\n1\n\nOutput\n5\n5 6 7 8 9 \nInput\n5\n\nOutput\n0\n\n\n-----Note-----\n\nThe factorial of n is equal to the product of all integers from 1 to n inclusive, that is n! = 1\u00b72\u00b73\u00b7...\u00b7n.\n\nIn the first sample, 5! = 120, 6! = 720, 7! = 5040, 8! = 40320 and 9! = 362880.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

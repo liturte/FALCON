@@ -1,0 +1,17 @@
+Anders talks in the Swedish dialect of östgötska. Unfortunately, this makes it somewhat hard to get a programming job in the Swedish capital of Stockholm. The trendy Stockholm hipsters only accept applicants speaking the standard Swedish dialect, rikssvenska.
+
+To increase his chances of passing interviews, he wishes to practice talking rikssvenska. To help him with this, he wants you to write a program that can determine whenever he accidentally reverts to speaking östgötska.
+
+A simple way of determining if a sentence is written in östgötska is if at least $40\% $ of the words in the sentence contains the letter ä. For simplicity, this is encoded as the letter combination ae (meaning any appearance of the substring ae is to be regarded as an occurrence of the letter ä).
+
+-----Input-----
+The first and only line of input contains a sequence of space-separated words. Each word consists only of letters a-z. There are at most $100$ words, and each word contains at most $15$ letters a-z (meaning that the ae combination counts as two letters for this limit).
+
+-----Output-----
+Output “dae ae ju traeligt va” if the input sentence is in östgötska, otherwise output “haer talar vi rikssvenska”.
+
+-----Examples-----
+Sample Input:
+dae ae ju traeligt va
+Sample Output:
+dae ae ju traeligt va

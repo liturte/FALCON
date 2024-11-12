@@ -1,0 +1,3 @@
+{
+    "195": "import sys\n\na, b, c, n = map(int, input().split())\n\nif a + b + c < n:\n    print(-1)\nelif a + b + c == n:\n    print(0)\nelse:\n    print(n - max(a, b, c))"
+}

@@ -1,0 +1,50 @@
+You have n problems. You have estimated the difficulty of the i-th one as integer c_{i}. Now you want to prepare a problemset for a contest, using some of the problems you've made.
+
+A problemset for the contest must consist of at least two problems. You think that the total difficulty of the problems of the contest must be at least l and at most r. Also, you think that the difference between difficulties of the easiest and the hardest of the chosen problems must be at least x.
+
+Find the number of ways to choose a problemset for the contest.
+
+
+-----Input-----
+
+The first line contains four integers n, l, r, x (1 ≤ n ≤ 15, 1 ≤ l ≤ r ≤ 10^9, 1 ≤ x ≤ 10^6) — the number of problems you have, the minimum and maximum value of total difficulty of the problemset and the minimum difference in difficulty between the hardest problem in the pack and the easiest one, respectively.
+
+The second line contains n integers c_1, c_2, ..., c_{n} (1 ≤ c_{i} ≤ 10^6) — the difficulty of each problem.
+
+
+-----Output-----
+
+Print the number of ways to choose a suitable problemset for the contest. 
+
+
+-----Examples-----
+Input
+3 5 6 1
+1 2 3
+
+Output
+2
+
+Input
+4 40 50 10
+10 20 30 25
+
+Output
+2
+
+Input
+5 25 35 10
+10 10 20 10 20
+
+Output
+6
+
+
+
+-----Note-----
+
+In the first example two sets are suitable, one consisting of the second and third problem, another one consisting of all three problems.
+
+In the second example, two sets of problems are suitable — the set of problems with difficulties 10 and 30 as well as the set of problems with difficulties 20 and 30.
+
+In the third example any set consisting of one problem of difficulty 10 and one problem of difficulty 20 is suitable.

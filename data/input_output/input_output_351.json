@@ -1,0 +1,63 @@
+{
+    "inputs": [
+        [
+            "add_or_make_duel",
+            "user1",
+            "user1",
+            100,
+            "user2"
+        ],
+        [
+            "add_or_make_duel",
+            "user2",
+            "user2",
+            50,
+            "user3"
+        ],
+        [
+            "add_or_make_duel",
+            "user3",
+            "user4",
+            200,
+            "user4"
+        ],
+        [
+            "list_user_duels",
+            "user1"
+        ],
+        [
+            "list_user_duels",
+            "user4"
+        ]
+    ],
+    "outputs": [
+        {
+            "status": "CANNOT_DUEL_WITH_YOURSELF",
+            "prize": null
+        },
+        {
+            "status": "SUCCESS",
+            "prize": 50
+        },
+        {
+            "status": "NOT_ENOUGH_PRIZE",
+            "prize": null
+        },
+        [
+            {
+                "id": "1",
+                "challenger": "user1",
+                "target": "user2",
+                "prize": 100
+            }
+        ],
+        [
+            {
+                "id": "3",
+                "challenger": "user3",
+                "target": "user4",
+                "prize": 200
+            }
+        ]
+    ]
+}

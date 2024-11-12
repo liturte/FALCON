@@ -1,0 +1,3 @@
+{
+    "27": "n = int(input())\ns = input()\n\n# Initialize the count to the length of the string\ncount = n\n\n# Iterate through the string\nfor i in range(n):\n    # Check if the current character is the same as the next character\n    if i < n-1 and s[i] == s[i+1]:\n        # If it is, increment the count\n        count += 1\n\n# Print the count\nprint(count)"
+}

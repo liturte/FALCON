@@ -1,0 +1,2 @@
+def cluster(points, n):
+	

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "urlpatterns = []",
+        "urlpatterns = [path('', views.home_view)]",
+        "urlpatterns = [path('about', views.about_view, name='about')]",
+        "urlpatterns = [path('contact', views.contact_view, name='contact'), path('services', views.services_view, name='services')]",
+        "urlpatterns = [path('profile', views.profile_view, name='profile'), path('settings', views.settings_view, name='settings'), path('logout', views.logout_view, name='logout')]"
+    ],
+    "outputs": [
+        "null",
+        "['home_view']",
+        "['about']",
+        "['contact', 'services']",
+        "['profile', 'settings', 'logout']"
+    ]
+}

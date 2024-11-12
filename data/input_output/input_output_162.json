@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "get_client('ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', 'your_auth_token_here'); send_alert(get_client(), 'Customized alert message', '+1234567890', '+1987654321')",
+        "get_client('ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', 'your_auth_token_here'); send_alert(get_client(), 'Urgent: Fire alarm triggered!', '+9876543210', '+1234567890')",
+        "get_client('ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', 'your_auth_token_here'); send_alert(get_client(), 'Reminder: Meeting at 3 PM', '+1112223333', '+4445556666')",
+        "get_client('ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', 'your_auth_token_here'); send_alert(get_client(), 'Package delivered to your doorstep', '+9998887777', '+6665554444')",
+        "get_client('ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', 'your_auth_token_here'); send_alert(get_client(), 'Important: Payment due tomorrow', '+7776665555', '+2223334444')"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

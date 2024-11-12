@@ -1,0 +1,132 @@
+Anica is having peculiar dream. She is dreaming about an infinite board. On that board, an infinite table consisting of infinite rows and infinite columns containing infinite numbers is drawn. Interestingly, each number in the table appears a finite number of times.
+
+The table is of exceptionally regular shape and its values meet the requirements of a simple recursive relation. The first cell of each row contains the ordinal number of that row. $A$ value of a cell that is not in the first column can be calculated by adding up the number in the cell to the left of it and that same number, only written in reverse (in decimal representation).
+
+Formally, if $A(i, j)$ denotes the value in the $i$-th row and the $j$-th column, it holds:
+ - $A(i, 1) = i$
+ - $A(i, j) = A(i, j - 1) + \mathrm{rev} (A(i, j - 1))$1, for each $j > 1$
+
+1
+
+2
+
+4
+
+8
+
+16
+
+77
+
+154 
+
+2
+
+4
+
+8
+
+16
+
+77
+
+154
+
+605 
+
+3
+
+6
+
+12
+
+33
+
+66
+
+132
+
+363
+
+$\cdots $
+
+4
+
+8
+
+16
+
+77
+
+154
+
+605
+
+1111 
+
+5
+
+10
+
+11
+
+22
+
+44
+
+88
+
+176    
+
+$\vdots $   
+
+$\ddots $
+
+$\qquad $
+
+$\qquad $
+
+$\qquad $
+
+$\qquad $
+
+$\qquad $
+
+$\qquad $
+
+$\qquad $
+
+$\qquad $Table 1: The first few rows and columns of the table 
+
+Anica hasn’t shown too much interest in the board and obliviously passed by it. Behind the board, she noticed a lamp that immediately caught her attention. Anica also caught the lamp’s attention, so the friendly ghost Božo came out of it.
+
+“Anica! If you answer correctly to my $Q$ queries, you will win a package of Dorina wafer or Domaćica cookies, based on your own choice! $I$ wouldn’t want to impose my stance, but in my personal opinion, the Dorina wafer cookies are better. Each query will consist of two integers $A$ and $B$. You must answer how many appearances of numbers from the interval $[A, B]$ there are on the board.”
+
+Unfortunately, Anica couldn’t give an answer to the queries and woke up.
+
+“Ah, I didn’t win the Dorina cookies, but at least I have a task for COCI”, she thought and went along with her business.
+
+-----Input-----
+The first line of input contains the integer $Q$ ($1 \leq Q \leq 10^5$), the number of queries. Each of the following $Q$ lines contains two integers $A$ and $B$ ($1 \leq A \leq B \leq 10^{10}$) that represent the interval from the query.
+
+-----Output-----
+The $i$-th line of output must contain a single integer—the answer to the $i$-th query.
+
+-----Examples-----
+Sample Input 1:
+2
+1 10
+5 8
+Sample Output 1:
+18
+8
+
+Sample Input 2:
+3
+17 144
+121 121
+89 98
+Sample Output 2:
+265
+25
+10

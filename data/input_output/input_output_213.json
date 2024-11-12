@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "signup/",
+        "login/",
+        "invalid/"
+    ],
+    "outputs": [
+        "UserSignupView",
+        "auth_views.LoginView",
+        null
+    ]
+}

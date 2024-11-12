@@ -1,0 +1,3 @@
+{
+    "378": "k, r = map(int, input().split())\nfor i in range(1, 10):\n    if (k * i) % 10 == r or (k * i) % 10 == 0:\n        print(i)\n        break"
+}

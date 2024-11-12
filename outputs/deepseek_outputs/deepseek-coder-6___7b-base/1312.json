@@ -1,0 +1,8 @@
+{
+    "1312": {
+        "code": [
+            "import sys\n\nn, m = map(int, sys.stdin.readline().split())\n\nif n % m == 0:\n    print((n // m) * \" \" + str(n // m))\nelse:\n    ans = [1] * m\n    n -= m\n    for i in range(m):\n        ans[i] += n // m\n        n -= n // m\n    print(\" \".join(map(str, ans)))"
+        ],
+        "prompt": "\nQUESTION:\nPolycarpus has got n candies and m friends (n \u2265 m). He wants to make a New Year present with candies to each friend. Polycarpus is planning to present all candies and he wants to do this in the fairest (that is, most equal) manner. He wants to choose such a_{i}, where a_{i} is the number of candies in the i-th friend's present, that the maximum a_{i} differs from the least a_{i} as little as possible.\n\nFor example, if n is divisible by m, then he is going to present the same number of candies to all his friends, that is, the maximum a_{i} won't differ from the minimum one.\n\n\n-----Input-----\n\nThe single line of the input contains a pair of space-separated positive integers n, m (1 \u2264 n, m \u2264 100;n \u2265 m) \u2014 the number of candies and the number of Polycarpus's friends.\n\n\n-----Output-----\n\nPrint the required sequence a_1, a_2, ..., a_{m}, where a_{i} is the number of candies in the i-th friend's present. All numbers a_{i} must be positive integers, total up to n, the maximum one should differ from the minimum one by the smallest possible value.\n\n\n-----Examples-----\nInput\n12 3\n\nOutput\n4 4 4 \nInput\n15 4\n\nOutput\n3 4 4 4 \nInput\n18 7\n\nOutput\n2 2 2 3 3 3 3 \n\n\n-----Note-----\n\nPrint a_{i} in any order, separate the numbers by spaces.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

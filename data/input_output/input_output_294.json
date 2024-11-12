@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "generate_hex_number() returns 'ABC123'",
+        "generate_hex_number() returns '456DEF'",
+        "generate_hex_number() returns 'F00B4R'",
+        "generate_hex_number() returns '1A2B3C'",
+        "generate_hex_number() returns 'C0FFEE'"
+    ],
+    "outputs": [
+        "URL of the posted image with 'ABC123'",
+        "URL of the posted image with '456DEF'",
+        "URL of the posted image with 'F00B4R'",
+        "URL of the posted image with '1A2B3C'",
+        "URL of the posted image with 'C0FFEE'"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "gateway.on_contract(contract)",
+        "gateway.on_contract(contract)",
+        "gateway.on_contract(contract)",
+        "gateway.on_contract(contract)",
+        "gateway.on_contract(contract)"
+    ],
+    "outputs": [
+        "合约信息查询成功",
+        "合约信息查询成功",
+        "合约信息查询成功",
+        "合约信息查询成功",
+        "合约信息查询成功"
+    ]
+}

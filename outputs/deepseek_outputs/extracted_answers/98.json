@@ -1,0 +1,3 @@
+{
+    "98": "a1, b1 = map(int, input().split())\na2, b2, a3, b3 = map(int, input().split())\n\nif (a1 >= a2 and b1 >= b2) or (a1 >= b2 and b1 >= a2):\n    print('YES')\nelif (a1 >= a3 and b1 >= b3) or (a1 >= b3 and b1 >= a3):\n    print('YES')\nelif (a2 >= a1 and b2 >= b1) or (a2 >= b1 and b2 >= a1):\n    print('YES')\nelif (a2 >= a3 and b2 >= b3) or (a2 >= b3 and b2 >= a3):\n    print('YES')\nelif (a3 >= a1 and b3 >= b1) or (a3 >= b1 and b3 >= a1):\n    print('YES')\nelif (a3 >= a2 and b3 >= b2) or (a3 >= b2 and b3 >= a2):\n    print('YES')\nelse:\n    print('NO')"
+}

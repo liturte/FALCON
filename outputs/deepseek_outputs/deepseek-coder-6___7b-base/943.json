@@ -1,0 +1,8 @@
+{
+    "943": {
+        "code": [
+            "n=int(input())\nl=list(map(int,input().split()))\nprint(sum(l) if sum(l)%2==0 else sum(l)-min(l))"
+        ],
+        "prompt": "\nQUESTION:\nToday, Wet Shark is given n integers. Using any of these integers no more than once, Wet Shark wants to get maximum possible even (divisible by 2) sum. Please, calculate this value for Wet Shark. \n\nNote, that if Wet Shark uses no integers from the n integers, the sum is an even integer 0.\n\n\n-----Input-----\n\nThe first line of the input contains one integer, n (1 \u2264 n \u2264 100 000). The next line contains n space separated integers given to Wet Shark. Each of these integers is in range from 1 to 10^9, inclusive. \n\n\n-----Output-----\n\nPrint the maximum possible even sum that can be obtained if we use some of the given integers. \n\n\n-----Examples-----\nInput\n3\n1 2 3\n\nOutput\n6\nInput\n5\n999999999 999999999 999999999 999999999 999999999\n\nOutput\n3999999996\n\n\n-----Note-----\n\nIn the first sample, we can simply take all three integers for a total sum of 6.\n\nIn the second sample Wet Shark should take any four out of five integers 999 999 999.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

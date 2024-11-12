@@ -1,0 +1,3 @@
+{
+    "34": "n, a, b = [int(i) for i in input().split()]\n\nif a < b:\n    print(a)\nelse:\n    print((a + b) // n)"
+}

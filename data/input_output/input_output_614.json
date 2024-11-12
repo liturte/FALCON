@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        [
+            "add",
+            "file"
+        ],
+        [
+            "delete",
+            "folder"
+        ],
+        [
+            "update",
+            "document"
+        ],
+        [
+            "add",
+            "user"
+        ],
+        [
+            "delete",
+            "account"
+        ]
+    ],
+    "outputs": [
+        "add_file_success",
+        "delete_folder_success",
+        null,
+        "add_user_success",
+        "delete_account_success"
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    "118": "t,s,x=map(int,input().split())\nif(x==t):\n    print(\"YES\")\nelse:\n    print(\"NO\")"
+}

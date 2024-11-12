@@ -1,0 +1,3 @@
+{
+    "210": "\"\"\"\n\nn = int(input())\narr = list(map(int,input().split()))\n\nif n == 1:\n    if arr[0] == 0:\n        print(\"YES\\n1\\n1 1\")\n    else:\n        print(\"NO\")\nelse:\n    temp = []\n    for i in range(n):\n        if arr[i] != 0:\n            temp.append(i+1)\n    if len(temp) == 0:\n        print(\"NO\")\n    else:\n        print(\"YES\")\n        print(len(temp))\n        for i in temp:\n            print(i,i)\n\n\n\n\"\"\"\n\n\n\"\"\""
+}

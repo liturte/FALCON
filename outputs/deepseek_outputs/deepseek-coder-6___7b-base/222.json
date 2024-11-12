@@ -1,0 +1,8 @@
+{
+    "222": {
+        "code": [
+            "n = input()\n\nn = int(n)\n\na = n**0.5\n\nif a == int(a):\n\n    print(0)\n\nelse:\n\n    print(-1)"
+        ],
+        "prompt": "\nQUESTION:\nYou are given a positive integer $n$, written without leading zeroes (for example, the number 04 is incorrect). \n\nIn one operation you can delete any digit of the given integer so that the result remains a positive integer without leading zeros.\n\nDetermine the minimum number of operations that you need to consistently apply to the given integer $n$ to make from it the square of some positive integer or report that it is impossible.\n\nAn integer $x$ is the square of some positive integer if and only if $x=y^2$ for some positive integer $y$.\n\n\n-----Input-----\n\nThe first line contains a single integer $n$ ($1 \\le n \\le 2 \\cdot 10^{9}$). The number is given without leading zeroes.\n\n\n-----Output-----\n\nIf it is impossible to make the square of some positive integer from $n$, print -1. In the other case, print the minimal number of operations required to do it.\n\n\n-----Examples-----\nInput\n8314\n\nOutput\n2\n\nInput\n625\n\nOutput\n0\n\nInput\n333\n\nOutput\n-1\n\n\n\n-----Note-----\n\nIn the first example we should delete from $8314$ the digits $3$ and $4$. After that $8314$ become equals to $81$, which is the square of the integer $9$.\n\nIn the second example the given $625$ is the square of the integer $25$, so you should not delete anything. \n\nIn the third example it is impossible to make the square from $333$, so the answer is -1.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

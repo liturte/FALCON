@@ -1,0 +1,1 @@
+{"fn_name": "filter_numbers", "inputs": [["test123"], ["a1b2c3"], ["aa1bb2cc3dd"], ["CodeWars"], ["99234"]], "outputs": [["test"], ["abc"], ["aabbccdd"], ["CodeWars"], [""]]}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Given an input image of size 32x32x3, apply a 3x3 filter with stride 1 and ReLU activation function. Perform convolution operation and provide the output feature map size.",
+        "Given an input image of size 64x64x1, apply a 5x5 filter with stride 2 and Sigmoid activation function. Perform convolution operation and provide the output feature map size.",
+        "Given an input image of size 128x128x3, apply a 7x7 filter with stride 3 and Tanh activation function. Perform convolution operation and provide the output feature map size.",
+        "Given an input image of size 16x16x1, apply a 2x2 filter with stride 1 and Leaky ReLU activation function. Perform convolution operation and provide the output feature map size.",
+        "Given an input image of size 256x256x3, apply a 4x4 filter with stride 2 and ELU activation function. Perform convolution operation and provide the output feature map size."
+    ],
+    "outputs": [
+        "Output feature map size: 30x30x1",
+        "Output feature map size: 30x30x1",
+        "Output feature map size: 41x41x1",
+        "Output feature map size: 15x15x1",
+        "Output feature map size: 127x127x1"
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    "165": "#!/usr/bin/python\n\nimport sys\n\n\ndef main():\n    b, d, s = map(int, sys.stdin.readline().strip().split())\n    print(min(b, d, s))\n\n\nif __name__ == '__main__':\n    main()"
+}

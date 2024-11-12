@@ -1,0 +1,3 @@
+{
+    "517": "#include <bits/stdc++.h>\nusing namespace std;\ntypedef long long ll;\n\nint main()\n{\n    ll n, d, h;\n    cin >> n >> d >> h;\n    if (d > n - 1 || d < h || h == 1)\n    {\n        cout << \"-1\\n\";\n        return 0;\n    }\n    ll c = 1;\n    for (int i = 1; i <= h; i++)\n    {\n        cout << i << \" \" << c << \"\\n\";\n        c++;\n    }\n    cout << h << \" \" << c << \"\\n\";\n    c++;\n    for (int i = h + 1; i < n; i++)\n    {\n        cout << c << \" \" << i << \"\\n\";\n        c++;\n    }\n    return 0;\n}"
+}

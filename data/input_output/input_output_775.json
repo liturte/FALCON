@@ -1,0 +1,51 @@
+{
+    "inputs": [
+        "Adam",
+        "John",
+        "Alice",
+        "Peter",
+        "Sarah"
+    ],
+    "outputs": [
+        [
+            "Adam",
+            "Adma",
+            "Aadm",
+            "Aamd",
+            "Amad",
+            "Amda"
+        ],
+        [
+            "John",
+            "Jhon",
+            "Jnoh",
+            "Jnoh",
+            "Jhon",
+            "Jhon"
+        ],
+        [
+            "Alice",
+            "Alcie",
+            "Ailce",
+            "Ailec",
+            "Aelci",
+            "Aelic"
+        ],
+        [
+            "Peter",
+            "Ptere",
+            "Peetr",
+            "Petre",
+            "Perte",
+            "Preet"
+        ],
+        [
+            "Sarah",
+            "Sarha",
+            "Sraah",
+            "Sraha",
+            "Sahra",
+            "Sahar"
+        ]
+    ]
+}

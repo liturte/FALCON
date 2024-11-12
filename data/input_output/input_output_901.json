@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "CustomLayoutManager(10, 5)",
+        "CustomLayoutManager(0, 0)",
+        "CustomLayoutManager(3, 3, 3, 3)",
+        "CustomLayoutManager(8, 8)",
+        "CustomLayoutManager(5, 10)"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

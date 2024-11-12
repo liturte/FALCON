@@ -1,0 +1,3 @@
+{
+    "82": "n,k=map(int,input().split())\na=list(map(int,input().split()))\nav=sum(a)/n\nif(av>k):\n    print(0)\nelse:\n    print(k-av)"
+}

@@ -1,0 +1,23 @@
+Decades have passed since the beginning of AtCoder Beginner Contest.
+The contests are labeled as ABC001, ABC002, ... from the first round, but after the 999-th round ABC999, a problem occurred: how the future rounds should be labeled?
+In the end, the labels for the rounds from the 1000-th to the 1998-th are decided: ABD001, ABD002, ..., ABD999.
+You are given an integer N between 1 and 1998 (inclusive). Print the first three characters of the label of the N-th round of AtCoder Beginner Contest.
+
+-----Constraints-----
+ - 1 \leq N \leq 1998
+ - N is an integer.
+
+-----Input-----
+Input is given from Standard Input in the following format:
+N
+
+-----Output-----
+Print the first three characters of the label of the N-th round of AtCoder Beginner Contest.
+
+-----Sample Input-----
+999
+
+-----Sample Output-----
+ABC
+
+The 999-th round of AtCoder Beginner Contest is labeled as ABC999.

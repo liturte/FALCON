@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "def check_assignment_status():\n    return 0",
+        "def check_assignment_status():\n    return None",
+        "def check_assignment_status():\n    return 'ASSIGNMENT_UNDERWAY'",
+        "def check_assignment_status():\n    return AssignmentStatus.ASSIGNMENT_UNDERWAY",
+        "def check_assignment_status():\n    return AssignmentStatus.ASSIGNMENT_UNDERWAY if condition else None"
+    ],
+    "outputs": [
+        "def check_assignment_status():\n    return AssignmentStatus.ASSIGNMENT_UNDERWAY",
+        null,
+        null,
+        null,
+        null
+    ]
+}

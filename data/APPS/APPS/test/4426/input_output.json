@@ -1,0 +1,1 @@
+{"inputs": ["SAT\n", "SUN\n", "FRI\n", "MON\n", "THU\n", "TUE\n", "WED\n"], "outputs": ["1\n", "7\n", "2\n", "6\n", "3\n", "5\n", "4\n"]}

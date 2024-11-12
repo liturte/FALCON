@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "handlers = [lambda addr, key, value: print(f'Handler 1 triggered with {addr}, {key}, {value}'), lambda addr, key, value: print(f'Handler 2 triggered with {addr}, {key}, {value}')]",
+        "handlers = [lambda addr, key, value: print(f'Handler 1 triggered with {addr}, {key}, {value}'), lambda addr, key, value: print(f'Handler 2 triggered with {addr}, {key}, {value}'), lambda addr, key, value: print(f'Handler 3 triggered with {addr}, {key}, {value}')]",
+        "handlers = []",
+        "handlers = [lambda addr, key, value: print(f'Handler 1 triggered with {addr}, {key}, {value}')]",
+        "handlers = [lambda addr, key, value: print(f'Handler 1 triggered with {addr}, {key}, {value}'), lambda addr, key, value: print(f'Handler 2 triggered with {addr}, {key}, {value}'), lambda addr, key, value: print(f'Handler 3 triggered with {addr}, {key}, {value}'), lambda addr, key, value: print(f'Handler 4 triggered with {addr}, {key}, {value}')]"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

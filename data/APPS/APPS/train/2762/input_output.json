@@ -1,0 +1,1 @@
+{"fn_name": "scoreboard", "inputs": [["The score is four nil"], ["new score: two three"], ["two two"], ["Arsenal just conceded another goal, two nil"]], "outputs": [[[4, 0]], [[2, 3]], [[2, 2]], [[2, 0]]]}

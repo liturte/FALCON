@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{ 'key1': (value1,) }",
+        "{ 'key2': [value2,] }",
+        "{ 'key3': [{inner_key: inner_value}] }",
+        "{ 'key4': ((nested_value,),) }",
+        "{ 'key5': [[nested_value2],] }"
+    ],
+    "outputs": [
+        "{ 'key1': value1 }",
+        "{ 'key2': value2 }",
+        "{ 'key3': {'inner_key': 'inner_value'} }",
+        "{ 'key4': ('nested_value',) }",
+        "{ 'key5': ['nested_value2'] }"
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    "24": "n = int(input())\nfor i in range(n):\n    a = input()\n    print(a)\n\n\n\"\"\"\n\nn = int(input())\nfor i in range(n):\n    a = input()\n    print(a)"
+}

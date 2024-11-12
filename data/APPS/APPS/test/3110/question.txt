@@ -1,0 +1,35 @@
+You’re one of the king’s spies sent on a secret mission to retrieve an item of incredible value, an ancient scroll from the throne room. Legend has it, the scroll contains the answer to the $P$ versus $NP$ problem. When you finally reach the throne room, you realize there is a code the guards enter every day while observing them. As a spy, you’ve started to notice a few rules for each guard’s code:
+ - each code is a matrix consisting of nonzero decimal digits (integers from $1$ to $9$) with $m$ rows and $n$ columns
+ - no digit repeats within any row of the code
+ - for each digit $l$ in the code, except for those in the topmost row and rightmost column, let $u$ be the digit above it and let $r$ be the digit to its right in the code matrix. Then one of the following must be true:
+ - $u$ is the product of $l$ and $r$
+ - $u$ is the sum of $l$ and $r$
+ - $u$ is the difference of $l$ and $r$ or $r$ and $l$
+ - $u$ is the quotient of $l$ and $r$ or $r$ and $l$
+
+On day $999$, you’ve noticed a guard has seem to walked off while entering his code. Some digits have been omitted, but after careful consideration you think you can crack the code. Digits that have been omitted are represented with a $0$. How many complete codes are possible, given the guard’s partial code?
+
+-----Input-----
+A test case starts with a line containing two numbers $m$ ($3 \le m \le 6$) and $n$ ($3 \le n \le 6$), which is the number of rows and number of columns of the grid. The following $m$ lines contain $n$ integers from $0$ to $9$, separated by spaces. $0$ indicates an unknown value that you can supply, and there will be at most $\lfloor \frac{m*n}{2} \rfloor $ unknown values.
+
+You can assume the guard has followed the rules with the partial code (i.e. no repeated digits appear in any row in the input, and any three pairs of non-zero digits that form an L have the property described above).
+
+-----Output-----
+For each test case, print the number of complete codes you can find.
+
+-----Examples-----
+Sample Input 1:
+3 3
+1 2 4
+0 3 6
+4 0 3
+Sample Output 1:
+2
+
+Sample Input 2:
+3 4
+2 3 0 7
+0 0 2 1
+0 0 3 0
+Sample Output 2:
+37

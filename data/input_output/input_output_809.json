@@ -1,0 +1,81 @@
+{
+    "inputs": [
+        [
+            "Problem 1",
+            "Problem 2",
+            "Problem 3"
+        ],
+        [
+            3,
+            1,
+            2
+        ],
+        [
+            "Easy Problem",
+            "Medium Problem",
+            "Hard Problem"
+        ],
+        [
+            1,
+            2,
+            3
+        ],
+        [
+            "Problem A",
+            "Problem B",
+            "Problem C"
+        ],
+        [
+            2,
+            3,
+            1
+        ],
+        [
+            "Problem X",
+            "Problem Y",
+            "Problem Z"
+        ],
+        [
+            3,
+            2,
+            1
+        ],
+        [
+            "Problem Alpha",
+            "Problem Beta",
+            "Problem Gamma"
+        ],
+        [
+            1,
+            3,
+            2
+        ]
+    ],
+    "outputs": [
+        [
+            "#Problem 1 - 3",
+            "#Problem 2 - 1",
+            "#Problem 3 - 2"
+        ],
+        [
+            "#Easy Problem - 1",
+            "#Medium Problem - 2",
+            "#Hard Problem - 3"
+        ],
+        [
+            "#Problem A - 2",
+            "#Problem B - 3",
+            "#Problem C - 1"
+        ],
+        [
+            "#Problem X - 3",
+            "#Problem Y - 2",
+            "#Problem Z - 1"
+        ],
+        [
+            "#Problem Alpha - 1",
+            "#Problem Beta - 3",
+            "#Problem Gamma - 2"
+        ]
+    ]
+}

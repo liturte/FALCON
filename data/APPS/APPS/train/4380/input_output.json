@@ -1,0 +1,1 @@
+{"fn_name": "remove_chars", "inputs": [["co_ol f0un%(c)t-io\"n"], ["test for error!"], [".tree1"], ["that's a pie&ce o_f p#ie!"]], "outputs": [["cool function"], ["test for error"], ["tree"], ["thats a piece of pie"]]}

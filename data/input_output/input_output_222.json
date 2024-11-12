@@ -1,0 +1,49 @@
+{
+    "inputs": [
+        [
+            "get_logging_config",
+            "service_config",
+            "db_config",
+            "service_config",
+            "db_config",
+            "get_logging_config",
+            "app_config"
+        ],
+        [
+            "app_config",
+            "app_config",
+            "app_config",
+            "app_config"
+        ],
+        [],
+        [
+            "db_config",
+            "db_config",
+            "db_config",
+            "db_config"
+        ],
+        [
+            "service_config",
+            "service_config",
+            "service_config"
+        ]
+    ],
+    "outputs": [
+        {
+            "get_logging_config": 2,
+            "service_config": 2,
+            "db_config": 2,
+            "app_config": 1
+        },
+        {
+            "app_config": 4
+        },
+        null,
+        {
+            "db_config": 4
+        },
+        {
+            "service_config": 3
+        }
+    ]
+}

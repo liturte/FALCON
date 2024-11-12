@@ -1,0 +1,8 @@
+{
+    "529": {
+        "code": [
+            "s = input()\nn = int(input())\n\nprint(s[:n].lower() + s[n:].upper())"
+        ],
+        "prompt": "\nQUESTION:\n[Image] \n\n\n-----Input-----\n\nThe first line of the input is a string (between 1 and 50 characters long, inclusive). Each character will be a letter of English alphabet, lowercase or uppercase.\n\nThe second line of the input is an integer between 0 and 26, inclusive.\n\n\n-----Output-----\n\nOutput the required string.\n\n\n-----Examples-----\nInput\nAprilFool\n14\n\nOutput\nAprILFooL\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

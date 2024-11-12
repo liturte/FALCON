@@ -1,0 +1,2 @@
+def crosstable(players, results):
+	

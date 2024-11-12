@@ -1,0 +1,8 @@
+{
+    "595": {
+        "code": [
+            "y = int(input())\n\nwhile True:\n\n    y += 1\n\n    if y % 400 == 0:\n\n        continue\n\n    elif y % 100 == 0:\n\n        continue\n\n    elif y % 4 == 0:\n\n        continue\n\n    else:\n\n        break\n\nprint(y)"
+        ],
+        "prompt": "\nQUESTION:\nThe girl Taylor has a beautiful calendar for the year y. In the calendar all days are given with their days of week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday.\n\nThe calendar is so beautiful that she wants to know what is the next year after y when the calendar will be exactly the same. Help Taylor to find that year.\n\nNote that leap years has 366 days. The year is leap if it is divisible by 400 or it is divisible by 4, but not by 100 (https://en.wikipedia.org/wiki/Leap_year).\n\n\n-----Input-----\n\nThe only line contains integer y (1000 \u2264 y < 100'000) \u2014 the year of the calendar.\n\n\n-----Output-----\n\nPrint the only integer y' \u2014 the next year after y when the calendar will be the same. Note that you should find the first year after y with the same calendar.\n\n\n-----Examples-----\nInput\n2016\n\nOutput\n2044\n\nInput\n2000\n\nOutput\n2028\n\nInput\n50501\n\nOutput\n50507\n\n\n\n-----Note-----\n\nToday is Monday, the 13th of June, 2016.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

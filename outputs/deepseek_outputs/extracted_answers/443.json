@@ -1,0 +1,3 @@
+{
+    "443": "n = int(input())\na = list(map(int, input().split()))\n\nif sum(a) % 2 == 1:\n    print(-1)\nelse:\n    print(n // 2)\n    print(' '.join([str(i+1) for i in range(n//2)]))"
+}

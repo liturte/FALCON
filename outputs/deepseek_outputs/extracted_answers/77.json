@@ -1,0 +1,3 @@
+{
+    "77": "import sys\n\nn = int(sys.stdin.readline())\na = list(map(int, sys.stdin.readline().split()))\n\nodd = []\neven = []\nfor i in a:\n    if i % 2 == 0:\n        even.append(i)\n    else:\n        odd.append(i)\n\nodd.sort(reverse=True)\neven.sort(reverse=True)\n\nif len(odd) == 0:\n    print(even[0])\nelif len(even) == 0:\n    print(odd[0])\nelse:\n    if odd[0] > even[0]:\n        print(odd[0])\n    else:\n        print(even[0])"
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{\"James\": 90, \"Jules\": 55, \"Arthur\": 77, \"Sophia\": 90, \"Lily\": 77}",
+        "{\"Alice\": 85, \"Bob\": 85, \"Charlie\": 85, \"David\": 90}",
+        "{\"Emma\": 95, \"Olivia\": 95, \"Ava\": 95, \"Mia\": 95}",
+        "{\"Michael\": 70, \"William\": 70, \"Ethan\": 70, \"Daniel\": 70}",
+        "{\"Sophie\": 80, \"Emily\": 80, \"Grace\": 80, \"Hannah\": 80}"
+    ],
+    "outputs": [
+        "[\"James\", \"Sophia\", \"Arthur\"]",
+        "[\"David\"]",
+        "[\"Ava\", \"Emma\", \"Mia\", \"Olivia\"]",
+        "[\"Daniel\", \"Ethan\", \"Michael\", \"William\"]",
+        "[\"Emily\", \"Grace\", \"Hannah\", \"Sophie\"]"
+    ]
+}

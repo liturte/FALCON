@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "df = pd.DataFrame({'data': ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']})",
+        "df = pd.DataFrame({'data': ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape', 'honeydew']})",
+        "df = pd.DataFrame({'data': ['1', '2', '3', '4', '5', '6', '7', '8']})",
+        "df = pd.DataFrame({'data': ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']})",
+        "df = pd.DataFrame({'data': ['cat', 'dog', 'elephant', 'fox', 'giraffe', 'horse', 'iguana', 'jaguar']})"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

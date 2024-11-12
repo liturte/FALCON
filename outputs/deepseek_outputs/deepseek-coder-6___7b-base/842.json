@@ -1,0 +1,8 @@
+{
+    "842": {
+        "code": [
+            "import sys\n\n\ndef main():\n    n = int(sys.stdin.readline().strip())\n    k = 10\n    while n > k:\n        n -= k\n        k *= 100\n    k //= 100\n    n -= 1\n    print(k * 100 + n * 11)\n\n\nif __name__ == '__main__':\n    main()"
+        ],
+        "prompt": "\nQUESTION:\nPari has a friend who loves palindrome numbers. A palindrome number is a number that reads the same forward or backward. For example 12321, 100001 and 1 are palindrome numbers, while 112 and 1021 are not.\n\nPari is trying to love them too, but only very special and gifted people can understand the beauty behind palindrome numbers. Pari loves integers with even length (i.e. the numbers with even number of digits), so she tries to see a lot of big palindrome numbers with even length (like a 2-digit 11 or 6-digit 122221), so maybe she could see something in them.\n\nNow Pari asks you to write a program that gets a huge integer n from the input and tells what is the n-th even-length positive palindrome number?\n\n\n-----Input-----\n\nThe only line of the input contains a single integer n (1 \u2264 n \u2264 10^{100 000}).\n\n\n-----Output-----\n\nPrint the n-th even-length palindrome number.\n\n\n-----Examples-----\nInput\n1\n\nOutput\n11\n\nInput\n10\n\nOutput\n1001\n\n\n\n-----Note-----\n\nThe first 10 even-length palindrome numbers are 11, 22, 33, ... , 88, 99 and 1001.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

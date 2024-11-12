@@ -1,0 +1,8 @@
+{
+    "603": {
+        "code": [
+            "def solve():\n    r, g, b = map(int, input().split())\n    ans = 0\n    ans += min(r, g, b)\n    r -= ans\n    g -= ans\n    b -= ans\n    ans += r // 3 + g // 3 + b // 3\n    ans += min(r % 3, g % 3, b % 3)\n    return ans\n\n\nprint(solve())"
+        ],
+        "prompt": "\nQUESTION:\nFox Ciel has some flowers: r red flowers, g green flowers and b blue flowers. She wants to use these flowers to make several bouquets. There are 4 types of bouquets:\n\n  To make a \"red bouquet\", it needs 3 red flowers.  To make a \"green bouquet\", it needs 3 green flowers.  To make a \"blue bouquet\", it needs 3 blue flowers.  To make a \"mixing bouquet\", it needs 1 red, 1 green and 1 blue flower. \n\nHelp Fox Ciel to find the maximal number of bouquets she can make.\n\n\n-----Input-----\n\nThe first line contains three integers r, g and b (0 \u2264 r, g, b \u2264 10^9) \u2014 the number of red, green and blue flowers.\n\n\n-----Output-----\n\nPrint the maximal number of bouquets Fox Ciel can make.\n\n\n-----Examples-----\nInput\n3 6 9\n\nOutput\n6\n\nInput\n4 4 4\n\nOutput\n4\n\nInput\n0 0 0\n\nOutput\n0\n\n\n\n-----Note-----\n\nIn test case 1, we can make 1 red bouquet, 2 green bouquets and 3 blue bouquets.\n\nIn test case 2, we can make 1 red, 1 green, 1 blue and 1 mixing bouquet.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

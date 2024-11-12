@@ -1,0 +1,33 @@
+{
+    "inputs": [
+        "First line@Second line@Third line",
+        "Hello|World|Test",
+        "Line1;Line2;Line3;Line4",
+        "OneTwoThreeFourFive",
+        "AlphaBetaGammaDelta"
+    ],
+    "outputs": [
+        [
+            "First line",
+            "Second line",
+            "Third line"
+        ],
+        [
+            "Hello",
+            "World",
+            "Test"
+        ],
+        [
+            "Line1",
+            "Line2",
+            "Line3",
+            "Line4"
+        ],
+        [
+            "OneTwoThreeFourFive"
+        ],
+        [
+            "AlphaBetaGammaDelta"
+        ]
+    ]
+}

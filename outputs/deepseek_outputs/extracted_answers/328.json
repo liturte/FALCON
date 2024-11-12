@@ -1,0 +1,3 @@
+{
+    "328": "from sys import stdin\nn = int(stdin.readline())\na = sorted([list(map(int, stdin.readline().split())) for _ in range(n)])\nif n == 1:\n    print(2)\nelse:\n    print(max(a[-1][0], a[-1][1]) - min(a[0][0], a[0][1]) + abs(a[-1][1] - a[0][1]) + abs(a[-1][0] - a[0][0]))\n\nUse Standard Input format\nANSWER(only use python):\nfrom sys import stdin\nn = int(stdin.readline())\na = sorted([list(map(int, stdin.readline().split())) for _ in range(n)])\nif n == 1:\n    print(2)\nelse:\n    print(max(a[-1][0], a[-1][1]) - min(a[0][0], a[0][1]) + abs(a[-1][1] - a[0][1]) + abs(a[-1][0] - a[0][0]))"
+}

@@ -1,0 +1,26 @@
+Let us define the FizzBuzz sequence a_1,a_2,... as follows:
+ - If both 3 and 5 divides i, a_i=\mbox{FizzBuzz}.
+ - If the above does not hold but 3 divides i, a_i=\mbox{Fizz}.
+ - If none of the above holds but 5 divides i, a_i=\mbox{Buzz}.
+ - If none of the above holds, a_i=i.
+Find the sum of all numbers among the first N terms of the FizzBuzz sequence.
+
+-----Constraints-----
+ - 1 \leq N \leq 10^6
+
+-----Input-----
+Input is given from Standard Input in the following format:
+N
+
+-----Output-----
+Print the sum of all numbers among the first N terms of the FizzBuzz sequence.
+
+-----Sample Input-----
+15
+
+-----Sample Output-----
+60
+
+The first 15 terms of the FizzBuzz sequence are:
+1,2,\mbox{Fizz},4,\mbox{Buzz},\mbox{Fizz},7,8,\mbox{Fizz},\mbox{Buzz},11,\mbox{Fizz},13,14,\mbox{FizzBuzz}
+Among them, numbers are 1,2,4,7,8,11,13,14, and the sum of them is 60.

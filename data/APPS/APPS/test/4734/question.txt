@@ -1,0 +1,32 @@
+While breaking ground for the Obama Presidential Center, which will be located just a few blocks from campus in Jackson Park, archeologists from the Oriental Institute have made an astounding discovery: a new set of scrolls from the ancient and certainly not made-up Apaxian civilization!
+
+It seems that the Apaxian civilization, which the Oriental Institute is starting to suspect may have been way too concerned with string manipulation, provided a way for young Apaxians to extend their name using the name of one of their parents. The basic principle was to take an Apaxian name $Y$, add ex, and then the name $P$ of one of the parents. For example, if $Y$ is menolaxios and $P$ is mox, the extended name is $\texttt{menolaxios}+\texttt{ex}+\texttt{mox}=\texttt{menolaxiosexmox}$
+
+However, there were a few exceptions to this rule:
+ - If $Y$ ends with e, then the extended name is $Y+\texttt{x}+P$
+ - If $Y$ ends with any other vowel (a,i,o, or u), we remove that final vowel from $Y$, and then extend $Y$ with $\texttt{ex}+P$
+ - If $Y$ already ends with ex, then the extended name is simply $Y+P$.
+
+As usual, the Oriental Institute has asked us to help them apply the power of computation to generating these extended names.
+
+-----Input-----
+The input contains two strings separated by a single space: $Y$ and $P$, as defined above. Each string contains only lowercase English letters, and is at least $2$ characters long and at most $10$ characters long.
+
+-----Output-----
+The output is a single string containing the extended name, as defined above.
+
+-----Examples-----
+Sample Input 1:
+menolaxios mox
+Sample Output 1:
+menolaxiosexmox
+
+Sample Input 2:
+alemaxe maxos
+Sample Output 2:
+alemaxexmaxos
+
+Sample Input 3:
+pamoli toxes
+Sample Output 3:
+pamolextoxes

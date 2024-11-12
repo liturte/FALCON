@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{\"case status\": \"approved\", \"team\": \"marketing\", \"queue\": \"priority\", \"tier number\": 2, \"Only show active rules\": true}",
+        "{\"case status\": \"approved\", \"team\": \"sales\", \"queue\": \"priority\", \"tier number\": 3, \"Only show active rules\": false}",
+        "{\"case status\": \"pending\", \"team\": \"marketing\", \"queue\": \"normal\", \"tier number\": 1, \"Only show active rules\": true}",
+        "{\"case status\": \"approved\", \"team\": \"marketing\", \"queue\": \"priority\", \"tier number\": 3, \"Only show active rules\": true}",
+        "{\"case status\": \"approved\", \"team\": \"marketing\", \"queue\": \"normal\", \"tier number\": 2, \"Only show active rules\": false}"
+    ],
+    "outputs": [
+        "[{\"case status\": \"approved\", \"team\": \"marketing\"}, {\"queue\": \"priority\", \"tier number\": 2}, {\"case status\": \"approved\", \"team\": \"marketing\", \"queue\": \"priority\", \"tier number\": 2, \"Only show active rules\": true}]",
+        null,
+        "[{\"case status\": \"approved\", \"team\": \"marketing\"}, {\"queue\": \"priority\", \"tier number\": 2}, {\"case status\": \"approved\", \"team\": \"marketing\", \"queue\": \"priority\", \"tier number\": 2, \"Only show active rules\": true}]",
+        "[{\"case status\": \"approved\", \"team\": \"marketing\"}, {\"queue\": \"priority\", \"tier number\": 3}, {\"case status\": \"approved\", \"team\": \"marketing\", \"queue\": \"priority\", \"tier number\": 3, \"Only show active rules\": true}]",
+        null
+    ]
+}

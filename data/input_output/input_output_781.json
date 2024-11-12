@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Create a new object with object_id=1 and link it to another object with object_id=2",
+        "Create a new object with object_id=3 and link it to another object with object_id=4",
+        "Retrieve objects based on ordering by id",
+        "Retrieve objects based on ordering by phrase",
+        "Create multiple objects and link them to different referenced objects"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

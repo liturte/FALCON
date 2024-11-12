@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "new_token_1",
+        "new_token_2",
+        "new_token_3",
+        "new_token_4",
+        "new_token_5"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

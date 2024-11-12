@@ -1,0 +1,20 @@
+You are given an integer N.
+Find the number of the positive divisors of N!, modulo 10^9+7.
+
+-----Constraints-----
+ - 1≤N≤10^3
+
+-----Input-----
+The input is given from Standard Input in the following format:
+N
+
+-----Output-----
+Print the number of the positive divisors of N!, modulo 10^9+7.
+
+-----Sample Input-----
+3
+
+-----Sample Output-----
+4
+
+There are four divisors of 3! =6: 1, 2, 3 and 6. Thus, the output should be 4.

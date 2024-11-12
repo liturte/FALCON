@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "/path/to/directory1",
+        "/path/to/directory2",
+        "/path/to/directory3",
+        "/path/to/directory4",
+        "/path/to/directory5"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

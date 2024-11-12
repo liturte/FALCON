@@ -1,0 +1,8 @@
+{
+    "602": {
+        "code": [
+            "-----Input-----\n\nThe input contains a single integer a (1 \u2264 a \u2264 40).\n\n\n-----Output-----\n\nOutput a single string.\n\n\n-----Examples-----\nInput\n2\n\nOutput\nAdams\n\nInput\n8\n\nOutput\nVan Buren\n\nInput\n29\n\nOutput\nHarding\nUse Standard Input format\n\"\"\"\nimport sys\n\n\ndef main():\n    a = int(sys.stdin.readline().strip())\n    if a < 1 or a > 40:\n        return\n\n    presidents = [\"Washington\", \"Adams\", \"Jefferson\", \"Madison\", \"Monroe\", \"Adams\", \"Jackson\", \"Van Buren\", \"Harrison\",\n                  \"Tyler\", \"Polk\", \"Taylor\", \"Fillmore\", \"Pierce\", \"Buchanan\", \"Lincoln\", \"Johnson\", \"Grant\", \"Hayes\",\n                  \"Garfield\", \"Arthur\", \"Cleveland\", \"Harrison\", \"McKinley\", \"Roosevelt\", \"Taft\", \"Wilson\", \"Harding\",\n                  \"Coolidge\", \"Hoover\", \"Roosevelt\", \"Truman\", \"Eisenhower\", \"Kennedy\", \"Johnson\", \"Nixon\", \"Ford\",\n                  \"Carter\", \"Reagan\", \"Bush\", \"Clinton\", \"Bush\", \"Obama\", \"Trump\", \"Biden\"]\n\n    print(presidents[a - 1])\n\n\nif __name__ == \"__main__\":\n    main()"
+        ],
+        "prompt": "\nQUESTION:\n-----Input-----\n\nThe input contains a single integer a (1 \u2264 a \u2264 40).\n\n\n-----Output-----\n\nOutput a single string.\n\n\n-----Examples-----\nInput\n2\n\nOutput\nAdams\n\nInput\n8\n\nOutput\nVan Buren\n\nInput\n29\n\nOutput\nHarding\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

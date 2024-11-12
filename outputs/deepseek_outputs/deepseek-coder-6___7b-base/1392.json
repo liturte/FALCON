@@ -1,0 +1,8 @@
+{
+    "1392": {
+        "code": [
+            "n,k = map(int,input().split())\na = [input() for _ in range(n)]\nans = 0\nfor i in a:\n    for j in i:\n        if int(j)>k:\n            break\n    else:\n        ans+=1\nprint(ans)"
+        ],
+        "prompt": "\nQUESTION:\nLet's call a number k-good if it contains all digits not exceeding k (0, ..., k). You've got a number k and an array a containing n numbers. Find out how many k-good numbers are in a (count each number every time it occurs in array a).\n\n\n-----Input-----\n\nThe first line contains integers n and k (1 \u2264 n \u2264 100, 0 \u2264 k \u2264 9). The i-th of the following n lines contains integer a_{i} without leading zeroes (1 \u2264 a_{i} \u2264 10^9).\n\n\n-----Output-----\n\nPrint a single integer \u2014 the number of k-good numbers in a.\n\n\n-----Examples-----\nInput\n10 6\n1234560\n1234560\n1234560\n1234560\n1234560\n1234560\n1234560\n1234560\n1234560\n1234560\n\nOutput\n10\n\nInput\n2 1\n1\n10\n\nOutput\n1\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

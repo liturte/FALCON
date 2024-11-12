@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Hello, World!",
+        "12345",
+        "This is a test",
+        "Special characters: !@#$%^&*()",
+        "Multiple\nlines\nin\ninput"
+    ],
+    "outputs": [
+        "\t\tcode += 'Hello, World!;'\n}",
+        "\t\tcode += '12345;'\n}",
+        "\t\tcode += 'This is a test;'\n}",
+        "\t\tcode += 'Special characters: !@#$%^&*();'\n}",
+        "\t\tcode += 'Multiple\\n\\\nlines\\n\\\nin\\n\\\ninput;'\n}"
+    ]
+}

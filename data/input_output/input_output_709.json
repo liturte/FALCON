@@ -1,0 +1,76 @@
+{
+    "inputs": [
+        {
+            "name": "Card1",
+            "effects": [
+                {
+                    "cnds_iname": [
+                        "condition1",
+                        "condition2"
+                    ],
+                    "abil_iname": "ability1"
+                },
+                {
+                    "abil_iname": "ability2"
+                }
+            ]
+        },
+        {
+            "name": "Card2",
+            "effects": [
+                {
+                    "abil_iname": "ability3"
+                }
+            ]
+        },
+        {
+            "name": "Card3",
+            "effects": [
+                {
+                    "cnds_iname": [
+                        "condition3"
+                    ],
+                    "abil_iname": "ability4"
+                }
+            ]
+        },
+        {
+            "name": "Card4",
+            "effects": []
+        },
+        {
+            "name": "Card5",
+            "effects": [
+                {
+                    "cnds_iname": [
+                        "condition4"
+                    ],
+                    "abil_iname": "ability5"
+                },
+                {
+                    "cnds_iname": [
+                        "condition5"
+                    ],
+                    "abil_iname": "ability6"
+                }
+            ]
+        }
+    ],
+    "outputs": [
+        [
+            "__**Condition(s):**__ condition1, condition2\n__**Ability:**__ ability1",
+            "__**Ability:**__ ability2"
+        ],
+        [
+            "__**Ability:**__ ability3"
+        ],
+        [
+            "__**Condition(s):**__ condition3\n__**Ability:**__ ability4"
+        ],
+        [],
+        [
+            "__**Condition(s):**__ condition4\n__**Ability:**__ ability5",
+            "__**Condition(s):**__ condition5\n__**Ability:**__ ability6"
+        ]
+    ]
+}

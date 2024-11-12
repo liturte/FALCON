@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "POST request to /register with new user information",
+        "POST request to /register with existing user information",
+        "GET request to /register",
+        "POST request to /register with invalid data format",
+        "POST request to /register with missing required fields"
+    ],
+    "outputs": [
+        "User successfully registered",
+        "User already exists",
+        "Method Not Allowed",
+        "Bad Request",
+        "Missing required fields"
+    ]
+}

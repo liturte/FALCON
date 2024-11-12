@@ -1,0 +1,3 @@
+{
+    "178": "n=int(input())\ns=input()\nif s[0]=='8':\n    print(\"YES\")\nelse:\n    print(\"NO\")"
+}

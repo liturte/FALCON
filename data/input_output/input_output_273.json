@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "encoder_mask, num_spaces, batch_id, encoder_outputs, post_process, out, logits, cur_const, banned_tensor",
+        "encoder_mask, num_spaces, batch_id, encoder_outputs, post_process, out, logits, cur_const, banned_tensor",
+        "encoder_mask, num_spaces, batch_id, encoder_outputs, post_process, out, logits, cur_const, banned_tensor",
+        "encoder_mask, num_spaces, batch_id, encoder_outputs, post_process, out, logits, cur_const, banned_tensor",
+        "encoder_mask, num_spaces, batch_id, encoder_outputs, post_process, out, logits, cur_const, banned_tensor"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

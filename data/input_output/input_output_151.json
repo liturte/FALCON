@@ -1,0 +1,26 @@
+{
+    "inputs": [
+        "unittest.TestSuite()",
+        "unittest.TestSuite()",
+        "unittest.TestSuite()",
+        "unittest.TestSuite()",
+        "unittest.TestSuite()"
+    ],
+    "outputs": [
+        [
+            "test_cli.TestCli"
+        ],
+        [
+            "test_math.TestMath"
+        ],
+        [
+            "test_string.TestString"
+        ],
+        [
+            "test_sorting.TestSorting"
+        ],
+        [
+            "test_search.TestSearch"
+        ]
+    ]
+}

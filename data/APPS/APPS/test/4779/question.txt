@@ -1,0 +1,26 @@
+The Bureau for Artificial Problems in Competitions wants you to solve the following problem: Given $n$ positive integers $a_1, \dots , a_ n$, what is the maximal value of\[ \left(a_1^2 + \dots + a_ k^2\right) \cdot \left(a_{k+1} + \dots + a_ n\right)? \]
+
+-----Input-----
+ - A single line containing an integer $2\leq n\leq 10^6$.
+ - Then follow $n$ lines, the $i$th of which contains the integer $1 \leq a_ i \leq 100$.
+
+-----Output-----
+Output the maximal value of the given expression.
+
+-----Examples-----
+Sample Input 1:
+5
+2
+1
+4
+3
+5
+Sample Output 1:
+168
+
+Sample Input 2:
+2
+1
+1
+Sample Output 2:
+1

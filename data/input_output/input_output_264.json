@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "1234567890",
+        "abcdefghijklmnopqrstuvwxyz",
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",
+        "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    ],
+    "outputs": [
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "1234567890",
+        "abcdefghijklmnopqrstuvwxyz",
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",
+        "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    ]
+}

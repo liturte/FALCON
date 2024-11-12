@@ -1,0 +1,81 @@
+{
+    "inputs": [
+        {
+            "data": [
+                "hello",
+                "world"
+            ],
+            "coder_urns": [
+                "beam:coder:varint:v1"
+            ]
+        },
+        {
+            "data": [
+                "apple",
+                "banana",
+                "cherry"
+            ],
+            "coder_urns": [
+                "spark:coder:delta:v2",
+                "flink:coder:lz4:v1"
+            ]
+        },
+        {
+            "data": [
+                "123",
+                "456",
+                "789"
+            ],
+            "coder_urns": [
+                "beam:coder:protobuf:v3"
+            ]
+        },
+        {
+            "data": [
+                "cat",
+                "dog",
+                "rabbit"
+            ],
+            "coder_urns": [
+                "flink:coder:snappy:v2"
+            ]
+        },
+        {
+            "data": [
+                "python",
+                "java",
+                "c++"
+            ],
+            "coder_urns": [
+                "beam:coder:avro:v1",
+                "spark:coder:zstd:v3"
+            ]
+        }
+    ],
+    "outputs": [
+        [
+            "HELLO",
+            "WORLD"
+        ],
+        [
+            "APPLE",
+            "BANANA",
+            "CHERRY"
+        ],
+        [
+            "123",
+            "456",
+            "789"
+        ],
+        [
+            "CAT",
+            "DOG",
+            "RABBIT"
+        ],
+        [
+            "PYTHON",
+            "JAVA",
+            "C++"
+        ]
+    ]
+}

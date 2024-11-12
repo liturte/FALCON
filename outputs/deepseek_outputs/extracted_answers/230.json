@@ -1,0 +1,3 @@
+{
+    "230": "def max_length(S):\n    N = len(S)\n    dp = [0] * N\n    for i in range(N - 2, -1, -1):\n        if S[i] == S[i + 1]:\n            dp[i] = dp[i + 1] + 1\n    return max(dp)\n\nN = int(input())\nS = input()\nprint(max_length(S))"
+}

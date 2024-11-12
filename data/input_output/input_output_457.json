@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "GoogleNet",
+        "ResNet",
+        "VGG16",
+        "ResNet",
+        "VGG16"
+    ],
+    "outputs": [
+        "Inception",
+        "Residual",
+        "VGG",
+        null,
+        null
+    ]
+}

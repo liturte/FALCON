@@ -1,0 +1,8 @@
+{
+    "695": {
+        "code": [
+            "import sys\n\na,b=map(int,sys.stdin.readline().split())\n\nprint(a&b)"
+        ],
+        "prompt": "\nQUESTION:\n[Image] \n\n\n-----Input-----\n\nThe input contains two integers a_1, a_2 (0 \u2264 a_{i} \u2264 32), separated by a single space.\n\n\n-----Output-----\n\nOutput a single integer.\n\n\n-----Examples-----\nInput\n1 1\n\nOutput\n0\n\nInput\n3 7\n\nOutput\n0\n\nInput\n13 10\n\nOutput\n1\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

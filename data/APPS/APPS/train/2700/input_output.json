@@ -1,0 +1,1 @@
+{"fn_name": "black_or_white_key", "inputs": [[1], [5], [12], [42], [88], [89], [92], [100], [111], [200], [2017]], "outputs": [["white"], ["black"], ["black"], ["white"], ["white"], ["white"], ["white"], ["black"], ["white"], ["black"], ["white"]]}

@@ -1,0 +1,36 @@
+{
+    "inputs": [
+        [
+            "dense",
+            1,
+            "data/dense_1d_array.txt"
+        ],
+        [
+            "sparse",
+            2,
+            "data/sparse_2d_array.txt"
+        ],
+        [
+            "dense",
+            2,
+            "data/dense_2d_array.txt"
+        ],
+        [
+            "invalid",
+            1,
+            "data/invalid_array.txt"
+        ],
+        [
+            "sparse",
+            1,
+            "data/sparse_1d_array.txt"
+        ]
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        "ValueError: Invalid array_type 'invalid' or array_dim '1'",
+        "output_array"
+    ]
+}

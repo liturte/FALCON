@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "1000.0, 50000.0, 10",
+        "2000.0, 100000.0, 15",
+        "1500.0, 75000.0, 20",
+        "3000.0, 200000.0, 30",
+        "2500.0, 150000.0, 25"
+    ],
+    "outputs": [
+        "For a house of R$50000.0 in 10 year(s), the monthly payment will be R$416.6666666666667.",
+        "For a house of R$100000.0 in 15 year(s), the monthly payment will be R$555.5555555555555.",
+        "For a house of R$75000.0 in 20 year(s), the monthly payment will be R$312.5.",
+        "For a house of R$200000.0 in 30 year(s), the monthly payment will be R$555.5555555555555.",
+        "For a house of R$150000.0 in 25 year(s), the monthly payment will be R$500.0."
+    ]
+}

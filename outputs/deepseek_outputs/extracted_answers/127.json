@@ -1,0 +1,3 @@
+{
+    "127": "'''\n\nimport sys\n\n\ndef read_nums():\n    return list(map(int, sys.stdin.readline().split()))\n\n\ndef main():\n    n, f = read_nums()\n    sold = 0\n    days = []\n    for i in range(n):\n        k, l = read_nums()\n        days.append(k)\n        sold += k\n    days.sort(reverse=True)\n    for i in range(f):\n        sold += days[i] * 2\n    print(sold)\n\n\nif __name__ == '__main__':\n    main()"
+}

@@ -1,0 +1,41 @@
+Quite often there is substantial noise in the classroom during class. Instead of paying attention to what the teacher is saying, the students rather discuss the economic crisis or Croatia’s joining the European Union.
+
+The biggest noise often occurs when the students are idle, so teachers will give them tasks with a lot of work to calm them down. In one type of such task, the student must calculate the result of an arithmetic operation on two large numbers.
+
+The arithmetic operations we will consider are adding and multiplication. The operands will be powers of $10$ with no more than $100$ digits.
+
+Write a program that calculates the result of the operation.
+
+-----Input-----
+The first line contains a positive integer $A$, the first operand.
+
+The second line either the character ‘+’ or ‘*’, representing addition or multiplication.
+
+The third line contains a positive integer $B$, the second operand.
+
+The integers $A$ and $B$ will be powers of $10$ and consist of at most $100$ digits.
+
+-----Output-----
+Output the result of the operation.
+
+-----Examples-----
+Sample Input 1:
+1000
+*
+100
+Sample Output 1:
+100000
+
+Sample Input 2:
+10000
++
+10
+Sample Output 2:
+10010
+
+Sample Input 3:
+10
++
+1000
+Sample Output 3:
+1010

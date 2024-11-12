@@ -1,0 +1,3 @@
+{
+    "438": "import math\nn=int(input())\nk=math.floor(math.sqrt(n))\nprint(k)\nfor i in range(k):\n    print(math.ceil(n/k),end=' ')\n    n-=math.ceil(n/k)"
+}

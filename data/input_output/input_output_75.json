@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "../data/file.txt",
+        "C:/Users/Documents/report.pdf",
+        "images/photo.jpg",
+        "scripts/script.py",
+        "music/song.mp3"
+    ],
+    "outputs": [
+        "file.txt",
+        "report.pdf",
+        "photo.jpg",
+        "script.py",
+        "song.mp3"
+    ]
+}

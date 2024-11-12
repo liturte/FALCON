@@ -1,0 +1,36 @@
+{
+    "inputs": [
+        "test_files/test1.py",
+        "test_files/test2.py",
+        "test_files/test3.py",
+        "test_files/test4.py",
+        "test_files/test5.py"
+    ],
+    "outputs": [
+        [
+            "import os",
+            "from datetime import datetime",
+            "import numpy as np"
+        ],
+        [
+            "from utils import helper",
+            "from .config import settings",
+            "import pandas as pd"
+        ],
+        [
+            "from .models import User",
+            "from .utils import constants",
+            "import logging"
+        ],
+        [
+            "from . import module1",
+            "from .module2 import function1",
+            "import module3"
+        ],
+        [
+            "import sys",
+            "from . import module4",
+            "from .module5 import function2"
+        ]
+    ]
+}

@@ -1,0 +1,19 @@
+Euler’s number (you may know it better as just $e$) has a special place in mathematics. You may have encountered $e$ in calculus or economics (for computing compound interest), or perhaps as the base of the natural logarithm, $\ln {x}$, on your calculator.
+
+While $e$ can be calculated as a limit, there is a good approximation that can be made using discrete mathematics. The formula for $e$ is:\begin{align*} e & = \displaystyle \sum _{i=0}^n\dfrac {1}{i!}\\ & = \dfrac {1}{0!} +\dfrac {1}{1!} +\dfrac {1}{2!}+\dfrac {1}{3!}+\dfrac {1}{4!} + \cdots \\ \end{align*}
+
+Note that $0! = 1$. Now as $n$ approaches $\infty $, the series converges to $e$. When $n$ is any positive constant, the formula serves as an approximation of the actual value of $e$. (For example, at $n=10$ the approximation is already accurate to $7$ decimals.)
+
+You will be given a single input, a value of $n$, and your job is to compute the approximation of $e$ for that value of $n$.
+
+-----Input-----
+A single integer $n$, ranging from $0$ to $10000$.
+
+-----Output-----
+A single real number – the approximation of $e$ computed by the formula with the given $n$. All output must be accurate to an absolute or relative error of at most $10^{-12}$.
+
+-----Examples-----
+Sample Input:
+3
+Sample Output:
+2.6666666666666665

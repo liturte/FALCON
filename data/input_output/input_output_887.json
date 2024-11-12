@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Define the missing fields for the DiscussionComments model",
+        "Create the necessary relationships between DiscussionTopics and DiscussionComments",
+        "Write the SQL code to create the DiscussionTopics table",
+        "Write the Django model code for the DiscussionTopics model",
+        "Write the SQL code to create the DiscussionComments table"
+    ],
+    "outputs": [
+        null,
+        null,
+        "CREATE TABLE DiscussionTopics (id INT PRIMARY KEY, topic VARCHAR(255) DEFAULT '', text TEXT, created_at DATETIME, updated_at DATETIME, created_by INT, FOREIGN KEY (created_by) REFERENCES Users(id));",
+        "class DiscussionTopics(models.Model):\n    id = models.AutoField(primary_key=True)\n    topic = models.CharField(max_length=255, default='')\n    text = models.TextField()\n    created_at = models.DateTimeField()\n    updated_at = models.DateTimeField()\n    created_by = models.ForeignKey(User, on_delete=models.CASCADE)",
+        "CREATE TABLE DiscussionComments (id INT PRIMARY KEY, comment_text TEXT, created_at DATETIME, discussion_topic_id INT, FOREIGN KEY (discussion_topic_id) REFERENCES DiscussionTopics(id));"
+    ]
+}

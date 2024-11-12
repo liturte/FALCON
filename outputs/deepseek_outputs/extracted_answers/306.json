@@ -1,0 +1,3 @@
+{
+    "306": "import sys\n\na, b, p, x = map(int, sys.stdin.readline().split())\nans = 0\nfor i in range(1, x + 1):\n    if i * pow(a, i, p) % p == b:\n        ans += 1\nprint(ans)"
+}

@@ -1,0 +1,23 @@
+You are given a two dimensional chess board of size $N \times N$ ($1$-based indexing). Some of the cells on this board are ‘.’ denoting an empty cell. Some of the cells on this board are ‘#’ denoting a blocked cell, which you are not allowed to visit. Exactly one of the cells on this board is ‘K’ denoting the initial position of the knight.
+
+A knight at position $(r, c)$ can move to any of the valid positions in set $S$ = $\{ (r + 2, c + 1)$, $(r + 2, c - 1)$, $(r - 2, c + 1)$, $(r - 2, c - 1)$, $(r + 1, c + 2)$, $(r + 1, c - 2)$, $(r - 1, c + 2)$, $(r - 1, c - 2)\} $. Here valid position means that the resulting $(r’, c’)$ should be within the bounds of the chess grid, i.e. $1 \leq r’ \leq N$ and $1 \leq c’ \leq N$.
+
+The question is you have to determine the minimum number of steps required for the Knight to reach cell $(1, 1)$ avoiding cells with ‘#’ in the path.
+
+Note - There will be exactly one ‘K’ in the grid and cell $(1, 1)$ will NOT be a ‘#’.
+
+-----Input-----
+The first line contains an integer $N$ ($1 \le N \le 10^2$) denoting the dimension of the chess board. Each of the next $N$ lines contains a string denoting the $i^{th}$ row. The length of these strings will be $N$.
+
+-----Output-----
+Print the value of minimum number of steps. However, if $(1, 1)$ is not reachable, print ‘-$1$’ (without the quotes).
+
+-----Examples-----
+Sample Input:
+4
+....
+....
+....
+...K
+Sample Output:
+2

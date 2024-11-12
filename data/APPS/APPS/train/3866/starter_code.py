@@ -1,0 +1,2 @@
+def winner(candidates):
+	

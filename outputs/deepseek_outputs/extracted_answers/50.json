@@ -1,0 +1,3 @@
+{
+    "50": "import sys\n\nn,m,r=map(int,input().split())\ns=list(map(int,input().split()))\nb=list(map(int,input().split()))\n\ns.sort()\nb.sort(reverse=True)\n\nif s[0]>=b[0]:\n    print(r)\nelse:\n    for i in range(min(n,m)):\n        if r>=s[i]:\n            r+=b[i]\n        else:\n            break\n    print(r)"
+}

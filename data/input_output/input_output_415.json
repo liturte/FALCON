@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "from collections import Callable\n\ndef callable(obj):\n    return isinstance(obj, Callable)\n\nelse:\n    builtin_str = str\n    bytes = str\n    str = unicode\n    basestring = basestring\n    from UserDict import UserDict  # noqa\n    from urlparse import urlparse  # noqa\n    from urllib import pathname2url\n\ndef iteritems(d):",
+        "from collections import Callable\n\ndef callable(obj):\n    return isinstance(obj, Callable)\n\nelse:\n    builtin_str = str\n    bytes = str\n    str = unicode\n    basestring = basestring\n    from UserDict import UserDict  # noqa\n    from urlparse import urlparse  # noqa\n    from urllib import pathname2url\n\ndef iteritems(d):",
+        "from collections import Callable\n\ndef callable(obj):\n    return isinstance(obj, Callable)\n\nelse:\n    builtin_str = str\n    bytes = str\n    str = unicode\n    basestring = basestring\n    from UserDict import UserDict  # noqa\n    from urlparse import urlparse  # noqa\n    from urllib import pathname2url\n\ndef iteritems(d):",
+        "from collections import Callable\n\ndef callable(obj):\n    return isinstance(obj, Callable)\n\nelse:\n    builtin_str = str\n    bytes = str\n    str = unicode\n    basestring = basestring\n    from UserDict import UserDict  # noqa\n    from urlparse import urlparse  # noqa\n    from urllib import pathname2url\n\ndef iteritems(d):",
+        "from collections import Callable\n\ndef callable(obj):\n    return isinstance(obj, Callable)\n\nelse:\n    builtin_str = str\n    bytes = str\n    str = unicode\n    basestring = basestring\n    from UserDict import UserDict  # noqa\n    from urlparse import urlparse  # noqa\n    from urllib import pathname2url\n\ndef iteritems(d):"
+    ],
+    "outputs": [
+        "Corrected Python 3 code snippet with proper syntax and functionality",
+        null,
+        null,
+        null,
+        null
+    ]
+}

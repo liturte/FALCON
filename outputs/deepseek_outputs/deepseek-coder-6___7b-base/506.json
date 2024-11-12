@@ -1,0 +1,8 @@
+{
+    "506": {
+        "code": [
+            "a, b = map(int, input().split())\nn = 0\nwhile a > b:\n    n += a // b\n    a = a % b\n    a, b = b, a\nprint(n)"
+        ],
+        "prompt": "\nQUESTION:\nOne day Vasya was sitting on a not so interesting Maths lesson and making an origami from a rectangular a mm  \u00d7  b mm sheet of paper (a > b). Usually the first step in making an origami is making a square piece of paper from the rectangular sheet by folding the sheet along the bisector of the right angle, and cutting the excess part.\n\n [Image] \n\nAfter making a paper ship from the square piece, Vasya looked on the remaining (a - b) mm  \u00d7  b mm strip of paper. He got the idea to use this strip of paper in the same way to make an origami, and then use the remainder (if it exists) and so on. At the moment when he is left with a square piece of paper, he will make the last ship from it and stop.\n\nCan you determine how many ships Vasya will make during the lesson?\n\n\n-----Input-----\n\nThe first line of the input contains two integers a, b (1 \u2264 b < a \u2264 10^12) \u2014 the sizes of the original sheet of paper.\n\n\n-----Output-----\n\nPrint a single integer \u2014 the number of ships that Vasya will make.\n\n\n-----Examples-----\nInput\n2 1\n\nOutput\n2\n\nInput\n10 7\n\nOutput\n6\n\nInput\n1000000000000 1\n\nOutput\n1000000000000\n\n\n\n-----Note-----\n\nPictures to the first and second sample test.\n\n [Image]\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

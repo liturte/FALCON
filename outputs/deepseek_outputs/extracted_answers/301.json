@@ -1,0 +1,3 @@
+{
+    "301": "u,v=map(int,input().split())\nif u&v==0:\n    print(0)\n    print()\nelif u==v:\n    print(3)\n    print(1,1,1)\nelif v%2==0 and (u&v)&1==1:\n    print(3)\n    print(1,1,v-1)\nelif v%2==1 and (u&v)&1==0:\n    print(3)\n    print(1,1,v-1)\nelse:\n    print(-1)"
+}

@@ -1,0 +1,3 @@
+{
+    "128": "import sys\n\nn, k = map(int, sys.stdin.readline().split())\n\ndef solve(n, k):\n    # initialize the array to have the labels 1 to n in order\n    p = list(range(1, n + 1))\n    # initialize the messiness to 0\n    messiness = 0\n    # loop through the minutes\n    for i in range(k):\n        # find the maximum messiness achievable by swapping the first and last stalls\n        # if the messiness is greater than the current messiness, update the messiness\n        messiness = max(messiness, max(p[1] - p[0], p[n - 1] - p[n - 2]))\n        # swap the first and last stalls\n        p[0], p[n - 1] = p[n - 1], p[0]\n    return messiness\n\nprint(solve(n, k))"
+}

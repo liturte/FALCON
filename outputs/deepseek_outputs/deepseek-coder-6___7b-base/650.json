@@ -1,0 +1,8 @@
+{
+    "650": {
+        "code": [
+            "-----Code-----"
+        ],
+        "prompt": "\nQUESTION:\n-----Input-----\n\nThe input consists of a single string of uppercase letters A-Z. The length of the string is between 1 and 10 characters, inclusive.\n\n\n-----Output-----\n\nOutput \"YES\" or \"NO\".\n\n\n-----Examples-----\nInput\nNEAT\n\nOutput\nYES\n\nInput\nWORD\n\nOutput\nNO\n\nInput\nCODER\n\nOutput\nNO\n\nInput\nAPRILFOOL\n\nOutput\nNO\n\nInput\nAI\n\nOutput\nYES\n\nInput\nJUROR\n\nOutput\nYES\n\nInput\nYES\n\nOutput\nNO\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

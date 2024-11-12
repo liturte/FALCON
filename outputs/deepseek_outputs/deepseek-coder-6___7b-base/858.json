@@ -1,0 +1,8 @@
+{
+    "858": {
+        "code": [
+            "import sys\ninput = sys.stdin.readline\n\nn = int(input())\nprint(n//2)"
+        ],
+        "prompt": "\nQUESTION:\nWay to go! Heidi now knows how many brains there must be for her to get one. But throwing herself in the midst of a clutch of hungry zombies is quite a risky endeavor. Hence Heidi wonders: what is the smallest number of brains that must be in the chest for her to get out at all (possibly empty-handed, but alive)?\n\nThe brain dinner night will evolve just as in the previous subtask: the same crowd is present, the N - 1 zombies have the exact same mindset as before and Heidi is to make the first proposal, which must be accepted by at least half of the attendees for her to survive.\n\n\n-----Input-----\n\nThe only line of input contains one integer: N, the number of attendees (1 \u2264 N \u2264 10^9).\n\n\n-----Output-----\n\nOutput one integer: the smallest number of brains in the chest which allows Heidi to merely survive.\n\n\n-----Examples-----\nInput\n1\n\nOutput\n0\n\nInput\n3\n\nOutput\n1\n\nInput\n99\n\nOutput\n49\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

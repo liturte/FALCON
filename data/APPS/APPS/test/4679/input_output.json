@@ -1,0 +1,1 @@
+{"inputs": ["aca\naccc\nca\n", "abcb\naacb\nbccc\n"], "outputs": ["A\n", "C\n"]}

@@ -1,0 +1,1 @@
+{"fn_name": "to_alternating_case", "inputs": [["hello world"], ["HELLO WORLD"], ["hello WORLD"], ["HeLLo WoRLD"], ["12345"], ["1a2b3c4d5e"], ["String.prototype.toAlternatingCase"]], "outputs": [["HELLO WORLD"], ["hello world"], ["HELLO world"], ["hEllO wOrld"], ["12345"], ["1A2B3C4D5E"], ["sTRING.PROTOTYPE.TOaLTERNATINGcASE"]]}

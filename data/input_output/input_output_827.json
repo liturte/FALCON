@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        {
+            "clean_flag": true,
+            "temp_dir": "/path/to/directory1"
+        },
+        {
+            "clean_flag": false,
+            "temp_dir": "/path/to/directory2"
+        },
+        {
+            "clean_flag": true,
+            "temp_dir": "/path/to/directory3"
+        },
+        {
+            "clean_flag": true,
+            "temp_dir": "/path/to/directory4"
+        },
+        {
+            "clean_flag": false,
+            "temp_dir": "/path/to/directory5"
+        }
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

@@ -1,0 +1,1 @@
+{"fn_name": "prime_or_composite", "inputs": [[2], [3], [5], [9], [12]], "outputs": [["Probable Prime"], ["Probable Prime"], ["Probable Prime"], ["Composite"], ["Composite"]]}

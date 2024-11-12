@@ -1,0 +1,3 @@
+{
+    "474": "# -*- coding: utf-8 -*-\n\n\n\n\ndef main():\n    n = int(input())\n    a = list(map(int, input().split()))\n    max_len = 1\n    l = 0\n    for i in range(n):\n        for j in range(i + 1, n + 1):\n            if sum(a[i:j]) / (j - i) > sum(a[l:l + max_len]) / max_len:\n                l = i\n                max_len = j - i\n    print(max_len)\n\n\nif __name__ == '__main__':\n    main()"
+}

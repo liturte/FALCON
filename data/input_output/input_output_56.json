@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Add one more hidden layer with 64 neurons and ReLU activation",
+        "Increase the number of epochs to 10 during training",
+        "Change the activation function of the hidden layers to 'tanh'",
+        "Add a dropout layer with rate 0.2 after the first hidden layer",
+        "Use 'sgd' optimizer instead of 'adam' during model compilation"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

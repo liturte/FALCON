@@ -1,0 +1,8 @@
+{
+    "788": {
+        "code": [
+            "def main():\n    s = input()\n    print(int(s[1] + s[2]))\n\n\nif __name__ == '__main__':\n    main()"
+        ],
+        "prompt": "\nQUESTION:\n-----Input-----\n\nThe only line of the input is a string of 7 characters. The first character is letter A, followed by 6 digits. The input is guaranteed to be valid (for certain definition of \"valid\").\n\n\n-----Output-----\n\nOutput a single integer.\n\n\n-----Examples-----\nInput\nA221033\n\nOutput\n21\n\nInput\nA223635\n\nOutput\n22\n\nInput\nA232726\n\nOutput\n23\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

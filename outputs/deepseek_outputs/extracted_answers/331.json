@@ -1,0 +1,3 @@
+{
+    "331": "n, m, k = map(int, input().split())\na = list(map(int, input().split()))\n\nif a[m - 1] == 0:\n    print(0)\nelse:\n    ans = a[m - 1]\n    for i in range(m - 1, -1, -1):\n        if a[i] != 0 and a[i] <= k:\n            ans = min(ans, a[m - 1] - a[i])\n    for i in range(m, n):\n        if a[i] != 0 and a[i] <= k:\n            ans = min(ans, a[i] - a[m - 1])\n    print(ans)"
+}

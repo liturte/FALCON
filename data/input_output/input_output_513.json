@@ -1,0 +1,36 @@
+{
+    "inputs": [
+        [
+            "node1",
+            "key1",
+            "Class1"
+        ],
+        [
+            "node2",
+            "key2",
+            "Class2"
+        ],
+        [
+            "node3",
+            "key3",
+            "Class3"
+        ],
+        [
+            "node4",
+            "key4",
+            "Class4"
+        ],
+        [
+            "node5",
+            "key5",
+            "Class5"
+        ]
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

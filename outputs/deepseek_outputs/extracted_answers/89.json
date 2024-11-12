@@ -1,0 +1,3 @@
+{
+    "89": "\"\"\"\n\n\nn = int(input())\nans = 1\ni = 1\nwhile i < n:\n    i += 1\n    ans += i\nprint(ans)"
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "MyObject2(6)",
+        "MyObject2(7)",
+        "MyObject2(8)",
+        "VerifyStringRepresentation",
+        "VerifyConstructorStats"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        "MyObject2[6]",
+        "Alive Instances Before: 3, Alive Instances After: 4, Alive Instances: [6, 7, 8, 8], Default Constructions: 4, Copy Constructions: 0, Copy Assignments: 0, Move Assignments: 0"
+    ]
+}

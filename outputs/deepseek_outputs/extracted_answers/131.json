@@ -1,0 +1,3 @@
+{
+    "131": "# -*- coding: utf-8 -*-\n\ndef main():\n    n = int(input())\n    a = list(map(int, input().split()))\n    b = list(map(int, input().split()))\n    if sum(a) == sum(b):\n        print(\"Yes\")\n    else:\n        print(\"No\")\n\n\nif __name__ == '__main__':\n    main()"
+}

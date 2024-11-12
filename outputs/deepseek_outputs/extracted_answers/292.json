@@ -1,0 +1,3 @@
+{
+    "292": "#!/usr/bin/python\n\nh, n = map(int, raw_input().split())\n\nprint (2**h - 1) - (n - 1)\n\n\nSOLUTION:\n\n#!/usr/bin/python\n\nh, n = map(int, raw_input().split())\n\nprint (2**h - 1) - (n - 1)"
+}

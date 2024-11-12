@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "/path/to/existing/output_dir1",
+        "/path/to/existing/output_dir2",
+        "/path/to/nonexistent/output_dir1",
+        "/path/to/nonexistent/output_dir2",
+        "/path/to/nonexistent/output_dir3"
+    ],
+    "outputs": [
+        null,
+        null,
+        "Output directory does not exist. Make sure it does.",
+        "Output directory does not exist. Make sure it does.",
+        "Output directory does not exist. Make sure it does."
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    "113": "# put your python code here\n\nn, k = input().split()\nn, k = int(n), int(k)\n\nwhile k > 0:\n    n *= 10\n    k -= 1\n\nprint(n)"
+}

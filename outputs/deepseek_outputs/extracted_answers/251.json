@@ -1,0 +1,3 @@
+{
+    "251": "```python\ndef main():\n    n, k = [int(i) for i in input().split()]\n    arr = [int(i) for i in input().split()]\n    s = sum(arr)\n    if s <= k:\n        print(0)\n        return\n    ans = float('inf')\n    for i in range(1, 200000):\n        cnt = 0\n        for j in range(n):\n            cnt += max(0, arr[j] - i)\n        if cnt <= k:\n            ans = min(ans, i)\n    print(ans)\n\nmain()\n```"
+}

@@ -1,0 +1,3 @@
+{
+    "283": "# Solution:\n\nn = int(input())\nfor i in range(1,1000):\n    if not (n*i + 1)%2 and not (n*i + 1)%3:\n        print(i)\n        break"
+}

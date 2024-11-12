@@ -1,0 +1,3 @@
+{
+    "534": "n,t = map(int,input().split())\ns = input()\nfor i in range(t):\n    s = s.replace(\"BG\",\"GB\")\nprint(s)"
+}

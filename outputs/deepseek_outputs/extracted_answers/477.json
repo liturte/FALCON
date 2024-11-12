@@ -1,0 +1,3 @@
+{
+    "477": "# -*- coding: utf-8 -*-\n\"\"\"\nCreated on Wed Feb 19 02:04:50 2020\n\n@author: vikas\n\"\"\"\n\nimport math\ndef main():\n    n,m,i,j,a,b=map(int,input().split())\n    x=min(i+a,n-i+1)\n    y=min(j+b,m-j+1)\n    x=min(x,n-i+1)\n    y=min(y,m-j+1)\n    x=min(x,i-1)\n    y=min(y,j-1)\n    x=min(x,n-i+1)\n    y=min(y,m-j+1)\n    if(x<=0 or y<=0):\n        print(\"Poor Inna and pony!\");\n    else:\n        print(math.ceil(math.log2(max(x,y))))\nmain()"
+}

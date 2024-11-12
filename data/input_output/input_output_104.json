@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "--hue 120 --blur",
+        "--blur_radius 15 --gaussianBlur",
+        "--gaussianBlur_width 8",
+        "--blur --blur_radius 12 --blur_sigma 1.5",
+        "--hue 90 --gaussianBlur --gaussianBlur_width 10"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

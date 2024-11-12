@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "12\npink\ntequilaSunrose\nmExicanPInK\nCoquelicot\nturqrose\nroSee\nJETblack\npink\nbabypink\npInKpinkPinK\nPInkrose\nlazerlemon\n",
+        "6\nroose\nrosse\npinnk\nscrew\ncerise\nmagenta\n"
+    ],
+    "outputs": [
+        "9\n",
+        "I must watch Star Wars with my daughter\n"
+    ]
+}

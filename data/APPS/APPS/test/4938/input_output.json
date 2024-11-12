@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "1\nMWWMWMMWM\n",
+        "2\nWMMMMWWMMMWWMW\n"
+    ],
+    "outputs": [
+        "9\n",
+        "8\n"
+    ]
+}

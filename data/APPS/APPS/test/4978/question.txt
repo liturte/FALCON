@@ -1,0 +1,28 @@
+Consider a grid consisting of $N$ rows and $M$ columns, where each cell is either air, stone, or water. Each second, the water spreads in the following fashion:
+ - If a water cell is directly above an air cell then the air cell turns into water in the next second.
+ - If a water cell is directly above a stone cell then any air cells directly left or right of the water cell turn into water in the next second.
+
+After some number of seconds, the water will have stopped spreading. Show how the grid looks when that happens. You can assume that all cells outside of the grid behave as air cells; for instance, if a water cell is at the bottommost row then its water will not spread to the sides.
+
+-----Input-----
+The first line consists of two integers $N$ and $M$ ($2 \leq N,M \leq 50$), the number of rows and columns in the grid.
+
+Each of the following $N$ lines contains a string $S$ of length $M$. The string $S$ represents one of the rows in the grid. It consists of the symbols “.” (air), “#” (stone), and “V” (water).
+
+-----Output-----
+Print $N$ lines, each consisting of a string of length $M$, describing the grid as it looks when the water has stopped spreading.
+
+-----Examples-----
+Sample Input:
+5 7
+...V...
+.......
+.......
+...#...
+..###..
+Sample Output:
+...V...
+...V...
+..VVV..
+.VV#VV.
+.V###V.

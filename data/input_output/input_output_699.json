@@ -1,0 +1,61 @@
+{
+    "inputs": [
+        {
+            "trial": {
+                "var1": 10,
+                "var2": 5,
+                "duration": 20
+            },
+            "var_label": "var1",
+            "value_label": "var2",
+            "duration": 30
+        },
+        {
+            "trial": {
+                "var1": 15,
+                "var2": 8,
+                "duration": 25
+            },
+            "var_label": "var1",
+            "value_label": "var2",
+            "duration": 35
+        },
+        {
+            "trial": {
+                "var1": 20,
+                "var2": 12,
+                "duration": 30
+            },
+            "var_label": "var1",
+            "value_label": "var2",
+            "duration": 40
+        },
+        {
+            "trial": {
+                "var1": 25,
+                "var2": 15,
+                "duration": 35
+            },
+            "var_label": "var1",
+            "value_label": "var2",
+            "duration": 45
+        },
+        {
+            "trial": {
+                "var1": 30,
+                "var2": 18,
+                "duration": 40
+            },
+            "var_label": "var1",
+            "value_label": "var2",
+            "duration": 50
+        }
+    ],
+    "outputs": [
+        "150",
+        "280",
+        "480",
+        "675",
+        "900"
+    ]
+}

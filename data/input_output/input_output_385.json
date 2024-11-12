@@ -1,0 +1,61 @@
+{
+    "inputs": [
+        {
+            "child": {
+                "attrs": {
+                    "foo": "bar"
+                }
+            },
+            "attrs": {
+                "foo": "bar"
+            }
+        },
+        {
+            "child": {
+                "attrs": {
+                    "key": "value"
+                }
+            },
+            "attrs": {
+                "key": "value"
+            }
+        },
+        {
+            "child": {
+                "attrs": {
+                    "foo": "bar"
+                }
+            },
+            "attrs": {
+                "foo": "bar"
+            }
+        },
+        {
+            "child": {
+                "attrs": {
+                    "foo": "bar"
+                }
+            },
+            "attrs": {
+                "foo": "bar"
+            }
+        },
+        {
+            "child": {
+                "attrs": {
+                    "foo": "bar"
+                }
+            },
+            "attrs": {
+                "foo": "bar"
+            }
+        }
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    "120": "\"\"\"\n\nfrom collections import Counter\n\nn = int(input())\ns = input()\n\nif n % 4 != 0:\n    print(\"===\")\nelse:\n    count = Counter(s)\n    if count[\"?\"] > n // 4:\n        print(\"===\")\n    else:\n        print(s.replace(\"?\", \"A\", count[\"?\"]))"
+}

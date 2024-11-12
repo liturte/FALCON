@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "USD EUR",
+        "EUR GBP",
+        "GBP JPY",
+        "JPY AUD",
+        "AUD CAD"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

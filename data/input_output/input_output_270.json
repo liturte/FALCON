@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "max_features = 3",
+        "max_features = 7",
+        "max_features = 0",
+        "max_features = -2",
+        "max_features = 10"
+    ],
+    "outputs": [
+        "DecisionTreeClassifier with max_features = 5",
+        "RandomForestClassifier with max_features = 7",
+        "None",
+        "DecisionTreeClassifier with max_features = 5",
+        "RandomForestClassifier with max_features = 10"
+    ]
+}

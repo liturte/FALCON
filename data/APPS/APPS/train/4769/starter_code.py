@@ -1,0 +1,2 @@
+def area(d, l):
+	

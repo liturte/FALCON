@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "10\nghost\nmummy\nwitch\ndemon\ndemon\ndemon\ndemon\ndemon\ndemon\ndemon\n",
+        "3\nghost\nmysteryredwoman\nghost\n"
+    ],
+    "outputs": [
+        "ghost\nmummy\nwitch\n",
+        "mysteryredwoman\n"
+    ]
+}

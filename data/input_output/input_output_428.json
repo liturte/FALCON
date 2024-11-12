@@ -1,0 +1,60 @@
+{
+    "inputs": [
+        {
+            "title": "North America",
+            "population_data": {
+                "ca": 34126000,
+                "us": 309349000,
+                "mx": 113423000,
+                "br": 202000000
+            },
+            "output_filename": "na_america.svg"
+        },
+        {
+            "title": "World Population Map",
+            "population_data": {
+                "us": 331002651,
+                "in": 1380004385,
+                "cn": 1439323776
+            },
+            "output_filename": "world_population_map.svg"
+        },
+        {
+            "title": "Europe",
+            "population_data": {
+                "de": 83783942,
+                "fr": 65273511,
+                "it": 60461826,
+                "uk": 67886011
+            },
+            "output_filename": "europe_population.svg"
+        },
+        {
+            "title": "Asia",
+            "population_data": {
+                "jp": 126476461,
+                "kr": 51269185,
+                "vn": 97338579,
+                "ph": 109581078
+            },
+            "output_filename": "asia_population.svg"
+        },
+        {
+            "title": "Africa",
+            "population_data": {
+                "ng": 206139589,
+                "et": 114963588,
+                "eg": 102334404,
+                "za": 59308690
+            },
+            "output_filename": "africa_population.svg"
+        }
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

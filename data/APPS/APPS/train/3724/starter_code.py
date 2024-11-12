@@ -1,0 +1,2 @@
+def hero(bullets, dragons):
+	

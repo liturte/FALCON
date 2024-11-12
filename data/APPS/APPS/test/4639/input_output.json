@@ -1,0 +1,1 @@
+{"inputs": ["7\n5 1\n5 2\n5 8\n5 10\n3 1\n3 2\n20 100\n", "7\n8 18\n19 11\n20 5\n15 19\n19 15\n20 6\n10 28\n"], "outputs": ["aaabb\naabab\nbaaba\nbbaaa\nabb\nbab\naaaaabaaaaabaaaaaaaa\n", "abaaabaa\naaaaaaaaaaaaabaaaab\naaaaaaaaaaaaaaaababa\naaaaaaaabaabaaa\naaaaaaaaaaaaabbaaaa\naaaaaaaaaaaaaaaabbaa\naabbaaaaaa\n"]}

@@ -1,0 +1,57 @@
+{
+    "inputs": [
+        {
+            "subcategory": "Input 32-63 (APORT3)",
+            "allowedconflicts": [
+                "BSP_CSEN_BONDED_INPUT",
+                "BSP_CSEN_SCAN_INPUT"
+            ],
+            "mode": "bonded"
+        },
+        {
+            "subcategory": "Input 1-31 (APORT1)",
+            "allowedconflicts": [
+                "BSP_CSEN_BONDED_INPUT",
+                "BSP_CSEN_SCAN_INPUT"
+            ],
+            "mode": "scan"
+        },
+        {
+            "subcategory": "Input 64-95 (APORT4)",
+            "allowedconflicts": [
+                "BSP_CSEN_BONDED_INPUT",
+                "BSP_CSEN_SCAN_INPUT"
+            ],
+            "mode": "bonder"
+        },
+        {
+            "subcategory": "Input 96-127 (APORT5)",
+            "allowedconflicts": [
+                "BSP_CSEN_BONDED_INPUT",
+                "BSP_CSEN_SCAN_INPUT"
+            ],
+            "mode": "bonded"
+        },
+        {
+            "subcategory": "Input 128-159 (APORT6)",
+            "allowedconflicts": [
+                "BSP_CSEN_BONDED_INPUT",
+                "BSP_CSEN_SCAN_INPUT"
+            ],
+            "mode": "custom"
+        }
+    ],
+    "outputs": [
+        [
+            "BSP_CSEN_SCAN_INPUT"
+        ],
+        [
+            "BSP_CSEN_BONDED_INPUT"
+        ],
+        [
+            "BSP_CSEN_SCAN_INPUT"
+        ],
+        null,
+        null
+    ]
+}

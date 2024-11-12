@@ -1,0 +1,3 @@
+{
+    "149": "import sys\n\n\ndef main():\n    x, y, l, r = map(int, input().split())\n    a, b = 0, 0\n    while x ** a <= r:\n        b = 0\n        while x ** a + y ** b <= r:\n            if l <= x ** a + y ** b <= r:\n                print(x ** a + y ** b)\n            b += 1\n        a += 1\n\n\nif __name__ == \"__main__\":\n    main()"
+}

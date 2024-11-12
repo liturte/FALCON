@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "env='production', app='demo'",
+        "env='testing'",
+        "app='test'",
+        "env='staging', app='app1'",
+        "env=None, app=None"
+    ],
+    "outputs": [
+        "['settings.envs.production', 'settings.apps.demo', 'settings.allowed_hosts']",
+        "['settings.envs.testing', 'settings.allowed_hosts']",
+        "['settings.apps.test', 'settings.allowed_hosts']",
+        "['settings.envs.staging', 'settings.apps.app1', 'settings.allowed_hosts']",
+        "['settings.allowed_hosts']"
+    ]
+}

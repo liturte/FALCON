@@ -1,0 +1,3 @@
+{
+    "233": "n = int(input())\nm = 0\nc = 0\nfor i in range(n):\n    x, y = map(int, input().split())\n    if x > y:\n        m += 1\n    elif x < y:\n        c += 1\nif m > c:\n    print(\"Mishka\")\nelif m < c:\n    print(\"Chris\")\nelse:\n    print(\"Friendship is magic\")"
+}

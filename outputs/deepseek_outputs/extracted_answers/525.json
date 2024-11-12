@@ -1,0 +1,3 @@
+{
+    "525": "from sys import stdin\ninput = stdin.readline\nt = int(input())\nfor _ in range(t):\n    n = int(input())\n    a = list(map(int, input().split()))\n    ans = n\n    for i in range(1, n):\n        if a[i] == a[i-1]:\n            ans -= 1\n    print(ans)\n\n\n'''"
+}

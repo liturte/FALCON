@@ -1,0 +1,3 @@
+{
+    "299": "a = int(input())\nb = list(map(int, input().split()))\nprint([\"chest\", \"biceps\", \"back\"][b.index(max(b[0::3])) // 3])"
+}

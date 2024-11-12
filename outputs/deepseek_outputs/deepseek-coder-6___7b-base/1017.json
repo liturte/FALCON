@@ -1,0 +1,8 @@
+{
+    "1017": {
+        "code": [
+            "def main():\n    n = int(input())\n    if n % 3 == 0:\n        print(n // 3)\n    else:\n        print(n // 3 + 1)\n\nif __name__ == '__main__':\n    main()"
+        ],
+        "prompt": "\nQUESTION:\nLittle Artem got n stones on his birthday and now wants to give some of them to Masha. He knows that Masha cares more about the fact of receiving the present, rather than the value of that present, so he wants to give her stones as many times as possible. However, Masha remembers the last present she received, so Artem can't give her the same number of stones twice in a row. For example, he can give her 3 stones, then 1 stone, then again 3 stones, but he can't give her 3 stones and then again 3 stones right after that.\n\nHow many times can Artem give presents to Masha?\n\n\n-----Input-----\n\nThe only line of the input contains a single integer n (1 \u2264 n \u2264 10^9)\u00a0\u2014 number of stones Artem received on his birthday.\n\n\n-----Output-----\n\nPrint the maximum possible number of times Artem can give presents to Masha.\n\n\n-----Examples-----\nInput\n1\n\nOutput\n1\n\nInput\n2\n\nOutput\n1\n\nInput\n3\n\nOutput\n2\n\nInput\n4\n\nOutput\n3\n\n\n\n-----Note-----\n\nIn the first sample, Artem can only give 1 stone to Masha.\n\nIn the second sample, Atrem can give Masha 1 or 2 stones, though he can't give her 1 stone two times.\n\nIn the third sample, Atrem can first give Masha 2 stones, a then 1 more stone.\n\nIn the fourth sample, Atrem can first give Masha 1 stone, then 2 stones, and finally 1 stone again.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

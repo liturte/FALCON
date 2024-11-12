@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "<root><person age=\"30\" name=\"Alice\"/><person age=\"25\" name=\"Bob\"/></root>",
+        "<data><user id=\"1\" name=\"John\"/><user id=\"2\" name=\"Jane\"/><user id=\"3\" name=\"Doe\"/></data>",
+        "<bookstore><book title=\"Harry Potter\" author=\"J.K. Rowling\"/><book title=\"Lord of the Rings\" author=\"J.R.R. Tolkien\"/></bookstore>",
+        "<team><player number=\"10\" name=\"Messi\"/><player number=\"7\" name=\"Ronaldo\"/><player number=\"11\" name=\"Neymar\"/></team>",
+        "<school><student roll=\"101\" name=\"Alice\"/><student roll=\"102\" name=\"Bob\"/><student roll=\"103\" name=\"Charlie\"/></school>"
+    ],
+    "outputs": [
+        "4",
+        "6",
+        "4",
+        "6",
+        "6"
+    ]
+}

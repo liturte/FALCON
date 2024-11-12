@@ -1,0 +1,3 @@
+{
+    "318": "import sys\n\nhh, mm = map(int, input().split(':'))\na = int(input())\n\nmm += a\n\nhh += mm // 60\nmm %= 60\n\nif hh > 23:\n    hh %= 24\n\nprint('{:02}:{:02}'.format(hh, mm))"
+}

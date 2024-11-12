@@ -1,0 +1,3 @@
+{
+    "32": "\"\"\"\n\n\n\nn = int(input())\n\ns = 0\nfor i in range(n):\n    x, y = input().split()\n    x = int(x)\n    if y == 'South':\n        s += x\n    elif y == 'North':\n        s -= x\n\nif s == 0:\n    print('YES')\nelse:\n    print('NO')"
+}

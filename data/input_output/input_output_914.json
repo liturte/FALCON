@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "version='2.0'",
+        "version='1.5'",
+        "version='3.10'",
+        "version='0.0'",
+        "version='10.2'"
+    ],
+    "outputs": [
+        "Valid version number\nMajor version: 2\nMinor version: 0",
+        "Valid version number\nMajor version: 1\nMinor version: 5",
+        "Valid version number\nMajor version: 3\nMinor version: 10",
+        "Valid version number\nMajor version: 0\nMinor version: 0",
+        "Valid version number\nMajor version: 10\nMinor version: 2"
+    ]
+}

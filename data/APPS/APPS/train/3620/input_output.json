@@ -1,0 +1,1 @@
+{"fn_name": "get_zodiac_sign", "inputs": [[10, 10], [1, 5], [6, 9], [25, 11]], "outputs": [["Libra"], ["Taurus"], ["Virgo"], ["Sagittarius"]]}

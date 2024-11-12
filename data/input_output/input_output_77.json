@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "out_filters=64, bn=True, gaussian_kernel=3",
+        "out_filters=128, bn=False, gaussian_kernel=5",
+        "out_filters=32, bn=True, gaussian_kernel=1",
+        "out_filters=256, bn=True, gaussian_kernel=7",
+        "out_filters=64, bn=False, gaussian_kernel=3"
+    ],
+    "outputs": [
+        "[LeakyReLU(0.2, inplace=True), Dropout3d(0.25), BatchNorm3d(64, eps=1e-05, momentum=0.8, affine=True, track_running_stats=True), Gaussian filter weights]",
+        "[LeakyReLU(0.2, inplace=True), Dropout3d(0.25), Gaussian filter weights]",
+        "[LeakyReLU(0.2, inplace=True), Dropout3d(0.25), BatchNorm3d(32, eps=1e-05, momentum=0.8, affine=True, track_running_stats=True)]",
+        "[LeakyReLU(0.2, inplace=True), Dropout3d(0.25), BatchNorm3d(256, eps=1e-05, momentum=0.8, affine=True, track_running_stats=True), Gaussian filter weights]",
+        "[LeakyReLU(0.2, inplace=True), Dropout3d(0.25), Gaussian filter weights]"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "aaaa\n",
+        "ab\n",
+        "bbabab\n"
+    ],
+    "outputs": [
+        "a\n",
+        "-1\n",
+        "bba\n"
+    ]
+}

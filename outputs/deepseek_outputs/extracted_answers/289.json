@@ -1,0 +1,3 @@
+{
+    "289": "def VK(s):\n    ans=0\n    for i in range(len(s)):\n        if s[i]=='V':\n            if i+1<len(s) and s[i+1]=='K':\n                ans+=1\n    return ans\n    \ns=input()\nprint(VK(s))"
+}

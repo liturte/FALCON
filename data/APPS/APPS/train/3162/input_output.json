@@ -1,0 +1,1 @@
+{"fn_name": "compare", "inputs": [["AD", "BC"], ["AD", "DD"], ["gf", "FG"], ["Ad", "DD"], ["zz1", ""], ["ZzZz", "ffPFF"], ["kl", "lz"], [null, ""], ["!!", "7476"], ["##", "1176"]], "outputs": [[true], [false], [true], [false], [true], [true], [false], [true], [true], [true]]}

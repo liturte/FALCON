@@ -1,0 +1,3 @@
+{
+    "267": "from collections import defaultdict\n\ndef dfs(cur, d):\n    if cur == 0:\n        return 1\n    if d == 0:\n        return 0\n    if (cur, d) in memo:\n        return memo[(cur, d)]\n    ans = 0\n    for i in range(1, 10):\n        if cur >= i:\n            ans += dfs(cur - i, d - 1)\n    memo[(cur, d)] = ans\n    return ans\n\nl, r, k = map(int, input().split())\nmemo = defaultdict(int)\nprint(dfs(r, k) - dfs(l - 1, k) % 998244353)"
+}

@@ -1,0 +1,8 @@
+{
+    "785": {
+        "code": [
+            "from math import ceil\n\nn, a, b = map(int, input().split())\n\nif n == 1:\n    print(4, 2, 2)\nelse:\n    s = ceil(n * 6 / min(a, b)) * min(a, b)\n    print(s, max(a, b), min(a, b))"
+        ],
+        "prompt": "\nQUESTION:\nThe start of the new academic year brought about the problem of accommodation students into dormitories. One of such dormitories has a a \u00d7 b square meter wonder room. The caretaker wants to accommodate exactly n students there. But the law says that there must be at least 6 square meters per student in a room (that is, the room for n students must have the area of at least 6n square meters). The caretaker can enlarge any (possibly both) side of the room by an arbitrary positive integer of meters. Help him change the room so as all n students could live in it and the total area of the room was as small as possible.\n\n\n-----Input-----\n\nThe first line contains three space-separated integers n, a and b (1 \u2264 n, a, b \u2264 10^9) \u2014 the number of students and the sizes of the room.\n\n\n-----Output-----\n\nPrint three integers s, a_1 and b_1 (a \u2264 a_1;\u00a0b \u2264 b_1) \u2014 the final area of the room and its sizes. If there are multiple optimal solutions, print any of them.\n\n\n-----Examples-----\nInput\n3 3 5\n\nOutput\n18\n3 6\n\nInput\n2 4 4\n\nOutput\n16\n4 4\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

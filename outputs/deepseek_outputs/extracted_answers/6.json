@@ -1,0 +1,3 @@
+{
+    "6": "def solve(n,x,d,h):\n    min_d=10**9\n    for i in range(n):\n        if d[i]<min_d:\n            min_d=d[i]\n    min_h=10**9\n    for i in range(n):\n        if h[i]<min_h:\n            min_h=h[i]\n    if min_d>min_h:\n        return -1\n    else:\n        return (x-1)//min_d+1\n\nt=int(input())\nfor i in range(t):\n    n,x=map(int,input().split())\n    d=[]\n    h=[]\n    for i in range(n):\n        d1,h1=map(int,input().split())\n        d.append(d1)\n        h.append(h1)\n    print(solve(n,x,d,h))"
+}

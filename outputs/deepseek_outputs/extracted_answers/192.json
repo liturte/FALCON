@@ -1,0 +1,3 @@
+{
+    "192": "```python\nimport math\n\nx, y = map(int, input().split())\n\ndef f(x, y):\n    if x == y:\n        return 0\n    if x > y:\n        return f(y, x)\n    if x == 1:\n        return math.inf\n    if x % 3 == 0:\n        return 1 + f(x // 3, y)\n    if x % 3 == 1:\n        return 1 + min(f(x // 3 + 1, y), f(x // 3, y))\n    if x % 3 == 2:\n        return 1 + min(f(x // 3 + 1, y), f(x // 3 + 2, y))\n\nprint(f(x, y))\n```"
+}

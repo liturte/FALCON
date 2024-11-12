@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "This is a sample text to be converted to code.",
+        "print('This is the code snippet to be converted to text.')",
+        "123 + 456",
+        "sum([1, 2, 3, 4])",
+        "for i in range(5):\n    print(i)"
+    ],
+    "outputs": [
+        "Text to code is This is a sample text to be converted to code.",
+        "Code to text is print('This is the code snippet to be converted to text.')",
+        "Text to code is 123 + 456",
+        "Code to text is sum([1, 2, 3, 4])",
+        "Code to text is for i in range(5):\n    print(i)"
+    ]
+}

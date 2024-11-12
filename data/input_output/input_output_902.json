@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Add message 'Hello, world!' to the bundle and send it",
+        "Add messages 'Message 1', 'Message 2', 'Message 3' to the bundle and send it",
+        "Add message 'Testing 123' to the bundle and send it",
+        "Add message 'Important message' to the bundle and send it",
+        "Add messages 'First', 'Second', 'Third', 'Fourth' to the bundle and send it"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

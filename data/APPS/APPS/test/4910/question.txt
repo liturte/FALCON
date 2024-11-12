@@ -1,0 +1,27 @@
+Everyone knows that the highlight of Halloween at HiQ is their annual costume contest. In their costume contest, they have $D$ categories of costumes that they give a “best of” award to, such as most malignant mummy, most ghoulish ghost and most wicked witch. Judges are very lazy, however. When picking a winner in each of the costume categories, they simply pick one of the costumes at random to give the award to.
+
+This year, you want to win. After 5 consecutive years as runner-up in the category darkest demon you have decided to throw away your costume and only optimize for winning. You have polled your colleagues about what category of costume they are entering with in the contest. Given their responses, can you figure our what costume you should bring to maximize your chance of winning?
+
+-----Input-----
+The first line of input contains an integer $N$ ($1 \le N \le 1000$), the number of colleagues you have polled on their costumes. The next $N$ lines contains their responses. Each response is a string of between $1$ and $20$ letters a-z. You know that for each category in the contest, you have at least one colleague participating with such a costume.
+
+-----Output-----
+Output the costume category you have the highest chance of winning with. If multiple categories are tied for highest, you should output them all in lexicographic order.
+
+-----Examples-----
+Sample Input:
+10
+ghost
+mummy
+witch
+demon
+demon
+demon
+demon
+demon
+demon
+demon
+Sample Output:
+ghost
+mummy
+witch

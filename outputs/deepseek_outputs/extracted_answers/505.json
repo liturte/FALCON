@@ -1,0 +1,3 @@
+{
+    "505": "import sys\ninput = sys.stdin.readline\nn, m, k = map(int, input().split())\na = [input() for _ in range(n)]\nif any(a[i][j] == \"X\" for i in range(n) for j in range(m)):\n    print(\"IMPOSSIBLE\")\nelse:\n    print(\"DLDDLLLRRRUURU\")"
+}

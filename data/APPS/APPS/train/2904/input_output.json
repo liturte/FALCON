@@ -1,0 +1,1 @@
+{"fn_name": "filter_words", "inputs": [["HELLO world!"], ["This    will    not    pass "], ["NOW THIS is a VERY EXCITING test!"]], "outputs": [["Hello world!"], ["This will not pass"], ["Now this is a very exciting test!"]]}

@@ -1,0 +1,301 @@
+{
+    "inputs": [
+        {
+            "eq_lib3": {
+                "temperature": [
+                    25,
+                    30,
+                    28,
+                    27
+                ]
+            },
+            "eq_lib3T1": {
+                "temperature": [
+                    25,
+                    30,
+                    28,
+                    27
+                ]
+            },
+            "eq_lib3T2": {
+                "temperature": [
+                    25,
+                    30,
+                    28,
+                    27
+                ]
+            },
+            "eq_lib3_t": {
+                "temperature": [
+                    25,
+                    30,
+                    28,
+                    27
+                ]
+            },
+            "eq_lib3_tt": {
+                "temperature": [
+                    25,
+                    30,
+                    28,
+                    27
+                ]
+            },
+            "eq_lib3T1_t": {
+                "temperature": [
+                    25,
+                    30,
+                    28,
+                    27
+                ]
+            },
+            "eq_lib3T2_t": {
+                "temperature": [
+                    25,
+                    30,
+                    28,
+                    27
+                ]
+            }
+        },
+        {
+            "eq_lib3": {
+                "temperature": [
+                    20,
+                    22,
+                    24,
+                    26
+                ]
+            },
+            "eq_lib3T1": {
+                "temperature": [
+                    20,
+                    22,
+                    24,
+                    26
+                ]
+            },
+            "eq_lib3T2": {
+                "temperature": [
+                    20,
+                    22,
+                    24,
+                    26
+                ]
+            },
+            "eq_lib3_t": {
+                "temperature": [
+                    20,
+                    22,
+                    24,
+                    26
+                ]
+            },
+            "eq_lib3_tt": {
+                "temperature": [
+                    20,
+                    22,
+                    24,
+                    26
+                ]
+            },
+            "eq_lib3T1_t": {
+                "temperature": [
+                    20,
+                    22,
+                    24,
+                    26
+                ]
+            },
+            "eq_lib3T2_t": {
+                "temperature": [
+                    20,
+                    22,
+                    24,
+                    26
+                ]
+            }
+        },
+        {
+            "eq_lib3": {
+                "temperature": [
+                    30,
+                    32,
+                    34,
+                    36
+                ]
+            },
+            "eq_lib3T1": {
+                "temperature": [
+                    30,
+                    32,
+                    34,
+                    36
+                ]
+            },
+            "eq_lib3T2": {
+                "temperature": [
+                    30,
+                    32,
+                    34,
+                    36
+                ]
+            },
+            "eq_lib3_t": {
+                "temperature": [
+                    30,
+                    32,
+                    34,
+                    36
+                ]
+            },
+            "eq_lib3_tt": {
+                "temperature": [
+                    30,
+                    32,
+                    34,
+                    36
+                ]
+            },
+            "eq_lib3T1_t": {
+                "temperature": [
+                    30,
+                    32,
+                    34,
+                    36
+                ]
+            },
+            "eq_lib3T2_t": {
+                "temperature": [
+                    30,
+                    32,
+                    34,
+                    36
+                ]
+            }
+        },
+        {
+            "eq_lib3": {
+                "temperature": [
+                    25.5,
+                    27.5,
+                    29.5,
+                    31.5
+                ]
+            },
+            "eq_lib3T1": {
+                "temperature": [
+                    25.5,
+                    27.5,
+                    29.5,
+                    31.5
+                ]
+            },
+            "eq_lib3T2": {
+                "temperature": [
+                    25.5,
+                    27.5,
+                    29.5,
+                    31.5
+                ]
+            },
+            "eq_lib3_t": {
+                "temperature": [
+                    25.5,
+                    27.5,
+                    29.5,
+                    31.5
+                ]
+            },
+            "eq_lib3_tt": {
+                "temperature": [
+                    25.5,
+                    27.5,
+                    29.5,
+                    31.5
+                ]
+            },
+            "eq_lib3T1_t": {
+                "temperature": [
+                    25.5,
+                    27.5,
+                    29.5,
+                    31.5
+                ]
+            },
+            "eq_lib3T2_t": {
+                "temperature": [
+                    25.5,
+                    27.5,
+                    29.5,
+                    31.5
+                ]
+            }
+        },
+        {
+            "eq_lib3": {
+                "temperature": [
+                    22,
+                    24,
+                    26,
+                    28
+                ]
+            },
+            "eq_lib3T1": {
+                "temperature": [
+                    22,
+                    24,
+                    26,
+                    28
+                ]
+            },
+            "eq_lib3T2": {
+                "temperature": [
+                    22,
+                    24,
+                    26,
+                    28
+                ]
+            },
+            "eq_lib3_t": {
+                "temperature": [
+                    22,
+                    24,
+                    26,
+                    28
+                ]
+            },
+            "eq_lib3_tt": {
+                "temperature": [
+                    22,
+                    24,
+                    26,
+                    28
+                ]
+            },
+            "eq_lib3T1_t": {
+                "temperature": [
+                    22,
+                    24,
+                    26,
+                    28
+                ]
+            },
+            "eq_lib3T2_t": {
+                "temperature": [
+                    22,
+                    24,
+                    26,
+                    28
+                ]
+            }
+        }
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "[3, 9, 6, 7, 4, 1]",
+        "[5, 2, 8, 10]",
+        "[0, 0, 0, 0]",
+        "[6, 6, 6, 6, 6]",
+        "[10, 3, 8, 2, 5]"
+    ],
+    "outputs": [
+        "[\"The fox licked up his soup quickly.\", \"The stork consumed all the soup.\", \"The stork consumed all the soup.\", \"The stork consumed all the soup.\", \"The fox licked up his soup quickly.\", \"The fox licked up his soup quickly.\"]",
+        "[\"The stork consumed all the soup.\", \"The fox licked up his soup quickly.\", \"The stork consumed all the soup.\", \"The stork consumed all the soup.\"]",
+        "[\"The fox licked up his soup quickly.\", \"The fox licked up his soup quickly.\", \"The fox licked up his soup quickly.\", \"The fox licked up his soup quickly.\"]",
+        "[\"The stork consumed all the soup.\", \"The stork consumed all the soup.\", \"The stork consumed all the soup.\", \"The stork consumed all the soup.\", \"The stork consumed all the soup.\"]",
+        "[\"The stork consumed all the soup.\", \"The fox licked up his soup quickly.\", \"The stork consumed all the soup.\", \"The fox licked up his soup quickly.\", \"The stork consumed all the soup.\"]"
+    ]
+}

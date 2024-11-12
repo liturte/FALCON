@@ -1,0 +1,1 @@
+{"fn_name": "say_hello", "inputs": [["Mr. Spock"], ["Captain Kirk"], ["Liutenant Uhura"], ["Dr. McCoy"], ["Mr. Scott"]], "outputs": [["Hello, Mr. Spock"], ["Hello, Captain Kirk"], ["Hello, Liutenant Uhura"], ["Hello, Dr. McCoy"], ["Hello, Mr. Scott"]]}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "[(10, 'hearts'), (11, 'hearts'), (12, 'hearts'), (13, 'hearts'), (14, 'hearts')]",
+        "[(2, 'spades'), (3, 'spades'), (4, 'spades'), (5, 'spades'), (6, 'spades')]",
+        "[(8, 'diamonds'), (8, 'hearts'), (8, 'clubs'), (8, 'spades'), (5, 'diamonds')]",
+        "[(9, 'hearts'), (9, 'spades'), (9, 'clubs'), (10, 'hearts'), (10, 'spades')]",
+        "[(7, 'hearts'), (7, 'spades'), (7, 'clubs'), (4, 'hearts'), (4, 'spades')]"
+    ],
+    "outputs": [
+        "['Royal Flush', 'hearts']",
+        "['Straight Flush', 'spades']",
+        "['Four of a Kind', 8]",
+        "['Full House', (9, 10)]",
+        "null"
+    ]
+}

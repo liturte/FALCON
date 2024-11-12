@@ -1,0 +1,208 @@
+{
+    "inputs": [
+        [
+            [
+                {
+                    "date": "2018-06-10",
+                    "description": "Dia de Portugal",
+                    "locale": "pt-PT",
+                    "notes": "",
+                    "region": "",
+                    "type": "NF"
+                },
+                {
+                    "date": "2019-12-25",
+                    "description": "Christmas",
+                    "locale": "en-US",
+                    "notes": "",
+                    "region": "North America",
+                    "type": "NRV"
+                },
+                {
+                    "date": "2020-07-04",
+                    "description": "Independence Day",
+                    "locale": "en-US",
+                    "notes": "",
+                    "region": "United States",
+                    "type": "NF"
+                }
+            ],
+            "NF"
+        ],
+        [
+            [
+                {
+                    "date": "2021-01-01",
+                    "description": "New Year's Day",
+                    "locale": "en-US",
+                    "notes": "",
+                    "region": "United States",
+                    "type": "NF"
+                },
+                {
+                    "date": "2021-12-25",
+                    "description": "Christmas",
+                    "locale": "en-US",
+                    "notes": "",
+                    "region": "North America",
+                    "type": "NRV"
+                },
+                {
+                    "date": "2021-07-04",
+                    "description": "Independence Day",
+                    "locale": "en-US",
+                    "notes": "",
+                    "region": "United States",
+                    "type": "NF"
+                }
+            ],
+            "NRV"
+        ],
+        [
+            [
+                {
+                    "date": "2022-02-14",
+                    "description": "Valentine's Day",
+                    "locale": "en-US",
+                    "notes": "",
+                    "region": "Worldwide",
+                    "type": "NRV"
+                },
+                {
+                    "date": "2022-10-31",
+                    "description": "Halloween",
+                    "locale": "en-US",
+                    "notes": "",
+                    "region": "North America",
+                    "type": "NRV"
+                },
+                {
+                    "date": "2022-11-11",
+                    "description": "Veterans Day",
+                    "locale": "en-US",
+                    "notes": "",
+                    "region": "United States",
+                    "type": "NF"
+                }
+            ],
+            "NRV"
+        ],
+        [
+            [
+                {
+                    "date": "2023-03-17",
+                    "description": "St. Patrick's Day",
+                    "locale": "en-US",
+                    "notes": "",
+                    "region": "Ireland, United States",
+                    "type": "NRV"
+                },
+                {
+                    "date": "2023-05-01",
+                    "description": "Labor Day",
+                    "locale": "en-US",
+                    "notes": "",
+                    "region": "Worldwide",
+                    "type": "NF"
+                },
+                {
+                    "date": "2023-11-24",
+                    "description": "Thanksgiving",
+                    "locale": "en-US",
+                    "notes": "",
+                    "region": "United States",
+                    "type": "NF"
+                }
+            ],
+            "NF"
+        ],
+        [
+            [
+                {
+                    "date": "2024-04-01",
+                    "description": "April Fools' Day",
+                    "locale": "en-US",
+                    "notes": "",
+                    "region": "Worldwide",
+                    "type": "NRV"
+                },
+                {
+                    "date": "2024-09-02",
+                    "description": "Labor Day",
+                    "locale": "en-US",
+                    "notes": "",
+                    "region": "United States",
+                    "type": "NF"
+                },
+                {
+                    "date": "2024-12-25",
+                    "description": "Christmas",
+                    "locale": "en-US",
+                    "notes": "",
+                    "region": "North America",
+                    "type": "NRV"
+                }
+            ],
+            "NF"
+        ]
+    ],
+    "outputs": [
+        [
+            {
+                "date": "2018-06-10",
+                "description": "Dia de Portugal",
+                "locale": "pt-PT",
+                "notes": "",
+                "region": "",
+                "type": "NF"
+            },
+            {
+                "date": "2020-07-04",
+                "description": "Independence Day",
+                "locale": "en-US",
+                "notes": "",
+                "region": "United States",
+                "type": "NF"
+            }
+        ],
+        null,
+        [
+            {
+                "date": "2022-11-11",
+                "description": "Veterans Day",
+                "locale": "en-US",
+                "notes": "",
+                "region": "United States",
+                "type": "NF"
+            }
+        ],
+        [
+            {
+                "date": "2023-05-01",
+                "description": "Labor Day",
+                "locale": "en-US",
+                "notes": "",
+                "region": "Worldwide",
+                "type": "NF"
+            },
+            {
+                "date": "2023-11-24",
+                "description": "Thanksgiving",
+                "locale": "en-US",
+                "notes": "",
+                "region": "United States",
+                "type": "NF"
+            }
+        ],
+        [
+            {
+                "date": "2024-09-02",
+                "description": "Labor Day",
+                "locale": "en-US",
+                "notes": "",
+                "region": "United States",
+                "type": "NF"
+            }
+        ]
+    ]
+}

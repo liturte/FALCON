@@ -1,0 +1,24 @@
+{
+    "inputs": [
+        "params=foo=bar&p1=2022-01-01&p2=2.2",
+        "params=foo=bar&p1=2022-01-01&p2=3.3",
+        "params=foo=bar&p1=2022-01-01",
+        "params=foo=bar&p2=2.2",
+        "params=foo=bar"
+    ],
+    "outputs": [
+        {
+            "processed_query": {
+                "foo": [
+                    "bar"
+                ],
+                "p1": "2022-01-01",
+                "p2": "2.2"
+            }
+        },
+        null,
+        null,
+        null,
+        null
+    ]
+}

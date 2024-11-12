@@ -1,0 +1,3 @@
+{
+    "172": "import sys\n\n\ndef main():\n    input = sys.stdin.readline\n    n = int(input())\n    a = list(map(int, input().split()))\n    b = list(map(int, input().split()))\n    c = [0] * 5\n    for i in range(n):\n        c[a[i] - 1] += 1\n        c[b[i] - 1] -= 1\n    ans = 0\n    for i in range(5):\n        if c[i] != 0:\n            return -1\n    for i in range(n):\n        if a[i] != b[i]:\n            ans += 1\n    return ans // 2\n\n\nif __name__ == '__main__':\n    print(main())"
+}

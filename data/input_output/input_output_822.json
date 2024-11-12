@@ -1,0 +1,76 @@
+{
+    "inputs": [
+        [
+            {
+                "name": "City",
+                "desc": "City name"
+            },
+            {
+                "name": "Offset",
+                "desc": "Query starting position"
+            }
+        ],
+        [
+            {
+                "name": "Name",
+                "desc": "Person's name"
+            },
+            {
+                "name": "Age",
+                "desc": "Person's age"
+            }
+        ],
+        [
+            {
+                "name": "Color",
+                "desc": "Color of the object"
+            },
+            {
+                "name": "Size",
+                "desc": "Size of the object"
+            }
+        ],
+        [
+            {
+                "name": "Title",
+                "desc": "Book title"
+            },
+            {
+                "name": "Author",
+                "desc": "Book author"
+            }
+        ],
+        [
+            {
+                "name": "Model",
+                "desc": "Car model"
+            },
+            {
+                "name": "Year",
+                "desc": "Manufacturing year"
+            }
+        ]
+    ],
+    "outputs": [
+        {
+            "City": "City name",
+            "Offset": "Query starting position"
+        },
+        {
+            "Name": "Person's name",
+            "Age": "Person's age"
+        },
+        {
+            "Color": "Color of the object",
+            "Size": "Size of the object"
+        },
+        {
+            "Title": "Book title",
+            "Author": "Book author"
+        },
+        {
+            "Model": "Car model",
+            "Year": "Manufacturing year"
+        }
+    ]
+}

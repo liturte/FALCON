@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "[]",
+        "['Math', 'Science', 'History']",
+        "['English']",
+        "['Physics', 'Chemistry', 'Biology']",
+        "['Art', 'Music', 'Dance']"
+    ],
+    "outputs": [
+        true,
+        false,
+        false,
+        false,
+        false
+    ]
+}

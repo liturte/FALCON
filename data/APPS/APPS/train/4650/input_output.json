@@ -1,0 +1,1 @@
+{"fn_name": "validPhoneNumber", "inputs": [["(123) 456-7890"], ["(1111)555 2345"], ["(098) 123 4567"], ["(123)456-7890"], ["abc(123)456-7890"], ["(123)456-7890abc"], ["abc(123)456-7890abc"], ["abc(123) 456-7890"], ["(123) 456-7890abc"], ["abc(123) 456-7890abc"]], "outputs": [[true], [false], [false], [false], [false], [false], [false], [false], [false], [false]]}

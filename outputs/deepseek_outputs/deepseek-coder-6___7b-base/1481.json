@@ -1,0 +1,8 @@
+{
+    "1481": {
+        "code": [
+            "n = int(input())\nboard = []\nfor i in range(n):\n    board.append(list(input()))\n\ncount = 0\nfor i in range(n):\n    for j in range(n):\n        if board[i][j] == 'o':\n            count += 1\n            if i > 0 and board[i-1][j] == 'o':\n                count -= 1\n            if i < n-1 and board[i+1][j] == 'o':\n                count -= 1\n            if j > 0 and board[i][j-1] == 'o':\n                count -= 1\n            if j < n-1 and board[i][j+1] == 'o':\n                count -= 1\nif count == 0:\n    print(\"YES\")\nelse:\n    print(\"NO\")"
+        ],
+        "prompt": "\nQUESTION:\nToastman came up with a very easy task. He gives it to Appleman, but Appleman doesn't know how to solve it. Can you help him?\n\nGiven a n \u00d7 n checkerboard. Each cell of the board has either character 'x', or character 'o'. Is it true that each cell of the board has even number of adjacent cells with 'o'? Two cells of the board are adjacent if they share a side.\n\n\n-----Input-----\n\nThe first line contains an integer n (1 \u2264 n \u2264 100). Then n lines follow containing the description of the checkerboard. Each of them contains n characters (either 'x' or 'o') without spaces.\n\n\n-----Output-----\n\nPrint \"YES\" or \"NO\" (without the quotes) depending on the answer to the problem.\n\n\n-----Examples-----\nInput\n3\nxxo\nxox\noxx\n\nOutput\nYES\n\nInput\n4\nxxxo\nxoxo\noxox\nxxxx\n\nOutput\nNO\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

@@ -1,0 +1,3 @@
+{
+    "0": "import sys\ndef input():\n    return sys.stdin.readline().strip()\n\n\ns = input()\nn = len(s)\n\nif s[0] != '[' or s[-1] != ']':\n    print(-1)\n    exit(0)\n\nfor i in range(1, n - 1):\n    if s[i] == '|':\n        break\n\nfor j in range(n - 2, i, -1):\n    if s[j] == '|':\n        break\n\nif i >= j:\n    print(-1)\nelse:\n    print(j - i + 1)"
+}

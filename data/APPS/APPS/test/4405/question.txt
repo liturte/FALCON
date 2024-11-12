@@ -1,0 +1,52 @@
+Polycarp has prepared $n$ competitive programming problems. The topic of the $i$-th problem is $a_i$, and some problems' topics may coincide.
+
+Polycarp has to host several thematic contests. All problems in each contest should have the same topic, and all contests should have pairwise distinct topics. He may not use all the problems. It is possible that there are no contests for some topics.
+
+Polycarp wants to host competitions on consecutive days, one contest per day. Polycarp wants to host a set of contests in such a way that:  number of problems in each contest is exactly twice as much as in the previous contest (one day ago), the first contest can contain arbitrary number of problems;  the total number of problems in all the contests should be maximized. 
+
+Your task is to calculate the maximum number of problems in the set of thematic contests. Note, that you should not maximize the number of contests.
+
+
+-----Input-----
+
+The first line of the input contains one integer $n$ ($1 \le n \le 2 \cdot 10^5$) — the number of problems Polycarp has prepared.
+
+The second line of the input contains $n$ integers $a_1, a_2, \dots, a_n$ ($1 \le a_i \le 10^9$) where $a_i$ is the topic of the $i$-th problem.
+
+
+-----Output-----
+
+Print one integer — the maximum number of problems in the set of thematic contests.
+
+
+-----Examples-----
+Input
+18
+2 1 2 10 2 10 10 2 2 1 10 10 10 10 1 1 10 10
+
+Output
+14
+
+Input
+10
+6 6 6 3 6 1000000000 3 3 6 6
+
+Output
+9
+
+Input
+3
+1337 1337 1337
+
+Output
+3
+
+
+
+-----Note-----
+
+In the first example the optimal sequence of contests is: $2$ problems of the topic $1$, $4$ problems of the topic $2$, $8$ problems of the topic $10$.
+
+In the second example the optimal sequence of contests is: $3$ problems of the topic $3$, $6$ problems of the topic $6$.
+
+In the third example you can take all the problems with the topic $1337$ (the number of such problems is $3$ so the answer is $3$) and host a single contest.

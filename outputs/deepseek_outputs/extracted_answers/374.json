@@ -1,0 +1,3 @@
+{
+    "374": "n = int(input())\np = [0]+list(map(int,input().split()))\na = list(map(int,input().split()))\ndef find(x):\n    if x != p[x]:\n        p[x] = find(p[x])\n    return p[x]\nans = 0\nfor i in range(1,n):\n    p[i] = i\nfor i in range(n,1,-1):\n    ans += a[i]\n    p[i] = p[p[i]]\n    if find(p[i]) == p[i]:\n        ans += 1\nprint(ans)"
+}

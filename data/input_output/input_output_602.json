@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "super().__getattribute__('args')",
+        "super().__getattribute__('func')",
+        "None",
+        "[]",
+        "[1, 2, 3]"
+    ],
+    "outputs": [
+        "[super().__getattribute__('func')]",
+        "[super().__getattribute__('func')]",
+        "[None]",
+        "[super().__getattribute__('func')]",
+        "[1, 2, 3]"
+    ]
+}

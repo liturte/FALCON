@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "POST request to /preview/",
+        "GET request to /preview/",
+        "POST request to /preview/ with invalid data",
+        "POST request to /preview/ with valid data",
+        "GET request to /other_route/"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        "Success message displayed and user redirected to wiki display endpoint",
+        null
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "/delete/123",
+        "/delete/456",
+        "/delete/789",
+        "/delete/999",
+        "/delete/1000"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

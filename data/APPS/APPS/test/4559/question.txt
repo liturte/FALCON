@@ -1,0 +1,24 @@
+Given N integers A_1, ..., A_N, compute A_1 \times ... \times A_N.
+However, if the result exceeds 10^{18}, print -1 instead.
+
+-----Constraints-----
+ - 2 \leq N \leq 10^5
+ - 0 \leq A_i \leq 10^{18}
+ - All values in input are integers.
+
+-----Input-----
+Input is given from Standard Input in the following format:
+N
+A_1 ... A_N
+
+-----Output-----
+Print the value A_1 \times ... \times A_N as an integer, or -1 if the value exceeds 10^{18}.
+
+-----Sample Input-----
+2
+1000000000 1000000000
+
+-----Sample Output-----
+1000000000000000000
+
+We have 1000000000 \times 1000000000 = 1000000000000000000.

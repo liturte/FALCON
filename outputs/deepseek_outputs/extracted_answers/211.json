@@ -1,0 +1,3 @@
+{
+    "211": "\"\"\"\n\n\ndef solve(n, m, k):\n    # write your code here\n    # return your answer\n    return 0\n\n\n# Do not edit below\ndef main():\n    n, m, k = map(int, input().split())\n    ans = solve(n, m, k)\n    print(ans)\n\n\nif __name__ == '__main__':\n    main()"
+}

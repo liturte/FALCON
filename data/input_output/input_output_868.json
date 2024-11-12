@@ -1,0 +1,201 @@
+{
+    "inputs": [
+        {
+            "df_test": [
+                {
+                    "CRIM": 0.02731,
+                    "ZN": 0.0,
+                    "INDUS": 7.07,
+                    "CHAS": 0,
+                    "NOX": 0.469,
+                    "RM": 6.421,
+                    "AGE": 78.9,
+                    "DIS": 4.9671,
+                    "RAD": 2,
+                    "TAX": 242,
+                    "PTRATIO": 17.8,
+                    "B": 396.9,
+                    "LSTAT": 9.14
+                },
+                {
+                    "CRIM": 0.02729,
+                    "ZN": 0.0,
+                    "INDUS": 7.07,
+                    "CHAS": 0,
+                    "NOX": 0.469,
+                    "RM": 7.185,
+                    "AGE": 61.1,
+                    "DIS": 4.9671,
+                    "RAD": 2,
+                    "TAX": 242,
+                    "PTRATIO": 17.8,
+                    "B": 392.83,
+                    "LSTAT": 4.03
+                }
+            ],
+            "saved_pipeline": "example_saved_pipeline.joblib"
+        },
+        {
+            "df_test": [
+                {
+                    "CRIM": 0.03237,
+                    "ZN": 0.0,
+                    "INDUS": 2.18,
+                    "CHAS": 0,
+                    "NOX": 0.458,
+                    "RM": 6.998,
+                    "AGE": 45.8,
+                    "DIS": 6.0622,
+                    "RAD": 3,
+                    "TAX": 222,
+                    "PTRATIO": 18.7,
+                    "B": 394.63,
+                    "LSTAT": 2.94
+                },
+                {
+                    "CRIM": 0.06905,
+                    "ZN": 0.0,
+                    "INDUS": 2.18,
+                    "CHAS": 0,
+                    "NOX": 0.458,
+                    "RM": 7.147,
+                    "AGE": 54.2,
+                    "DIS": 6.0622,
+                    "RAD": 3,
+                    "TAX": 222,
+                    "PTRATIO": 18.7,
+                    "B": 396.9,
+                    "LSTAT": 5.33
+                }
+            ],
+            "saved_pipeline": "example_saved_pipeline.joblib"
+        },
+        {
+            "df_test": [
+                {
+                    "CRIM": 0.06905,
+                    "ZN": 0.0,
+                    "INDUS": 2.18,
+                    "CHAS": 0,
+                    "NOX": 0.458,
+                    "RM": 7.147,
+                    "AGE": 54.2,
+                    "DIS": 6.0622,
+                    "RAD": 3,
+                    "TAX": 222,
+                    "PTRATIO": 18.7,
+                    "B": 396.9,
+                    "LSTAT": 5.33
+                },
+                {
+                    "CRIM": 0.02985,
+                    "ZN": 0.0,
+                    "INDUS": 2.18,
+                    "CHAS": 0,
+                    "NOX": 0.458,
+                    "RM": 6.43,
+                    "AGE": 58.7,
+                    "DIS": 6.0622,
+                    "RAD": 3,
+                    "TAX": 222,
+                    "PTRATIO": 18.7,
+                    "B": 394.12,
+                    "LSTAT": 5.21
+                }
+            ],
+            "saved_pipeline": "example_saved_pipeline.joblib"
+        },
+        {
+            "df_test": [
+                {
+                    "CRIM": 0.02985,
+                    "ZN": 0.0,
+                    "INDUS": 2.18,
+                    "CHAS": 0,
+                    "NOX": 0.458,
+                    "RM": 6.43,
+                    "AGE": 58.7,
+                    "DIS": 6.0622,
+                    "RAD": 3,
+                    "TAX": 222,
+                    "PTRATIO": 18.7,
+                    "B": 394.12,
+                    "LSTAT": 5.21
+                },
+                {
+                    "CRIM": 0.08829,
+                    "ZN": 12.5,
+                    "INDUS": 7.87,
+                    "CHAS": 0,
+                    "NOX": 0.524,
+                    "RM": 6.012,
+                    "AGE": 66.6,
+                    "DIS": 5.5605,
+                    "RAD": 5,
+                    "TAX": 311,
+                    "PTRATIO": 15.2,
+                    "B": 395.6,
+                    "LSTAT": 12.43
+                }
+            ],
+            "saved_pipeline": "example_saved_pipeline.joblib"
+        },
+        {
+            "df_test": [
+                {
+                    "CRIM": 0.08829,
+                    "ZN": 12.5,
+                    "INDUS": 7.87,
+                    "CHAS": 0,
+                    "NOX": 0.524,
+                    "RM": 6.012,
+                    "AGE": 66.6,
+                    "DIS": 5.5605,
+                    "RAD": 5,
+                    "TAX": 311,
+                    "PTRATIO": 15.2,
+                    "B": 395.6,
+                    "LSTAT": 12.43
+                },
+                {
+                    "CRIM": 0.14455,
+                    "ZN": 12.5,
+                    "INDUS": 7.87,
+                    "CHAS": 0,
+                    "NOX": 0.524,
+                    "RM": 6.172,
+                    "AGE": 96.1,
+                    "DIS": 5.9505,
+                    "RAD": 5,
+                    "TAX": 311,
+                    "PTRATIO": 15.2,
+                    "B": 396.9,
+                    "LSTAT": 19.15
+                }
+            ],
+            "saved_pipeline": "example_saved_pipeline.joblib"
+        }
+    ],
+    "outputs": [
+        [
+            24.5,
+            32.1
+        ],
+        [
+            30.2,
+            28.7
+        ],
+        [
+            28.7,
+            26.4
+        ],
+        [
+            26.4,
+            20.9
+        ],
+        [
+            20.9,
+            17.3
+        ]
+    ]
+}

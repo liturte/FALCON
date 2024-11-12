@@ -1,0 +1,47 @@
+{
+    "inputs": [
+        [
+            "BUY",
+            "SELL",
+            "BUY",
+            "SELL",
+            "BUY",
+            "BUY"
+        ],
+        [
+            "BUY",
+            "SELL",
+            "BUY",
+            "BUY",
+            "SELL",
+            "SELL"
+        ],
+        [
+            "BUY",
+            "SELL",
+            "BUY",
+            "SELL"
+        ],
+        [
+            "BUY",
+            "BUY",
+            "SELL",
+            "SELL"
+        ],
+        [
+            "BUY",
+            "SELL",
+            "SELL",
+            "BUY",
+            "BUY",
+            "SELL"
+        ]
+    ],
+    "outputs": [
+        0,
+        1,
+        0,
+        0,
+        -1
+    ]
+}

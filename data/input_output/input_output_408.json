@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Create a blog with title 'First Post', content 'This is my first blog post.', and date '2022-01-01'.",
+        "Create a blog with title 'Second Post', content 'This is my second blog post.', and date '2022-01-02'.",
+        "Create a blog with title 'Third Post', content 'This is my third blog post.', and date '2022-01-03'.",
+        "Create a blog list object.",
+        "Call the test_reverse_blog_list method on the blog list object."
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        "Test case passed successfully."
+    ]
+}

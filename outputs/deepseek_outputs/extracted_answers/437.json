@@ -1,0 +1,3 @@
+{
+    "437": "import sys\n\nn = int(sys.stdin.readline())\nprint(1 + (n - 1) / n)"
+}

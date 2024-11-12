@@ -1,0 +1,8 @@
+{
+    "150": {
+        "code": [
+            "import math\nn=int(input())\nm=math.floor(math.sqrt(n))\nif m**2==n:\n    print(m)\nelse:\n    print(m+1)"
+        ],
+        "prompt": "\nQUESTION:\nMr. Funt now lives in a country with a very specific tax laws. The total income of mr. Funt during this year is equal to n (n \u2265 2) burles and the amount of tax he has to pay is calculated as the maximum divisor of n (not equal to n, of course). For example, if n = 6 then Funt has to pay 3 burles, while for n = 25 he needs to pay 5 and if n = 2 he pays only 1 burle.\n\nAs mr. Funt is a very opportunistic person he wants to cheat a bit. In particular, he wants to split the initial n in several parts n_1 + n_2 + ... + n_{k} = n (here k is arbitrary, even k = 1 is allowed) and pay the taxes for each part separately. He can't make some part equal to 1 because it will reveal him. So, the condition n_{i} \u2265 2 should hold for all i from 1 to k.\n\nOstap Bender wonders, how many money Funt has to pay (i.e. minimal) if he chooses and optimal way to split n in parts.\n\n\n-----Input-----\n\nThe first line of the input contains a single integer n (2 \u2264 n \u2264 2\u00b710^9)\u00a0\u2014 the total year income of mr. Funt.\n\n\n-----Output-----\n\nPrint one integer\u00a0\u2014 minimum possible number of burles that mr. Funt has to pay as a tax.\n\n\n-----Examples-----\nInput\n4\n\nOutput\n2\n\nInput\n27\n\nOutput\n3\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

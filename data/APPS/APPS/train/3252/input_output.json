@@ -1,0 +1,1 @@
+{"fn_name": "is_letter", "inputs": [[""], ["a"], ["X"], ["7"], ["_"], ["ab"], ["a\n"]], "outputs": [[false], [true], [true], [false], [false], [false], [false]]}

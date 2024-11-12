@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "20 100\n",
+        "2 3\n",
+        "10 1\n"
+    ],
+    "outputs": [
+        "Dr. Chaz will have 80 pieces of chicken left over!\n",
+        "Dr. Chaz will have 1 piece of chicken left over!\n",
+        "Dr. Chaz needs 9 more pieces of chicken!\n"
+    ]
+}

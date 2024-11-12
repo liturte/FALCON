@@ -1,0 +1,8 @@
+{
+    "555": {
+        "code": [
+            "x = int(input())\n\nif x == 0:\n    print(0)\nelif x % 10 == 0:\n    print(x // 10)\nelse:\n    print(9 - x % 10)"
+        ],
+        "prompt": "\nQUESTION:\nLuke Skywalker gave Chewbacca an integer number x. Chewbacca isn't good at numbers but he loves inverting digits in them. Inverting digit t means replacing it with digit 9 - t. \n\nHelp Chewbacca to transform the initial number x to the minimum possible positive number by inverting some (possibly, zero) digits. The decimal representation of the final number shouldn't start with a zero.\n\n\n-----Input-----\n\nThe first line contains a single integer x (1 \u2264 x \u2264 10^18) \u2014 the number that Luke Skywalker gave to Chewbacca.\n\n\n-----Output-----\n\nPrint the minimum possible positive number that Chewbacca can obtain after inverting some digits. The number shouldn't contain leading zeroes.\n\n\n-----Examples-----\nInput\n27\n\nOutput\n22\n\nInput\n4545\n\nOutput\n4444\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

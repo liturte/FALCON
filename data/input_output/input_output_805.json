@@ -1,0 +1,61 @@
+{
+    "inputs": [
+        [
+            {
+                "sql": "CREATE TABLE users (id INT, name VARCHAR(255));",
+                "reverse_sql": "DROP TABLE users;"
+            },
+            {
+                "sql": "INSERT INTO users (id, name) VALUES (1, 'Alice');",
+                "reverse_sql": "DELETE FROM users WHERE id = 1;"
+            }
+        ],
+        [
+            {
+                "sql": "UPDATE products SET price = 20 WHERE category = 'Electronics';",
+                "reverse_sql": "UPDATE products SET price = original_price WHERE category = 'Electronics';"
+            },
+            {
+                "sql": "DELETE FROM products WHERE stock = 0;",
+                "reverse_sql": "INSERT INTO products (id, name, price, stock) VALUES (1, 'Product1', 10, 5);"
+            }
+        ],
+        [
+            {
+                "sql": "ALTER TABLE orders ADD COLUMN order_date DATE;",
+                "reverse_sql": "ALTER TABLE orders DROP COLUMN order_date;"
+            },
+            {
+                "sql": "UPDATE orders SET order_date = '2022-01-01' WHERE status = 'Delivered';",
+                "reverse_sql": "UPDATE orders SET order_date = original_date WHERE status = 'Delivered';"
+            }
+        ],
+        [
+            {
+                "sql": "CREATE INDEX idx_name ON users (name);",
+                "reverse_sql": "DROP INDEX idx_name;"
+            },
+            {
+                "sql": "DELETE FROM users WHERE id = 2;",
+                "reverse_sql": "INSERT INTO users (id, name) VALUES (2, 'Bob');"
+            }
+        ],
+        [
+            {
+                "sql": "ALTER TABLE products ADD COLUMN description TEXT;",
+                "reverse_sql": "ALTER TABLE products DROP COLUMN description;"
+            },
+            {
+                "sql": "UPDATE products SET description = 'New description' WHERE id = 1;",
+                "reverse_sql": "UPDATE products SET description = original_description WHERE id = 1;"
+            }
+        ]
+    ],
+    "outputs": [
+        "CREATE TABLE users (id INT, name VARCHAR(255));\nINSERT INTO users (id, name) VALUES (1, 'Alice');",
+        "UPDATE products SET price = 20 WHERE category = 'Electronics';\nDELETE FROM products WHERE stock = 0;",
+        "ALTER TABLE orders ADD COLUMN order_date DATE;\nUPDATE orders SET order_date = '2022-01-01' WHERE status = 'Delivered';",
+        "CREATE INDEX idx_name ON users (name);\nDELETE FROM users WHERE id = 2;",
+        "ALTER TABLE products ADD COLUMN description TEXT;\nUPDATE products SET description = 'New description' WHERE id = 1;"
+    ]
+}

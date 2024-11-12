@@ -1,0 +1,86 @@
+{
+    "inputs": [
+        {
+            "subnets_ips": {
+                "internal_network1": "10.0.0.1",
+                "external_network1": "10.0.0.2",
+                "internal_network2": "10.0.0.3",
+                "external_network2": "10.0.0.4",
+                "test_network": "10.0.0.5"
+            }
+        },
+        {
+            "subnets_ips": {
+                "internal_network3": "10.0.0.6",
+                "external_network3": "10.0.0.7",
+                "internal_network4": "10.0.0.8",
+                "external_network4": "10.0.0.9",
+                "test_network2": "10.0.0.10"
+            }
+        },
+        {
+            "subnets_ips": {
+                "internal_network5": "10.0.0.11",
+                "external_network5": "10.0.0.12",
+                "internal_network6": "10.0.0.13",
+                "external_network6": "10.0.0.14",
+                "test_network3": "10.0.0.15"
+            }
+        },
+        {
+            "subnets_ips": {
+                "internal_network7": "10.0.0.16",
+                "external_network7": "10.0.0.17",
+                "internal_network8": "10.0.0.18",
+                "external_network8": "10.0.0.19",
+                "test_network4": "10.0.0.20"
+            }
+        },
+        {
+            "subnets_ips": {
+                "internal_network9": "10.0.0.21",
+                "external_network9": "10.0.0.22",
+                "internal_network10": "10.0.0.23",
+                "external_network10": "10.0.0.24",
+                "test_network5": "10.0.0.25"
+            }
+        }
+    ],
+    "outputs": [
+        {
+            "internal_network1": "192.168.1.1",
+            "external_network1": "203.0.113.1",
+            "internal_network2": "192.168.1.1",
+            "external_network2": "203.0.113.1",
+            "test_network": "10.0.0.5"
+        },
+        {
+            "internal_network3": "192.168.1.1",
+            "external_network3": "203.0.113.1",
+            "internal_network4": "192.168.1.1",
+            "external_network4": "203.0.113.1",
+            "test_network2": "10.0.0.10"
+        },
+        {
+            "internal_network5": "192.168.1.1",
+            "external_network5": "203.0.113.1",
+            "internal_network6": "192.168.1.1",
+            "external_network6": "203.0.113.1",
+            "test_network3": "10.0.0.15"
+        },
+        {
+            "internal_network7": "192.168.1.1",
+            "external_network7": "203.0.113.1",
+            "internal_network8": "192.168.1.1",
+            "external_network8": "203.0.113.1",
+            "test_network4": "10.0.0.20"
+        },
+        {
+            "internal_network9": "192.168.1.1",
+            "external_network9": "203.0.113.1",
+            "internal_network10": "192.168.1.1",
+            "external_network10": "203.0.113.1",
+            "test_network5": "10.0.0.25"
+        }
+    ]
+}

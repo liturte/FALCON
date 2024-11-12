@@ -1,0 +1,3 @@
+{
+    "358": "def isprime(x):\n    for i in range(2, int(x**0.5) + 1):\n        if x % i == 0:\n            return False\n    return True\n\na, b, k = map(int, input().split())\n\nif a == b:\n    print(-1)\nelse:\n    if isprime(a) and isprime(b):\n        print(b - a + 1)\n    else:\n        count = 0\n        for i in range(a, b):\n            if isprime(i) and isprime(i + 1):\n                count += 1\n            if count == k:\n                print(b - i)\n                break\n        else:\n            print(-1)\n\n\"\"\""
+}

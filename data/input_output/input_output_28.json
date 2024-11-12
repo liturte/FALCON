@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "grayscale_image1",
+        "grayscale_image2",
+        "grayscale_image3",
+        "grayscale_image4",
+        "grayscale_image5"
+    ],
+    "outputs": [
+        "[(x1, y1), (x2, y2), ...]",
+        "[(x1, y1), (x2, y2), ...]",
+        "[(x1, y1), (x2, y2), ...]",
+        "[(x1, y1), (x2, y2), ...]",
+        "[(x1, y1), (x2, y2), ...]"
+    ]
+}

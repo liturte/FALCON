@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        true,
+        false,
+        true,
+        false,
+        true
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

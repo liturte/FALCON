@@ -1,0 +1,8 @@
+{
+    "1270": {
+        "code": [
+            "n=int(input())\n\nprimes=[]\n\nfor i in range(2,n+1):\n\n    prime=True\n\n    for j in range(2,int(i**0.5)+1):\n\n        if i%j==0:\n\n            prime=False\n\n    if prime==True:\n\n        primes.append(i)\n\n\n\nm=0\n\nans=[]\n\nfor i in primes:\n\n    if m+i<=n:\n\n        m+=i\n\n        ans.append(i)\n\n\n\nprint(len(ans))\n\nfor i in ans:\n\n    print(i,end=' ')"
+        ],
+        "prompt": "\nQUESTION:\nBachgold problem is very easy to formulate. Given a positive integer n represent it as a sum of maximum possible number of prime numbers. One can prove that such representation exists for any integer greater than 1.\n\nRecall that integer k is called prime if it is greater than 1 and has exactly two positive integer divisors\u00a0\u2014 1 and k. \n\n\n-----Input-----\n\nThe only line of the input contains a single integer n (2 \u2264 n \u2264 100 000).\n\n\n-----Output-----\n\nThe first line of the output contains a single integer k\u00a0\u2014 maximum possible number of primes in representation.\n\nThe second line should contain k primes with their sum equal to n. You can print them in any order. If there are several optimal solution, print any of them.\n\n\n-----Examples-----\nInput\n5\n\nOutput\n2\n2 3\n\nInput\n6\n\nOutput\n3\n2 2 2\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

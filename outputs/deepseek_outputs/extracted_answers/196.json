@@ -1,0 +1,3 @@
+{
+    "196": "# -*- coding: utf-8 -*-\n\n\n# In[1]:\n\n\nimport sys\n\n\n# In[2]:\n\n\nx, k = map(int, sys.stdin.readline().split())\nmod = 10**9 + 7\n\n\n# In[3]:\n\n\nprint((pow(2, k, mod) * x) % mod)\n\n\n# In[ ]:"
+}

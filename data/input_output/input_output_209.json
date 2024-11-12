@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Create a new user account with email 'test1@example.com' and password 'password123'",
+        "Create a new user account with email 'test2@example.com' and password 'securepass'",
+        "Attempt to log in with email 'test1@example.com' and correct password 'password123'",
+        "Attempt to log in with email 'test2@example.com' and incorrect password 'wrongpass'",
+        "Attempt to log in with non-existing email 'test3@example.com'"
+    ],
+    "outputs": [
+        null,
+        null,
+        "Successfully logged in as 'test1@example.com'",
+        "Incorrect password for 'test2@example.com'",
+        "User 'test3@example.com' does not exist"
+    ]
+}

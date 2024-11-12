@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Define the Session class with methods for managing user sessions",
+        "Define the Database class with methods for database operations",
+        "Implement the init_app() method in the Session class",
+        "Implement the init_app() method in the Database class",
+        "Write a sample code snippet demonstrating how to use the Session and Database classes"
+    ],
+    "outputs": [
+        "null",
+        "null",
+        "null",
+        "null",
+        "null"
+    ]
+}

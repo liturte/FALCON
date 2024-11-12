@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "sample_input_file.txt",
+        "test_input.py",
+        "empty_file.txt",
+        "invalid_file_extension.docx",
+        "missing_module_import.py"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

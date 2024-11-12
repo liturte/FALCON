@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "The geo data was collected over http and stored in the meta section.",
+        "SSL certificates provide secure connections over HTTP.",
+        "Whois information can reveal domain ownership details.",
+        "The meta tags contain important metadata for search engines.",
+        "HTTP requests are used to fetch web pages."
+    ],
+    "outputs": [
+        "The geolocation data was collected over hypertext transfer protocol and stored in the metadata section.",
+        "Secure sockets layer certificates provide secure connections over hypertext transfer protocol.",
+        "Who is information can reveal domain ownership details.",
+        "The metadata tags contain important metadata for search engines.",
+        "Hypertext transfer protocol requests are used to fetch web pages."
+    ]
+}

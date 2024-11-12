@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "item1 = Item('Laptop', 1000.0); cart = Cart(); cart.add_item(item1); cart.view_cart(); cart.total_price();",
+        "item1 = Item('Phone', 500.0); item2 = Item('Headphones', 100.0); cart = Cart(); cart.add_item(item1); cart.add_item(item2); cart.view_cart(); cart.total_price(); cart.remove_item('Phone'); cart.view_cart(); cart.total_price();",
+        "item1 = Item('Book', 20.0); item2 = Item('Pen', 5.0); item3 = Item('Notebook', 10.0); cart = Cart(); cart.add_item(item1); cart.add_item(item2); cart.add_item(item3); cart.view_cart(); cart.total_price();",
+        "item1 = Item('Shirt', 30.0); item2 = Item('Jeans', 50.0); cart = Cart(); cart.add_item(item1); cart.add_item(item2); cart.view_cart(); cart.total_price();",
+        "item1 = Item('Sunglasses', 25.0); cart = Cart(); cart.add_item(item1); cart.view_cart(); cart.total_price(); cart.remove_item('Sunglasses'); cart.view_cart(); cart.total_price();"
+    ],
+    "outputs": [
+        "Items in cart: Laptop - $1000.0\nTotal Price: $1000.0",
+        "Items in cart: Phone - $500.0, Headphones - $100.0\nTotal Price: $600.0\nItems in cart: Headphones - $100.0\nTotal Price: $100.0",
+        "Items in cart: Book - $20.0, Pen - $5.0, Notebook - $10.0\nTotal Price: $35.0",
+        "Items in cart: Shirt - $30.0, Jeans - $50.0\nTotal Price: $80.0",
+        "Items in cart: Sunglasses - $25.0\nTotal Price: $25.0\nItems in cart: \nTotal Price: $0.0"
+    ]
+}

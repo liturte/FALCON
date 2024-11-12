@@ -1,0 +1,3 @@
+{
+    "108": "s = input()\nfor i in range(len(s)-1):\n    if ord(s[i]) + 1 != ord(s[i+1]):\n        print(\"-1\")\n        exit()\n\ns = \"abcdefghijklmnopqrstuvwxyz\"\nfor i in range(26):\n    if s[i] not in s[:i+1]:\n        print(\"-1\")\n        exit()\n\nprint(s)"
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "",
+        "Hello, World!",
+        "12345",
+        " ",
+        "Test"
+    ],
+    "outputs": [
+        false,
+        true,
+        true,
+        false,
+        true
+    ]
+}

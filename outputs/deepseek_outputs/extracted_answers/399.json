@@ -1,0 +1,3 @@
+{
+    "399": "x, y = map(int, input().split())\na = x + y\nb = a - 1\nif a % b == 0 and b != 1:\n    print(\"Yes\")\nelse:\n    print(\"No\")"
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "update_video_info({}, 1234, 'Programming Basics', 300)",
+        "update_video_info({1234: ('Programming Basics', 300)}, 5678, 'Advanced Algorithms', 450)",
+        "update_video_info({1234: ('Programming Basics', 300), 5678: ('Advanced Algorithms', 450)}, 1234, 'Python Basics', 200)",
+        "get_video_info({}, 1234)",
+        "get_video_info({1234: ('Programming Basics', 300)}, 5678)"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        "Video not found",
+        "Video not found"
+    ]
+}

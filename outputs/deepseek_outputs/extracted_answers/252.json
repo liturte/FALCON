@@ -1,0 +1,3 @@
+{
+    "252": "n = int(input())\na = list(map(int, input().split()))\n\n\ndef f(x):\n    return 0 if x <= 0 else 1\n\n\nprint(max(sum(a[l + 1:r]) for l in range(n) for r in range(l + 1, n + 1)) - min(sum(a[l + 1:r]) for l in range(n) for r in range(l + 1, n + 1)))"
+}

@@ -1,0 +1,8 @@
+{
+    "113": {
+        "code": [
+            "# put your python code here\n\nn, k = input().split()\nn, k = int(n), int(k)\n\nwhile k > 0:\n    n *= 10\n    k -= 1\n\nprint(n)"
+        ],
+        "prompt": "\nQUESTION:\nFor a given positive integer n denote its k-rounding as the minimum positive integer x, such that x ends with k or more zeros in base 10 and is divisible by n.\n\nFor example, 4-rounding of 375 is 375\u00b780 = 30000. 30000 is the minimum integer such that it ends with 4 or more zeros and is divisible by 375.\n\nWrite a program that will perform the k-rounding of n.\n\n\n-----Input-----\n\nThe only line contains two integers n and k (1 \u2264 n \u2264 10^9, 0 \u2264 k \u2264 8).\n\n\n-----Output-----\n\nPrint the k-rounding of n.\n\n\n-----Examples-----\nInput\n375 4\n\nOutput\n30000\n\nInput\n10000 1\n\nOutput\n10000\n\nInput\n38101 0\n\nOutput\n38101\n\nInput\n123456789 8\n\nOutput\n12345678900000000\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

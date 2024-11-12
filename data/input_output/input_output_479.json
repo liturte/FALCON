@@ -1,0 +1,36 @@
+{
+    "inputs": [
+        [
+            "alter table only recipient_profile alter column last_12_months set default 0.00",
+            "alter table only recipient_profile alter column recipient_affiliations set default '{}'::text[]",
+            "create index idx_recipient_profile_name on recipient_profile using gin (recipient_name gin_trgm_ops)"
+        ],
+        [
+            "alter table only users add column date_of_birth date",
+            "alter table only users add column is_active boolean default true",
+            "create index idx_users_email on users(email)"
+        ],
+        [
+            "alter table only products add column price numeric",
+            "alter table only products add column description text",
+            "create index idx_products_name on products(name)"
+        ],
+        [
+            "alter table only orders add column order_date date",
+            "alter table only orders add column total_amount numeric",
+            "create index idx_orders_customer_id on orders(customer_id)"
+        ],
+        [
+            "alter table only employees add column hire_date date",
+            "alter table only employees add column salary numeric",
+            "create index idx_employees_department_id on employees(department_id)"
+        ]
+    ],
+    "outputs": [
+        "alter table only recipient_profile alter column last_12_months set default 0.00;alter table only recipient_profile alter column recipient_affiliations set default '{}'::text[];create index idx_recipient_profile_name on recipient_profile using gin (recipient_name gin_trgm_ops);",
+        "alter table only users add column date_of_birth date;alter table only users add column is_active boolean default true;create index idx_users_email on users(email);",
+        "alter table only products add column price numeric;alter table only products add column description text;create index idx_products_name on products(name);",
+        "alter table only orders add column order_date date;alter table only orders add column total_amount numeric;create index idx_orders_customer_id on orders(customer_id);",
+        "alter table only employees add column hire_date date;alter table only employees add column salary numeric;create index idx_employees_department_id on employees(department_id);"
+    ]
+}

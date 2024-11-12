@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Currency(id=1, name='US Dollar', code='USD')",
+        "Currency(id=2, name='Euro', code='EUR')",
+        "Currency(id=3, name='Japanese Yen', code='JPY')",
+        "Currency(id=4, name='British Pound', code='GBP')",
+        "Currency(id=5, name='Canadian Dollar', code='CAD')"
+    ],
+    "outputs": [
+        "{'id': 1, 'name': 'US Dollar', 'code': 'USD'}",
+        "{'id': 2, 'name': 'Euro', 'code': 'EUR'}",
+        "{'id': 3, 'name': 'Japanese Yen', 'code': 'JPY'}",
+        "{'id': 4, 'name': 'British Pound', 'code': 'GBP'}",
+        "{'id': 5, 'name': 'Canadian Dollar', 'code': 'CAD'}"
+    ]
+}

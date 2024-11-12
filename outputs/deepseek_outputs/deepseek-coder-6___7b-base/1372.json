@@ -1,0 +1,8 @@
+{
+    "1372": {
+        "code": [
+            "```\nH,N = map(int,input().split())\n\nA = [0]*N\nB = [0]*N\nfor i in range(N):\n    A[i],B[i] = map(int,input().split())\n\ndp = [[10**10]*(H+1) for _ in range(N+1)]\ndp[0][0] = 0\nfor i in range(1,N+1):\n    for j in range(H+1):\n        if j >= A[i-1]:\n            dp[i][j] = min(dp[i-1][j],dp[i][j-A[i-1]]+B[i-1])\n        else:\n            dp[i][j] = dp[i-1][j]\n\nprint(dp[N][H])\n```"
+        ],
+        "prompt": "\nQUESTION:\nIbis is fighting with a monster.\nThe health of the monster is H.\nIbis can cast N kinds of spells. Casting the i-th spell decreases the monster's health by A_i, at the cost of B_i Magic Points.\nThe same spell can be cast multiple times. There is no way other than spells to decrease the monster's health.\nIbis wins when the health of the monster becomes 0 or below.\nFind the minimum total Magic Points that have to be consumed before winning.\n\n-----Constraints-----\n - 1 \\leq H \\leq 10^4\n - 1 \\leq N \\leq 10^3\n - 1 \\leq A_i \\leq 10^4\n - 1 \\leq B_i \\leq 10^4\n - All values in input are integers.\n\n-----Input-----\nInput is given from Standard Input in the following format:\nH N\nA_1 B_1\n:\nA_N B_N\n\n-----Output-----\nPrint the minimum total Magic Points that have to be consumed before winning.\n\n-----Sample Input-----\n9 3\n8 3\n4 2\n2 1\n\n-----Sample Output-----\n4\n\nFirst, let us cast the first spell to decrease the monster's health by 8, at the cost of 3 Magic Points. The monster's health is now 1.\nThen, cast the third spell to decrease the monster's health by 2, at the cost of 1 Magic Point. The monster's health is now -1.\nIn this way, we can win at the total cost of 4 Magic Points.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

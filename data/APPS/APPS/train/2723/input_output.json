@@ -1,0 +1,1 @@
+{"fn_name": "average_string", "inputs": [["zero nine five two"], ["four six two three"], ["one two three four five"], ["five four"], ["zero zero zero zero zero"], ["one one eight one"], ["one"], [""], ["ten"], ["pippi"]], "outputs": [["four"], ["three"], ["three"], ["four"], ["zero"], ["two"], ["one"], ["n/a"], ["n/a"], ["n/a"]]}

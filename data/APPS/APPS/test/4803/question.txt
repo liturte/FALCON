@@ -1,0 +1,30 @@
+Anthony is just now learning basic math, how exciting! He first learns about addition\[ a+n=a+\underbrace{1+1+\cdots +1}_ n, \]
+
+then multiplication\[ a\times n=\underbrace{a+a+\cdots +a}_ n, \]
+
+exponentiation\[ a^n=\underbrace{a\times a\times \cdots \times a}_ n. \]
+
+and finally, tetration\[ ^na=\underbrace{a^{a^{\cdot ^{\cdot ^{\cdot ^{a}}}}}}_ n. \]
+
+Very quickly, Anthony becomes interested in infinite tetrations, namely\[ ^\infty a={a^{a^{\cdot ^{\cdot ^{\cdot }}}}}. \]
+
+Anthony wonders, given an arbitrary real number $N$, what is the solution to $^\infty a=N$? Unable to figure it out, Anthony has asked you to write a program to help him!
+
+Here’s a fun fact: A solution only exists for $\frac{1}{e}\leq N\leq e$.
+
+-----Input-----
+The first line of input contains one real number $N$, $0.36788\leq N\leq 2.718281$.
+
+-----Output-----
+Output a single line containing a real number $a$, such that $^\infty a=N$. Your answer will be considered correct if its absolute or relative error doesn’t exceed $10^{-5}$.
+
+-----Examples-----
+Sample Input 1:
+2.000000
+Sample Output 1:
+1.414214
+
+Sample Input 2:
+1.000000
+Sample Output 2:
+1.000000

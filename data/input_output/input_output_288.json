@@ -1,0 +1,161 @@
+{
+    "inputs": [
+        {
+            "payoff_matrix_split": [
+                [
+                    1,
+                    2
+                ],
+                [
+                    3,
+                    4
+                ],
+                [
+                    5,
+                    6
+                ]
+            ],
+            "col_prob_split": [
+                0.1,
+                0.2,
+                0.3
+            ],
+            "col_action_split": [
+                10,
+                20,
+                30
+            ],
+            "selected_indices": [
+                0,
+                2
+            ]
+        },
+        {
+            "payoff_matrix_split": [
+                [
+                    -1.5,
+                    2.5
+                ],
+                [
+                    3.7,
+                    -4.2
+                ],
+                [
+                    5.1,
+                    6.9
+                ]
+            ],
+            "col_prob_split": [
+                0.5,
+                0.6,
+                0.7
+            ],
+            "col_action_split": [
+                15,
+                25,
+                35
+            ],
+            "selected_indices": [
+                1,
+                2
+            ]
+        },
+        {
+            "payoff_matrix_split": [
+                [
+                    0.5,
+                    -0.5
+                ],
+                [
+                    1.1,
+                    2.2
+                ],
+                [
+                    3.3,
+                    4.4
+                ]
+            ],
+            "col_prob_split": [
+                0.9,
+                0.8,
+                0.7
+            ],
+            "col_action_split": [
+                19,
+                29,
+                39
+            ],
+            "selected_indices": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "payoff_matrix_split": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ]
+            ],
+            "col_prob_split": [
+                0,
+                0,
+                0
+            ],
+            "col_action_split": [
+                0,
+                0,
+                0
+            ],
+            "selected_indices": [
+                0
+            ]
+        },
+        {
+            "payoff_matrix_split": [
+                [
+                    1.1,
+                    2.2
+                ],
+                [
+                    3.3,
+                    4.4
+                ],
+                [
+                    5.5,
+                    6.6
+                ]
+            ],
+            "col_prob_split": [
+                0.3,
+                0.4,
+                0.5
+            ],
+            "col_action_split": [
+                13,
+                23,
+                33
+            ],
+            "selected_indices": [
+                1,
+                2
+            ]
+        }
+    ],
+    "outputs": [
+        "input_data: [[1.0, 5.0], [3.0, 6.0]]\ninput_prob: [0.1, 0.3]",
+        "input_data: [[2.5, 6.9], [3.7, 5.1]]\ninput_prob: [0.6, 0.7]",
+        "input_data: [[0.5, -0.5], [1.1, 2.2], [3.3, 4.4]]\ninput_prob: [0.9, 0.8, 0.7]",
+        "input_data: [[0.0], [0.0], [0.0]]\ninput_prob: [0.0]",
+        "input_data: [[2.2, 6.6], [3.3, 5.5]]\ninput_prob: [0.4, 0.5]"
+    ]
+}

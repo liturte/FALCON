@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "total_loss = 100; total_class_weights = 10",
+        "total_loss = 50; total_class_weights = 5",
+        "total_loss = 75; total_class_weights = 3",
+        "total_loss = 120; total_class_weights = 8",
+        "total_loss = 200; total_class_weights = 20"
+    ],
+    "outputs": [
+        "output1",
+        "output2",
+        "output3",
+        "output4",
+        "output5"
+    ]
+}

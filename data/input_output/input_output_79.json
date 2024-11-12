@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{\"author_id\": \"12345\"}",
+        "{\"author_id\": \"Config.QT_ID\"}",
+        "{\"author_id\": \"67890\"}",
+        "{\"author_id\": \"Config.QT_ID\"}",
+        "{\"author_id\": \"54321\"}"
+    ],
+    "outputs": [
+        "CanNotVerifyQt exception should be raised",
+        "True",
+        "CanNotVerifyQt exception should be raised",
+        "True",
+        "CanNotVerifyQt exception should be raised"
+    ]
+}

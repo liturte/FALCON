@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "MemoryRegion(7)",
+        "MemoryRegion(1)",
+        "MemoryRegion(6)",
+        "MemoryRegion(3)",
+        "MemoryRegion(4)"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

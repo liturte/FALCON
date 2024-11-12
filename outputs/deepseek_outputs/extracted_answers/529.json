@@ -1,0 +1,3 @@
+{
+    "529": "import sys\n\n\ndef main():\n    input_str = sys.stdin.readline().strip()\n    shift = int(sys.stdin.readline().strip())\n    print(shift_string(input_str, shift))\n\n\ndef shift_string(input_str, shift):\n    shifted_str = ''\n    for char in input_str:\n        char_code = ord(char)\n        if 97 <= char_code <= 122:\n            char_code = (char_code - 97 + shift) % 26 + 97\n        elif 65 <= char_code <= 90:\n            char_code = (char_code - 65 + shift) % 26 + 65\n        shifted_str += chr(char_code)\n    return shifted_str\n\n\nif __name__ == '__main__':\n    main()"
+}

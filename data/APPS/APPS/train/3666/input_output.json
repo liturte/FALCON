@@ -1,0 +1,1 @@
+{"fn_name": "whitespace", "inputs": [[""], [" "], ["\n\r\n\r"], ["a"], ["w\n"], ["\t"], [" a\n"], ["\t \n\r\n  "], ["\n\r\n\r "], ["\n\r\n\r 3"]], "outputs": [[true], [true], [true], [false], [false], [true], [false], [true], [true], [false]]}

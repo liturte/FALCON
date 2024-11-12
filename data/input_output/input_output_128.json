@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "self",
+        "self",
+        "self",
+        "self",
+        "self"
+    ],
+    "outputs": [
+        "Loaded model of the black side of the skybox cube",
+        "Loaded model of the black side of the skybox cube",
+        "Loaded model of the black side of the skybox cube",
+        "Loaded model of the black side of the skybox cube",
+        "Loaded model of the black side of the skybox cube"
+    ]
+}

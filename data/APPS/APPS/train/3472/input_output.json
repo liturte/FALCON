@@ -1,0 +1,1 @@
+{"fn_name": "next_day_of_week", "inputs": [[4, 42], [6, 42], [7, 42]], "outputs": [[6], [2], [2]]}

@@ -1,0 +1,3 @@
+{
+    "216": "n = int(input())\nl = list(map(int, input().split()))\nprint(max(sum(l[::2]), sum(l[1::2])))"
+}

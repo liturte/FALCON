@@ -1,0 +1,14 @@
+{
+    "inputs": [
+        "Initial setup",
+        "Adding URL pattern for user's posts",
+        "Adding URL pattern for user authentication",
+        "Adding URL pattern for user logout"
+    ],
+    "outputs": [
+        null,
+        "urlpatterns = [\n    ('/', home_view),\n    ('/profile/', profile_view),\n    ('/posts/', posts_view),\n]",
+        "urlpatterns = [\n    ('/', home_view),\n    ('/profile/', profile_view),\n    ('/posts/', posts_view),\n    ('/login/', login_view),\n]",
+        "urlpatterns = [\n    ('/', home_view),\n    ('/profile/', profile_view),\n    ('/posts/', posts_view),\n    ('/login/', login_view),\n    ('/logout/', logout_view),\n]"
+    ]
+}

@@ -1,0 +1,1 @@
+{"fn_name": "rain_amount", "inputs": [[100], [40], [39], [5], [0]], "outputs": [["Your plant has had more than enough water for today!"], ["Your plant has had more than enough water for today!"], ["You need to give your plant 1mm of water"], ["You need to give your plant 35mm of water"], ["You need to give your plant 40mm of water"]]}

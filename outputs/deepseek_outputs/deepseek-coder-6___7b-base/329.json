@@ -1,0 +1,8 @@
+{
+    "329": {
+        "code": [
+            "s = input()\n\ndef count_nineteen(s):\n    s = s.replace('n', '')\n    s = s.replace('i', '')\n    s = s.replace('e', '')\n    s = s.replace('t', '')\n    return len(s) // 9\n\nprint(count_nineteen(s))"
+        ],
+        "prompt": "\nQUESTION:\nAlice likes word \"nineteen\" very much. She has a string s and wants the string to contain as many such words as possible. For that reason she can rearrange the letters of the string.\n\nFor example, if she has string \"xiineteenppnnnewtnee\", she can get string \"xnineteenppnineteenw\", containing (the occurrences marked) two such words. More formally, word \"nineteen\" occurs in the string the number of times you can read it starting from some letter of the string. Of course, you shouldn't skip letters.\n\nHelp her to find the maximum number of \"nineteen\"s that she can get in her string.\n\n\n-----Input-----\n\nThe first line contains a non-empty string s, consisting only of lowercase English letters. The length of string s doesn't exceed 100.\n\n\n-----Output-----\n\nPrint a single integer \u2014 the maximum number of \"nineteen\"s that she can get in her string.\n\n\n-----Examples-----\nInput\nnniinneetteeeenn\n\nOutput\n2\nInput\nnneteenabcnneteenabcnneteenabcnneteenabcnneteenabcii\n\nOutput\n2\nInput\nnineteenineteen\n\nOutput\n2\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        {
+            "cleared_corpus_path": "/path/to/unknown_corpus1",
+            "ling_data": "linguistic_data1"
+        },
+        {
+            "cleared_corpus_path": "/path/to/unknown_corpus2",
+            "ling_data": "linguistic_data2"
+        },
+        {
+            "cleared_corpus_path": "/path/to/unknown_corpus3",
+            "ling_data": "linguistic_data3"
+        },
+        {
+            "cleared_corpus_path": "/path/to/unknown_corpus4",
+            "ling_data": "linguistic_data4"
+        },
+        {
+            "cleared_corpus_path": "/path/to/unknown_corpus5",
+            "ling_data": "linguistic_data5"
+        }
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

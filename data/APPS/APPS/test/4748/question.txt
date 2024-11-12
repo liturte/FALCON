@@ -1,0 +1,26 @@
+Kim likes building Lego pyramids and now wants to build one of height $H$. How many more bricks are needed if Kim already has $N$ bricks of size $2 \times 2$ and $M$ bricks of size $4 \times 2$? A pyramid is hollow and consists of $H$ layers, as shown in the image. The $k$th layer has width $2k$ for $1\leq k\leq H$.
+
+-----Input-----
+Three integers $1 \leq H \leq 1000$, $0 \leq N \leq 10^6$, and $0 \leq M \leq 10^6$.
+
+-----Output-----
+Print two integers $A$ and $B$ on a single line, where $A$ is the number of extra $2 \times 2$-bricks needed and $B$ is the number of extra $4 \times 2$-bricks. You must use as few extra bricks as possible, so you must minimise $A+B$. If there is more than one such solution, print the one maximising $A$.
+
+-----Explanation of Sample 2-----
+Sample input $2$ corresponds to the situation shown in the image. Starting with the bricks in the unfinished pyramid to the right, Kim can build the left pyramid using an extra $2 \times 2$-brick and $4$ extra $4 \times 2$-bricks. There is no way to finish a height-$4$ pyramid with fewer than $5$ extra bricks. Note that it is also possible to build a height-$4$ pyramid using $5$ extra bricks of size $4\times 2$ (and no extra $2\times 2$-bricks). However, the sample output is correct because it uses more extra $2 \times 2$-bricks.
+
+-----Examples-----
+Sample Input 1:
+1 1 0
+Sample Output 1:
+0 0
+
+Sample Input 2:
+4 2 7
+Sample Output 2:
+1 4
+
+Sample Input 3:
+3 0 0
+Sample Output 3:
+1 6

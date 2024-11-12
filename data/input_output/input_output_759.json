@@ -1,0 +1,46 @@
+{
+    "inputs": [
+        [
+            "0",
+            "1",
+            "7",
+            "0",
+            "1"
+        ],
+        [
+            "1",
+            "0",
+            "1",
+            "7",
+            "0"
+        ],
+        [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        [
+            "7",
+            "7",
+            "7",
+            "7",
+            "7"
+        ]
+    ],
+    "outputs": [
+        "{'actStrokeCap': 'ROUND', 'colorLeft': 'color(0)', 'alphaLeft': 100, 'alphaRight': 50}",
+        "{'actStrokeCap': 'ROUND', 'colorLeft': 'color(0)', 'alphaLeft': 50, 'alphaRight': 50}",
+        "{'actStrokeCap': 'ROUND', 'colorLeft': 'color(0)', 'alphaLeft': 100, 'alphaRight': 100}",
+        "{'actStrokeCap': 'ROUND', 'colorLeft': 'color(0)', 'alphaLeft': 100, 'alphaRight': 100}",
+        "{'actStrokeCap': 'ROUND', 'colorLeft': 'color(0)', 'alphaLeft': 100, 'alphaRight': 100}"
+    ]
+}

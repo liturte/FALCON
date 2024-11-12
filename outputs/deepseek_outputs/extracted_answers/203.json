@@ -1,0 +1,3 @@
+{
+    "203": "n = int(input())\ns = input()\n\nif s.count(\"D\") > s.count(\"R\"):\n    print(\"D\")\nelse:\n    print(\"R\")"
+}

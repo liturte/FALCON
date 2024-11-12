@@ -1,0 +1,3 @@
+{
+    "11": "import sys\ninput = sys.stdin.readline\ndef main():\n    n,a,b,p,q=map(int,input().split())\n    ans=0\n    if p>q:\n        ans+=(n//a)*p\n        n%=a\n        ans+=(n//b)*q\n    else:\n        ans+=(n//b)*q\n        n%=b\n        ans+=(n//a)*p\n    print(ans)\nmain()"
+}

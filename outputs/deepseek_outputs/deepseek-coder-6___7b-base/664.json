@@ -1,0 +1,8 @@
+{
+    "664": {
+        "code": [
+            "from sys import stdin, stdout\n\nn = int(stdin.readline())\na = [int(i) for i in stdin.readline().split()]\n\nfor i in range(n - 1):\n    if a[i] > a[i + 1]:\n        stdout.write('-1\\n')\n        break\nelse:\n    if a[0] == 1:\n        stdout.write('0\\n')\n    else:\n        stdout.write('1\\n')"
+        ],
+        "prompt": "\nQUESTION:\nOne day, Twilight Sparkle is interested in how to sort a sequence of integers a_1, a_2, ..., a_{n} in non-decreasing order. Being a young unicorn, the only operation she can perform is a unit shift. That is, she can move the last element of the sequence to its beginning:a_1, a_2, ..., a_{n} \u2192 a_{n}, a_1, a_2, ..., a_{n} - 1. \n\nHelp Twilight Sparkle to calculate: what is the minimum number of operations that she needs to sort the sequence?\n\n\n-----Input-----\n\nThe first line contains an integer n (2 \u2264 n \u2264 10^5). The second line contains n integer numbers a_1, a_2, ..., a_{n} (1 \u2264 a_{i} \u2264 10^5).\n\n\n-----Output-----\n\nIf it's impossible to sort the sequence output -1. Otherwise output the minimum number of operations Twilight Sparkle needs to sort it.\n\n\n-----Examples-----\nInput\n2\n2 1\n\nOutput\n1\n\nInput\n3\n1 3 2\n\nOutput\n-1\n\nInput\n2\n1 2\n\nOutput\n0\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

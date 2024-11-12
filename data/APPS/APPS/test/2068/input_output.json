@@ -1,0 +1,22 @@
+{
+  "inputs": [
+    "5\ntourist reposted Polycarp\nPetr reposted Tourist\nWJMZBMR reposted Petr\nsdya reposted wjmzbmr\nvepifanov reposted sdya\n",
+    "6\nMike reposted Polycarp\nMax reposted Polycarp\nEveryOne reposted Polycarp\n111 reposted Polycarp\nVkCup reposted Polycarp\nCodeforces reposted Polycarp\n",
+    "1\nSoMeStRaNgEgUe reposted PoLyCaRp\n",
+    "1\niuNtwVf reposted POlYcarP\n",
+    "10\ncs reposted poLYCaRp\nAFIkDrY7Of4V7Mq reposted CS\nsoBiwyN7KOvoFUfbhux reposted aFikDry7Of4v7MQ\nvb6LbwA reposted sObIWYN7KOvoFufBHUx\nDtWKIcVwIHgj4Rcv reposted vb6lbwa\nkt reposted DTwKicvwihgJ4rCV\n75K reposted kT\njKzyxx1 reposted 75K\nuoS reposted jkZyXX1\npZJskHTCIqE3YyZ5ME reposted uoS\n",
+    "10\nvxrUpCXvx8Isq reposted pOLYcaRP\nICb1 reposted vXRUpCxvX8ISq\nJFMt4b8jZE7iF2m8by7y2 reposted Icb1\nqkG6ZkMIf9QRrBFQU reposted ICb1\nnawsNfcR2palIMnmKZ reposted pOlYcaRP\nKksyH reposted jFMT4b8JzE7If2M8by7y2\nwJtWwQS5FvzN0h8CxrYyL reposted NawsNfcR2paLIMnmKz\nDpBcBPYAcTXEdhldI6tPl reposted NaWSnFCr2pALiMnmkZ\nlEnwTVnlwdQg2vaIRQry reposted kKSYh\nQUVFgwllaWO reposted Wjtwwqs5FVzN0H8cxRyyl\n",
+    "10\nkkuLGEiHv reposted POLYcArp\n3oX1AoUqyw1eR3nCADY9hLwd reposted kkuLGeIHV\nwf97dqq5bx1dPIchCoT reposted 3OX1AOuQYW1eR3ncAdY9hLwD\nWANr8h reposted Wf97dQQ5bx1dpIcHcoT\n3Fb736lkljZK2LtSbfL reposted wANR8h\n6nq9xLOn reposted 3fB736lKlJZk2LtSbFL\nWL reposted 3Fb736lKLjZk2LTSbfl\ndvxn4Xtc6SBcvKf1 reposted wF97DQq5bX1dPiChCOt\nMCcPLIMISqxDzrj reposted 6nQ9XLOn\nxsQL4Z2Iu reposted MCcpLiMiSqxdzrj\n",
+    "10\nsMA4 reposted pOLyCARP\nlq3 reposted pOlycARp\nEa16LSFTQxLJnE reposted polYcARp\nkvZVZhJwXcWsnC7NA1DV2WvS reposted polYCArp\nEYqqlrjRwddI reposted pOlyCArP\nsPqQCA67Y6PBBbcaV3EhooO reposted ea16LSFTqxLJne\njjPnneZdF6WLZ3v reposted Ea16LSFTqxLjNe\nWEoi6UpnfBUx79 reposted ea16LSFtqXljNe\nqi4yra reposted eYqqlRJrWDDI\ncw7E1UCSUD reposted eYqqLRJRwDdI\n"
+  ],
+  "outputs": [
+    "6\n",
+    "2\n",
+    "2\n",
+    "2\n",
+    "11\n",
+    "6\n",
+    "9\n",
+    "3\n"
+  ]
+}

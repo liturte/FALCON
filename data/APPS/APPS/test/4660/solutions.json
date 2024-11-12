@@ -1,0 +1,1 @@
+["# Enter your code here. Read input from STDIN. Print output to STDOUT\nimport re\nn=int(input())\nar=[]\nfor i in range(0,n):\n    s=input()\n    t=re.search(r\"^[a-zA-Z][\\w-]*@[a-zA-Z0-9]+\\.[a-zA-Z]{1,3}$\",s)\n    if t:\n        ar.append(s)\nar.sort()        \nprint(ar)\n"]

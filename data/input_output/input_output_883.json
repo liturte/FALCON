@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "[('name', 'oper'), ('verbose_name', '用户操作管理')]",
+        "[('name', 'custom_name'), ('verbose_name', 'Custom Verbose Name')]",
+        "[('name', 'test_name'), ('verbose_name', 'Test Verbose Name')]",
+        "[('name', 'another_name'), ('verbose_name', 'Another Verbose Name')]",
+        "[('name', 'final_name'), ('verbose_name', 'Final Verbose Name')]"
+    ],
+    "outputs": [
+        "Instance of OperConfig class with attributes: - name: 'oper' - verbose_name: '用户操作管理'",
+        "Instance of OperConfig class with attributes: - name: 'custom_name' - verbose_name: 'Custom Verbose Name'",
+        "Instance of OperConfig class with attributes: - name: 'test_name' - verbose_name: 'Test Verbose Name'",
+        "Instance of OperConfig class with attributes: - name: 'another_name' - verbose_name: 'Another Verbose Name'",
+        "Instance of OperConfig class with attributes: - name: 'final_name' - verbose_name: 'Final Verbose Name'"
+    ]
+}

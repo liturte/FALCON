@@ -1,0 +1,3 @@
+{
+    "157": "#!/usr/bin/env python\nimport sys\na = int(sys.stdin.readline())\nb = int(sys.stdin.readline())\nc = int(sys.stdin.readline())\n\nif a * 4 <= b * 2:\n    print(a * 4)\nelse:\n    print(b * 2)"
+}

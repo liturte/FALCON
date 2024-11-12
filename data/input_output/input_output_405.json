@@ -1,0 +1,46 @@
+{
+    "inputs": [
+        [
+            "attr_map",
+            "userName",
+            null
+        ],
+        [
+            "attr_map",
+            "email",
+            null
+        ],
+        [
+            "attr_map",
+            "address",
+            "city"
+        ],
+        [
+            "attr_map",
+            "phoneNumber",
+            "countryCode"
+        ],
+        [
+            "attr_map",
+            "userName",
+            "profilePic"
+        ]
+    ],
+    "outputs": [
+        [
+            "zerver_userprofile.delivery_email"
+        ],
+        [
+            null
+        ],
+        [
+            "zerver_userprofile.address.city"
+        ],
+        [
+            "zerver_userprofile.phoneNumber.countryCode"
+        ],
+        [
+            null
+        ]
+    ]
+}

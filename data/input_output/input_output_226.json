@@ -1,0 +1,42 @@
+{
+    "inputs": [
+        [
+            "Alice",
+            "Bob",
+            "Hi Bob! How are you?"
+        ],
+        [
+            "Bob",
+            "Alice",
+            "Hi Alice! I'm good, thanks for asking."
+        ],
+        [
+            "Bob"
+        ],
+        [
+            "Alice",
+            "Charlie",
+            "Hello Charlie!"
+        ],
+        [
+            "Charlie"
+        ]
+    ],
+    "outputs": [
+        null,
+        null,
+        [
+            [
+                "Alice",
+                "Hi Bob! How are you?"
+            ]
+        ],
+        null,
+        [
+            [
+                "Alice",
+                "Hello Charlie!"
+            ]
+        ]
+    ]
+}

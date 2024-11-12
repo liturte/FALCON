@@ -1,0 +1,176 @@
+{
+    "inputs": [
+        {
+            "cadence_contracts": {
+                "1": {
+                    "contract_id": 1,
+                    "contract_name": "Contract 1",
+                    "sign_date": "2022-01-01",
+                    "expiration_date": "2022-06-30"
+                },
+                "2": {
+                    "contract_id": 2,
+                    "contract_name": "Contract 2",
+                    "sign_date": "2022-02-15",
+                    "expiration_date": "2022-08-31"
+                },
+                "3": {
+                    "contract_id": 3,
+                    "contract_name": "Contract 3",
+                    "sign_date": "2022-03-10",
+                    "expiration_date": "2022-05-20"
+                },
+                "4": {
+                    "contract_id": 4,
+                    "contract_name": "Contract 4",
+                    "sign_date": "2022-04-20",
+                    "expiration_date": "2022-12-15"
+                }
+            },
+            "current_date": "2022-04-01"
+        },
+        {
+            "cadence_contracts": {
+                "1": {
+                    "contract_id": 1,
+                    "contract_name": "Contract 1",
+                    "sign_date": "2022-01-01",
+                    "expiration_date": "2022-06-30"
+                },
+                "2": {
+                    "contract_id": 2,
+                    "contract_name": "Contract 2",
+                    "sign_date": "2022-02-15",
+                    "expiration_date": "2022-08-31"
+                },
+                "3": {
+                    "contract_id": 3,
+                    "contract_name": "Contract 3",
+                    "sign_date": "2022-03-10",
+                    "expiration_date": "2022-05-20"
+                },
+                "4": {
+                    "contract_id": 4,
+                    "contract_name": "Contract 4",
+                    "sign_date": "2022-04-20",
+                    "expiration_date": "2022-12-15"
+                }
+            },
+            "current_date": "2022-01-01"
+        },
+        {
+            "cadence_contracts": {
+                "1": {
+                    "contract_id": 1,
+                    "contract_name": "Contract 1",
+                    "sign_date": "2022-01-01",
+                    "expiration_date": "2022-06-30"
+                },
+                "2": {
+                    "contract_id": 2,
+                    "contract_name": "Contract 2",
+                    "sign_date": "2022-02-15",
+                    "expiration_date": "2022-08-31"
+                },
+                "3": {
+                    "contract_id": 3,
+                    "contract_name": "Contract 3",
+                    "sign_date": "2022-03-10",
+                    "expiration_date": "2022-05-20"
+                },
+                "4": {
+                    "contract_id": 4,
+                    "contract_name": "Contract 4",
+                    "sign_date": "2022-04-20",
+                    "expiration_date": "2022-12-15"
+                }
+            },
+            "current_date": "2022-12-31"
+        },
+        {
+            "cadence_contracts": {
+                "1": {
+                    "contract_id": 1,
+                    "contract_name": "Contract 1",
+                    "sign_date": "2022-01-01",
+                    "expiration_date": "2022-06-30"
+                },
+                "2": {
+                    "contract_id": 2,
+                    "contract_name": "Contract 2",
+                    "sign_date": "2022-02-15",
+                    "expiration_date": "2022-08-31"
+                },
+                "3": {
+                    "contract_id": 3,
+                    "contract_name": "Contract 3",
+                    "sign_date": "2022-03-10",
+                    "expiration_date": "2022-05-20"
+                },
+                "4": {
+                    "contract_id": 4,
+                    "contract_name": "Contract 4",
+                    "sign_date": "2022-04-20",
+                    "expiration_date": "2022-12-15"
+                }
+            },
+            "current_date": "2022-05-21"
+        },
+        {
+            "cadence_contracts": {
+                "1": {
+                    "contract_id": 1,
+                    "contract_name": "Contract 1",
+                    "sign_date": "2022-01-01",
+                    "expiration_date": "2022-06-30"
+                },
+                "2": {
+                    "contract_id": 2,
+                    "contract_name": "Contract 2",
+                    "sign_date": "2022-02-15",
+                    "expiration_date": "2022-08-31"
+                },
+                "3": {
+                    "contract_id": 3,
+                    "contract_name": "Contract 3",
+                    "sign_date": "2022-03-10",
+                    "expiration_date": "2022-05-20"
+                },
+                "4": {
+                    "contract_id": 4,
+                    "contract_name": "Contract 4",
+                    "sign_date": "2022-04-20",
+                    "expiration_date": "2022-12-15"
+                }
+            },
+            "current_date": "2022-03-09"
+        }
+    ],
+    "outputs": [
+        [
+            {
+                "contract_id": 1,
+                "contract_name": "Contract 1",
+                "sign_date": "2022-01-01",
+                "expiration_date": "2022-06-30"
+            },
+            {
+                "contract_id": 2,
+                "contract_name": "Contract 2",
+                "sign_date": "2022-02-15",
+                "expiration_date": "2022-08-31"
+            }
+        ],
+        null,
+        [],
+        [
+            {
+                "contract_id": 1,
+                "contract_name": "Contract 1",
+                "sign_date": "2022-01-01",
+                "expiration_date": "2022-06-30"
+            }
+        ],
+        []
+    ]
+}

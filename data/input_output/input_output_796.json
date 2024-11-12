@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "b'a1b2c3d0e4f0'",
+        "b'x2y3z0'",
+        "b'h1i2j3k0l4m0n5o0'",
+        "b'p1q2r3s4t5u6v7w8x9y0z1'",
+        "b'a0b0c0d0e0f0g0h0i0j0k0l0m0n0o0p0q0r0s0t0u0v0w0x0y0z0'"
+    ],
+    "outputs": [
+        "babece",
+        "yzz",
+        "hijklmno",
+        "pqrstuvwxy",
+        ""
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "4\nc++\nC++\nc\nc#\n",
+        "5\ncryptography\nblockchain\nArtificial intelligence\nMachine-Learning\nLinux\n",
+        "2\nMySQL\nMySql\n"
+    ],
+    "outputs": [
+        "3\n",
+        "5\n",
+        "1\n"
+    ]
+}

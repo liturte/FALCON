@@ -1,0 +1,3 @@
+{
+    "473": "# put your python code here\n\n\na, b = input().split()\nc, d = map(int, a.split(':'))\ne, f = map(int, b.split(':'))\n\nc += (d + f) // 60\nd = (d + f) % 60\nc %= 24\n\nprint(str(c).zfill(2) + ':' + str(d).zfill(2))"
+}

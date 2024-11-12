@@ -1,0 +1,1 @@
+{"fn_name": "funnel_out", "inputs": [[[["q"]]], [[["b", "c"], ["a"]]], [[["d", "a", "c"], ["b", "e"], ["f"]]], [[["a", "e", "c", "f"], ["d", "i", "h"], ["j", "g"], ["b"]]]], "outputs": [["q"], ["abc"], ["fbadec"], ["bghcfiejda"]]}

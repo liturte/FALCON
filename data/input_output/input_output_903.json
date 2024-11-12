@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Node(1)",
+        "Node(1) with left child Node(2)",
+        "Node(1) with right child Node(3)",
+        "Node(1) with left child Node(2) and right child Node(3)",
+        "Node(1) with left child Node(2) and right child Node(3) and Node(3) with right child Node(4)"
+    ],
+    "outputs": [
+        "1",
+        "2",
+        "2",
+        "2",
+        "3"
+    ]
+}

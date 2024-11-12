@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        [
+            "file1.txt",
+            "link1.txt"
+        ],
+        [
+            "file2.txt",
+            "link2.txt"
+        ],
+        [
+            "file3.txt",
+            "directory1"
+        ],
+        [
+            "file4.txt",
+            "directory2"
+        ],
+        [
+            "file5.txt",
+            "directory3"
+        ]
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

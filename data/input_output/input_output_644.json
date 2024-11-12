@@ -1,0 +1,46 @@
+{
+    "inputs": [
+        [
+            "deis-123",
+            "service-1",
+            {
+                "app": "myapp"
+            }
+        ],
+        [
+            "deis-456",
+            "service-2",
+            {
+                "env": "production"
+            }
+        ],
+        [
+            "deis-789",
+            "service-3",
+            {
+                "tier": "backend"
+            }
+        ],
+        [
+            "deis-999",
+            "service-4",
+            {
+                "app": "frontend"
+            }
+        ],
+        [
+            "deis-111",
+            "service-5",
+            {
+                "env": "staging"
+            }
+        ]
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

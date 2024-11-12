@@ -1,0 +1,8 @@
+{
+    "837": {
+        "code": [
+            "n,x,y = map(int,input().split())\n\nif x * 2 > y:\n    print(n * y)\nelse:\n    print((n+1) // 2 * x + (n // 2) * y)"
+        ],
+        "prompt": "\nQUESTION:\nzscoder wants to generate an input file for some programming competition problem.\n\nHis input is a string consisting of n letters 'a'. He is too lazy to write a generator so he will manually generate the input in a text editor.\n\nInitially, the text editor is empty. It takes him x seconds to insert or delete a letter 'a' from the text file and y seconds to copy the contents of the entire text file, and duplicate it.\n\nzscoder wants to find the minimum amount of time needed for him to create the input file of exactly n letters 'a'. Help him to determine the amount of time needed to generate the input.\n\n\n-----Input-----\n\nThe only line contains three integers n, x and y (1 \u2264 n \u2264 10^7, 1 \u2264 x, y \u2264 10^9) \u2014 the number of letters 'a' in the input file and the parameters from the problem statement.\n\n\n-----Output-----\n\nPrint the only integer t \u2014 the minimum amount of time needed to generate the input file.\n\n\n-----Examples-----\nInput\n8 1 1\n\nOutput\n4\n\nInput\n8 1 10\n\nOutput\n8\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

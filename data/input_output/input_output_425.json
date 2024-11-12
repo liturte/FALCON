@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        [
+            "This is a very long headline that needs to be shortened",
+            20
+        ],
+        [
+            "Short headline",
+            15
+        ],
+        [
+            "Another long headline that needs to be shortened",
+            10
+        ],
+        [
+            "No need to shorten this headline",
+            30
+        ],
+        [
+            "A headline",
+            8
+        ]
+    ],
+    "outputs": [
+        "This is a very long...",
+        "Short headline",
+        "Another...",
+        "No need to shorten this headline",
+        "A headline"
+    ]
+}

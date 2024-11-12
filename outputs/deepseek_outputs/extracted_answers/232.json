@@ -1,0 +1,3 @@
+{
+    "232": "def solve(n, m, a, k):\n    dp = [[0 for _ in range(m)] for _ in range(n)]\n    for i in range(n):\n        dp[i][a[i] - 1] += 1\n        for j in range(m):\n            dp[i][j] += dp[i - 1][j]\n    for i in range(m):\n        if dp[n - 1][i] < k[i]:\n            return False\n    return True\n\nn, m = map(int, input().split())\na = list(map(int, input().split()))\nk = list(map(int, input().split()))\nif solve(n, m, a, k):\n    print(\"YES\")\nelse:\n    print(\"NO\")"
+}

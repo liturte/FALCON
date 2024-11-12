@@ -1,0 +1,3 @@
+{
+    "18": "s = input()\nn = len(s)\nt = ''\nu = ''\n\nfor i in range(0, n, 2):\n    t += s[i]\n\nfor i in range(n - 1, -1, -2):\n    u += s[i]\n\nprint(t + u)"
+}

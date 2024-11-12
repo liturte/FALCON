@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "Knuth-Morris-Pratt\n",
+        "Mirko-Slavko\n",
+        "Pasko-Patak\n"
+    ],
+    "outputs": [
+        "KMP\n",
+        "MS\n",
+        "PP\n"
+    ]
+}

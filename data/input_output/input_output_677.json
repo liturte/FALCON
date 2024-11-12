@@ -1,0 +1,28 @@
+{
+    "inputs": [
+        "picture_manager = PictureManager()",
+        "picture_manager.load_picture('AB:CD:EF:12:34:56', 'data1')",
+        "picture_manager.load_picture('12:34:56:AB:CD:EF', 'data2')",
+        "photo_album = PhotoAlbum()",
+        "photo_album.load_picture('12:34:56:AB:CD:EF', 'data3')",
+        "photo_album.search_by_keyword('keyword')",
+        "photo_album.delete_picture('AB:CD:EF:12:34:56')",
+        "PictureManager.total_pictures",
+        "photo_album.total_pictures",
+        "main_app = MainApp()",
+        "main_app.display_pictures()"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "3",
+        "2",
+        null,
+        null
+    ]
+}

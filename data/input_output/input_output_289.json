@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "Task('Task1', 5), Task('Task2', 3), Task('Task3', 7)",
+        "Task('TaskA', 2), Task('TaskB', 4), Task('TaskC', 6)",
+        "Task('TaskX', 3), Task('TaskY', 5), Task('TaskZ', 4)"
+    ],
+    "outputs": [
+        null,
+        null,
+        null
+    ]
+}

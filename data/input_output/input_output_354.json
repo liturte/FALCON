@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "123456789012",
+        "987654321098",
+        "111111111111",
+        "222222222222",
+        "333333333333"
+    ],
+    "outputs": [
+        "Product Name: Test Product, Price: $10.99",
+        "Product Name: Another Product, Price: $20.50",
+        "Product Name: One More Product",
+        "Product Name: Yet Another Product, Price: $15.75",
+        "Product Name: Last Product, Price: $5.99"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "inputs": [
+        "url(r'^detach-alias/(?P<plugin_pk>\\d+)/$', views.detach_alias_plugin_view, name=constants.DETACH_ALIAS_PLUGIN_URL_NAME,)",
+        "url(r'^delete-alias/(?P<pk>\\d+)/$', views.delete_alias_view, name=constants.DELETE_ALIAS_URL_NAME,)",
+        "url(r'^update-alias/(?P<alias_id>\\d+)/$', views.update_alias_view, name=constants.UPDATE_ALIAS_URL_NAME,)",
+        "url(r'^create-alias/$', views.create_alias_view, name=constants.CREATE_ALIAS_URL_NAME,)",
+        "url(r'^list-aliases/$', views.list_aliases_view, name=constants.LIST_ALIASES_URL_NAME,)"
+    ],
+    "outputs": [
+        [
+            "DETACH_ALIAS_PLUGIN_URL_NAME",
+            "DELETE_ALIAS_URL_NAME"
+        ],
+        null,
+        [
+            "UPDATE_ALIAS_URL_NAME"
+        ],
+        [
+            "CREATE_ALIAS_URL_NAME"
+        ],
+        [
+            "LIST_ALIASES_URL_NAME"
+        ]
+    ]
+}

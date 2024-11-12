@@ -1,0 +1,19 @@
+Mirko has chosen four integers which form an arithmetic progression. In other words, when the four numbers are sorted, then the difference between each pair of adjacent elements is constant.
+
+As has become usual, Mirko lost one of the numbers and also is not sure whether the remaining three are in the correct (sorted) order.
+
+Write a program that, given the three remaining numbers, finds the fourth number.
+
+-----Input-----
+The input contains 3 integers between $-100$ and $100$ on a single line, separated by single spaces.
+
+Note: the input data will guarantee that a solution, although not necessarily unique, will always exist.
+
+-----Output-----
+Output any number which could have been the fourth number in the sequence.
+
+-----Examples-----
+Sample Input:
+4 6 8
+Sample Output:
+10

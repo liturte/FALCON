@@ -1,0 +1,38 @@
+The following puzzle was popularized by Martin Gardner’s book “My Best Mathematical and Logic Puzzles,” although it appears first in the monograph “On Problem-Solving” by the Gestalt psychologist Karl Dunker.
+
+One morning, exactly at sunrise, a Buddhist monk began to climb a tall mountain. The narrow path, no more than a foot or two wide, spiraled around the mountain to a glittering temple at the summit.
+
+The monk ascended the path at varying rates of speed, stopping many times along the way to rest and eat the dried fruit he carried with him. He reached the temple shortly before sunset. After several days of fasting and meditation he began his journey back along the same path, starting at sunrise and again walking at variable speeds with many pauses along the way. His average speed descending was, of course, greater than his average climbing speed.
+
+Prove that there is a spot along the path that the monk will occupy on both trips at precisely the same time of day!
+
+You can probably see why this is true - but can you write a program that computes the time at which the monk will be at the same spot during his ascent and descent?
+
+-----Input-----
+The input consists of a single test case. The first line contains two integers $a$ ($0 < a \le 5000$) and $d$ ($0 < d \le 5000$) denoting the number of segments during the ascent and descent, respectively. This is followed by $a$ lines, each containing two integers $h$ ($0 \le h \le 1000$) and $t$ ($0 < t \le 100$) denoting the positive change in elevation ($h$) the monk gained during this segment and the time it took ($t$). If the monk rests and eats during a segment, $h$ will be $0$.
+
+This is followed by $d$ lines, each containing two integers $h$ ($0 \le h \le 1000$) and $t$ ($0 < t \le 100$) denoting the change in elevation ($h$) the monk descended during this segment and the time it took ($t$). If the monk rests and eats during a segment, $h$ will be $0$.
+
+The total change in elevation during the ascent and descent is guaranteed to be the same, i.e., the sum of the changes in elevation for the ascending segments is the same as the sum for the descending segments.
+
+-----Output-----
+Output a single floating point number, the earliest point in time at which the monk occupies the same spot during his climb and his descent. The monk starts his ascent and his descent at time $0$ on both days.
+
+Your answer will be considered correct if its absolute or relative error does not exceed $10^{-5}$.
+
+-----Examples-----
+Sample Input 1:
+1 1
+10 11
+10 10
+Sample Output 1:
+5.238095
+
+Sample Input 2:
+3 1
+4 2
+0 3
+6 3
+10 7
+Sample Output 2:
+4.200000

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Hello;World;;Programming;is;fun;",
+        "Apple;Banana;Cherry;",
+        "One;Two;Three;Four;Five;",
+        "Python;Java;C++;JavaScript;",
+        "Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday;"
+    ],
+    "outputs": [
+        "Hello;\nWorld;\nProgramming;\nis;\nfun;\n",
+        "Apple;\nBanana;\nCherry;\n",
+        "One;\nTwo;\nThree;\nFour;\nFive;\n",
+        "Python;\nJava;\nC++;\nJavaScript;\n",
+        "Monday;\nTuesday;\nWednesday;\nThursday;\nFriday;\nSaturday;\nSunday;\n"
+    ]
+}

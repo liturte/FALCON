@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{\"result\": {\"key1\": \"value1\", \"key2\": \"value2\"}, \"value\": \"new_value\"}",
+        "{\"result\": {\"a\": 1, \"b\": 2, \"c\": 3}, \"value\": 10}",
+        "{\"result\": {\"name\": \"Alice\", \"age\": 25}, \"value\": \"Female\"}",
+        "{\"result\": {\"x\": [1, 2, 3], \"y\": [4, 5]}, \"value\": [6, 7]}",
+        "{\"result\": {\"city\": \"New York\", \"country\": \"USA\"}, \"value\": \"North America\"}"
+    ],
+    "outputs": [
+        "{\"key1\": \"value1\", \"key2\": \"value2\", \"data\": \"new_value\"}",
+        "{\"a\": 1, \"b\": 2, \"c\": 3, \"data\": 10}",
+        "{\"name\": \"Alice\", \"age\": 25, \"data\": \"Female\"}",
+        "{\"x\": [1, 2, 3], \"y\": [4, 5], \"data\": [6, 7]}",
+        "{\"city\": \"New York\", \"country\": \"USA\", \"data\": \"North America\"}"
+    ]
+}

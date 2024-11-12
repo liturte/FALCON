@@ -1,0 +1,3 @@
+{
+    "398": "n = int(input())\narr = list(map(int, input().split()))\narr.sort()\nfor i in range(n - 2):\n    if arr[i] + arr[i + 1] > arr[i + 2]:\n        print(\"YES\")\n        exit(0)\nprint(\"NO\")"
+}

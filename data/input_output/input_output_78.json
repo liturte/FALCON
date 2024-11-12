@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{\"gridworld\": [[1, 0, 1], [0, 1, 0], [1, 0, 1]], \"horizon\": 3, \"use_segments\": false, \"use_memory\": false}",
+        "{\"gridworld\": [[0, 1, 0], [1, 0, 1], [0, 1, 0]], \"horizon\": 2, \"use_segments\": true, \"use_memory\": false}",
+        "{\"gridworld\": [[1, 1, 1], [0, 0, 0], [1, 1, 1]], \"horizon\": 4, \"use_segments\": false, \"use_memory\": true}",
+        "{\"gridworld\": [[0, 0, 0], [1, 1, 1], [0, 0, 0]], \"horizon\": 1, \"use_segments\": true, \"use_memory\": true}",
+        "{\"gridworld\": [[1, 0, 1], [0, 1, 0], [1, 0, 1]], \"horizon\": 2, \"use_segments\": true, \"use_memory\": true}"
+    ],
+    "outputs": [
+        "0.75",
+        "0.5",
+        "0.9",
+        "0.3",
+        "0.6"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "739": {
+        "code": [
+            "def modpow(a, n, mod):\n    if n == 0:\n        return 1\n    if n % 2 == 0:\n        return modpow(a * a % mod, n // 2, mod)\n    return a * modpow(a, n - 1, mod) % mod\n\ndef modinv(a, mod):\n    return modpow(a, mod - 2, mod)\n\ndef concatenate(l, a, b, m):\n    # \u9023\u7d50\u3059\u308b\n    n = 0\n    for i in range(l):\n        n = (n * 10 + a + b * i) % m\n    return n\n\ndef main():\n    l, a, b, m = map(int, input().split())\n    print(concatenate(l, a, b, m))\n\nif __name__ == '__main__':\n    main()"
+        ],
+        "prompt": "\nQUESTION:\n You are given <var>Q</var> tuples of integers <var>(L_i, A_i, B_i, M_i)</var>. For each tuple, answer the following question. \nThere is an arithmetic progression with L terms: s_0, s_1, s_2, ... , s_{L-1}.\nThe initial term is A, and the common difference is B. That is, s_i = A + B \\times i holds.\nConsider the integer obtained by concatenating the terms written in base ten without leading zeros. For example, the sequence 3, 7, 11, 15, 19 would be concatenated into 37111519. What is the remainder when that integer is divided by M?\n\n-----Constraints-----\n - All values in input are integers.\n - 1 \\leq L, A, B < 10^{18}\n - 2 \\leq M \\leq 10^9\n - All terms in the arithmetic progression are less than 10^{18}.\n\n-----Input-----\nInput is given from Standard Input in the following format:\nL A B M\n\n-----Output-----\nPrint the remainder when the integer obtained by concatenating the terms is divided by M.\n\n-----Sample Input-----\n5 3 4 10007\n\n-----Sample Output-----\n5563\n\nOur arithmetic progression is 3, 7, 11, 15, 19, so the answer is 37111519 mod 10007, that is, 5563.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

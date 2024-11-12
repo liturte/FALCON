@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "<html><head><script type=\"application/ld+json\">{\"key\": \"value\"}</script></head></html>",
+        "<html><head><script type=\"application/ld+json\">{\"name\": \"Alice\", \"age\": 25}</script></head></html>",
+        "<html><head><script type=\"application/ld+json\">{\"city\": \"New York\", \"population\": 8000000}</script></head></html>",
+        "<html><head><script type=\"application/ld+json\">{\"color\": \"blue\"}</script></head></html>",
+        "<html><head><script type=\"application/ld+json\">{\"team\": \"Reds\", \"sport\": \"Baseball\"}</script></head></html>"
+    ],
+    "outputs": [
+        "{\"key\": \"value\"}",
+        "{\"name\": \"Alice\", \"age\": 25}",
+        "{\"city\": \"New York\", \"population\": 8000000}",
+        "{\"color\": \"blue\"}",
+        "{\"team\": \"Reds\", \"sport\": \"Baseball\"}"
+    ]
+}

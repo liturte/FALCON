@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "3 5\nleft_oar\nright_oar\nleft_oar\nhull\nright_oar\n",
+        "4 5\nmotor\nhull\nleft_oar\nhull\nmotor\n"
+    ],
+    "outputs": [
+        "4\n",
+        "paradox avoided\n"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "network1",
+        "network2",
+        "network3",
+        "network4",
+        "network5"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

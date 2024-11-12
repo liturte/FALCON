@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        {
+            "domain": "example_domain",
+            "task_list": "example_task_list"
+        },
+        {
+            "domain": "test_domain",
+            "task_list": "test_task_list"
+        },
+        {
+            "domain": "another_domain",
+            "task_list": "another_task_list"
+        },
+        {
+            "domain": "empty_domain",
+            "task_list": ""
+        },
+        {
+            "domain": "",
+            "task_list": "empty_task_list"
+        }
+    ],
+    "outputs": [
+        "Domain: example_domain\nTask List: example_task_list",
+        "Domain: test_domain\nTask List: test_task_list",
+        "Domain: another_domain\nTask List: another_task_list",
+        "Domain: empty_domain\nTask List: ",
+        "Domain: \nTask List: empty_task_list"
+    ]
+}

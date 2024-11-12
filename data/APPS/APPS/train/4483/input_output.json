@@ -1,0 +1,1 @@
+{"fn_name": "cut_fruits", "inputs": [[["apple", "pear", "banana"]], [["apple", "pear", "banana", "bomb"]], [[]]], "outputs": [[["app", "le", "pe", "ar", "ban", "ana"]], [["app", "le", "pe", "ar", "ban", "ana", "bomb"]], [[]]]}

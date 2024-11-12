@@ -1,0 +1,30 @@
+At the new start-up company Gaggle, we have rejected the oppressive corporate structures of old, with all of their managers and subordinates and hierarchies and so on. Instead we have embraced a free and open corporate culture in which all employees (called Gagglers) are in charge of themselves and allowed to roam free. 
+
+Rather than having managers overseeing the work, the main method used to coordinate work at Gaggle is a mentor system: each Gaggler designates some other Gaggler as their mentor, with whom they discuss their ongoing projects. This mentor relation may or may not be symmetric (in other words you may or may not be the mentor of your mentor) but you can never be the mentor of yourself.
+
+Initially, all Gagglers were able to pick anyone they liked as their mentor, but after a while it was discovered that this lead to two problems:
+ - Some people were more popular than others and had too many choosing them as their mentor, causing them not to have time to do their actual work.
+ - Some flocks of Gagglers ended up isolated from the rest of the company (e.g., if Gagglers $A$ and $B$ are each other’s mentors and they are not the mentor of anyone else), causing failure of these flocks to coordinate with the rest of the company.
+
+In order to remedy these two flaws, it was (collectively) decided that:
+ - Every Gaggler must be the mentor of exactly one other Gaggler, and
+ - Assuming every Gaggler only communicates with their mentor and their mentee, it must still be possible for any information that any Gaggler has to reach any other Gaggler.
+
+In order to reward lower-numbered (more senior) Gagglers while introducing this new policy, it was decided that lower-numbered Gagglers should get to keep their current mentor if possible, and if they have to change, their new mentor should be as low-numbered (more senior, and therefore more experienced) as possible.
+
+Concretely, consider two possible new assignments of mentors, and suppose the lowest-numbered Gaggler where these assignments differ is Gaggler number $i$. Then if one of the two assignments assigns Gaggler $i$ the same mentor as they originally had, we prefer that assignment. Otherwise, if Gaggler $i$ gets a new mentor in both of the two assignments, then we prefer the assignment where the number of the new mentor of Gaggler $i$ is smaller.
+
+For example, consider Sample Input 2 below. One possible new assignment of mentors would be to simply change so that Gaggler $1$ becomes mentored by Gaggler $2$. However, in the best assignment, shown in Sample Output 2, we let Gaggler $1$ keep their current mentor and instead change the mentors of both Gagglers $2$ and $3$.
+
+-----Input-----
+The first line of input contains a single integer $n$ ($2 \le n \le 500000$), the number of Gagglers. Then follows a line containing $n$ integers $a_1, a_2, \ldots , a_ n$ ($1 \le a_ i \le n$ and $a_ i \ne i$ for each $i$) where $a_ i$ is the current mentor of Gaggler $i$ (the Gagglers are numbered from $1$ to $n$).
+
+-----Output-----
+Then output a line with the new assignment $b_1, \ldots , b_ n$ of mentors, in the same format as in the input. The new list should be a valid assignment according to the new requirements, and be the best according to the tie-breaking rule described above.
+
+-----Examples-----
+Sample Input:
+4
+2 1 4 3
+Sample Output:
+2 3 4 1

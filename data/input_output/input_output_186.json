@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        {
+            "approved_file": "file1.txt",
+            "received_file": "file2.txt"
+        },
+        {
+            "approved_file": "data/approved.csv",
+            "received_file": "data/received.csv"
+        },
+        {
+            "approved_file": "images/approved.png",
+            "received_file": "images/received.png"
+        },
+        {
+            "approved_file": "config/approved.json",
+            "received_file": "config/received.json"
+        },
+        {
+            "approved_file": "logs/approved.log",
+            "received_file": "logs/received.log"
+        }
+    ],
+    "outputs": [
+        true,
+        true,
+        true,
+        true,
+        true
+    ]
+}

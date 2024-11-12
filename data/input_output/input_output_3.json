@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "John Doe",
+        "Alice\nBob",
+        "  Jane Smith  ",
+        "\t\t\tMary\r\n",
+        ""
+    ],
+    "outputs": [
+        "JohnDoe",
+        "AliceBob",
+        "JaneSmith",
+        "Mary",
+        ""
+    ]
+}

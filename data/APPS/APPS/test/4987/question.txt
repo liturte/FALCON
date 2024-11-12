@@ -1,0 +1,18 @@
+Having discolored his white socks in a rather beige shade (as seen on the picture), Luktas Svettocek realised he can’t just throw all his laundry into one machine and expect it to retain its original colors. However, he is also too lazy to do his laundry in several rounds. He would much rather buy more laundry machines!
+
+Each of Luktas’ socks have a color $D_ i$ which has a number between $0$ and $10^9$ assigned to it. After some experimentation, he found that he could wash any socks with a maximum absolute color difference of $K$ in the same machine without any discoloring. The color difference of two socks $i$ and $j$ is $|D_ i - D_ j|$.
+
+Luktas now needs to know how many washing machines he needs to wash his $S$ socks, given that each machine can take at most $C$ socks a time.
+
+-----Input-----
+The first line consists of three integers $1 \le S, C \le 10^5$ and $0 \le K \le 10^9$, the number of socks, the capacity of a laundry machine and the maximum color difference, respectively. Then follow one line with $S$ integers; these are the color values $D_ i$ of every sock.
+
+-----Output-----
+Output a single integer; the number of machines Luktas needs to wash all his socks.
+
+-----Examples-----
+Sample Input:
+5 3 0
+0 0 1 1 2
+Sample Output:
+3

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Add a new subcommand to list all users",
+        "Add a new argument group to handle user permissions",
+        "Add a new subcommand to download files",
+        "Add a new argument group to specify file format",
+        "Add a new subcommand to generate reports"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

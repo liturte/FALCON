@@ -1,0 +1,48 @@
+You've got a positive integer sequence a_1, a_2, ..., a_{n}. All numbers in the sequence are distinct. Let's fix the set of variables b_1, b_2, ..., b_{m}. Initially each variable b_{i} (1 ≤ i ≤ m) contains the value of zero. Consider the following sequence, consisting of n operations.
+
+The first operation is assigning the value of a_1 to some variable b_{x} (1 ≤ x ≤ m). Each of the following n - 1 operations is assigning to some variable b_{y} the value that is equal to the sum of values that are stored in the variables b_{i} and b_{j} (1 ≤ i, j, y ≤ m). At that, the value that is assigned on the t-th operation, must equal a_{t}. For each operation numbers y, i, j are chosen anew.
+
+Your task is to find the minimum number of variables m, such that those variables can help you perform the described sequence of operations.
+
+
+-----Input-----
+
+The first line contains integer n (1 ≤ n ≤ 23). The second line contains n space-separated integers a_1, a_2, ..., a_{n} (1 ≤ a_{k} ≤ 10^9).
+
+It is guaranteed that all numbers in the sequence are distinct.
+
+
+-----Output-----
+
+In a single line print a single number — the minimum number of variables m, such that those variables can help you perform the described sequence of operations.
+
+If you cannot perform the sequence of operations at any m, print -1.
+
+
+-----Examples-----
+Input
+5
+1 2 3 6 8
+
+Output
+2
+
+Input
+3
+3 6 5
+
+Output
+-1
+
+Input
+6
+2 4 8 6 10 18
+
+Output
+3
+
+
+
+-----Note-----
+
+In the first sample, you can use two variables b_1 and b_2 to perform the following sequence of operations.  b_1 := 1;  b_2 := b_1 + b_1;  b_1 := b_1 + b_2;  b_1 := b_1 + b_1;  b_1 := b_1 + b_2.

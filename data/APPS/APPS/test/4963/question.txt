@@ -1,0 +1,18 @@
+Jimmy and his friends were all standing in a lineup for ice cream when a huge gust blew them all around. The friends want to keep things fair and make sure everyone gets their ice cream in the order they started with. The friends do not remember the order, but each of them remember exactly how many people were between them and Jimmy. Jimmy is always the first person in line. Can you help him and his friends remember the order?
+
+-----Input-----
+The first line contains a single integer $n$ ($1 \leq n \leq 100$), the number of people in the line.
+
+The second line contains $n-1$ space separated integers, where $d_ i$ ($0 \leq d_ i \leq n-2$) is the number of people between the $(i+1)^\textrm {th}$ person and Jimmy.
+
+Jimmy is always first in the lineup.
+
+-----Output-----
+Print a single line with $n$ integers, the people in the order of the original lineup. It is guaranteed that there is always a unique solution.
+
+-----Examples-----
+Sample Input:
+2
+0
+Sample Output:
+1 2

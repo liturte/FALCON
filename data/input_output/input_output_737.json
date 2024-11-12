@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "exampleDB",
+        "exampleDB",
+        "exampleDB",
+        "exampleDB",
+        "exampleDB"
+    ],
+    "outputs": [
+        null,
+        "Authentication URL for exampleDB",
+        "Database 'exampleDB' deleted successfully",
+        "Error: Database 'exampleDB' not found",
+        "Error: Failed to delete database 'exampleDB'"
+    ]
+}

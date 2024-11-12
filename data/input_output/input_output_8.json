@@ -1,0 +1,56 @@
+{
+    "inputs": [
+        {
+            "request": {
+                "user": "user1",
+                "groups": [
+                    "group1",
+                    "group2"
+                ]
+            },
+            "view": "view1"
+        },
+        {
+            "request": {
+                "user": "user2",
+                "groups": []
+            },
+            "view": "view2"
+        },
+        {
+            "request": {
+                "user": "user3",
+                "groups": [
+                    "group3"
+                ]
+            },
+            "view": "view3"
+        },
+        {
+            "request": {
+                "user": "user4",
+                "groups": [
+                    "group4",
+                    "group5"
+                ]
+            },
+            "view": "view4"
+        },
+        {
+            "request": {
+                "user": "user5",
+                "groups": [
+                    "group6"
+                ]
+            },
+            "view": "view5"
+        }
+    ],
+    "outputs": [
+        "True",
+        "False",
+        "True",
+        "True",
+        "True"
+    ]
+}

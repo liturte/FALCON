@@ -1,0 +1,1 @@
+{"fn_name": "is_inertial", "inputs": [[[]], [[581, -384, 140, -287]], [[11, 4, 20, 9, 2, 8]]], "outputs": [[false], [false], [true]]}

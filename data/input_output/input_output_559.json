@@ -1,0 +1,221 @@
+{
+    "inputs": [
+        {
+            "beats_count": "25.0",
+            "mood_acoustic": "acoustic",
+            "mood_party": "not_party",
+            "moods_mirex": "Cluster3",
+            "lossless": "True",
+            "danceability": "not_danceable",
+            "mood_aggressive": "not_aggressive",
+            "key": "F# minor",
+            "gender": "male",
+            "chord": "C# minor",
+            "voice_instrumental": "instrumental",
+            "genre_tzanetakis": "hip",
+            "tonal_atonal": "tonal",
+            "mood_happy": "not_happy",
+            "bpm": "95",
+            "mood_relaxed": "relaxed"
+        },
+        {
+            "beats_count": "30.0",
+            "mood_acoustic": "not_acoustic",
+            "mood_party": "party",
+            "moods_mirex": "Cluster1",
+            "lossless": "False",
+            "danceability": "danceable",
+            "mood_aggressive": "aggressive",
+            "key": "A major",
+            "gender": "female",
+            "chord": "G major",
+            "voice_instrumental": "vocal",
+            "genre_tzanetakis": "rock",
+            "tonal_atonal": "atonal",
+            "mood_happy": "happy",
+            "bpm": "120",
+            "mood_relaxed": "not_relaxed"
+        },
+        {
+            "beats_count": "20.0",
+            "mood_acoustic": "acoustic",
+            "mood_party": "party",
+            "moods_mirex": "Cluster2",
+            "lossless": "True",
+            "danceability": "danceable",
+            "mood_aggressive": "not_aggressive",
+            "key": "D minor",
+            "gender": "male",
+            "chord": "A minor",
+            "voice_instrumental": "instrumental",
+            "genre_tzanetakis": "pop",
+            "tonal_atonal": "tonal",
+            "mood_happy": "happy",
+            "bpm": "140",
+            "mood_relaxed": "relaxed"
+        },
+        {
+            "beats_count": "15.0",
+            "mood_acoustic": "not_acoustic",
+            "mood_party": "not_party",
+            "moods_mirex": "Cluster4",
+            "lossless": "False",
+            "danceability": "not_danceable",
+            "mood_aggressive": "aggressive",
+            "key": "C major",
+            "gender": "female",
+            "chord": "F major",
+            "voice_instrumental": "vocal",
+            "genre_tzanetakis": "jazz",
+            "tonal_atonal": "atonal",
+            "mood_happy": "not_happy",
+            "bpm": "80",
+            "mood_relaxed": "not_relaxed"
+        },
+        {
+            "beats_count": "10.0",
+            "mood_acoustic": "acoustic",
+            "mood_party": "party",
+            "moods_mirex": "Cluster5",
+            "lossless": "True",
+            "danceability": "danceable",
+            "mood_aggressive": "not_aggressive",
+            "key": "G minor",
+            "gender": "male",
+            "chord": "D minor",
+            "voice_instrumental": "instrumental",
+            "genre_tzanetakis": "electronic",
+            "tonal_atonal": "tonal",
+            "mood_happy": "happy",
+            "bpm": "105",
+            "mood_relaxed": "relaxed"
+        }
+    ],
+    "outputs": [
+        {
+            "Mood category": [
+                "acoustic",
+                "not_party",
+                "Cluster3",
+                "not_aggressive",
+                "not_happy",
+                "relaxed"
+            ],
+            "Tonal category": [
+                "F# minor",
+                "C# minor",
+                "tonal"
+            ],
+            "Tempo category": [
+                "95"
+            ],
+            "Other category": [
+                "25.0",
+                "True",
+                "not_danceable",
+                "male",
+                "instrumental",
+                "hip"
+            ]
+        },
+        {
+            "Mood category": [
+                "not_acoustic",
+                "party",
+                "Cluster1",
+                "aggressive",
+                "happy"
+            ],
+            "Tonal category": [
+                "A major",
+                "G major",
+                "atonal"
+            ],
+            "Tempo category": [
+                "120"
+            ],
+            "Other category": [
+                "30.0",
+                "False",
+                "danceable",
+                "female",
+                "vocal",
+                "rock"
+            ]
+        },
+        {
+            "Mood category": [
+                "acoustic",
+                "party",
+                "Cluster2",
+                "happy",
+                "relaxed"
+            ],
+            "Tonal category": [
+                "D minor",
+                "A minor",
+                "tonal"
+            ],
+            "Tempo category": [
+                "140"
+            ],
+            "Other category": [
+                "20.0",
+                "True",
+                "danceable",
+                "male",
+                "instrumental",
+                "pop"
+            ]
+        },
+        {
+            "Mood category": [
+                "not_acoustic",
+                "not_party",
+                "Cluster4",
+                "aggressive"
+            ],
+            "Tonal category": [
+                "C major",
+                "F major",
+                "atonal"
+            ],
+            "Tempo category": [
+                "80"
+            ],
+            "Other category": [
+                "15.0",
+                "False",
+                "not_danceable",
+                "female",
+                "vocal",
+                "jazz"
+            ]
+        },
+        {
+            "Mood category": [
+                "acoustic",
+                "party",
+                "Cluster5",
+                "happy",
+                "relaxed"
+            ],
+            "Tonal category": [
+                "G minor",
+                "D minor",
+                "tonal"
+            ],
+            "Tempo category": [
+                "105"
+            ],
+            "Other category": [
+                "10.0",
+                "True",
+                "danceable",
+                "male",
+                "instrumental",
+                "electronic"
+            ]
+        }
+    ]
+}

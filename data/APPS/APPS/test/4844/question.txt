@@ -1,0 +1,30 @@
+Young jedi Ivan has infiltrated in The Death Star and his task is to destroy it. In order to destroy The Death Star, he needs an array of non-negative integers $a_ i$ of length $N$ that represents the code for initiating the self-destruction of The Death Star. Ivan doesn’t have the array, but he has a piece of paper with requirements for that array, given to him by his good old friend Darth Vader.
+
+On the paper, a square matrix of the size $N$ is written down. In that matrix $m$ in the $i$-th row and $j$-th column there is a number that is equal to bitwise and between numbers $a_ i$ and $a_ j$. Unfortunately, a lightsaber has destroyed all the fields on the matrix’s main diagonal and Ivan cannot read what is on these fields. Help Ivan to reconstruct an array for the self-destruction of The Death Star that meets the requirements of the matrix.
+
+The solution doesn’t need to be unique, but will always exist.
+
+-----Input-----
+The first line of input contains the integer $N$ ($1 \leq N \leq 1000$), size of the matrix. Each of the following $N$ lines contains $N$ numbers $m_{ij}$ ($0 \leq m_{ij} \leq 10^9$), the elements of the matrix.
+
+-----Output-----
+The first and only line of output must contain any array of $N$ non-negative integers at most $10^9$ that meet the requirements from the task.
+
+-----Examples-----
+Sample Input 1:
+3
+0 1 1
+1 0 1
+1 1 0
+Sample Output 1:
+1 1 1
+
+Sample Input 2:
+5
+0 0 1 1 1
+0 0 2 0 2
+1 2 0 1 3
+1 0 1 0 1
+1 2 3 1 0
+Sample Output 2:
+1 2 3 1 11

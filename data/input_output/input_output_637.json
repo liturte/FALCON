@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "/path/to/directory1",
+        "/path/to/directory2",
+        "/path/to/nonexistent_directory",
+        "/path/to/empty_directory",
+        "/path/to/directory3"
+    ],
+    "outputs": [
+        null,
+        null,
+        "The specified directory '/path/to/nonexistent_directory' does not exist.",
+        null,
+        null
+    ]
+}

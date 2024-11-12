@@ -1,0 +1,3 @@
+{
+    "329": "s = input()\n\ndef count_nineteen(s):\n    s = s.replace('n', '')\n    s = s.replace('i', '')\n    s = s.replace('e', '')\n    s = s.replace('t', '')\n    return len(s) // 9\n\nprint(count_nineteen(s))"
+}

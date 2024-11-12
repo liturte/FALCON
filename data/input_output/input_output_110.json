@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "data_directory_1",
+        "data_directory_2",
+        "empty_data_directory",
+        "invalid_files_in_directory",
+        "large_data_directory"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

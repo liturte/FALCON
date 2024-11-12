@@ -1,0 +1,8 @@
+{
+    "1008": {
+        "code": [
+            "import sys\nfrom collections import Counter\ndef is_palindrome(s):\n    return s == s[::-1]\n\ns = sys.stdin.readline().strip()\nk = int(sys.stdin.readline())\n\nif len(s) % k != 0:\n    print(\"NO\")\n    exit(0)\n\nlength = len(s) // k\n\ncounter = Counter(s[i:i+length] for i in range(0, len(s), length))\n\nif all(count == k for count in counter.values()):\n    print(\"YES\")\nelse:\n    print(\"NO\")"
+        ],
+        "prompt": "\nQUESTION:\nWhile Mike was walking in the subway, all the stuff in his back-bag dropped on the ground. There were several fax messages among them. He concatenated these strings in some order and now he has string s.\n\n [Image] \n\nHe is not sure if this is his own back-bag or someone else's. He remembered that there were exactly k messages in his own bag, each was a palindrome string and all those strings had the same length.\n\nHe asked you to help him and tell him if he has worn his own back-bag. Check if the given string s is a concatenation of k palindromes of the same length.\n\n\n-----Input-----\n\nThe first line of input contains string s containing lowercase English letters (1 \u2264 |s| \u2264 1000).\n\nThe second line contains integer k (1 \u2264 k \u2264 1000).\n\n\n-----Output-----\n\nPrint \"YES\"(without quotes) if he has worn his own back-bag or \"NO\"(without quotes) otherwise.\n\n\n-----Examples-----\nInput\nsaba\n2\n\nOutput\nNO\n\nInput\nsaddastavvat\n2\n\nOutput\nYES\n\n\n\n-----Note-----\n\nPalindrome is a string reading the same forward and backward.\n\nIn the second sample, the faxes in his back-bag can be \"saddas\" and \"tavvat\".\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

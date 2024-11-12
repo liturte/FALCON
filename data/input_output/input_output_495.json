@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "2 1 3",
+        "0 0 0 0",
+        "3 2 1 4",
+        "5 5 5 5",
+        "1 2 3 4"
+    ],
+    "outputs": [
+        "Order Summary:\n- Burger: 2\n- Fries: 1\n- Soda: 3\n\nTotal Cost: $14.50",
+        "Order Summary:\n\nTotal Cost: $0.00",
+        "Order Summary:\n- Burger: 3\n- Fries: 2\n- Soda: 1\n- Salad: 4\n\nTotal Cost: $30.50",
+        "Order Summary:\n- Burger: 5\n- Fries: 5\n- Soda: 5\n- Salad: 5\n\nTotal Cost: $60.00",
+        "Order Summary:\n- Burger: 1\n- Fries: 2\n- Soda: 3\n- Salad: 4\n\nTotal Cost: $23.50"
+    ]
+}

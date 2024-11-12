@@ -1,0 +1,1 @@
+{"fn_name": "make_upper_case", "inputs": [["hello"], ["hello world"], ["hello world !"], ["heLlO wORLd !"], ["1,2,3 hello world!"]], "outputs": [["HELLO"], ["HELLO WORLD"], ["HELLO WORLD !"], ["HELLO WORLD !"], ["1,2,3 HELLO WORLD!"]]}

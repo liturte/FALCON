@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        {
+            "name": "programming",
+            "env": "development"
+        },
+        {
+            "name": "technology",
+            "env": "testing"
+        },
+        {
+            "name": "python",
+            "env": "production"
+        },
+        {
+            "name": "gaming",
+            "env": "development"
+        },
+        {
+            "name": "science",
+            "env": "testing"
+        }
+    ],
+    "outputs": [
+        "/r/programming configuration",
+        "/r/technology configuration",
+        "/r/python configuration",
+        "/r/gaming configuration",
+        "/r/science configuration"
+    ]
+}

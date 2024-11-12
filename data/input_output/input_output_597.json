@@ -1,0 +1,28 @@
+{
+    "inputs": [
+        "doc object with 2 paragraphs, 3 runs in the 2nd paragraph",
+        "doc object with 1 paragraph",
+        "doc object with 2 paragraphs, 2 runs in the 2nd paragraph",
+        "doc object with 3 paragraphs, 4 runs in the 2nd paragraph",
+        "doc object with 2 paragraphs, 5 runs in the 2nd paragraph"
+    ],
+    "outputs": [
+        [
+            "text from 3rd run of 2nd paragraph",
+            "text from 4th run of 2nd paragraph"
+        ],
+        null,
+        [
+            null,
+            null
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            "text from 3rd run of 2nd paragraph",
+            "text from 4th run of 2nd paragraph"
+        ]
+    ]
+}

@@ -1,0 +1,20 @@
+A nice part of the Roman Catholic Mass is the rite of peace when people shake hands with their neighbours and say “peace be with you”. Mirko has found a way to turn this ritual into his own favor. Inside the church, there are $R$ rows of benches where each row can hold a capacity of $S$ people. We can imagine the seating order as a matrix sized $R \times S$ where each element represents either a person or an empty seating space. Let us assume that each person shakes hands with their neighbours. That means that the neighbours are located in one of the eight neighbouring elements (if such element exists):
+
+
+A seating order of the people inside the church has been given before Mirko enters. Mirko is, of course, late for the morning Mass and will sit in an empty space so that he shakes hands with as many people as he can. If there are no empty seats left, Mirko will simply give up on the idea and go to the evening Mass instead. We can assume that nobody enters the church after Mirko.
+
+Calculate the total number of handshakes given during the morning Mass.
+
+-----Input-----
+The first line of input contains positive integers $R$ and $S$ ($1 \leq R, S \leq 50$) as stated in the text. Each of the following $R$ lines contains $S$ characters. These $R \times S$ characters represent the seating order. The character “.” (dot) represents an empty place and the character “o” (lowercase letter o) represents a person.
+
+-----Output-----
+The first and only line of output should contain the required number of handshakes.
+
+-----Examples-----
+Sample Input:
+2 3
+..o
+o..
+Sample Output:
+2

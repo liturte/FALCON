@@ -1,0 +1,1 @@
+{"inputs": ["1905\n", "0112\n", "1700\n", "0101\n", "1312\n", "0348\n", "9999\n", "0001\n", "0000\n", "0100\n"], "outputs": ["YYMM\n", "AMBIGUOUS\n", "NA\n", "AMBIGUOUS\n", "YYMM\n", "MMYY\n", "NA\n", "YYMM\n", "NA\n", "MMYY\n"]}

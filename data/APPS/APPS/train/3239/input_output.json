@@ -1,0 +1,1 @@
+{"fn_name": "guess_hat_color", "inputs": [["white", "black", "white", "black"], ["white", "black", "black", "white"]], "outputs": [[2], [1]]}

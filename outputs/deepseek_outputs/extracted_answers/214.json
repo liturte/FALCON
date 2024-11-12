@@ -1,0 +1,3 @@
+{
+    "214": "def solve(a, b):\n    ans = 0\n    for i in range(len(a)):\n        if a[i] == '0' and b[i] == '0':\n            ans += 1\n    return min(ans, 2)\n\n\na = input()\nb = input()\nprint(solve(a, b))"
+}

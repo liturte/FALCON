@@ -1,0 +1,19 @@
+You’d like to figure out whether a car was speeding while it was driving down a straight road. Unfortunately, you don’t have any radar guns or related instruments for measuring speed directly; all you have are photographs taken of the car at various checkpoints on the road at various times. Given when and where these photographs were taken, what is the fastest speed that you can prove the car must have been going at some point along the road?
+
+-----Input-----
+The first line of input contains an integer $n$ ($2 \le n \le 100$), which is the number of photographs taken.
+
+Each of the following $n$ lines contains two space-separated integers $t$ ($0 \le t \le 10^4$) and
+
+$d$ ($0 \le d \le 10^6$), where $t$ is the time of the photograph in hours, and $d$ is the distance along the road in miles. The first photograph is always taken at time $0$ with distance $0$, and both the times and distances strictly increase.
+
+-----Output-----
+Output a single integer, which is the greatest integral speed that you can be certain the car was going at some point in miles per hour.
+
+-----Examples-----
+Sample Input:
+2
+0 0
+7 42
+Sample Output:
+6

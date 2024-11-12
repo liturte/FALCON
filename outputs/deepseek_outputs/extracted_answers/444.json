@@ -1,0 +1,3 @@
+{
+    "444": "def solve(n):\n    if n == 1:\n        return 1, [1]\n    if n < 10:\n        return 1, [n]\n    if n < 20:\n        return 2, [10, n - 10]\n    if n < 30:\n        return 2, [20, n - 20]\n    if n < 40:\n        return 2, [30, n - 30]\n    if n < 50:\n        return 2, [40, n - 40]\n    if n < 60:\n        return 2, [50, n - 50]\n    if n < 70:\n        return 2, [60, n - 60]\n    if n < 80:\n        return 2, [70, n - 70]\n    if n < 90:\n        return 2, [80, n - 80]\n    if n < 100:\n        return 2, [90, n - 90]\n    return 3, [9, 9, n - 18]\n\nn = int(input())\nk, d = solve(n)\nprint(k)\nprint(*d)"
+}

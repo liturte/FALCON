@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "input_instance_1",
+        "input_instance_2",
+        "input_instance_3",
+        "input_instance_4",
+        "input_instance_5"
+    ],
+    "outputs": [
+        "classification_pred_1, minimax_loss_pred_1",
+        "classification_pred_2, minimax_loss_pred_2",
+        "classification_pred_3, minimax_loss_pred_3",
+        "classification_pred_4, minimax_loss_pred_4",
+        "classification_pred_5, minimax_loss_pred_5"
+    ]
+}

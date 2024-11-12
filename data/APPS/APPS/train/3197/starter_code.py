@@ -1,0 +1,2 @@
+def conjugate(verb):
+	

@@ -1,0 +1,26 @@
+{
+    "inputs": [
+        "sample_input.json",
+        "empty_input.json",
+        "missing_scores_input.json",
+        "multiple_students_input.json",
+        "different_structure_input.json"
+    ],
+    "outputs": [
+        {
+            "Alice": 87,
+            "Bob": 80
+        },
+        null,
+        null,
+        {
+            "Alice": 87,
+            "Bob": 80,
+            "Charlie": 92
+        },
+        {
+            "Student1": 85,
+            "Student2": 90
+        }
+    ]
+}

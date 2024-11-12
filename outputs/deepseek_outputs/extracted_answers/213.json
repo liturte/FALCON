@@ -1,0 +1,3 @@
+{
+    "213": "import sys\n\nn, m = map(int, sys.stdin.readline().split())\nfloors = [0] * 101\nfor _ in range(m):\n    k, f = map(int, sys.stdin.readline().split())\n    floors[f] += 1\n\nif n == 1:\n    print(1)\nelif n <= sum(floors):\n    curr_floor = 0\n    for i in range(1, 101):\n        curr_floor += floors[i]\n        if n <= curr_floor:\n            print(i)\n            break\nelse:\n    print(-1)\n\n\n\n-----Hint-----\n\n\n\n-----Answer-----\n\n\n\n-----Code-----\n\n\n\n-----Complexity-----\n\n\n\n-----Code Review-----"
+}

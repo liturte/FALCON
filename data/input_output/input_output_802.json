@@ -1,0 +1,56 @@
+{
+    "inputs": [
+        "import os\nimport sys\n\n# GitHub stars: 10-100\n\nprint('Hello, World!')",
+        "import os\nimport sys\n\n# GitHub stars: 1000-10000\n\nprint('Hello, World!')",
+        "import os\nimport sys\n\n# GitHub stars: 500-1000\n\nprint('Hello, World!')",
+        "import os\nimport sys\n\n# GitHub stars: 1-10\n\nprint('Hello, World!')",
+        "import os\nimport sys\n\n# GitHub stars: 100-500\n\nprint('Hello, World!')"
+    ],
+    "outputs": [
+        {
+            "filename": "run.py",
+            "directory": "work/Aufgabe13_gui",
+            "imported_modules": [
+                "os",
+                "sys"
+            ],
+            "github_stars_range": "10-100"
+        },
+        {
+            "filename": "run.py",
+            "directory": "work/Aufgabe13_gui",
+            "imported_modules": [
+                "os",
+                "sys"
+            ],
+            "github_stars_range": "1000-10000"
+        },
+        {
+            "filename": "run.py",
+            "directory": "work/Aufgabe13_gui",
+            "imported_modules": [
+                "os",
+                "sys"
+            ],
+            "github_stars_range": "500-1000"
+        },
+        {
+            "filename": "run.py",
+            "directory": "work/Aufgabe13_gui",
+            "imported_modules": [
+                "os",
+                "sys"
+            ],
+            "github_stars_range": "1-10"
+        },
+        {
+            "filename": "run.py",
+            "directory": "work/Aufgabe13_gui",
+            "imported_modules": [
+                "os",
+                "sys"
+            ],
+            "github_stars_range": "100-500"
+        }
+    ]
+}

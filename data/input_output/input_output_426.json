@@ -1,0 +1,68 @@
+{
+    "inputs": [
+        [
+            "numpy",
+            "pandas",
+            "matplotlib",
+            "numpy",
+            "scipy",
+            "numpy"
+        ],
+        [
+            "requests",
+            "beautifulsoup",
+            "requests",
+            "flask",
+            "beautifulsoup"
+        ],
+        [
+            "django",
+            "flask",
+            "django",
+            "django",
+            "flask"
+        ],
+        [
+            "tensorflow",
+            "keras",
+            "pytorch",
+            "tensorflow",
+            "keras",
+            "tensorflow"
+        ],
+        [
+            "numpy",
+            "pandas",
+            "numpy",
+            "numpy",
+            "matplotlib"
+        ]
+    ],
+    "outputs": [
+        {
+            "numpy": 3,
+            "pandas": 1,
+            "matplotlib": 1,
+            "scipy": 1
+        },
+        {
+            "requests": 2,
+            "beautifulsoup": 2,
+            "flask": 1
+        },
+        {
+            "django": 3,
+            "flask": 2
+        },
+        {
+            "tensorflow": 3,
+            "keras": 2,
+            "pytorch": 1
+        },
+        {
+            "numpy": 3,
+            "pandas": 1,
+            "matplotlib": 1
+        }
+    ]
+}

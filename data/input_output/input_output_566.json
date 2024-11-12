@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{\"element_widths\": {\"element1\": 100, \"element2\": 150, \"element3\": 200}, \"absolute_elements\": [\"element2\", \"element3\"], \"replaced_width\": 120}",
+        "{\"element_widths\": {\"element1\": 50, \"element2\": 75, \"element3\": 100}, \"absolute_elements\": [\"element1\", \"element3\"], \"replaced_width\": 80}",
+        "{\"element_widths\": {\"element1\": 80, \"element2\": 120, \"element3\": 160}, \"absolute_elements\": [\"element1\", \"element2\", \"element3\"], \"replaced_width\": 100}",
+        "{\"element_widths\": {\"element1\": 200, \"element2\": 250, \"element3\": 300}, \"absolute_elements\": [], \"replaced_width\": 150}",
+        "{\"element_widths\": {\"element1\": 30, \"element2\": 40, \"element3\": 50}, \"absolute_elements\": [\"element1\", \"element2\", \"element3\"], \"replaced_width\": 60}"
+    ],
+    "outputs": [
+        "240",
+        "180",
+        "300",
+        "750",
+        "180"
+    ]
+}

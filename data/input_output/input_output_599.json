@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "[85, 92, 78, 96, 88]",
+        "[72, 85, 90, 88, 76]",
+        "[70, 80, 90, 100, 85]",
+        "[60, 70, 80, 90, 100]",
+        "[55, 65, 75, 85, 95]"
+    ],
+    "outputs": [
+        "Highest score in part1: 96, Median score in part2: 88",
+        "Highest score in part1: 92, Median score in part2: 88",
+        "Highest score in part1: 100, Median score in part2: 90",
+        "Highest score in part1: 100, Median score in part2: 80",
+        "Highest score in part1: 95, Median score in part2: 75"
+    ]
+}

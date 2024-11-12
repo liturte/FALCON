@@ -1,0 +1,36 @@
+{
+    "inputs": [
+        [
+            "Temperature",
+            "Counts (per second)",
+            "Magnitude"
+        ],
+        [
+            "Flux Densities (Jansky)",
+            "Brightness",
+            "Luminosity"
+        ],
+        [
+            "Pressure",
+            "Voltage",
+            "Current"
+        ],
+        [
+            "Counts (per second)",
+            "Flux Densities (Jansky)",
+            "Magnitude"
+        ],
+        [
+            "Brightness",
+            "Luminosity",
+            "Pressure"
+        ]
+    ],
+    "outputs": [
+        "Counts (per second)",
+        "Flux Densities (Jansky)",
+        "No Photometry",
+        "Counts (per second)",
+        "No Photometry"
+    ]
+}

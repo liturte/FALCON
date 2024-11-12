@@ -1,0 +1,3 @@
+{
+    "221": "import sys\nfrom collections import deque\n\ndef main():\n    n, k = map(int, sys.stdin.readline().split())\n    q = deque([i for i in range(1, n + 1)])\n    res = []\n    while q:\n        res.append(q.popleft())\n        if q:\n            q.popleft()\n    print(len(res))\n    print(*res)\n\nif __name__ == '__main__':\n    main()"
+}

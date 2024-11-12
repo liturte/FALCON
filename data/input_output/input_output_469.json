@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "sample_image1.jpg",
+        "sample_image2.jpg",
+        "sample_image3.jpg",
+        "non_existent_image.jpg",
+        "empty_image.jpg"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        "Error: Image file not found.",
+        "Error: Empty image file."
+    ]
+}

@@ -1,0 +1,1 @@
+{"fn_name": "any_arrows", "inputs": [[[]], [[{"range": 5, "damaged": false}]], [[{"range": 5, "damaged": false}, {"range": 15, "damaged": true}]], [[{"range": 5}, {"range": 10, "damaged": true}, {"damaged": true}]], [[{"range": 10, "damaged": true}, {"damaged": true}]]], "outputs": [[false], [true], [true], [true], [false]]}

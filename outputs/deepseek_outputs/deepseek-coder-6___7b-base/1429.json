@@ -1,0 +1,8 @@
+{
+    "1429": {
+        "code": [
+            "\"\"\"\nfrom collections import Counter\n\ndef main():\n    N = int(input())\n    S = input()\n\n    S1 = S[::-1].replace('A', 'X').replace('T', 'Y').replace('C', 'Z').replace('G', 'W')\n    S1 = S1[::-1]\n\n    cnt = Counter(S1)\n    ans = 0\n\n    for v in cnt.values():\n        ans += v * (v + 1) // 2\n\n    print(ans)\n\nif __name__ == \"__main__\":\n    main()"
+        ],
+        "prompt": "\nQUESTION:\nWe have a string S of length N consisting of A, T, C, and G.\nStrings T_1 and T_2 of the same length are said to be complementary when, for every i (1 \\leq i \\leq l), the i-th character of T_1 and the i-th character of T_2 are complementary. Here, A and T are complementary to each other, and so are C and G.\nFind the number of non-empty contiguous substrings T of S that satisfies the following condition:\n - There exists a string that is a permutation of T and is complementary to T.\nHere, we distinguish strings that originate from different positions in S, even if the contents are the same.\n\n-----Constraints-----\n - 1 \\leq N \\leq 5000\n - S consists of A, T, C, and G.\n\n-----Input-----\nInput is given from Standard Input in the following format:\nN S\n\n-----Output-----\nPrint the number of non-empty contiguous substrings T of S that satisfies the condition.\n\n-----Sample Input-----\n4 AGCT\n\n-----Sample Output-----\n2\n\nThe following two substrings satisfy the condition:\n - GC (the 2-nd through 3-rd characters) is complementary to CG, which is a permutation of GC.\n - AGCT (the 1-st through 4-th characters) is complementary to TCGA, which is a permutation of AGCT.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

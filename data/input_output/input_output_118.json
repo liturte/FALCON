@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        {
+            "category_tensor": "[0, 1, 0]",
+            "line_tensor": "[[0, 1, 0], [1, 0, 1], [0, 1, 0]]"
+        },
+        {
+            "category_tensor": "[1, 0, 1]",
+            "line_tensor": "[[1, 0, 1], [0, 1, 0], [1, 0, 1]]"
+        },
+        {
+            "category_tensor": "[0, 1, 0]",
+            "line_tensor": "[[0, 1, 0], [1, 0, 1], [0, 1, 0], [1, 0, 1]]"
+        },
+        {
+            "category_tensor": "[1, 0, 1]",
+            "line_tensor": "[[1, 0, 1], [0, 1, 0], [1, 0, 1], [0, 1, 0]]"
+        },
+        {
+            "category_tensor": "[0, 1, 0]",
+            "line_tensor": "[[0, 1, 0], [1, 0, 1], [0, 1, 0], [1, 0, 1], [0, 1, 0]]"
+        }
+    ],
+    "outputs": [
+        "Trained RNN model on toy dataset with expected outputs.",
+        "Trained RNN model on toy dataset with expected outputs.",
+        "Trained RNN model on toy dataset with expected outputs.",
+        "Trained RNN model on toy dataset with expected outputs.",
+        "Trained RNN model on toy dataset with expected outputs."
+    ]
+}

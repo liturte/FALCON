@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{\"name\": \"John Doe\", \"age\": 30, \"city\": \"New York\"}",
+        "{\"name\": \"Alice Smith\", \"age\": 25, \"city\": \"Los Angeles\"}",
+        "{\"product\": \"Laptop\", \"price\": 1200, \"brand\": \"Apple\"}",
+        "{\"product\": \"Phone\", \"price\": 800, \"brand\": \"Samsung\"}",
+        "{\"team\": \"Marketing\", \"members\": [\"Alice\", \"Bob\", \"Charlie\"]}"
+    ],
+    "outputs": [
+        "\"John Doe\"",
+        "\"Los Angeles\"",
+        "1200",
+        "800",
+        "[\"Alice\", \"Bob\", \"Charlie\"]"
+    ]
+}

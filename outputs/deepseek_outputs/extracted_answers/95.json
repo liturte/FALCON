@@ -1,0 +1,3 @@
+{
+    "95": "n = int(input())\na = list(map(int, input().split()))\n\nif a == sorted(a) or a == sorted(a, reverse=True):\n    print(\"YES\")\nelse:\n    print(\"NO\")"
+}

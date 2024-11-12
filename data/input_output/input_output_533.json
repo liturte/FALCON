@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Grayscale image 1 with a chessboard pattern",
+        "Grayscale image 2 with a chessboard pattern",
+        "Grayscale image 3 with a chessboard pattern",
+        "Grayscale image 4 with a chessboard pattern",
+        "Grayscale image 5 with a chessboard pattern"
+    ],
+    "outputs": [
+        "Detected chessboard corners for image 1",
+        "Detected chessboard corners for image 2",
+        "Detected chessboard corners for image 3",
+        "Detected chessboard corners for image 4",
+        "Detected chessboard corners for image 5"
+    ]
+}

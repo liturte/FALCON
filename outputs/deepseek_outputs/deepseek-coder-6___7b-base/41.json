@@ -1,0 +1,8 @@
+{
+    "41": {
+        "code": [
+            "def main():\n    n = int(input())\n    a = list(map(int, input().split()))\n    d = [0] * n\n    for i in range(n):\n        if a[i] == 0:\n            d[i] = 0\n        else:\n            j = i - 1\n            while j >= 0 and a[j] != 0:\n                j -= 1\n            if j < 0:\n                d[i] = i + 1\n            else:\n                d[i] = i - j\n    print(' '.join(map(str, d)))\n\nif __name__ == '__main__':\n    main()"
+        ],
+        "prompt": "\nQUESTION:\nYou are given the array of integer numbers a_0, a_1, ..., a_{n} - 1. For each element find the distance to the nearest zero (to the element which equals to zero). There is at least one zero element in the given array.\n\n\n-----Input-----\n\nThe first line contains integer n (1 \u2264 n \u2264 2\u00b710^5) \u2014 length of the array a. The second line contains integer elements of the array separated by single spaces ( - 10^9 \u2264 a_{i} \u2264 10^9).\n\n\n-----Output-----\n\nPrint the sequence d_0, d_1, ..., d_{n} - 1, where d_{i} is the difference of indices between i and nearest j such that a_{j} = 0. It is possible that i = j.\n\n\n-----Examples-----\nInput\n9\n2 1 0 3 0 0 3 2 4\n\nOutput\n2 1 0 1 0 0 1 2 3 \nInput\n5\n0 1 2 3 4\n\nOutput\n0 1 2 3 4 \nInput\n7\n5 6 0 1 -2 3 4\n\nOutput\n2 1 0 1 2 3 4\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

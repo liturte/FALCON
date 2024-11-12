@@ -1,0 +1,8 @@
+{
+    "462": {
+        "code": [
+            "x1, x2, x3 = [int(i) for i in input().split()]\n\nprint(max(x1, x2, x3) - min(x1, x2, x3))"
+        ],
+        "prompt": "\nQUESTION:\nThere are three friend living on the straight line Ox in Lineland. The first friend lives at the point x_1, the second friend lives at the point x_2, and the third friend lives at the point x_3. They plan to celebrate the New Year together, so they need to meet at one point. What is the minimum total distance they have to travel in order to meet at some point and celebrate the New Year?\n\nIt's guaranteed that the optimal answer is always integer.\n\n\n-----Input-----\n\nThe first line of the input contains three distinct integers x_1, x_2 and x_3 (1 \u2264 x_1, x_2, x_3 \u2264 100)\u00a0\u2014 the coordinates of the houses of the first, the second and the third friends respectively. \n\n\n-----Output-----\n\nPrint one integer\u00a0\u2014 the minimum total distance the friends need to travel in order to meet together.\n\n\n-----Examples-----\nInput\n7 1 4\n\nOutput\n6\n\nInput\n30 20 10\n\nOutput\n20\n\n\n\n-----Note-----\n\nIn the first sample, friends should meet at the point 4. Thus, the first friend has to travel the distance of 3 (from the point 7 to the point 4), the second friend also has to travel the distance of 3 (from the point 1 to the point 4), while the third friend should not go anywhere because he lives at the point 4.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

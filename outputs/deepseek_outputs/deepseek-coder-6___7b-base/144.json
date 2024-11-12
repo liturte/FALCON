@@ -1,0 +1,8 @@
+{
+    "144": {
+        "code": [
+            "def lucky_ticket(n, a):\n    for i in range(1, n):\n        s1 = sum(map(int, a[:i]))\n        s2 = sum(map(int, a[i:]))\n        if s1 == s2:\n            return \"YES\"\n    return \"NO\"\n\n\nn = int(input())\na = input()\nprint(lucky_ticket(n, a))"
+        ],
+        "prompt": "\nQUESTION:\nRecently Vasya found a golden ticket \u2014 a sequence which consists of $n$ digits $a_1a_2\\dots a_n$. Vasya considers a ticket to be lucky if it can be divided into two or more non-intersecting segments with equal sums. For example, ticket $350178$ is lucky since it can be divided into three segments $350$, $17$ and $8$: $3+5+0=1+7=8$. Note that each digit of sequence should belong to exactly one segment.\n\nHelp Vasya! Tell him if the golden ticket he found is lucky or not.\n\n\n-----Input-----\n\nThe first line contains one integer $n$ ($2 \\le n \\le 100$) \u2014 the number of digits in the ticket.\n\nThe second line contains $n$ digits $a_1 a_2 \\dots a_n$ ($0 \\le a_i \\le 9$) \u2014 the golden ticket. Digits are printed without spaces.\n\n\n-----Output-----\n\nIf the golden ticket is lucky then print \"YES\", otherwise print \"NO\" (both case insensitive).\n\n\n-----Examples-----\nInput\n5\n73452\n\nOutput\nYES\n\nInput\n4\n1248\n\nOutput\nNO\n\n\n\n-----Note-----\n\nIn the first example the ticket can be divided into $7$, $34$ and $52$: $7=3+4=5+2$.\n\nIn the second example it is impossible to divide ticket into segments with equal sum.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

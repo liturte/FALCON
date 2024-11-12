@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "0",
+        "-5",
+        "abc",
+        "3",
+        "10"
+    ],
+    "outputs": [
+        "Invalid input. Please enter a positive integer.",
+        "Invalid input. Please enter a positive integer.",
+        "Invalid input. Please enter a positive integer.",
+        null,
+        null
+    ]
+}

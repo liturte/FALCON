@@ -1,0 +1,1414 @@
+{"filename": "1233.pkl", "key": 1233, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "774.pkl", "key": 774, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "495.pkl", "key": 495, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "959.pkl", "key": 959, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp047prhzq.py\", line 43, in <module>\n    code()\n  File \"/tmp/tmp047prhzq.py\", line 31, in code\n    if mat[i][0]=='1':\nIndexError: list index out of range\n"}
+{"filename": "1035.pkl", "key": 1035, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 46)"}
+{"filename": "385.pkl", "key": 385, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "750.pkl", "key": 750, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "7.pkl", "key": 7, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "743.pkl", "key": 743, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "981.pkl", "key": 981, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "415.pkl", "key": 415, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 41)"}
+{"filename": "666.pkl", "key": 666, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1213.pkl", "key": 1213, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1361.pkl", "key": 1361, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "417.pkl", "key": 417, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "664.pkl", "key": 664, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1179.pkl", "key": 1179, "error_type": "SyntaxError", "error_detail": "Missing parentheses in call to 'print'. Did you mean print(a[k-1])? (<string>, line 23)"}
+{"filename": "493.pkl", "key": 493, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "862.pkl", "key": 862, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "646.pkl", "key": 646, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1139.pkl", "key": 1139, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1373.pkl", "key": 1373, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "616.pkl", "key": 616, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 45)"}
+{"filename": "381.pkl", "key": 381, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "710.pkl", "key": 710, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 22)"}
+{"filename": "642.pkl", "key": 642, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "325.pkl", "key": 325, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "461.pkl", "key": 461, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp1otb4rum.py\", line 26, in <module>\n    code()\n  File \"/tmp/tmp1otb4rum.py\", line 19, in code\n    a,b,c,n = map(int,input().split())\nValueError: not enough values to unpack (expected 4, got 1)\n"}
+{"filename": "647.pkl", "key": 647, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpt11zu_ik.py\", line 26, in <module>\n    code()\n  File \"/tmp/tmpt11zu_ik.py\", line 24, in code\n    print(a[i], b[i])\nIndexError: list index out of range\n"}
+{"filename": "858.pkl", "key": 858, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "796.pkl", "key": 796, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "405.pkl", "key": 405, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "316.pkl", "key": 316, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "355.pkl", "key": 355, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 50)"}
+{"filename": "1400.pkl", "key": 1400, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1015.pkl", "key": 1015, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1049.pkl", "key": 1049, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1369.pkl", "key": 1369, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 44)"}
+{"filename": "881.pkl", "key": 881, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "313.pkl", "key": 313, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "132.pkl", "key": 132, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "863.pkl", "key": 863, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "353.pkl", "key": 353, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1226.pkl", "key": 1226, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 47)"}
+{"filename": "277.pkl", "key": 277, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1391.pkl", "key": 1391, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "990.pkl", "key": 990, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "529.pkl", "key": 529, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "399.pkl", "key": 399, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1401.pkl", "key": 1401, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp6xuvssmk.py\", line 38, in <module>\n    code()\n  File \"/tmp/tmp6xuvssmk.py\", line 26, in code\n    g[y].append(x)\nIndexError: list index out of range\n"}
+{"filename": "1164.pkl", "key": 1164, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "435.pkl", "key": 435, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1370.pkl", "key": 1370, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1188.pkl", "key": 1188, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "880.pkl", "key": 880, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "978.pkl", "key": 978, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "886.pkl", "key": 886, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1434.pkl", "key": 1434, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1005.pkl", "key": 1005, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1046.pkl", "key": 1046, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1281.pkl", "key": 1281, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp0zg9hifk.py\", line 44, in <module>\n    code()\n  File \"/tmp/tmp0zg9hifk.py\", line 42, in code\n    main()\n  File \"/tmp/tmp0zg9hifk.py\", line 38, in main\n    print(ops(n, k, arr))\n  File \"/tmp/tmp0zg9hifk.py\", line 30, in ops\n    if xor(arr[i:j+1]) == 0:\nTypeError: xor() missing 1 required positional argument: 'b'\n"}
+{"filename": "310.pkl", "key": 310, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "468.pkl", "key": 468, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "181.pkl", "key": 181, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1277.pkl", "key": 1277, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 59)"}
+{"filename": "1195.pkl", "key": 1195, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "83.pkl", "key": 83, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "359.pkl", "key": 359, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 40)"}
+{"filename": "1194.pkl", "key": 1194, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "621.pkl", "key": 621, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "271.pkl", "key": 271, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpzz_awvyx.py\", line 40, in <module>\n    code()\n  File \"/tmp/tmpzz_awvyx.py\", line 27, in code\n    n = int(input())\nEOFError: EOF when reading a line\n"}
+{"filename": "1008.pkl", "key": 1008, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "292.pkl", "key": 292, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 26)"}
+{"filename": "806.pkl", "key": 806, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1481.pkl", "key": 1481, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "702.pkl", "key": 702, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "95.pkl", "key": 95, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "426.pkl", "key": 426, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "539.pkl", "key": 539, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "50.pkl", "key": 50, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1388.pkl", "key": 1388, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1041.pkl", "key": 1041, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "236.pkl", "key": 236, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "945.pkl", "key": 945, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 75)"}
+{"filename": "253.pkl", "key": 253, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "315.pkl", "key": 315, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1153.pkl", "key": 1153, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1278.pkl", "key": 1278, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "71.pkl", "key": 71, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "472.pkl", "key": 472, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "272.pkl", "key": 272, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1156.pkl", "key": 1156, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1065.pkl", "key": 1065, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "899.pkl", "key": 899, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 54)"}
+{"filename": "517.pkl", "key": 517, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "347.pkl", "key": 347, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "941.pkl", "key": 941, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 24)"}
+{"filename": "897.pkl", "key": 897, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "555.pkl", "key": 555, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1469.pkl", "key": 1469, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 32)"}
+{"filename": "543.pkl", "key": 543, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "827.pkl", "key": 827, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "478.pkl", "key": 478, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "489.pkl", "key": 489, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "986.pkl", "key": 986, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1495.pkl", "key": 1495, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "37.pkl", "key": 37, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "230.pkl", "key": 230, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1181.pkl", "key": 1181, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "638.pkl", "key": 638, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1082.pkl", "key": 1082, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 61)"}
+{"filename": "187.pkl", "key": 187, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1319.pkl", "key": 1319, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "286.pkl", "key": 286, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1276.pkl", "key": 1276, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 34)"}
+{"filename": "273.pkl", "key": 273, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1066.pkl", "key": 1066, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1234.pkl", "key": 1234, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "227.pkl", "key": 227, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "391.pkl", "key": 391, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1002.pkl", "key": 1002, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "763.pkl", "key": 763, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "407.pkl", "key": 407, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "633.pkl", "key": 633, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "448.pkl", "key": 448, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "613.pkl", "key": 613, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1396.pkl", "key": 1396, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "961.pkl", "key": 961, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "984.pkl", "key": 984, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1339.pkl", "key": 1339, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "161.pkl", "key": 161, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 22)"}
+{"filename": "1392.pkl", "key": 1392, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1480.pkl", "key": 1480, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1449.pkl", "key": 1449, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "134.pkl", "key": 134, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 27)"}
+{"filename": "798.pkl", "key": 798, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 30)"}
+{"filename": "1225.pkl", "key": 1225, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1012.pkl", "key": 1012, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "216.pkl", "key": 216, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "363.pkl", "key": 363, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "278.pkl", "key": 278, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "729.pkl", "key": 729, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1073.pkl", "key": 1073, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "639.pkl", "key": 639, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "421.pkl", "key": 421, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 45)"}
+{"filename": "875.pkl", "key": 875, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 32)"}
+{"filename": "67.pkl", "key": 67, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "668.pkl", "key": 668, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1013.pkl", "key": 1013, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 46)"}
+{"filename": "1244.pkl", "key": 1244, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "251.pkl", "key": 251, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "522.pkl", "key": 522, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 34)"}
+{"filename": "999.pkl", "key": 999, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "732.pkl", "key": 732, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1096.pkl", "key": 1096, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 107)"}
+{"filename": "1043.pkl", "key": 1043, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1414.pkl", "key": 1414, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 56)"}
+{"filename": "441.pkl", "key": 441, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "296.pkl", "key": 296, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1354.pkl", "key": 1354, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "926.pkl", "key": 926, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "149.pkl", "key": 149, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1079.pkl", "key": 1079, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "125.pkl", "key": 125, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "530.pkl", "key": 530, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "707.pkl", "key": 707, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1332.pkl", "key": 1332, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "593.pkl", "key": 593, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "377.pkl", "key": 377, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "17.pkl", "key": 17, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "848.pkl", "key": 848, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1492.pkl", "key": 1492, "error_type": "SyntaxError", "error_detail": "EOL while scanning string literal (<string>, line 43)"}
+{"filename": "919.pkl", "key": 919, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "771.pkl", "key": 771, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "480.pkl", "key": 480, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 37)"}
+{"filename": "128.pkl", "key": 128, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "950.pkl", "key": 950, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1199.pkl", "key": 1199, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "658.pkl", "key": 658, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 36)"}
+{"filename": "218.pkl", "key": 218, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "193.pkl", "key": 193, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 36)"}
+{"filename": "1352.pkl", "key": 1352, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1193.pkl", "key": 1193, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1058.pkl", "key": 1058, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "695.pkl", "key": 695, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "494.pkl", "key": 494, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1131.pkl", "key": 1131, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1090.pkl", "key": 1090, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "96.pkl", "key": 96, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpqp8av55e.py\", line 39, in <module>\n    code()\n  File \"/tmp/tmpqp8av55e.py\", line 32, in code\n    while x not in path:\nNameError: name 'path' is not defined\n"}
+{"filename": "882.pkl", "key": 882, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "282.pkl", "key": 282, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 57)"}
+{"filename": "769.pkl", "key": 769, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1077.pkl", "key": 1077, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpr2doot19.py\", line 32, in <module>\n    code()\n  File \"/tmp/tmpr2doot19.py\", line 24, in code\n    b[i] += 1\nIndexError: list index out of range\n"}
+{"filename": "1217.pkl", "key": 1217, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "842.pkl", "key": 842, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1415.pkl", "key": 1415, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 47)"}
+{"filename": "1408.pkl", "key": 1408, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1377.pkl", "key": 1377, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1446.pkl", "key": 1446, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "956.pkl", "key": 956, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "572.pkl", "key": 572, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "384.pkl", "key": 384, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1410.pkl", "key": 1410, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1151.pkl", "key": 1151, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1219.pkl", "key": 1219, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 22)"}
+{"filename": "918.pkl", "key": 918, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "700.pkl", "key": 700, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "238.pkl", "key": 238, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 32)"}
+{"filename": "1309.pkl", "key": 1309, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpszr6xguh.py\", line 27, in <module>\n    code()\n  File \"/tmp/tmpszr6xguh.py\", line 24, in code\n    ans += min(w[i] + w[2 * n - 1 - i], w[i + 1] + w[2 * n - i])\nIndexError: list index out of range\n"}
+{"filename": "1222.pkl", "key": 1222, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "63.pkl", "key": 63, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "123.pkl", "key": 123, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1472.pkl", "key": 1472, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1229.pkl", "key": 1229, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 39)"}
+{"filename": "229.pkl", "key": 229, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "112.pkl", "key": 112, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 96)"}
+{"filename": "819.pkl", "key": 819, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 37)"}
+{"filename": "952.pkl", "key": 952, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1230.pkl", "key": 1230, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1440.pkl", "key": 1440, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1261.pkl", "key": 1261, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1177.pkl", "key": 1177, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "275.pkl", "key": 275, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "585.pkl", "key": 585, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1471.pkl", "key": 1471, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "375.pkl", "key": 375, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1483.pkl", "key": 1483, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "66.pkl", "key": 66, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "751.pkl", "key": 751, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "691.pkl", "key": 691, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 79)"}
+{"filename": "34.pkl", "key": 34, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "868.pkl", "key": 868, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "331.pkl", "key": 331, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1351.pkl", "key": 1351, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 32)"}
+{"filename": "598.pkl", "key": 598, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 38)"}
+{"filename": "221.pkl", "key": 221, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "190.pkl", "key": 190, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1274.pkl", "key": 1274, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 52)"}
+{"filename": "143.pkl", "key": 143, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "126.pkl", "key": 126, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 46)"}
+{"filename": "1191.pkl", "key": 1191, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "597.pkl", "key": 597, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "696.pkl", "key": 696, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "837.pkl", "key": 837, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "788.pkl", "key": 788, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "822.pkl", "key": 822, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "721.pkl", "key": 721, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1057.pkl", "key": 1057, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "890.pkl", "key": 890, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "568.pkl", "key": 568, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "52.pkl", "key": 52, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "914.pkl", "key": 914, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "799.pkl", "key": 799, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1084.pkl", "key": 1084, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "365.pkl", "key": 365, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1185.pkl", "key": 1185, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1071.pkl", "key": 1071, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "162.pkl", "key": 162, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1023.pkl", "key": 1023, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "348.pkl", "key": 348, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1428.pkl", "key": 1428, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 42)"}
+{"filename": "1018.pkl", "key": 1018, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "722.pkl", "key": 722, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpc2hwb9u0.py\", line 27, in <module>\n    code()\n  File \"/tmp/tmpc2hwb9u0.py\", line 25, in code\n    print(int(a[5:]) + 1988)\nValueError: invalid literal for int() with base 10: ''\n"}
+{"filename": "257.pkl", "key": 257, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "109.pkl", "key": 109, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 23)"}
+{"filename": "1490.pkl", "key": 1490, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "477.pkl", "key": 477, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "699.pkl", "key": 699, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 39)"}
+{"filename": "1460.pkl", "key": 1460, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "541.pkl", "key": 541, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "637.pkl", "key": 637, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "611.pkl", "key": 611, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "320.pkl", "key": 320, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1100.pkl", "key": 1100, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "994.pkl", "key": 994, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1019.pkl", "key": 1019, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "512.pkl", "key": 512, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpxwpo5_se.py\", line 62, in <module>\n    code()\n  File \"/tmp/tmpxwpo5_se.py\", line 49, in code\n    same_on[count[1]].append(floor)\nIndexError: list index out of range\n"}
+{"filename": "264.pkl", "key": 264, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 50)"}
+{"filename": "1301.pkl", "key": 1301, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1189.pkl", "key": 1189, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 44)"}
+{"filename": "989.pkl", "key": 989, "error_type": "SyntaxError", "error_detail": "import * only allowed at module level"}
+{"filename": "346.pkl", "key": 346, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "156.pkl", "key": 156, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1086.pkl", "key": 1086, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "94.pkl", "key": 94, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "28.pkl", "key": 28, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "254.pkl", "key": 254, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1200.pkl", "key": 1200, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "33.pkl", "key": 33, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1121.pkl", "key": 1121, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "584.pkl", "key": 584, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1432.pkl", "key": 1432, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "898.pkl", "key": 898, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 53)"}
+{"filename": "1053.pkl", "key": 1053, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "661.pkl", "key": 661, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "487.pkl", "key": 487, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1207.pkl", "key": 1207, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1429.pkl", "key": 1429, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 38)"}
+{"filename": "767.pkl", "key": 767, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "871.pkl", "key": 871, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 34)"}
+{"filename": "563.pkl", "key": 563, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "465.pkl", "key": 465, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "553.pkl", "key": 553, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1357.pkl", "key": 1357, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1380.pkl", "key": 1380, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1465.pkl", "key": 1465, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "370.pkl", "key": 370, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1458.pkl", "key": 1458, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "829.pkl", "key": 829, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "471.pkl", "key": 471, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 66)"}
+{"filename": "1083.pkl", "key": 1083, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1062.pkl", "key": 1062, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "599.pkl", "key": 599, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "26.pkl", "key": 26, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "832.pkl", "key": 832, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpmh82a2oe.py\", line 30, in <module>\n    code()\n  File \"/tmp/tmpmh82a2oe.py\", line 22, in code\n    home, guest = map(int, input().split())\nEOFError: EOF when reading a line\n"}
+{"filename": "1113.pkl", "key": 1113, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1479.pkl", "key": 1479, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "908.pkl", "key": 908, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "793.pkl", "key": 793, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1048.pkl", "key": 1048, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "511.pkl", "key": 511, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "352.pkl", "key": 352, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1214.pkl", "key": 1214, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "76.pkl", "key": 76, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "130.pkl", "key": 130, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1235.pkl", "key": 1235, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "974.pkl", "key": 974, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1087.pkl", "key": 1087, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 39)"}
+{"filename": "1137.pkl", "key": 1137, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "610.pkl", "key": 610, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "107.pkl", "key": 107, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "47.pkl", "key": 47, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "467.pkl", "key": 467, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpjhrhzq_t.py\", line 56, in <module>\n    code()\n  File \"/tmp/tmpjhrhzq_t.py\", line 50, in code\n    if dfs(0):\n  File \"/tmp/tmpjhrhzq_t.py\", line 29, in dfs\n    if not grid[r][c] and check(r, c):\n  File \"/tmp/tmpjhrhzq_t.py\", line 41, in check\n    if 0 <= nr < 2 and 0 <= nc < 13 and grid[nr][nc] == s[i]:\nNameError: name 'i' is not defined\n"}
+{"filename": "89.pkl", "key": 89, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 28)"}
+{"filename": "972.pkl", "key": 972, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1047.pkl", "key": 1047, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "846.pkl", "key": 846, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpa2ybgp2k.py\", line 33, in <module>\n    code()\n  File \"/tmp/tmpa2ybgp2k.py\", line 30, in code\n    print(lights.index(1) + 1, end=\" \")\nValueError: 1 is not in list\n"}
+{"filename": "1203.pkl", "key": 1203, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 23)"}
+{"filename": "586.pkl", "key": 586, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpl05w6zp7.py\", line 45, in <module>\n    code()\n  File \"/tmp/tmpl05w6zp7.py\", line 20, in code\n    dp = [[0 for i in range(n)] for j in range(n)]\nNameError: name 'n' is not defined\n"}
+{"filename": "1259.pkl", "key": 1259, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp9mlps1ou.py\", line 46, in <module>\n    code()\n  File \"/tmp/tmp9mlps1ou.py\", line 34, in code\n    if dfs(1,-1):\n  File \"/tmp/tmp9mlps1ou.py\", line 30, in dfs\n    if dfs(v,u):\n  File \"/tmp/tmp9mlps1ou.py\", line 30, in dfs\n    if dfs(v,u):\n  File \"/tmp/tmp9mlps1ou.py\", line 30, in dfs\n    if dfs(v,u):\n  [Previous line repeated 994 more times]\n  File \"/tmp/tmp9mlps1ou.py\", line 29, in dfs\n    if v != p:\nRecursionError: maximum recursion depth exceeded in comparison\n"}
+{"filename": "873.pkl", "key": 873, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpmqa2do7x.py\", line 40, in <module>\n    code()\n  File \"/tmp/tmpmqa2do7x.py\", line 38, in code\n    main()\n  File \"/tmp/tmpmqa2do7x.py\", line 33, in main\n    res += min(turn(disks, i, i), turn(disks, i, i + 1))\n  File \"/tmp/tmpmqa2do7x.py\", line 20, in turn\n    if disks[start] == disks[end]:\nIndexError: list index out of range\n"}
+{"filename": "113.pkl", "key": 113, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1494.pkl", "key": 1494, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "711.pkl", "key": 711, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 53)"}
+{"filename": "840.pkl", "key": 840, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "475.pkl", "key": 475, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "622.pkl", "key": 622, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "210.pkl", "key": 210, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 47)"}
+{"filename": "1208.pkl", "key": 1208, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 39)"}
+{"filename": "1476.pkl", "key": 1476, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1081.pkl", "key": 1081, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1441.pkl", "key": 1441, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "708.pkl", "key": 708, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1064.pkl", "key": 1064, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 47)"}
+{"filename": "280.pkl", "key": 280, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "427.pkl", "key": 427, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 42)"}
+{"filename": "872.pkl", "key": 872, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "490.pkl", "key": 490, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "442.pkl", "key": 442, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 53)"}
+{"filename": "1068.pkl", "key": 1068, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 35)"}
+{"filename": "58.pkl", "key": 58, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpvgy2zb3r.py\", line 25, in <module>\n    code()\n  File \"/tmp/tmpvgy2zb3r.py\", line 19, in code\n    n,a,b = map(int, input().split())\nValueError: not enough values to unpack (expected 3, got 1)\n"}
+{"filename": "445.pkl", "key": 445, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 55)"}
+{"filename": "1478.pkl", "key": 1478, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1462.pkl", "key": 1462, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "834.pkl", "key": 834, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "61.pkl", "key": 61, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpacpz0hsx.py\", line 35, in <module>\n    code()\n  File \"/tmp/tmpacpz0hsx.py\", line 33, in code\n    print('<' if convert(x, bx) < convert(y, by) else '>' if convert(x, bx) > convert(y, by) else '=')\n  File \"/tmp/tmpacpz0hsx.py\", line 28, in convert\n    res.append(str(num % base))\nTypeError: unsupported operand type(s) for %: 'list' and 'int'\n"}
+{"filename": "761.pkl", "key": 761, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 22)"}
+{"filename": "1028.pkl", "key": 1028, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "380.pkl", "key": 380, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1364.pkl", "key": 1364, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1220.pkl", "key": 1220, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "659.pkl", "key": 659, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "87.pkl", "key": 87, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "671.pkl", "key": 671, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "836.pkl", "key": 836, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1389.pkl", "key": 1389, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1299.pkl", "key": 1299, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1285.pkl", "key": 1285, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "120.pkl", "key": 120, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 33)"}
+{"filename": "1362.pkl", "key": 1362, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "546.pkl", "key": 546, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "51.pkl", "key": 51, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "717.pkl", "key": 717, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "969.pkl", "key": 969, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "630.pkl", "key": 630, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 22)"}
+{"filename": "430.pkl", "key": 430, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1305.pkl", "key": 1305, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "758.pkl", "key": 758, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "619.pkl", "key": 619, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "640.pkl", "key": 640, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1052.pkl", "key": 1052, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1254.pkl", "key": 1254, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "982.pkl", "key": 982, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "949.pkl", "key": 949, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "262.pkl", "key": 262, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "328.pkl", "key": 328, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 27)"}
+{"filename": "803.pkl", "key": 803, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "170.pkl", "key": 170, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpoyneqvnq.py\", line 43, in <module>\n    code()\n  File \"/tmp/tmpoyneqvnq.py\", line 22, in code\n    k1 = int(sys.stdin.readline())\nValueError: invalid literal for int() with base 10: '2 1 3\\n'\n"}
+{"filename": "1232.pkl", "key": 1232, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1030.pkl", "key": 1030, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "590.pkl", "key": 590, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "713.pkl", "key": 713, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "25.pkl", "key": 25, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "703.pkl", "key": 703, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "805.pkl", "key": 805, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1443.pkl", "key": 1443, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1097.pkl", "key": 1097, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "884.pkl", "key": 884, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "589.pkl", "key": 589, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "35.pkl", "key": 35, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "73.pkl", "key": 73, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "339.pkl", "key": 339, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "39.pkl", "key": 39, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "38.pkl", "key": 38, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1215.pkl", "key": 1215, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1243.pkl", "key": 1243, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "228.pkl", "key": 228, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "199.pkl", "key": 199, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "560.pkl", "key": 560, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "440.pkl", "key": 440, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpgobkfip5.py\", line 26, in <module>\n    code()\n  File \"/tmp/tmpgobkfip5.py\", line 22, in code\n    if s[i] in 'aeiouy' and s[i+1] in 'aeiouy':\nIndexError: string index out of range\n"}
+{"filename": "1302.pkl", "key": 1302, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 100)"}
+{"filename": "155.pkl", "key": 155, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "389.pkl", "key": 389, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "675.pkl", "key": 675, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1372.pkl", "key": 1372, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "203.pkl", "key": 203, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1091.pkl", "key": 1091, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "569.pkl", "key": 569, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "570.pkl", "key": 570, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 30)"}
+{"filename": "1268.pkl", "key": 1268, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1150.pkl", "key": 1150, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "362.pkl", "key": 362, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1246.pkl", "key": 1246, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "491.pkl", "key": 491, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "544.pkl", "key": 544, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "400.pkl", "key": 400, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "533.pkl", "key": 533, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1180.pkl", "key": 1180, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "178.pkl", "key": 178, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1122.pkl", "key": 1122, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 30)"}
+{"filename": "1034.pkl", "key": 1034, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "101.pkl", "key": 101, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "877.pkl", "key": 877, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "75.pkl", "key": 75, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1291.pkl", "key": 1291, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "564.pkl", "key": 564, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "360.pkl", "key": 360, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "922.pkl", "key": 922, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "850.pkl", "key": 850, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "786.pkl", "key": 786, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "967.pkl", "key": 967, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1406.pkl", "key": 1406, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1247.pkl", "key": 1247, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1292.pkl", "key": 1292, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1394.pkl", "key": 1394, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "224.pkl", "key": 224, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "474.pkl", "key": 474, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "809.pkl", "key": 809, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "843.pkl", "key": 843, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "334.pkl", "key": 334, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpkwzyvwns.py\", line 30, in <module>\n    code()\n  File \"/tmp/tmpkwzyvwns.py\", line 19, in code\n    a = int(input())\nValueError: invalid literal for int() with base 10: '20 2'\n"}
+{"filename": "591.pkl", "key": 591, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1474.pkl", "key": 1474, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "838.pkl", "key": 838, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1452.pkl", "key": 1452, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "429.pkl", "key": 429, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "996.pkl", "key": 996, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "983.pkl", "key": 983, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1290.pkl", "key": 1290, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "451.pkl", "key": 451, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "944.pkl", "key": 944, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "77.pkl", "key": 77, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "814.pkl", "key": 814, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "849.pkl", "key": 849, "error_type": "SyntaxError", "error_detail": "Missing parentheses in call to 'print'. Did you mean print(ans)? (<string>, line 29)"}
+{"filename": "1269.pkl", "key": 1269, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "298.pkl", "key": 298, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1111.pkl", "key": 1111, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "896.pkl", "key": 896, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "411.pkl", "key": 411, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "905.pkl", "key": 905, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "679.pkl", "key": 679, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1.pkl", "key": 1, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1461.pkl", "key": 1461, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "636.pkl", "key": 636, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 32)"}
+{"filename": "953.pkl", "key": 953, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1000.pkl", "key": 1000, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "998.pkl", "key": 998, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "653.pkl", "key": 653, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "620.pkl", "key": 620, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "947.pkl", "key": 947, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "747.pkl", "key": 747, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "9.pkl", "key": 9, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "357.pkl", "key": 357, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "460.pkl", "key": 460, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "741.pkl", "key": 741, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "403.pkl", "key": 403, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "248.pkl", "key": 248, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "300.pkl", "key": 300, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "649.pkl", "key": 649, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "973.pkl", "key": 973, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 53)"}
+{"filename": "1218.pkl", "key": 1218, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1316.pkl", "key": 1316, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "784.pkl", "key": 784, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "85.pkl", "key": 85, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 43)"}
+{"filename": "687.pkl", "key": 687, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1080.pkl", "key": 1080, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "508.pkl", "key": 508, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 22)"}
+{"filename": "1132.pkl", "key": 1132, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 36)"}
+{"filename": "1231.pkl", "key": 1231, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "263.pkl", "key": 263, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpwyqfsbmv.py\", line 37, in <module>\n    code()\n  File \"/tmp/tmpwyqfsbmv.py\", line 35, in code\n    main()\n  File \"/tmp/tmpwyqfsbmv.py\", line 23, in main\n    n, m = map(int, sys.stdin.readline().split())\nValueError: not enough values to unpack (expected 2, got 1)\n"}
+{"filename": "1104.pkl", "key": 1104, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "628.pkl", "key": 628, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "864.pkl", "key": 864, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpz55o4ycz.py\", line 36, in <module>\n    code()\n  File \"/tmp/tmpz55o4ycz.py\", line 20, in code\n    input = sys.stdin.readline\nUnboundLocalError: local variable 'sys' referenced before assignment\n"}
+{"filename": "311.pkl", "key": 311, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1135.pkl", "key": 1135, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "15.pkl", "key": 15, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "726.pkl", "key": 726, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1037.pkl", "key": 1037, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "817.pkl", "key": 817, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "657.pkl", "key": 657, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1138.pkl", "key": 1138, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1110.pkl", "key": 1110, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "985.pkl", "key": 985, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 23)"}
+{"filename": "1169.pkl", "key": 1169, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "519.pkl", "key": 519, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "728.pkl", "key": 728, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "573.pkl", "key": 573, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 45)"}
+{"filename": "425.pkl", "key": 425, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "509.pkl", "key": 509, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "211.pkl", "key": 211, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 36)"}
+{"filename": "1271.pkl", "key": 1271, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "408.pkl", "key": 408, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "900.pkl", "key": 900, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 33)"}
+{"filename": "782.pkl", "key": 782, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1337.pkl", "key": 1337, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1399.pkl", "key": 1399, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1353.pkl", "key": 1353, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1106.pkl", "key": 1106, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1205.pkl", "key": 1205, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "103.pkl", "key": 103, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1128.pkl", "key": 1128, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "545.pkl", "key": 545, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "917.pkl", "key": 917, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpyc90mbt4.py\", line 41, in <module>\n    code()\n  File \"/tmp/tmpyc90mbt4.py\", line 37, in code\n    ans += max(0, min(l[i - 1], r[i + 1]) - l[i]) ** 2\nIndexError: list index out of range\n"}
+{"filename": "736.pkl", "key": 736, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "576.pkl", "key": 576, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 29)"}
+{"filename": "1289.pkl", "key": 1289, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "23.pkl", "key": 23, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpq3g8tdf6.py\", line 40, in <module>\n    code()\n  File \"/tmp/tmpq3g8tdf6.py\", line 38, in code\n    print(solution(a, b))\n  File \"/tmp/tmpq3g8tdf6.py\", line 28, in solution\n    if a <= b:\nTypeError: '<=' not supported between instances of 'int' and 'str'\n"}
+{"filename": "762.pkl", "key": 762, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "674.pkl", "key": 674, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "410.pkl", "key": 410, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1011.pkl", "key": 1011, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "2.pkl", "key": 2, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp6uzisas6.py\", line 26, in <module>\n    code()\n  File \"/tmp/tmp6uzisas6.py\", line 24, in code\n    print(n-int(input()))\nEOFError: EOF when reading a line\n"}
+{"filename": "1021.pkl", "key": 1021, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 40)"}
+{"filename": "1212.pkl", "key": 1212, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1386.pkl", "key": 1386, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 41)"}
+{"filename": "250.pkl", "key": 250, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "303.pkl", "key": 303, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 34)"}
+{"filename": "1288.pkl", "key": 1288, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 43)"}
+{"filename": "651.pkl", "key": 651, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1026.pkl", "key": 1026, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "910.pkl", "key": 910, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1240.pkl", "key": 1240, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "266.pkl", "key": 266, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "485.pkl", "key": 485, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "142.pkl", "key": 142, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "118.pkl", "key": 118, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1206.pkl", "key": 1206, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 44)"}
+{"filename": "676.pkl", "key": 676, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "354.pkl", "key": 354, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "86.pkl", "key": 86, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1143.pkl", "key": 1143, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpouhwet_g.py\", line 57, in <module>\n    code()\n  File \"/tmp/tmpouhwet_g.py\", line 55, in code\n    m, d, p_i\nNameError: name 'm' is not defined\n"}
+{"filename": "100.pkl", "key": 100, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 42)"}
+{"filename": "1016.pkl", "key": 1016, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "11.pkl", "key": 11, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "82.pkl", "key": 82, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "208.pkl", "key": 208, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "753.pkl", "key": 753, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "110.pkl", "key": 110, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 33)"}
+{"filename": "991.pkl", "key": 991, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1438.pkl", "key": 1438, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "581.pkl", "key": 581, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp0w80_sg2.py\", line 58, in <module>\n    code()\n  File \"/tmp/tmp0w80_sg2.py\", line 56, in code\n    main()\n  File \"/tmp/tmp0w80_sg2.py\", line 39, in main\n    graph[b].remove(a)\nValueError: list.remove(x): x not in list\n"}
+{"filename": "663.pkl", "key": 663, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "930.pkl", "key": 930, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "105.pkl", "key": 105, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 49)"}
+{"filename": "56.pkl", "key": 56, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "698.pkl", "key": 698, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "114.pkl", "key": 114, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1036.pkl", "key": 1036, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1228.pkl", "key": 1228, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "869.pkl", "key": 869, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 31)"}
+{"filename": "1363.pkl", "key": 1363, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "457.pkl", "key": 457, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "160.pkl", "key": 160, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 86)"}
+{"filename": "528.pkl", "key": 528, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1187.pkl", "key": 1187, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp9q6dne9y.py\", line 51, in <module>\n    code()\n  File \"/tmp/tmp9q6dne9y.py\", line 47, in code\n    dfs(i)\n  File \"/tmp/tmp9q6dne9y.py\", line 29, in dfs\n    if color[j] == -1:\nNameError: name 'color' is not defined\n"}
+{"filename": "1029.pkl", "key": 1029, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmppgtnv_b5.py\", line 31, in <module>\n    code()\n  File \"/tmp/tmppgtnv_b5.py\", line 29, in code\n    main()\n  File \"/tmp/tmppgtnv_b5.py\", line 26, in main\n    ans = max(ans,int(p[i])*10**(n-i-1) + int(p[i-1])*10**(n-i) + int(p[i+1:]) +1)\nValueError: invalid literal for int() with base 10: ''\n"}
+{"filename": "301.pkl", "key": 301, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1345.pkl", "key": 1345, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 21)"}
+{"filename": "245.pkl", "key": 245, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1163.pkl", "key": 1163, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 25)"}
+{"filename": "566.pkl", "key": 566, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1101.pkl", "key": 1101, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1238.pkl", "key": 1238, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1455.pkl", "key": 1455, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1112.pkl", "key": 1112, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "319.pkl", "key": 319, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "731.pkl", "key": 731, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1045.pkl", "key": 1045, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "186.pkl", "key": 186, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1249.pkl", "key": 1249, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "655.pkl", "key": 655, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "176.pkl", "key": 176, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "44.pkl", "key": 44, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "432.pkl", "key": 432, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "372.pkl", "key": 372, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "865.pkl", "key": 865, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "183.pkl", "key": 183, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "283.pkl", "key": 283, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "189.pkl", "key": 189, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "213.pkl", "key": 213, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 41)"}
+{"filename": "414.pkl", "key": 414, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "752.pkl", "key": 752, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "532.pkl", "key": 532, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1275.pkl", "key": 1275, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "69.pkl", "key": 69, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "97.pkl", "key": 97, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "885.pkl", "key": 885, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "222.pkl", "key": 222, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "547.pkl", "key": 547, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "712.pkl", "key": 712, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 37)"}
+{"filename": "19.pkl", "key": 19, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "217.pkl", "key": 217, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1236.pkl", "key": 1236, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "409.pkl", "key": 409, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "764.pkl", "key": 764, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "8.pkl", "key": 8, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1433.pkl", "key": 1433, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "737.pkl", "key": 737, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 101)"}
+{"filename": "1328.pkl", "key": 1328, "error_type": "SyntaxError", "error_detail": "invalid character '\u3001' (U+3001) (<string>, line 56)"}
+{"filename": "1306.pkl", "key": 1306, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "393.pkl", "key": 393, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1346.pkl", "key": 1346, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "503.pkl", "key": 503, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "455.pkl", "key": 455, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "231.pkl", "key": 231, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "420.pkl", "key": 420, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp97i3p6u_.py\", line 51, in <module>\n    code()\n  File \"/tmp/tmp97i3p6u_.py\", line 45, in code\n    b = solve(a)\n  File \"/tmp/tmp97i3p6u_.py\", line 40, in solve\n    b = mirror(b)\n  File \"/tmp/tmp97i3p6u_.py\", line 33, in mirror\n    b[i] += str(1 - int(a[i][j]))\nValueError: invalid literal for int() with base 10: ' '\n"}
+{"filename": "1425.pkl", "key": 1425, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 35)"}
+{"filename": "185.pkl", "key": 185, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "830.pkl", "key": 830, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpeqmqmugy.py\", line 44, in <module>\n    code()\n  File \"/tmp/tmpeqmqmugy.py\", line 41, in code\n    for operation in operations:\nNameError: name 'operations' is not defined\n"}
+{"filename": "942.pkl", "key": 942, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1116.pkl", "key": 1116, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 36)"}
+{"filename": "902.pkl", "key": 902, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1347.pkl", "key": 1347, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "927.pkl", "key": 927, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 71)"}
+{"filename": "688.pkl", "key": 688, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "274.pkl", "key": 274, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpifloqbmq.py\", line 47, in <module>\n    code()\n  File \"/tmp/tmpifloqbmq.py\", line 45, in code\n    draw(n, s)\n  File \"/tmp/tmpifloqbmq.py\", line 41, in draw\n    draw(i, s)\n  File \"/tmp/tmpifloqbmq.py\", line 41, in draw\n    draw(i, s)\n  File \"/tmp/tmpifloqbmq.py\", line 41, in draw\n    draw(i, s)\n  [Previous line repeated 993 more times]\n  File \"/tmp/tmpifloqbmq.py\", line 32, in draw\n    print(\"+\", end=\"\")\nRecursionError: maximum recursion depth exceeded while calling a Python object\n"}
+{"filename": "1324.pkl", "key": 1324, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 27)"}
+{"filename": "605.pkl", "key": 605, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "740.pkl", "key": 740, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "150.pkl", "key": 150, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "811.pkl", "key": 811, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "968.pkl", "key": 968, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 44)"}
+{"filename": "434.pkl", "key": 434, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 22)"}
+{"filename": "1171.pkl", "key": 1171, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "234.pkl", "key": 234, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "404.pkl", "key": 404, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "714.pkl", "key": 714, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1017.pkl", "key": 1017, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1485.pkl", "key": 1485, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1300.pkl", "key": 1300, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1366.pkl", "key": 1366, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1484.pkl", "key": 1484, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 50)"}
+{"filename": "194.pkl", "key": 194, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 37)"}
+{"filename": "329.pkl", "key": 329, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1473.pkl", "key": 1473, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpd8pi3plq.py\", line 28, in <module>\n    code()\n  File \"/tmp/tmpd8pi3plq.py\", line 23, in code\n    ans[a] = i\nIndexError: list assignment index out of range\n"}
+{"filename": "791.pkl", "key": 791, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "41.pkl", "key": 41, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "550.pkl", "key": 550, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "878.pkl", "key": 878, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 35)"}
+{"filename": "1333.pkl", "key": 1333, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "281.pkl", "key": 281, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 23)"}
+{"filename": "1323.pkl", "key": 1323, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "40.pkl", "key": 40, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "139.pkl", "key": 139, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 68)"}
+{"filename": "4.pkl", "key": 4, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpqbo3289s.py\", line 38, in <module>\n    code()\n  File \"/tmp/tmpqbo3289s.py\", line 22, in code\n    if 7 in str(hh) or 7 in str(mm):\nTypeError: 'in <string>' requires string as left operand, not int\n"}
+{"filename": "537.pkl", "key": 537, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1467.pkl", "key": 1467, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "891.pkl", "key": 891, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 48)"}
+{"filename": "923.pkl", "key": 923, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1186.pkl", "key": 1186, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp6mgwrmv9.py\", line 45, in <module>\n    code()\n  File \"/tmp/tmp6mgwrmv9.py\", line 33, in code\n    n=int(input())\nEOFError: EOF when reading a line\n"}
+{"filename": "1014.pkl", "key": 1014, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1089.pkl", "key": 1089, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "214.pkl", "key": 214, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1262.pkl", "key": 1262, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "851.pkl", "key": 851, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1158.pkl", "key": 1158, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1250.pkl", "key": 1250, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "632.pkl", "key": 632, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "371.pkl", "key": 371, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "6.pkl", "key": 6, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "297.pkl", "key": 297, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "48.pkl", "key": 48, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1075.pkl", "key": 1075, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1027.pkl", "key": 1027, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 58)"}
+{"filename": "694.pkl", "key": 694, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1303.pkl", "key": 1303, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "0.pkl", "key": 0, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "470.pkl", "key": 470, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1167.pkl", "key": 1167, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "111.pkl", "key": 111, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 45)"}
+{"filename": "1252.pkl", "key": 1252, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1453.pkl", "key": 1453, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "361.pkl", "key": 361, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1245.pkl", "key": 1245, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 54)"}
+{"filename": "14.pkl", "key": 14, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "341.pkl", "key": 341, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "428.pkl", "key": 428, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1251.pkl", "key": 1251, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "925.pkl", "key": 925, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "395.pkl", "key": 395, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "438.pkl", "key": 438, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "971.pkl", "key": 971, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "704.pkl", "key": 704, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "924.pkl", "key": 924, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1283.pkl", "key": 1283, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "580.pkl", "key": 580, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1092.pkl", "key": 1092, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1118.pkl", "key": 1118, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "685.pkl", "key": 685, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "772.pkl", "key": 772, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "515.pkl", "key": 515, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1263.pkl", "key": 1263, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1157.pkl", "key": 1157, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "192.pkl", "key": 192, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "645.pkl", "key": 645, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "327.pkl", "key": 327, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "247.pkl", "key": 247, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "567.pkl", "key": 567, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "592.pkl", "key": 592, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1375.pkl", "key": 1375, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "582.pkl", "key": 582, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "734.pkl", "key": 734, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "626.pkl", "key": 626, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "855.pkl", "key": 855, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "392.pkl", "key": 392, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1004.pkl", "key": 1004, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1105.pkl", "key": 1105, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "839.pkl", "key": 839, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "137.pkl", "key": 137, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "936.pkl", "key": 936, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "24.pkl", "key": 24, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 30)"}
+{"filename": "1129.pkl", "key": 1129, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp_h0eun9x.py\", line 169, in <module>\n    code()\n  File \"/tmp/tmp_h0eun9x.py\", line 21, in code\n    n = int(sys.stdin.readline())\nUnboundLocalError: local variable 'sys' referenced before assignment\n"}
+{"filename": "558.pkl", "key": 558, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 31)"}
+{"filename": "10.pkl", "key": 10, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1198.pkl", "key": 1198, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1335.pkl", "key": 1335, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1166.pkl", "key": 1166, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "909.pkl", "key": 909, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "108.pkl", "key": 108, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "635.pkl", "key": 635, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1355.pkl", "key": 1355, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1457.pkl", "key": 1457, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "294.pkl", "key": 294, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 52)"}
+{"filename": "74.pkl", "key": 74, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpawizbj3m.py\", line 47, in <module>\n    code()\n  File \"/tmp/tmpawizbj3m.py\", line 45, in code\n    print(*main())\nTypeError: print() argument after * must be an iterable, not NoneType\n"}
+{"filename": "1211.pkl", "key": 1211, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 28)"}
+{"filename": "759.pkl", "key": 759, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1061.pkl", "key": 1061, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "766.pkl", "key": 766, "error_type": "SyntaxError", "error_detail": "Missing parentheses in call to 'print'. Did you mean print(\"Yes\" if s[0] == s[1] and s[0] != s[-1] or s[-2] == s[-1] and s[-1] != s[0] else \"No\")? (<string>, line 21)"}
+{"filename": "1293.pkl", "key": 1293, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "390.pkl", "key": 390, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "510.pkl", "key": 510, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "826.pkl", "key": 826, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 57)"}
+{"filename": "78.pkl", "key": 78, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1031.pkl", "key": 1031, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "933.pkl", "key": 933, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "261.pkl", "key": 261, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "683.pkl", "key": 683, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "812.pkl", "key": 812, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1409.pkl", "key": 1409, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1197.pkl", "key": 1197, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1178.pkl", "key": 1178, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "20.pkl", "key": 20, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1273.pkl", "key": 1273, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 43)"}
+{"filename": "860.pkl", "key": 860, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1170.pkl", "key": 1170, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "870.pkl", "key": 870, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "53.pkl", "key": 53, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "735.pkl", "key": 735, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 54)"}
+{"filename": "739.pkl", "key": 739, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "549.pkl", "key": 549, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "742.pkl", "key": 742, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp3xqjov5o.py\", line 39, in <module>\n    code()\n  File \"/tmp/tmp3xqjov5o.py\", line 37, in code\n    print(*solve(n,b))\nTypeError: print() argument after * must be an iterable, not int\n"}
+{"filename": "219.pkl", "key": 219, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "127.pkl", "key": 127, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 43)"}
+{"filename": "644.pkl", "key": 644, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1078.pkl", "key": 1078, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "443.pkl", "key": 443, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1147.pkl", "key": 1147, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "802.pkl", "key": 802, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "68.pkl", "key": 68, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1384.pkl", "key": 1384, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1223.pkl", "key": 1223, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1009.pkl", "key": 1009, "error_type": "SyntaxError", "error_detail": "Missing parentheses in call to 'print'. Did you mean print(l)? (<string>, line 56)"}
+{"filename": "980.pkl", "key": 980, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "641.pkl", "key": 641, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpfxa73wvf.py\", line 33, in <module>\n    code()\n  File \"/tmp/tmpfxa73wvf.py\", line 19, in code\n    n,s=input().split()\nValueError: too many values to unpack (expected 2)\n"}
+{"filename": "507.pkl", "key": 507, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "336.pkl", "key": 336, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1321.pkl", "key": 1321, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "504.pkl", "key": 504, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "816.pkl", "key": 816, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 33)"}
+{"filename": "464.pkl", "key": 464, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "932.pkl", "key": 932, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "265.pkl", "key": 265, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1176.pkl", "key": 1176, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "129.pkl", "key": 129, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1044.pkl", "key": 1044, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "373.pkl", "key": 373, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "98.pkl", "key": 98, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpha2cxxzp.py\", line 37, in <module>\n    code()\n  File \"/tmp/tmpha2cxxzp.py\", line 20, in code\n    a2, b2, a3, b3 = map(int, input().split())\nValueError: not enough values to unpack (expected 4, got 2)\n"}
+{"filename": "895.pkl", "key": 895, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "607.pkl", "key": 607, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1088.pkl", "key": 1088, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpwir0wnbf.py\", line 47, in <module>\n    code()\n  File \"/tmp/tmpwir0wnbf.py\", line 45, in code\n    print(dfs(a, K) % 998244353)\n  File \"/tmp/tmpwir0wnbf.py\", line 41, in dfs\n    ans += dfs(a, K)\n  File \"/tmp/tmpwir0wnbf.py\", line 41, in dfs\n    ans += dfs(a, K)\n  File \"/tmp/tmpwir0wnbf.py\", line 41, in dfs\n    ans += dfs(a, K)\n  [Previous line repeated 992 more times]\n  File \"/tmp/tmpwir0wnbf.py\", line 34, in dfs\n    if a == [[1, 2, 3], [4, 5, 6], [7, 8, 9]]:\nRecursionError: maximum recursion depth exceeded in comparison\n"}
+{"filename": "820.pkl", "key": 820, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "669.pkl", "key": 669, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 56)"}
+{"filename": "824.pkl", "key": 824, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "172.pkl", "key": 172, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "606.pkl", "key": 606, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 58)"}
+{"filename": "289.pkl", "key": 289, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "920.pkl", "key": 920, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "447.pkl", "key": 447, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "779.pkl", "key": 779, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1095.pkl", "key": 1095, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "765.pkl", "key": 765, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1196.pkl", "key": 1196, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1475.pkl", "key": 1475, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "135.pkl", "key": 135, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1033.pkl", "key": 1033, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1427.pkl", "key": 1427, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 34)"}
+{"filename": "603.pkl", "key": 603, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "188.pkl", "key": 188, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "332.pkl", "key": 332, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "948.pkl", "key": 948, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp4r54wd7m.py\", line 36, in <module>\n    code()\n  File \"/tmp/tmp4r54wd7m.py\", line 31, in code\n    if Counter(temp) == Counter(face):\n  File \"/data/miniconda3/envs/mbpp/lib/python3.9/collections/__init__.py\", line 593, in __init__\n    self.update(iterable, **kwds)\n  File \"/data/miniconda3/envs/mbpp/lib/python3.9/collections/__init__.py\", line 679, in update\n    _count_elements(self, iterable)\nTypeError: unhashable type: 'list'\n"}
+{"filename": "876.pkl", "key": 876, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "852.pkl", "key": 852, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1284.pkl", "key": 1284, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1042.pkl", "key": 1042, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1442.pkl", "key": 1442, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1126.pkl", "key": 1126, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 34)"}
+{"filename": "789.pkl", "key": 789, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "901.pkl", "key": 901, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 50)"}
+{"filename": "615.pkl", "key": 615, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 45)"}
+{"filename": "141.pkl", "key": 141, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpgsk3fmiv.py\", line 42, in <module>\n    code()\n  File \"/tmp/tmpgsk3fmiv.py\", line 40, in code\n    main()\n  File \"/tmp/tmpgsk3fmiv.py\", line 36, in main\n    max_weight = get_max_weight(w, counts)\n  File \"/tmp/tmpgsk3fmiv.py\", line 28, in get_max_weight\n    if counts[j] > 0:\nIndexError: list index out of range\n"}
+{"filename": "521.pkl", "key": 521, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1287.pkl", "key": 1287, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1329.pkl", "key": 1329, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 78)"}
+{"filename": "966.pkl", "key": 966, "error_type": "SyntaxError", "error_detail": "Missing parentheses in call to 'print'. Did you mean print(year)? (<string>, line 33)"}
+{"filename": "828.pkl", "key": 828, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 113)"}
+{"filename": "540.pkl", "key": 540, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 32)"}
+{"filename": "790.pkl", "key": 790, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "307.pkl", "key": 307, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmplgkgw8zq.py\", line 50, in <module>\n    code()\n  File \"/tmp/tmplgkgw8zq.py\", line 33, in code\n    k2 = int(input())\nValueError: invalid literal for int() with base 10: '5 1 3 4'\n"}
+{"filename": "27.pkl", "key": 27, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "524.pkl", "key": 524, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "206.pkl", "key": 206, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "201.pkl", "key": 201, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "488.pkl", "key": 488, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1063.pkl", "key": 1063, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 58)"}
+{"filename": "787.pkl", "key": 787, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1124.pkl", "key": 1124, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "970.pkl", "key": 970, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1202.pkl", "key": 1202, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1296.pkl", "key": 1296, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "285.pkl", "key": 285, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1331.pkl", "key": 1331, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 36)"}
+{"filename": "1098.pkl", "key": 1098, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1258.pkl", "key": 1258, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1072.pkl", "key": 1072, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "992.pkl", "key": 992, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "22.pkl", "key": 22, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "498.pkl", "key": 498, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "801.pkl", "key": 801, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1314.pkl", "key": 1314, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "706.pkl", "key": 706, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp5yl6ug8r.py\", line 40, in <module>\n    code()\n  File \"/tmp/tmp5yl6ug8r.py\", line 38, in code\n    main()\n  File \"/tmp/tmp5yl6ug8r.py\", line 34, in main\n    print(g(x,n))\n  File \"/tmp/tmp5yl6ug8r.py\", line 32, in g\n    return f(g(x,n-1))%(10**9+7)\n  File \"/tmp/tmp5yl6ug8r.py\", line 32, in g\n    return f(g(x,n-1))%(10**9+7)\n  File \"/tmp/tmp5yl6ug8r.py\", line 32, in g\n    return f(g(x,n-1))%(10**9+7)\n  [Previous line repeated 993 more times]\n  File \"/tmp/tmp5yl6ug8r.py\", line 29, in g\n    if n==0:\nRecursionError: maximum recursion depth exceeded in comparison\n"}
+{"filename": "962.pkl", "key": 962, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1419.pkl", "key": 1419, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "800.pkl", "key": 800, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "302.pkl", "key": 302, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 28)"}
+{"filename": "376.pkl", "key": 376, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "825.pkl", "key": 825, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "43.pkl", "key": 43, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "453.pkl", "key": 453, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 45)"}
+{"filename": "235.pkl", "key": 235, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "252.pkl", "key": 252, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1155.pkl", "key": 1155, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "937.pkl", "key": 937, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "406.pkl", "key": 406, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "770.pkl", "key": 770, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "476.pkl", "key": 476, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "821.pkl", "key": 821, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1204.pkl", "key": 1204, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1117.pkl", "key": 1117, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1379.pkl", "key": 1379, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "831.pkl", "key": 831, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "921.pkl", "key": 921, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1320.pkl", "key": 1320, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "602.pkl", "key": 602, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "295.pkl", "key": 295, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 44)"}
+{"filename": "241.pkl", "key": 241, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "463.pkl", "key": 463, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "579.pkl", "key": 579, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "629.pkl", "key": 629, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "72.pkl", "key": 72, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "724.pkl", "key": 724, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpnlehb2i3.py\", line 31, in <module>\n    code()\n  File \"/tmp/tmpnlehb2i3.py\", line 25, in code\n    while arr[j] - arr[i] <= d:\nIndexError: list index out of range\n"}
+{"filename": "1108.pkl", "key": 1108, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 41)"}
+{"filename": "55.pkl", "key": 55, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1020.pkl", "key": 1020, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1190.pkl", "key": 1190, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "677.pkl", "key": 677, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "45.pkl", "key": 45, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 70)"}
+{"filename": "439.pkl", "key": 439, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "518.pkl", "key": 518, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1024.pkl", "key": 1024, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 38)"}
+{"filename": "459.pkl", "key": 459, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "133.pkl", "key": 133, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "618.pkl", "key": 618, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "81.pkl", "key": 81, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "672.pkl", "key": 672, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "184.pkl", "key": 184, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1055.pkl", "key": 1055, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "483.pkl", "key": 483, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp0qujxznh.py\", line 36, in <module>\n    code()\n  File \"/tmp/tmp0qujxznh.py\", line 34, in code\n    main()\n  File \"/tmp/tmp0qujxznh.py\", line 27, in main\n    if s[i] == 'L' and x[i] == x[i + 1]:\nIndexError: list index out of range\n"}
+{"filename": "249.pkl", "key": 249, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1451.pkl", "key": 1451, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1294.pkl", "key": 1294, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "232.pkl", "key": 232, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "452.pkl", "key": 452, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 37)"}
+{"filename": "1318.pkl", "key": 1318, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpih0re3xe.py\", line 49, in <module>\n    code()\n  File \"/tmp/tmpih0re3xe.py\", line 44, in code\n    print(sum(ans), sum(d))\nTypeError: unsupported operand type(s) for +: 'int' and 'list'\n"}
+{"filename": "182.pkl", "key": 182, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1395.pkl", "key": 1395, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1343.pkl", "key": 1343, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 46)"}
+{"filename": "1267.pkl", "key": 1267, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "93.pkl", "key": 93, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "145.pkl", "key": 145, "error_type": "SyntaxError", "error_detail": "Missing parentheses in call to 'print'. Did you mean print(\"CHAT WITH HER!\")? (<string>, line 36)"}
+{"filename": "1459.pkl", "key": 1459, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1308.pkl", "key": 1308, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1298.pkl", "key": 1298, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "5.pkl", "key": 5, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1257.pkl", "key": 1257, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "31.pkl", "key": 31, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "943.pkl", "key": 943, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1334.pkl", "key": 1334, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 38)"}
+{"filename": "1365.pkl", "key": 1365, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "571.pkl", "key": 571, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "256.pkl", "key": 256, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "715.pkl", "key": 715, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpy71syeh9.py\", line 29, in <module>\n    code()\n  File \"/tmp/tmpy71syeh9.py\", line 19, in code\n    a, b, c, d = map(input().split('.'), 'ABCD')\nTypeError: 'list' object is not callable\n"}
+{"filename": "554.pkl", "key": 554, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "815.pkl", "key": 815, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "79.pkl", "key": 79, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "783.pkl", "key": 783, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "730.pkl", "key": 730, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "673.pkl", "key": 673, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "727.pkl", "key": 727, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp8ak2hk17.py\", line 39, in <module>\n    code()\n  File \"/tmp/tmp8ak2hk17.py\", line 37, in code\n    main()\n  File \"/tmp/tmp8ak2hk17.py\", line 32, in main\n    d.pop(0)\nIndexError: pop from empty list\n"}
+{"filename": "117.pkl", "key": 117, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "912.pkl", "key": 912, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "115.pkl", "key": 115, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "197.pkl", "key": 197, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 63)"}
+{"filename": "473.pkl", "key": 473, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp6_dv6wg7.py\", line 32, in <module>\n    code()\n  File \"/tmp/tmp6_dv6wg7.py\", line 22, in code\n    a, b = input().split()\nValueError: not enough values to unpack (expected 2, got 1)\n"}
+{"filename": "1297.pkl", "key": 1297, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "321.pkl", "key": 321, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 38)"}
+{"filename": "523.pkl", "key": 523, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1168.pkl", "key": 1168, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 58)"}
+{"filename": "116.pkl", "key": 116, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "379.pkl", "key": 379, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1069.pkl", "key": 1069, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "326.pkl", "key": 326, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1340.pkl", "key": 1340, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp5hz6axaw.py\", line 43, in <module>\n    code()\n  File \"/tmp/tmp5hz6axaw.py\", line 41, in code\n    main()\n  File \"/tmp/tmp5hz6axaw.py\", line 37, in main\n    solve()\n  File \"/tmp/tmp5hz6axaw.py\", line 22, in solve\n    n = int(sys.stdin.readline().strip())\nValueError: invalid literal for int() with base 10: '3 4 2 3 4 2 2'\n"}
+{"filename": "1175.pkl", "key": 1175, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "733.pkl", "key": 733, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1115.pkl", "key": 1115, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 52)"}
+{"filename": "157.pkl", "key": 157, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1060.pkl", "key": 1060, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "340.pkl", "key": 340, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "293.pkl", "key": 293, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "196.pkl", "key": 196, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "888.pkl", "key": 888, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "686.pkl", "key": 686, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "276.pkl", "key": 276, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1148.pkl", "key": 1148, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 102)"}
+{"filename": "940.pkl", "key": 940, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "513.pkl", "key": 513, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "151.pkl", "key": 151, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "955.pkl", "key": 955, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "963.pkl", "key": 963, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 46)"}
+{"filename": "883.pkl", "key": 883, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "807.pkl", "key": 807, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "859.pkl", "key": 859, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1497.pkl", "key": 1497, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "198.pkl", "key": 198, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "144.pkl", "key": 144, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "575.pkl", "key": 575, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "866.pkl", "key": 866, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "191.pkl", "key": 191, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1266.pkl", "key": 1266, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 39)"}
+{"filename": "596.pkl", "key": 596, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp2dyrgx2s.py\", line 30, in <module>\n    code()\n  File \"/tmp/tmp2dyrgx2s.py\", line 21, in code\n    a,b=input().split()\nValueError: not enough values to unpack (expected 2, got 1)\n"}
+{"filename": "915.pkl", "key": 915, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "338.pkl", "key": 338, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpumkzl7n8.py\", line 33, in <module>\n    code()\n  File \"/tmp/tmpumkzl7n8.py\", line 31, in code\n    print(solve(m, c, x, y))\n  File \"/tmp/tmpumkzl7n8.py\", line 24, in solve\n    if cnt[i] + cnt[i + 1] >= x:\nIndexError: list index out of range\n"}
+{"filename": "1152.pkl", "key": 1152, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1336.pkl", "key": 1336, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "305.pkl", "key": 305, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "780.pkl", "key": 780, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "624.pkl", "key": 624, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1382.pkl", "key": 1382, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "163.pkl", "key": 163, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1421.pkl", "key": 1421, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "106.pkl", "key": 106, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "499.pkl", "key": 499, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "351.pkl", "key": 351, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1109.pkl", "key": 1109, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1315.pkl", "key": 1315, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1149.pkl", "key": 1149, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1397.pkl", "key": 1397, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1074.pkl", "key": 1074, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "777.pkl", "key": 777, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 23)"}
+{"filename": "1260.pkl", "key": 1260, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1325.pkl", "key": 1325, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "268.pkl", "key": 268, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1059.pkl", "key": 1059, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "856.pkl", "key": 856, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "279.pkl", "key": 279, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "290.pkl", "key": 290, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 26)"}
+{"filename": "1327.pkl", "key": 1327, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 34)"}
+{"filename": "1130.pkl", "key": 1130, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "911.pkl", "key": 911, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "744.pkl", "key": 744, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "634.pkl", "key": 634, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1123.pkl", "key": 1123, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "269.pkl", "key": 269, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 19)"}
+{"filename": "288.pkl", "key": 288, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "324.pkl", "key": 324, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1413.pkl", "key": 1413, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1165.pkl", "key": 1165, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1311.pkl", "key": 1311, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "138.pkl", "key": 138, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "212.pkl", "key": 212, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "358.pkl", "key": 358, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 43)"}
+{"filename": "916.pkl", "key": 916, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1039.pkl", "key": 1039, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "60.pkl", "key": 60, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "179.pkl", "key": 179, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "165.pkl", "key": 165, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "180.pkl", "key": 180, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "760.pkl", "key": 760, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "502.pkl", "key": 502, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "604.pkl", "key": 604, "error_type": "SyntaxError", "error_detail": "Missing parentheses in call to 'print'. Did you mean print(0)? (<string>, line 31)"}
+{"filename": "988.pkl", "key": 988, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 41)"}
+{"filename": "692.pkl", "key": 692, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 56)"}
+{"filename": "482.pkl", "key": 482, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "617.pkl", "key": 617, "error_type": "str", "error_detail": "<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?\nTraceback (most recent call last):\n  File \"/tmp/tmpoyx98tab.py\", line 23, in <module>\n    code()\n  File \"/tmp/tmpoyx98tab.py\", line 21, in code\n    print(max([eval(s[:i] + '(' + s[i:] + ')') for i in range(1, len(s), 2)]))\n  File \"/tmp/tmpoyx98tab.py\", line 21, in <listcomp>\n    print(max([eval(s[:i] + '(' + s[i:] + ')') for i in range(1, len(s), 2)]))\n  File \"<string>\", line 1, in <module>\nTypeError: 'int' object is not callable\n"}
+{"filename": "1468.pkl", "key": 1468, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "152.pkl", "key": 152, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "153.pkl", "key": 153, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "121.pkl", "key": 121, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "561.pkl", "key": 561, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "54.pkl", "key": 54, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "662.pkl", "key": 662, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "88.pkl", "key": 88, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpsvf5gmwl.py\", line 29, in <module>\n    code()\n  File \"/tmp/tmpsvf5gmwl.py\", line 19, in code\n    a = int(input())\nValueError: invalid literal for int() with base 10: '5 10'\n"}
+{"filename": "166.pkl", "key": 166, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1140.pkl", "key": 1140, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 41)"}
+{"filename": "929.pkl", "key": 929, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 41)"}
+{"filename": "514.pkl", "key": 514, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "835.pkl", "key": 835, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1477.pkl", "key": 1477, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp1u22ur1c.py\", line 48, in <module>\n    code()\n  File \"/tmp/tmp1u22ur1c.py\", line 46, in code\n    main()\n  File \"/tmp/tmp1u22ur1c.py\", line 25, in main\n    a, b = map(int, input().split())\nValueError: too many values to unpack (expected 2)\n"}
+{"filename": "1209.pkl", "key": 1209, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1371.pkl", "key": 1371, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1456.pkl", "key": 1456, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1322.pkl", "key": 1322, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "21.pkl", "key": 21, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "131.pkl", "key": 131, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "681.pkl", "key": 681, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1376.pkl", "key": 1376, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "16.pkl", "key": 16, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 38)"}
+{"filename": "1493.pkl", "key": 1493, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 22)"}
+{"filename": "431.pkl", "key": 431, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 30)"}
+{"filename": "939.pkl", "key": 939, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "148.pkl", "key": 148, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "342.pkl", "key": 342, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "299.pkl", "key": 299, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "682.pkl", "key": 682, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1248.pkl", "key": 1248, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "894.pkl", "key": 894, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "12.pkl", "key": 12, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "889.pkl", "key": 889, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "577.pkl", "key": 577, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1423.pkl", "key": 1423, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "146.pkl", "key": 146, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1424.pkl", "key": 1424, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "99.pkl", "key": 99, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1313.pkl", "key": 1313, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1418.pkl", "key": 1418, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1398.pkl", "key": 1398, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpsgwi5ilx.py\", line 42, in <module>\n    code()\n  File \"/tmp/tmpsgwi5ilx.py\", line 20, in code\n    list = list(map(int, input().split()))\nUnboundLocalError: local variable 'list' referenced before assignment\n"}
+{"filename": "423.pkl", "key": 423, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "291.pkl", "key": 291, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "496.pkl", "key": 496, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "776.pkl", "key": 776, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "344.pkl", "key": 344, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 21)"}
+{"filename": "1368.pkl", "key": 1368, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1439.pkl", "key": 1439, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1227.pkl", "key": 1227, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 43)"}
+{"filename": "1103.pkl", "key": 1103, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp6d_idylw.py\", line 72, in <module>\n    code()\n  File \"/tmp/tmp6d_idylw.py\", line 36, in code\n    nums = func(s)\n  File \"/tmp/tmp6d_idylw.py\", line 32, in func\n    num[int(i)] += 1\nValueError: invalid literal for int() with base 10: ' '\n"}
+{"filename": "42.pkl", "key": 42, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpk5x7xuak.py\", line 48, in <module>\n    code()\n  File \"/tmp/tmpk5x7xuak.py\", line 42, in code\n    t_hash = t_hash * 2 + int(s[(i + j) % n])\nIndexError: string index out of range\n"}
+{"filename": "1489.pkl", "key": 1489, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1133.pkl", "key": 1133, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "608.pkl", "key": 608, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1099.pkl", "key": 1099, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "551.pkl", "key": 551, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1237.pkl", "key": 1237, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "497.pkl", "key": 497, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "397.pkl", "key": 397, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1435.pkl", "key": 1435, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1464.pkl", "key": 1464, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "656.pkl", "key": 656, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "792.pkl", "key": 792, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "36.pkl", "key": 36, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1431.pkl", "key": 1431, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 37)"}
+{"filename": "587.pkl", "key": 587, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "59.pkl", "key": 59, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 57)"}
+{"filename": "892.pkl", "key": 892, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "260.pkl", "key": 260, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "330.pkl", "key": 330, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 47)"}
+{"filename": "450.pkl", "key": 450, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1242.pkl", "key": 1242, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "437.pkl", "key": 437, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "195.pkl", "key": 195, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "823.pkl", "key": 823, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "785.pkl", "key": 785, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "738.pkl", "key": 738, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "648.pkl", "key": 648, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "976.pkl", "key": 976, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "29.pkl", "key": 29, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "756.pkl", "key": 756, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1216.pkl", "key": 1216, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 32)"}
+{"filename": "1498.pkl", "key": 1498, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "225.pkl", "key": 225, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "960.pkl", "key": 960, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1056.pkl", "key": 1056, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "30.pkl", "key": 30, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "387.pkl", "key": 387, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "847.pkl", "key": 847, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1125.pkl", "key": 1125, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 40)"}
+{"filename": "1221.pkl", "key": 1221, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "954.pkl", "key": 954, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "757.pkl", "key": 757, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "492.pkl", "key": 492, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "505.pkl", "key": 505, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1282.pkl", "key": 1282, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp391heqz3.py\", line 34, in <module>\n    code()\n  File \"/tmp/tmp391heqz3.py\", line 19, in code\n    n = int(input())\nValueError: invalid literal for int() with base 10: 'MFM'\n"}
+{"filename": "531.pkl", "key": 531, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "119.pkl", "key": 119, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1358.pkl", "key": 1358, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp6cofz8fc.py\", line 37, in <module>\n    code()\n  File \"/tmp/tmp6cofz8fc.py\", line 35, in code\n    main()\n  File \"/tmp/tmp6cofz8fc.py\", line 30, in main\n    dp[j] = max(dp[j], dp[j + 1] + a if j + n > i else a)\nIndexError: list index out of range\n"}
+{"filename": "689.pkl", "key": 689, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 45)"}
+{"filename": "62.pkl", "key": 62, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1295.pkl", "key": 1295, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "913.pkl", "key": 913, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "57.pkl", "key": 57, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "720.pkl", "key": 720, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1174.pkl", "key": 1174, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 37)"}
+{"filename": "548.pkl", "key": 548, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 21)"}
+{"filename": "813.pkl", "key": 813, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 33)"}
+{"filename": "810.pkl", "key": 810, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "314.pkl", "key": 314, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "748.pkl", "key": 748, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1411.pkl", "key": 1411, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmphafouxol.py\", line 41, in <module>\n    code()\n  File \"/tmp/tmphafouxol.py\", line 39, in code\n    main()\n  File \"/tmp/tmphafouxol.py\", line 25, in main\n    a.append(a)\nAttributeError: 'int' object has no attribute 'append'\n"}
+{"filename": "345.pkl", "key": 345, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 41)"}
+{"filename": "1051.pkl", "key": 1051, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1385.pkl", "key": 1385, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1403.pkl", "key": 1403, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1201.pkl", "key": 1201, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "903.pkl", "key": 903, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "102.pkl", "key": 102, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1172.pkl", "key": 1172, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "350.pkl", "key": 350, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 68)"}
+{"filename": "356.pkl", "key": 356, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "993.pkl", "key": 993, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 46)"}
+{"filename": "424.pkl", "key": 424, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "174.pkl", "key": 174, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "396.pkl", "key": 396, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1487.pkl", "key": 1487, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1381.pkl", "key": 1381, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "559.pkl", "key": 559, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 48)"}
+{"filename": "1430.pkl", "key": 1430, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "18.pkl", "key": 18, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1312.pkl", "key": 1312, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1173.pkl", "key": 1173, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "454.pkl", "key": 454, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 37)"}
+{"filename": "90.pkl", "key": 90, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1482.pkl", "key": 1482, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpiyuwgun9.py\", line 26, in <module>\n    code()\n  File \"/tmp/tmpiyuwgun9.py\", line 24, in code\n    print(a[j+n*i],\"\",end=\"\")\nIndexError: list index out of range\n"}
+{"filename": "167.pkl", "key": 167, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "308.pkl", "key": 308, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "223.pkl", "key": 223, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "383.pkl", "key": 383, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "402.pkl", "key": 402, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "267.pkl", "key": 267, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "861.pkl", "key": 861, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "997.pkl", "key": 997, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1022.pkl", "key": 1022, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "244.pkl", "key": 244, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 35)"}
+{"filename": "690.pkl", "key": 690, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1154.pkl", "key": 1154, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "32.pkl", "key": 32, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 37)"}
+{"filename": "1360.pkl", "key": 1360, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "781.pkl", "key": 781, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "479.pkl", "key": 479, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "65.pkl", "key": 65, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "122.pkl", "key": 122, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1407.pkl", "key": 1407, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "3.pkl", "key": 3, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "304.pkl", "key": 304, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "609.pkl", "key": 609, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "416.pkl", "key": 416, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "270.pkl", "key": 270, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 53)"}
+{"filename": "239.pkl", "key": 239, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 27)"}
+{"filename": "1224.pkl", "key": 1224, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1107.pkl", "key": 1107, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1270.pkl", "key": 1270, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "444.pkl", "key": 444, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "701.pkl", "key": 701, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "887.pkl", "key": 887, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "367.pkl", "key": 367, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "841.pkl", "key": 841, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 37)"}
+{"filename": "583.pkl", "key": 583, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "469.pkl", "key": 469, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "977.pkl", "key": 977, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "557.pkl", "key": 557, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1447.pkl", "key": 1447, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 30)"}
+{"filename": "374.pkl", "key": 374, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpne35xdp4.py\", line 36, in <module>\n    code()\n  File \"/tmp/tmpne35xdp4.py\", line 30, in code\n    ans += a[i]\nIndexError: list index out of range\n"}
+{"filename": "1359.pkl", "key": 1359, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 35)"}
+{"filename": "768.pkl", "key": 768, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpeiq9i6oz.py\", line 27, in <module>\n    code()\n  File \"/tmp/tmpeiq9i6oz.py\", line 22, in code\n    s = input()\nEOFError: EOF when reading a line\n"}
+{"filename": "879.pkl", "key": 879, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 23)"}
+{"filename": "140.pkl", "key": 140, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1349.pkl", "key": 1349, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "80.pkl", "key": 80, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 43)"}
+{"filename": "527.pkl", "key": 527, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "168.pkl", "key": 168, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "627.pkl", "key": 627, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpu5xbvcbm.py\", line 31, in <module>\n    code()\n  File \"/tmp/tmpu5xbvcbm.py\", line 29, in code\n    main()\n  File \"/tmp/tmpu5xbvcbm.py\", line 23, in main\n    if s[i] > s[i+1]:\nIndexError: string index out of range\n"}
+{"filename": "1402.pkl", "key": 1402, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1001.pkl", "key": 1001, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 23)"}
+{"filename": "964.pkl", "key": 964, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 41)"}
+{"filename": "526.pkl", "key": 526, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "893.pkl", "key": 893, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "13.pkl", "key": 13, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp4o3n_9jd.py\", line 55, in <module>\n    code()\n  File \"/tmp/tmp4o3n_9jd.py\", line 29, in code\n    x = int(input())\nValueError: invalid literal for int() with base 10: '2 2 1'\n"}
+{"filename": "1054.pkl", "key": 1054, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1393.pkl", "key": 1393, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "84.pkl", "key": 84, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpt9jmk856.py\", line 45, in <module>\n    code()\n  File \"/tmp/tmpt9jmk856.py\", line 34, in code\n    nines = cost.count('9')\nAttributeError: 'int' object has no attribute 'count'\n"}
+{"filename": "1426.pkl", "key": 1426, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "660.pkl", "key": 660, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "693.pkl", "key": 693, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "995.pkl", "key": 995, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 30)"}
+{"filename": "1032.pkl", "key": 1032, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1114.pkl", "key": 1114, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "818.pkl", "key": 818, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "364.pkl", "key": 364, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1383.pkl", "key": 1383, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1444.pkl", "key": 1444, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "614.pkl", "key": 614, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "794.pkl", "key": 794, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 28)"}
+{"filename": "938.pkl", "key": 938, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "808.pkl", "key": 808, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1160.pkl", "key": 1160, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 75)"}
+{"filename": "169.pkl", "key": 169, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "565.pkl", "key": 565, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "538.pkl", "key": 538, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "205.pkl", "key": 205, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1182.pkl", "key": 1182, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1496.pkl", "key": 1496, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "588.pkl", "key": 588, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "164.pkl", "key": 164, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "466.pkl", "key": 466, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "154.pkl", "key": 154, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "562.pkl", "key": 562, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1350.pkl", "key": 1350, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "643.pkl", "key": 643, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "773.pkl", "key": 773, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpx68odfxq.py\", line 54, in <module>\n    code()\n  File \"/tmp/tmpx68odfxq.py\", line 48, in code\n    dfs([0]*n, 0)\n  File \"/tmp/tmpx68odfxq.py\", line 46, in dfs\n    dfs(arr, idx+1)\n  File \"/tmp/tmpx68odfxq.py\", line 46, in dfs\n    dfs(arr, idx+1)\n  File \"/tmp/tmpx68odfxq.py\", line 46, in dfs\n    dfs(arr, idx+1)\n  File \"/tmp/tmpx68odfxq.py\", line 42, in dfs\n    cost = min(cost, sum(x**2 for x in arr))\nNameError: name 'cost' is not defined\n"}
+{"filename": "1136.pkl", "key": 1136, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 23)"}
+{"filename": "91.pkl", "key": 91, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "907.pkl", "key": 907, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1093.pkl", "key": 1093, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1488.pkl", "key": 1488, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "237.pkl", "key": 237, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 27)"}
+{"filename": "233.pkl", "key": 233, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1192.pkl", "key": 1192, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "833.pkl", "key": 833, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1499.pkl", "key": 1499, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "652.pkl", "key": 652, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "749.pkl", "key": 749, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "623.pkl", "key": 623, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "535.pkl", "key": 535, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 66)"}
+{"filename": "486.pkl", "key": 486, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1144.pkl", "key": 1144, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 39)"}
+{"filename": "1437.pkl", "key": 1437, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 22)"}
+{"filename": "46.pkl", "key": 46, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "718.pkl", "key": 718, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "951.pkl", "key": 951, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "987.pkl", "key": 987, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1280.pkl", "key": 1280, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1387.pkl", "key": 1387, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "240.pkl", "key": 240, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "343.pkl", "key": 343, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "70.pkl", "key": 70, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 27)"}
+{"filename": "1162.pkl", "key": 1162, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1279.pkl", "key": 1279, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "159.pkl", "key": 159, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 56)"}
+{"filename": "1241.pkl", "key": 1241, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 55)"}
+{"filename": "678.pkl", "key": 678, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 25)"}
+{"filename": "1076.pkl", "key": 1076, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 60)"}
+{"filename": "1412.pkl", "key": 1412, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "243.pkl", "key": 243, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 52)"}
+{"filename": "419.pkl", "key": 419, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "525.pkl", "key": 525, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "631.pkl", "key": 631, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "335.pkl", "key": 335, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "401.pkl", "key": 401, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "697.pkl", "key": 697, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1342.pkl", "key": 1342, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "422.pkl", "key": 422, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp5q_2qs4w.py\", line 39, in <module>\n    code()\n  File \"/tmp/tmp5q_2qs4w.py\", line 21, in code\n    input = io.BytesIO(sys.stdin.read()).readline\nTypeError: a bytes-like object is required, not 'str'\n"}
+{"filename": "595.pkl", "key": 595, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "516.pkl", "key": 516, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1085.pkl", "key": 1085, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmphxcps2_8.py\", line 166, in <module>\n    code()\n  File \"/tmp/tmphxcps2_8.py\", line 36, in code\n    n = int(input())\nEOFError: EOF when reading a line\n"}
+{"filename": "258.pkl", "key": 258, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1405.pkl", "key": 1405, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "446.pkl", "key": 446, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "386.pkl", "key": 386, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "312.pkl", "key": 312, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "501.pkl", "key": 501, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1422.pkl", "key": 1422, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmp9yrrfrwh.py\", line 37, in <module>\n    code()\n  File \"/tmp/tmp9yrrfrwh.py\", line 23, in code\n    if a[i] == '1':\nIndexError: list index out of range\n"}
+{"filename": "795.pkl", "key": 795, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "600.pkl", "key": 600, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1142.pkl", "key": 1142, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "209.pkl", "key": 209, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpfd4cqcpf.py\", line 34, in <module>\n    code()\n  File \"/tmp/tmpfd4cqcpf.py\", line 31, in code\n    x, y, n = map(int, input().split())\nValueError: not enough values to unpack (expected 3, got 2)\n"}
+{"filename": "670.pkl", "key": 670, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1330.pkl", "key": 1330, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1007.pkl", "key": 1007, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpdsjjp4sg.py\", line 72, in <module>\n    code()\n  File \"/tmp/tmpdsjjp4sg.py\", line 21, in code\n    sys.stdin = open('input.txt', 'r')\nFileNotFoundError: [Errno 2] No such file or directory: 'input.txt'\n"}
+{"filename": "723.pkl", "key": 723, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "349.pkl", "key": 349, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "904.pkl", "key": 904, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "215.pkl", "key": 215, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1161.pkl", "key": 1161, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "255.pkl", "key": 255, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1416.pkl", "key": 1416, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "745.pkl", "key": 745, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 43)"}
+{"filename": "650.pkl", "key": 650, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1102.pkl", "key": 1102, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "337.pkl", "key": 337, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "684.pkl", "key": 684, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 30)"}
+{"filename": "1341.pkl", "key": 1341, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "484.pkl", "key": 484, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "775.pkl", "key": 775, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1119.pkl", "key": 1119, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpyklmhs2o.py\", line 32, in <module>\n    code()\n  File \"/tmp/tmpyklmhs2o.py\", line 30, in code\n    print(solve(int(input()), int(input()), int(input())))\nValueError: invalid literal for int() with base 10: '1 1 1'\n"}
+{"filename": "1463.pkl", "key": 1463, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "147.pkl", "key": 147, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "394.pkl", "key": 394, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "369.pkl", "key": 369, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "200.pkl", "key": 200, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "665.pkl", "key": 665, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "226.pkl", "key": 226, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1378.pkl", "key": 1378, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1010.pkl", "key": 1010, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "935.pkl", "key": 935, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "975.pkl", "key": 975, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "1466.pkl", "key": 1466, "error_type": "SyntaxError", "error_detail": "Missing parentheses in call to 'print'. Did you mean print(count)? (<string>, line 57)"}
+{"filename": "1134.pkl", "key": 1134, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "382.pkl", "key": 382, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1417.pkl", "key": 1417, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "874.pkl", "key": 874, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "857.pkl", "key": 857, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "601.pkl", "key": 601, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "958.pkl", "key": 958, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "680.pkl", "key": 680, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 155)"}
+{"filename": "746.pkl", "key": 746, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1304.pkl", "key": 1304, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1450.pkl", "key": 1450, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "388.pkl", "key": 388, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1265.pkl", "key": 1265, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "654.pkl", "key": 654, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1120.pkl", "key": 1120, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 40)"}
+{"filename": "1348.pkl", "key": 1348, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 75)"}
+{"filename": "1448.pkl", "key": 1448, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "536.pkl", "key": 536, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1470.pkl", "key": 1470, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 48)"}
+{"filename": "552.pkl", "key": 552, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "778.pkl", "key": 778, "error_type": "SyntaxError", "error_detail": "unexpected EOF while parsing (<string>, line 43)"}
+{"filename": "433.pkl", "key": 433, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "418.pkl", "key": 418, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 31)"}
+{"filename": "1210.pkl", "key": 1210, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "173.pkl", "key": 173, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpkcwx2tuy.py\", line 41, in <module>\n    code()\n  File \"/tmp/tmpkcwx2tuy.py\", line 20, in code\n    sys.stdin = open(\"input.txt\", \"r\")\nFileNotFoundError: [Errno 2] No such file or directory: 'input.txt'\n"}
+{"filename": "965.pkl", "key": 965, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1006.pkl", "key": 1006, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "287.pkl", "key": 287, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "797.pkl", "key": 797, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "124.pkl", "key": 124, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1286.pkl", "key": 1286, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 32)"}
+{"filename": "322.pkl", "key": 322, "error_type": "IndentationError", "error_detail": "expected an indented block (<string>, line 19)"}
+{"filename": "506.pkl", "key": 506, "error_type": "str", "error_detail": "Traceback (most recent call last):\n  File \"/tmp/tmpiafsynhf.py\", line 27, in <module>\n    code()\n  File \"/tmp/tmpiafsynhf.py\", line 22, in code\n    n += a // b\nZeroDivisionError: integer division or modulo by zero\n"}
+{"filename": "1067.pkl", "key": 1067, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "612.pkl", "key": 612, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "64.pkl", "key": 64, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 35)"}
+{"filename": "1356.pkl", "key": 1356, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1038.pkl", "key": 1038, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1070.pkl", "key": 1070, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "259.pkl", "key": 259, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1183.pkl", "key": 1183, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 31)"}
+{"filename": "1486.pkl", "key": 1486, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "906.pkl", "key": 906, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "456.pkl", "key": 456, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "542.pkl", "key": 542, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "436.pkl", "key": 436, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 20)"}
+{"filename": "1404.pkl", "key": 1404, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "158.pkl", "key": 158, "error_type": "Wrong Answer", "error_detail": "Result is 0 indicating a wrong answer"}
+{"filename": "1272.pkl", "key": 1272, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 71)"}
+{"filename": "1159.pkl", "key": 1159, "error_type": "SyntaxError", "error_detail": "invalid syntax (<string>, line 19)"}
+{"filename": "1040.pkl", "key": 1040, "error_type": "SyntaxError", "error_detail": "EOF while scanning triple-quoted string literal (<string>, line 30)"}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Circle(3)",
+        "Circle(5)",
+        "Circle(1.5)",
+        "Circle(0)",
+        "Circle(10)"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

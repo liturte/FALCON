@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "this is very annoying\nthiss iss veery annoying\n",
+        "so sticky\nssoo  ssttiicckkyy\n"
+    ],
+    "outputs": [
+        "se\n",
+        "its yock\n"
+    ]
+}

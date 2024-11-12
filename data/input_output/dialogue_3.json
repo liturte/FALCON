@@ -1,0 +1,10 @@
+[
+    {
+        "role": "user",
+        "content": "[Problem Description]\n\nYou are tasked with creating a function that parses a string of names and returns a list containing those names without any whitespace characters such as spaces, tabs, carriage returns, or newline characters.\n\nYou are provided with a code snippet of a function `parse_names(value)` that handles the parsing logic. The function takes a string `value` as input, removes any whitespace characters from the string, and returns the cleaned-up string.\n\nYour task is to implement the `parse_names` function that performs the following operations:\n- Remove all occurrences of the `\\r` character from the input string.\n- Remove all occurrences of the `\\n` character from the input string.\n- Remove any leading or trailing spaces present in the input string.\n- Return the cleaned-up string without any whitespace characters.\n\nYou need to write the `parse_names` function and provide test cases to ensure its correctness. Your function should handle edge cases such as empty strings, strings containing only whitespace characters, and strings with multiple names separated by spaces.\n\nEnsure that your function adheres to the logic described above and passes all the provided test cases in the `QueryTestCase` class.\n\nGood luck!"
+    },
+    {
+        "role": "assistant",
+        "content": "def parse_names(value):\n    return ''.join(value.split())\n\n# Test cases\nclass QueryTestCase(unittest.TestCase):\n    def test_parse_names(self):\n        self.assertEqual(parse_names(\"John Doe\"), \"JohnDoe\")\n        self.assertEqual(parse_names(\"   John   Doe   \"), \"JohnDoe\")\n        self.assertEqual(parse_names(\"John\\nDoe\"), \"JohnDoe\")\n        self.assertEqual(parse_names(\"John\\rDoe\"), \"JohnDoe\")\n        self.assertEqual(parse_names(\"John\\r\\nDoe\"), \"JohnDoe\")\n        self.assertEqual(parse_names(\"\"), \"\")\n        self.assertEqual(parse_names(\"   \"), \"\")\n        self.assertEqual(parse_names(\"John Doe\\nJane Smith\"), \"JohnDoeJaneSmith\")\n\nif __name__ == \"__main__\":\n    unittest.main()"
+    }
+]

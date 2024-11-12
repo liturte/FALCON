@@ -1,0 +1,100 @@
+{
+    "inputs": [
+        {
+            "country_mappings": {
+                "Lao People's Democratic Republic": "Lao",
+                "Micronesia (Federated States of)": "Micronesia",
+                "Micronesia (Fed. States of)": "Micronesia",
+                "Northern Mariana Islands (Commonwealth of the)": "Northern Mariana Islands"
+            },
+            "country_list": [
+                "Lao People's Democratic Republic",
+                "Micronesia (Fed. States of)",
+                "Canada"
+            ]
+        },
+        {
+            "country_mappings": {
+                "USA": "United States of America",
+                "UK": "United Kingdom",
+                "UAE": "United Arab Emirates"
+            },
+            "country_list": [
+                "USA",
+                "UK",
+                "UAE",
+                "Germany"
+            ]
+        },
+        {
+            "country_mappings": {
+                "Australia": "AU",
+                "New Zealand": "NZ",
+                "South Africa": "SA"
+            },
+            "country_list": [
+                "Australia",
+                "New Zealand",
+                "South Africa",
+                "Japan"
+            ]
+        },
+        {
+            "country_mappings": {
+                "India": "IN",
+                "Pakistan": "PK",
+                "Bangladesh": "BD"
+            },
+            "country_list": [
+                "India",
+                "Pakistan",
+                "Bangladesh",
+                "Sri Lanka"
+            ]
+        },
+        {
+            "country_mappings": {
+                "Brazil": "BR",
+                "Argentina": "AR",
+                "Chile": "CL"
+            },
+            "country_list": [
+                "Brazil",
+                "Argentina",
+                "Chile",
+                "Peru"
+            ]
+        }
+    ],
+    "outputs": [
+        [
+            "Lao",
+            "Micronesia",
+            "Canada"
+        ],
+        [
+            "United States of America",
+            "United Kingdom",
+            "United Arab Emirates",
+            "Germany"
+        ],
+        [
+            "AU",
+            "NZ",
+            "SA",
+            "Japan"
+        ],
+        [
+            "IN",
+            "PK",
+            "BD",
+            "Sri Lanka"
+        ],
+        [
+            "BR",
+            "AR",
+            "CL",
+            "Peru"
+        ]
+    ]
+}

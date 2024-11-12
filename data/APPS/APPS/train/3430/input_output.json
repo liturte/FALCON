@@ -1,0 +1,1 @@
+{"fn_name": "lowest_temp", "inputs": [[""], ["-1 50 -4 20 22 -7 0 10 -8"]], "outputs": [[null], [-8]]}

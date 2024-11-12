@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Default Environment Name: CartPole-v1, Default Algorithm: Random, Default Maximum Episodes: 1000, Default Learning Rate: 0.001, Default Gamma: 0.95, Default Update Frequency: 20",
+        "Default Environment Name: CartPole-v1, Default Algorithm: Q-learning, Default Maximum Episodes: 1000, Default Learning Rate: 0.001, Default Gamma: 0.95, Default Update Frequency: 20",
+        "Default Environment Name: CartPole-v1, Default Algorithm: Deep Q-Networks, Default Maximum Episodes: 1000, Default Learning Rate: 0.001, Default Gamma: 0.95, Default Update Frequency: 20",
+        "Default Environment Name: CartPole-v1, Default Algorithm: Policy Gradient, Default Maximum Episodes: 1000, Default Learning Rate: 0.001, Default Gamma: 0.95, Default Update Frequency: 20",
+        "Custom Environment Name: CustomCartPole, Custom Algorithm: CustomAlgorithm, Custom Maximum Episodes: 500, Custom Learning Rate: 0.005, Custom Gamma: 0.99, Custom Update Frequency: 50"
+    ],
+    "outputs": [
+        "Improved performance compared to Random algorithm demonstrated.",
+        "Improved performance compared to Random algorithm demonstrated.",
+        "Improved performance compared to Random algorithm demonstrated.",
+        "Improved performance compared to Random algorithm demonstrated.",
+        null
+    ]
+}

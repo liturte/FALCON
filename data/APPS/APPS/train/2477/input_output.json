@@ -1,0 +1,1 @@
+{"fn_name": "numSpecialEquivGroups", "inputs": [[["\"abcd\"", "\"cdab\"", "\"cbad\"", "\"xyzz\"", "\"zzxy\"", "\"zzyx\""]]], "outputs": [3]}

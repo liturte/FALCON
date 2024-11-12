@@ -1,0 +1,8 @@
+{
+    "1045": {
+        "code": [
+            "n = int(input())\n\nans = 0\n\nwhile n >= ans:\n\n    ans += 1\n\n    n -= ans\n\nprint(ans-1)"
+        ],
+        "prompt": "\nQUESTION:\nVanya got n cubes. He decided to build a pyramid from them. Vanya wants to build the pyramid as follows: the top level of the pyramid must consist of 1 cube, the second level must consist of 1 + 2 = 3 cubes, the third level must have 1 + 2 + 3 = 6 cubes, and so on. Thus, the i-th level of the pyramid must have 1 + 2 + ... + (i - 1) + i cubes.\n\nVanya wants to know what is the maximum height of the pyramid that he can make using the given cubes.\n\n\n-----Input-----\n\nThe first line contains integer n (1 \u2264 n \u2264 10^4) \u2014 the number of cubes given to Vanya.\n\n\n-----Output-----\n\nPrint the maximum possible height of the pyramid in the single line.\n\n\n-----Examples-----\nInput\n1\n\nOutput\n1\n\nInput\n25\n\nOutput\n4\n\n\n\n-----Note-----\n\nIllustration to the second sample:  [Image]\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

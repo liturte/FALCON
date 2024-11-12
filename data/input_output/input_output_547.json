@@ -1,0 +1,76 @@
+{
+    "inputs": [
+        {
+            "START_TEXT": "Hello, world! 😊\nThis is a test string with emojis: 😄🎉🌟",
+            "ABOUT_TEXT": "🚀 Welcome to the about section!\nHere are some emojis: 😎🌈🎈"
+        },
+        {
+            "START_TEXT": "No emojis here.",
+            "ABOUT_TEXT": "🙌🏼🎊🎁"
+        },
+        {
+            "START_TEXT": "🍕🍔🍟🌮🌯",
+            "ABOUT_TEXT": "🍦🍧🍨🍩🍪"
+        },
+        {
+            "START_TEXT": "🐶🐱🐭🐹🐰",
+            "ABOUT_TEXT": "🐻🐼🐨🐯🦁"
+        },
+        {
+            "START_TEXT": "🚗🚕🚙🚌🚎",
+            "ABOUT_TEXT": "🚓🚒🚑🚐🚚"
+        }
+    ],
+    "outputs": [
+        [
+            "😊",
+            "😄",
+            "🎉",
+            "🌟",
+            "😎",
+            "🌈",
+            "🎈"
+        ],
+        [
+            "🙌🏼",
+            "🎊",
+            "🎁"
+        ],
+        [
+            "🍕",
+            "🍔",
+            "🍟",
+            "🌮",
+            "🌯",
+            "🍦",
+            "🍧",
+            "🍨",
+            "🍩",
+            "🍪"
+        ],
+        [
+            "🐶",
+            "🐱",
+            "🐭",
+            "🐹",
+            "🐰",
+            "🐻",
+            "🐼",
+            "🐨",
+            "🐯",
+            "🦁"
+        ],
+        [
+            "🚗",
+            "🚕",
+            "🚙",
+            "🚌",
+            "🚎",
+            "🚓",
+            "🚒",
+            "🚑",
+            "🚐",
+            "🚚"
+        ]
+    ]
+}

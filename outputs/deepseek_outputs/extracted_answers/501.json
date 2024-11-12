@@ -1,0 +1,3 @@
+{
+    "501": "def solve(l, r):\n    ans = 0\n    for i in range(l, r + 1):\n        ans += (i * (i + 1)) >> 1\n    return ans % (10 ** 9 + 7)\n\n\nif __name__ == \"__main__\":\n    l, r = list(map(int, input().strip().split()))\n    print(solve(l, r))"
+}

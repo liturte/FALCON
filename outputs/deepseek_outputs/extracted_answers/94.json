@@ -1,0 +1,3 @@
+{
+    "94": "import sys\ndef get_num(num, base):\n    if num == 0:\n        return [0]\n    res = []\n    while num > 0:\n        res.append(num % base)\n        num //= base\n    return res[::-1]\n\nbase = int(input())\nk = sys.stdin.readline().strip()\nif len(k) == 1:\n    print(k)\nelse:\n    k = [int(x) for x in k]\n    l = len(k)\n    while l > 1:\n        for i in range(l):\n            if k[i] == 0:\n                k[i] = base - 1\n            else:\n                k[i] -= 1\n                break\n        if k[l - 1] == 0:\n            k.append(0)\n            l += 1\n        break\n    print(int(''.join(str(x) for x in k[::-1])))"
+}

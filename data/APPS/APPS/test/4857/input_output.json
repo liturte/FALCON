@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "11 131\n",
+        "7 96\n",
+        "26 677\n"
+    ],
+    "outputs": [
+        "programming\n",
+        "contest\n",
+        "impossible\n"
+    ]
+}

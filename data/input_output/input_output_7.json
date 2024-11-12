@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Buffer1, 0, 100, True, False, False",
+        "Buffer2, 50, 50, False, True, False",
+        "Buffer3, 10, 20, True, True, True",
+        "Buffer4, 0, 200, False, False, True",
+        "Buffer5, 25, 75, True, True, False"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

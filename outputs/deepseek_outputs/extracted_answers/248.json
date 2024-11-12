@@ -1,0 +1,3 @@
+{
+    "248": "# https://atcoder.jp/contests/abc234/tasks/abc234_c\n\nimport sys\nimport math\n\na, b, k, t = map(int, input().split())\n\nans = 0\nfor i in range(k + 1):\n    if a + i > b:\n        ans += 1\n\nprint(ans)"
+}

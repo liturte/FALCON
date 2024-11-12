@@ -1,0 +1,3 @@
+{
+    "427": "def solve(cnt_1, cnt_2, x, y):\n    # Write your code here\n    # To print results to the standard output you can use print\n    # Example: print \"Hello world!\"\n    # cnt_1, cnt_2, x, y = map(int, raw_input().split())\n    # print solve(cnt_1, cnt_2, x, y)\n    a=0\n    for i in range(1,10**9):\n        if i%x and i%y:\n            a+=1\n            if a==cnt_1:\n                break\n    b=0\n    for j in range(1,10**9):\n        if j%x and j%y:\n            b+=1\n            if b==cnt_2:\n                break\n    return max(a,b)\n\n\nif __name__ == \"__main__\":\n    cnt_1, cnt_2, x, y = map(int, raw_input().split())\n    print solve(cnt_1, cnt_2, x, y)"
+}

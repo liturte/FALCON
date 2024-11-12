@@ -1,0 +1,8 @@
+{
+    "220": {
+        "code": [
+            "import sys\n\ndef main():\n    s, x = map(int, sys.stdin.readline().split())\n    count = 0\n    for a in range(1, s):\n        b = s - a\n        if a ^ b == x:\n            count += 1\n    print(count)\n\nif __name__ == \"__main__\":\n    main()"
+        ],
+        "prompt": "\nQUESTION:\nTwo positive integers a and b have a sum of s and a bitwise XOR of x. How many possible values are there for the ordered pair (a, b)?\n\n\n-----Input-----\n\nThe first line of the input contains two integers s and x (2 \u2264 s \u2264 10^12, 0 \u2264 x \u2264 10^12), the sum and bitwise xor of the pair of positive integers, respectively.\n\n\n-----Output-----\n\nPrint a single integer, the number of solutions to the given conditions. If no solutions exist, print 0.\n\n\n-----Examples-----\nInput\n9 5\n\nOutput\n4\n\nInput\n3 3\n\nOutput\n2\n\nInput\n5 2\n\nOutput\n0\n\n\n\n-----Note-----\n\nIn the first sample, we have the following solutions: (2, 7), (3, 6), (6, 3), (7, 2).\n\nIn the second sample, the only solutions are (1, 2) and (2, 1).\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

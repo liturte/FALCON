@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "128, 'contrib.layers.xavier_initializer()', 'slim.l1_regularizer(0.01)'",
+        "256, 'contrib.layers.variance_scaling_initializer()', 'slim.l2_regularizer(0.001)'",
+        "64, 'contrib.layers.xavier_initializer()', 'slim.l2_regularizer(0.001)'",
+        "512, 'contrib.layers.variance_scaling_initializer()', 'slim.l1_regularizer(0.01)'",
+        "32, 'contrib.layers.xavier_initializer()', 'slim.l2_regularizer(0.001)'"
+    ],
+    "outputs": [
+        "net = slim.fully_connected(net, 128, weights_initializer=contrib.layers.xavier_initializer(), weights_regularizer=slim.l1_regularizer(0.01))",
+        "net = slim.fully_connected(net, 256, weights_initializer=contrib.layers.variance_scaling_initializer(), weights_regularizer=slim.l2_regularizer(0.001))",
+        "net = slim.fully_connected(net, 64, weights_initializer=contrib.layers.xavier_initializer(), weights_regularizer=slim.l2_regularizer(0.001))",
+        "net = slim.fully_connected(net, 512, weights_initializer=contrib.layers.variance_scaling_initializer(), weights_regularizer=slim.l1_regularizer(0.01))",
+        "net = slim.fully_connected(net, 32, weights_initializer=contrib.layers.xavier_initializer(), weights_regularizer=slim.l2_regularizer(0.001))"
+    ]
+}

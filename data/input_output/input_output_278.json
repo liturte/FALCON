@@ -1,0 +1,66 @@
+{
+    "inputs": [
+        {
+            "radar_file": "radar_specs.json",
+            "radar_name": "Radar1",
+            "offset": [
+                2.0,
+                1.5,
+                0.8
+            ],
+            "use_relative_cs": true,
+            "relative_cs_name": "Car1"
+        },
+        {
+            "radar_file": "radar_specs.json",
+            "radar_name": "Radar2",
+            "offset": [
+                0.0,
+                0.0,
+                1.2
+            ],
+            "use_relative_cs": false,
+            "relative_cs_name": ""
+        },
+        {
+            "radar_file": "radar_specs.json",
+            "radar_name": "Radar3",
+            "offset": [
+                3.5,
+                2.1,
+                0.0
+            ],
+            "use_relative_cs": true,
+            "relative_cs_name": "Car2"
+        },
+        {
+            "radar_file": "radar_specs.json",
+            "radar_name": "Radar4",
+            "offset": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "use_relative_cs": false,
+            "relative_cs_name": ""
+        },
+        {
+            "radar_file": "radar_specs.json",
+            "radar_name": "Radar5",
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "use_relative_cs": true,
+            "relative_cs_name": "Car3"
+        }
+    ],
+    "outputs": [
+        "Radar object Radar1 created relative to Car1 with offset [2.0, 1.5, 0.8]",
+        "Radar object Radar2 created with offset [0.0, 0.0, 1.2].",
+        "Radar object Radar3 created relative to Car2 with offset [3.5, 2.1, 0.0]",
+        "Radar object Radar4 created with offset [1.0, 0.0, 0.0].",
+        "Radar object Radar5 created relative to Car3 with offset [0.0, 0.0, 0.0]"
+    ]
+}

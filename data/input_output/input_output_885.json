@@ -1,0 +1,30 @@
+{
+    "inputs": [
+        [
+            "Hello\nWorld\n",
+            "\nPython\nProgramming",
+            "  Lorem Ipsum  "
+        ],
+        [
+            "Node1\n\nNode2",
+            "  Node3  ",
+            "\nNode4\nNode5\n"
+        ],
+        [
+            "  Node6\nNode7  ",
+            "\nNode8\n\nNode9",
+            "Node10"
+        ]
+    ],
+    "outputs": [
+        [
+            "Hello\nWorld\nPython\nProgramming\nLorem Ipsum"
+        ],
+        [
+            "Node1\nNode2\nNode3\nNode4\nNode5"
+        ],
+        [
+            "Node6\nNode7\nNode8\nNode9\nNode10"
+        ]
+    ]
+}

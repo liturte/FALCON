@@ -1,0 +1,1 @@
+{"fn_name": "split_in_parts", "inputs": [["supercalifragilisticexpialidocious", 3], ["HelloKata", 1], ["HelloKata", 9]], "outputs": [["sup erc ali fra gil ist ice xpi ali doc iou s"], ["H e l l o K a t a"], ["HelloKata"]]}

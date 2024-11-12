@@ -1,0 +1,3 @@
+{
+    "296": "n = int(input())\na, b = map(int, input().split())\nh = list(map(int, input().split()))\n\nres = float('inf')\n\nfor i in range(1<<n):\n    r = g = 0\n    for j in range(n):\n        if i & 1 << j:\n            r += h[j]\n        else:\n            g += h[j]\n    if r <= a and g <= b:\n        res = min(res, max(r, g) - min(r, g))\n\nprint(res if res != float('inf') else -1)"
+}

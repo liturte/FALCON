@@ -1,0 +1,49 @@
+{
+    "inputs": [
+        "config1.ini",
+        "config2.ini",
+        "config3.ini",
+        "config4.ini",
+        "config5.ini"
+    ],
+    "outputs": [
+        {
+            "section1": {
+                "option1": "value1",
+                "option2": "42"
+            },
+            "section2": {
+                "option3": "hello"
+            }
+        },
+        {
+            "section1": {
+                "option1": "abc",
+                "option2": "def"
+            },
+            "section2": {
+                "option3": "xyz"
+            }
+        },
+        {
+            "section1": {
+                "option1": "1",
+                "option2": "2"
+            },
+            "section2": {
+                "option3": "3",
+                "option4": "4"
+            }
+        },
+        {
+            "section1": {
+                "option1": "value",
+                "option2": "42"
+            },
+            "section2": {
+                "option3": "world"
+            }
+        },
+        null
+    ]
+}

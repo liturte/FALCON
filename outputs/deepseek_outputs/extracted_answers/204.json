@@ -1,0 +1,3 @@
+{
+    "204": "def gcd(a, b):\n    if b == 0:\n        return a\n    else:\n        return gcd(b, a % b)\n\n\ndef count_pairs(a, b, x, y):\n    g = gcd(x, y)\n    x //= g\n    y //= g\n    return min(a // x, b // y)\n\n\na, b, x, y = map(int, input().split())\nprint(count_pairs(a, b, x, y))"
+}

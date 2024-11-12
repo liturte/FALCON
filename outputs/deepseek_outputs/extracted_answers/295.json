@@ -1,0 +1,3 @@
+{
+    "295": "def find_fraction(n):\n    if n <= 3:\n        return \"NO\"\n    else:\n        k = n - 2\n        return \"YES\\n\" + str(k) + \"\\n\" + \"1 \" + str(n - 1) + \"\\n\" + \"1 \" + str(n)\n\n\nn = int(input())\nprint(find_fraction(n))\n\n\n\n'''\n\n\ndef find_fraction(n):\n    if n <= 3:\n        return \"NO\"\n    else:\n        k = n - 2\n        return \"YES\\n\" + str(k) + \"\\n\" + \"1 \" + str(n - 1) + \"\\n\" + \"1 \" + str(n)\n\n\nn = int(input())\nprint(find_fraction(n))"
+}

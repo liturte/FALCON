@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Font(name='Arial', size=12, bold=False)",
+        "Font(name='Times New Roman', size=16, bold=True)",
+        "Font(name='Verdana', size=14, bold=False)",
+        "Font(name='Courier New', size=18, bold=True)",
+        "Font(name='Helvetica', size=20, bold=False)"
+    ],
+    "outputs": [
+        "Font: Arial\nSize: 12\nBold: False",
+        "Font: Times New Roman\nSize: 16\nBold: True",
+        "Font: Verdana\nSize: 14\nBold: False",
+        "Font: Courier New\nSize: 18\nBold: True",
+        "Font: Helvetica\nSize: 20\nBold: False"
+    ]
+}

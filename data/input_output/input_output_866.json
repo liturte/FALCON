@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "MachineA, EVENTLOG_WARNING_TYPE, ['Warning event 1', 'Warning event 2']",
+        "MachineB, EVENTLOG_ERROR_TYPE, ['Error event 1', 'Error event 2', 'Error event 3']",
+        "MachineC, EVENTLOG_WARNING_TYPE, ['Warning event 1', 'Warning event 2', 'Warning event 3']",
+        "MachineD, EVENTLOG_ERROR_TYPE, ['Error event 1']",
+        "MachineE, EVENTLOG_WARNING_TYPE, []"
+    ],
+    "outputs": [
+        "Writing input records for MachineA with warning events: ['Warning event 1', 'Warning event 2']",
+        "Writing input records for MachineB with error events: ['Error event 1', 'Error event 2', 'Error event 3']",
+        "Writing input records for MachineC with warning events: ['Warning event 1', 'Warning event 2', 'Warning event 3']",
+        "Writing input records for MachineD with error events: ['Error event 1']",
+        "No warning events found for MachineE"
+    ]
+}

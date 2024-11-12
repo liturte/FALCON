@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "BlockStatement([AVMLabel('start'), AVMLabel('end')])",
+        "BlockStatement([BlockStatement([AVMLabel('inner_start'), AVMLabel('inner_end')]), AVMLabel('end')])",
+        "BlockStatement([AVMLabel('label1'), AVMLabel('label2'), AVMLabel('label3')])",
+        "BlockStatement([AVMLabel('one'), AVMLabel('two'), AVMLabel('three'), AVMLabel('four')])",
+        "BlockStatement([BlockStatement([AVMLabel('nested1'), AVMLabel('nested2')]), BlockStatement([AVMLabel('nested3'), AVMLabel('nested4')])])"
+    ],
+    "outputs": [
+        "start\nend",
+        "inner_start\ninner_end\nend",
+        "label1\nlabel2\nlabel3",
+        "one\ntwo\nthree\nfour",
+        "nested1\nnested2\nnested3\nnested4"
+    ]
+}

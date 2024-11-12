@@ -1,0 +1,3 @@
+{
+    "351": "def read():\n    return map(int, input().split())\nn, k = read()\na = list(read())\n\n\ndef solve(k, a):\n    if k >= max(a):\n        return 0\n    a.sort(reverse=True)\n    for i in range(1, len(a)):\n        if k >= a[i - 1] - a[i] / 2:\n            continue\n        return i\n    return len(a)\n\n\nprint(solve(k, a))"
+}

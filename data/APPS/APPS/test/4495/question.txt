@@ -1,0 +1,21 @@
+You are given nonnegative integers a and b (a ≤ b), and a positive integer x.
+Among the integers between a and b, inclusive, how many are divisible by x?
+
+-----Constraints-----
+ - 0 ≤ a ≤ b ≤ 10^{18}
+ - 1 ≤ x ≤ 10^{18}
+
+-----Input-----
+The input is given from Standard Input in the following format:
+a b x
+
+-----Output-----
+Print the number of the integers between a and b, inclusive, that are divisible by x.
+
+-----Sample Input-----
+4 8 2
+
+-----Sample Output-----
+3
+
+There are three integers between 4 and 8, inclusive, that are divisible by 2: 4, 6 and 8.

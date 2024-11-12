@@ -1,0 +1,8 @@
+{
+    "317": {
+        "code": [
+            "n = int(input())\ns = input()\n\ndef ispangram(s):\n    alphabet = \"abcdefghijklmnopqrstuvwxyz\"\n    for char in alphabet:\n        if char not in s.lower():\n            return False\n    return True\n\nif ispangram(s):\n    print(\"YES\")\nelse:\n    print(\"NO\")"
+        ],
+        "prompt": "\nQUESTION:\nA word or a sentence in some language is called a pangram if all the characters of the alphabet of this language appear in it at least once. Pangrams are often used to demonstrate fonts in printing or test the output devices.\n\nYou are given a string consisting of lowercase and uppercase Latin letters. Check whether this string is a pangram. We say that the string contains a letter of the Latin alphabet if this letter occurs in the string in uppercase or lowercase.\n\n\n-----Input-----\n\nThe first line contains a single integer n (1 \u2264 n \u2264 100)\u00a0\u2014 the number of characters in the string.\n\nThe second line contains the string. The string consists only of uppercase and lowercase Latin letters.\n\n\n-----Output-----\n\nOutput \"YES\", if the string is a pangram and \"NO\" otherwise.\n\n\n-----Examples-----\nInput\n12\ntoosmallword\n\nOutput\nNO\n\nInput\n35\nTheQuickBrownFoxJumpsOverTheLazyDog\n\nOutput\nYES\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

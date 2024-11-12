@@ -1,0 +1,8 @@
+{
+    "297": {
+        "code": [
+            "def main():\n    n, m, k = map(int, input().split())\n    if n > m:\n        n, m = m, n\n    if n*m % k != 0:\n        print('NO')\n    else:\n        print('YES')\n        print(1, 0)\n        print(n, m)\n        print(n, n*m//k)\nmain()"
+        ],
+        "prompt": "\nQUESTION:\nVasya has got three integers $n$, $m$ and $k$. He'd like to find three integer points $(x_1, y_1)$, $(x_2, y_2)$, $(x_3, y_3)$, such that $0 \\le x_1, x_2, x_3 \\le n$, $0 \\le y_1, y_2, y_3 \\le m$ and the area of the triangle formed by these points is equal to $\\frac{nm}{k}$.\n\nHelp Vasya! Find such points (if it's possible). If there are multiple solutions, print any of them.\n\n\n-----Input-----\n\nThe single line contains three integers $n$, $m$, $k$ ($1\\le n, m \\le 10^9$, $2 \\le k \\le 10^9$).\n\n\n-----Output-----\n\nIf there are no such points, print \"NO\".\n\nOtherwise print \"YES\" in the first line. The next three lines should contain integers $x_i, y_i$ \u2014 coordinates of the points, one point per line. If there are multiple solutions, print any of them.\n\nYou can print each letter in any case (upper or lower).\n\n\n-----Examples-----\nInput\n4 3 3\n\nOutput\nYES\n1 0\n2 3\n4 1\n\nInput\n4 4 7\n\nOutput\nNO\n\n\n\n-----Note-----\n\nIn the first example area of the triangle should be equal to $\\frac{nm}{k} = 4$. The triangle mentioned in the output is pictured below:  [Image] \n\nIn the second example there is no triangle with area $\\frac{nm}{k} = \\frac{16}{7}$.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

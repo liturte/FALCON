@@ -1,0 +1,1 @@
+{"fn_name": "solve", "inputs": [["xyz", "yxz"], ["abcxyz", "ayxz"], ["abcdexyz", "yxz"], ["xyz", "yxxz"], ["abdegfg", "ffdb"], ["aabcdefg", "fbd"]], "outputs": [[0], [2], [5], [0], [0], [5]]}

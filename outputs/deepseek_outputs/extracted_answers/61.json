@@ -1,0 +1,3 @@
+{
+    "61": "n, bx = map(int, input().split())\nx = list(map(int, input().split()))\nm, by = map(int, input().split())\ny = list(map(int, input().split()))\n\n\ndef convert(num, base):\n    res = []\n    while num:\n        res.append(str(num % base))\n        num //= base\n    return int(''.join(res[::-1]))\n\n\nprint('<' if convert(x, bx) < convert(y, by) else '>' if convert(x, bx) > convert(y, by) else '=')"
+}

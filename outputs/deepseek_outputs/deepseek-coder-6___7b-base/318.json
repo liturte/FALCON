@@ -1,0 +1,8 @@
+{
+    "318": {
+        "code": [
+            "import sys\n\nhh, mm = map(int, input().split(':'))\na = int(input())\n\nmm += a\n\nhh += mm // 60\nmm %= 60\n\nif hh > 23:\n    hh %= 24\n\nprint('{:02}:{:02}'.format(hh, mm))"
+        ],
+        "prompt": "\nQUESTION:\nYou are given the current time in 24-hour format hh:mm. Find and print the time after a minutes.\n\nNote that you should find only the time after a minutes, see the examples to clarify the problem statement.\n\nYou can read more about 24-hour format here https://en.wikipedia.org/wiki/24-hour_clock.\n\n\n-----Input-----\n\nThe first line contains the current time in the format hh:mm (0 \u2264 hh < 24, 0 \u2264 mm < 60). The hours and the minutes are given with two digits (the hours or the minutes less than 10 are given with the leading zeroes).\n\nThe second line contains integer a (0 \u2264 a \u2264 10^4) \u2014 the number of the minutes passed.\n\n\n-----Output-----\n\nThe only line should contain the time after a minutes in the format described in the input. Note that you should print exactly two digits for the hours and the minutes (add leading zeroes to the numbers if needed).\n\nSee the examples to check the input/output format.\n\n\n-----Examples-----\nInput\n23:59\n10\n\nOutput\n00:09\n\nInput\n20:20\n121\n\nOutput\n22:21\n\nInput\n10:10\n0\n\nOutput\n10:10\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

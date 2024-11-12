@@ -1,0 +1,3 @@
+{
+    "268": "import sys\n\nn, k, d = map(int, input().split())\na = list(map(int, input().split()))\na.sort()\n\ndef f(a, d):\n    i = 0\n    while i < len(a) - 1:\n        if a[i + 1] - a[i] <= d:\n            return True\n        i += 1\n    return False\n\n\nif f(a, d):\n    print('YES')\nelse:\n    print('NO')"
+}

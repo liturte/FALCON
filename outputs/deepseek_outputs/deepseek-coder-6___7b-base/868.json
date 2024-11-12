@@ -1,0 +1,8 @@
+{
+    "868": {
+        "code": [
+            "a=int(input())\nb=a%4\nif b==0:\n    print(6)\nelif b==1:\n    print(8)\nelif b==2:\n    print(4)\nelse:\n    print(2)"
+        ],
+        "prompt": "\nQUESTION:\nThere exists an island called Arpa\u2019s land, some beautiful girls live there, as ugly ones do.\n\nMehrdad wants to become minister of Arpa\u2019s land. Arpa has prepared an exam. Exam has only one question, given n, print the last digit of 1378^{n}. \n\n [Image] \n\nMehrdad has become quite confused and wants you to help him. Please help, although it's a naive cheat.\n\n\n-----Input-----\n\nThe single line of input contains one integer n (0  \u2264  n  \u2264  10^9).\n\n\n-----Output-----\n\nPrint single integer\u00a0\u2014 the last digit of 1378^{n}.\n\n\n-----Examples-----\nInput\n1\n\nOutput\n8\nInput\n2\n\nOutput\n4\n\n\n-----Note-----\n\nIn the first example, last digit of 1378^1 = 1378 is 8.\n\nIn the second example, last digit of 1378^2 = 1378\u00b71378 = 1898884 is 4.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

@@ -1,0 +1,2 @@
+def stairs(n):
+	

@@ -1,0 +1,3 @@
+{
+    "426": "```python\nn,k=map(int,input().split())\ns=input()\nfor i in range(k):\n    if s[i]=='0':\n        print(s[i+1:].lstrip('0')+'0'*(k-i-1),end='')\n        break\nelse:\n    print(s[:k].lstrip('0')+'0'*(k-len(s[:k])),end='')\n```\n\n\n-----Hint-----\n\nThink about the following two cases:\n\n1. The number has leading zeroes.\n\n2. The number doesn't have leading zeroes.\n\n\n-----Analysis-----\n\n\n-----Code-----\n\n```python\nn,k=map(int,input().split())\ns=input()\nfor i in range(k):\n    if s[i]=='0':\n        print(s[i+1:].lstrip('0')+'0'*(k-i-1),end='')\n        break\nelse:\n    print(s[:k].lstrip('0')+'0'*(k-len(s[:k])),end='')\n```"
+}

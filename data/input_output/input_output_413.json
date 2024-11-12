@@ -1,0 +1,56 @@
+{
+    "inputs": [
+        {
+            "card_name": "Visa Card",
+            "card_number": "1234567890123456",
+            "customer_uid": "987654321"
+        },
+        {
+            "card_name": "MasterCard",
+            "card_number": "9876543210987654",
+            "customer_uid": "123456789"
+        },
+        {
+            "card_name": "American Express",
+            "card_number": "1111222233334444",
+            "customer_uid": "555566667"
+        },
+        {
+            "card_name": "Discover Card",
+            "card_number": "5555666677778888",
+            "customer_uid": "111122223"
+        },
+        {
+            "card_name": "JCB Card",
+            "card_number": "8765432187654321",
+            "customer_uid": "999988887"
+        }
+    ],
+    "outputs": [
+        {
+            "card_name": "Visa Card",
+            "card_number": "************3456",
+            "customer_uid": "987654321"
+        },
+        {
+            "card_name": "MasterCard",
+            "card_number": "************7654",
+            "customer_uid": "123456789"
+        },
+        {
+            "card_name": "American Express",
+            "card_number": "************4444",
+            "customer_uid": "555566667"
+        },
+        {
+            "card_name": "Discover Card",
+            "card_number": "************8888",
+            "customer_uid": "111122223"
+        },
+        {
+            "card_name": "JCB Card",
+            "card_number": "************4321",
+            "customer_uid": "999988887"
+        }
+    ]
+}

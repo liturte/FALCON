@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        {
+            "result_array": "512x512x3 array",
+            "original_image_dimensions": "1024x1024x3"
+        },
+        {
+            "result_array": "256x256x3 array",
+            "original_image_dimensions": "512x512x3"
+        },
+        {
+            "result_array": "128x128x3 array",
+            "original_image_dimensions": "256x256x3"
+        },
+        {
+            "result_array": "64x64x3 array",
+            "original_image_dimensions": "128x128x3"
+        },
+        {
+            "result_array": "32x32x3 array",
+            "original_image_dimensions": "64x64x3"
+        }
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

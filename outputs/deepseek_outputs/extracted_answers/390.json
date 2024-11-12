@@ -1,0 +1,3 @@
+{
+    "390": "import sys\nimport collections\n\ndef main():\n    n, a, b = map(int, sys.stdin.readline().split())\n    c = sys.stdin.readline().strip()\n    c = [int(x) for x in c.split()]\n    # print(n, a, b, c)\n    count = collections.Counter(c)\n    # print(count)\n    if count[2] == 0:\n        if c == c[::-1]:\n            print(0)\n        else:\n            print(-1)\n    else:\n        if count[0] == 0:\n            print(b * count[2])\n        elif count[1] == 0:\n            print(a * count[2])\n        else:\n            print(min(a * count[2], b * count[2]))\n\n\nif __name__ == \"__main__\":\n    main()"
+}

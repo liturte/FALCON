@@ -1,0 +1,1 @@
+{"fn_name": "mysterious_pattern", "inputs": [[5, 5], [12, 4], [4, 5], [10, 1]], "outputs": [["    o\noo\n  o\n   o"], ["     o     o\noo  o oo  o\n  o     o\n   o     o"], ["oo\n  o\n   o"], ["oooooooooo"]]}

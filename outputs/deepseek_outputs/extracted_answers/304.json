@@ -1,0 +1,3 @@
+{
+    "304": "import re\n\ns = input()\n\nif s[0] == '0':\n    print(0)\nelif len(s) == 1:\n    print(1)\nelse:\n    d = len(re.findall(r'(\\d)\\1', s))\n    print(10 ** (len(s) - d) - 9 ** (len(s) - d))"
+}

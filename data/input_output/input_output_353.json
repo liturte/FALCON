@@ -1,0 +1,17 @@
+{
+    "inputs": [
+        "{\"title\": \"Inception\", \"duration\": 148}",
+        "{\"flavor\": \"Butter\", \"size\": \"Large\"}",
+        "{\"title\": \"The Dark Knight\", \"duration\": 152}",
+        "{\"flavor\": \"Caramel\", \"size\": \"Medium\"}",
+        "{\"title\": \"Interstellar\", \"duration\": 169}",
+        "{\"flavor\": \"Cheese\", \"size\": \"Small\"}"
+    ],
+    "outputs": [
+        "\"2010-10-11 18:30\"",
+        null,
+        null,
+        null,
+        null
+    ]
+}

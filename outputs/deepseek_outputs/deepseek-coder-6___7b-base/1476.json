@@ -1,0 +1,8 @@
+{
+    "1476": {
+        "code": [
+            "n = int(input())\na = list(range(1, n + 1))\nif n % 2:\n    a[n // 2], a[n // 2 - 1] = a[n // 2 - 1], a[n // 2]\nprint(n)\nprint(*a)"
+        ],
+        "prompt": "\nQUESTION:\nAn exam for n students will take place in a long and narrow room, so the students will sit in a line in some order. The teacher suspects that students with adjacent numbers (i and i + 1) always studied side by side and became friends and if they take an exam sitting next to each other, they will help each other for sure.\n\nYour task is to choose the maximum number of students and make such an arrangement of students in the room that no two students with adjacent numbers sit side by side.\n\n\n-----Input-----\n\nA single line contains integer n (1 \u2264 n \u2264 5000) \u2014 the number of students at an exam.\n\n\n-----Output-----\n\nIn the first line print integer k \u2014 the maximum number of students who can be seated so that no two students with adjacent numbers sit next to each other.\n\nIn the second line print k distinct integers a_1, a_2, ..., a_{k} (1 \u2264 a_{i} \u2264 n), where a_{i} is the number of the student on the i-th position. The students on adjacent positions mustn't have adjacent numbers. Formally, the following should be true: |a_{i} - a_{i} + 1| \u2260 1 for all i from 1 to k - 1.\n\nIf there are several possible answers, output any of them.\n\n\n-----Examples-----\nInput\n6\nOutput\n6\n1 5 3 6 2 4\nInput\n3\n\nOutput\n2\n1 3\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

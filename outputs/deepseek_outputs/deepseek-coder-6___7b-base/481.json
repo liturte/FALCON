@@ -1,0 +1,8 @@
+{
+    "481": {
+        "code": [
+            "n,x=map(int,input().split())\nans=0\nfor i in range(1,n+1):\n    if x%i==0 and x/i<=n:\n        ans+=1\nprint(ans)"
+        ],
+        "prompt": "\nQUESTION:\nLet's consider a table consisting of n rows and n columns. The cell located at the intersection of i-th row and j-th column contains number i \u00d7 j. The rows and columns are numbered starting from 1.\n\nYou are given a positive integer x. Your task is to count the number of cells in a table that contain number x.\n\n\n-----Input-----\n\nThe single line contains numbers n and x (1 \u2264 n \u2264 10^5, 1 \u2264 x \u2264 10^9) \u2014 the size of the table and the number that we are looking for in the table.\n\n\n-----Output-----\n\nPrint a single number: the number of times x occurs in the table.\n\n\n-----Examples-----\nInput\n10 5\n\nOutput\n2\n\nInput\n6 12\n\nOutput\n4\n\nInput\n5 13\n\nOutput\n0\n\n\n\n-----Note-----\n\nA table for the second sample test is given below. The occurrences of number 12 are marked bold.  [Image]\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

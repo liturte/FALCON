@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "StaticDynamicDim(5) + 10",
+        "StaticDynamicDim(0) + 15",
+        "StaticDynamicDim(-3) + 7",
+        "StaticDynamicDim(100) + 50",
+        "StaticDynamicDim(2.5) + 3.5"
+    ],
+    "outputs": [
+        "15",
+        "15",
+        "4",
+        "150",
+        "6.0"
+    ]
+}

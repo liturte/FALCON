@@ -1,0 +1,3 @@
+{
+    "202": "x1, y1 = list(map(int, input().split()))\nx2, y2 = list(map(int, input().split()))\n\nd = 0\n\nwhile x1 != x2 or y1 != y2:\n    if abs(x1 - x2) >= 1 and abs(y1 - y2) >= 1:\n        x1 += 1\n        y1 += 1\n        d += 1\n    elif abs(x1 - x2) >= 1:\n        x1 += 1\n        d += 1\n    elif abs(y1 - y2) >= 1:\n        y1 += 1\n        d += 1\n    else:\n        if x1 > x2:\n            x1 -= 1\n        elif x1 < x2:\n            x1 += 1\n        elif y1 > y2:\n            y1 -= 1\n        elif y1 < y2:\n            y1 += 1\n        d += 1\n\nprint(d)"
+}

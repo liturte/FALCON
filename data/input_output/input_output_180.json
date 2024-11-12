@@ -1,0 +1,121 @@
+{
+    "inputs": [
+        {
+            "result": "rook-ceph-osd-2",
+            "metadata": {
+                "status": "success"
+            },
+            "prometheus_alerts": [
+                {
+                    "labels": {
+                        "name": "High CPU Usage"
+                    }
+                },
+                {
+                    "labels": {
+                        "name": "Memory Usage Exceeded"
+                    }
+                }
+            ]
+        },
+        {
+            "result": "nginx-ingress-controller",
+            "metadata": {
+                "status": "error"
+            },
+            "prometheus_alerts": [
+                {
+                    "labels": {
+                        "name": "High Memory Usage"
+                    }
+                },
+                {
+                    "labels": {
+                        "name": "Disk Space Full"
+                    }
+                }
+            ]
+        },
+        {
+            "result": "prometheus-server",
+            "metadata": {
+                "status": "warning"
+            },
+            "prometheus_alerts": [
+                {
+                    "labels": {
+                        "name": "Network Traffic High"
+                    }
+                },
+                {
+                    "labels": {
+                        "name": "Disk Usage Critical"
+                    }
+                }
+            ]
+        },
+        {
+            "result": "mysql-database",
+            "metadata": {
+                "status": "success"
+            },
+            "prometheus_alerts": [
+                {
+                    "labels": {
+                        "name": "Database Connection Lost"
+                    }
+                },
+                {
+                    "labels": {
+                        "name": "Slow Query Detected"
+                    }
+                }
+            ]
+        },
+        {
+            "result": "kubernetes-api-server",
+            "metadata": {
+                "status": "error"
+            },
+            "prometheus_alerts": [
+                {
+                    "labels": {
+                        "name": "API Server Unresponsive"
+                    }
+                },
+                {
+                    "labels": {
+                        "name": "High Pod Restart Rate"
+                    }
+                }
+            ]
+        }
+    ],
+    "outputs": [
+        [
+            "rook-ceph-osd-2",
+            "success",
+            2
+        ],
+        [
+            "nginx-ingress-controller",
+            "error",
+            2
+        ],
+        [
+            "prometheus-server",
+            "warning",
+            2
+        ],
+        [
+            "mysql-database",
+            "success",
+            2
+        ],
+        [
+            "kubernetes-api-server",
+            "error",
+            2
+        ]
+    ]
+}

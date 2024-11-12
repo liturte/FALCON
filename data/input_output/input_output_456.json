@@ -1,0 +1,42 @@
+{
+    "inputs": [
+        [
+            "async_folder",
+            "sync_folder",
+            false
+        ],
+        [
+            "async_folder",
+            "sync_folder",
+            true
+        ],
+        [
+            "folder1",
+            "folder2",
+            false
+        ],
+        [
+            "folder3",
+            "folder4",
+            true
+        ],
+        [
+            "folder5",
+            "folder6",
+            false
+        ]
+    ],
+    "outputs": [
+        null,
+        [
+            "sync_folder/file1_sync.txt",
+            "sync_folder/file2_sync.txt"
+        ],
+        null,
+        [
+            "folder4/file1_sync.txt",
+            "folder4/file2_sync.txt"
+        ],
+        null
+    ]
+}

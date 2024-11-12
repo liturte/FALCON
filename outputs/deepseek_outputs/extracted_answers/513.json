@@ -1,0 +1,3 @@
+{
+    "513": "from fractions import Fraction\ndef gcd(a, b):\n    return b if a == 0 else gcd(b%a, a)\n\npoints = [map(int, raw_input().split()) for i in xrange(8)]\nslope = []\nfor i in xrange(8):\n    for j in xrange(i+1, 8):\n        if points[i][0] == points[j][0]:\n            slope.append(Fraction(1, 0))\n        elif points[i][1] == points[j][1]:\n            slope.append(Fraction(0, 1))\n        else:\n            slope.append(Fraction(points[i][1]-points[j][1], points[i][0]-points[j][0]))\nslope.sort()\n\nfor i in xrange(6):\n    if slope[i] == slope[i+1]:\n        print \"ugly\"\n        exit(0)\n\nprint \"respectable\""
+}

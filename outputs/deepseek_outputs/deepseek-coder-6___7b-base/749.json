@@ -1,0 +1,8 @@
+{
+    "749": {
+        "code": [
+            "# put your python code here\na=input()\nc=0\nfor i in range(len(a)):\n    for j in range(i+1,len(a)+1):\n        b=a[i:j]\n        if a.count(b[0])>=len(b):\n            c=max(c,len(b))\nprint(c)"
+        ],
+        "prompt": "\nQUESTION:\nYou are given a string s consisting of lowercase Latin letters. Character c is called k-dominant iff each substring of s with length at least k contains this character c.\n\nYou have to find minimum k such that there exists at least one k-dominant character.\n\n\n-----Input-----\n\nThe first line contains string s consisting of lowercase Latin letters (1 \u2264 |s| \u2264 100000).\n\n\n-----Output-----\n\nPrint one number \u2014 the minimum value of k such that there exists at least one k-dominant character.\n\n\n-----Examples-----\nInput\nabacaba\n\nOutput\n2\n\nInput\nzzzzz\n\nOutput\n1\n\nInput\nabcde\n\nOutput\n3\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

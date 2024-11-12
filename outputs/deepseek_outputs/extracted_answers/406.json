@@ -1,0 +1,3 @@
+{
+    "406": "import sys\n\ninput = sys.stdin.readline\n\nn = int(input())\na = list(map(int, input().split()))\n\na.sort()\n\nif a[0] == a[-1]:\n    print(a[0] * a[0])\nelse:\n    print(a[0] * a[-1])"
+}

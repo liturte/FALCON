@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "q_press_left_click_right",
+        "w_hold_shift_press_space",
+        "e_press_1_press_2_press_3",
+        "r_press_q_press_e",
+        "invalid_hotkey"
+    ],
+    "outputs": [
+        "DDConfigLayout(mode='q', actions=['press_left', 'click_right'])",
+        "DDConfigLayout(mode='w', actions=['hold_shift', 'press_space'])",
+        "DDConfigLayout(mode='e', actions=['press_1', 'press_2', 'press_3'])",
+        "DDConfigLayout(mode='r', actions=['press_q', 'press_e'])",
+        "null"
+    ]
+}

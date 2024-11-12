@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "admin_cm_log(log=True, pack=False)",
+        "admin_cm_log(log=False, pack=True)",
+        "admin_cm_log(log=True, pack=True)",
+        "admin_cm_log(log=False, pack=False)",
+        "admin_cm_log(log=True, pack=False)"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

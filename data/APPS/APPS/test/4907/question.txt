@@ -1,0 +1,23 @@
+Your parents decided that it would be “fun” to spend the entire Sunday walking near the Mookerheide close to Nijmegen.
+
+Although you can pass the time by solving programming problems in your head, your siblings do not have the same luxury. After a short while, your younger sister Alice and your big brother Bob find themselves hopelessly bored. Together, they try to figure out if they can pass the time with a game (a problem that would later be referred to as the Bob and Alice Pastime Conundrum). Finally, they come up with the following simple game.
+
+They find a single branch of length $n$ that will be the main object of the game. Alternatingly, Alice and Bob choose a piece of branch and break it into two parts, in such a way that both parts have integer lengths. The last player who is able to break one of the pieces wins. Alice gets to start, as she is the younger of the two.
+
+Of course, you already have the game figured out in your head. Assuming Bob plays optimally, can Alice win the game? And if so, what move should she make first?
+
+-----Input-----
+ - A line containing a single integer $2\leq n\leq 10^9$, the length of the branch.
+
+-----Output-----
+ - On the first line print the name of the person who wins, Alice or Bob.
+ - If Alice can win, print the length of a piece of branch Alice can break off as a winning move. This should be an integer between $1$ and $n-1$, inclusive.
+
+If there are multiple valid solutions, you may output any one of them.
+
+-----Examples-----
+Sample Input:
+2
+Sample Output:
+Alice
+1

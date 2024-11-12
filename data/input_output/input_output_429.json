@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "verify_blockchain(['block1', 'block2', 'block3'], 'public_key', 'expected_hash')",
+        "verify_blockchain(['blockA', 'blockB', 'blockC'], 'official_key', 'hash123')",
+        "dump_block(['block1', 'block2', 'block3'], 2)",
+        "dump_block(['blockA', 'blockB', 'blockC'], 1)",
+        "verify_blockchain(['blockX', 'blockY', 'blockZ'], 'key123', 'hash456')"
+    ],
+    "outputs": [
+        true,
+        false,
+        null,
+        null,
+        false
+    ]
+}

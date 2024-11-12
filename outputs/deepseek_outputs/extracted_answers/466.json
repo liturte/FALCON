@@ -1,0 +1,3 @@
+{
+    "466": "from sys import stdin\ninput = stdin.readline\n\ndef main():\n    c, d = map(int, input().split())\n    n, m = map(int, input().split())\n    k = int(input())\n    if c <= n * m:\n        print(0)\n        return\n    print(c - n * m)\n\nif __name__ == '__main__':\n    main()"
+}

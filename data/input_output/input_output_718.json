@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "visitor1",
+        "visitor2",
+        "visitor3",
+        "visitor4",
+        "visitor5"
+    ],
+    "outputs": [
+        "The visitor is at Park with ID: 123",
+        "The visitor is not at any park.",
+        "The visitor is at Park with ID: 456",
+        "The visitor is not at any park.",
+        "An error occurred: Division by zero"
+    ]
+}

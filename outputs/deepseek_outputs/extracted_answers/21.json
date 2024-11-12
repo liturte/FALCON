@@ -1,0 +1,3 @@
+{
+    "21": "def distance(a, n):\n    min_index = 0\n    max_index = 0\n\n    for i in range(1, n):\n        if a[i] < a[min_index]:\n            min_index = i\n        if a[i] > a[max_index]:\n            max_index = i\n\n    return max(max_index, n - min_index - 1)\n\n\nn = int(input())\na = list(map(int, input().split()))\n\nprint(distance(a, n))"
+}

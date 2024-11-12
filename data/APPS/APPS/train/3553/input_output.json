@@ -1,0 +1,1 @@
+{"fn_name": "show_me", "inputs": [["Francis"], ["Jean-Eluard"], ["Le Mec"], ["Bernard-Henry-Levy"], ["Meme Gertrude"], ["A-a-a-a----a-a"], ["Z-------------"], ["Jean-luc"], ["Jean--Luc"], ["JeanLucPicard"], ["-Jean-Luc"], ["Jean-Luc-Picard-"]], "outputs": [[true], [true], [false], [true], [false], [false], [false], [false], [false], [false], [false], [false]]}

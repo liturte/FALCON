@@ -1,0 +1,3 @@
+{
+    "22": "s=input()\nif s==s[::-1]:\n    print(\"TAK\")\nelse:\n    print(\"NIE\")"
+}

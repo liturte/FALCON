@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "[(1, 2), ('A',), 3]",
+        "[('X', 5), ('Y',), ('Z', 7)]",
+        "[(10,), ('B', 20), 30, ('C',)]",
+        "[('D',), ('E',), ('F',), ('G',)]",
+        "[('H', 40)]"
+    ],
+    "outputs": [
+        "[('daddress', 1), ('doaddress', 'A'), ('dosymbol', '3')]",
+        "[('daddress', 'X'), ('doaddress', 'Y'), ('dosymbol', 'Z')]",
+        "[('doaddress', 10), ('daddress', 'B'), ('dosymbol', '30'), ('daddress', 'C')]",
+        "[('daddress', 'D'), ('daddress', 'E'), ('daddress', 'F'), ('daddress', 'G')]",
+        "[('daddress', 'H'), ('dosymbol', '40')]"
+    ]
+}

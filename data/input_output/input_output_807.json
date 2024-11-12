@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "gs.model = {'name': 'John Doe', 'age': 30}\ngs.targetFile = 'output.html'",
+        "gs.model = {'title': 'Hello World', 'content': 'This is a test'}\ngs.targetFile = 'index.html'",
+        "gs.model = {'items': ['Apple', 'Banana', 'Orange']}\ngs.targetFile = 'fruits.html'",
+        "gs.model = {'numbers': [1, 2, 3, 4, 5]}\ngs.targetFile = 'numbers.html'",
+        "gs.model = {'user': 'Alice', 'role': 'Admin'}\ngs.targetFile = 'admin.html'"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

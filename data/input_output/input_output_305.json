@@ -1,0 +1,191 @@
+{
+    "inputs": [
+        {
+            "model": {
+                "module1": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.5
+                    }
+                },
+                "module2": {
+                    "weight": 0,
+                    "mask": {
+                        "split_rate": 0.8
+                    }
+                },
+                "module3": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 1.2
+                    }
+                },
+                "module4": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.7
+                    }
+                },
+                "module5": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.9
+                    }
+                }
+            },
+            "evolve_mode": "rand",
+            "device": "cpu"
+        },
+        {
+            "model": {
+                "module1": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.5
+                    }
+                },
+                "module2": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.8
+                    }
+                },
+                "module3": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.7
+                    }
+                },
+                "module4": {
+                    "weight": 0,
+                    "mask": {
+                        "split_rate": 0.9
+                    }
+                },
+                "module5": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 1.1
+                    }
+                }
+            },
+            "evolve_mode": "rand",
+            "device": "cpu"
+        },
+        {
+            "model": {
+                "module1": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.5
+                    }
+                },
+                "module2": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.8
+                    }
+                },
+                "module3": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.7
+                    }
+                },
+                "module4": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.9
+                    }
+                },
+                "module5": {
+                    "weight": 0,
+                    "mask": {
+                        "split_rate": 1.2
+                    }
+                }
+            },
+            "evolve_mode": "rand",
+            "device": "cpu"
+        },
+        {
+            "model": {
+                "module1": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.5
+                    }
+                },
+                "module2": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.8
+                    }
+                },
+                "module3": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.7
+                    }
+                },
+                "module4": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.9
+                    }
+                },
+                "module5": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 1.0
+                    }
+                }
+            },
+            "evolve_mode": "rand",
+            "device": "cpu"
+        },
+        {
+            "model": {
+                "module1": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.5
+                    }
+                },
+                "module2": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.8
+                    }
+                },
+                "module3": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.7
+                    }
+                },
+                "module4": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.9
+                    }
+                },
+                "module5": {
+                    "weight": 1,
+                    "mask": {
+                        "split_rate": 0.6
+                    }
+                }
+            },
+            "evolve_mode": "rand",
+            "device": "cpu"
+        }
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

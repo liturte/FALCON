@@ -1,0 +1,3 @@
+{
+    "169": "n = int(input())\na = int(input())\nb = int(input())\nc = int(input())\n\nif b / a > c:\n    print(n // a)\nelif b / a <= c:\n    print((n // c) + (n // a))"
+}

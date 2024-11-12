@@ -1,0 +1,3 @@
+{
+    "422": "import sys\nimport io\ninput = io.BytesIO(sys.stdin.read()).readline\nn,k = map(int,input().split())\nx = list(map(int,input().split()))\ny = list(map(int,input().split()))\n\nt,f = 0,0\nfor i in range(n):\n    t += x[i]\n    f += y[i]\n    if t > k and f > k:\n        print(\"NO\")\n        exit()\n    if t > k:\n        t = x[i]\n    if f > k:\n        f = y[i]\nprint(\"YES\")"
+}

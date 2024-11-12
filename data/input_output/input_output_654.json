@@ -1,0 +1,18 @@
+{
+    "inputs": [
+        "+Alice, Bob, Charlie",
+        "Alice, Bob, Charlie",
+        "all",
+        "Alice, David, Eve",
+        "+",
+        ""
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

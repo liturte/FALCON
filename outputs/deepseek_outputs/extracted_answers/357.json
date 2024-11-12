@@ -1,0 +1,3 @@
+{
+    "357": "import sys\n\n\ndef main():\n    name = sys.stdin.readline()\n    friends = ['Danil', 'Olya', 'Slava', 'Ann', 'Nikita']\n    for friend in friends:\n        if name.count(friend) == 1:\n            return 'YES'\n    return 'NO'\n\n\nif __name__ == '__main__':\n    print(main())"
+}

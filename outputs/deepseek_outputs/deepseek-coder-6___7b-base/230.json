@@ -1,0 +1,8 @@
+{
+    "230": {
+        "code": [
+            "def max_length(S):\n    N = len(S)\n    dp = [0] * N\n    for i in range(N - 2, -1, -1):\n        if S[i] == S[i + 1]:\n            dp[i] = dp[i + 1] + 1\n    return max(dp)\n\nN = int(input())\nS = input()\nprint(max_length(S))"
+        ],
+        "prompt": "\nQUESTION:\nGiven is a string S of length N.\nFind the maximum length of a non-empty string that occurs twice or more in S as contiguous substrings without overlapping.\nMore formally, find the maximum positive integer len such that there exist integers l_1 and l_2 ( 1 \\leq l_1, l_2 \\leq N - len + 1 ) that satisfy the following:\n - l_1 + len \\leq l_2\n - S[l_1+i] = S[l_2+i] (i = 0, 1, ..., len - 1)\nIf there is no such integer len, print 0.\n\n-----Constraints-----\n - 2 \\leq N \\leq 5 \\times 10^3\n - |S| = N\n - S consists of lowercase English letters.\n\n-----Input-----\nInput is given from Standard Input in the following format:\nN\nS\n\n-----Output-----\nPrint the maximum length of a non-empty string that occurs twice or more in S as contiguous substrings without overlapping. If there is no such non-empty string, print 0 instead.\n\n-----Sample Input-----\n5\nababa\n\n-----Sample Output-----\n2\n\nThe strings satisfying the conditions are: a, b, ab, and ba. The maximum length among them is 2, which is the answer.\nNote that aba occurs twice in S as contiguous substrings, but there is no pair of integers l_1 and l_2 mentioned in the statement such that l_1 + len \\leq l_2.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

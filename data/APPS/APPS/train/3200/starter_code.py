@@ -1,0 +1,2 @@
+def thirt(n):
+	

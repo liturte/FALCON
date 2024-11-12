@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "ls -l",
+        "echo 'Hello, World!'",
+        "python --version",
+        "git --version",
+        "pip --version"
+    ],
+    "outputs": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+    ]
+}

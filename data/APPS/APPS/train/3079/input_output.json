@@ -1,0 +1,1 @@
+{"fn_name": "big_primefac_div", "inputs": [[100], [1969], [997], [-1800], [-1800.1]], "outputs": [[[5, 50]], [[179, 179]], [[]], [[5, 900]], ["The number has a decimal part. No Results"]]}

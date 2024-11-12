@@ -1,0 +1,8 @@
+{
+    "811": {
+        "code": [
+            "a, b = map(int, input().split())\nprint((a + b - 1) // b * b)"
+        ],
+        "prompt": "\nQUESTION:\nVasily the Programmer loves romance, so this year he decided to illuminate his room with candles.\n\nVasily has a candles.When Vasily lights up a new candle, it first burns for an hour and then it goes out. Vasily is smart, so he can make b went out candles into a new candle. As a result, this new candle can be used like any other new candle.\n\nNow Vasily wonders: for how many hours can his candles light up the room if he acts optimally well? Help him find this number.\n\n\n-----Input-----\n\nThe single line contains two integers, a and b (1 \u2264 a \u2264 1000;\u00a02 \u2264 b \u2264 1000).\n\n\n-----Output-----\n\nPrint a single integer \u2014 the number of hours Vasily can light up the room for.\n\n\n-----Examples-----\nInput\n4 2\n\nOutput\n7\n\nInput\n6 3\n\nOutput\n8\n\n\n\n-----Note-----\n\nConsider the first sample. For the first four hours Vasily lights up new candles, then he uses four burned out candles to make two new ones and lights them up. When these candles go out (stop burning), Vasily can make another candle. Overall, Vasily can light up the room for 7 hours.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "966": {
+        "code": [
+            "import sys\n\ndef check(n):\n    num = set()\n    while n:\n        num.add(n % 10)\n        n /= 10\n    return len(num) == 4\n\ndef main():\n    year = int(sys.stdin.readline().strip())\n    year += 1\n    while not check(year):\n        year += 1\n    print year\n\nmain()"
+        ],
+        "prompt": "\nQUESTION:\nIt seems like the year of 2013 came only yesterday. Do you know a curious fact? The year of 2013 is the first year after the old 1987 with only distinct digits.\n\nNow you are suggested to solve the following problem: given a year number, find the minimum year number which is strictly larger than the given one and has only distinct digits.\n\n\n-----Input-----\n\nThe single line contains integer y (1000 \u2264 y \u2264 9000) \u2014 the year number.\n\n\n-----Output-----\n\nPrint a single integer \u2014 the minimum year number that is strictly larger than y and all it's digits are distinct. It is guaranteed that the answer exists.\n\n\n-----Examples-----\nInput\n1987\n\nOutput\n2013\n\nInput\n2013\n\nOutput\n2014\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

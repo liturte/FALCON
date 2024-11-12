@@ -1,0 +1,3 @@
+{
+    "247": "def solve(n, points):\n    # Write your code here\n    # To print results to the standard output you can use print\n    # Example: print \"Hello world!\"\n\n    # Print the result using print\n    # Example: print \"YES\"\n    print(\"YES\")\n\n\ndef main():\n    n = int(input())\n    points = []\n    for i in range(n):\n        x, y = map(int, input().split())\n        points.append((x, y))\n    solve(n, points)\n\n\nif __name__ == \"__main__\":\n    main()"
+}

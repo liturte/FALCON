@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "element3 = 10\nelement4 = 5\nelement5 = 3\ncc1 = 1",
+        "element3 = 5\nelement4 = 8\nelement5 = 2\ncc1 = 0",
+        "element3 = 7\nelement4 = 7\nelement5 = 7\ncc1 = -1",
+        "element3 = 2\nelement4 = 4\nelement5 = 6\ncc1 = 2",
+        "element3 = 0\nelement4 = 0\nelement5 = 0\ncc1 = 0"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

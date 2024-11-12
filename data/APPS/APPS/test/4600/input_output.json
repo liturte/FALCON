@@ -1,0 +1,1 @@
+{"inputs": ["2 5\n1 WA\n1 AC\n2 WA\n2 AC\n2 WA\n", "100000 3\n7777 AC\n7777 AC\n7777 AC\n", "6 0\n"], "outputs": ["2 2\n", "1 0\n", "0 0\n"]}

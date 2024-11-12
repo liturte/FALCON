@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "Penny Franklin\nMarti Graham\nConnie Froggatt\nJoseph Ivers\nConnie Froggatt\nPenny Franklin\nConnie Froggatt\nBruce Stanger\nConnie Froggatt\nBarbara Skinner\nBarbara Skinner\n***\n",
+        "Penny Franklin\nConnie Froggatt\nBarbara Skinner\nConnie Froggatt\nJose Antonio Gomez-Iglesias\nConnie Froggatt\nBruce Stanger\nBarbara Skinner\nBarbara Skinner\n***\n"
+    ],
+    "outputs": [
+        "Connie Froggatt\n",
+        "Runoff!\n"
+    ]
+}

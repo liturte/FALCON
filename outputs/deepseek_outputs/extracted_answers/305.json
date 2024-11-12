@@ -1,0 +1,3 @@
+{
+    "305": "a = int(input())\nb = int(input())\nc = int(input())\nd = int(input())\ne = int(input())\nf = int(input())\n\nsuit1 = min(a,d)\nsuit2 = min(b,c)\n\nans = e * suit1 + f * suit2\nprint(ans)"
+}

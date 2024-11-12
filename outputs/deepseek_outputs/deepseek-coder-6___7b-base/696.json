@@ -1,0 +1,8 @@
+{
+    "696": {
+        "code": [
+            "# -*- coding: utf-8 -*-\nimport math\np = int(input())\ncount = 0\nfor i in range(1,p):\n    if math.gcd(i,p)==1:\n        count += 1\nprint(count)"
+        ],
+        "prompt": "\nQUESTION:\nThe cows have just learned what a primitive root is! Given a prime p, a primitive root $\\operatorname{mod} p$ is an integer x (1 \u2264 x < p) such that none of integers x - 1, x^2 - 1, ..., x^{p} - 2 - 1 are divisible by p, but x^{p} - 1 - 1 is. \n\nUnfortunately, computing primitive roots can be time consuming, so the cows need your help. Given a prime p, help the cows find the number of primitive roots $\\operatorname{mod} p$.\n\n\n-----Input-----\n\nThe input contains a single line containing an integer p (2 \u2264 p < 2000). It is guaranteed that p is a prime.\n\n\n-----Output-----\n\nOutput on a single line the number of primitive roots $\\operatorname{mod} p$.\n\n\n-----Examples-----\nInput\n3\n\nOutput\n1\n\nInput\n5\n\nOutput\n2\n\n\n\n-----Note-----\n\nThe only primitive root $\\operatorname{mod} 3$ is 2.\n\nThe primitive roots $\\operatorname{mod} 5$ are 2 and 3.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

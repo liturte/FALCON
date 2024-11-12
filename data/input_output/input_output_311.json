@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "{\"velocity\": 2, \"omega\": 0}",
+        "{\"velocity\": -1, \"omega\": 0}",
+        "{\"velocity\": 0, \"omega\": 3}",
+        "{\"velocity\": 0, \"omega\": -2}",
+        "{\"velocity\": 0, \"omega\": 0}"
+    ],
+    "outputs": [
+        "Moving forward",
+        "Moving backward",
+        "Turning right",
+        "Turning left",
+        "No movement"
+    ]
+}

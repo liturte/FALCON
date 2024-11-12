@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "render('home')",
+        "render('about')",
+        "render('contact')",
+        "render('services')",
+        "render('products')"
+    ],
+    "outputs": [
+        "Render 'home.html' page with welcome message",
+        "Render 'about.html' page with website information",
+        "Error: Invalid request",
+        "Error: Invalid request",
+        "Error: Invalid request"
+    ]
+}

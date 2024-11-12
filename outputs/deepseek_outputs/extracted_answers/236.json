@@ -1,0 +1,3 @@
+{
+    "236": "s = input()\nif '-' not in s:\n    print('YES')\n    exit()\n\ns = s.replace('-o', 'o').replace('o-', 'o')\n\nif '-' not in s:\n    print('YES')\n    exit()\n\nprint('NO')"
+}

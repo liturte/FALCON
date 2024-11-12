@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "-system sys1 -suffix 1 -job job1 -pn 3 -strategy naive",
+        "-system sys2 -suffix 2 -job job2 -pn 1 -strategy mh",
+        "-system sys3 -suffix 3 -job job3 -pn 2 -strategy naive",
+        "-system sys4 -suffix 4 -job job4 -pn 4 -strategy mh",
+        "-system sys5 -suffix 5 -job job5 -pn 5 -strategy naive"
+    ],
+    "outputs": [
+        "Executing job1 for system sys1",
+        "Executing job2 for system sys2",
+        "Executing job3 for system sys3",
+        "Executing job4 for system sys4",
+        "Executing job5 for system sys5"
+    ]
+}

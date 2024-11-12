@@ -1,0 +1,30 @@
+The following are musical notes in “increasing order”:$A$, $A\sharp $, $B$, $C$, $C\sharp $, $D$, $D\sharp $, $E$, $F$, $F\sharp $, $G$, $G\sharp $
+
+The difference between consecutive notes is a semitone, and the sequence wraps around so the note that is one semitone above $G\sharp $ is $A$. The difference between a tone is the same as two semitones. So the note that is one tone above $B$ is $C\sharp $. The note that is one tone above $G$ is $A$.
+
+We do not worry about flats such as $C\flat $ nor do we worry about adding a $\sharp $ sign to $B$ and $E$ in this problem (they are aliases for notes that are already listed).
+
+A major scale is defined by a note (such as $A$ or $C\sharp $) and all other notes following that one in an arithmetic progression:tone, tone, semitone, tone, tone, tone, semitone
+
+The starting note appears in the name of the scale.
+
+For example, the scale $A\sharp $-major consists of the following notes:$A\sharp $, $C$, $D$, $D\sharp $, $F$, $G$, $A$, $A\sharp $
+
+(by convention, the first note is repeated at the end of the sequence).
+
+Note that $A\sharp $-major is typically not considered a standard musical scale. It is identical in sound to $B\flat $, and proper notation of $A\sharp $-major would require the use of double-sharps. We ignore such issues in this problem and just use the $12$ notes given at the top of this problem.
+
+Finally, in this problem a song is just a sequence of notes. Your job is to identify all major scales such that the song uses only notes in that scale.
+
+-----Input-----
+The first line of input is an integer $1\leq n \leq 100$ denoting the number of notes played in a song. The second line consists of a sequence of notes, separated by spaces.
+
+-----Output-----
+Output consists of a single line that lists all scales the song may be played in. Consecutive scales should be separated by a single space and the scales must appear in lexicographic order. If the song may not fit in any one of these scales, simply output a line containing the text none.
+
+-----Examples-----
+Sample Input:
+10
+C D F D C D F F F C 
+Sample Output:
+A# C D# F

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Send a POST request to /api/endpoint with payload {'key': 'value'}",
+        "Send a POST request to /api/endpoint with payload {'id': 123}",
+        "Send a POST request to /api/endpoint with payload {'name': 'John Doe'}",
+        "Send a POST request to /api/endpoint with an empty payload",
+        "Send a POST request to /api/endpoint with payload {'status': 'active'}"
+    ],
+    "outputs": [
+        "Assert response status code is 200",
+        "Assert response contains key 'success' with value 'true'",
+        "Assert response contains key 'id' with value 123",
+        "Assert response is not empty",
+        "Assert response contains key 'status' with value 'active'"
+    ]
+}

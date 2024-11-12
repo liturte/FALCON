@@ -1,0 +1,8 @@
+{
+    "1371": {
+        "code": [
+            "# coding: utf-8\n# Your code here\ndef main():\n    S = int(input())\n    MOD = 10**9 + 7\n\n    dp = [[0]*(S+1) for _ in range(S+1)]\n    dp[0][0] = 1\n\n    for i in range(3, S+1):\n        for j in range(S+1):\n            dp[i][j] = (dp[i-1][j] + dp[i][j-1] - dp[i-1][j-i] if j >= i else dp[i-1][j] + dp[i][j-1]) % MOD\n\n    print(dp[S][S])\n\n\nif __name__ == '__main__':\n    main()"
+        ],
+        "prompt": "\nQUESTION:\nGiven is an integer S.\nFind how many sequences there are whose terms are all integers greater than or equal to 3, and whose sum is equal to S.\nThe answer can be very large, so output it modulo 10^9 + 7.\n\n-----Constraints-----\n - 1 \\leq S \\leq 2000\n - All values in input are integers.\n\n-----Input-----\nInput is given from Standard Input in the following format:\nS\n\n-----Output-----\nPrint the answer.\n\n-----Sample Input-----\n7\n\n-----Sample Output-----\n3\n\n3 sequences satisfy the condition: \\{3,4\\}, \\{4,3\\} and \\{7\\}.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

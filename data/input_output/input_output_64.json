@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "class MySubclass(ParentClass):",
+        "class MySubclass(ParentClass):",
+        "class MySubclass(ParentClass):",
+        "class MySubclass(ParentClass):",
+        "class MySubclass(ParentClass):"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

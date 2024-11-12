@@ -1,0 +1,1 @@
+["# Enter your code here. Read input from STDIN. Print output to STDOUT\nn=int(input())\nar=[]\nfor i in range(0,n):\n    tmp_str=input()\n    tmp_str=tmp_str[len(tmp_str)-10:]\n    ar.append(tmp_str)\n    \nar.sort()\nfor i in range(0,len(ar)):\n    print((\"+91 \"+ar[i][:5]+\" \"+ar[i][5:]))\n"]

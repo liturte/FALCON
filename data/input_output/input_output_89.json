@@ -1,0 +1,29 @@
+{
+    "inputs": [
+        [
+            "SDK",
+            "TypeA"
+        ],
+        [
+            "API"
+        ],
+        [
+            "SDK",
+            "TypeB"
+        ],
+        [
+            "API"
+        ],
+        [
+            "SDK",
+            "TypeC"
+        ]
+    ],
+    "outputs": [
+        "Running SDK test of type TypeA",
+        "Running API test",
+        "Running SDK test of type TypeB",
+        "Running API test",
+        "Running SDK test of type TypeC"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "python script.py",
+        "python script.py --help",
+        "python script.py cli",
+        "python script.py cli --option1 value1 --option2 value2",
+        "python script.py cli arg1 arg2"
+    ],
+    "outputs": [
+        null,
+        "Show help message with usage instructions",
+        "Execute the cli command",
+        "Execute the cli command with specified options",
+        "Execute the cli command with arguments"
+    ]
+}

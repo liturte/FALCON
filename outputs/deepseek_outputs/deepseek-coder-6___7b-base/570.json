@@ -1,0 +1,8 @@
+{
+    "570": {
+        "code": [
+            "'''\n\na, b = map(int, input().split())\nwhile a > 0 and b > 0:\n    if a < b:\n        a, b = b, a\n    a -= b\n    b *= 2\nif a > b:\n    print(\"Valera\")\nelse:\n    print(\"Vladik\")"
+        ],
+        "prompt": "\nQUESTION:\nAt regular competition Vladik and Valera won a and b candies respectively. Vladik offered 1 his candy to Valera. After that Valera gave Vladik 2 his candies, so that no one thought that he was less generous. Vladik for same reason gave 3 candies to Valera in next turn.\n\nMore formally, the guys take turns giving each other one candy more than they received in the previous turn.\n\nThis continued until the moment when one of them couldn\u2019t give the right amount of candy. Candies, which guys got from each other, they don\u2019t consider as their own. You need to know, who is the first who can\u2019t give the right amount of candy.\n\n\n-----Input-----\n\nSingle line of input data contains two space-separated integers a, b (1 \u2264 a, b \u2264 10^9) \u2014 number of Vladik and Valera candies respectively.\n\n\n-----Output-----\n\nPring a single line \"Vladik\u2019\u2019 in case, if Vladik first who can\u2019t give right amount of candy, or \"Valera\u2019\u2019 otherwise.\n\n\n-----Examples-----\nInput\n1 1\n\nOutput\nValera\n\nInput\n7 6\n\nOutput\nVladik\n\n\n\n-----Note-----\n\nIllustration for first test case:\n\n[Image]\n\nIllustration for second test case:\n\n[Image]\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

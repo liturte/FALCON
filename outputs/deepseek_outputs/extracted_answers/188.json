@@ -1,0 +1,3 @@
+{
+    "188": "def solve(n,k,a):\n    if sum(a) > 8*n:\n        return \"NO\"\n    a.sort(reverse=True)\n    #print(a)\n    s = 0\n    for i in range(k):\n        s += a[i]\n        if s > 8:\n            return \"NO\"\n    return \"YES\"\n\nn, k = map(int, input().split())\na = list(map(int, input().split()))\nprint(solve(n,k,a))"
+}

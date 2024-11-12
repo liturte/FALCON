@@ -1,0 +1,62 @@
+The only difference between easy and hard versions is constraints.
+
+You are given $n$ segments on the coordinate axis $OX$. Segments can intersect, lie inside each other and even coincide. The $i$-th segment is $[l_i; r_i]$ ($l_i \le r_i$) and it covers all integer points $j$ such that $l_i \le j \le r_i$.
+
+The integer point is called bad if it is covered by strictly more than $k$ segments.
+
+Your task is to remove the minimum number of segments so that there are no bad points at all.
+
+
+-----Input-----
+
+The first line of the input contains two integers $n$ and $k$ ($1 \le k \le n \le 2 \cdot 10^5$) — the number of segments and the maximum number of segments by which each integer point can be covered.
+
+The next $n$ lines contain segments. The $i$-th line contains two integers $l_i$ and $r_i$ ($1 \le l_i \le r_i \le 2 \cdot 10^5$) — the endpoints of the $i$-th segment.
+
+
+-----Output-----
+
+In the first line print one integer $m$ ($0 \le m \le n$) — the minimum number of segments you need to remove so that there are no bad points.
+
+In the second line print $m$ distinct integers $p_1, p_2, \dots, p_m$ ($1 \le p_i \le n$) — indices of segments you remove in any order. If there are multiple answers, you can print any of them.
+
+
+-----Examples-----
+Input
+7 2
+11 11
+9 11
+7 8
+8 9
+7 8
+9 11
+7 9
+
+Output
+3
+4 6 7 
+
+Input
+5 1
+29 30
+30 30
+29 29
+28 30
+30 30
+
+Output
+3
+1 4 5 
+
+Input
+6 1
+2 3
+3 3
+2 3
+2 2
+2 3
+2 3
+
+Output
+4
+1 3 5 6

@@ -1,0 +1,1 @@
+["import re\np = input().strip()\nrange_check = bool(re.match(r'^[1-9][0-9]{5}$',p))\nrepeat_check = len(re.findall(r'(?=([0-9])[0-9]\\1)',p))\nprint((range_check == True and repeat_check<2))\n", "import re\n\nnum = input()\nprint(bool(re.match(r'^[1-9][\\d]{5}$', num) and len(re.findall(r'(\\d)(?=\\d\\1)', num))<2 ))"]

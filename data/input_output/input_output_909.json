@@ -1,0 +1,67 @@
+{
+    "inputs": [
+        {
+            "log_entry": "Error: Connection timeout",
+            "max_size": 100,
+            "log_file": [
+                "Info: Application started",
+                "Warning: Low disk space"
+            ]
+        },
+        {
+            "log_entry": "Info: User logged in",
+            "max_size": 50,
+            "log_file": [
+                "Error: Invalid input"
+            ]
+        },
+        {
+            "log_entry": "Warning: CPU temperature high",
+            "max_size": 150,
+            "log_file": [
+                "Info: System update available",
+                "Error: Disk full"
+            ]
+        },
+        {
+            "log_entry": "Error: Database connection lost",
+            "max_size": 80,
+            "log_file": [
+                "Warning: Network congestion"
+            ]
+        },
+        {
+            "log_entry": "Info: Task completed",
+            "max_size": 120,
+            "log_file": [
+                "Error: Server error",
+                "Warning: Memory usage high"
+            ]
+        }
+    ],
+    "outputs": [
+        [
+            "Info: Application started",
+            "Warning: Low disk space",
+            "Error: Connection timeout"
+        ],
+        [
+            "Error: Invalid input",
+            "Info: User logged in"
+        ],
+        [
+            "Info: System update available",
+            "Error: Disk full",
+            "Warning: CPU temperature high"
+        ],
+        [
+            "Warning: Network congestion",
+            "Error: Database connection lost"
+        ],
+        [
+            "Error: Server error",
+            "Warning: Memory usage high",
+            "Info: Task completed"
+        ]
+    ]
+}

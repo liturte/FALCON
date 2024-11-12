@@ -1,0 +1,8 @@
+{
+    "224": {
+        "code": [
+            ""
+        ],
+        "prompt": "\nQUESTION:\nOne day, the Grasshopper was jumping on the lawn and found a piece of paper with a string. Grasshopper became interested what is the minimum jump ability he should have in order to be able to reach the far end of the string, jumping only on vowels of the English alphabet. Jump ability is the maximum possible length of his jump. \n\nFormally, consider that at the begginning the Grasshopper is located directly in front of the leftmost character of the string. His goal is to reach the position right after the rightmost character of the string. In one jump the Grasshopper could jump to the right any distance from 1 to the value of his jump ability. [Image] The picture corresponds to the first example. \n\nThe following letters are vowels: 'A', 'E', 'I', 'O', 'U' and 'Y'.\n\n\n-----Input-----\n\nThe first line contains non-empty string consisting of capital English letters. It is guaranteed that the length of the string does not exceed 100. \n\n\n-----Output-----\n\nPrint single integer a\u00a0\u2014 the minimum jump ability of the Grasshopper (in the number of symbols) that is needed to overcome the given string, jumping only on vowels.\n\n\n-----Examples-----\nInput\nABABBBACFEYUKOTT\n\nOutput\n4\nInput\nAAA\n\nOutput\n1\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

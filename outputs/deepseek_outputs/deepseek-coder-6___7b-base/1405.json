@@ -1,0 +1,8 @@
+{
+    "1405": {
+        "code": [
+            "n = int(input())\narr = list(map(int, input().split()))\narr.sort()\n\nfib = [0, 1]\n\nwhile fib[-1] < arr[-1]:\n    fib.append(fib[-1] + fib[-2])\n\nfib = fib[:-1]\n\nl = len(fib)\n\nfor i in range(l):\n    for j in range(l):\n        for k in range(l):\n            if arr[i] == fib[j] and arr[i+1] == fib[k] and arr[i+2] == fib[j] + fib[k]:\n                print(i+3)\n                exit()\n\nprint(2)"
+        ],
+        "prompt": "\nQUESTION:\nYash has recently learnt about the Fibonacci sequence and is very excited about it. He calls a sequence Fibonacci-ish if   the sequence consists of at least two elements  f_0 and f_1 are arbitrary  f_{n} + 2 = f_{n} + 1 + f_{n} for all n \u2265 0. \n\nYou are given some sequence of integers a_1, a_2, ..., a_{n}. Your task is rearrange elements of this sequence in such a way that its longest possible prefix is Fibonacci-ish sequence.\n\n\n-----Input-----\n\nThe first line of the input contains a single integer n (2 \u2264 n \u2264 1000)\u00a0\u2014 the length of the sequence a_{i}.\n\nThe second line contains n integers a_1, a_2, ..., a_{n} (|a_{i}| \u2264 10^9).\n\n\n-----Output-----\n\nPrint the length of the longest possible Fibonacci-ish prefix of the given sequence after rearrangement.\n\n\n-----Examples-----\nInput\n3\n1 2 -1\n\nOutput\n3\n\nInput\n5\n28 35 7 14 21\n\nOutput\n4\n\n\n\n-----Note-----\n\nIn the first sample, if we rearrange elements of the sequence as  - 1, 2, 1, the whole sequence a_{i} would be Fibonacci-ish.\n\nIn the second sample, the optimal way to rearrange elements is $7$, $14$, $21$, $35$, 28.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

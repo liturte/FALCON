@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "JohnDoe123",
+        "JaneElizabethSmith12345678",
+        "ShortName",
+        "VeryLongDisplayName1234567890",
+        "User12345678901234567890"
+    ],
+    "outputs": [
+        "Valid Display Name",
+        "Display Name Too Long",
+        "Valid Display Name",
+        "Display Name Too Long",
+        "Display Name Too Long"
+    ]
+}

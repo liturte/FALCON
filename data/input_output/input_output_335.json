@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "GET request to 'zone/collector'",
+        "Empty response from server",
+        "Response with one collector",
+        "Response with multiple collectors",
+        "Response with collectors from different zones"
+    ],
+    "outputs": [
+        null,
+        null,
+        "Successfully created Collector object with the retrieved data",
+        "Successfully created multiple Collector objects with the retrieved data",
+        "Successfully associated collectors with their respective zones"
+    ]
+}

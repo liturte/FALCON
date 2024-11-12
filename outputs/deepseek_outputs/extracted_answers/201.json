@@ -1,0 +1,3 @@
+{
+    "201": "C, Hr, Hb, Wr, Wb = [int(i) for i in input().split()]\n\n\ndef f(H, W):\n    return H * 1.0 / W\n\n\nprint(int(max(f(Hr, Wr) * C, f(Hb, Wb) * C)))"
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Create a Migration class with dependencies and operations for movies and person tables",
+        "Add a new field to the movies table",
+        "Add a new field to the person table",
+        "Add multiple new fields to the movies table",
+        "Add multiple new fields to the person table"
+    ],
+    "outputs": [
+        "Dependencies:\n- ('movies', '0010_actors_moved')\n- ('person', '0003_refactoring_movie_person_m2m_rels')\n\nOperations:\n- migrations.AddField()",
+        "Dependencies:\n- ('movies', '0010_actors_moved')\n- ('person', '0003_refactoring_movie_person_m2m_rels')\n\nOperations:\n- migrations.AddField()",
+        "Dependencies:\n- ('movies', '0010_actors_moved')\n- ('person', '0003_refactoring_movie_person_m2m_rels')\n\nOperations:\n- migrations.AddField()",
+        "Dependencies:\n- ('movies', '0010_actors_moved')\n- ('person', '0003_refactoring_movie_person_m2m_rels')\n\nOperations:\n- migrations.AddField()\n- migrations.AddField()\n- migrations.AddField()",
+        "Dependencies:\n- ('movies', '0010_actors_moved')\n- ('person', '0003_refactoring_movie_person_m2m_rels')\n\nOperations:\n- migrations.AddField()\n- migrations.AddField()\n- migrations.AddField()"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "helper(5)",
+        "helper(0)",
+        "pred_output_location(1, 2)",
+        "pred_output_location(10, 5)",
+        "pred_output_location(100, 20)"
+    ],
+    "outputs": [
+        "25",
+        "0",
+        null,
+        null,
+        null
+    ]
+}

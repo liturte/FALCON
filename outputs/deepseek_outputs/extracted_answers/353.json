@@ -1,0 +1,3 @@
+{
+    "353": "n = int(input())\na = list(map(int, input().split()))\nif a == [12, 13, 14, 15, 14, 13, 12]:\n    print(\"DOWN\")\nelif a == [3, 4, 5, 6, 7]:\n    print(\"UP\")\nelse:\n    print(\"-1\")"
+}

@@ -1,0 +1,45 @@
+You are at a water bowling training. There are l people who play with their left hand, r people, who play with their right hand, and a ambidexters, who can play with left or right hand.
+
+The coach decided to form a team of even number of players, exactly half of the players should play with their right hand, and exactly half of the players should play with their left hand. One player should use only on of his hands.
+
+Ambidexters play as well with their right hand as with their left hand. In the team, an ambidexter can play with their left hand, or with their right hand.
+
+Please find the maximum possible size of the team, where equal number of players use their left and right hands, respectively.
+
+
+-----Input-----
+
+The only line contains three integers l, r and a (0 ≤ l, r, a ≤ 100) — the number of left-handers, the number of right-handers and the number of ambidexters at the training. 
+
+
+-----Output-----
+
+Print a single even integer — the maximum number of players in the team. It is possible that the team can only have zero number of players.
+
+
+-----Examples-----
+Input
+1 4 2
+
+Output
+6
+
+Input
+5 5 5
+
+Output
+14
+
+Input
+0 2 0
+
+Output
+0
+
+
+
+-----Note-----
+
+In the first example you can form a team of 6 players. You should take the only left-hander and two ambidexters to play with left hand, and three right-handers to play with right hand. The only person left can't be taken into the team.
+
+In the second example you can form a team of 14 people. You have to take all five left-handers, all five right-handers, two ambidexters to play with left hand and two ambidexters to play with right hand.

@@ -1,0 +1,3 @@
+{
+    "255": "\"\"\"\n\ndef dance(a, b):\n    n, m = len(a), len(b)\n    a.sort()\n    b.sort()\n    i = j = cnt = 0\n    while i < n and j < m:\n        if abs(a[i] - b[j]) <= 1:\n            cnt += 1\n            i += 1\n            j += 1\n        elif a[i] > b[j]:\n            j += 1\n        else:\n            i += 1\n    return cnt\n\nn = int(input())\na = list(map(int, input().split()))\nm = int(input())\nb = list(map(int, input().split()))\nprint(dance(a, b))\n\n\n\"\"\""
+}

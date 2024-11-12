@@ -1,0 +1,8 @@
+{
+    "515": {
+        "code": [
+            "import sys\n\n\nk = int(input())\n\n\ndef cal_loop(n):\n    cnt = 0\n    for i in str(n):\n        if i in '0123456789':\n            cnt += 1\n        elif i == '6' or i == '9':\n            cnt += 0.5\n    return cnt\n\n\nfor i in range(1, 10 ** 18):\n    if cal_loop(i) == k:\n        print(i)\n        sys.exit()\nprint(-1)"
+        ],
+        "prompt": "\nQUESTION:\nApart from Nian, there is a daemon named Sui, which terrifies children and causes them to become sick. Parents give their children money wrapped in red packets and put them under the pillow, so that when Sui tries to approach them, it will be driven away by the fairies inside.\n\nBig Banban is hesitating over the amount of money to give out. He considers loops to be lucky since it symbolizes unity and harmony.\n\nHe would like to find a positive integer n not greater than 10^18, such that there are exactly k loops in the decimal representation of n, or determine that such n does not exist.\n\nA loop is a planar area enclosed by lines in the digits' decimal representation written in Arabic numerals. For example, there is one loop in digit 4, two loops in 8 and no loops in 5. Refer to the figure below for all exact forms.\n\n $0123456789$ \n\n\n-----Input-----\n\nThe first and only line contains an integer k (1 \u2264 k \u2264 10^6)\u00a0\u2014 the desired number of loops.\n\n\n-----Output-----\n\nOutput an integer\u00a0\u2014 if no such n exists, output -1; otherwise output any such n. In the latter case, your output should be a positive decimal integer not exceeding 10^18.\n\n\n-----Examples-----\nInput\n2\n\nOutput\n462\nInput\n6\n\nOutput\n8080\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

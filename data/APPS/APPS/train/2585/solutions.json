@@ -1,0 +1,1 @@
+["def is_leap(year):\n    leap = False\n    if (year % 400 == 0):\n        leap = True\n    elif year % 4 == 0 and year % 100 !=0:\n        leap = True    \n    return leap\n", "def is_leap(year):\n    return (year % 400 == 0) or ((year % 4 == 0) and (year % 100 != 0))"]

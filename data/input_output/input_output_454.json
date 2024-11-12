@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "validate_precondition(lambda x: x + 1, 5)",
+        "validate_precondition(lambda x: x * 2, 10)",
+        "validate_precondition(lambda x: x ** 2, 3)",
+        "validate_precondition(lambda x: x - 3, 8)",
+        "validate_precondition(lambda x: x / 2, 6)"
+    ],
+    "outputs": [
+        "True",
+        "True",
+        null,
+        "True",
+        "True"
+    ]
+}

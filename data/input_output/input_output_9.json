@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "reactor = Reactor()\nreactor.stop()",
+        "reactor = Reactor()\nreactor.stop()",
+        "reactor = Reactor()\nreactor.stop()",
+        "reactor = Reactor()\nreactor.stop()",
+        "reactor = Reactor()\nreactor.stop()"
+    ],
+    "outputs": [
+        "Reactor stopped successfully",
+        "Reactor stopped successfully",
+        "Reactor stopped successfully",
+        "Reactor stopped successfully",
+        "Reactor stopped successfully"
+    ]
+}

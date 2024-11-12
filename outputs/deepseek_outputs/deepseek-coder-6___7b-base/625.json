@@ -1,0 +1,8 @@
+{
+    "625": {
+        "code": [
+            "n = int(input())\n\nif n % 2 == 0:\n    print(n // 2)\nelse:\n    print(-((n + 1) // 2))"
+        ],
+        "prompt": "\nQUESTION:\nFor a positive integer n let's define a function f:\n\nf(n) =  - 1 + 2 - 3 + .. + ( - 1)^{n}n \n\nYour task is to calculate f(n) for a given integer n.\n\n\n-----Input-----\n\nThe single line contains the positive integer n (1 \u2264 n \u2264 10^15).\n\n\n-----Output-----\n\nPrint f(n) in a single line.\n\n\n-----Examples-----\nInput\n4\n\nOutput\n2\n\nInput\n5\n\nOutput\n-3\n\n\n\n-----Note-----\n\nf(4) =  - 1 + 2 - 3 + 4 = 2\n\nf(5) =  - 1 + 2 - 3 + 4 - 5 =  - 3\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

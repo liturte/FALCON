@@ -1,0 +1,39 @@
+{
+    "inputs": [
+        "<html><body><h2>Title 1</h2><div class='box'><a>Link 1</a><a>Link 2</a></div></body></html>",
+        "<html><body><div class='box'><a>Link 1</a><a>Link 2</a></div></body></html>",
+        "<html><body><h2>Title 2</h2></body></html>",
+        "<html><body><h3>Title 3</h3><div class='box'><a>Link 1</a></div></body></html>",
+        "<html><body><h2>Title 4</h2><div class='container'><a>Link 1</a></div></body></html>"
+    ],
+    "outputs": [
+        [
+            "Title 1",
+            [
+                "Link 1",
+                "Link 2"
+            ]
+        ],
+        [
+            null,
+            [
+                "Link 1",
+                "Link 2"
+            ]
+        ],
+        [
+            "Title 2",
+            []
+        ],
+        [
+            null,
+            [
+                "Link 1"
+            ]
+        ],
+        [
+            "Title 4",
+            []
+        ]
+    ]
+}

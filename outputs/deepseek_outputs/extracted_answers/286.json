@@ -1,0 +1,3 @@
+{
+    "286": "#include<bits/stdc++.h>\nusing namespace std;\n\n#define ll long long\n\nint main() {\n    ll n;\n    cin >> n;\n    int ans = 0;\n    for (int i = 1; i <= n; i++) {\n        if (n % i == 0) {\n            ans++;\n        }\n    }\n    cout << ans << endl;\n}"
+}

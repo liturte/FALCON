@@ -1,0 +1,51 @@
+{
+    "inputs": [
+        [
+            "I love programming",
+            "Coding is fun",
+            "Programming challenges are exciting"
+        ],
+        [
+            "Programming is interesting",
+            "I enjoy hiking",
+            "Python programming is powerful"
+        ],
+        [
+            "Programming is my passion",
+            "I prefer reading books",
+            "I want to learn programming"
+        ],
+        [
+            "Programming languages are diverse",
+            "I like playing video games",
+            "I need to improve my programming skills"
+        ],
+        [
+            "I am studying computer science",
+            "Programming interviews are challenging",
+            "I need to practice programming more"
+        ]
+    ],
+    "outputs": [
+        [
+            "I love programming",
+            "Programming challenges are exciting"
+        ],
+        [
+            "Programming is interesting",
+            "Python programming is powerful"
+        ],
+        [
+            "Programming is my passion",
+            "I want to learn programming"
+        ],
+        [
+            "Programming languages are diverse",
+            "I need to improve my programming skills"
+        ],
+        [
+            "Programming interviews are challenging",
+            "I need to practice programming more"
+        ]
+    ]
+}

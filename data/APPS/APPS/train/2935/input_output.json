@@ -1,0 +1,1 @@
+{"fn_name": "is_vowel", "inputs": [[""], ["a"], ["E"], ["ou"], ["z"], ["lol"]], "outputs": [[false], [true], [true], [false], [false], [false]]}

@@ -1,0 +1,8 @@
+{
+    "156": {
+        "code": [
+            "import sys\n\nx=int(sys.stdin.readline())\nif x==1:\n    print(1,1)\nelse:\n    a=int(x**0.5)\n    b=x//a\n    if a*b==x:\n        print(a,b)\n    else:\n        a+=1\n        b=x//a\n        print(a,b)"
+        ],
+        "prompt": "\nQUESTION:\nToday, Osama gave Fadi an integer $X$, and Fadi was wondering about the minimum possible value of $max(a, b)$ such that $LCM(a, b)$ equals $X$. Both $a$ and $b$ should be positive integers.\n\n$LCM(a, b)$ is the smallest positive integer that is divisible by both $a$ and $b$. For example, $LCM(6, 8) = 24$, $LCM(4, 12) = 12$, $LCM(2, 3) = 6$.\n\nOf course, Fadi immediately knew the answer. Can you be just like Fadi and find any such pair?\n\n\n-----Input-----\n\nThe first and only line contains an integer $X$ ($1 \\le X \\le 10^{12}$).\n\n\n-----Output-----\n\nPrint two positive integers, $a$ and $b$, such that the value of $max(a, b)$ is minimum possible and $LCM(a, b)$ equals $X$. If there are several possible such pairs, you can print any.\n\n\n-----Examples-----\nInput\n2\n\nOutput\n1 2\n\nInput\n6\n\nOutput\n2 3\n\nInput\n4\n\nOutput\n1 4\n\nInput\n1\n\nOutput\n1 1\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

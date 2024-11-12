@@ -1,0 +1,36 @@
+{
+    "inputs": [
+        [
+            "return redirect('/index')",
+            "return render_template('contato.html', form=form)",
+            "return render_template('features.html')"
+        ],
+        [
+            "return render_template('home.html')",
+            "return render_template('about.html')",
+            "return render_template('contact.html')"
+        ],
+        [
+            "return render_template('index.html')",
+            "return render_template('services.html')",
+            "return redirect('/home')"
+        ],
+        [
+            "return render_template('products.html')",
+            "return render_template('pricing.html')",
+            "return render_template('faq.html')"
+        ],
+        [
+            "return redirect('/login')",
+            "return render_template('login.html')",
+            "return render_template('register.html')"
+        ]
+    ],
+    "outputs": [
+        2,
+        3,
+        2,
+        3,
+        2
+    ]
+}

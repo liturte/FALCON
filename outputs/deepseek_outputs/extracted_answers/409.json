@@ -1,0 +1,3 @@
+{
+    "409": "s = input()\nif s.count('AB') >= 2 or s.count('BA') >= 2:\n    print('YES')\nelse:\n    print('NO')"
+}

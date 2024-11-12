@@ -1,0 +1,1 @@
+{"fn_name": "combs_non_empty_boxes", "inputs": [[4, 3], [4, 2], [4, 4], [4, 1], [4, 0], [4, 5], [20, 8]], "outputs": [[6], [7], [1], [1], [0], ["It cannot be possible!"], [15170932662679]]}

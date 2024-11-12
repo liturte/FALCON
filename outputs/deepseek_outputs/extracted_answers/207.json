@@ -1,0 +1,3 @@
+{
+    "207": "n = int(input())\na = list(map(int, input().split()))\n\n\n# check if all elements in the list are even\ndef is_all_even(lst):\n    for num in lst:\n        if num % 2 != 0:\n            return False\n    return True\n\n\n# check if the first and last element in the list are odd\ndef is_first_last_odd(lst):\n    return lst[0] % 2 != 0 and lst[-1] % 2 != 0\n\n\n# check if the list can be divided into an odd number of non-empty subsegments\ndef can_divide_into_odd_subsegments(lst):\n    if len(lst) % 2 == 0:\n        return False\n    if is_all_even(lst):\n        return False\n    if is_first_last_odd(lst):\n        return True\n    return False\n\n\n# main function\nif can_divide_into_odd_subsegments(a):\n    print(\"Yes\")\nelse:\n    print(\"No\")"
+}

@@ -1,0 +1,3 @@
+{
+    "130": "n, m = map(int, input().split())\nc = [input() for i in range(n)]\n\nif 'B' in c[0] or 'B' in c[-1] or 'B' in ''.join(i[0] for i in c) or 'B' in ''.join(i[-1] for i in c):\n    print(0)\nelif 'BB' in ''.join(i[0] for i in c) or 'BB' in ''.join(i[-1] for i in c):\n    print(1)\nelif 'BBB' in ''.join(i[0] for i in c) or 'BBB' in ''.join(i[-1] for i in c):\n    print(2)\nelse:\n    print(-1)"
+}

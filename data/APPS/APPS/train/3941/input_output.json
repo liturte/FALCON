@@ -1,0 +1,1 @@
+{"fn_name": "reverse_fizzbuzz", "inputs": [["1 2 Fizz 4 Buzz"], ["Fizz 688 689 FizzBuzz"], ["Fizz Buzz"], ["Fizz"], ["Buzz"], ["Buzz Fizz"], ["FizzBuzz"]], "outputs": [[[1, 2, 3, 4, 5]], [[687, 688, 689, 690]], [[9, 10]], [[3]], [[5]], [[5, 6]], [[15]]]}

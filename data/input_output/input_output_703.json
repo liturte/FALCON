@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "migrations.CreateModel(\n    name='User',\n    fields=[\n        ('id', models.AutoField(verbose_name='ID', primary_key=True, serialize=False, auto_created=True)),\n        ('username', models.CharField(max_length=100)),\n        ('email', models.EmailField(max_length=254)),\n    ],\n),",
+        "migrations.CreateModel(\n    name='Product',\n    fields=[\n        ('id', models.AutoField(verbose_name='ID', primary_key=True, serialize=False, auto_created=True)),\n        ('name', models.CharField(max_length=100)),\n        ('price', models.DecimalField(max_digits=10, decimal_places=2)),\n    ],\n),",
+        "migrations.CreateModel(\n    name='Order',\n    fields=[\n        ('id', models.AutoField(verbose_name='ID', primary_key=True, serialize=False, auto_created=True)),\n        ('customer', models.ForeignKey('User', on_delete=models.CASCADE)),\n        ('product', models.ForeignKey('Product', on_delete=models.CASCADE)),\n        ('quantity', models.IntegerField()),\n    ],\n),"
+    ],
+    "outputs": [
+        "migrations.CreateModel(\n    name='User',\n    fields=[\n        ('id', models.AutoField(verbose_name='ID', primary_key=True, serialize=False, auto_created=True)),\n        ('username', models.CharField(max_length=100)),\n        ('email', models.EmailField(max_length=254)),\n    ],\n),",
+        "migrations.CreateModel(\n    name='Product',\n    fields=[\n        ('id', models.AutoField(verbose_name='ID', primary_key=True, serialize=False, auto_created=True)),\n        ('name', models.CharField(max_length=100)),\n        ('price', models.DecimalField(max_digits=10, decimal_places=2)),\n    ],\n),",
+        "migrations.CreateModel(\n    name='Order',\n    fields=[\n        ('id', models.AutoField(verbose_name='ID', primary_key=True, serialize=False, auto_created=True)),\n        ('customer', models.ForeignKey('User', on_delete=models.CASCADE)),\n        ('product', models.ForeignKey('Product', on_delete=models.CASCADE)),\n        ('quantity', models.IntegerField()),\n    ],\n),"
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    "344": "#include <bits/stdc++.h>\n\nusing namespace std;\n\nint main(){\n    string s;\n    cin >> s;\n    int cnt = 0;\n    for(int i = 0; i < s.size(); i++){\n        if(s[i] == 'a' || s[i] == 'o' || s[i] == 'u' || s[i] == 'i' || s[i] == 'e'){\n            cnt++;\n        }\n    }\n    if(cnt == s.size()){\n        cout << \"YES\" << endl;\n    }\n    else if(s[s.size() - 1] == 'n'){\n        cout << \"YES\" << endl;\n    }\n    else{\n        cout << \"NO\" << endl;\n    }\n    return 0;\n}"
+}

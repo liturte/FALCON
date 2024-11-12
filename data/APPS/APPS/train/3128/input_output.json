@@ -1,0 +1,1 @@
+{"fn_name": "is_mac_48_address", "inputs": [["00-1B-63-84-45-E6"], ["Z1-1B-63-84-45-E6"], ["not a MAC-48 address"], ["FF-FF-FF-FF-FF-FF"], ["00-00-00-00-00-00"], ["G0-00-00-00-00-00"], ["12-34-56-78-9A-BC"], ["02-03-04-05-06-07-"], ["02-03-04-05"], ["02-03-04-FF-00-F0"]], "outputs": [[true], [false], [false], [true], [true], [false], [true], [false], [false], [true]]}

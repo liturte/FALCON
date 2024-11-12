@@ -1,0 +1,8 @@
+{
+    "134": {
+        "code": [
+            "a,b=map(int,input().split())\nc=((a*a)+(b*b))**0.5\nif c%1==0:\n    print(int(c),int(a*b/c))\nelse:\n    print(-1)\n\n\n'''"
+        ],
+        "prompt": "\nQUESTION:\nKatya studies in a fifth grade. Recently her class studied right triangles and the Pythagorean theorem. It appeared, that there are triples of positive integers such that you can construct a right triangle with segments of lengths corresponding to triple. Such triples are called Pythagorean triples.\n\nFor example, triples (3, 4, 5), (5, 12, 13) and (6, 8, 10) are Pythagorean triples.\n\nHere Katya wondered if she can specify the length of some side of right triangle and find any Pythagorean triple corresponding to such length? Note that the side which length is specified can be a cathetus as well as hypotenuse.\n\nKatya had no problems with completing this task. Will you do the same?\n\n\n-----Input-----\n\nThe only line of the input contains single integer n (1 \u2264 n \u2264 10^9)\u00a0\u2014 the length of some side of a right triangle.\n\n\n-----Output-----\n\nPrint two integers m and k (1 \u2264 m, k \u2264 10^18), such that n, m and k form a Pythagorean triple, in the only line.\n\nIn case if there is no any Pythagorean triple containing integer n, print  - 1 in the only line. If there are many answers, print any of them.\n\n\n-----Examples-----\nInput\n3\n\nOutput\n4 5\nInput\n6\n\nOutput\n8 10\nInput\n1\n\nOutput\n-1\nInput\n17\n\nOutput\n144 145\nInput\n67\n\nOutput\n2244 2245\n\n\n-----Note-----[Image]\n\nIllustration for the first sample.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "layer: 'roads', schema_name: 'public', geometry_type: 'LineString', sql: 'SELECT * FROM roads'",
+        "layer: 'buildings', schema_name: 'gis_data', geometry_type: 'Polygon', sql: 'SELECT * FROM buildings'",
+        "layer: 'water_bodies', schema_name: 'hydro', geometry_type: 'MultiPolygon', sql: 'SELECT * FROM water_bodies'",
+        "layer: 'parks', schema_name: 'green_spaces', geometry_type: 'MultiPolygon', sql: 'SELECT * FROM parks'",
+        "layer: 'railways', schema_name: 'transport', geometry_type: 'LineString', sql: 'SELECT * FROM railways'"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

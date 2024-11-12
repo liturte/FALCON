@@ -1,0 +1,3 @@
+{
+    "168": "import sys\n\ndef main():\n    n = int(input())\n    s = input()\n    ans = 0\n    for i in range(n):\n        if s[i] == '+':\n            ans += 1\n        else:\n            ans -= 1\n    print(ans)\n\nif __name__ == \"__main__\":\n    main()"
+}

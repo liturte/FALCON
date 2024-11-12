@@ -1,0 +1,3 @@
+{
+    "418": "n = int(input())\n\nans = False\nfor i in range(n):\n    name, before, after = input().split()\n    before, after = int(before), int(after)\n    if before < 2400 and after >= 2400:\n        ans = True\n        break\nprint(\"YES\" if ans else \"NO\")\n\n\n'''"
+}

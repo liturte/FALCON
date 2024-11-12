@@ -1,0 +1,48 @@
+Insecure Inc. has decided to shift directions after a failed attempt at developing a new encryption standard. Their new effort is a password system used to hide a password inside another string of characters we denote as a message. However, it is important that the message has a certain property relative to the hidden password.
+
+Let us assume that we denote the characters of the password as $ c_1 c_2 \ldots c_ P$ (although those characters need not be distinct). To be a valid message for the password, if you start from the beginning of the message and search for any character from the set $\{ c_1, \ldots , c_ P \} $, it must be that $c_1$ is the first that you find. Subsequently, if you continue looking from that point of the message for any character from the set $\{ c_2, \ldots , c_ P \} $, it must be that $c_2$ is the next that you find. Continuing in that manner, $c_3$ must be the next character from the set $\{ c_3, \ldots , c_ P\} $, and so on until reaching $c_ P$.
+
+For example, if the password is ABC, then the string HAPPYBIRTHDAYCACEY is a valid message.
+ - Notice that A is the first of the set $\{ $A, B, C$\} $ to appear in the message. (The initial H is not relevant.)
+ - Following the A that was found, the next occurrence from the set $\{ $B, C$\} $ is B.
+ - Following the B that was found, the next occurrence from the set $\{ $C$\} $ is indeed C.
+
+ (Note that the A in DAY is not relevant, since we are only looking for a C at this point, and the additional A and C in CACEY are not relevant, because we have already completed the password with the first C.)
+
+However, for the password ABC, the string TRAGICBIRTHDAYCACEY is not a valid message.
+ - While the A is the first of the set $\{ $A, B, C$\} $ to appear in the string,
+
+ the next occurrence from the set $\{ $B, C$\} $ is C rather than B.
+
+Also, the string HAPPYBIRTHDAY is not a valid message for the password ABC because the C never appears.
+
+As an example with duplicate letters in the password, consider the password SECRET. For this password, the string SOMECHORESARETOUGH is a valid message. In contrast, the string SOMECHEERSARETOUGH is not a valid message, because an extraneous E is found at the point when an R is first expected.
+
+-----Input-----
+The input consists of a single line containing two strings. The first string is the password, having length $P$, with $3 \leq P \leq 8$. The second string has length $S$, with $10 \leq S \leq 40$. Both strings will consist solely of uppercase letters. (That is, neither string can include whitespace, lowercase letters, digits, or other special characters.)
+
+-----Output-----
+Output a single line with the word PASS if the second string is a valid message for the password, or FAIL otherwise.
+
+
+
+-----Examples-----
+Sample Input 1:
+ABC HAPPYBIRTHDAYCACEY
+Sample Output 1:
+PASS
+
+Sample Input 2:
+ABC TRAGICBIRTHDAYCACEY
+Sample Output 2:
+FAIL
+
+Sample Input 3:
+ABC HAPPYBIRTHDAY
+Sample Output 3:
+FAIL
+
+Sample Input 4:
+SECRET SOMECHORESARETOUGH
+Sample Output 4:
+PASS

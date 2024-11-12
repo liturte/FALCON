@@ -1,0 +1,1 @@
+{"fn_name": "winner", "inputs": [[["A", "7", "8"], ["K", "5", "9"]], [["T"], ["T"]], [["T", "9"], ["T", "8"]], [[], []]], "outputs": [["Steve wins 2 to 1"], ["Tie"], ["Steve wins 1 to 0"], ["Tie"]]}

@@ -1,0 +1,3 @@
+{
+    "117": "def calc_area(n, m, lines):\n    # Calculate the area of the region the cow can reach\n    # using the given lines\n    # return the area as an integer\n    pass\n\ndef main():\n    # Read input from Standard Input\n    # and call calc_area() to calculate the area\n    # and print the result to Standard Output\n    pass\n\nif __name__ == '__main__':\n    main()"
+}

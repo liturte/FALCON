@@ -1,0 +1,3 @@
+{
+    "31": "def gcd(a, b):\n    while b > 0:\n        a, b = b, a % b\n    return a\n\n\ndef main():\n    n, k = map(int, input().split())\n    a = 1\n    b = 1\n    for i in range(k):\n        a *= (n - i)\n        b *= (i + 1)\n    a *= (2**(n - k))\n    g = gcd(a, b)\n    print(a // g, b // g)\n\n\nif __name__ == '__main__':\n    main()"
+}

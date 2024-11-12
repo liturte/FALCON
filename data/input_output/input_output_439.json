@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "star1.csv",
+        "star2.csv",
+        "star3.csv",
+        "star4.csv",
+        "star5.csv"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

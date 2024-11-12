@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "180\n",
+        "96\n",
+        "27\n"
+    ],
+    "outputs": [
+        "triple 20\ntriple 20\ntriple 20\n",
+        "triple 19\ndouble 15\nsingle 9\n",
+        "triple 9\n"
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    "342": "def main():\n    a, b, c = map(int, input().split())\n    if a < b:\n        a, b = b, a\n    if a < c:\n        a, c = c, a\n    if b < c:\n        b, c = c, b\n    if a - b >= c:\n        print(2 * b + c)\n    else:\n        print(2 * (a + b - c) + min(a - b, 2 * c - a - b))\n\n\nif __name__ == '__main__':\n    main()"
+}

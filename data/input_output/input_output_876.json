@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "['a', 'b', 'c']",
+        "('x', 'y', 'z')",
+        "'h,e,l,l,o'",
+        "'abcdefghijklmnopqrstuvwxyz'",
+        "'1,2,3,4,5,6,7,8,9,0'"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        "ValueError: Wrong Latin script characters, available list, tuple or comma separated string, max length 33.",
+        "ValueError: Wrong Latin script characters, available list, tuple or comma separated string, max length 33."
+    ]
+}

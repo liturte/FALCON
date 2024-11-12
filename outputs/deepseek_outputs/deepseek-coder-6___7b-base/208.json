@@ -1,0 +1,8 @@
+{
+    "208": {
+        "code": [
+            "import sys\n\n\ndef main():\n    x1, y1, x2, y2 = [int(i) for i in input().split()]\n    x3, y3, x4, y4 = x1, y2, x2, y1\n\n    if x1 == x2 and y1 == y2:\n        print(-1)\n    else:\n        print(x3, y3, x4, y4)\n\n\nif __name__ == '__main__':\n    main()"
+        ],
+        "prompt": "\nQUESTION:\nPashmak has fallen in love with an attractive girl called Parmida since one year ago...\n\nToday, Pashmak set up a meeting with his partner in a romantic garden. Unfortunately, Pashmak has forgotten where the garden is. But he remembers that the garden looks like a square with sides parallel to the coordinate axes. He also remembers that there is exactly one tree on each vertex of the square. Now, Pashmak knows the position of only two of the trees. Help him to find the position of two remaining ones.\n\n\n-----Input-----\n\nThe first line contains four space-separated x_1, y_1, x_2, y_2 ( - 100 \u2264 x_1, y_1, x_2, y_2 \u2264 100) integers, where x_1 and y_1 are coordinates of the first tree and x_2 and y_2 are coordinates of the second tree. It's guaranteed that the given points are distinct.\n\n\n-----Output-----\n\nIf there is no solution to the problem, print -1. Otherwise print four space-separated integers x_3, y_3, x_4, y_4 that correspond to the coordinates of the two other trees. If there are several solutions you can output any of them. \n\nNote that x_3, y_3, x_4, y_4 must be in the range ( - 1000 \u2264 x_3, y_3, x_4, y_4 \u2264 1000).\n\n\n-----Examples-----\nInput\n0 0 0 1\n\nOutput\n1 0 1 1\n\nInput\n0 0 1 1\n\nOutput\n0 1 1 0\n\nInput\n0 0 1 2\n\nOutput\n-1\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

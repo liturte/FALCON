@@ -1,0 +1,3 @@
+{
+    "518": "import math\n\ndef main():\n    n, r = map(int, input().split())\n    print(r / math.sin(math.pi / n))\n\nif __name__ == \"__main__\":\n    main()"
+}

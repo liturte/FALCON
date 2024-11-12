@@ -1,0 +1,77 @@
+{
+    "inputs": [
+        [
+            "ClassA",
+            "ClassB",
+            "ClassA",
+            "ClassC",
+            "ClassB",
+            "ClassA",
+            "ClassD",
+            "ClassC",
+            "ClassD"
+        ],
+        [
+            "ClassA",
+            "ClassB",
+            "ClassC",
+            "ClassD",
+            "ClassA",
+            "ClassB",
+            "ClassC",
+            "ClassD",
+            "ClassA",
+            "ClassB"
+        ],
+        [
+            "ClassA",
+            "ClassA",
+            "ClassA",
+            "ClassA",
+            "ClassA"
+        ],
+        [
+            "ClassA",
+            "ClassB",
+            "ClassC"
+        ],
+        [
+            "ClassA",
+            "ClassA",
+            "ClassB",
+            "ClassB",
+            "ClassC",
+            "ClassC",
+            "ClassD",
+            "ClassD"
+        ]
+    ],
+    "outputs": [
+        {
+            "ClassA": 3,
+            "ClassB": 2,
+            "ClassC": 2,
+            "ClassD": 2
+        },
+        {
+            "ClassA": 3,
+            "ClassB": 3,
+            "ClassC": 2,
+            "ClassD": 2
+        },
+        {
+            "ClassA": 5
+        },
+        {
+            "ClassA": 1,
+            "ClassB": 1,
+            "ClassC": 1
+        },
+        {
+            "ClassA": 2,
+            "ClassB": 2,
+            "ClassC": 2,
+            "ClassD": 2
+        }
+    ]
+}

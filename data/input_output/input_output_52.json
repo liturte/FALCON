@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "find_element(1, 2)",
+        "find_element('A', 'B')",
+        "find_element(5, 5)",
+        "find_element(0, 0)",
+        "find_element(3, 4)"
+    ],
+    "outputs": [
+        "Element found at position (1, 2)",
+        "Element not found",
+        "Element not found",
+        "Invalid input provided",
+        "Element found at position (3, 4)"
+    ]
+}

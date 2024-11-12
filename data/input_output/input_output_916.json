@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        {
+            "data": "1234$5678$",
+            "key": "An even lamer key"
+        },
+        {
+            "data": "abcde$12345$",
+            "key": "SecretKey123"
+        },
+        {
+            "data": "test$123$",
+            "key": "TestKey"
+        },
+        {
+            "data": "encrypted$1234$",
+            "key": "EncryptionKey"
+        },
+        {
+            "data": "secure$5678$",
+            "key": "SecureKey"
+        }
+    ],
+    "outputs": [
+        true,
+        false,
+        false,
+        true,
+        true
+    ]
+}

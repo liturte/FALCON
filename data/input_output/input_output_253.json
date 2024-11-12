@@ -1,0 +1,36 @@
+{
+    "inputs": [
+        {
+            "a": true,
+            "b": "hello",
+            "c": false
+        },
+        {
+            "x": true,
+            "y": "world",
+            "z": true
+        },
+        {
+            "key1": false,
+            "key2": "test",
+            "key3": true
+        },
+        {
+            "one": true,
+            "two": false,
+            "three": "example"
+        },
+        {
+            "alpha": "beta",
+            "gamma": false,
+            "delta": true
+        }
+    ],
+    "outputs": [
+        "a-hello",
+        "x-world-z",
+        "key3-test",
+        "one-example",
+        "alpha-delta"
+    ]
+}

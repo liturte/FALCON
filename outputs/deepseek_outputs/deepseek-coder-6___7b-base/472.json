@@ -1,0 +1,8 @@
+{
+    "472": {
+        "code": [
+            "def s(x):\n    sum=0\n    while x>0:\n        sum=sum+x%10\n        x=x//10\n    return sum\n\ndef f(n):\n    l=1\n    r=10**9\n    while l<=r:\n        mid=(l+r)//2\n        if mid**2+s(mid)*mid==n:\n            return mid\n        elif mid**2+s(mid)*mid<n:\n            l=mid+1\n        else:\n            r=mid-1\n    return -1\n\nn=int(input())\nprint(f(n))"
+        ],
+        "prompt": "\nQUESTION:\nLet's consider equation:x^2 + s(x)\u00b7x - n = 0,  \n\nwhere x, n are positive integers, s(x) is the function, equal to the sum of digits of number x in the decimal number system.\n\nYou are given an integer n, find the smallest positive integer root of equation x, or else determine that there are no such roots.\n\n\n-----Input-----\n\nA single line contains integer n (1 \u2264 n \u2264 10^18) \u2014 the equation parameter.\n\nPlease, do not use the %lld specifier to read or write 64-bit integers in \u0421++. It is preferred to use cin, cout streams or the %I64d specifier. \n\n\n-----Output-----\n\nPrint -1, if the equation doesn't have integer positive roots. Otherwise print such smallest integer x (x > 0), that the equation given in the statement holds.\n\n\n-----Examples-----\nInput\n2\n\nOutput\n1\n\nInput\n110\n\nOutput\n10\n\nInput\n4\n\nOutput\n-1\n\n\n\n-----Note-----\n\nIn the first test case x = 1 is the minimum root. As s(1) = 1 and 1^2 + 1\u00b71 - 2 = 0.\n\nIn the second test case x = 10 is the minimum root. As s(10) = 1 + 0 = 1 and 10^2 + 1\u00b710 - 110 = 0.\n\nIn the third test case the equation has no roots.\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

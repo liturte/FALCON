@@ -1,0 +1,10 @@
+[
+    {
+        "role": "user",
+        "content": "[Problem Description]\n\nYou are given a Python function that returns a variable called `jinja`. \n\nThe `jinja` variable is a string containing an HTML template with variables that need to be replaced. The variables are denoted by double curly braces `{{}}`. \n\nYour task is to write a Python function that takes in two parameters: a dictionary `variables` containing key-value pairs where the key is the variable name and the value is the replacement value, and a string `template` containing the HTML template with the variables to replace.\n\nYour function should replace all instances of the variables in the `template` with their corresponding values from the `variables` dictionary. Return the updated HTML template after replacing all the variables.\n\nFor example, if the `jinja` variable returned by the given function is:\n```html\n<p>Hello, {{name}}! Welcome to {{place}}.</p>\n```\n\nAnd the input parameters to your function are:\n```python\nvariables = {\"name\": \"Alice\", \"place\": \"Wonderland\"}\ntemplate = \"<p>Hello, {{name}}! Welcome to {{place}}.</p>\"\n```\n\nYour function should return:\n```html\n<p>Hello, Alice! Welcome to Wonderland.</p>\n```\n\nWrite a Python function `replace_variables(variables, template)` to solve this problem. The function should return the updated HTML template after replacing all the variables.\n\n**Function signature:** `def replace_variables(variables: dict, template: str) -> str`"
+    },
+    {
+        "role": "assistant",
+        "content": "def replace_variables(variables: dict, template: str) -> str:\n    for key, value in variables.items():\n        template = template.replace(f'{{{{{key}}}}}', value)\n    return template"
+    }
+]

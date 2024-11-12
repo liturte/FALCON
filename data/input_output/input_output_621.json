@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "0.1, 0.5, 5, 'sed_data.json'",
+        "-1, 1, 10, 'output.json'",
+        "0, 2, 3, 'results.json'",
+        "-2, 2, 6, 'data.json'",
+        "0.5, 1.5, 4, 'sed_values.json'"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

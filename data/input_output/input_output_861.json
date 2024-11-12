@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "[(2, 'file2.ico'), (0, 'file0.ico'), (1, 'file1.ico')]",
+        "[(5, 'icon5.ico'), (3, 'icon3.ico'), (1, 'icon1.ico'), (4, 'icon4.ico'), (2, 'icon2.ico')]",
+        "[(0, 'icon0.ico')]",
+        "[(1, 'icon1.ico'), (0, 'icon0.ico')]",
+        "[(3, 'icon3.ico'), (2, 'icon2.ico'), (1, 'icon1.ico'), (0, 'icon0.ico')]"
+    ],
+    "outputs": [
+        "[(0, 'file0.ico'), (1, 'file1.ico'), (2, 'file2.ico')]",
+        "[(1, 'icon1.ico'), (2, 'icon2.ico'), (3, 'icon3.ico'), (4, 'icon4.ico'), (5, 'icon5.ico')]",
+        "[(0, 'icon0.ico')]",
+        "[(0, 'icon0.ico'), (1, 'icon1.ico')]",
+        "[(0, 'icon0.ico'), (1, 'icon1.ico'), (2, 'icon2.ico'), (3, 'icon3.ico')]"
+    ]
+}

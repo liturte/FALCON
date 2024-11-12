@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "sample1.html",
+        "sample2.html",
+        "sample3.html",
+        "sample4.html",
+        "sample5.html"
+    ],
+    "outputs": [
+        "sample1.txt",
+        "sample2.txt",
+        "sample3.txt",
+        "sample4.txt",
+        "sample5.txt"
+    ]
+}

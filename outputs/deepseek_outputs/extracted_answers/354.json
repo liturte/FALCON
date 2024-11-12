@@ -1,0 +1,3 @@
+{
+    "354": "s = input()\nt = input()\nvowel = set('aeiou')\nconsonant = set('bcdfghjklmnpqrstvwxyz')\n\nif len(s) != len(t):\n    print('No')\nelse:\n    if len(set(s).intersection(vowel)) == len(set(t).intersection(vowel)) and len(set(s).intersection(consonant)) == len(set(t).intersection(consonant)):\n        print('Yes')\n    else:\n        print('No')"
+}

@@ -1,0 +1,1 @@
+{"fn_name": "motif_locator", "inputs": [["TTCCGGAACC", "CC"], ["ACGTTACAACGTTAG", "ACGT"], ["ACGTACGTACGT", "AAA"], ["ACGT", "ACGTGAC"]], "outputs": [[[3, 9]], [[1, 9]], [[]], [[]]]}

@@ -1,0 +1,3 @@
+{
+    "514": "from math import ceil\n\nt = int(input())\n\nfor i in range(t):\n    n, d = map(int, input().split())\n    if d <= n:\n        print('YES')\n    else:\n        x = (n - 1) // 2\n        if x + ceil(d / (x + 1)) <= n:\n            print('YES')\n        else:\n            print('NO')"
+}

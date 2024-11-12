@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "abcdefg}",
+        "123456}",
+        "a1b2c3}",
+        "xyz}",
+        "pqrst}"
+    ],
+    "outputs": [
+        "Hello",
+        null,
+        "abc",
+        null,
+        null
+    ]
+}

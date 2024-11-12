@@ -1,0 +1,94 @@
+Mirko purchased a new microprocessor. Unfortunately, he soon learned that many of his programs that he wrote for his old processor didn’t work on the new processor.
+
+Deep inside the technical documentation for both processors, he found an explanation. In order to work faster, the new processor imposes certain constraints on the machine code of programs, constraints that never existed on the previous model.
+
+The machine code of a processor consists of instructions that are executed sequentially. Each instruction uses a byte of memory. Also, instructions can have zero or more parameters, each of which uses an additional byte of memory. In machine code, parameters immediately follow an instruction.
+
+When formatted as text, machine code instructions are uppercase letters, while parameters are lowercase letters. For example:
+
+A
+
+b
+
+c
+
+b
+
+B
+
+c
+
+c
+
+C
+
+D
+
+e
+
+f
+
+g
+
+h
+
+This program consists of four instructions; the first takes three parameters, the second two, the third none and the fourth takes four parameters. The program uses $13$ bytes of memory.
+
+The new processor model fetches memory in four-byte chunks so each instruction must start at a memory address that is divisible by four (the first byte in memory is address $0$). To achieve that, we can insert NOP (no operation) instructions into the old program, instructions that do nothing and are not limited to memory locations divisible by four. The above program, adapted to run on the new processor, can look like this:
+
+A
+
+b
+
+c
+
+b
+
+B
+
+c
+
+c
+
+NOP
+
+C
+
+NOP
+
+NOP
+
+NOP
+
+D
+
+e
+
+f
+
+g
+
+h
+
+The instructions A, B, C and D are now at memory locations $0$, $4$, $8$ and $12$, which satisfies the processor’s constraints.
+
+Write a program that determines the smallest number of NOP instructions that need to be inserted for the given program to work on the new processor model.
+
+-----Input-----
+The input contains the machine code of the program written for the old processor model. The program will consist of at most $200$ English letters.
+
+The program will always start in an instruction, i.e., the first letter in the machine code will be uppercase. If an instruction appears more than once in the machine code, it will always take the same number of parameters.
+
+-----Output-----
+Output the smallest number of NOP instructions needed to adapt the program for the new processor.
+
+-----Examples-----
+Sample Input 1:
+Abcd
+Sample Output 1:
+0
+
+Sample Input 2:
+EaEbFabG
+Sample Output 2:
+5

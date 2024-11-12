@@ -1,0 +1,22 @@
+While working a night shift at the university as a janitor, you absentmindedly erase a blackboard covered with equations, only to realize afterwards that these were no ordinary equations! They were the notes of the venerable Professor E. I. N. Stein who earlier in the day solved the elusive maximum quadrilateral problem! Quick, you have to redo his work so no one noticed what happened. 
+
+The maximum quadrilateral problem is quite easy to state: given four side lengths $s_1, s_2, s_3$ and $s_4$, find the maximum area of any quadrilateral that can be constructed using these lengths. A quadrilateral is a polygon with four vertices.
+
+-----Input-----
+The input consists of a single line with four positive integers, the four side lengths $s_1$, $s_2$, $s_3$, and $s_4$.
+
+It is guaranteed that $2s_ i < \sum _{j=1}^4 s_ j$, for all $i$, and that $1 \leq s_ i \leq 1000$.
+
+-----Output-----
+Output a single real number, the maximal area as described above. Your answer must be accurate to an absolute or relative error of at most $10^{-6}$.
+
+-----Examples-----
+Sample Input 1:
+3 3 3 3
+Sample Output 1:
+9
+
+Sample Input 2:
+1 2 1 1
+Sample Output 2:
+1.299038105676658

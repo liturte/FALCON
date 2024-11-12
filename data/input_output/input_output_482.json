@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "[('Alice', 85), ('Bob', 90), ('Charlie', 75), ('David', 90)]",
+        "[('Eve', 80), ('Alice', 90), ('Bob', 90), ('Charlie', 75)]",
+        "[('David', 85), ('Alice', 85), ('Bob', 85), ('Charlie', 85)]",
+        "[('Alice', 100), ('Bob', 90), ('Charlie', 95), ('David', 90)]",
+        "[('Alice', 75), ('Bob', 75), ('Charlie', 75), ('David', 75)]"
+    ],
+    "outputs": [
+        "[('Bob', 90), ('David', 90), ('Alice', 85), ('Charlie', 75)]",
+        "[('Alice', 90), ('Bob', 90), ('Eve', 80), ('Charlie', 75)]",
+        "[('Alice', 85), ('Bob', 85), ('Charlie', 85), ('David', 85)]",
+        "[('Alice', 100), ('Charlie', 95), ('Bob', 90), ('David', 90)]",
+        "[('Alice', 75), ('Bob', 75), ('Charlie', 75), ('David', 75)]"
+    ]
+}

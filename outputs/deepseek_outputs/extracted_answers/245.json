@@ -1,0 +1,3 @@
+{
+    "245": "#include <iostream>\nusing namespace std;\nint main()\n{\n    int n;\n    cin >> n;\n    int x1[n], y1[n], x2[n], y2[n];\n    for (int i = 0; i < n; i++)\n    {\n        cin >> x1[i] >> y1[i] >> x2[i] >> y2[i];\n    }\n    int xmin = x1[0], xmax = x2[0], ymin = y1[0], ymax = y2[0];\n    for (int i = 0; i < n; i++)\n    {\n        xmin = min(xmin, x1[i]);\n        xmax = max(xmax, x2[i]);\n        ymin = min(ymin, y1[i]);\n        ymax = max(ymax, y2[i]);\n    }\n    if (xmax - xmin == ymax - ymin)\n    {\n        cout << \"YES\" << endl;\n    }\n    else\n    {\n        cout << \"NO\" << endl;\n    }\n    return 0;\n}"
+}

@@ -1,0 +1,3 @@
+{
+    "458": "a,b,c = map(int,input().split())\nfor i in range(1,10**9):\n    x = i\n    sum = 0\n    while x:\n        sum += x%10\n        x //= 10\n    if i == b*sum**a + c:\n        print(i,end=' ')\nprint(0)"
+}

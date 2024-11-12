@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "Generate commands for running 'ps' process",
+        "Generate commands for running worker processes with task numbers and remote locations",
+        "Generate commands for running Tensorboard with specific log directory and port",
+        "Generate commands for running the 'htop' utility",
+        "Generate commands for a mix of 'ps', worker processes, Tensorboard, and 'htop'"
+    ],
+    "outputs": [
+        "tmux new-session -d -s ps_session -n ps 'ps -ef'",
+        "tmux new-window -t ps_session:1 -n worker_1 'python worker.py --task 1 --location remote1'",
+        "tmux new-window -t ps_session:2 -n worker_2 'python worker.py --task 2 --location remote2'",
+        "tmux new-window -t ps_session:3 -n tensorboard 'tensorboard --logdir=/path/to/logs --port=6006'",
+        "tmux new-window -t ps_session:4 -n htop 'htop'"
+    ]
+}

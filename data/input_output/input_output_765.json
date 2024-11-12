@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "python extract_images.py -d images_folder -f image1.jpg",
+        "python extract_images.py -d photos -f family_photo.jpg",
+        "python extract_images.py -d pictures -f vacation.jpg",
+        "python extract_images.py -d images -f None",
+        "python extract_images.py -d photos -f None"
+    ],
+    "outputs": [
+        "Image 'image1.jpg' extracted successfully from 'images_folder'.",
+        "Image 'family_photo.jpg' extracted successfully from 'photos'.",
+        "Image 'vacation.jpg' extracted successfully from 'pictures'.",
+        "All image files extracted successfully from 'images'.",
+        "All image files extracted successfully from 'photos'."
+    ]
+}

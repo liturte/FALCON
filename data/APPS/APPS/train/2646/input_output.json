@@ -1,0 +1,1 @@
+{"inputs": ["11\n#BED\n{\n    color: #FfFdF8; background-color:#aef;\n    font-size: 123px;\n\n}\n#Cab\n{\n    background-color: #ABC;\n    border: 2px dashed #fff;\n}"], "outputs": ["#FfFdF8\n#aef\n#ABC\n#fff"]}

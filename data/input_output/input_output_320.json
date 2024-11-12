@@ -1,0 +1,31 @@
+{
+    "inputs": [
+        {
+            "dir1": "/path/to/dir1",
+            "dir2": "/path/to/dir2"
+        },
+        {
+            "dir1": "/path/to/dir3",
+            "dir2": "/path/to/dir4"
+        },
+        {
+            "dir1": "/path/to/dir5",
+            "dir2": "/path/to/dir6"
+        },
+        {
+            "dir1": "/path/to/dir7",
+            "dir2": "/path/to/dir8"
+        },
+        {
+            "dir1": "/path/to/dir9",
+            "dir2": "/path/to/dir10"
+        }
+    ],
+    "outputs": [
+        true,
+        false,
+        true,
+        false,
+        true
+    ]
+}

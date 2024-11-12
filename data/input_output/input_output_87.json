@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "5 3",
+        "10 2",
+        "8 4",
+        "15 5",
+        "6 2"
+    ],
+    "outputs": [
+        "A soma é 8, o produto é 15 e a divisão é 1.6666666666666667 Divisão inteira 1 e potência 125",
+        "A soma é 12, o produto é 20 e a divisão é 5.0 Divisão inteira 5 e potência 100",
+        "A soma é 12, o produto é 32 e a divisão é 2.0 Divisão inteira 2 e potência 4096",
+        "A soma é 20, o produto é 75 e a divisão é 3.0 Divisão inteira 3 e potência 759375",
+        "A soma é 8, o produto é 12 e a divisão é 3.0 Divisão inteira 3 e potência 36"
+    ]
+}

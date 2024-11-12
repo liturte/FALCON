@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "simulate_lottery_game()",
+        "simulate_lottery_game()",
+        "simulate_lottery_game()",
+        "simulate_lottery_game()",
+        "simulate_lottery_game()"
+    ],
+    "outputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+    ]
+}

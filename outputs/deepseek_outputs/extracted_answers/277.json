@@ -1,0 +1,3 @@
+{
+    "277": "n, a, b = map(int, input().split())\n\nif a % 2 == 1:\n    a += 1\n\nif b % 2 == 1:\n    b += 1\n\nif a == b:\n    print(\"Final\")\nelse:\n    print(1 + (a // 2 + b // 2) // 2)"
+}

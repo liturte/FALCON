@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "User: Normal, Article: Locked",
+        "User: Admin, Article: Locked",
+        "User: Normal, Article: Unlocked",
+        "User: Admin, Article: Unlocked",
+        "User: Guest, Article: Locked"
+    ],
+    "outputs": [
+        "User not authorized to edit the locked article",
+        "User authorized to edit the locked article",
+        "User authorized to edit the unlocked article",
+        "User authorized to edit the unlocked article",
+        null
+    ]
+}

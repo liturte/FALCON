@@ -1,0 +1,16 @@
+{
+    "inputs": [
+        "model_name='querysetrule',name='rule_type',",
+        "model_name='model1',name='type1',",
+        "model_name='model2',name='type2',",
+        "model_name='model3',name='type3',",
+        "model_name='model4',name='type4',"
+    ],
+    "outputs": [
+        "The model name is: querysetrule and the rule type is: rule_type",
+        "The model name is: model1 and the rule type is: type1",
+        "The model name is: model2 and the rule type is: type2",
+        "The model name is: model3 and the rule type is: type3",
+        "The model name is: model4 and the rule type is: type4"
+    ]
+}

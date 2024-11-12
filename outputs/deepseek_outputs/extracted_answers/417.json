@@ -1,0 +1,3 @@
+{
+    "417": "n,x,d=map(int,input().split())\na=[x+d*i for i in range(n)]\ns=set()\nfor i in range(n):\n    for j in range(i,n):\n        s.add(a[i]+a[j])\nprint(len(s))"
+}

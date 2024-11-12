@@ -1,0 +1,27 @@
+Theta likes to bake cookies for the upcoming holidays. She has a selection of cookie cutters of different shapes and sizes. She thinks it’s unfair that some shapes are larger than others – because even if everyone gets the same number of cookies, some will end up with more dough!
+
+She comes up with a plan to enlarge (or shrink) the cookie cutters’ shapes – while retaining their proportions – so that all cookies will have the same weight.
+
+Your task in this problem is to help her draw the plans the new cookie cutters will be based on!
+
+-----Input-----
+The input is a single test case, consisting of one cookie cutter outline. Cookie cutters are modeled as simple polygons. (Simple polygons do not self-intersect.) The first line of input contains a number $N$ ($3 \le N \le 50$) denoting the number of corners of the polygon. This is followed by $N$ lines containing two floating point numbers $X$ and $Y$ ($-500 \le X, Y \le 500$), each describing a set of coordinates of a polygon point. Each floating point number will have at most $6$ digits after the period. The coordinates are given in counter-clockwise order.
+
+The next line will contain an integer number $A$ ($0 < A \le 10000000$) denoting the size of the desired area to which the polygon should be grown or shrunk. (Since the dough is rolled out precisely to an even height everywhere, we can use area to represent weight.) The resized polygon must be similar to the original polygon, that is, all interior angles must be congruent and all corresponding sides must have the same ratio.
+
+-----Output-----
+Output $N$ lines with the $X$, $Y$ coordinates of the expanded/shrunk polygon. Because these coordinates will be used to draw a new cookie cutter, your new polygon should lie in the north-east quadrant ($x, y \ge 0$) and it should touch the $x$- and $y$-axes in at least one point. More precisely, you must move the resized polygon horizontally and/or vertically so that $\min x_ i = \min y_ j = 0$. You may not, however, rotate or skew the polygon in any way.
+
+Provide your answers as floating point numbers. Your answer will be considered correct if none of the $x, y$ coordinates have an absolute or relative error larger than $10^{-4}$.
+
+-----Examples-----
+Sample Input:
+3
+0 0
+1 1
+0 2
+4
+Sample Output:
+0.0 0.0
+2.0 2.0
+0.0 4.0

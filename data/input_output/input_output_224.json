@@ -1,0 +1,216 @@
+{
+    "inputs": [
+        {
+            "recipes": [
+                {
+                    "name": "Pasta Carbonara",
+                    "cuisine": "Italian",
+                    "rating": 4
+                },
+                {
+                    "name": "Tacos",
+                    "cuisine": "Mexican",
+                    "rating": 3
+                },
+                {
+                    "name": "Sushi",
+                    "cuisine": "Japanese",
+                    "rating": 5
+                },
+                {
+                    "name": "Burger",
+                    "cuisine": "American",
+                    "rating": 2
+                }
+            ],
+            "filter_recipe": {
+                "cuisines": [
+                    "Italian",
+                    "Japanese"
+                ],
+                "rating": 3
+            }
+        },
+        {
+            "recipes": [
+                {
+                    "name": "Pad Thai",
+                    "cuisine": "Thai",
+                    "rating": 4
+                },
+                {
+                    "name": "Sushi",
+                    "cuisine": "Japanese",
+                    "rating": 5
+                },
+                {
+                    "name": "Pizza",
+                    "cuisine": "Italian",
+                    "rating": 3
+                },
+                {
+                    "name": "Burger",
+                    "cuisine": "American",
+                    "rating": 2
+                }
+            ],
+            "filter_recipe": {
+                "cuisines": [
+                    "Thai",
+                    "Italian"
+                ],
+                "rating": 4
+            }
+        },
+        {
+            "recipes": [
+                {
+                    "name": "Ramen",
+                    "cuisine": "Japanese",
+                    "rating": 4
+                },
+                {
+                    "name": "Tacos",
+                    "cuisine": "Mexican",
+                    "rating": 3
+                },
+                {
+                    "name": "Pasta",
+                    "cuisine": "Italian",
+                    "rating": 2
+                },
+                {
+                    "name": "Curry",
+                    "cuisine": "Indian",
+                    "rating": 5
+                }
+            ],
+            "filter_recipe": {
+                "cuisines": [
+                    "Japanese",
+                    "Indian"
+                ],
+                "rating": 3
+            }
+        },
+        {
+            "recipes": [
+                {
+                    "name": "Pho",
+                    "cuisine": "Vietnamese",
+                    "rating": 4
+                },
+                {
+                    "name": "Sushi",
+                    "cuisine": "Japanese",
+                    "rating": 5
+                },
+                {
+                    "name": "Burger",
+                    "cuisine": "American",
+                    "rating": 3
+                },
+                {
+                    "name": "Pasta",
+                    "cuisine": "Italian",
+                    "rating": 2
+                }
+            ],
+            "filter_recipe": {
+                "cuisines": [
+                    "Vietnamese",
+                    "Japanese"
+                ],
+                "rating": 4
+            }
+        },
+        {
+            "recipes": [
+                {
+                    "name": "Tacos",
+                    "cuisine": "Mexican",
+                    "rating": 4
+                },
+                {
+                    "name": "Sushi",
+                    "cuisine": "Japanese",
+                    "rating": 5
+                },
+                {
+                    "name": "Burger",
+                    "cuisine": "American",
+                    "rating": 3
+                },
+                {
+                    "name": "Pasta",
+                    "cuisine": "Italian",
+                    "rating": 2
+                }
+            ],
+            "filter_recipe": {
+                "cuisines": [
+                    "Mexican",
+                    "American"
+                ],
+                "rating": 3
+            }
+        }
+    ],
+    "outputs": [
+        [
+            {
+                "name": "Pasta Carbonara",
+                "cuisine": "Italian",
+                "rating": 4
+            },
+            {
+                "name": "Sushi",
+                "cuisine": "Japanese",
+                "rating": 5
+            }
+        ],
+        [
+            {
+                "name": "Pad Thai",
+                "cuisine": "Thai",
+                "rating": 4
+            }
+        ],
+        [
+            {
+                "name": "Ramen",
+                "cuisine": "Japanese",
+                "rating": 4
+            },
+            {
+                "name": "Curry",
+                "cuisine": "Indian",
+                "rating": 5
+            }
+        ],
+        [
+            {
+                "name": "Pho",
+                "cuisine": "Vietnamese",
+                "rating": 4
+            },
+            {
+                "name": "Sushi",
+                "cuisine": "Japanese",
+                "rating": 5
+            }
+        ],
+        [
+            {
+                "name": "Tacos",
+                "cuisine": "Mexican",
+                "rating": 4
+            },
+            {
+                "name": "Sushi",
+                "cuisine": "Japanese",
+                "rating": 5
+            }
+        ]
+    ]
+}

@@ -1,0 +1,3 @@
+{
+    "281": "\"\"\"\n\na, b = map(int, input().split())\n\nprint((a**b)%10)"
+}

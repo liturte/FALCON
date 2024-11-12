@@ -1,0 +1,3 @@
+{
+    "73": "import math\n\nc, v_0, v_1, a, l = [int(i) for i in input().split()]\n\nif v_0 <= v_1:\n    print(1)\nelse:\n    print(math.ceil((v_0 + v_1) / (2 * a) + l / v_1))"
+}

@@ -1,0 +1,8 @@
+{
+    "789": {
+        "code": [
+            "#!/usr/bin/env python\n\ndef lucky_index(n):\n    # TODO: Implement this function\n    return 0\n\n\ndef main():\n    n = int(input())\n    print(lucky_index(n))\n\n\nif __name__ == '__main__':\n    main()"
+        ],
+        "prompt": "\nQUESTION:\nOnce again Tavas started eating coffee mix without water! Keione told him that it smells awful, but he didn't stop doing that. That's why Keione told his smart friend, SaDDas to punish him! SaDDas took Tavas' headphones and told him: \"If you solve the following problem, I'll return it to you.\" [Image] \n\nThe problem is: \n\nYou are given a lucky number n. Lucky numbers are the positive integers whose decimal representations contain only the lucky digits 4 and 7. For example, numbers 47, 744, 4 are lucky and 5, 17, 467 are not.\n\nIf we sort all lucky numbers in increasing order, what's the 1-based index of n? \n\nTavas is not as smart as SaDDas, so he asked you to do him a favor and solve this problem so he can have his headphones back.\n\n\n-----Input-----\n\nThe first and only line of input contains a lucky number n (1 \u2264 n \u2264 10^9).\n\n\n-----Output-----\n\nPrint the index of n among all lucky numbers.\n\n\n-----Examples-----\nInput\n4\n\nOutput\n1\n\nInput\n7\n\nOutput\n2\n\nInput\n77\n\nOutput\n6\nUse Standard Input format\nANSWER(only use python):\n"
+    }
+}

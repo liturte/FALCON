@@ -1,0 +1,3 @@
+{
+    "266": "#code\nm,s=map(int,input().split())\nif s==0 and m==1:\n    print(\"0 0\")\nelif s==0 or s>9*m:\n    print(\"-1 -1\")\nelse:\n    mini=s-1 if s>1 else 0\n    maxi=s\n    for i in range(m-1):\n        if s>=9:\n            mini=mini*10+9\n            maxi=maxi*10+9\n            s-=9\n        else:\n            mini=mini*10+s\n            maxi=maxi*10+s\n            s=0\n    print(mini,maxi)"
+}
