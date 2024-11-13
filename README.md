@@ -42,18 +42,3 @@ python Feedback/program_feedback.py
 ### Compute pass@k：
 
 - python compute_pass_at_k_metric.py
-
-## Citation
-
-```
-@misc{li2024falconfeedbackdrivenadaptivelongshortterm,
-      title={FALCON: Feedback-driven Adaptive Long/short-term memory reinforced Coding Optimization system}, 
-      author={Zeyuan Li and Yangfan He and Lewei He and Jianhui Wang and Tianyu Shi and Bin Lei and Yuchen Li and Qiuwu Chen},
-      year={2024},
-      eprint={2410.21349},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2410.21349}, 
-}
-```
-
