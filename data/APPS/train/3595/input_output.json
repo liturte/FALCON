@@ -1,0 +1,1 @@
+{"fn_name": "work_on_strings", "inputs": [["abc", "cde"], ["abcdeFgtrzw", "defgGgfhjkwqe"], ["abcdeFg", "defgG"], ["abab", "bababa"]], "outputs": [["abCCde"], ["abcDeFGtrzWDEFGgGFhjkWqE"], ["abcDEfgDEFGg"], ["ABABbababa"]]}

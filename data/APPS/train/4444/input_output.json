@@ -1,0 +1,1 @@
+{"fn_name": "abundant_number", "inputs": [[12], [18], [37], [120], [77], [118], [5830], [11410], [14771], [11690]], "outputs": [[true], [true], [false], [true], [false], [false], [true], [true], [false], [true]]}

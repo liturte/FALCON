@@ -1,0 +1,50 @@
+### Task:
+
+Your job is to take a pair of parametric equations, passed in as strings, and convert them into a single rectangular equation by eliminating the parameter. Both parametric halves will represent linear equations of x as a function of time and y as a function of time respectively. 
+
+The format of the final equation must be `Ax + By = C` or `Ax - By = C` where A and B must be positive and A, B, and C are integers. The final equation also needs to have the lowest possible whole coefficients. Omit coefficients equal to one.
+
+The method is called `para_to_rect` or `EquationsManager.paraToRect` and takes in two strings in the form `x = at +(or -) b` and `y = ct +(or -) d` respectively, where `a` and `c` must be integers, and `b` and `d` must be positive integers. If `a` or `c` is omitted, the coefficient of _t_ is obviously assumed to be 1 (see final case in the example tests). There will NEVER be double signs in the equations inputted (For example: `"x = -12t + -18"` and `"y = -12t - -18"` won't show up.)
+
+### Examples:
+
+```python
+para_to_rect("x = 12t + 18", "y = 8t + 7") => "2x - 3y = 15"
+```
+
+> __CALCULATION:__  
+  x = 12t + 18  
+  y = 8t + 7  
+  2x = 24t + 36  
+  3y = 24t + 21  
+  2x - 3y = (24t + 36) - (24t + 21)  
+  2x - 3y = 15  
+
+```python
+para_to_rect("x = -12t - 18", "y = 8t + 7") => "2x + 3y = -15"
+```
+
+> __CALCULATION:__  
+  x = -12t - 18  
+  y = 8t + 7  
+  2x = -24t - 36  
+  3y = 24t + 21  
+  2x + 3y = (-24t - 36) + (24t + 21)  
+  2x + 3y = -15  
+
+```python
+para_to_rect("x = -t + 12", "y = 12t - 1") => "12x + y = 143"
+```
+
+> __CALCULATION:__  
+  x = -t + 12  
+  y = 12t - 1  
+  12x = -12t + 144  
+  y   = 12t  - 1  
+  12x + y = 143  
+
+More examples in the sample test cases.
+
+### Notes:
+
+As you can see above, sometimes you'll need to add the two parametric equations after multiplying by the necessary values; sometimes you'll need to subtract them – just get rid of the _t_!

@@ -1,0 +1,29 @@
+You own and manage an office building. One of the tenants, a regional paper supply company, is complaining about the lack of security offered by the CrapTacular$^{\text {TM}}$ doors you installed in the building. A potential attacker could easily pick the locks on these doors to gain access to any room of the building. This is frankly unacceptable as there are reams upon reams of priceless paper stored inside the office.
+
+To appease your tenant, you offer to replace one existing door with a new high-security door that will stop any attacker. To get the most benefit from the new door, it should protect the maximum possible number of rooms in the building. That is, you need to find which existing door to replace with a secure door such that the maximum number of rooms can only be reached from outside the building through the new door.
+
+The building contains $0<N<100000$ rooms which are connected by $0<M<100000$ doors. Rooms are uniquely named by the integers in the range $[0,N)$. To figure out where to install the secure door, you have a floor plan of the building. The floor plan somehow represents all of the floors in one (possibly non-planar) graph. The only way to pass from one room to another, or the outside, is by using a door. All rooms can be reached, directly or via other rooms, from all other rooms and from the outside of the building.
+
+-----Input-----
+Input contains several lines of integers separated by spaces. The first line contains the number $N$, then $M$. The following $M$ lines describe each door with two numbers $-1 \le u < N$ and $-1 \le v < N$, $u \ne v$. The numbers $u$ and $v$ represent the rooms connected by the door. A door connects to the outside if $u$ or $v$ is $-1$. No door has $u = v$.
+
+-----Output-----
+The maximum number of rooms that can be protected with a single high-security door.
+
+-----Sample Explanation-----
+The image below illustrates the building described in Sample Input 2:
+
+
+
+
+
+Here, double-headed arrows indicate doors. For example, the arrow between room $0$ and $1$ shows that there is a door there. The other arrow connecting room $0$ leads to the outside of the building. We could totally secure room $5$ by replacing the door between room $1$ and $5$, but this is not the optimal solution. The best solution for this input is to replace the door between room $1$ and $2$, since room $2$, $3$, and $4$ can only be reached from the outside of the building by passing through that door. The answer is thus $3$ because at most $3$ rooms can be secured.
+
+-----Examples-----
+Sample Input:
+2 3
+-1 0
+-1 1
+0 1
+Sample Output:
+0

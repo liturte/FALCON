@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "HANGMAN\nABCDEFGHIJKLMNOPQRSTUVWXYZ\n",
+        "BANANA\nABCDEFGHIJKLMNOPQRSTUVWXYZ\n",
+        "RAINBOWS\nUSIANBVLOJRKWXZCTQGHPFMYDE\n"
+    ],
+    "outputs": [
+        "WIN\n",
+        "LOSE\n",
+        "WIN\n"
+    ]
+}

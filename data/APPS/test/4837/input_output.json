@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "5\nSSPPR\n1\nSSPPR\n",
+        "5\nSSPPR\n2\nPPRRS\nRRSSP\n",
+        "4\nSPRS\n4\nRPRP\nSRRR\nSSPR\nPSPS\n"
+    ],
+    "outputs": [
+        "5\n10\n",
+        "10\n15\n",
+        "12\n21\n"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "inputs": [
+    "3\naabce\nace\nabacaba\naax\nty\nyyt\n",
+    "11\na\naaaaaaaaaaa\ncba\nabcabcabcabcabcabcabc\nbvdhsdvlbelrivbhxbhie\nx\nabacabadabacaba\nabacabadabacaba\nabacabadabacaba\nbaabaabcaa\naabab\naaababbbaaaabbab\nt\ny\nu\nu\nabcdefghijk\nkjihgfedcba\nabcdefghijk\nkjihgfdecba\nabb\nababbbbb\n"
+  ],
+  "outputs": [
+    "1\n-1\n3\n",
+    "11\n15\n1\n1\n1\n5\n-1\n1\n11\n10\n4\n"
+  ]
+}

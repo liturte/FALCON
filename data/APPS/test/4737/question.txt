@@ -1,0 +1,42 @@
+ACM (Association for Computing Machinery) organizes the International Collegiate Programming Contest (ICPC) worldwide every year.
+
+In the ICPC, a team of three students is presented with a problem set that contains $N$ problems1 of varying types and difficulty levels. The teams are not told which problems are easier (or harder). As there is only one single computer per team, each team has to decide which one of the $N!$ possible problem solving orders that the team wants to use. This is called the “contest strategy” and teams who are expecting to do well in an ICPC should use the optimal contest strategy for their team.
+
+However, when a contest has ‘First to Solve Problem [‘A’/‘B’/.../‘A’$+(N-1)$] award’ – like this ICPC SG Regional Contest 15 – sponsored by Kattis, then some of the teams may throw the optimal contest strategy out of the window in order to grab the (smaller) award.
+
+-----Input-----
+The input describes a hypothetical scenario of a $300$ minute contest.
+
+The first line contains two non-negative integers $2 \leq N \leq 13$ and $0 \leq p \leq N-1$. The integer $N$ describes the number of problems in the problem set of this ACM ICPC and the integer $p$ is a 0-based index that describes the problem id that your team wants to solve first before attempting the other $N-1$ problems.
+
+The next line contains $N$ integers in the range between $1$ and $999$, inclusive. Each integer $i$ describes the estimated number of minutes to solve problem id $i$ according to your team. You have discussed with your team mates that your team will not put the same estimation for two different problems, so there is no ambiguity.
+
+As an ACM ICPC duration is $5$ hours, or $300$ minutes, any estimation of strictly larger than $300$ minutes for a certain problem $j$ basically says that you estimate that your team cannot solve problem $j$ during contest time.
+
+In this problem, you can assume that all your team’s estimations are perfectly accurate, i.e. if your team estimates that your team needs $30$ minutes to solve problem $k$, $270$ minutes to solve another problem $l$, and have no idea how to solve the rest, and decides to solve problem $k$ first followed by $l$, then after $30$ minutes have elapsed from the start of contest, your team really gets an ‘Accepted’ verdict from Kattis for problem $k$, immediately switches to problem $l$ for the next $270$ minutes, gets another ‘Accepted’ verdict from Kattis for problem $l$ at exactly $300$ minutes (in this problem, submission at minute $300$ is a valid submission2). Thus you have $2$ Accepted problems and the total penalty time of $30+300 = 330$ minutes as per the ICPC rules.
+
+-----Output-----
+Print two integers $Num\_ AC$ and $Penalty\_ Time$ separated by a single space in one line.
+
+$Num\_ AC$ is the highest number of problems that your team can solve and $Penalty\_ Time$ is the lowest penalty minutes that your team can get in order to solve $Num\_ AC$ problems in this $300$ minutes ACM ICPC if your team insists to solve problem $p$ first from the start of the contest and then use the remaining time to work on the other $N-1$ problems.
+
+For the example scenario above, if your team decides to solve problem $l$ first followed by $k$, then your team still solves $Num\_ AC = 2$ Accepted problems, but with the total penalty of $270+300 = 570$ minutes.
+
+-----Examples-----
+Sample Input 1:
+7 0
+30 270 995 996 997 998 999
+Sample Output 1:
+2 330
+
+Sample Input 2:
+7 1
+30 270 995 996 997 998 999
+Sample Output 2:
+2 570
+
+Sample Input 3:
+7 2
+30 270 995 996 997 998 999
+Sample Output 3:
+0 0

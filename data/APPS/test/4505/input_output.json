@@ -1,0 +1,1 @@
+{"inputs": ["bac\n", "bab\n", "abc\n", "aaa\n"], "outputs": ["Yes\n", "No\n", "Yes\n", "No\n"]}

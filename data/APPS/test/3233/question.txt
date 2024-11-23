@@ -1,0 +1,24 @@
+Brandon Greg Jr. considers an array to be scary if its leftmost element is the median of its elements. Given an array with distinct elements $[p_1, p_2, \ldots , p_ n]$, Brandon wants to count the number of scary subarrays.
+
+A subarray is some contiguous chunk of elements $[p_ l, p_{l+1}, \ldots , p_ r]$ where $l\le r$. The median of a set of $n$ numbers is the middle number in sorted order if $n$ is odd, or the average of the middle two numbers in sorted order if $n$ is even. Note that all subarrays of length $1$ are scary, and no even-length subarrays are scary because the elements are all distinct.
+
+-----Input-----
+The first line of input contains a single integer $n$ ($1\le n\le 2\cdot 10^5$), representing the length of the given array.
+
+The second line of input contains $n$ space-separated integers $p_ i$ ($1\le p_ i\le n$), representing the given array. It is guaranteed that the $p_ i$’s are distinct.
+
+-----Output-----
+Output one integer representing the number of scary subarrays.
+
+-----Examples-----
+Sample Input 1:
+5
+1 2 3 4 5
+Sample Output 1:
+5
+
+Sample Input 2:
+6
+3 2 1 6 4 5
+Sample Output 2:
+8

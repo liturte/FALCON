@@ -1,0 +1,1 @@
+{"inputs": ["7\nbeat\nvet\nbeet\nbed\nvet\nbet\nbeet\n", "8\nbuffalo\nbuffalo\nbuffalo\nbuffalo\nbuffalo\nbuffalo\nbuffalo\nbuffalo\n", "7\nbass\nbass\nkick\nkick\nbass\nkick\nkick\n", "4\nushi\ntapu\nnichia\nkun\n"], "outputs": ["beet\nvet\n", "buffalo\n", "kick\n", "kun\nnichia\ntapu\nushi\n"]}

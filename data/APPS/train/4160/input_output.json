@@ -1,0 +1,1 @@
+{"fn_name": "get_percentage", "inputs": [[101, 1000], [256, 500], [259], [0], [1000, 1000]], "outputs": [["10%"], ["51%"], ["25%"], ["No e-mails sent"], ["Daily limit is reached"]]}

@@ -1,0 +1,1 @@
+{"fn_name": "powerof4", "inputs": [[2], [4], [40], [1], [4.2], [-25], ["pippi"], [256]], "outputs": [[false], [true], [false], [true], [false], [false], [false], [true]]}

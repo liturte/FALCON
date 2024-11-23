@@ -1,0 +1,1 @@
+{"fn_name": "shift_left", "inputs": [["test", "west"], ["test", "yes"], ["b", "ab"], ["abacabadabacaba", "abacabadacaba"], ["aaabc", "bc"], ["dark", "d"], ["dadc", "dddc"], ["nogkvcdldfpvlbkpedsecl", "nogkvcdldfpvlbkpedsecl"]], "outputs": [[2], [7], [1], [18], [3], [5], [4], [0]]}

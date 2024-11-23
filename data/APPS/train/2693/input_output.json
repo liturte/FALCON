@@ -1,0 +1,1 @@
+{"fn_name": "remove_nth_element", "inputs": [[[9, 7, 6, 9], 0]], "outputs": [[[7, 6, 9]]]}

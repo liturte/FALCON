@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "5 4\n8 -2 3 undo 2\n",
+        "5 10\n7 -3 undo 1 4 3 -9 5 undo 2 undo 1 6\n"
+    ],
+    "outputs": [
+        "3\n",
+        "2\n"
+    ]
+}

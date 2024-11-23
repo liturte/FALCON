@@ -1,0 +1,1 @@
+{"fn_name": "find_spec_partition", "inputs": [[10, 4, "max"], [10, 4, "min"]], "outputs": [[[3, 3, 2, 2]], [[7, 1, 1, 1]]]}

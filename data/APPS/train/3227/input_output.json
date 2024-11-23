@@ -1,0 +1,1 @@
+{"fn_name": "to_lover_case", "inputs": [["LOVE"], ["love"], ["abcd"], ["ebcd"], ["Hello World!"], ["jrvz,"]], "outputs": [["EVOL"], ["EVOL"], ["LOVE"], ["LOVE"], ["ELEEV VVOEE!"], ["OOOO,"]]}

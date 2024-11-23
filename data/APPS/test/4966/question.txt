@@ -1,0 +1,20 @@
+Anthony recently started watching YouTube videos with the title “$X$ but every time $Y$ happens it speeds up by $Z$”. He likes watching these videos because it saves time, but he wonders how much time he actually saves by watching these videos (instead of the originals).
+
+You may assume that the new video $X’$ is exactly the same as the original video $X$, except certain segments of the new video play faster. Each time event $Y$ happens, $X’$ speeds up by $p$%. Suppose event $Y$ happens $n$ times in $X’$, and it happens at timestamps $t_1, t_2, \ldots , t_ n$ (in seconds). That means the segment $[0, t_1)$ is playing at original speed, the segment $[t_1, t_2)$ is playing at $(100+p)$% speed, the segment $[t_2, t_3)$ is playing at $(100+2p)$% speed, and so on. Also, $X’$ is $k$ seconds long.
+
+Can you help Anthony compute the original length of the video?
+
+-----Input-----
+The first line of the input contains three integers $n, p, k$. It is guaranteed that $1\leq n\leq 5000$, $0\leq p\leq 100$, and $n\leq k\leq 20000$.
+
+The next line of the input contains $n$ integers $t_ i$, denoting the timestamp of the event $Y$. It is guaranteed that the timestamps are given in chronological order, and that $1\leq t_ i\leq k$.
+
+-----Output-----
+A single number $T$ denoting the length of the original video in seconds. Your answer is considered correct if its absolute or relative error is at most $10^{-6}$.
+
+-----Examples-----
+Sample Input:
+2 20 15
+3 10
+Sample Output:
+18.400

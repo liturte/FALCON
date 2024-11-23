@@ -1,0 +1,1 @@
+{"fn_name": "is_matched", "inputs": [[["36M", "CATAATACTTTACCTACTCTCAACAAATGCGGGAGA"]], [["10M6H", "GAGCGAGTGCGCCTTAC"]], [["12S", "TGTTTCTCCAAG"]]], "outputs": [[true], ["Invalid cigar"], [false]]}

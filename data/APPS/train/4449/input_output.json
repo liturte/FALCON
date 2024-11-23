@@ -1,0 +1,1 @@
+{"fn_name": "solution", "inputs": [["RRGGBB"], ["RGBRGB"], ["BGRBBGGBRRR"], ["GBBBGGRRGRB"], ["GBRGGRBBBBRRGGGB"]], "outputs": [[3], [0], [4], [4], [7]]}

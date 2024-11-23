@@ -1,0 +1,46 @@
+The “eight queens puzzle” is a classic puzzle where you have to place eight queens on a chess board in such a way that no queen can attack another queen. Remember that, in chess, queens can move in any direction (horizontal, vertical, and diagonal), which means the eight queens would have to be laid out in such a way that no two queens are on the same row, column, or diagonal.
+
+This puzzle actually has multiple solutions. The following is one possible solution:
+
+Finding the solutions to the “eight queens puzzle” is actually an interesting computational problem. However, that’s not the problem you will be solving here. Instead, you will be solving a much simpler problem: given a proposed solution to the puzzle, you must verify whether it is a valid solution (i.e., whether no queen can attack another queen).
+
+When referring to specific squares on the board, we will assume that the bottom-left square is the $(0,0)$ square, and that the $x$ coordinate increases as you move right, and the $y$ coordinate increases as you move up.
+
+In other words, something like this:
+
+Furthermore, we will consider the more general “$N$-queens puzzle”, where the chessboard can have $N\times N$ squares, and there will be $N$ queens on the board. For example, this would be a correct solution to the 4-queens puzzle:
+
+And this would be an incorrect solution to the 4-queens puzzle:
+
+Notice how the queen in (2,2) can attack the queen in (0,2) and the queen in (2,3).
+
+-----Input-----
+The input begins with a line containing a single integer: the value of $N$ ($0 < N \le 5000$). This is followed by $N$ lines, each containing the position of a queen as two integers: $x$ and $y$ (separated by a single space), where $0 \le x, y < N$.
+
+-----Output-----
+The output contains either CORRECT if the positions of the queens is a solution to the $N$-queens puzzle, and INCORRECT otherwise.
+
+Note that the sample data presented below corresponds to the three boards shows earlier.
+
+-----Examples-----
+Sample Input 1:
+8
+1 5
+6 2
+3 1
+5 0
+4 6
+0 3
+2 7
+7 4
+Sample Output 1:
+CORRECT
+
+Sample Input 2:
+4
+2 3
+1 0
+0 2
+3 1
+Sample Output 2:
+CORRECT

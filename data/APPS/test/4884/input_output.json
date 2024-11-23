@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "2 1\ncarrots?\nbunnies\n",
+        "1 5\nsovl problmz\n"
+    ],
+    "outputs": [
+        "1\n",
+        "5\n"
+    ]
+}

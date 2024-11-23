@@ -1,0 +1,1 @@
+{"fn_name": "time", "inputs": [[24, 10, "Downstream 2"], [24, 14, "Upstream 2"], [54, 28, "Downstream 3"], [60, 45, "Upstream 15"], [60, 45, "Downstream 15"]], "outputs": [[2], [2], [1.74], [2], [1]]}

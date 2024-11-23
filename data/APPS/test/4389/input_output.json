@@ -1,0 +1,22 @@
+{
+  "inputs": [
+    "4\nabbaac\nac\nbccddaaf\nzzzzzzzzzz\n",
+    "1\nassaad\n",
+    "6\nabbaac\nabbaac\nabbaac\nac\nbccddaaf\nzzzzzzzzzz\n",
+    "1\nsaallaammddookkhhj\n",
+    "11\nabbaac\nabbaac\nabbaac\nabbaac\nabbaac\nabbaac\nabbaac\nabbaac\nac\nbccddaaf\nzzzzzzzzzz\n",
+    "10\nabbaac\nac\nbccddaaf\nzzzzzzzzzz\nabbaac\nac\nbccddaaf\nzzzzzzzzzz\nbccddaaf\nzzzzzzzzzz\n",
+    "2\nabbaac\nac\n",
+    "13\naaaa\naaaa\naaaa\naaaa\naaaa\naaaa\naaaa\naaaa\naaaa\naaaa\naaaa\naaaa\naaaa\n"
+  ],
+  "outputs": [
+    "abac\nac\nbcdaf\nzzzzzz\n",
+    "asad\n",
+    "abac\nabac\nabac\nac\nbcdaf\nzzzzzz\n",
+    "salamdokhj\n",
+    "abac\nabac\nabac\nabac\nabac\nabac\nabac\nabac\nac\nbcdaf\nzzzzzz\n",
+    "abac\nac\nbcdaf\nzzzzzz\nabac\nac\nbcdaf\nzzzzzz\nbcdaf\nzzzzzz\n",
+    "abac\nac\n",
+    "aaa\naaa\naaa\naaa\naaa\naaa\naaa\naaa\naaa\naaa\naaa\naaa\naaa\n"
+  ]
+}

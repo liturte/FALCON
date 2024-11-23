@@ -1,0 +1,26 @@
+Yraglac really hates early winter. So he was greatly annoyed when it snowed early this year. His friend however claimed that summer is always too short in Galcary so there’s nothing to complain about.
+
+Yraglac doesn’t believe his friend. So he decides to look up the historical weather report for the past $n$ years to figure out when it usually starts snowing. For each year in the past $n$ years, the historical weather report records $d_ i$, the number of days between the end of summer and the first day of snow on the $i^\textrm {th}$ year. You may assume it never snows during summer in Galcary, as that would be absurd.
+
+Given the historical data, Yraglac would like to know the number of consecutive years right before the current year with a larger gap between the end of summer and the first day of snow. More formally, suppose the current year is $m$. Then he’d like to determine the largest integer $k$ for which $d_{m-1}, d_{m-2},\ldots ,d_{m-k}> d_ m$, or determine that it had never snowed this early in the last $n$ years.
+
+-----Input-----
+The first line of the input contains two integers $n$ and $d_ m$. It is guaranteed that $1\leq n\leq 100$ and $0\leq d_ m\leq 100$.
+
+The next line of the input contains $n$ integers. The $i^\textrm {th}$ integer denotes $d_{m-i}$. It is guaranteed that $0\leq d_{m-i}\leq 100$.
+
+-----Output-----
+If there exists an integer $k$ for which $d_{m-k}\leq d_ m$, print “It hadn’t snowed this early in $k$ years!” (without quotes). Otherwise, print “It had never snowed this early!” (without quotes).
+
+-----Examples-----
+Sample Input 1:
+4 2
+3 3 3 2
+Sample Output 1:
+It hadn't snowed this early in 3 years!
+
+Sample Input 2:
+2 10
+0 100
+Sample Output 2:
+It hadn't snowed this early in 0 years!

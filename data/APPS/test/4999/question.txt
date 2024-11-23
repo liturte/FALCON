@@ -1,0 +1,17 @@
+You are given two integers, $a$ and $b$. You want to transform $a$ to $b$ by performing a sequence of operations. You can only perform the following operations:
+ - Divide $a$ by two (only if $a$ is even)
+ - Add one to $a$
+
+What is the minimum number of these operations you need to transform $a$ into $b$?
+
+-----Input-----
+The single line of input contains two space-separated integers $a$ and $b$ ($1\le a,b \le 10^9$). You want to transform $a$ into $b$ using only the operations given above.
+
+-----Output-----
+Output a single integer, which is the minimum number of the given operations needed to transform $a$ into $b$.
+
+-----Examples-----
+Sample Input:
+103 27
+Sample Output:
+4

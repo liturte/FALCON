@@ -1,0 +1,24 @@
+Given is an integer N. Find the number of digits that N has in base K.
+
+-----Notes-----
+For information on base-K representation, see Positional notation - Wikipedia.
+
+-----Constraints-----
+ - All values in input are integers.
+ - 1 \leq N \leq 10^9
+ - 2 \leq K \leq 10
+
+-----Input-----
+Input is given from Standard Input in the following format:
+N K
+
+-----Output-----
+Print the number of digits that N has in base K.
+
+-----Sample Input-----
+11 2
+
+-----Sample Output-----
+4
+
+In binary, 11 is represented as 1011.

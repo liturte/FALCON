@@ -1,0 +1,1 @@
+{"fn_name": "get_neighbourhood", "inputs": [["moore", [[]], [0, 0]], ["von_neumann", [[]], [0, 0]], ["moore", [[], [], []], [0, 0]], ["von_neumann", [[], [], []], [0, 0]]], "outputs": [[[]], [[]], [[]], [[]]]}

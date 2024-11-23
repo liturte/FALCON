@@ -1,0 +1,26 @@
+Your competitors are in possession of a mysterious apparatus which gives them an advantage over you. The apparatus has $n$ on/off switches and $n$ lights. We believe that each of the switches is connected to exactly one of the lights, and vice versa, but we don’t know which switch is connected to which light.
+
+Your spy satellites have taken several different photographs of the apparatus showing different configurations of the switches and lights. Are these photos sufficient to narrow down the number of possible wirings of the mysterious apparatus so that you will be able to build a replica of the mysterious apparatus?
+
+-----Input-----
+The first line of input consists of two integers $n$ and $m$, where $1 \le n \le 1000$ is the number of switches/lights on the apparatus, and $0 \le m \le 1000$ is the number of photos you have of the apparatus. The next lines describe the photos. Each photo is described by two lines, each containing a binary string of length $n$. The $i$’th position in the first line indicates whether the $i$’th switch is on (1) or off (0), and the $i$’th position in the second line indicates whether the $i$’th light is on (1) or off (0).
+
+-----Output-----
+Write a single line of output giving the number of different wirings of the apparatus that are consistent with all the photographs. As this number may be huge, we only ask that you compute it modulo 1000003.
+
+-----Examples-----
+Sample Input 1:
+3 1
+110
+011
+Sample Output 1:
+2
+
+Sample Input 2:
+4 2
+1000
+1000
+0000
+0010
+Sample Output 2:
+0

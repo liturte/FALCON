@@ -1,0 +1,24 @@
+Given is a sequence of integers A_1, A_2, ..., A_N.
+If its elements are pairwise distinct, print YES; otherwise, print NO.
+
+-----Constraints-----
+ - 2 ≤ N ≤ 200000
+ - 1 ≤ A_i ≤ 10^9
+ - All values in input are integers.
+
+-----Input-----
+Input is given from Standard Input in the following format:
+N
+A_1 ... A_N
+
+-----Output-----
+If the elements of the sequence are pairwise distinct, print YES; otherwise, print NO.
+
+-----Sample Input-----
+5
+2 6 1 4 5
+
+-----Sample Output-----
+YES
+
+The elements are pairwise distinct.

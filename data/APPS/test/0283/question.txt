@@ -1,0 +1,35 @@
+PolandBall is a young, clever Ball. He is interested in prime numbers. He has stated a following hypothesis: "There exists such a positive integer n that for each positive integer m number n·m + 1 is a prime number".
+
+Unfortunately, PolandBall is not experienced yet and doesn't know that his hypothesis is incorrect. Could you prove it wrong? Write a program that finds a counterexample for any n.
+
+
+-----Input-----
+
+The only number in the input is n (1 ≤ n ≤ 1000) — number from the PolandBall's hypothesis. 
+
+
+-----Output-----
+
+Output such m that n·m + 1 is not a prime number. Your answer will be considered correct if you output any suitable m such that 1 ≤ m ≤ 10^3. It is guaranteed the the answer exists.
+
+
+-----Examples-----
+Input
+3
+
+Output
+1
+Input
+4
+
+Output
+2
+
+
+-----Note-----
+
+A prime number (or a prime) is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+
+For the first sample testcase, 3·1 + 1 = 4. We can output 1.
+
+In the second sample testcase, 4·1 + 1 = 5. We cannot output 1 because 5 is prime. However, m = 2 is okay since 4·2 + 1 = 9, which is not a prime number.

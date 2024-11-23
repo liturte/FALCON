@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "123\n123a\n",
+        "abc\nABC\n"
+    ],
+    "outputs": [
+        "No\n",
+        "Yes\n"
+    ]
+}

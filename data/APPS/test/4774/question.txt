@@ -1,0 +1,35 @@
+The scientists Mildra and Gloisa have been responsible for exploring Luyten 726-8, but have ended up with an issue: Their fusion reactor has stopped working! In order to continue their work, they need to get some materials from the closest asteroid. To do that though, they need to start up the chemical engines, which haven’t been started for multiple centuries.
+
+Gloisa has been reading the manual for the last three weeks, and is almost able to start it up. However, there is one equation she needs that has some operators smudged out. That equation is\[ a~ ?~ b~ =~ c~ ?~ d \]
+
+where the question marks are the unknown operators. So far, Gloisa has only managed to narrow the operators down to $+$, $-$, $*$ and $/$ (integer division).
+
+Although there may be multiple valid sets of operators for this equation, Mildra wants to help out by making a program that narrows the possibility space for Gloisa.
+
+-----Input-----
+The first line and only line consist of $4$ integers, $a$, $b$, $c$ and $d$, the values in the expression above.
+
+-----Output-----
+Print out all the expressions that evaluate to true, separated by a newline and sorted alphanumerically. ($\texttt{`*'} < \texttt{`+'} < \texttt{`-'} < \texttt{`/'}$)
+
+A valid expression must have a space between the integers, operators and the equal sign. Note that expression including division by zero is not a valid expression.
+
+If none of the expressions are valid, print out “problems ahead” (without the quotes).
+
+-----Limits-----
+ - $0 \leq a,b,c,d \leq 100$
+
+-----Examples-----
+Sample Input 1:
+1 2 3 4
+Sample Output 1:
+1 - 2 = 3 - 4
+1 / 2 = 3 / 4
+
+Sample Input 2:
+0 4 2 2
+Sample Output 2:
+0 * 4 = 2 - 2
+0 + 4 = 2 * 2
+0 + 4 = 2 + 2
+0 / 4 = 2 - 2

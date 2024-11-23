@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "5 3\n1 2\n1 3\n1 2\n1 3\n1 2\n",
+        "9 10\n1 2\n3 4\n5 6\n7 8\n9 10\n2 3\n1 5\n8 2\n7 9\n"
+    ],
+    "outputs": [
+        "LADICA\nLADICA\nLADICA\nSMECE\nSMECE\n",
+        "LADICA\nLADICA\nLADICA\nLADICA\nLADICA\nLADICA\nLADICA\nLADICA\nLADICA\n"
+    ]
+}

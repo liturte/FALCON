@@ -1,0 +1,1 @@
+{"inputs": ["4 3 6\n", "6 5 1\n", "3 7 12\n"], "outputs": ["safe\n", "delicious\n", "dangerous\n"]}

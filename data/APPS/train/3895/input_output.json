@@ -1,0 +1,1 @@
+{"fn_name": "shifted_diff", "inputs": [["fatigue", "tiguefa"], ["hoop", "pooh"], ["eecoff", "coffee"], ["Moose", "moose"], ["isn't", "'tisn"], ["Esham", "Esham"], [" ", " "], ["dog", "god"], ["  ", " "], ["doomhouse", "hoodmouse"], ["123456789!@#$%^&*( )qwerty", "9!@#$%^&*( )qwerty12345678"]], "outputs": [[5], [-1], [4], [-1], [2], [0], [0], [-1], [-1], [-1], [18]]}

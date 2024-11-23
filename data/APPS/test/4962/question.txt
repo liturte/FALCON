@@ -1,0 +1,33 @@
+Mirko has $N$ items (labeled with numbers from $1$ to $N$) and $L$ drawers (labeled with numbers from $1$ to $L$). All items are currently scattered throughout his room, so he decided to clean them up. Each drawer can contain one item, and in order to make it easier for Mirko to find them later, he has determined in advance exactly two drawers ($A_ i$ and $B_ i$) for each item $i$.
+
+Mirko stores the items in order from $1$ to $N$ using the first rule he can apply:
+ - If the drawer $A_ i$ is empty, he stores the item $i$ in that drawer.
+ - If the drawer $B_ i$ is empty, he stores the item $i$ in that drawer.
+ - Try to move the item from $A_ i$ to its other drawer; if that one’s filled too, try moving that item to its other drawer, and so on until you either succeed or get back to a previously seen drawer. In case of success, store the item $i$ in the drawer $A_ i$. In case of failure, continue to next rule.
+ - Try moving the item from $B_ i$ to its other drawer; if that one’s filled too, try moving that item to its other drawer, and so on until you either succeed or get back to a previously seen drawer. In case of success, store the item $i$ in the drawer $B_ i$. In case of failure, continue to next rule.
+ - Give up and throw away the item $i$.
+
+For given pairs of drawers for each item, determine which items will be stored and which will be thrown away.
+
+-----Input-----
+The first line of input consists of two integers, $N$ and $L$ ($1 \leq N, L \leq 300000$), the number of items and the number of drawers.
+
+Each of the following $N$ lines contains two integers: $A_ i$ and $B_ i$ ($1 \leq A_ i, B_ i \leq L$), the pair of drawers corresponding to item $i$. The numbers $A_ i$ and $B_ i$ will be different.
+
+-----Output-----
+For each item, respectively, output where it ends up. In case the item is stored successfully, output “LADICA” (without quotes, Croatian word for drawer). In case the item is thrown away, output “SMECE” (without quotes, Croatian word for trash).
+
+-----Examples-----
+Sample Input:
+5 3
+1 2
+1 3
+1 2
+1 3
+1 2
+Sample Output:
+LADICA
+LADICA
+LADICA
+SMECE
+SMECE

@@ -1,0 +1,26 @@
+In many programming languages, the “plus” symbol (‘+’) has at least two standard meanings:
+ - arithmetic addition
+ - string concatenation
+
+Inspired by the old adage, “Variety is the spice of life,” the designers of the Doubleplusgood (DPG) language (launched to great fanfare in 1984 by the Ministry of Truth Tables) decided that, in certain contexts, the meaning of the plus symbol would be decided dynamically and randomly at run time. In particular, for expressions consisting of alternating integers and plus symbols, every time the same program is executed, the meaning of each plus symbol is randomly chosen to be either addition or string concatenation. It follows that a single expression of this form can potentially evaluate to many different integers. For example, consider\[ 1+9+8+4 \]
+
+For clarity, we’ll use $\boxplus $ to denote a plus symbol that the DPG runtime environment decides to interpret as string concatenation, which, it is important to note, has higher precedence than addition in DPG. Then $1+9+8+4$ can evaluate to $7$ distinct values:\begin{align*} 1\boxplus 9 \boxplus 8 \boxplus 4 & =1984\\ 1 \boxplus 9 \boxplus 8 + 4 & =198 + 4 =202\\ 1 \boxplus 9 + 8 \boxplus 4 & =19 + 84 =103\\ 1 \boxplus 9 + 8 + 4 & =19 + 8 + 4 =31\\ 1 + 9 \boxplus 8 \boxplus 4 & =1 + 984 =985\\ 1 + 9 \boxplus 8 + 4 & =1 + 98 + 4 =103\\ 1 + 9 + 8 \boxplus 4 & =1 + 9 + 84 =94\\ 1 + 9 + 8 + 4 & =22 \end{align*}
+
+(Note that $103$ was formed in two different ways.) Given a sequence of alternating integers and plus symbols, your task is to determine the number of distinct integers to which the expression can evaluate.
+
+-----Input-----
+The input is a single line consisting of alternating positive integers and plus symbols. The line begins and ends with a positive integer, and is guaranteed to contain at least one plus symbol. The maximum number of digits in the input is $18$.
+
+-----Output-----
+Output the number of distinct integers to which the input expression can evaluate in DPG.
+
+-----Examples-----
+Sample Input 1:
+1+9+8+4
+Sample Output 1:
+7
+
+Sample Input 2:
+1+2+3+4+5+6+7+8+9
+Sample Output 2:
+188

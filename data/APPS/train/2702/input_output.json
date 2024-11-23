@@ -1,0 +1,1 @@
+{"fn_name": "create_anagram", "inputs": [["AABAA", "BBAAA"], ["OVGHK", "RPGUC"], ["AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB", "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAC"]], "outputs": [[1], [4], [1]]}

@@ -1,0 +1,20 @@
+A famous story about the mathematicians G.H. Hardy and Srinivasa Ramanujan goes as follows (as told by Hardy):  I remember once going to see him (Ramanujan) when he was lying ill at Putney. I had ridden in taxicab No. 1729, and remarked that the number seemed to be rather a dull one, and that I hoped it was not an unfavourable omen. “No”, he replied, “it is a very interesting number; it is the smallest number expressible as the sum of two [positive] cubes in two different ways.” 
+
+It is from this story the taxicab numbers got their name. The $n$’th taxicab numbers is defined to be the smallest number that can be expressed as a sum of two positive cube numbers in $n$ distinct ways.
+
+It turns out that these numbers grows rather quickly. This makes them very hard to compute, which is not very fun. A variation of the concept is to consider what we will call the bus numbers – all the numbers which can expressed as the sum of two positive cube numbers in at least $2$ distinct ways. Note that according to this definition, all taxicab numbers (except the first) are also bus numbers.
+
+Your task is to write a program that generates bus numbers; in particular, the largest bus number that is at most equal to some limit $m$.
+
+-----Input-----
+The input consists of:
+ - one line with an integer $m$ ($1 \le m \le 400000$), the upper bound of the bus number.
+
+-----Output-----
+Output the largest bus number $x$ which does not exceed $m$. If there is no such number, output none.
+
+-----Examples-----
+Sample Input:
+1730
+Sample Output:
+1729

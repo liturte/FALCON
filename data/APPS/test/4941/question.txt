@@ -1,0 +1,28 @@
+A confused Dutchman trying to speak English could say “I am in the war”, even though there is no hostile activity going on. The confusion1 here is that the English sentence “I am confused” is translated in Dutch as “Ik ben in de war”, which is phonetically (“sounding”) quite close to the first sentence. Such confusion leads to much enjoyment, but can complicate matters a bit. 
+
+Given a sentence in Dutch and a dictionary containing both correct translations as well as phonetic (incorrect) translations of individual words, find the translation of the sentence and indicate whether it is correct, or in case there is more than one find the total number of correct and incorrect translations. A sentence is correctly translated when each word of the sentence is correctly translated.
+
+-----Input-----
+The input consists of:
+ - One line with an integer $n$ ($1 \leq n \leq 20$), the number of words in the Dutch sentence.
+ - One line with $n$ words, the Dutch sentence $s$.
+ - One line with an integer $m$ ($1 \leq m \leq 10^5$), the number of words in the dictionary.
+ - $m$ lines, each with three strings $d$, $e$ and $c$, a Dutch word, the English translation, and “correct” if this is the correct translation or “incorrect” otherwise.
+
+A word consists of between $1$ and $20$ lowercase letters. Each word in $s$ appears at least once as a Dutch word in the dictionary, no word appears more than $8$ times as a Dutch word in the dictionary, and each combination of a Dutch and English word appears at most once.
+
+-----Output-----
+In case there is only a single translation of $s$, output one line with the translation followed by one line with “correct” or “incorrect”. In case there is more than one translation, output one line with the number of possible correct translations followed by “correct”, and one line with the number of possible incorrect translations followed by “incorrect”.
+
+-----Examples-----
+Sample Input:
+7
+als mollen mollen mollen mollen mollen mollen
+4
+als when correct
+mollen moles correct
+mollen destroy correct
+mollen mills incorrect
+Sample Output:
+64 correct
+665 incorrect

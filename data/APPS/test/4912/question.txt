@@ -1,0 +1,16 @@
+The construction worker previously known as Lars has many bricks of height $1$ and different lengths, and he is now trying to build a wall of width $w$ and height $h$. Since the construction worker previously known as Lars knows that the subset sum problem is $\mathsf{NP}$-hard, he does not try to optimize the placement but he just lays the bricks in the order they are in his pile and hopes for the best. First he places the bricks in the first layer, left to right; after the first layer is complete he moves to the second layer and completes it, and so on. He only lays bricks horizontally, without rotating them. If at some point he cannot place a brick and has to leave a layer incomplete, then he gets annoyed and leaves. It does not matter if he has bricks left over after he finishes.
+
+Yesterday the construction worker previously known as Lars got really annoyed when he realized that he could not complete the wall only at the last layer, so he tore it down and asked you for help. Can you tell whether the construction worker previously known as Lars will complete the wall with the new pile of bricks he has today?
+
+-----Input-----
+The first line contains three integers $h$, $w$, $n$ ($1 \leq h \leq 100$, $1 \leq w \leq 100$, $1 \leq n \leq 10000$), the height of the wall, the width of the wall, and the number of bricks respectively. The second line contains $n$ integers $x_ i$ ($1 \leq x_ i \leq 10$), the length of each brick.
+
+-----Output-----
+Output YES if the construction worker previously known as Lars will complete the wall, and NO otherwise.
+
+-----Examples-----
+Sample Input:
+2 10 7
+5 5 5 5 5 5 5
+Sample Output:
+YES

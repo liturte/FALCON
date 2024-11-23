@@ -1,0 +1,1 @@
+{"inputs": ["3\nKrishna 67 68 69\nArjun 70 98 63\nMalika 52 56 60\nMalika", "2\nHarsh 25 26.5 28\nAnurag 26 28 30\nHarsh"], "outputs": ["56.00", "26.50"]}

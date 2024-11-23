@@ -1,0 +1,25 @@
+We have an N \times N square grid.
+We will paint each square in the grid either black or white.
+If we paint exactly A squares white, how many squares will be painted black?
+
+-----Constraints-----
+ - 1 \leq N \leq 100
+ - 0 \leq A \leq N^2
+
+-----Inputs-----
+Input is given from Standard Input in the following format:
+N
+A
+
+-----Outputs-----
+Print the number of squares that will be painted black.
+
+-----Sample Input-----
+3
+4
+
+-----Sample Output-----
+5
+
+There are nine squares in a 3 \times 3 square grid.
+Four of them will be painted white, so the remaining five squares will be painted black.

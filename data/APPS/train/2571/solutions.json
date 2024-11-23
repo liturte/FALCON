@@ -1,0 +1,1 @@
+["def mutate_string(string, position, character):\n    return string[:position]+character+string[position+1:]\n\n", "def mutate_string(string, position, character):\n    out = list(string)\n    out[position] = character\n    return \"\".join(out)"]

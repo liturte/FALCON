@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "i cant speak pig latin\n",
+        "the quick brown fox\njumps over the lazy dog\nand ordinary foxes\ndont jump over lazy dogs\n"
+    ],
+    "outputs": [
+        "iyay antcay eakspay igpay atinlay\n",
+        "ethay uickqay ownbray oxfay\numpsjay overyay ethay azylay ogday\nandyay ordinaryyay oxesfay\nontday umpjay overyay azylay ogsday\n"
+    ]
+}

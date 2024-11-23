@@ -1,0 +1,1 @@
+{"inputs": ["yx\naxy\n", "ratcode\natlas\n", "cd\nabc\n", "w\nww\n", "zzz\nzzz\n"], "outputs": ["Yes\n", "Yes\n", "No\n", "Yes\n", "No\n"]}

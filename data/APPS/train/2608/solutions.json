@@ -1,0 +1,1 @@
+["#!/usr/bin/env python3\n\nimport re\n\ndef __starting_point():\n    out = list(re.split('[.,]', input()))\n    print(\"\\n\".join(filter(lambda x: re.match('[0-9]+',x), out)))\n__starting_point()"]

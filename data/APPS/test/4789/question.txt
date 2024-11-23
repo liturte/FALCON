@@ -1,0 +1,44 @@
+Getting a business permit in Kafkatown requires a trip to City Hall. There you are given a permit form that must be signed by $K$ city clerks whose names are printed at the bottom of the form.
+
+Entering the clerks’ room, you find a long line of people working their way down a narrow aisle along the clerks’ desks. Their desks are arranged in increasing numeric order. The aisle is so narrow that the line is forced to shuffle forward, single file, past each of the clerks’ desk in turn. Once in the line you cannot leave, back up, or change positions with other people.
+
+As you present your permit for a signature, you are told that no clerk will sign unless all of the signatures above his or her name on the permit form have already been filled in. To your dismay, the clerks’ desks are not arranged in the same order as the names on your form.
+
+How many times do you need to pass through the line until you can get your permit?
+
+-----Input-----
+The first line of input contains an integer $K$, the number of signatures you need to collect ($1 \leq K \leq 100$).
+
+This is followed by $K$ lines of input, each containing an integer in the range $1\ldots 100$, indicating the desk numbers of each of the clerks whose signature you need, in the order that they appear on your form. (Clerks whose signatures are not needed on your form are omitted from this list.)
+
+For example, the input
+
+    5 1 23 18 13 99
+
+means that you need $5$ signatures. The first must come from the clerk in desk #$1$, the next from the clerk in desk #$23$, and so on, with the final signature coming from the clerk in desk #$99$.
+
+No desk number appears more than once in the input.
+
+-----Output-----
+Print a single line containing an integer denoting the number of passes you need to make through the line until you can collect the signatures that you need.
+
+-----Examples-----
+Sample Input 1:
+5
+1
+23
+18
+13
+99
+Sample Output 1:
+3
+
+Sample Input 2:
+5
+11
+20
+33
+40
+55
+Sample Output 2:
+1

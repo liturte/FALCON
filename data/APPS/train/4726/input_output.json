@@ -1,0 +1,1 @@
+{"fn_name": "solve", "inputs": [["XYZ"], ["ABC"], ["ABCD"], ["ZAZ"], ["XYZA"]], "outputs": [[5], [16174], [402230], [25], [34480]]}

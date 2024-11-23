@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "4 4\nluka\no#a#\nkula\ni#a#\n",
+        "4 4\nluka\no#a#\nkula\ni#as\n",
+        "4 5\nadaca\nda##b\nabb#b\nabbac\n"
+    ],
+    "outputs": [
+        "kala\n",
+        "as\n",
+        "abb\n"
+    ]
+}

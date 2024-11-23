@@ -1,0 +1,1 @@
+{"fn_name": "area_of_polygon_inside_circle", "inputs": [[3, 3], [2, 4], [2.5, 5]], "outputs": [[11.691], [8], [14.86]]}

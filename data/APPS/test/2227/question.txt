@@ -1,0 +1,42 @@
+Volodya likes listening to heavy metal and (occasionally) reading. No wonder Volodya is especially interested in texts concerning his favourite music style.
+
+Volodya calls a string powerful if it starts with "heavy" and ends with "metal". Finding all powerful substrings (by substring Volodya means a subsequence of consecutive characters in a string) in a given text makes our hero especially joyful. Recently he felt an enormous fit of energy while reading a certain text. So Volodya decided to count all powerful substrings in this text and brag about it all day long. Help him in this difficult task. Two substrings are considered different if they appear at the different positions in the text.
+
+For simplicity, let us assume that Volodya's text can be represented as a single string.
+
+
+-----Input-----
+
+Input contains a single non-empty string consisting of the lowercase Latin alphabet letters. Length of this string will not be greater than 10^6 characters.
+
+
+-----Output-----
+
+Print exactly one number — the number of powerful substrings of the given string.
+
+Please, do not use the %lld specifier to read or write 64-bit integers in C++. It is preferred to use the cin, cout streams or the %I64d specifier.
+
+
+-----Examples-----
+Input
+heavymetalisheavymetal
+
+Output
+3
+Input
+heavymetalismetal
+
+Output
+2
+Input
+trueheavymetalissotruewellitisalsosoheavythatyoucanalmostfeeltheweightofmetalonyou
+
+Output
+3
+
+
+-----Note-----
+
+In the first sample the string "heavymetalisheavymetal" contains powerful substring "heavymetal" twice, also the whole string "heavymetalisheavymetal" is certainly powerful.
+
+In the second sample the string "heavymetalismetal" contains two powerful substrings: "heavymetal" and "heavymetalismetal".

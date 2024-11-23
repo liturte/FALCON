@@ -1,0 +1,1 @@
+{"fn_name": "center_of", "inputs": [[""], ["a"], ["ab"], ["abc"], ["abab"], ["abcde"], ["aaaaaaaaaaaaaa"], ["abaabaaab"], ["dbdbebedbddbedededeeddbbdeddbeddeebdeddeebbbb"], ["vttussvutvuvvtustsvsvtvu"]], "outputs": [[""], ["a"], ["a"], ["aba"], ["a"], ["aecea"], ["a"], ["aba"], ["deededebddeebeddeddeddbddeddeddebeeddbededeed"], ["vsvvtvvtvvsv"]]}

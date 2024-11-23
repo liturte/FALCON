@@ -1,0 +1,1 @@
+{"fn_name": "repeater", "inputs": [["yo", 3], ["WuB", 6], ["code, eat, code, sleep... ", 2]], "outputs": [["\"yo\" repeated 3 times is: \"yoyoyo\""], ["\"WuB\" repeated 6 times is: \"WuBWuBWuBWuBWuBWuB\""], ["\"code, eat, code, sleep... \" repeated 2 times is: \"code, eat, code, sleep... code, eat, code, sleep... \""]]}

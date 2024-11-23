@@ -1,0 +1,24 @@
+The sieve of Eratosthenes is a famous algorithm to find all prime numbers up to $N$. The algorithm is:
+ - Write down all integers between 2 and $N$, inclusive.
+ - Find the smallest number not already crossed out and call it $P$; $P$ is prime.
+ - Cross out $P$ and all its multiples that aren’t already crossed out.
+ - If not all numbers have been crossed out, go to step 2.
+
+Write a program that, given $N$ and $K$, find the $K$-th integer to be crossed out.
+
+-----Input-----
+The integers $N$ and $K$ $(1 \leq K < N \leq 100000)$.
+
+-----Output-----
+Output the $K$-th number to be crossed out.
+
+-----Examples-----
+Sample Input 1:
+7 3
+Sample Output 1:
+6
+
+Sample Input 2:
+15 12
+Sample Output 2:
+7

@@ -1,0 +1,1 @@
+{"fn_name": "reverse_in_parentheses", "inputs": [["h(el)lo"], ["a ((d e) c b)"], ["one (two (three) four)"], ["one (ruof ((rht)ee) owt)"], [""], ["many (parens) on (top)"], ["( ( ) (()) )"]], "outputs": [["h(le)lo"], ["a (b c (d e))"], ["one (ruof (three) owt)"], ["one (two ((thr)ee) four)"], [""], ["many (snerap) on (pot)"], ["( (()) ( ) )"]]}

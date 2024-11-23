@@ -1,0 +1,2 @@
+def adjust(coin, price):
+	

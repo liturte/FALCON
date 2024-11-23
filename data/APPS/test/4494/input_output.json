@@ -1,0 +1,1 @@
+{"inputs": ["ABC\n", "ARC\n", "ARC\n", "ARC\n"], "outputs": ["ARC\n", "ABC\n", "ABC\n", "ABC\n"]}

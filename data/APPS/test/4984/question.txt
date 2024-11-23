@@ -1,0 +1,21 @@
+You are mapping a faraway planet using a satellite. The planet’s surface can be modeled as a grid. The satellite has captured an image of the surface. Each grid square is either land (denoted as ‘L’), water (denoted as ‘W’), or covered by clouds (denoted as ‘C’). Clouds mean that the surface could either be land or water; you cannot tell.
+
+An island is a region of land where every grid cell in the island is connected to every other by some path, and every leg of the path only goes up, down, left or right.
+
+Given an image, determine the minimum number of islands that is consistent with the given image.
+
+-----Input-----
+Each input will consist of a single test case. Note that your program may be run multiple times on different inputs. The first line of input contains two integers, $r$ and $c$ ($1 \le r, c \le 50$), which are the number of rows and the number of columns of the image. The next $r$ lines will each contain exactly $c$ characters, consisting only of ‘L’ (representing Land), ‘W’ (representing Water), and ‘C’ (representing Clouds).
+
+-----Output-----
+Output a single integer, which is the minimum number of islands possible.
+
+-----Examples-----
+Sample Input:
+4 5
+CCCCC
+CCCCC
+CCCCC
+CCCCC
+Sample Output:
+0

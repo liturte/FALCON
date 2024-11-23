@@ -1,0 +1,1 @@
+{"fn_name": "whose_turn", "inputs": [["b1;g1;b8;g8"], ["c3;g1;b8;g8"], ["g1;g2;g3;g4"], ["f8;h1;f3;c2"]], "outputs": [[true], [false], [true], [false]]}

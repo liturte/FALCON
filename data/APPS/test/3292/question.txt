@@ -1,0 +1,32 @@
+Teacher Herkabe has decided to rank his students again. This time, he wants his list to also be aesthetically pleasant, so he has decided that similar names (those beginning with the same letter or sequence of letters) must be close to one another on the list. Therefore, he has devised the following rule:
+
+For every two names on the list that begin with the same letter sequence, all names between them on the list must also begin with that letter sequence.
+
+For example, consider the names MARTHA and MARY (characters from a beautiful story). They both begin with the sequence MAR, so names beginning with the same sequence (like MARCO and MARVIN) can appear in between (but not MAY, for example).
+
+Notice that the lexicographically sorted ordering always satisfies this rule, but it is by no means the only valid ordering. Your task is determining how many different orderings satisfy the rule, i.e. how many options teacher Herkabe has for his ranking list.
+
+-----Input-----
+The first line of input contains the positive integer $N$ ($3 \leq N \leq 3\ 000$), the number of names. Each of the following $N$ lines contains a single name: a sequence of between $1$ and $3\ 000$ (inclusive) uppercase English letters. The names are distinct and given in no particular order.
+
+-----Output-----
+The first and only line of output must contain the required number of possible ranking lists, modulo $1\ 000\ 000\ 007$.
+
+-----Examples-----
+Sample Input 1:
+3
+IVO
+JASNA
+JOSIPA
+Sample Output 1:
+4
+
+Sample Input 2:
+5
+MARICA
+MARTA
+MATO
+MARA
+MARTINA
+Sample Output 2:
+24

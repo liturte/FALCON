@@ -1,0 +1,20 @@
+Justin likes to play a game called “Weight of Words.” In this game, a player must find words of a given length and a given weight. The weight of a word is the sum of the weights of its letters. Letters are English lowercase characters from ‘a’ to ‘z’ and have weights from $1 \ldots 26$. 
+
+You are asked to write an AI that can play this game!
+
+-----Input-----
+The input consists of a single line with two integers $l$ ($0 < l \le 40$) and $w$ ($0 < w \le 1000$).
+
+-----Output-----
+Output a string of length $l$ with weight $w$ consisting of lowercase English letters if it exists, otherwise output impossible. If more than one string exists, you may output any of them.
+
+-----Examples-----
+Sample Input 1:
+11 131
+Sample Output 1:
+programming
+
+Sample Input 2:
+7 96
+Sample Output 2:
+contest

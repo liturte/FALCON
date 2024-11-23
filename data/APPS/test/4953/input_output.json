@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "7\nJabba-the-Hutt Huttese\nBib-Fortuna Huttese Basic\nBoba-Fett Basic Huttese\nChewbacca Shyriiwook Basic\nLuke Basic Jawaese Binary\nGrakchawwaa Shyriiwook Basic Jawaese\nR2D2 Binary Basic\n",
+        "6\nFran French Italian\nEnid English German\nGeorge German Italian\nIan Italian French Spanish\nSpencer Spanish Portugese\nPolly Portugese Spanish\n"
+    ],
+    "outputs": [
+        "2\n",
+        "4\n"
+    ]
+}

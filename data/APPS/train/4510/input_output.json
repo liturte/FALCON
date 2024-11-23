@@ -1,0 +1,1 @@
+{"fn_name": "to_underscore", "inputs": [["TestController"], ["ThisIsBeautifulDay"], ["Am7Days"], ["My3CodeIs4TimesBetter"], [5]], "outputs": [["test_controller"], ["this_is_beautiful_day"], ["am7_days"], ["my3_code_is4_times_better"], ["5"]]}

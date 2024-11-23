@@ -1,0 +1,1 @@
+["import re\ns = input()\nres = re.search(r'([A-Za-z0-9])\\1',s)\nif res == None:\n    print((-1))\nelse:\n    print((res.group(1)))\n", "#!/usr/bin/env python3\n\nimport re\n\ndef __starting_point():\n    string = input()\n    \n    match = re.search(r'([a-zA-Z0-9])\\1+', string)\n    \n    print((match.group(1) if match else -1))\n\n__starting_point()"]

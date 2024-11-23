@@ -1,0 +1,42 @@
+Your task is to write a function which counts the number of squares contained in an ASCII art picture.
+
+The input pictures contain rectangles---some of them squares---drawn with the characters `-`, `|`, and `+`, where `-` and `|` are used to represent horizontal and vertical sides, and `+` is used to represent corners and intersections. Each picture may contain multiple, possibly overlapping, rectangles.
+
+A simple example input looks like this:
+
+    +--+  +----+
+    |  |  |    |    +-+
+    |  |  +----+    | |
+    +--+            +-+
+    
+There are two squares and one rectangle in this picture, so your function should return 2 for this input.
+
+The following picture does not contain any squares, so the answer for this one is 0:
+
+    +------+
+    |      |
+    +------+
+
+Here is another, more complex input:
+
+    +---+
+    |   |
+    | +-+-+
+    | | | |
+    +-+-+ |
+      |   |
+      +---+
+
+The answer for this one is 3: two big squares, and a smaller square formed by the intersection of the two bigger ones. Similarly, the answer for the following picture is 5:
+
+    +-+-+
+    | | |
+    +-+-+
+    | | |
+    +-+-+
+
+You are going to implement a function `count_squares()` which takes an ASCII art picture as input and returns the number of squares the picture shows. The input to that function is an array of strings, where each string corresponds to a line of the ASCII art picture. Each string is guaranteed to contain only the characters `-`, `|`, `+`, and `` `` (space).
+
+The smallest valid square has a side length of 2 and is represented by four `+` characters arranged in a square; a single `+` character is not considered a square.
+
+Have fun!

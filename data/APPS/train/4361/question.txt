@@ -1,0 +1,25 @@
+There are some perfect squares with a particular property.
+For example the number ```n = 256``` is a perfect square, its square root is ```16```. If we change the position of the digits of n, we may obtain another perfect square``` 625``` (square root = 25).
+With these three digits ```2```,```5``` and ```6``` we can get two perfect squares: ```[256,625]```
+
+The number ```1354896``` may generate another ```4``` perfect squares, having with the number itself, a total of five perfect squares: ```[1354896, 3594816, 3481956, 5391684, 6395841]```, being the last one in the list, ```6395841```, the highest value of the set.
+
+Your task is to find the first perfect square above the given lower_limit, that can generate the given k number of perfect squares, and it doesn't contain the digit 0. Then return the maximum perfect square that can be obtained from its digits.
+
+Example with the cases seen above:
+```
+lower_limit = 200
+k = 2 (amount of perfect squares)
+result = 625
+
+lower_limit = 3550000
+k = 5 (amount of perfect squares)
+result  = 6395841
+```
+Features of the random tests:
+```
+100 <= lower_limit <= 1e6
+2 <= k <= 5
+number of tests = 45
+```
+Have a good time!

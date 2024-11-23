@@ -1,0 +1,2 @@
+def indices(n, d):
+	

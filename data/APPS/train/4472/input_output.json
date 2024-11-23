@@ -1,0 +1,1 @@
+{"fn_name": "bear_fur", "inputs": [[["black", "black"]], [["white", "white"]], [["brown", "brown"]], [["black", "brown"]], [["black", "white"]], [["white", "brown"]], [["pink", "black"]]], "outputs": [["black"], ["white"], ["brown"], ["dark brown"], ["grey"], ["light brown"], ["unknown"]]}

@@ -1,0 +1,1 @@
+{"inputs": ["12\ninsert 0 5\ninsert 1 10\ninsert 0 6\nprint\nremove 6\nappend 9\nappend 1\nsort\nprint\npop\nreverse\nprint"], "outputs": ["[6, 5, 10]\n[1, 5, 9, 10]\n[9, 5, 1]"]}

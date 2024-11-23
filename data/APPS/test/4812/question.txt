@@ -1,0 +1,54 @@
+Rhyming slang involves replacing a common word with a phrase of two or three words, the last of which rhymes with the original word. For example,
+ - replacing the word “stairs” with the rhyming phrase “apples and pears”,
+ - or replacing “rotten” with the phrase “bales of cotton”.
+
+English has such a wide variety of spellings and pronunciations that for any non-native speaker telling what rhymes isn’t always easy. Perhaps you can help?
+
+Typically, two words rhyme (or can be forced to rhyme) if both of their endings can be found on the same list of word endings that sound the same.
+
+Given a common word, a number of lists, each containing word endings that sound the same, and a number of phrases, determine if those phrases could be rhyming slang.
+
+-----Input-----
+ - One line containing the single common word $S$ ($1 \le |S| \le 20$).
+ - One line containing an integer $E$ ($1 \le E \le 10$), the number of lists of word endings that sound the same.
+ - $E$ lines, each no more than $100$ characters long. Each a list of space-separated word endings.
+ - One line containing an integer $P$ ($1 \le P \le 10$), the number of phrases to test.
+ - $P$ lines, each no more than $100$ characters long, containing a phrase $p_ i$ of two or three words that might rhyme with the common word.
+
+All words and letters will be in lower case. The common word’s ending will appear in at least one ending list.
+
+-----Output-----
+ - $P$ lines, each consisting of either:
+ - ’YES’: The phrase $p_ i$ rhymes with the common word.
+ - ’NO’: The phrase $p_ i$ does not rhyme with the common word.
+
+-----Examples-----
+Sample Input 1:
+stairs
+2
+erres airs ears ares aires
+eet eat
+2
+apples and pears
+plates of meat
+Sample Output 1:
+YES
+NO
+
+Sample Input 2:
+drought
+2
+aught ought aut acht
+ought oubt outte out oute
+5
+tasty sprout
+difficult route
+worried and fraught
+forever in doubt
+apples and pears
+Sample Output 2:
+YES
+YES
+YES
+YES
+NO

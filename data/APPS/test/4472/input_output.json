@@ -1,0 +1,14 @@
+{
+  "inputs": [
+    "7\nabacaba\nbacabaa\n",
+    "5\nzcabd\ndbacz\n",
+    "1\na\nb\n",
+    "5\nahmad\nyogaa\n"
+  ],
+  "outputs": [
+    "4\n",
+    "0\n",
+    "1\n",
+    "3\n"
+  ]
+}

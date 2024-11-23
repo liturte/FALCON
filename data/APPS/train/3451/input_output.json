@@ -1,0 +1,1 @@
+{"fn_name": "triangle", "inputs": [["GB"], ["RRR"], ["RGBG"], ["RBRGBRB"], ["RBRGBRBGGRRRBGBBBGG"], ["B"]], "outputs": [["R"], ["R"], ["B"], ["G"], ["G"], ["B"]]}

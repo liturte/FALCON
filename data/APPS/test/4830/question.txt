@@ -1,0 +1,63 @@
+Good old Marko came across a new feature on his mobile phone – T9 input! His phone has a keyboard consisting of numbers looking like this:
+
+1
+
+2
+
+3 
+
+abc
+
+def
+
+4
+
+5
+
+6
+
+ghi
+
+jkl
+
+mno
+
+7
+
+8
+
+9
+
+pqrs
+
+tuv
+
+wxyz
+
+In order to input a word using this keyboard, one needs to press a key multiple times for the required letter. More specifically, if the required letter is the first letter mapped to the key, one key press is needed, if it’s the second, two key presses are needed and so on. For instance, if we want to input the word “giht”, we will press the following keys: g-4 i-444 h-44 t-8. The new possibility Marko discovered enables you to input text more easily because you don’t need several presses per letter anymore, just one. The software will try to figure out what word from the dictionary you are trying to input.
+
+Marko is quite sceptical of new technologies (at least new for him) and he is afraid that errors will be frequent. That is the reason why he decided to test his hypothesis that the errors are frequent. Marko knows by heart the whole dictionary in the mobile phone. The dictionary consists of $N$ words consisting of lowercase letters from the English alphabet, the total length of the word not exceeding $1000000$ characters. He will give an array of key presses $S$, of total length at most $1000$, and wants to know how many words from the dictionary can be mapped to the given array of key presses if the T9 input feature is used.
+
+-----Input-----
+The first line of input contains the integer $N$, the number of words in the dictionary. ($1 \leq N \leq 1000$). Each of the following $N$ lines contains a single word. The last line of input contains the string $S$ ($1 \leq |S| \leq 1000$) consisting of digits $2$–$9$.
+
+-----Output-----
+The first and only line of output must contain the number of words from the dictionary possible to construct from the letters on the keys determined by the string $S$.
+
+-----Examples-----
+Sample Input 1:
+3
+tomo
+mono
+dak
+6666
+Sample Output 1:
+1
+
+Sample Input 2:
+2
+ja
+la
+52
+Sample Output 2:
+2

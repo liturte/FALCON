@@ -1,0 +1,1 @@
+{"inputs": ["4 5\n", "100 2\n", "10 10\n", "21 20\n", "90 89\n", "99 99\n", "74 74\n", "63 64\n", "8 9\n", "100 100\n", "1 100\n", "100 1\n", "1 1\n"], "outputs": ["unsafe\n", "safe\n", "unsafe\n", "safe\n", "safe\n", "unsafe\n", "unsafe\n", "unsafe\n", "unsafe\n", "unsafe\n", "unsafe\n", "safe\n", "unsafe\n"]}

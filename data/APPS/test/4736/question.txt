@@ -1,0 +1,34 @@
+A bored technician whose job requires inspecting each of $10$ equipment stations on a regular basis has tried to inject a little variety into his days by creating a deck of cards, each card bearing a number in the range $1..10$. From this deck he randomly deals out $K$ cards at the start of the day, and uses the numbers on these to determine which stations and in what order he will visit them on that day. (He has decided that it is OK to visit the same station more than once in the same day.)
+
+As time goes by, he adds cards for the number of stations where he finds problems, so that he will visit them more often, so the number of cards bearing each digit may vary considerably.
+
+One day he deals out his cards, and notices that they have come out in strictly ascending order. He starts to wonder just how likely such an ordering would be.
+
+Find the number of ways to deal the cards that form a strictly ascending sequence. (“Strictly ascending” in this problem means that, for example $[2, 4, 5]$ would be accepted but $[3, 1, 2]$ and $[2, 2, 4]$ would not.)
+
+-----Input-----
+The first line of input contains $10$ non-negative integers $n_ i$, each denoting the number of cards bearing the number $i$. The sum of these $10$ numbers is in the range $1\ldots 1000$.
+
+This is followed by a line containing an integer $K$, $1 \leq K \leq 10$, denoting the number of cards to be dealt.
+
+-----Output-----
+Print a single line containing an integer denoting the number of ways to deal $K$ cards from that deck that would form a strictly ascending sequence.
+
+-----Examples-----
+Sample Input 1:
+4 0 0 0 4 0 0 0 0 4
+3
+Sample Output 1:
+64
+
+Sample Input 2:
+4 0 0 0 4 0 0 0 0 4
+4
+Sample Output 2:
+0
+
+Sample Input 3:
+10 10 10 20 0 10 10 10 10 10
+4
+Sample Output 3:
+1820000

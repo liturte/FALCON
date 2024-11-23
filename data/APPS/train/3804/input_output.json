@@ -1,0 +1,1 @@
+{"fn_name": "min_length_num", "inputs": [[5, 10], [7, 11], [7, 14], [8, 16], [10, 20]], "outputs": [[[true, 10]], [[false, -1]], [[true, 13]], [[true, 15]], [[true, 17]]]}

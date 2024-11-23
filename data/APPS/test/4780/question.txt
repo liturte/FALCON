@@ -1,0 +1,30 @@
+When moving, ants form rows so that each ant except the first is behind another ant. It is not widely known what happens when two rows of ants moving in opposite directions run into each other in a passage too narrow for both rows to pass through. One theory says that, in that situation, ants will jump over each other.
+
+From the moment the rows meet, each second every ant jumps over (or gets jumped over, as they agree upon) the ant in front of himself so that the two ants swap places, but only if the other ant is moving in the opposite direction. Find the order of the ants after $T$ seconds.
+
+-----Input-----
+The first line contains two integers $N_1$ and $N_2$, the numbers of ants in the first and second rows, respectively.
+
+The next two rows contain the orders of ants in the first and second row (first to last). Each ant is uniquely determined by an uppercase letter of the English alphabet (this letter is unique between both rows).
+
+The last line of input contains the integer $T$ $(0 \leq T \leq 50)$.
+
+-----Output-----
+Output the order of the ants after $T$ seconds on a single line. Our viewpoint is such that the first row of ants comes from our left side and the other one from our right side.
+
+-----Examples-----
+Sample Input 1:
+3 3
+ABC
+DEF
+0
+Sample Output 1:
+CBADEF
+
+Sample Input 2:
+3 3
+ABC
+DEF
+2
+Sample Output 2:
+CDBEAF

@@ -1,0 +1,1 @@
+{"fn_name": "calculator", "inputs": [[6, 2, "+"], [4, 3, "-"], [5, 5, "*"], [5, 4, "/"], [6, "$", "+"], [6, 2, "&"], [4, 3, "\\"], ["a", 3, "+"], [6, 2, "="], [6, 2, "\t"], [":", ",", "+"]], "outputs": [[8], [1], [25], [1.25], ["unknown value"], ["unknown value"], ["unknown value"], ["unknown value"], ["unknown value"], ["unknown value"], ["unknown value"]]}

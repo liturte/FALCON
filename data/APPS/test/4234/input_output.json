@@ -1,0 +1,34 @@
+{
+  "inputs": [
+    "4\ngood\n",
+    "4\naabc\n",
+    "3\naaa\n",
+    "1\na\n",
+    "2\naa\n",
+    "4\nabbb\n",
+    "33\njffufkhhlvdkeagezgwsoikbyqxzqwkvc\n",
+    "100\nabbbbaabbbbababbbabababbbabaabaababaaababbbaaaabbabbbbbbbabbbbbbbbabbbaaababbaaabbabbaabaaabaaabbabb\n",
+    "5\nbdbbc\n",
+    "3\nwqq\n",
+    "1\nf\n",
+    "3\naab\n",
+    "7\nabccdda\n",
+    "5\naaaad\n"
+  ],
+  "outputs": [
+    "0\ngood\n",
+    "2\nab\n",
+    "3\n\n",
+    "1\n\n",
+    "2\n\n",
+    "2\nab\n",
+    "1\njffufkhlvdkeagezgwsoikbyqxzqwkvc\n",
+    "38\nabbaabbababababababaabababababbaabbabababaababbaabbabaabababba\n",
+    "1\nbdbc\n",
+    "1\nwq\n",
+    "1\n\n",
+    "1\nab\n",
+    "1\nabcdda\n",
+    "3\nad\n"
+  ]
+}

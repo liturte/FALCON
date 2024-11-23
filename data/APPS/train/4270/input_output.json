@@ -1,0 +1,1 @@
+{"fn_name": "odd_ball", "inputs": [[["even", 4, "even", 7, "even", 55, "even", 6, "even", 10, "odd", 3, "even"]], [["even", 4, "even", 7, "even", 55, "even", 6, "even", 9, "odd", 3, "even"]], [["even", 10, "odd", 2, "even"]]], "outputs": [[true], [false], [true]]}

@@ -1,0 +1,22 @@
+Anyone knows that the best place to learn the art of espionage is at the Manhattan Academy of Private Spies (MAPS). Scattered across Manhattan are a number of safe houses, which are used by MAPS when conducting drills. During a drill, each spy-in-training is required to travel from their current location to the nearest safe house. If there are multiple safe houses that are nearest to their current location, then it does not matter which safe house that spy chooses to travel to. Each safe house is large enough to accommodate any number of spies.
+
+Manhattan is modeled as a grid of city blocks. Initially (before any drill), each block may contain a single safe house or a single spy, but not both. The distance between two city blocks is measured using Manhattan distance, also known as taxicab distance. Formally, the Manhattan distance between two locations is the sum of the absolute value of their vertical difference and the absolute value of their horizontal difference.
+
+What is the maximum Manhattan distance that any spy has to travel to reach the nearest safe house?
+
+-----Input-----
+The first line of input contains an integer, $N$, where $2\leq N\leq 100$, denoting the width and height of the grid. Each of the next $N$ lines contain $N$ characters, with each character denoting a city block. A spy is represented by an ‘S’ character, a safe house is represented by an ‘H’ character, and the remaining city blocks in the grid are represented by ‘.’ (period) characters. There is at least one spy and at least one safe house.
+
+-----Output-----
+Output an integer indicating the maximum Manhattan distance that any spy has to travel in order to reach the nearest safe house.
+
+-----Examples-----
+Sample Input:
+5
+....H
+.....
+S....
+....H
+.....
+Sample Output:
+5

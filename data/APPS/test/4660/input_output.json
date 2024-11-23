@@ -1,0 +1,1 @@
+{"inputs": ["3\nlara@hackerrank.com\nbrian-23@hackerrank.com\nbritts_54@hackerrank.com", "2\nharsh@gmail\niota_98@hackerrank.com"], "outputs": ["['brian-23@hackerrank.com', 'britts_54@hackerrank.com', 'lara@hackerrank.com']", "['iota_98@hackerrank.com']"]}

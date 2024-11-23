@@ -1,0 +1,1 @@
+{"fn_name": "is_thue_morse", "inputs": [[[0, 1, 1, 0, 1]], [[0]], [[1]], [[0, 1, 0, 0]]], "outputs": [[true], [true], [false], [false]]}

@@ -1,0 +1,1 @@
+{"inputs": ["4\n4.0O0\n-1.00\n+4.54\nSomeRandomStuff"], "outputs": ["False\nTrue\nTrue\nFalse"]}

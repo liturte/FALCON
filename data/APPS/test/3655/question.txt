@@ -1,0 +1,34 @@
+Yraglac has just finished building a robot! It’s fancy: two wheels, with an auto-balancing system, several cameras, wireless connectivity, and a sattelite dish. There’s just one little problem…
+
+He powered it up, sent it off for a test, and now it’s not responding to any inputs. All he has is a photograph of the floor below it, acquired during an attempted rendition of Robot Ballet. Yraglac wasn’t really paying attention to where it was, though, as he was too excited.
+
+Thankfully, one of Yraglac’s classmates has produced a huge stitched-together image of all of the floors in the University. Now all Yraglac has to do is figure out where this image of the floor is, and then he can just go and pick up the robot directly.
+
+Unfortunately, Yraglac doesn’t have the patience to look through the entire huge image for anything that matches, so he wants to write a program that will find an initial set of locations that seem like candidates.
+
+Thankfully, due to …cough …the fact that this is a competitive programming problem …cough …the images are of exactly the same scale, so Yraglac should be able to figure out where the robot is simply by checking how closely the robot’s image matches the floor image at each possible place to overlay the robot’s image on the floor image.
+
+Yraglac will consider a location as a candidate if it is tied for having the most number of pixels the same between the two images.
+
+-----Input-----
+The input consists of two images, the first of which is the last image seen from the robot, and the second is the entire floor of the university.
+
+Each image begins with a line consisting of two integers, $W$ and $H$, the width and height, respectively. You may assume that $W, H \leq 1000$, and that the floor image is at least as large as the robot’s image.
+
+Following on the next $H$ lines are $W$ space-separated integers, either 0 or 1, denoting the colour at the given pixel.
+
+-----Output-----
+The output should consist of at least one line, one each for a candidate location, each containing a coordinate $(x,y)$ as two numbers separated by a single space, with $x$ first and $y$ second. The coordinates should be sorted by x-coordinate, and then by y-coordinate.
+
+-----Examples-----
+Sample Input:
+2 2
+1 0
+0 1
+3 3
+1 0 0
+0 1 0
+0 0 1
+Sample Output:
+0 0
+1 1

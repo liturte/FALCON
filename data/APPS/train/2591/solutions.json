@@ -1,0 +1,1 @@
+["import numpy\nar = list(map(int,input().split()))\nnp_ar = numpy.array(ar)\nprint((numpy.reshape(np_ar,(3,3))))\n", "import numpy\narr = numpy.array([int(x) for x in input().strip().split()])\narr.shape = (3, 3)\nprint(arr)"]

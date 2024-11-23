@@ -1,0 +1,65 @@
+Recall that MEX of an array is a minimum non-negative integer that does not belong to the array. Examples:  for the array $[0, 0, 1, 0, 2]$ MEX equals to $3$ because numbers $0, 1$ and $2$ are presented in the array and $3$ is the minimum non-negative integer not presented in the array;  for the array $[1, 2, 3, 4]$ MEX equals to $0$ because $0$ is the minimum non-negative integer not presented in the array;  for the array $[0, 1, 4, 3]$ MEX equals to $2$ because $2$ is the minimum non-negative integer not presented in the array. 
+
+You are given an empty array $a=[]$ (in other words, a zero-length array). You are also given a positive integer $x$.
+
+You are also given $q$ queries. The $j$-th query consists of one integer $y_j$ and means that you have to append one element $y_j$ to the array. The array length increases by $1$ after a query.
+
+In one move, you can choose any index $i$ and set $a_i := a_i + x$ or $a_i := a_i - x$ (i.e. increase or decrease any element of the array by $x$). The only restriction is that $a_i$ cannot become negative. Since initially the array is empty, you can perform moves only after the first query.
+
+You have to maximize the MEX (minimum excluded) of the array if you can perform any number of such operations (you can even perform the operation multiple times with one element).
+
+You have to find the answer after each of $q$ queries (i.e. the $j$-th answer corresponds to the array of length $j$).
+
+Operations are discarded before each query. I.e. the array $a$ after the $j$-th query equals to $[y_1, y_2, \dots, y_j]$.
+
+
+-----Input-----
+
+The first line of the input contains two integers $q, x$ ($1 \le q, x \le 4 \cdot 10^5$) — the number of queries and the value of $x$.
+
+The next $q$ lines describe queries. The $j$-th query consists of one integer $y_j$ ($0 \le y_j \le 10^9$) and means that you have to append one element $y_j$ to the array.
+
+
+-----Output-----
+
+Print the answer to the initial problem after each query — for the query $j$ print the maximum value of MEX after first $j$ queries. Note that queries are dependent (the array changes after each query) but operations are independent between queries.
+
+
+-----Examples-----
+Input
+7 3
+0
+1
+2
+2
+0
+0
+10
+
+Output
+1
+2
+3
+3
+4
+4
+7
+
+Input
+4 3
+1
+2
+1
+2
+
+Output
+0
+0
+0
+0
+
+
+
+-----Note-----
+
+In the first example:  After the first query, the array is $a=[0]$: you don't need to perform any operations, maximum possible MEX is $1$.  After the second query, the array is $a=[0, 1]$: you don't need to perform any operations, maximum possible MEX is $2$.  After the third query, the array is $a=[0, 1, 2]$: you don't need to perform any operations, maximum possible MEX is $3$.  After the fourth query, the array is $a=[0, 1, 2, 2]$: you don't need to perform any operations, maximum possible MEX is $3$ (you can't make it greater with operations).  After the fifth query, the array is $a=[0, 1, 2, 2, 0]$: you can perform $a[4] := a[4] + 3 = 3$. The array changes to be $a=[0, 1, 2, 2, 3]$. Now MEX is maximum possible and equals to $4$.  After the sixth query, the array is $a=[0, 1, 2, 2, 0, 0]$: you can perform $a[4] := a[4] + 3 = 0 + 3 = 3$. The array changes to be $a=[0, 1, 2, 2, 3, 0]$. Now MEX is maximum possible and equals to $4$.  After the seventh query, the array is $a=[0, 1, 2, 2, 0, 0, 10]$. You can perform the following operations:   $a[3] := a[3] + 3 = 2 + 3 = 5$,  $a[4] := a[4] + 3 = 0 + 3 = 3$,  $a[5] := a[5] + 3 = 0 + 3 = 3$,  $a[5] := a[5] + 3 = 3 + 3 = 6$,  $a[6] := a[6] - 3 = 10 - 3 = 7$,  $a[6] := a[6] - 3 = 7 - 3 = 4$.  The resulting array will be $a=[0, 1, 2, 5, 3, 6, 4]$. Now MEX is maximum possible and equals to $7$.

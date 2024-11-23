@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "2 2 3 3\n1 3 4\n",
+        "2 3 4 5\n4 9 5\n"
+    ],
+    "outputs": [
+        "both\none\nnone\n",
+        "one\nnone\nnone\n"
+    ]
+}

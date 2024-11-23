@@ -1,0 +1,24 @@
+Evi has N integers a_1,a_2,..,a_N. His objective is to have N equal integers by transforming some of them.
+He may transform each integer at most once. Transforming an integer x into another integer y costs him (x-y)^2 dollars. Even if a_i=a_j (i≠j), he has to pay the cost separately for transforming each of them (See Sample 2).
+Find the minimum total cost to achieve his objective.
+
+-----Constraints-----
+ - 1≦N≦100
+ - -100≦a_i≦100
+
+-----Input-----
+The input is given from Standard Input in the following format:
+N
+a_1 a_2 ... a_N
+
+-----Output-----
+Print the minimum total cost to achieve Evi's objective.
+
+-----Sample Input-----
+2
+4 8
+
+-----Sample Output-----
+8
+
+Transforming the both into 6s will cost (4-6)^2+(8-6)^2=8 dollars, which is the minimum.

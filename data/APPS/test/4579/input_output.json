@@ -1,0 +1,1 @@
+{"inputs": ["3\napple\norange\napple\n", "5\ngrape\ngrape\ngrape\ngrape\ngrape\n", "4\naaaa\na\naaa\naa\n"], "outputs": ["2\n", "1\n", "4\n"]}

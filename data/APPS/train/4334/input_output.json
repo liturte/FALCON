@@ -1,0 +1,1 @@
+{"fn_name": "skiponacci", "inputs": [[1], [5], [7]], "outputs": [["1"], ["1 skip 2 skip 5"], ["1 skip 2 skip 5 skip 13"]]}

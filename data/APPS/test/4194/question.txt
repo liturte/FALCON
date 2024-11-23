@@ -1,0 +1,27 @@
+Takahashi has N days of summer vacation.
+His teacher gave him M summer assignments. It will take A_i days for him to do the i-th assignment.
+He cannot do multiple assignments on the same day, or hang out on a day he does an assignment.
+What is the maximum number of days Takahashi can hang out during the vacation if he finishes all the assignments during this vacation?
+If Takahashi cannot finish all the assignments during the vacation, print -1 instead.
+
+-----Constraints-----
+ - 1 \leq N \leq 10^6
+ - 1 \leq M \leq 10^4
+ - 1 \leq A_i \leq 10^4
+
+-----Input-----
+Input is given from Standard Input in the following format:
+N M
+A_1 ... A_M
+
+-----Output-----
+Print the maximum number of days Takahashi can hang out during the vacation, or -1.
+
+-----Sample Input-----
+41 2
+5 6
+
+-----Sample Output-----
+30
+
+For example, he can do the first assignment on the first 5 days, hang out on the next 30 days, and do the second assignment on the last 6 days of the vacation. In this way, he can safely spend 30 days hanging out.

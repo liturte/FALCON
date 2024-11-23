@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "9 3\nbeginning\n1 5\n4 8\n1 9\n",
+        "6 1\nvelvet\n1 6\n",
+        "10 6\nabcdefghij\n1 6\n2 7\n3 8\n4 9\n5 10\n1 10\n"
+    ],
+    "outputs": [
+        "5\n11\n16\n",
+        "7\n",
+        "6\n6\n6\n6\n6\n10\n"
+    ]
+}

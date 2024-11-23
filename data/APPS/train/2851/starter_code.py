@@ -1,0 +1,2 @@
+def ghostbusters(building):
+	

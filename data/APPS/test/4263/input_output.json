@@ -1,0 +1,1 @@
+{"inputs": ["ATCODER\n", "HATAGAYA\n", "SHINJUKU\n", "A\n", "Z\n", "TTTTTTTTTT\n", "BBBBBBBBBB\n", "CG\n", "ABC\n", "ABTTGTTTC\n", "GACGCTCCAV\n", "CTTAHTGACT\n", "TGMJCTTDAA\n"], "outputs": ["3\n", "5\n", "0\n", "1\n", "0\n", "10\n", "0\n", "2\n", "1\n", "7\n", "9\n", "5\n", "3\n"]}

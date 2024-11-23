@@ -1,0 +1,1 @@
+{"fn_name": "is_alt", "inputs": [["amazon"], ["apple"], ["banana"], ["orange"], ["helipad"], ["yay"]], "outputs": [[true], [false], [true], [false], [true], [true]]}

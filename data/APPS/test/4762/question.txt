@@ -1,0 +1,26 @@
+Christmas comes sooner every year. In fact, in one oft-forgotten corner of the world, gift-giving has already started in the form of a Secret Santa syndicate.
+
+Everybody in the small town of Haircombe is going to put their name into a hat. This hat will be given a hearty shuffle, and then afterwards everybody will take turns once more in taking a name back from the hat.
+
+The name each person receives is the name of the fellow citizen to whom they will send a gift.
+
+Of course, one concern with this strategy is that some unfortunate citizens could wind up giving gifts to themselves. What are the chances that this will happen to any of the citizens of Haircombe?
+
+-----Input-----
+ - One line containing the number $N$ ($1 \le N \le 10^{12}$), the number of citizens who will take part in Secret Santa.
+
+-----Output-----
+ - One line containing one real number; the probability that one or more people wind up giving gifts to themselves.
+
+All output must be accurate to an absolute or relative error of at most $10^{-6}$.
+
+-----Examples-----
+Sample Input 1:
+2
+Sample Output 1:
+0.50000000
+
+Sample Input 2:
+3
+Sample Output 2:
+0.66666667

@@ -1,0 +1,1 @@
+["import numpy\nn_ar = list(map(int,input().split()))\nn = tuple(n_ar)\nprint((numpy.zeros(n,dtype=numpy.int)))\nprint((numpy.ones(n,dtype=numpy.int)))\n", "import numpy\ndims = [int(x) for x in input().strip().split()]\n\nprint(numpy.zeros(tuple(dims), dtype = numpy.int))\nprint(numpy.ones(tuple(dims), dtype = numpy.int))"]

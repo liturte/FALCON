@@ -1,0 +1,1 @@
+["# Enter your code here. Read input from STDIN. Print output to STDOUT\nxml_str=\"\"\nn=int(input())\nfor i in range(0,n):\n    tmp_str=input()\n    xml_str=xml_str+tmp_str\n    \ncnt=xml_str.count(\"='\")\nprint(cnt)\n", "def get_attr_number(node):\n    return len(node.attrib) + sum([get_attr_number(child) for child in node])\n\n\n"]

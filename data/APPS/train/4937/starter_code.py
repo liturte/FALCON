@@ -1,0 +1,2 @@
+def martingale(bank, outcomes):
+	

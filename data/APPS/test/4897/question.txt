@@ -1,0 +1,27 @@
+You are the coach of the national athletics team and need to select which sprinters should represent your country in the $4 \times 100$ m relay in the upcoming championships. 
+
+As the name of the event implies, such a sprint relay consist of $4$ legs, $100$ meters each. One would think that the best team would simply consist of the $4$ fastest $100$ m runners in the nation, but there is an important detail to take into account: flying start. In the $2$nd, $3$rd and $4$th leg, the runner is already running when the baton is handed over. This means that some runners – those that have a slow acceleration phase – can perform relatively better in a relay if they are on the $2$nd, $3$rd or $4$th leg.
+
+You have a pool of runners to choose from. Given how fast each runner in the pool is, decide which four runners should represent your national team and which leg they should run. You are given two times for each runner – the time the runner would run the $1$st leg, and the time the runner would run any of the other legs. A runner in a team can only run one leg.
+
+-----Input-----
+The first line of input contains an integer $n$, the number of runners to choose from ($4 \leq n \leq 500$). Then follow $n$ lines describing the runners. The $i$’th of these lines contains the name of the $i$’th runner, the time $a_ i$ for the runner to run the $1$st leg, and the time $b_ i$ for the runner to run any of the other legs ($8 \le b_ i \le a_ i < 20$). The names consist of between $2$ and $20$ (inclusive) uppercase letters ‘A’-‘Z’, and no two runners have the same name. The times are given in seconds with exactly two digits after the decimal point.
+
+-----Output-----
+First, output a line containing the time of the best team, accurate to an absolute or relative error of at most $10^{-9}$. Then output four lines containing the names of the runners in that team. The first of these lines should contain the runner you have picked for the $1$st leg, the second line the runner you have picked for the $2$nd leg, and so on. Any solution that results in the fastest team is acceptable.
+
+-----Examples-----
+Sample Input:
+6
+ASHMEADE 9.90 8.85
+BLAKE 9.69 8.72
+BOLT 9.58 8.43
+CARTER 9.78 8.93
+FRATER 9.88 8.92
+POWELL 9.72 8.61
+Sample Output:
+35.54
+CARTER
+BOLT
+POWELL
+BLAKE

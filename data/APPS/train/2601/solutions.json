@@ -1,0 +1,1 @@
+["# Enter your code here. Read input from STDIN. Print output to STDOUT\na=int(input())\nb=int(input())\nd=divmod(a,b)\nprint((d[0]))\nprint((d[1]))\nprint(d)\n", "output = divmod(int(input().strip()), int(input().strip()))\nprint(output[0])\nprint(output[1])\nprint(output)"]

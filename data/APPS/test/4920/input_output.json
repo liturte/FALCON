@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "abbcccddddeeeee\n",
+        "thenumberofgoodstringsis\n"
+    ],
+    "outputs": [
+        "10\n",
+        "143\n"
+    ]
+}

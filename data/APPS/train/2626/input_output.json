@@ -1,0 +1,1 @@
+{"inputs": ["16\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 24 52\n4\nintersection_update 10\n2 3 5 6 8 9 1 4 7 11\nupdate 2\n55 66\nsymmetric_difference_update 5\n22 7 35 62 58\ndifference_update 7\n11 22 35 55 58 62 66"], "outputs": ["38"]}

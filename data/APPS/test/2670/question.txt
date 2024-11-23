@@ -1,0 +1,48 @@
+A pair of strings $(α, β)$ is called a subpair of a string $x$ if $x$ = $x_1+$$α+$$x_2+$$β+$$x_3$ (where a+b means concatenation of strings a and b) for some (possibly empty) strings $x1, x2$ and $x3$. We are given two strings and we need to find one subpair from each string such that : 
+Let $(a,b) , (c,d) $be subpair of $string1$ and $string2$ respectively and $X$ $=$ $a$ + $b$ + $c$ + $d$
+- $X$ is a palindrome
+- $|a| = |d|$
+- $|b| = |c|$
+- $|X|$ is maximum
+
+-----Input Format:-----
+- First line will contain $T$, number of testcases. Then the testcases follow. 
+- Each testcase contains of a single line of input, two strings str1, str2. 
+
+-----Output Format:-----
+- For each testcase, output in a single line representing the length of palindrome |X|.
+
+-----Constraints-----
+- $1 \leq T \leq 5$
+- $2 \leq |str1| \leq 10^3$
+- $2 \leq |str2| \leq 10^3$
+
+-----Sample Input 1:-----
+1
+abgcd dchbag
+
+-----Sample Output 1:-----
+8
+
+-----Sample Input 2:-----
+4   
+
+aaa aaa
+
+zaaax yaaaw
+
+zax yaw
+
+zx yw
+
+-----Sample Output 2:-----
+6
+
+6
+
+2
+
+0  
+
+-----EXPLANATION:-----
+Sample Testcase 1: The subpairs are ("ab","cd") and ("dc","ba"). When the subpairs are concatenated string is "abcddcba" which is a pallindrome , |"ab"| = |"ba"|, |"cd"| = |"dc"| and has the maximum length equal to 8.

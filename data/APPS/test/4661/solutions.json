@@ -1,0 +1,1 @@
+["# Enter your code here. Read input from STDIN. Print output to STDOUT\ndef sqr(a):\n    return a*a*a\nn=int(input())\nif(n==0):\n    print(\"[]\")\nelif(n==1):\n    print(\"[0]\")\nelse:\n    ar=[0]*n\n    ar[0]=0\n    ar[1]=1\n    for i in range(2,n):\n        ar[i]=ar[i-1]+ar[i-2]\n\n    ar=list(map(sqr,ar))\n    print(ar)\n"]

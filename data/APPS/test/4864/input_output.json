@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "3 3 1 2\n.x.\nx.x\n.x.\n",
+        "3 3 2 1\n.x.\nx.x\n.x.\n"
+    ],
+    "outputs": [
+        "..xx..\nxx..xx\n..xx..\n",
+        ".x.\n.x.\nx.x\nx.x\n.x.\n.x.\n"
+    ]
+}

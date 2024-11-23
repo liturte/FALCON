@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "THE RAIN IN SPAIN\n",
+        "IN THE RAIN AND THE SNOW\n",
+        "THE RAIN IN SPAIN IN THE PLAIN\n"
+    ],
+    "outputs": [
+        "yes\n",
+        "no\n",
+        "no\n"
+    ]
+}

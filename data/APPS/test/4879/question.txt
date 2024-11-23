@@ -1,0 +1,22 @@
+A startup company tries to develop software for self-driving cars. One of the surprisingly difficult problems turns out to be right-of-way at an intersection. The local traffic regulations prescribe that your vehicle must yield the right-of-way if one of the following two conditions is satisfied:
+ - You want to pass straight through the intersection; another vehicle is approaching from your right.
+ - You want to turn left at the intersection; another vehicle is approaching from the opposite direction or from your right.
+
+Note that it is not important in which direction the other vehicle wants to leave the intersection.
+
+Write a program that decides if your car should yield the right-of-way to the other vehicle.
+
+-----Input-----
+Three strings $a,b,c \in \{ \text {North},\text {South},\text {East},\text {West}\} $, corresponding to the direction from which you arrive, the direction in which you want to leave, and the direction from which the other vehicle approaches. You can assume $a \neq b$ and $a \neq c$.
+
+-----Output-----
+A single line with the string “Yes” or “No” as explained above.
+
+-----Explanation of Sample $1$-----$1$
+In this example, you arrive from South and want to turn left to leave towards West. The other vehicle comes from East, which corresponds to your right. Consequently, you have to yield the right-of-way to the other vehicle because of condition $2$.
+
+-----Examples-----
+Sample Input:
+South West East
+Sample Output:
+Yes

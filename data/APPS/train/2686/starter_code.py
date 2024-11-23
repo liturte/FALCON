@@ -1,0 +1,2 @@
+def changer(string):
+	

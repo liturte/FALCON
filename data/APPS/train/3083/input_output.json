@@ -1,0 +1,1 @@
+{"fn_name": "polydivisible", "inputs": [[1232], [123220], [0], [1], [141], [1234], [21234], [81352], [987654], [1020005], [9876545], [381654729], [1073741823]], "outputs": [[true], [false], [true], [true], [true], [false], [false], [false], [true], [true], [true], [true], [false]]}

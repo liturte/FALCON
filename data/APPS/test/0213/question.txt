@@ -1,0 +1,48 @@
+In a building where Polycarp lives there are equal number of flats on each floor. Unfortunately, Polycarp don't remember how many flats are on each floor, but he remembers that the flats are numbered from 1 from lower to upper floors. That is, the first several flats are on the first floor, the next several flats are on the second and so on. Polycarp don't remember the total number of flats in the building, so you can consider the building to be infinitely high (i.e. there are infinitely many floors). Note that the floors are numbered from 1.
+
+Polycarp remembers on which floors several flats are located. It is guaranteed that this information is not self-contradictory. It means that there exists a building with equal number of flats on each floor so that the flats from Polycarp's memory have the floors Polycarp remembers.
+
+Given this information, is it possible to restore the exact floor for flat n? 
+
+
+-----Input-----
+
+The first line contains two integers n and m (1 ≤ n ≤ 100, 0 ≤ m ≤ 100), where n is the number of the flat you need to restore floor for, and m is the number of flats in Polycarp's memory.
+
+m lines follow, describing the Polycarp's memory: each of these lines contains a pair of integers k_{i}, f_{i} (1 ≤ k_{i} ≤ 100, 1 ≤ f_{i} ≤ 100), which means that the flat k_{i} is on the f_{i}-th floor. All values k_{i} are distinct.
+
+It is guaranteed that the given information is not self-contradictory.
+
+
+-----Output-----
+
+Print the number of the floor in which the n-th flat is located, if it is possible to determine it in a unique way. Print -1 if it is not possible to uniquely restore this floor.
+
+
+-----Examples-----
+Input
+10 3
+6 2
+2 1
+7 3
+
+Output
+4
+
+Input
+8 4
+3 1
+6 2
+5 2
+2 1
+
+Output
+-1
+
+
+
+-----Note-----
+
+In the first example the 6-th flat is on the 2-nd floor, while the 7-th flat is on the 3-rd, so, the 6-th flat is the last on its floor and there are 3 flats on each floor. Thus, the 10-th flat is on the 4-th floor.
+
+In the second example there can be 3 or 4 flats on each floor, so we can't restore the floor for the 8-th flat.

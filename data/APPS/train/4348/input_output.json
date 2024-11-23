@@ -1,0 +1,1 @@
+{"fn_name": "calc_fuel", "inputs": [[37], [21], [123]], "outputs": [[{"lava": 0, "blaze rod": 3, "coal": 0, "wood": 3, "stick": 2}], [{"lava": 0, "blaze rod": 1, "coal": 1, "wood": 2, "stick": 1}], [{"lava": 1, "blaze rod": 4, "coal": 0, "wood": 4, "stick": 13}]]}

@@ -1,0 +1,22 @@
+You are given a string S of length N consisting of A, B and C, and an integer K which is between 1 and N (inclusive).
+Print the string S after lowercasing the K-th character in it.
+
+-----Constraints-----
+ - 1 ≤ N ≤ 50
+ - 1 ≤ K ≤ N
+ - S is a string of length N consisting of A, B and C.
+
+-----Input-----
+Input is given from Standard Input in the following format:
+N K
+S
+
+-----Output-----
+Print the string S after lowercasing the K-th character in it.
+
+-----Sample Input-----
+3 1
+ABC
+
+-----Sample Output-----
+aBC

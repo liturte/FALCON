@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "Hamburg Bremen\n3\nHamburg Bremen 15 68 10 5\nHamburg Bremen 46 55 50 60\nBremen Frankfurt 14 226 10 120\n",
+        "Amsterdam Rotterdam\n1\nAmsterdam Utrecht 10 22 5 10\n",
+        "BremenVegesack Utrecht\n9\nBremenVegesack BremenHbf 15 10 0 1\nBremenVegesack BremenHbf 45 10 0 1\nBremenVegesack Leer 23 140 10 15\nBremenHbf Osnabruck 44 51 60 70\nOsnabruck Amersfoort 55 147 38 40\nAmersfoort Utrecht 24 15 30 15\nAmersfoort Utrecht 54 15 10 35\nLeer Groningen 45 140 5 10\nGroningen Amersfoort 46 96 10 20\n"
+    ],
+    "outputs": [
+        "68.3\n",
+        "IMPOSSIBLE\n",
+        "305.0532857\n"
+    ]
+}

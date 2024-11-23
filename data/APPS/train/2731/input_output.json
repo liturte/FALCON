@@ -1,0 +1,1 @@
+{"fn_name": "day_and_time", "inputs": [[0], [-3], [45], [759], [1236], [1447], [7832], [18876], [259180], [-349000]], "outputs": [["Sunday 00:00"], ["Saturday 23:57"], ["Sunday 00:45"], ["Sunday 12:39"], ["Sunday 20:36"], ["Monday 00:07"], ["Friday 10:32"], ["Saturday 02:36"], ["Thursday 23:40"], ["Tuesday 15:20"]]}

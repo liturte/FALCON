@@ -1,0 +1,27 @@
+You are developing a new feature for the website which sells airline tickets: being able to sort tickets by price! You have already extracted the tickets' prices, so there's just the last step to be done...
+
+You are given an array of integers. Sort it in non-descending order.
+
+
+-----Input-----
+
+The input consists of a single line of space-separated integers. The first number is n (1 ≤ n ≤ 10) — the size of the array. The following n numbers are the elements of the array (1 ≤ a_{i} ≤ 100).
+
+
+-----Output-----
+
+Output space-separated elements of the sorted array.
+
+
+-----Example-----
+Input
+3 3 1 2
+
+Output
+1 2 3 
+
+
+
+-----Note-----
+
+Remember, this is a very important feature, and you have to make sure the customers appreciate it!

@@ -1,0 +1,36 @@
+{
+  "inputs": [
+    "10\ncodeforces\ndodivthree\n",
+    "7\nabaca?b\nzabbbcc\n",
+    "9\nbambarbia\nhellocode\n",
+    "10\ncode??????\n??????test\n",
+    "1\nz\nz\n",
+    "1\nz\na\n",
+    "2\naa\naa\n",
+    "2\nab\naa\n",
+    "2\nba\naa\n",
+    "2\naf\nfa\n",
+    "2\naf\nfz\n",
+    "1\n?\nz\n",
+    "1\na\n?\n",
+    "1\n?\n?\n",
+    "20\nleduyanhyeunguyenhoa\nminhtriloveviethuong\n"
+  ],
+  "outputs": [
+    "5\n7 8\n4 9\n2 2\n9 10\n3 1\n",
+    "5\n6 5\n2 3\n4 6\n7 4\n1 2\n",
+    "0\n",
+    "10\n6 2\n1 6\n7 3\n3 5\n4 8\n9 7\n5 1\n2 4\n10 9\n8 10\n",
+    "1\n1 1\n",
+    "0\n",
+    "2\n1 1\n2 2\n",
+    "1\n1 1\n",
+    "1\n2 1\n",
+    "2\n1 2\n2 1\n",
+    "1\n2 1\n",
+    "1\n1 1\n",
+    "1\n1 1\n",
+    "1\n1 1\n",
+    "10\n19 9\n10 14\n4 17\n13 20\n2 11\n1 8\n12 19\n8 4\n18 16\n7 3\n"
+  ]
+}

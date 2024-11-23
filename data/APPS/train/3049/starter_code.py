@@ -1,0 +1,2 @@
+def textin(st):
+	

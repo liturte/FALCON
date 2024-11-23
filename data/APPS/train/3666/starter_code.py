@@ -1,0 +1,2 @@
+def whitespace(string):
+	

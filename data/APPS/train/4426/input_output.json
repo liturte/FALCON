@@ -1,0 +1,1 @@
+{"fn_name": "isMultiple", "inputs": [[5, 2, 3], [5, 3, 4], [5, 4, 3], [666, 665, 2], [3691401, 1892272, 5]], "outputs": [[false], [false], [true], [false], [false]]}

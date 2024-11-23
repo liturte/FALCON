@@ -1,0 +1,1 @@
+{"fn_name": "solve", "inputs": [[["Begin on 3rd Blvd", "Right on First Road", "Left on 9th Dr"]], [["Begin on Road A", "Right on Road B", "Right on Road C", "Left on Road D"]], [["Begin on Road A"]]], "outputs": [[["Begin on 9th Dr", "Right on First Road", "Left on 3rd Blvd"]], [["Begin on Road D", "Right on Road C", "Left on Road B", "Left on Road A"]], [["Begin on Road A"]]]}

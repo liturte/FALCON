@@ -1,0 +1,1 @@
+{"fn_name": "palindrome", "inputs": [[1221], [110011], [1456009006541], [123322], [1], [152], [9999], ["ACCDDCCA"], ["@14AbC"], ["1221"], [-450]], "outputs": [[true], [true], [true], [false], [true], [false], [true], ["Not valid"], ["Not valid"], ["Not valid"], ["Not valid"]]}

@@ -1,0 +1,2 @@
+def trouble(x, t):
+	

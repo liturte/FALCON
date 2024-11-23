@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "5\nthis\nsentence\nhas\n$\nletters\n",
+        "7\n$\nis\nthe\nnumber\nof\nletters\nhere\n",
+        "5\nthe\nletters\nare\n$\npotato\n"
+    ],
+    "outputs": [
+        "this sentence has thirtyone letters \n",
+        "thirty is the number of letters here \n",
+        "the letters are twentynine potato \n"
+    ]
+}

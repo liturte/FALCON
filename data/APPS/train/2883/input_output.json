@@ -1,0 +1,1 @@
+{"fn_name": "to_pretty", "inputs": [[0], [1], [30], [90], [180], [4000], [40000], [140000], [400000], [1000000], [10000000]], "outputs": [["just now"], ["a second ago"], ["30 seconds ago"], ["a minute ago"], ["3 minutes ago"], ["an hour ago"], ["11 hours ago"], ["a day ago"], ["4 days ago"], ["a week ago"], ["16 weeks ago"]]}

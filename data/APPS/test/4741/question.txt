@@ -1,0 +1,25 @@
+Yraglac has been a bit bored with Calgary lately and decided to move to the United States. After arriving in the strange land, he discovered that the people there use a temperature scale known as Fahrenheit. Celsius and Fahrenheit are related by the following equation:\[ \left[ ^\circ F \right] = \frac95 \left[ ^\circ C \right] + 32 \]
+
+It is your job to help Yraglac convert Fahrenheit to Celsius. When it comes to temperatures, however, Yraglac is a bit particular. Given a temperature expressed as a fraction in Fahrenheit, he wants to know the exact value in Celsius, expressed as a fraction in lowest terms.
+
+-----Input-----
+The input consists of a single test case representing a fractional number in Fahrenheit. It will be in the form $a/b$ or $-a/b$ where $a$ and $b$ are integers such that $0 \leq a, b \leq 1000000$ and $b \neq 0$. Note that the input is not guaranteed to be a fraction in lowest terms. You should consider temperatures below absolute zero to be valid.
+
+-----Output-----
+Output a single line with the exact result of converting the temperature to Celsius, expressed as a fraction in lowest terms (that is, $\gcd (a,b) = 1$).
+
+-----Examples-----
+Sample Input 1:
+32/1
+Sample Output 1:
+0/1
+
+Sample Input 2:
+33/1
+Sample Output 2:
+5/9
+
+Sample Input 3:
+-40/1
+Sample Output 3:
+-40/1

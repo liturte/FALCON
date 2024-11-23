@@ -1,0 +1,1 @@
+{"fn_name": "moment_of_time_in_space", "inputs": [["12:30 am"], ["12:02 pm"], ["01:00 pm"], ["11:12 am"], ["05:20 pm"], ["04:20 am"]], "outputs": [[[false, false, true]], [[false, true, false]], [[true, false, false]], [[false, false, true]], [[false, false, true]], [[false, true, false]]]}

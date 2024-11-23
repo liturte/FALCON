@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "2\n7\n11\n",
+        "5\n2\n5\n9\n10\n17\n",
+        "4\n0\n2\n104\n117\n"
+    ],
+    "outputs": [
+        "4\n",
+        "still running\n",
+        "15\n"
+    ]
+}

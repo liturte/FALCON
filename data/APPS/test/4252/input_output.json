@@ -1,0 +1,32 @@
+{
+  "inputs": [
+    "6\nxxxiii\n",
+    "5\nxxoxx\n",
+    "10\nxxxxxxxxxx\n",
+    "100\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n",
+    "99\nxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxaxxa\n",
+    "3\nxxx\n",
+    "77\naaabbbcccdddeeefffggghhhiiijjjkkklllmmmnnnooopppqqqrrrssstttuuuvvvwwwxxyyyzzz\n",
+    "100\nuxxxxxlmexxxxxxxwnxxexxxxxcxxfydxxxxxxvmdxxxxxxisxxxxxxxxidkxxxpxxxxxxxxmnuxxxxjxxxqcxxwmxxxxxxxxmrx\n",
+    "100\nxxxxxxxxxxxjtxxxxxxxxcxxxxxxcfxxxxzxxxxxxgxxxxxbxxxxbxxxxxxxxdycxxxxokixxxkizxxgcxxxxxxxxexxxxxfxxxc\n",
+    "100\nuxxxxxlmexxxxxxxwnxxexxxxxcxxfydxxxxxxvmdxxxxxxisxxxxxxxxidkxxxpxxxxxxxxmnuxxxxjxxxqcxxwmxxxxxwxxxxx\n",
+    "34\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+    "5\nfcyju\n",
+    "100\nihygyvdvyeifomhxhkhdkimquvgallbqharcyriyqkidnwykozuhvkwdldlztpabgyuflikychqpdenwzgtlzotyumjgdsrbxxxx\n"
+  ],
+  "outputs": [
+    "1\n",
+    "0\n",
+    "8\n",
+    "98\n",
+    "0\n",
+    "1\n",
+    "0\n",
+    "41\n",
+    "49\n",
+    "41\n",
+    "0\n",
+    "0\n",
+    "2\n"
+  ]
+}

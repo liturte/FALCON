@@ -1,0 +1,21 @@
+We have two integers: A and B.
+Print the largest number among A + B, A - B, and A \times B.
+
+-----Constraints-----
+ - All values in input are integers.
+ - -100 \leq A,\ B \leq 100
+
+-----Input-----
+Input is given from Standard Input in the following format:
+A B
+
+-----Output-----
+Print the largest number among A + B, A - B, and A \times B.
+
+-----Sample Input-----
+-13 3
+
+-----Sample Output-----
+-10
+
+The largest number among A + B = -10, A - B = -16, and A \times B = -39 is -10.

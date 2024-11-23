@@ -1,0 +1,2 @@
+def predict(candidates, polls):
+	

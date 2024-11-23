@@ -1,0 +1,20 @@
+Tom is an upcoming senior undergraduate student planning for his courses for the final year. The final year will have two semesters, in which there are $n$ courses offered numbered from $1$ to $n$. Course $i$ has a difficulty level $d_ i$. Two courses may be on a same topic but are at different levels: Level I or Level II. For example, there may be Calculus I and Calculus II offered. In this case, Level I and Level II are two different courses, and Level I is a prerequisite of Level II. Tom can only take Level II in the second semester if he takes Level I in the first semester. He does not necessarily need to take Level II after taking Level I.
+
+To satisfy his graduation requirement, Tom needs to take $k$ courses in total in his last year. Tom would not want to spend too much time studying for courses, as the last year before graduation can be very busy. He therefore would like the sum of difficulties of all courses he takes to be as small as possible. Given that many courses Tom struggles to figure out a good course schedule. Can you help him?
+
+-----Input-----
+The first line of the input has two integers $n$ and $k$ ($1 \leq k \leq n \leq 2 \cdot 10^5$). Each of the next $n$ lines has a string and a positive integer. The $i$th line describes the name of course $i$ and its difficulty $d_ i$. All difficulties are no larger than $10^6$. All course names contain at least one and no more than $20$ lowercase English letters. A course name can be optionally followed by a trailing digit ‘1’ or ‘2’ that denotes that it is a Level I or Level II course. It is guaranteed that if the input contains a Level I course, then it also contains its corresponding Level II course, and vice versa. It is also guaranteed that if a course name has two levels, then there does not exist another course with a same name but without levels.
+
+-----Output-----
+Output the minimum sum of difficulties of the $k$ courses that Tom can take in the last year.
+
+-----Examples-----
+Sample Input:
+5 2
+linearalgebra 10
+calculus1 10
+calculus2 20
+honorsanalysis1 50
+honorsanalysis2 100
+Sample Output:
+20

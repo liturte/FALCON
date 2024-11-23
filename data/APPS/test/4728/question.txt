@@ -1,0 +1,45 @@
+\[ C_6H_{12}O_{6} + 6O2 \rightarrow 6CO_2 + 6 H_2O \]
+
+Professor Cesium has created a new process to transform some chemical product into another type of chemical with some residues. The process is simple: he just needs to input a given number of molecules of type A, enter the output type B he desires and start the machine. It creates as many molecules of type B as possible. Unfortunately, professor Cadmium was jealous of his work and tried to sabotage the machine by inverting wires on his machine. Professor Cesium, alerted by one of his assistants, was able to repair the mistake. To detect any problem in the future, he is asking you to create an automatic way to compute the number of molecules that the machine should output. With this algorithm, he is able to detect whether his precious machine was tampered with.
+
+Molecules are written as strings composed of uppercase letters (A–Z) and numbers. Uppercase letters represent atoms. Note that Cesium only uses single letters of the alphabet as abbreviations for atoms, so H, C, A, X, Y, …can be used but He, Mg, …cannot. If a letter is not followed by a number, it means there is only one atom of it. An atom followed by a number $l$ ($1\leq l < 10^3$) represents $l$ copies of that atom. Atoms can appear multiple times in a chemical product.
+
+For example: H2OC100H means $2$ atoms of H, then $1$ of O, then $100$ of C then $1$ of H again.
+
+-----Input-----
+ - The first line contains the input molecule, a string of length at most $2500$, followed by an integer $1\leq k\leq 10^3$, denoting how many of these molecules professor Cesium has.
+ - The second line contains the desired output molecule, given as a string of length at most $2500$.
+
+-----Output-----
+ - The output consists of a single line containing the maximum number $n$ of output molecules we are able to construct using the input molecules.
+
+-----Examples-----
+Sample Input 1:
+H 2
+O
+Sample Output 1:
+0
+
+Sample Input 2:
+C2H6 10
+C3H8
+Sample Output 2:
+6
+
+Sample Input 3:
+CH3OH 1
+CH4
+Sample Output 3:
+1
+
+Sample Input 4:
+C6H6OCH2O 10
+HCN
+Sample Output 4:
+0
+
+Sample Input 5:
+C6H14 10
+C5H10
+Sample Output 5:
+12

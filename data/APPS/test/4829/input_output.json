@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "2 3\n",
+        "3 3\n",
+        "0 0\n"
+    ],
+    "outputs": [
+        "Odd 6\n",
+        "Even 6\n",
+        "Not a moose\n"
+    ]
+}

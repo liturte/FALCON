@@ -1,0 +1,65 @@
+Zonal Computing Olympiad 2013, 10 Nov 2012
+
+Spaceman Spiff has crash landed on Planet Quorg. He has to reach his ship quickly. But the evil Yukbarfs have stolen many Death Ray Blasters and have placed them along the way. You'll have to help him out!
+
+Spaceman Spiff is initially at the top left corner (1,1) of a rectangular N × M grid . He needs to reach the bottom right corner (N,M). He can only move down or right. He moves at the speed of 1 cell per second. He has to move every second—that is, he cannot stop and wait at any cell.
+
+There are K special cells that contain the Death Ray Blasters planted by the Yukbarfs. Each Blaster has a starting time t and a frequency f.  It first fires at time t seconds, followed by another round at time t+f seconds, then at time t+2f seconds ….  When a Blaster fires, it simultaneously emits four pulses, one in each of the four directions: up, down, left and right.  The pulses travel at 1 cell per second.
+
+Suppose a blaster is located at (x,y) with starting time t and frequency f.  At time t seconds, it shoots its first set of pulses. The pulse travelling upwards will be at the cell (x,y-s) at time t+s seconds.  At this time, the pulse travelling left will be at cell (x-s,y), the pulse travelling right will be at cell (x+s,y) and the pulse travelling down will be at cell (x,y+s).  It will fire next at time t+f seconds.  If a pulse crosses an edge of the grid, it disappears. Pulses do not affect each other if they meet. They continue along their original path. At any time, if Spaceman Spiff and a pulse are in the same cell, he dies. That is the only way pulses interact with Spaceman Spiff. Spaceman Spiff can also never be on a cell which has a blaster. Given these, you should find the least time (in seconds) in which Spaceman Spiff can reach his ship safely.  
+
+As an example consider a 4×4 grid that has only one Blaster, at (3,2), with starting time 1 and frequency 3.  In the grids below, S denotes Spaceman Spiff, B denotes the blaster and P denotes a pulse.  The sequence of grids describes a successful attempt to reach his ship that takes 6 seconds.
+t=0                t=1                t=2                t=3  
+S  .  .  .         .  S  .  .         .  .  S  .         .  P  .  S
+.  .  .  .         .  .  .  .         .  P  .  .         .  .  .  .
+.  B  .  .         .  P  .  .         P  B  P  .         .  B  .  P
+.  .  .  .         .  .  .  .         .  P  .  .         .  .  .  .
+
+t=4                t=5                t=6
+.  .  .  .         .  .  .  .         .  P  .  .
+.  .  .  S         .  P  .  .         .  .  .  .
+.  P  .  .         P  B  P  S         .  B  .  P
+.  .  .  .         .  P  .  .         .  .  .  S
+
+-----Input format-----
+Line 1: Three space separated integers N, M and K, describing the number of rows and columns in the grid and the number of Blasters, respectively.
+
+Lines 2 to K+1: These lines describe the K blasters.  Each line has four space separated integers. The first two integers on the line denote the row and column where the Blaster is located, the third integer is its starting time, and the fourth integer is its frequency.
+
+-----Output format-----
+The first line of output must either consist of the word YES, if Spaceman Spiff can reach his ship safely, or the word NO, if he cannot do so. If the output on the first line is YES then the second line should contain a single integer giving the least time, in seconds, that it takes him to reach his ship safely.
+
+-----Sample Input 1-----
+4 4 1
+3 2 1 3
+
+-----Sample Output 1-----
+YES
+6
+
+-----Sample Input 2-----
+5 5 2
+5 1 1 2
+4 4 1 2
+
+-----Sample Output 2-----
+YES
+8
+
+-----Test data-----
+In all subtasks, you may assume that:
+- 
+2 ≤ N,M ≤ 2500. 
+- 
+All the frequencies are guaranteed to be integers between 1 and 3000, inclusive.
+- 
+All the starting times are guaranteed to be integers between 0 and 3000, inclusive.
+- 
+All the coordinates of the Blasters are guaranteed to be valid cells in the N×M grid. No two Blasters will be on the same cell.
+
+- Subtask 1 (30 marks) : K = 1.
+- Subtask 2 (70 marks) : 1 ≤ K ≤ 2500.
+
+-----Live evaluation data-----
+- Subtask 1: Testcases 0,1.
+- Subtask 2: Testcases 2,3,4,5.

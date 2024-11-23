@@ -1,0 +1,1 @@
+{"fn_name": "is_smooth", "inputs": [[16], [36], [60], [98], [111], [4096], [729], [3125], [7], [17]], "outputs": [["power of 2"], ["3-smooth"], ["Hamming number"], ["humble number"], ["non-smooth"], ["power of 2"], ["3-smooth"], ["Hamming number"], ["humble number"], ["non-smooth"]]}

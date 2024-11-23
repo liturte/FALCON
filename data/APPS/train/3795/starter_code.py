@@ -1,0 +1,2 @@
+def combat(health, damage):
+	

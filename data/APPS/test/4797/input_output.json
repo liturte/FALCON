@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "a<bc<\n",
+        "foss<<rritun\n",
+        "a<a<a<aa<<\n"
+    ],
+    "outputs": [
+        "b\n",
+        "forritun\n",
+        "\n"
+    ]
+}

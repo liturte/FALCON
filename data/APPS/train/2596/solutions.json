@@ -1,0 +1,1 @@
+["n = input()\nar = list(map(int,input().split(' ')))\nar=set(ar)\nprint((sum(ar) / len(ar)))\n", "def average(array):\n    uniq = set(array)\n    \n    return sum(uniq)/len(uniq)\n"]

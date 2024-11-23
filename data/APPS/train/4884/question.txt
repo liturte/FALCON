@@ -1,0 +1,55 @@
+# Kata Task 
+
+Connect the dots in order to make a picture!
+
+# Notes
+
+* There are 2-26 dots labelled  `a` `b` `c` ...
+* The line char is `*`
+* Use only straight lines - vertical, horizontal, or diagonals of a square
+* The paper is rectangular - `\n` terminates every line
+* All input is valid
+
+# Examples
+
+
+InputExpected
+
+ 
+ a       b 
+ e         
+            
+ d       c 
+ 
+
+
+
+          
+ *********
+ *       *
+ *       *
+ *********
+ 
+
+
+
+InputExpected
+
+ 
+    a
+   e
+      
+ d     b
+  
+         
+    c
+ 
+
+     
+    *
+   * *
+  *   *
+ *     *
+  *   *
+   * *
+    *

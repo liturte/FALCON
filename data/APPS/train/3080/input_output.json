@@ -1,0 +1,1 @@
+{"fn_name": "who_is_paying", "inputs": [["Mexico"], ["Melania"], ["Melissa"], ["Me"], [""], ["I"]], "outputs": [[["Mexico", "Me"]], [["Melania", "Me"]], [["Melissa", "Me"]], [["Me"]], [[""]], [["I"]]]}

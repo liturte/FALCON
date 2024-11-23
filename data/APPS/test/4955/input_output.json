@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "10\nC D F D C D F F F C \n",
+        "6\nA B A F# G# C \n"
+    ],
+    "outputs": [
+        "A# C D# F\n",
+        "none\n"
+    ]
+}

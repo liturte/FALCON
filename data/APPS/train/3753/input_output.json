@@ -1,0 +1,1 @@
+{"fn_name": "camel_case", "inputs": [["test case"], ["camel case method"], ["say hello "], [" camel case word"], [""]], "outputs": [["TestCase"], ["CamelCaseMethod"], ["SayHello"], ["CamelCaseWord"], [""]]}

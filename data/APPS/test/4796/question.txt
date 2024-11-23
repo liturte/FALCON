@@ -1,0 +1,24 @@
+Mirko and Slavko bought a few liters of orange, apple and pineapple juice. They are now whipping up a non alcoholic cocktail following a recipe they found on the Internet. Sadly, they figured out too late that not only you should use recipes when making cocktails, you should also use them when planning how much juice to buy.
+
+Write a program that will determine how much of each juice they will have leftover, after they make as much cocktail as possible, respecting the recipe.
+
+-----Input-----
+The first line contains three integers, $A$, $B$, $C$, ($1 \leq A, B, C \leq 500$), the amount of orange, apple and pineapple juice they bought, in liters.
+
+The second line contains three integers, $I$, $J$, $K$, ($1 \leq I, J, K \leq 50$), the ratio of orange, apple and pineapple juice in the cocktail.
+
+-----Output-----
+The first and only line of output should contain three decimal numbers, the leftover amounts of each juice, in liters. Solutions with absolute or relative error $10^{-4}$ or smaller will be accepted.
+
+-----Examples-----
+Sample Input 1:
+10 10 10
+3 3 3
+Sample Output 1:
+0.000000 0.000000 0.000000
+
+Sample Input 2:
+9 9 9
+3 2 1
+Sample Output 2:
+0.000000 3.000000 6.000000

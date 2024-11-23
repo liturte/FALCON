@@ -1,0 +1,39 @@
+Driving through the Irish countryside, one frequently sees enigmatic small grey stones sitting by the wayside, spaced about a kilometre and a half apart. As it turns out, these stones once had a purpose: they were milestones, intended to demarcate this venerable unit of measurement.
+
+Being so old and, crucially, collectible by magpies and larger scamps alike, not all of these stones have remained.
+
+Passing by some more of these tattered markers at a constant but unknown speed, you may still be able to gain some information from their placements. For example, since you started counting you have passed exactly $M$ remaining stones; how fast could you have been driving?
+
+-----Input-----
+ - One line containing two positive integers, $M$ and $N$ ($ 2 \leq M \leq N \leq 10^3 $): the number of consecutive stones you noticed and the total number of stones along the road respectively.
+ - One line containing $M$ distinct non-negative integers $T_{1..M}$ in ascending order—the times at which you passed stones in hours ($ 0 \leq T_ i \leq 10^{15} $).
+ - One line containing $N$ distinct non-negative integers $X_{1..N}$ in ascending order—the distances along the road of each milestone ($ 0 \leq X_ i \leq 10^{15} $) in miles.
+
+-----Output-----
+Output two lines:
+ - First, the number of distinct possible speeds at which the car could have been travelling.
+ - Second, a space-separated list of all of the possible distances between the first milestone you saw and the second milestone you saw, in increasing order.
+
+-----Examples-----
+Sample Input 1:
+4 12
+1 2 4 5
+6 8 12 18 26 28 30 34 36 37 39 40
+Sample Output 1:
+2
+1 2
+
+Sample Input 2:
+5 10
+1 2 3 4 5
+0 1 2 3 4 5 6 7 8 9
+Sample Output 2:
+1
+1
+
+Sample Input 3:
+3 6
+1 2 4
+11 12 15 19 24 30
+Sample Output 3:
+0

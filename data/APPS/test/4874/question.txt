@@ -1,0 +1,42 @@
+Pubnite is an epic battle royale game featuring unique gameplay mechanics such as dancing! Every player enjoys dancing in the middle of fierce and brutal tactical firefights.
+
+This unique feature has made Pubnite the second most popular game on the internet, next to none but BeeLizard’s first person shooter game OvalWatch! Epig Games, the developer of Pubnite, is thinking of pulling one last trick to outsell OverWatch, and defeat its competitor, BeeLizard, once and for all.
+
+Announcing Epig Games’s new limited-time global event: Epig Dance Off!
+
+In Epig Dance Off, players can invent dance moves, videotape themselves dancing and submit their dance moves to Epig Games, where Epig Games will rate the moves. At the end of the event, Epig Games will announce the moves with the best ratings, and incorporate those dance moves into the game. The inventors of the moves will be crowned Supreme Winners of Epig Dance Off, and there is no greater glory than that.
+
+Epig Games ran into an issue. Too many players are eager to join the Epig Dance Off and there are too many submissions to rate. The incredibly smart designers at Epig Games came up with yet another ingenious idea – they shall use software to determine the rating of a dance!
+
+Having not enough engineering power at Epig Games, they have hired an intern – you – to write software that rates a dance!
+
+The rating system is designed as follows: Each dance is composed of a sequence of moves. The rating of the dance is the number of moves performed in the sequence.
+
+The dance is described by a grid with $N$ rows and $M$ columns. Each character in the grid is either a ‘$’, denoting the dancer is seen in this position, or a ‘_’, denoting the dancer is not seen in this position. When there is a single blank column, that denotes a frame is completed and the dancer has completed one move, where a blank column is defined to contain only ‘_’.
+
+-----Input-----
+The first line contains two integers $N$ and $M$. It is guaranteed that $1\leq N, M\leq 2000$.
+
+The next $N$ lines contains $M$ characters each. It is guaranteed that each character is either ‘_’or ‘$’. It is also guaranteed that both the first and last columns are non-blank, and no two consecutive columns are both blank.
+
+-----Output-----
+Output a single integer $T$, the rating of the dance, i.e. number of dance moves in the recording.
+
+-----Examples-----
+Sample Input:
+13 50
+____$$$_______$$$______$$$________$$$______$$$____
+____$$$_______$$$______$$$________$$$______$$$____
+_____$_________$________$__________$________$_____
+___$_$_$_____$_$_$____$_$_$______$_$_$____$_$_$___
+__$__$_$____$__$__$___$_$__$____$__$__$___$_$__$__
+_$____$$____$__$__$___$$____$___$__$__$___$$____$_
+$_____$$___$___$___$__$$_____$_$___$___$__$$_____$
+_____$_$______$_$_____$_$_________$_$_____$_$_____
+____$___$____$___$____$___$______$___$____$___$___
+___$____$___$_____$___$____$____$_____$___$____$__
+__$_____$___$_____$___$_____$___$_____$___$_____$_
+__$_____$___$_____$___$_____$___$_____$___$_____$_
+_$$_____$$_$$_____$$_$$_____$$_$$_____$$_$$_____$$
+Sample Output:
+5

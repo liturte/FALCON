@@ -1,0 +1,32 @@
+Wall Maria has been broken! Eren must evacuate as soon as possible from his house. He must find the fastest route to escape within Wall Maria before the titans rush in. Wall Maria is represented as a $N \times M$ grid in which Eren can move horizontally or vertically.
+
+There are burning houses and buildings which prevent Eren from passing through them. The burning houses and buildings are represented as ‘1’. Unburned or safe areas are represented as ‘0’. There are some areas which can be entered but only from a specific direction. These areas can be represented by either ‘U’, ‘D’, ‘L’, or ‘R’. For example, if there is an ‘R’ that means that area can only be entered from the right neighboring tile within Wall Maria’s grid. Similarly, ‘U’ tiles can only be entered from above, ‘D’ tiles can only be entered from below, and ‘L’ tiles can only be entered from the left.
+
+Eren knows the time $t$ at which the titans will rush in. It takes $1$ unit of time to traverse $1$ zone (which corresponds to $1$ tile in the grid). Once he reaches any border of Wall Maria he is safe.
+
+Eren’s starting position is represented by the letter ‘S’. If Eren escapes at or before time $t$, he is safe. Given his position within Wall Maria determine if it is possible to escape. If it is possible determine the number of zones that must be traversed to lead to the quickest escape.
+
+-----Input-----
+The input consists of a single test case. The first line contains three integers $t$ ($1 \le t \le 200$) , $N$ ($1 \le N \le 100$) and $M$ ($1 \le M \le 100$). The rest of N lines will be Wall Maria’s grid containing characters ‘1‘, ‘0‘, ‘S‘, ‘U‘, ‘D‘, ‘L‘, or ‘R‘. There is exactly one ‘S‘ in the input.
+
+-----Output-----
+If it is possible to escape Wall Maria, output the minimum number of zones that must be traversed to escape. If it is not possible to escape, print “NOT POSSIBLE”!
+
+-----Examples-----
+Sample Input 1:
+2 4 4
+1111
+1S01
+1011
+0U11
+Sample Output 1:
+2
+
+Sample Input 2:
+2 4 4
+1111
+1S01
+1011
+0L11
+Sample Output 2:
+NOT POSSIBLE

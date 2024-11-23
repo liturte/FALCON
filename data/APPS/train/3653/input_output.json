@@ -1,0 +1,1 @@
+{"fn_name": "tops", "inputs": [[""], ["abcde"], ["123456789abcdefghijklmnopqrstuwyxvzABCDEFGHIJKLMNOPQRSTU"], ["123456789abcdefghijklmnopqrstuwyxvzABCDEFGHIJKLMNOPQRSTUWvXYZ123456789012345678910123"]], "outputs": [[""], ["cd"], ["TUABCDElmnoabc34"], ["7891012TUWvXYABCDElmnoabc34"]]}

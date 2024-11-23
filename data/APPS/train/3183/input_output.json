@@ -1,0 +1,1 @@
+{"fn_name": "interpreter", "inputs": [["\\h*&"], ["+-*&"]], "outputs": [["\u0000"], ["\u0000"]]}

@@ -1,0 +1,31 @@
+Over the years, Grandpa Bernie has traveled all over the world. He doesn’t travel that much anymore, but he loves to tell his grandchildren stories from all these trips. He’ll tell them the story from when he went to Israel for the first time, or when he went to Greece for the third time.
+
+His memory works in a funny way. He can easily remember his $k$:th trip to a particular country, but he’ll have a hard time remembering in which year he went on that trip. Given a list of all the trips Grandpa Bernie went on, can you answer a number of queries asking in which year he went on his $k$:th trip to a particular country?
+
+-----Input-----
+The input consists of:
+ - one line with one integer $n$ ($1 \leq n \leq 10^5$), the number of trips Grandpa Bernie went on;
+ - $n$ lines each containing the name $s$ ($1 \leq |s| \leq 20$) of a country and an integer $y$ ($1 \leq y \leq 10^6$) representing a trip to country $s$ that Grandpa Bernie went on in year $y$;
+ - one line with one integer $q$ ($1 \leq q \leq 10^5$), the number of queries;
+ - $q$ lines each containing the name $s$ of a country and an integer $k$ representing a query for the $k$:th time Grandpa Bernie went to country $s$.
+
+Each country name only consists of letters from the English alphabet. It is also guaranteed that, for each query asking for the $k$:th trip to country $s$, $k$ is at least $1$ and no greater than the number of times Grandpa Bernie went to country $s$. In particular, it is guaranteed that Grandpa Bernie has visited country $s$ at least once.
+
+-----Output-----
+For each query for the $k$:th trip Grandpa Bernie went to a country $s$, output a single line containing the year in which Grandpa Bernie went on that trip.
+
+-----Examples-----
+Sample Input:
+4
+Iceland 2016
+Sweden 2015
+Iceland 1982
+Norway 1999
+3
+Sweden 1
+Iceland 1
+Iceland 2
+Sample Output:
+2015
+1982
+2016

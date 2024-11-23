@@ -1,0 +1,1 @@
+{"inputs": ["4\n<!--[if IE 9]>IE9-specific content\n<![endif]-->\n<div> Welcome to HackerRank</div>\n<!--[if IE 9]>IE9-specific content<![endif]-->"], "outputs": [">>> Multi-line Comment\n[if IE 9]>IE9-specific content\n<![endif]\n>>> Data\n Welcome to HackerRank\n>>> Single-line Comment\n[if IE 9]>IE9-specific content<![endif]"]}

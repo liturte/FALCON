@@ -1,0 +1,1 @@
+{"inputs": ["6\nAC\nTLE\nAC\nAC\nWA\nTLE\n", "10\nAC\nAC\nAC\nAC\nAC\nAC\nAC\nAC\nAC\nAC\n"], "outputs": ["AC x 3\nWA x 1\nTLE x 2\nRE x 0\n", "AC x 10\nWA x 0\nTLE x 0\nRE x 0\n"]}

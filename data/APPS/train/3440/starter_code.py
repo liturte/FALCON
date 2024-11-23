@@ -1,0 +1,2 @@
+def powers(n):
+	

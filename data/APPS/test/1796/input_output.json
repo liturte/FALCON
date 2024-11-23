@@ -1,0 +1,28 @@
+{
+  "inputs": [
+    "1\n++X\n",
+    "2\nX++\n--X\n",
+    "3\n++X\n++X\n++X\n",
+    "2\n--X\n--X\n",
+    "5\n++X\n--X\n++X\n--X\n--X\n",
+    "28\nX--\n++X\nX++\nX++\nX++\n--X\n--X\nX++\nX--\n++X\nX++\n--X\nX--\nX++\nX--\n++X\n++X\nX++\nX++\nX++\nX++\n--X\n++X\n--X\n--X\n--X\n--X\nX++\n",
+    "45\n--X\n++X\nX--\n++X\n++X\nX++\n--X\n--X\n--X\n--X\n--X\n--X\n--X\nX++\n++X\nX--\n++X\n++X\nX--\nX++\nX--\n--X\nX--\n++X\n++X\n--X\n--X\nX--\nX--\n--X\n++X\nX--\n--X\n++X\n++X\n--X\n--X\nX--\n++X\n++X\nX++\nX++\n++X\n++X\nX++\n",
+    "21\n++X\nX++\n--X\nX--\nX++\n++X\n--X\nX--\nX++\nX--\nX--\nX--\nX++\n++X\nX++\n++X\n--X\nX--\n--X\nX++\n++X\n",
+    "17\nX++\nX++\n++X\n--X\n--X\n++X\n++X\n--X\nX--\nX++\nX--\n--X\n--X\nX--\n++X\nX--\nX++\n",
+    "21\nX--\n++X\n--X\nX--\n++X\nX--\n++X\nX--\n--X\n++X\nX++\n++X\nX++\n++X\nX--\n--X\nX++\nX++\nX--\n++X\nX--\n",
+    "1\nX--\n"
+  ],
+  "outputs": [
+    "1\n",
+    "0\n",
+    "3\n",
+    "-2\n",
+    "-1\n",
+    "4\n",
+    "-3\n",
+    "1\n",
+    "-1\n",
+    "1\n",
+    "-1\n"
+  ]
+}

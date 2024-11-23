@@ -1,0 +1,1 @@
+{"inputs": ["2 3\nabc\narc\n", "1 1\nz\n"], "outputs": ["#####\n#abc#\n#arc#\n#####\n", "###\n#z#\n###\n"]}

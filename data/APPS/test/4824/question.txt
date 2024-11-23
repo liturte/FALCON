@@ -1,0 +1,30 @@
+Tetris is a popular computer game played in a field consisting of $C$ columns and an unlimited number of rows. In one move, one of the following seven pieces is dropped into the field:
+
+When dropping a piece, the player is free to rotate the piece $90$, $180$ or $270$ degrees and to move it left or right, as long as the piece stays entirely in the field. The piece then falls until it settles on the bottom of the field or on already occupied squares. In our variant of Tetris the piece must fall so that all parts of the piece are on the bottom of the field or on already occupied squares. In other words, after the piece has fallen there may not be a free square such that some square above it is occupied.
+
+For example, let the field be six columns wide with initial heights (the number of already occupied squares in each column) $2$, $1$, $1$, $1$, $0$ and $1$. Piece number $5$ can then be dropped into the field in five different ways:
+
+You are given the initial heights of all columns and the figure to be dropped into the field.
+
+Write a program that calculates the number of different ways to do this, i.e., the number of different field configurations that can be achieved by dropping the piece.
+
+-----Input-----
+The first line contains two integers $C$ and $P$, $1 \le C \le 100$, $1 \le P \le 7$, the number of columns and the number of the piece to be dropped.
+
+The second line contains $C$ integers separated by single spaces, each between $0$ and $100$, inclusive. These are the initial heights of the columns.
+
+-----Output-----
+Output on a single line the number of different ways to drop the piece in the field.
+
+-----Examples-----
+Sample Input 1:
+6 5
+2 1 1 1 0 1
+Sample Output 1:
+5
+
+Sample Input 2:
+5 1
+0 0 0 0 0
+Sample Output 2:
+7

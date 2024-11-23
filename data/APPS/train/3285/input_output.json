@@ -1,0 +1,1 @@
+{"fn_name": "trump_detector", "inputs": [["I will build a huge wall"], ["HUUUUUGEEEE WAAAAAALL"], ["MEXICAAAAAAAANS GOOOO HOOOMEEEE"], ["America NUUUUUKEEEE Oooobaaaamaaaaa"], ["listen migrants: IIII KIIIDD YOOOUUU NOOOOOOTTT"]], "outputs": [[0], [4], [2.5], [1.89], [1.56]]}

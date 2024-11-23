@@ -1,0 +1,64 @@
+As you have noticed, there are lovely girls in Arpa’s land.
+
+People in Arpa's land are numbered from 1 to n. Everyone has exactly one crush, i-th person's crush is person with the number crush_{i}. [Image] 
+
+Someday Arpa shouted Owf loudly from the top of the palace and a funny game started in Arpa's land. The rules are as follows.
+
+The game consists of rounds. Assume person x wants to start a round, he calls crush_{x} and says: "Oww...wwf" (the letter w is repeated t times) and cuts off the phone immediately. If t > 1 then crush_{x} calls crush_{crush}_{x} and says: "Oww...wwf" (the letter w is repeated t - 1 times) and cuts off the phone immediately. The round continues until some person receives an "Owf" (t = 1). This person is called the Joon-Joon of the round. There can't be two rounds at the same time.
+
+Mehrdad has an evil plan to make the game more funny, he wants to find smallest t (t ≥ 1) such that for each person x, if x starts some round and y becomes the Joon-Joon of the round, then by starting from y, x would become the Joon-Joon of the round. Find such t for Mehrdad if it's possible.
+
+Some strange fact in Arpa's land is that someone can be himself's crush (i.e. crush_{i} = i).
+
+
+-----Input-----
+
+The first line of input contains integer n (1 ≤ n ≤ 100) — the number of people in Arpa's land.
+
+The second line contains n integers, i-th of them is crush_{i} (1 ≤ crush_{i} ≤ n) — the number of i-th person's crush.
+
+
+-----Output-----
+
+If there is no t satisfying the condition, print -1. Otherwise print such smallest t.
+
+
+-----Examples-----
+Input
+4
+2 3 1 4
+
+Output
+3
+
+Input
+4
+4 4 4 4
+
+Output
+-1
+
+Input
+4
+2 1 4 3
+
+Output
+1
+
+
+
+-----Note-----
+
+In the first sample suppose t = 3. 
+
+If the first person starts some round:
+
+The first person calls the second person and says "Owwwf", then the second person calls the third person and says "Owwf", then the third person calls the first person and says "Owf", so the first person becomes Joon-Joon of the round. So the condition is satisfied if x is 1.
+
+The process is similar for the second and the third person.
+
+If the fourth person starts some round:
+
+The fourth person calls himself and says "Owwwf", then he calls himself again and says "Owwf", then he calls himself for another time and says "Owf", so the fourth person becomes Joon-Joon of the round. So the condition is satisfied when x is 4.
+
+In the last example if the first person starts a round, then the second person becomes the Joon-Joon, and vice versa.

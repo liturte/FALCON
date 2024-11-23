@@ -1,0 +1,1 @@
+{"fn_name": "hero", "inputs": [[10, 5], [7, 4], [4, 5], [100, 40], [1500, 751], [0, 1]], "outputs": [[true], [false], [false], [true], [false], [false]]}

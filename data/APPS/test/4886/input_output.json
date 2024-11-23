@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "8 3\n",
+        "1234567890987654321 2\n"
+    ],
+    "outputs": [
+        "Your wish is granted!\n",
+        "You will become a flying monkey!\n"
+    ]
+}

@@ -1,0 +1,38 @@
+Convert the 8-bit grayscale input image (2D-list) into an ASCII-representation.
+
+```
+_____/\\\\\\\\\________/\\\\\\\\\\\__________/\\\\\\\\\__/\\\\\\\\\\\__/\\\\\\\\\\\_        
+ ___/\\\\\\\\\\\\\____/\\\/////////\\\_____/\\\////////__\/////\\\///__\/////\\\///__       
+  __/\\\/////////\\\__\//\\\______\///____/\\\/_______________\/\\\_________\/\\\_____      
+   _\/\\\_______\/\\\___\////\\\__________/\\\_________________\/\\\_________\/\\\_____     
+    _\/\\\\\\\\\\\\\\\______\////\\\______\/\\\_________________\/\\\_________\/\\\_____    
+     _\/\\\/////////\\\_________\////\\\___\//\\\________________\/\\\_________\/\\\_____   
+      _\/\\\_______\/\\\__/\\\______\//\\\___\///\\\______________\/\\\_________\/\\\_____  
+       _\/\\\_______\/\\\_\///\\\\\\\\\\\/______\////\\\\\\\\\__/\\\\\\\\\\\__/\\\\\\\\\\\_ 
+        _\///________\///____\///////////___________\/////////__\///////////__\///////////__
+```
+_(Example ASCII-art)_
+
+For every component in the image output a character corresponding to its intensity.
+
+Specifically, you are supposed to normalize the input values (of dynamic range 0 - 255) down to a dynamic range of the number of glyphs (0 - 8). For simplicity your implementation should use flooring (integer division) in order to make all values (0 ~ 8) integers, ie.
+```
+  0 → 0.0 → 0
+ 10 → 0.4 → 0
+...
+254 → 7.9 → 7
+255 → 8.0 → 8
+```
+
+Your symbols (_glyphs_) for representing pixel intensities:
+```python
+GLYPHS = " .,:;xyYX"
+```
+
+The _normalization_ is linear (and floored), meaning with an input value of 180 and 9 glyphs, glyph #5 (0-indexed) is ```x```, meaning ```180 → 'x'```.
+
+Each scanline (_row_) in the image should be represented by a newline ```\n``` in the output string. Ie. a single string, not a list of strings.
+
+__Disclaimer:__ This is my first Kata, so any feedback is greatly appreciated. I may add some more specific test cases to show of your fine art. ;)
+
+__Note:__ Your ASCII-art generator is best suited for bright text on dark background.

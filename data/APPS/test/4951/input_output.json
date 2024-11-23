@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "3\n-> ALICE\n-> BOB\nALICE BOB -> CARL\n",
+        "1\nA -> B\n"
+    ],
+    "outputs": [
+        "correct\n",
+        "1\n"
+    ]
+}

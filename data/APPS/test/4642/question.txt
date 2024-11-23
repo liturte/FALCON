@@ -1,0 +1,40 @@
+We have a secret array. You don't know this array and you have to restore it. However, you know some facts about this array:
+
+  The array consists of $n$ distinct positive (greater than $0$) integers.  The array contains two elements $x$ and $y$ (these elements are known for you) such that $x < y$.  If you sort the array in increasing order (such that $a_1 < a_2 < \ldots < a_n$), differences between all adjacent (consecutive) elements are equal (i.e. $a_2 - a_1 = a_3 - a_2 = \ldots = a_n - a_{n-1})$. 
+
+It can be proven that such an array always exists under the constraints given below.
+
+Among all possible arrays that satisfy the given conditions, we ask you to restore one which has the minimum possible maximum element. In other words, you have to minimize $\max(a_1, a_2, \dots, a_n)$.
+
+You have to answer $t$ independent test cases.
+
+
+-----Input-----
+
+The first line of the input contains one integer $t$ ($1 \le t \le 100$) — the number of test cases. Then $t$ test cases follow.
+
+The only line of the test case contains three integers $n$, $x$ and $y$ ($2 \le n \le 50$; $1 \le x < y \le 50$) — the length of the array and two elements that are present in the array, respectively.
+
+
+-----Output-----
+
+For each test case, print the answer: $n$ integers $a_1, a_2, \dots, a_n$ ($1 \le a_i \le 10^9$), where $a_i$ is the $i$-th element of the required array. If there are several answers, you can print any (it also means that the order of elements doesn't matter).
+
+It can be proven that such an array always exists under the given constraints.
+
+
+-----Example-----
+Input
+5
+2 1 49
+5 20 50
+6 20 50
+5 3 8
+9 13 22
+
+Output
+1 49 
+20 40 30 50 10
+26 32 20 38 44 50 
+8 23 18 13 3 
+1 10 13 4 19 22 25 16 7

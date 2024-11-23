@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "5\nBAACC\n",
+        "9\nAAAABBBBB\n"
+    ],
+    "outputs": [
+        "3\nBruno\n",
+        "4\nAdrian\nBruno\nGoran\n"
+    ]
+}

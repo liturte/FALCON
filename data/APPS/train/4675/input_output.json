@@ -1,0 +1,1 @@
+{"fn_name": "set_alarm", "inputs": [[true, true], [false, true], [false, false], [true, false]], "outputs": [[false], [false], [false], [true]]}

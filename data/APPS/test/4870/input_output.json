@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "10 1 10 2 1\n",
+        "100 2 1 1 0\n"
+    ],
+    "outputs": [
+        "6\n",
+        "use the stairs\n"
+    ]
+}

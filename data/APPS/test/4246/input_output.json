@@ -1,0 +1,1 @@
+{"inputs": ["CSS\nCSR\n", "SSR\nSSR\n", "RRR\nSSS\n", "SSS\nSSS\n", "CCC\nSSS\n", "RSC\nRCS\n", "CCC\nSCS\n", "RRC\nCRS\n", "CSS\nSSC\n", "RCR\nCRC\n", "SRC\nRSC\n", "CRS\nCRS\n", "SRR\nCRR\n", "RSC\nRCC\n"], "outputs": ["2\n", "3\n", "0\n", "3\n", "0\n", "1\n", "1\n", "1\n", "1\n", "0\n", "1\n", "3\n", "2\n", "2\n"]}

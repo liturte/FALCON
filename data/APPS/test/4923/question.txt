@@ -1,0 +1,20 @@
+Black Friday is the Friday following Thanksgiving Day in the United States (the fourth Thursday of November). Since the early 2000s, it has been regarded as the beginning of the Christmas shopping season in the US, and most major retailers open very early and offer promotional sales. (Source: Wikipedia)
+
+You work in the IT support division of an electronics store. This year, in an attempt to prevent overcrowding, the management has decided to limit the number of people entering the store. They divide the people at the entrance into groups of size $n$ and process them as follows: all $n$ participants roll a die, and report the outcomes $a_1, a_2, \ldots , a_ n$. To prevent cheating, instead of selecting the one with the highest outcome, the rule is to select the participant with the highest unique outcome. Everybody not selected has to move to the back of the queue. If there is no winner, the experiment is repeated.
+
+For example, if there are three players and the outcomes are 6, 6 and 5, then the third player wins, because the first and second player lose even though their outcomes are higher, since they both have the same outcome. If instead the third player also rolls 6, then nobody wins.
+
+They asked you to write a program for selecting the winner.
+
+-----Input-----
+The first line of the input contains one integer $n$, $1 \leq n \leq 100$, the group size. The second line contains $n$ integers $a_1, a_2, \ldots , a_ n$ ($1 \leq a_ i \leq 6$ for all $1 \leq i \leq n$): the outcome of each participant’s die roll.
+
+-----Output-----
+Output the index of the participant that has the highest unique outcome, or “none” (without the quotes) if nobody has a unique outcome.
+
+-----Examples-----
+Sample Input:
+8
+1 1 1 5 3 4 6 6
+Sample Output:
+4

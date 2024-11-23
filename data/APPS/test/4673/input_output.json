@@ -1,0 +1,1 @@
+{"inputs": ["3\nMike Thomson 20 M\nRobert Bustle 32 M\nAndria Bustle 30 F", "5\nLaura Moser 50 F\nTed Moser 50 M\nYena Dixit 50 F\nDiya Mirza 50 F\nRex Dsouza 51 M"], "outputs": ["Mr. Mike Thomson\nMs. Andria Bustle\nMr. Robert Bustle", "Ms. Laura Moser\nMr. Ted Moser\nMs. Yena Dixit\nMs. Diya Mirza\nMr. Rex Dsouza"]}

@@ -1,0 +1,1 @@
+{"fn_name": "jumping_number", "inputs": [[1], [7], [9], [23], [32], [79], [98], [987654322]], "outputs": [["Jumping!!"], ["Jumping!!"], ["Jumping!!"], ["Jumping!!"], ["Jumping!!"], ["Not!!"], ["Jumping!!"], ["Not!!"]]}

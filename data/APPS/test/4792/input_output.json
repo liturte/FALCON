@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "robert\n",
+        "rooobert\n",
+        "roooooobertapalaxxxxios\n"
+    ],
+    "outputs": [
+        "robert\n",
+        "robert\n",
+        "robertapalaxios\n"
+    ]
+}

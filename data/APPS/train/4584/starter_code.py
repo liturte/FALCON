@@ -1,0 +1,2 @@
+def invert(lst):
+	

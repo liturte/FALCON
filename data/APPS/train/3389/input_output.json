@@ -1,0 +1,1 @@
+{"fn_name": "domain_name", "inputs": [["http://google.com"], ["http://google.co.jp"], ["https://123.net"], ["https://hyphen-site.org"], ["http://codewars.com"], ["www.xakep.ru"], ["https://youtube.com"], ["http://www.codewars.com/kata/"], ["icann.org"]], "outputs": [["google"], ["google"], ["123"], ["hyphen-site"], ["codewars"], ["xakep"], ["youtube"], ["codewars"], ["icann"]]}

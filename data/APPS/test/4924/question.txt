@@ -1,0 +1,20 @@
+After an unsuccessful attempt at claiming power peacefully, Borko has decided to tear down Mirko’s village hall, which was built for him out of cardboard by his loyal servants.
+
+For this he will use Mirko’s microprocessor (which was stolen from him by Borko’s friend Zvonko), a bucket of water and a bag of sodium. He will enter the time of the “explosion” into the microprocessor, and it will drop the sodium in the water after the time is up.
+
+Borko knows the current time and when he wants the explosion. He is not very fond of arithmetic and Zvonko is currently playing with marbles in his back yard so he can’t help him.
+
+Write a program that calculates the time to the explosion (this is the time Borko will enter into the microprocessor). The time Borko wants is at least one second and at most 24 hours.
+
+-----Input-----
+The first line of input contains the current time in hh:mm:ss format (hours, minutes, seconds). The hours will be between $0$ and $23$ (inclusive) and the minutes and seconds between $0$ and $59$. The second line contains the time of the explosion in the same format.
+
+-----Output-----
+Output the desired time on a single line, in the same format as the times in the input.
+
+-----Examples-----
+Sample Input:
+20:00:00
+04:00:00
+Sample Output:
+08:00:00

@@ -1,0 +1,18 @@
+Consider a positive integer $x$. Multiply its nonzero digits and you get another integer $y$. Repeating this process, you eventually arrive at a single digit between $1$ and $9$. Write a program that reads $x$ and outputs the resulting digit.
+
+-----Input-----
+An integer $x$ with $10 \leq x \leq 1000$.
+
+-----Output-----
+Print a digit between $1$ and $9$, the result of repeatedly multiplying the nonzero digits of $x$ as described above.
+
+-----Explanation of Sample Inputs-----
+In Sample Input $1$, we have $x = 808$. Multiplying $8$ and $8$, we arrive at $64$. Then we get $6 \cdot 4 = 24$, and finally $2 \cdot 4 = 8$, which is the sample output.
+
+In Sample Input $2$, there is only a single nonzero digit, $2$. The product of all digits in a set containing only a single element is the digit itself. Thus the answer is $2$.
+
+-----Examples-----
+Sample Input:
+808
+Sample Output:
+8

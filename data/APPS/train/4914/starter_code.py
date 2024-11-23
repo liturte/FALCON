@@ -1,0 +1,2 @@
+def position(alphabet):
+	

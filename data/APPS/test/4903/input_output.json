@@ -1,0 +1,10 @@
+{
+    "inputs": [
+        "aaah\naaaaah\n",
+        "aaah\nah\n"
+    ],
+    "outputs": [
+        "no\n",
+        "go\n"
+    ]
+}

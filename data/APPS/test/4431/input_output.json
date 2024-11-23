@@ -1,0 +1,18 @@
+{
+  "inputs": [
+    "7 2\nabacaba\na b\n",
+    "10 3\nsadfaasdda\nf a d\n",
+    "7 1\naaaaaaa\nb\n",
+    "200 13\nvgfjhgkgwkftaeqejmbgildembgxdbskxfndwmcckjfkbeekxkgakmcjhclqsecpnkaigcxxhfghgegfadjktckftdhtifriemfifakygoesjfginnddjjklwiwlbjsgftwhtjdxmcadpvhaeddxwnmguwhetwbmffbmvdvuhecgjckddrbikgwkrfwfhdhqolidgkfm\na b c d e f g h i j k l m\n",
+    "200 13\nqownuutwuwqnrxxtnlvnqtroztwpnvunynwrzzpsotnrqwxqstxnnzosszovtznquvxwvunpvxqzvyrwxwpxvxnnzzuzarepcqxzrseqqorwpuntzvwqnwuvvuygnpgrrznvootrtcvtxnoowywptwzvwrqwpxusuxqznvoqpnxsrquuzorkxvuwvpxyntrqywqvotuf\na b c d e f g h i j k l m\n",
+    "200 13\nuzqrruuwunntqnotxvtyzoqooznonqyvrpnzppvtowswpyvutsyynrrsozsswrnnzsxwrqrwuqwswxnxyxwqqsssoqvoortnxvtswtuxywnrnzutstvnqyutptxxtrzvxuwxstqqqvztqtnzrynwzuvosonnvquvpxunwpstpxvuqropxynytvvsxxsvuzvsusysrxpx\na b c d e f g h i j k l m\n"
+  ],
+  "outputs": [
+    "12\n",
+    "21\n",
+    "0\n",
+    "578\n",
+    "10\n",
+    "0\n"
+  ]
+}

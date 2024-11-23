@@ -1,0 +1,1 @@
+["for _ in range(int(input())):\n\tfor _ in range(9): print (input().replace('2','1'))", "for _ in range(int(input())):\n    a = [0]*9\n    for i in range(9):\n        a[i] = list(input())\n        a[i][a[i].index('2')] = '1'\n        print(''.join(a[i]))", "Q = int(input())\nfor q in range(Q):\n    s = [input().replace('2', '1') for i in range(9)]\n    for i in s: print(i)\n"]

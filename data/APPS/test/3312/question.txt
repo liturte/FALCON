@@ -1,0 +1,41 @@
+In the hit video game “Johnny5 and the Exploding Oil Cans”, you control the robot “Johnny5”. The robot can be moved one cell at a time in one of the directions up, down, left, or right on an $N \times N$ grid. One move takes one second and costs one unit of energy. It is allowed to stand still, you don’t have to move every second. If you have no energy, you can’t move. You start the game with $E$ units of energy.
+
+The objective of the game is to collect as many oil cans as you can. Every second there may appear one or more oil cans somewhere on the grid. If Johnny5 is at a location when a can appears there he collects that can, otherwise it explodes. You score $1$ point for each oil can Johnny5 collects. If an oil can explodes in one of the four adjacent cells to where Johnny5 is located he collects the spilled oil, and you gain one unit of energy for each of them. If he does not pick up the can, and is not in one of the adjacent cells to pick up the oil, the oil disappears immediately. Note that he only gets oil from adjacent cells, and not from any cans in the same cell that he is in.
+
+You’ve had trouble beating this game for years, but your friend just called and told you there is a way to get a list of where and when the cans will appear. Write a program that uses this information to find the maximum number of points you can get.
+
+-----Input-----
+The first line of the input consists of $5$ space-separated integers $N$, $E$, $S_ X$, $S_ Y$, $C$. These numbers give the size of the grid, the starting energy, the $x$ and $y$ coordinates where Johnny5 starts, and the number of cans.
+
+The next $C$ lines each consist of $3$ space-separated integers $X$, $Y$, $CT$. These numbers represent the $x$ and $y$ coordinates of a can, and the time it appears there, in seconds after the start of the game.
+
+-----Output-----
+Output the maximum number of points you can score.
+
+-----Limits-----
+ - $1 \leq N \leq 500$.
+ - $0 \leq E \leq 100$.
+ - $0 \leq C \leq 100$.
+ - $0 \leq X_ S, Y_ S, X, Y < N$.
+ - $1 \leq CT \leq 100$.
+
+-----Examples-----
+Sample Input 1:
+3 1 0 0 2
+1 2 2
+1 1 1
+Sample Output 1:
+0
+
+Sample Input 2:
+3 1 1 1 8
+0 1 1
+1 0 1
+2 1 1
+1 2 1
+1 2 2
+2 2 3
+0 2 5
+1 2 6
+Sample Output 2:
+4

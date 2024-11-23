@@ -1,0 +1,12 @@
+{
+    "inputs": [
+        "WNEENWEENEENE\n",
+        "NSEW\n",
+        "EEEEEEEEE\n"
+    ],
+    "outputs": [
+        "10\n",
+        "4\n",
+        "6\n"
+    ]
+}

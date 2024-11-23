@@ -1,0 +1,1 @@
+{"fn_name": "denumerate", "inputs": [[1], ["a"], [[0]], [[["a", 0]]], [[[1, "a"]]], [[[0, ""]]]], "outputs": [[false], [false], [false], [false], [false], [false]]}

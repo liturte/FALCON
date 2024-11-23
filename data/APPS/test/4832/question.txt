@@ -1,0 +1,28 @@
+The 19th century German mathematician Hermann Minkowski investigated a non-Euclidian geometry, called the taxicab geometry. In taxicab geometry the distance between two points $T_1(x_1, y_1)$ and $T_2(x_2, y_2)$ is defined as:\[ D(T_1,T_2) = \left|x_1 - x_2\right| + \left|y_1 - y_2\right| \]
+
+All other definitions are the same as in Euclidian geometry, including that of a circle:
+
+A circle is the set of all points in a plane at a fixed distance (the radius) from a fixed point (the centre of the circle).
+
+We are interested in the difference of the areas of two circles with radius $R$, one of which is in normal (Euclidian) geometry, and the other in taxicab geometry. The burden of solving this difficult problem has fallen onto you.
+
+-----Input-----
+The first and only line of input will contain the radius $R$, a positive integer smaller than or equal to $10000$.
+
+-----Output-----
+On the first line you should output the area of a circle with radius $R$ in normal (Euclidian) geometry. On the second line you should output the area of a circle with radius $R$ in taxicab geometry.
+
+Note: Outputs within $\pm 0.0001$ of the official solution will be accepted.
+
+-----Examples-----
+Sample Input 1:
+1
+Sample Output 1:
+3.141593
+2.000000
+
+Sample Input 2:
+21
+Sample Output 2:
+1385.442360
+882.000000
