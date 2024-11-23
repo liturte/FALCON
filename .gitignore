@@ -1,3 +1,12 @@
-/data/
-/output/
-
+/data/*
+!/data/APPS/train/0000
+!/data/APPS/train/0001
+!/data/APPS/train/0002
+!/data/APPS/train/0003
+!/data/APPS/train/0004
+!/data/APPS/test/0000
+!/data/APPS/test/0001
+!/data/APPS/test/0002
+!/data/APPS/test/0003
+!/data/APPS/test/0004
+!data/APPS_test_example_tests/0000/example_input_output.json
