@@ -1,2 +1,0 @@
-def distribute(nodes, workload):
-	

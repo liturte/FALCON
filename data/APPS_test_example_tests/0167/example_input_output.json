@@ -1,1 +1,0 @@
-{"inputs": ["hi\nbob\n", "abca\naccepted\n", "abacaba\nabcdcba\n"], "outputs": ["-\n", "ac\n", "abcba\n"]}

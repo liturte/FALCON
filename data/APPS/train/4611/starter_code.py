@@ -1,2 +1,0 @@
-def animals(heads, legs):
-	

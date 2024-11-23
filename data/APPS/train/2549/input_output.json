@@ -1,1 +1,0 @@
-{"fn_name": "reorderSpaces", "inputs": [["\"  this   is  a sentence \""]], "outputs": ["\" this is a sentence \"    "]}

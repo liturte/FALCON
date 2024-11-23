@@ -1,2 +1,0 @@
-def check(seq, elem):
-	

@@ -1,1 +1,0 @@
-{"inputs": ["a\nu\n", "abc\nukm\n", "akm\nua\n"], "outputs": ["Yes\n", "Yes\n", "No\n"]}

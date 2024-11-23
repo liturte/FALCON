@@ -1,2 +1,0 @@
-def diagonal(n, p):
-	

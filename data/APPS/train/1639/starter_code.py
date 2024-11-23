@@ -1,2 +1,0 @@
-def gta(limit, *args):
-	

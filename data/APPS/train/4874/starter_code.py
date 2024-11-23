@@ -1,2 +1,0 @@
-def travel(r, zipcode):
-	

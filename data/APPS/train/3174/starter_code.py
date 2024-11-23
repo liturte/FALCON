@@ -1,2 +1,0 @@
-def derivative(eq):
-	

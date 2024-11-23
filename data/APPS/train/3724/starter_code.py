@@ -1,2 +1,0 @@
-def hero(bullets, dragons):
-	

@@ -1,2 +1,0 @@
-def stringify(node):
-	

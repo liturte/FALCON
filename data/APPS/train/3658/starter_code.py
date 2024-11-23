@@ -1,2 +1,0 @@
-def swap(s,n):
-	

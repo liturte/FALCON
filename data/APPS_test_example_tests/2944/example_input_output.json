@@ -1,1 +1,0 @@
-{"inputs": ["3 2 1\nAlice 0\nBob 1\nCarol 1\nAlice Bob\nBob Carol\nAlice\n"], "outputs": ["1"]}

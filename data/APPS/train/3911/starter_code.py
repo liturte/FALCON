@@ -1,2 +1,0 @@
-def howmuch(m, n):
-	

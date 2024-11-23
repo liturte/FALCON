@@ -1,2 +1,0 @@
-def isLeapYear(year):
-	

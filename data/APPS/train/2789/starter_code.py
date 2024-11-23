@@ -1,2 +1,0 @@
-def bmi(weight, height):
-	

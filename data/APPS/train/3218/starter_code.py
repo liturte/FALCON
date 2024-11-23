@@ -1,2 +1,0 @@
-def SJF(jobs, index):
-	

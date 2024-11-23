@@ -1,2 +1,0 @@
-def camelize(str_):
-	

@@ -1,2 +1,0 @@
-def operation(a,b):
-	

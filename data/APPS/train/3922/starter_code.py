@@ -1,2 +1,0 @@
-def jumping(arr, n):
-	

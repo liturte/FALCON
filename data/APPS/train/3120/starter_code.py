@@ -1,2 +1,0 @@
-def meeting(rooms, number):
-	

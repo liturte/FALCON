@@ -1,2 +1,0 @@
-def arbitrate(s, n):
-	

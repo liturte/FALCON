@@ -1,1 +1,0 @@
-["m = 1000000007\nn = int(input())\na = map(int, input().split())\nt1, t2 = 0, 0\nfor i in a:\n\tif i == 1:\n\t\tt1 += 1\n\telse:\n\t\tt2 += 1\na = [1, 2]\nfor i in range(3, t1+1):\n\ta = a[::-1]\n\ta[1] = (a[0]+(i-1)*a[1])%m\nif not t1 or t1 == 1:\n\ta[1] = 1\nfor i in range(t1+1, n+1):\n\ta[1] = a[1]*i%m\nprint(a[1])"]

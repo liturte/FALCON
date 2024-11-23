@@ -1,1 +1,0 @@
-{"inputs": ["3 3\n2\nb\nb\nbbac\n0\na\naca\nacba\n1\nab\nc\nccb\n"], "outputs": ["acb"]}

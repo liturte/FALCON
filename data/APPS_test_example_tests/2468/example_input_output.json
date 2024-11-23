@@ -1,1 +1,0 @@
-{"inputs": [" s = \"(()\"\n", " s = \")()())\"\n", " s = \"\"\n"], "outputs": [" 2\nExplanation: The longest valid parentheses substring is \"()\".\n", " 4\nExplanation: The longest valid parentheses substring is \"()()\".\n", " 0\n"]}

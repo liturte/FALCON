@@ -1,2 +1,0 @@
-def smaller(arr):
-	

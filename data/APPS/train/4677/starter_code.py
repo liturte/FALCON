@@ -1,2 +1,0 @@
-def crack(hash):
-	

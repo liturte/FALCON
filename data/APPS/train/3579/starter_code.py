@@ -1,2 +1,0 @@
-def choose(n,k):
-	

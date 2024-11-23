@@ -1,2 +1,0 @@
-def backwardsPrime(start, stop):
-	

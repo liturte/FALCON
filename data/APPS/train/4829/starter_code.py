@@ -1,2 +1,0 @@
-def compose(f,g):
-	

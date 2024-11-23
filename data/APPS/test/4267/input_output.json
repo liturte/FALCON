@@ -1,1 +1,0 @@
-{"inputs": ["25\n", "30\n", "40\n", "-40\n", "29\n", "-29\n", "-30\n", "31\n", "-36\n", "32\n", "4\n", "32\n", "-20\n"], "outputs": ["No\n", "Yes\n", "Yes\n", "No\n", "No\n", "No\n", "No\n", "Yes\n", "No\n", "Yes\n", "No\n", "Yes\n", "No\n"]}

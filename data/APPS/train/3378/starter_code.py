@@ -1,2 +1,0 @@
-def decrypt(text, n):
-	

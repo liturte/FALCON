@@ -1,2 +1,0 @@
-def zfunc(str_):
-	

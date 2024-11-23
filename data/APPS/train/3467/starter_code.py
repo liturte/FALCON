@@ -1,2 +1,0 @@
-def integrate(coefficient, exponent):
-	

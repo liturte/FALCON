@@ -1,1 +1,0 @@
-{"inputs": ["5\nweird\n", "4\nword\n", "5\naaeaa\n"], "outputs": ["werd\n", "word\n", "a\n"]}

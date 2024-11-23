@@ -1,2 +1,0 @@
-def scanner(qrcode):
-	

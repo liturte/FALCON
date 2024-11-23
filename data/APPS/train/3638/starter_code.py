@@ -1,2 +1,0 @@
-def gematria(string):
-	
