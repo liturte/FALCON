@@ -19,6 +19,9 @@ pip install -r requirements.txt
 
 Download and unzip all files into the data folder.
 
+## Model
+[CodeT5-FALCON](https://huggingface.co/Liturte123/codeT5-FALCON)
+
 ## Processes
 
 ### Generating Programs
