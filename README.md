@@ -21,6 +21,7 @@ Download and unzip all files into the data folder.
 
 ## Model
 **CodeT5**: [here](https://huggingface.co/Liturte123/codeT5-FALCON)
+**DeepseekCoder**: [here](https://huggingface.co/Liturte123/Deepseek-FALCON)
 
 ## Processes
 
