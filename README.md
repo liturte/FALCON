@@ -19,6 +19,9 @@ pip install -r requirements.txt
 
 Download and unzip all files into the data folder.
 
+## Model
+**CodeT5**: [here][([hendrycks/apps: APPS: Automated Programming Progress Standard (NeurIPS 2021)](https://github.com/hendrycks/apps))](https://huggingface.co/Liturte123/codeT5-FALCON)
+
 ## Processes
 
 ### Generating Programs
